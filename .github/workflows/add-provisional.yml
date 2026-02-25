@@ -79,6 +79,9 @@ jobs:
             --notes "${{ github.event.inputs.notes }}" \
             --fasta /tmp/input.fasta
 
+      - name: Build provisional GenBank files and update metadata index
+        run: uv run nhp-pipeline provisional-build
+
       - name: Summarize additions
         id: summary
         run: |

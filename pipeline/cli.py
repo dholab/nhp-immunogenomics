@@ -59,6 +59,7 @@ def main():
     sub.add_parser("update", help="Incremental update")
     sub.add_parser("index", help="Rebuild metadata index only")
 
+    sub.add_parser("provisional-build", help="Build provisional GenBank files and update metadata index")
     pv_cmd = sub.add_parser("provisional-validate", help="Validate provisional alleles")
 
     pa_cmd = sub.add_parser("provisional-add", help="Add provisional allele(s)")
@@ -89,6 +90,9 @@ def main():
     elif args.command == "update":
         run_incremental_update(repo_root)
     elif args.command == "index":
+        run_build_index(repo_root)
+    elif args.command == "provisional-build":
+        _process_provisionals(repo_root)
         run_build_index(repo_root)
     elif args.command == "provisional-validate":
         run_provisional_validate(repo_root)
