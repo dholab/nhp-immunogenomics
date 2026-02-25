@@ -1,0 +1,131 @@
+LOCUS       NHP05251                2917 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Caja-F2*01, F2 locus allele.
+ACCESSION   NHP05251
+VERSION     NHP05251
+DBLINK      INSDC: AB845736
+KEYWORDS    IPD-MHC; MHC class I; F2.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Kono A, Brameier M, Roos C, Suzuki S, Shigenari A, Kametani Y,
+            Kitaura K, Matsutani T, Suzuki R, Inoko H, Walter L, Shiina T.
+  TITLE     Genomic sequence analysis of the MHC class I G/F segment in common
+            marmoset (Callithrix jacchus).
+  JOURNAL   J Immunol 192:3239-3246 (2014)
+   PUBMED   24600031
+COMMENT     IPD-MHC allele: Caja-F2*01
+            IPD accession: NHP05251
+            Species prefix: Caja
+            MHC class: I
+            Previous designations: Caja-F2Ps; Caja-F2Ps*01
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..2917
+                     /gene="F2"
+                     /allele="Caja-F2*01"
+                     /note="previous designations: Caja-F2Ps; Caja-F2Ps*01"
+     exon            1..64
+                     /gene="F2"
+                     /number=1
+     exon            194..456
+                     /gene="F2"
+                     /number=2
+     exon            705..978
+                     /gene="F2"
+                     /number=3
+     exon            1513..1786
+                     /gene="F2"
+                     /number=4
+     exon            1927..2027
+                     /gene="F2"
+                     /number=5
+     exon            2461..2492
+                     /gene="F2"
+                     /number=6
+     exon            2913..2917
+                     /gene="F2"
+                     /number=7
+     intron          65..193
+                     /gene="F2"
+                     /number=1
+     intron          457..704
+                     /gene="F2"
+                     /number=2
+     intron          979..1512
+                     /gene="F2"
+                     /number=3
+     intron          1787..1926
+                     /gene="F2"
+                     /number=4
+     intron          2028..2460
+                     /gene="F2"
+                     /number=5
+     intron          2493..2912
+                     /gene="F2"
+                     /number=6
+     CDS             join(1..64,194..456,705..978,1513..1786,1927..2027,
+                     2461..2492,2913..2917)
+                     /gene="F2"
+                     /allele="Caja-F2*01"
+                     /codon_start=1
+                     /product="MHC class I F2 antigen"
+                     /translation="MAPRTLLLLLSGALALTETQAGSHSLRYLSTAVSRPGRGESRYRY
+                     IAVGYVDDTQFMWFDSDAQSPMMEPRAPRVEQERPGYWDREVKESAQTDRVNLRILLRY
+                     YNQSEGLTLQX"
+ORIGIN
+        1 atggcaccac gaacccttct cctgctgctc tctggggccc tggccctgac cgagacccag
+       61 gcgggtgagt gcggggtcgg gagggaaacg acctctgcgg ggaggaccga gaggccgccc
+      121 ggtaggggcg caggacccag ggagccaggc tgggaggagg gtcgggaggg tctcagcatc
+      181 tcctagtccc caggttccca ctccttgagg tatttgagca ccgccgtgtc ccggcctggc
+      241 cgcggggaat cccgatacag gtacatcgcg gtgggctacg tggacgacac gcagttcatg
+      301 tggtttgaca gcgacgccca gagtccgatg atggagccgc gggcgccgag ggtggagcag
+      361 gagaggccgg ggtattggga ccgggaggtc aaagagagcg cacaaactga ccgagtaaac
+      421 ctgcggatcc tgctccgcta ctacaaccag agcgagatcg gtgagggact caggctgggg
+      481 gaacaggtca cgacccctcc ccatctccca cggagggcct gggtctcccc gagtctccgg
+      541 tccgagatcc gccccgagac tgcaggacct gcccagatcc tccacccgag agaactccag
+      601 gcgcctttac ctggtttcat tttcagttta ggccaaaatc cccgcaggtt cgtcgggaag
+      661 tggtaggact cggtgggcgg ggctgaccgc gggggagggg ccagggtctc accctccagt
+      721 gaatgaatgg ctgcgatgtg ggacccgatg gacgcttcct tcgcgggtat caccagcacg
+      781 cctacgacgg caaggactac atctccctga acgaggacct gcactcctgg accgcggcgg
+      841 acacagcagc tcagatcacc cagcgcaagt gggaggcaga gaaatatgca gaggagttca
+      901 gcaccttcct gaagggcggg tgcgtggagt ggctccacag atacctggag aacgggaatg
+      961 agatgctgca gcgcacgggt accaggggcc atggggcgcc ttcaccatct cctgtagatc
+     1021 tcccgggctc gcctcgcaca agtaggggag gaaaatggga ccaatgctag aatatcgccc
+     1081 tccctctagt cctgagtggg aagaatcctc ctggtttccg gatcctgtac cagagattgt
+     1141 ctctgagtat ccgctttgct tgctgggaca attaagggat gaagtctttg agggaatgga
+     1201 aggaaagaca gtccctggaa cactgatcag cggtcccctt tgacccctgc aacaaccttg
+     1261 ggctccgtga cttttgctct caggccttct tctctgcctc acacacaatg tgtgtggtgc
+     1321 tctgattcca gctcttctaa gtccctcggc ctccacttag gtcagaagtc cctattcccc
+     1381 ctcagagact cgaactttgc aaggaataag agattatccc aggtgtcctg ttcattctca
+     1441 ggatgatcac atgagcactg cttggtgtcc catgaggagt gcaaagggtc tgaattttct
+     1501 gactcttctc agatcctcca aaggcacatg ttgcccacca cctcatctct gaccatgagg
+     1561 ccaccctgag gtgctggacc ttgggcttct accctgtgga gatcatgctg acctggcaga
+     1621 gggatgggga ggatcagacc caggacacag agcttgtgga gaccaagcct gcaggggatg
+     1681 gaaccttcca gaagtgggca gctgtggtgg tgctttctgg ggaggagtgg tgacacgtgc
+     1741 catgtgcagc acgaggggct gccagagacc ctcaccctga gattgggtaa ggagtgagat
+     1801 ggggtaaagg ggaggatgag aggtcttgtt ttttctgagg aaaagcaaga gcccttctgg
+     1861 aacccttcag cagggtcagg gctgagacct ggtgatcagg acccctcact tcccctcctt
+     1921 ttccagagcc atcttcccag cccactgtcc ccatcatggg catggttgct ggactggttg
+     1981 tccttggatc tgtggtcact gtgtgatgtg gaggaagaag atctcaggta gggaagtggt
+     2041 gaggagtggg gtctgagttt tcttgtccta gtgggggttt caagcccagg tagaagtgtt
+     2101 ccctgtctca ttactggaaa gcatcatcca cacacatggg cctacccagc tgggtaccct
+     2161 gtgtgacact tactcatttg taaagcaaac gaacaacaga ttcttaactt cgaagactgt
+     2221 ggtggtgggg acctgattga caacagtcac aaatctcagg ggaaggtccc tgctgaggac
+     2281 atactttagg aggacagttg gtccaggacc tacacctgct ttcttatttt ctgatcctgc
+     2341 cctggatctg cagttataca tttctggaaa cttctctggg atcaaagact agggggttgc
+     2401 tctagggcct tatggctctg cctcctttct ggcctctcac aggacatttt cttcccacag
+     2461 atagaaacag agagagctac tctcaggcta caagtaagta taagggggac tgaactctgc
+     2521 gatcattggg atattgttgg gagcccaagg ggaagatgtc ccagcctgca gttcctcctc
+     2581 tagctgcatc tcttgtggcc tctgaccagg tcctgtttgt tttctacccc agtcgttgac
+     2641 actgcccagg gctttggtgt gtctctcata acttataaag gtgacccttg ggggcagggg
+     2701 ccctgatgta agtagggtat tgtggggaac agagggaatg tggttgtgct ataggggtta
+     2761 tttgacttgg atgtcctgag tatgcgatgg gcggttcaaa gtgtcacctc tcactgtgac
+     2821 taatatgaat ttgttcatga atattttctc tatagtgtga gatagccgtc ttgtgtggga
+     2881 ctgagaagca agatttgttt atgcctccct cttgtga
+//

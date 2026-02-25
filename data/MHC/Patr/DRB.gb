@@ -1,0 +1,54 @@
+LOCUS       NHP00903                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB*W008:01, DRB locus allele.
+ACCESSION   NHP00903
+VERSION     NHP00903
+DBLINK      INSDC: M96090
+KEYWORDS    IPD-MHC; MHC class II; DRB.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB*W008:01
+            IPD accession: NHP00903
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB*W8:01; Patr-DRB*W801
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB"
+                     /allele="Patr-DRB*W008:01"
+                     /note="previous designations: Patr-DRB*W8:01;
+                     Patr-DRB*W801"
+     exon            1..246
+                     /gene="DRB"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB"
+                     /allele="Patr-DRB*W008:01"
+                     /codon_start=1
+                     /product="MHC class II DRB antigen"
+                     /translation="LWQTKSECHFFNGTERVRYLDRYFYNQEEYVRFDSDVGEYRAVTE
+                     LGRPDAEYWNSQKDFLEQKRGQVDNYCRHNYGVGER"
+ORIGIN
+        1 ttgtggcaga ctaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggtacctg
+       61 gacagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgat gccgagtact ggaacagcca gaaggacttc
+      181 ctggagcaga agcggggcca ggtggacaat tactgcagac acaactacgg ggttggtgag
+      241 aggttc
+//

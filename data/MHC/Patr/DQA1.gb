@@ -1,0 +1,1299 @@
+LOCUS       NHP00831                5299 bp    DNA     linear   PRI 17-JAN-2022
+DEFINITION  Patr-DQA1*01:01:01:01, DQA1 locus allele.
+ACCESSION   NHP00831
+VERSION     NHP00831
+DBLINK      INSDC: M76189
+            INSDC: LT622879
+            INSDC: OV259631
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Leunissen J, Jonker M, Bontrop RE.
+  TITLE     Evolutionary relationships among the primate Mhc-DQA1 and DQA2
+            alleles.
+  JOURNAL   Immunogenetics 36:71-78 (1992)
+   PUBMED   1612647
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*01:01:01:01
+            IPD accession: NHP00831
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*0101; Patr-DQA1*01:01
+FEATURES             Location/Qualifiers
+     source          1..5299
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5299
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*01:01:01:01"
+                     /note="previous designations: Patr-DQA1*0101;
+                     Patr-DQA1*01:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3847..4095
+                     /gene="DQA1"
+                     /number=2
+     exon            4509..4790
+                     /gene="DQA1"
+                     /number=3
+     exon            5145..5299
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3846
+                     /gene="DQA1"
+                     /number=1
+     intron          4096..4508
+                     /gene="DQA1"
+                     /number=2
+     intron          4791..5144
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3847..4095,4509..4790,5145..5299)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASCGVNLYQFYGPS
+                     GQYTHEFDGDEQFYVDLEKKETAWRWPEFSKFGGFDPQGALRNMAVTKHNLNIMIKRYN
+                     STTATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVLNVTWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCA
+                     LGLSVGLMGIVVGTVFIIQGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctcgccc tgaccaccgt gatgagccct
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg aatgttctct ggagctgaaa
+      121 aacagtaaat tgaaggaaaa gagagaaagc gatttgcaga gaaactgtag agatttccta
+      181 agggcccttt cagtattaag agaattaaaa attatagctg ttcctccttc aggaaaccag
+      241 agccccaacc tactcttttt gttatgtatg ctgttgtgtt cactaaggac gctattctgt
+      301 ttatattata ttcagtgact acagcctgga ggtctctatg tcattccatc atgattgcct
+      361 caaaaattag tgaggtttcc atcagtggat aattttttat tattaaaaat ttatgaagtg
+      421 tcattctcaa atttccctga acaacttttg aagcttttcg gatgtctccg gtggtagatc
+      481 ttggggtcat tccatcaatt atgtactcta tagatatttt aaaagttgcc cgtttctttc
+      541 tctcagactt actcacattt ccacatggga actggcacag gtggggagtg ggtaaaggag
+      601 tccagcaggc tgaatgcctt caacaatcat tttaccacat ggtcctcact tactctcagc
+      661 tgcctcatat gtgtcacctc acaagtaatc aaataaaatg ggcatgtggc taagctttgt
+      721 aaatagtgaa aacatgaatg tcaacttttt tttacatatt tctattacag gtatagcttc
+      781 acatttcttt tctttagcaa aataagggat cattttattt taaaattgag aagtagaaaa
+      841 aattggtaaa ataaatcatt ttattctcaa attatcaacc caaattacct gttcttcacc
+      901 tcatctaata aagtcctata aaaagaaaag tgggccagac aaggtggctc atgcctgtaa
+      961 tcccagcact ttgggaggcc gaggcaggag gatcatttga gcccgggagc ttgagaccag
+     1021 cctgggcaac atagcaagac ctcatctcta caaaaaagaa aaataaaaat tagccaggca
+     1081 tggtggtgtg tgcctgtggt gccagctact cagaaggctg ccgtgggagg accacttgag
+     1141 tccaggaggc agaagctgca gtgagccatg atggcaccac tacactccag ccaaggcaac
+     1201 agagagagac gctgtctcaa aaagaaagag gaaagaaagc gaggaaggaa ggaaggaagg
+     1261 agaaggaagg aaggaaggaa aagaaaagaa aagggaaggg aggaaggaag gaaaaaagaa
+     1321 agacagaaag aggaaggaag gaaggaagca cagattaatt acttggtccc ttagtcccct
+     1381 ctgcctttgt cgtccatctc ttcccacctc tcttcatgca ttcctttctc cctcttccct
+     1441 ttcaggatcc atctctggct ccctgctcct ttatagagat ggacagtggg tttgtaaaac
+     1501 aaaagttgaa aagtcaggta gttaaaaggg gaagtgaact ggaaggtact ttaaactttc
+     1561 acaactttat taaccgtggc tgctcccatt atgattttgt tcggcagtgg aagtttcacc
+     1621 ttcttctccg gagcacttgg cgtctttgtt ccaaatttcc tttcttcaac ctcacaccag
+     1681 agttccctgg tcaggcttgg ctcatccatt aggcacaatg tgggcagtgc aggggaccct
+     1741 ccatactgta aagccacatg agaaggtttt aactcctttt aaaattagaa aaataatgga
+     1801 atattagagc ctaagaaaat gttttaactt ttaattcagc ctagattata ttgtctttat
+     1861 accaattcag tcataaaata taattttcca tatttttatg gaggaagggg cccatacaag
+     1921 caagaatgct cggggctcac atgtcagaac gcagccctgg tcatgactga tcctggcctt
+     1981 cgtatggttc tgctacttgt gtgcctgccc gtcttcccca aaatctatgt ggtcctcgaa
+     2041 tatagcaact gtcattcaat acacatgttt gagcacacag tgagctaagt tttaaggatt
+     2101 caaagatgaa aagtcatgct gtcttccctg cagagggtgc tcagattagt gatggaaaca
+     2161 gtatggggtg caggaaagca gaaggccatt gctgagcaag gcagtggacc cagcagaggc
+     2221 tgaaacaata caagtgactt ggttccaggt gggccagcag ggtgatgtcc tctagcaaaa
+     2281 tttggcaccc aagacaagta ccagaagaaa agaaagactg catgtattcc acatatattc
+     2341 atgtttgaac aaggagtcaa gatttatggc aaggataagg aggctttgtt ggtgacctgt
+     2401 taagaccaac cagggcagtc atgctggata gggaagaaag tgagctggaa gaggaacaga
+     2461 caaacttgga cacccagatg ttgagatgga ggggttggag gtcacaatgt ggtcaaaaac
+     2521 atgttgatga gaggactcag ctacaaagtt gttaacttaa gcagaaacct caaggatgga
+     2581 ttttagaatt tctccaggaa gtcctaaaag ataatttcat ttcagggaga aaaacaacag
+     2641 accactgcaa agaccgggga acatgaaagg ataatgtagt ttggcttgct tggcagatac
+     2701 ttttgaagga tgttggactg taaggctgtc gatatcctcc tcacagaact tactacagta
+     2761 cattgtatct gttcccttac ctacctgact cttccactat tcagtttgtt ccttaatggt
+     2821 agaccacgcc tgattggtgt tttacacatc tccggctatg tctgacactt gtggatgctc
+     2881 agaaagtggg gaaggaagga aagatacgac ggtaaaaggc ttacacctgt cttgacaaga
+     2941 aagtccagtt cggctcattt ggttggaatc atactgcatg gctgccattc tgctctggca
+     3001 tcctcagaca agcacactgc ccattagagg aaaaagtgtg aatataagtg ttgagtcaga
+     3061 acactgtaga catttagtaa cctccttcag aggaaaaaaa aaaggtgggg ggaatgacag
+     3121 aaatccaaaa actagtagag cttccacttt tcatttcaga agaaatcagt tgctctcctc
+     3181 taaggaccat tactattaac aaaacagaga ccttagaagg aggcattgtt tatttattat
+     3241 atattttgta atgttattac caatcttgtt atactctttc ttatacccta caattgttag
+     3301 cagaaattat tttaaattaa taagatcctg catgcttttc ctttaaaaaa aagaaagaaa
+     3361 gaaagaaaga tcctgtgtag agtgtcctat tctgagccag tcctgagagg aaaggaagta
+     3421 taatcaattt gttattaacc gatgaaagaa ttaagtgaaa gataaatctc aggaagcaga
+     3481 gggaagtaaa cctaatctct gactaagaaa gctaaatact atgataactc attcattcct
+     3541 tcttttgttc aattacatta tttaatcata agtccatgac gtgccagaca ctcaggaaat
+     3601 agtaaaaatt ggacgtgcga tattctgccc ttgtgtagca cacactagag tgggaaagaa
+     3661 agtgcacttt taactggaca actaccaaca tgaagagggg aggaagcagg ggctggaaat
+     3721 gtccacggac tgtgccaaaa aatgaagccc ataatatttg aaagtcagtt tcttccatca
+     3781 ttttgtgtgt taaggttctt tcttcccctg ttctccgcct tcctgcttgt catcttcact
+     3841 catcagctga ccacgttgcc tcttgtggtg taaacttgta ccagttttac ggtccctctg
+     3901 gccagtacac ccatgaattt gatggagatg agcagttcta cgtggacctg gagaagaagg
+     3961 agactgcctg gcggtggcct gagttcagca aatttggagg ttttgaccca cagggtgcac
+     4021 tgagaaacat ggctgtgaca aaacacaact tgaacatcat gattaaacgc tacaactcta
+     4081 ccactgctac caatggtatg tgtccaccat tctgcctctc tttacttaag ctatcccttc
+     4141 ataccagggt tcattatttt cttcccaaga ggtccccaga tcttcttatg gcaattgctg
+     4201 aaattttatc atctcccatc tctaaaatca catattccca tgtaatacaa gggtctttcc
+     4261 attatgcatt cagcaaatcc ttctaggaga ggtctcatca acctcctact ttattaaaca
+     4321 tgcccacaga gagaagggca caggaataaa gcagaggcaa tgtgtcgttg ctcccaagca
+     4381 gaaggtaaat aagacctctt tgactctcag gtggtgaaat gctggtagga gggctcttcc
+     4441 aggatgtaat gcagaacttc agggcagagc tattcacact tcacaccagt gctgtttcct
+     4501 caccacagag gttcctgagg tcacagtgtt ttccaaatct cccgtgacac tgggtcagcc
+     4561 caacaccctc atctgtcttg tggacaacat ctttcctcct gtgctcaacg tcacatggct
+     4621 gagcaatggg cactcagtca cagaaggtgt ttctgagacc agcttcctct ccaagagtga
+     4681 tcattccttc ttcaagatca gttacctcac cttcctccct tctgctgatg agatttatga
+     4741 ctgcaaggtg gagcactggg gcctggacca gcctcttctg aaacactggg gtaaggatga
+     4801 gtttcatcat tttttgattc tttcttgtct gtcaagttca gaacttcctg ccttttactc
+     4861 ctatatccaa aaacttgttt tccacacttc atgggtttct tttctgtctc actttttttt
+     4921 gaaagaataa agcaaaaaca gcagagattt attgaaaatg aaagtacact ctacaggatg
+     4981 ggagtgggcc tgccacttca tggttttcta atgatagact tcactctcct ccctaagctg
+     5041 ggggccttga gtctttgcag agccaaccct gtaccccatc ccatcccaca cacatgcaca
+     5101 tgagcaaact ctgcattctg acctcaacaa cttcacttcc acagagcctg agattccagc
+     5161 ccctatgtca gagctcacag agactgtggt ctgtgccctg gggttgtctg tgggcctcat
+     5221 gggcattgtg gtgggcactg tcttcatcat ccaaggcctg cgttcagttg gtgcttccag
+     5281 acaccaaggg cccttgtga
+//
+LOCUS       NHP00832                 765 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQA1*05:01, DQA1 locus allele.
+ACCESSION   NHP00832
+VERSION     NHP00832
+DBLINK      INSDC: M76190
+            INSDC: LT622880
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Leunissen J, Jonker M, Bontrop RE.
+  TITLE     Evolutionary relationships among the primate Mhc-DQA1 and DQA2
+            alleles.
+  JOURNAL   Immunogenetics 36:71-78 (1992)
+   PUBMED   1612647
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*05:01
+            IPD accession: NHP00832
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*0501
+FEATURES             Location/Qualifiers
+     source          1..765
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..765
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:01"
+                     /note="previous designations: Patr-DQA1*0501"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            83..328
+                     /gene="DQA1"
+                     /number=2
+     exon            329..610
+                     /gene="DQA1"
+                     /number=3
+     exon            611..765
+                     /gene="DQA1"
+                     /number=4
+     CDS             1..765
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEKFYVDLGRKETVWCLPVLRQFRFDPQFALTNIAVLKHNLNSLIKRSNS
+                     TAATNEVPEVTVFSKSPVTLGQPNILICLVDNIFPPVVNITWLSNGHSVTEGVSETSFL
+                     SKSDHSFFKISYLTLLPSAEESYDCKVEHWGLDKPLLKHWEPEIPAPMSELTETVVCAL
+                     GLSVGLVGIVVGTVFIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctcgccc tgaccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt ggctgaccac gtcgcctctt atggtgtaaa cttgtaccag
+      121 tcttacggtc cctctggcca gtacacccat gaatttgatg gagatgagaa gttctacgtg
+      181 gacctgggga ggaaggagac tgtctggtgt ttgcctgttc tcagacaatt tagatttgac
+      241 ccgcaatttg cactgacaaa catcgctgtc ctaaaacata acttgaacag tctgattaaa
+      301 cgctccaact ctaccgctgc taccaatgag gttcctgagg tcacagtgtt ttccaagtct
+      361 cccgtgacac tgggtcagcc caacatcctc atctgtcttg tggacaacat ctttcctcct
+      421 gtggtcaaca tcacatggct gagcaatggg cactcagtca cagaaggtgt ttctgagacc
+      481 agcttcctct ccaagagtga tcattccttc ttcaagatca gttacctcac cctcctccct
+      541 tctgctgagg agagttatga ctgcaaggtg gagcactggg gcctggacaa gcctcttctg
+      601 aaacactggg agcctgagat tccagcccct atgtcagagc tcacagagac tgtggtctgc
+      661 gccctggggt tgtctgtggg actcgtgggc attgtggtgg gcactgtctt catcatccga
+      721 ggcctgcgtt cagttggtgc ttccagacac caagggccct tgtga
+//
+LOCUS       NHP00833                5397 bp    DNA     linear   PRI 19-JAN-2022
+DEFINITION  Patr-DQA1*05:02:01:01, DQA1 locus allele.
+ACCESSION   NHP00833
+VERSION     NHP00833
+DBLINK      INSDC: M76191
+            INSDC: LT622881
+            INSDC: OV260539
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Leunissen J, Jonker M, Bontrop RE.
+  TITLE     Evolutionary relationships among the primate Mhc-DQA1 and DQA2
+            alleles.
+  JOURNAL   Immunogenetics 36:71-78 (1992)
+   PUBMED   1612647
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*05:02:01:01
+            IPD accession: NHP00833
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*05:02; Patr-DQA1*0502;
+            Patr-DQA1*05:02:01
+FEATURES             Location/Qualifiers
+     source          1..5397
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5397
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:02:01:01"
+                     /note="previous designations: Patr-DQA1*05:02;
+                     Patr-DQA1*0502; Patr-DQA1*05:02:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3932..4177
+                     /gene="DQA1"
+                     /number=2
+     exon            4590..4871
+                     /gene="DQA1"
+                     /number=3
+     exon            5243..5397
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3931
+                     /gene="DQA1"
+                     /number=1
+     intron          4178..4589
+                     /gene="DQA1"
+                     /number=2
+     intron          4872..5242
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3932..4177,4590..4871,5243..5397)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQFTHEFDGDEQFYVDLGRKETVWCLPVLRQFRFDPQFALTNIAVLKHNLNSLIKRSNS
+                     TAATNEVPEVTVFSKSPVTLGQPNILICLVDNIFPPVVNITWLSNGHSVTEGVSETSFL
+                     SKSDHSFFKISYLTLLPSAEESYDCKVEHWGLDKPLLKHWEPEIPAPMSELTETVVCAL
+                     GLSVGLVGIVVGTVFIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctagccc tgaccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg gatgttctct ggagctggaa
+      121 gagaggaaat tgaagaaaag agagaaagcg atttgcagag aaattgtaga gatttcctaa
+      181 gggccccttc agtattaaga gatttaaaaa ttatggctgt ttctccttca ggaaaccaga
+      241 gtcccaacct actctttttg ttatctatgc tgttggcgtt cactaaggat gctattctgt
+      301 ttatattgta ttcagtcact acagcctgga ggtctctatg tcattccatc atgattgcct
+      361 caaaaattgg tgaggtttcc atcagtcgat aattttttat tattaaaaat ttgtgaagta
+      421 tcattctcaa atttccctga acaacttttg aagcttttcg gatgtctcct gtagtagacc
+      481 ttggggtaaa tgattccatc aattatatac tctatagata ttaagaaaga tgcccttttc
+      541 tttctctcag acttactcac atttccacgt gggaactggc acaggtgggg agtgggtaaa
+      601 ggagtccagc aggctgaatg ccttcaacaa tcattttacc acatggtcct cacttactct
+      661 cagctgcctc atttgtgtca cctcacaaat aatcaaataa aatgggcatg tagttaagct
+      721 ttgtaaatag tgaaaacatg aatgtcaatt ttatttttac atatttccat tataggtgta
+      781 gcttcacatt tcttttcttt agcaaaataa ggaatccttt tattttaaaa ttgagaattt
+      841 atagtagaaa aacttggtaa attaaatcat tttgttctca aattatcaac ccaaattacc
+      901 tgttgttcac ctcatctaat gaagtcctat aaaaagaaaa gtgggccaga catggtggct
+      961 catgtctgta atcccagcac tttgggaggc tgaggcagga ggatcctttg agcccaggag
+     1021 ttcgagacca gcctgggcaa catagcaaga cctcatctct acaaaaaata aaaattagcc
+     1081 aggtgtggtg gtgcatgcct gtggtgccag ctactcagaa ggctgcaatg ggaggactgc
+     1141 ttgagtccag gaggcggaag ctgcagtgag ccatgatggc accactacac tccagccagg
+     1201 gcaacagaga gagaccttgt cccaaaaaga aagaggaaag gaagagagaa aggaaggaaa
+     1261 gaaagaaaga aggaaggaag gaaggaaaga aggaaggaag gaagggagaa ggggaaggga
+     1321 aggaaaggaa ggaaggaaag gaaagggaag ggaggaaaga aggaaggaaa aaagaaaaag
+     1381 aaagaaagta gaaaggaaga aagaagaaag aaagaaagga aagaaaagaa ggaaggaaag
+     1441 aagaaggaag gaagcacaga ttaattatta attatttggt ctctcttagt ctcctctgtc
+     1501 tccgtcatcc atctcttcct acccctcttc atgcattcct ttctccctct tccctttcag
+     1561 gatccatctc tgactccctg cttctttata tggacagtgg gtttgtaaaa caaaagttga
+     1621 aaaatcagat agttaaaagg tgaagtgaac tggaaggtct aaacttccac aaccttatta
+     1681 accatggctg ctcctattct gattttgttc gacggtggaa gtttcacctg cttctccaga
+     1741 gcacttagct tctttgttcc aaatttcctt tcttcagcct cataccagag tgccctggtc
+     1801 aggctcggct catccattag gcacaacgtg ggcaatgcag agaaccctcc atactgtaaa
+     1861 gccacatgag aatgttttaa ctccttttaa gattagaaaa aaatgaaatt tcagagacta
+     1921 agaaaatgtt ttaattcagc ctagattgta ttgtctttat accaattcag tcataaaata
+     1981 caattttcca tatttttatg gaggaagggg cccacaaaag caagagtgct cagggctcac
+     2041 atgtcagaac gcagccctgg tcatggctga tcctggcctt catatgattc tgctagtgta
+     2101 cctgtccatc ttccccaaaa tctatgtggt cctcaaatat agcaactgta attcaaaaca
+     2161 cgtttgagca cacagtaagc taagttttaa ggattcaaag acgaaaagcc atgctgtctt
+     2221 ccctgcagag ggtgctcaga ctagtgatgg aaacagtatg ggatgcagga aagcagaagg
+     2281 ccattgctga gcagggcagt ggactcagca gaggctgaaa ctgtacaaat gacttggttc
+     2341 cagctgggcc agcagggtga tatcctccgg caaaactcgg cacccaagac aagtcccaga
+     2401 tgaaaagaag gattgctttg tgtttgataa ggagtcgagg tttattgcaa ggataagaag
+     2461 gctttgttgg tggcctgtta agaccatcca gggcagtcat actggataag gaagaaggtg
+     2521 agctggaaga ggaacagaca aacagccaga tattgagatg gaggaggtgg aggttataac
+     2581 gtggtaaaaa acatgttgat gagaggactt agctacaaag ttgtttactt aagcataaac
+     2641 cgcaaggatg aattttagga tttcttcagg aagtcctaaa agataatttc atttcaggga
+     2701 gaaaaacaac aaaccactgc aaagaccagg caacacgaaa ggataatgta gttttgtttg
+     2761 cttgacagat acttatgaaa gatgttggac tgtaaggctg ttgatagcct cctcacagaa
+     2821 cgtgctacag tacattgtat ctactccctt acctacctga ctcttccact gttcagtttg
+     2881 ttccttaatg gtagaccatg cctgattggt gttttacaga tcctctgcta tgtctgacac
+     2941 ttgtggatgc tcagaaagtg gggaaggaag gaaagataca acggtaaaag gcttacacgt
+     3001 cttgacaaga atgtccagtt cggctcattt ggctggaacc atatcgcatg gctgccattc
+     3061 tgctctggca tcctcagaca agctcactgc ccattagagg aaaaagggtt taatttagct
+     3121 gagtcctcaa gtgaatataa gtgttgagtc agaacgctgt agacatttag taacctcctt
+     3181 cagaggaaaa aaaagagacg ggggaaaatg acagaaatcc aaaaactagt ggagcttcca
+     3241 ctcttcattt cagaagaaat cagttgctct cctctaagga tcattactat taacaaaaca
+     3301 gagaccttga aggaggcatt gtttattcat tatatatttt gtaatgttat taccattctt
+     3361 gttatactct ttcttatacc ctacaattgt tagcagacat tattttaaat taataagatc
+     3421 ctgcatgctt ttcctttttt aaaaaaaaag aaagacctct gtgtagagtg tcctgttctg
+     3481 agccagtcct gagaggaaag aaagtacaat cagtttgtta ttaactgatg aaagaattaa
+     3541 gtgaaagatg aatcttagga agcagaggga agtaaaccta gtctctgact aagaaagcta
+     3601 aataccataa taactcattc attccttctt ttgttcaatt acagtattta atcgtaagtc
+     3661 catgatgtgc caggcactca ggaaatagta aaaactggac atgcgatatt ctgcccttgt
+     3721 gtagcacaca ttatagtggg aaagaaagcg caattttaac cggacaacta ccaacactaa
+     3781 gagcggagga agcaggggct ggaaatgtcc acaggctgtg ccaaagatga agcccgtaat
+     3841 atttgaaagt cagtttcttc catcattttg tgtattaaga ttctttcttc ccctgttctc
+     3901 caccttcctg cttgtcatct tcactcatca gctgaccacg tcgcctctta tggtgtaaac
+     3961 ttgtaccagt cttacggtcc ctctggccag ttcacccatg aatttgatgg agacgagcag
+     4021 ttctacgtgg acctggggag gaaggagact gtctggtgtt tgcctgttct cagacaattt
+     4081 agatttgacc cgcaatttgc actgacaaac atcgctgtcc taaaacataa cttgaacagt
+     4141 ctgattaaac gctccaactc taccgctgct accaatggta tgtgtccaca attctgcccc
+     4201 tctttactga tttatccctt cataccaagt ttcattattt tatttccaag aggtccccag
+     4261 atcttctcat ggcaattgct gaaattttat tatctcccat ctctaaaatc acatattccc
+     4321 atgtaataca agggtctttc cattatccat tcattaaatc cttctaggag aggtctcatc
+     4381 aacctcctac tttattaaac atgcccacag agagaagggc acaggaataa agcagaggca
+     4441 atgtgtcgtt gctcccaagc agaaggtaaa taagacctct ttgactatca ggtggtgaaa
+     4501 tgctggtagg agggctcttc caggatgtaa tgcagaagct catggcagag ctattcacac
+     4561 ttcacatcag tgctgtttcc tcaccacaga ggttcctgag gtcacagtgt tttccaagtc
+     4621 tcccgtgaca ctgggtcagc ccaacatcct catctgtctt gtggacaaca tctttcctcc
+     4681 tgtggtcaac atcacatggc tgagcaatgg gcactcagtc acagaaggtg tttctgagac
+     4741 cagcttcctc tccaagagtg atcattcctt cttcaagatc agttacctca ccctcctccc
+     4801 ttctgctgag gagagttatg actgcaaggt ggagcactgg ggcctggaca agcctcttct
+     4861 gaaacactgg ggtaaggatg agttccacca ctttttgatg ctttcttgtc tgtcaagttc
+     4921 agaacttcct gccttttact cctatatccc aaaacttgtt ttccacactt catgggtttc
+     4981 tttctttctt tctttctttt ttgaaagaat aaagcaacaa aagcaaagat ttattgaaaa
+     5041 tgaaagtaca cttcacatgg tgggagcggg cctgagcaca ggggctcaag agccacttca
+     5101 tgggtttcta ataatagact tcactcttct ccctaagcct gggaccttga gtctttgcag
+     5161 agccagccct ccaccccatc ccatcccaca cacatgcaca tgagcacatt gctttctgac
+     5221 ctcaacgact tcatatccac agagcctgag attccagccc ctatgtcaga gctcacagag
+     5281 actgtggtct gcgccctggg gttgtctgtg ggactcgtgg gcattgtggt gggcactgtc
+     5341 ttcatcatcc gaggcctgcg ttcagttggt gcttccagac accaagggcc cttgtga
+//
+LOCUS       NHP00834                5375 bp    DNA     linear   PRI 19-JAN-2022
+DEFINITION  Patr-DQA1*05:03:01:01, DQA1 locus allele.
+ACCESSION   NHP00834
+VERSION     NHP00834
+DBLINK      INSDC: AJ534307
+            INSDC: LT622883
+            INSDC: OV260837
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*05:03:01:01
+            IPD accession: NHP00834
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*0503; Patr-DQA1*05:03
+FEATURES             Location/Qualifiers
+     source          1..5375
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5375
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:03:01:01"
+                     /note="previous designations: Patr-DQA1*0503;
+                     Patr-DQA1*05:03"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3905..4150
+                     /gene="DQA1"
+                     /number=2
+     exon            4563..4844
+                     /gene="DQA1"
+                     /number=3
+     exon            5221..5375
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3904
+                     /gene="DQA1"
+                     /number=1
+     intron          4151..4562
+                     /gene="DQA1"
+                     /number=2
+     intron          4845..5220
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3905..4150,4563..4844,5221..5375)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:03:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEQFYVDLGRKETVWCLPVLRQFRFDPQFALTNIAVAKHNLNSLIKRSNS
+                     TAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSFL
+                     SKSDHSFFKVSYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCAL
+                     GLSVGLVGIVVGTVFIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gcccttgccc tgaccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg aatgttctct ggagctggaa
+      121 gagaggaaat tgaagcaaaa gagagaaagc gatttgcaga gaaattgtag agatttccta
+      181 agggtccctt cagtattaag agatttaaaa attatggctg ttcctccttc aggaaaccag
+      241 agtcccaacc tactcttttt gttatctatg ctgttggcgt tcactaagga tgctattctg
+      301 tttatattat attcagtgac tacagcctgg aggtctgtat gtcgttccat catgattgcc
+      361 tcaaaaatta gtgaggtttc catcaatgga taatttttta ttattaaaaa tttgtgaagt
+      421 atcattctca aatttccctg aacaactttt gaagcttttc ggatgtctcc tgtagtagca
+      481 cttggggtaa atgattccat caattatata ctctacagat attaagaaag atgccctttt
+      541 ctttctctca gacttactca catttccaca tgggaactgg cacaggtggg gagtgggtaa
+      601 aggagtccag caggctgaat gccttcaaca atcattttac cacatggtcc tcacttactc
+      661 tcagctgcct catatgtgtc acctcacaaa taatcaaata aaatgggcat gtagctaagc
+      721 tttgtaaata gtgaaaacat gaatgtcaat tttattttta catatttcta ttataggtat
+      781 agcttcacat ttcttttctt ttgcaaaata aggaatcctt ttattttaaa attgagaatt
+      841 tatagtagaa aaacttggta aattaaatca ttttattctc aaattatcaa cccaaattac
+      901 ctgttcttca cctcatctaa tgaagtccta taaaaagaaa agtgggccag acatggtggc
+      961 tcatgcctgt aatcccagca ctttgggagg ccgaggcagg aggatccttt gagcccagga
+     1021 gttgagacca gcctgggcaa catagcaaga cctcatctct acaaaaaata aaaattagcc
+     1081 aggtgtggtg gtgcatgcct gtggtgccag ctactcagaa ggctgcagtg ggaggactgc
+     1141 ttgagtccag gaggcggaag ctgcagtgag ccatgatggc accactacac tccagccaag
+     1201 gcaacagaga gaaactctgt ctcaaaaaga aaaaggaaag aaagagagaa aggaaagaaa
+     1261 gaaagaaaga aggaaggaag aaaggaagga aggaaggaag gaagggaagg gaaggaagga
+     1321 aaggaaaggg aagggaggaa agaaggaagg aaaaaagaaa aagaaagaaa aaagaaagaa
+     1381 aaagaaagaa agaaaagagg gaacgaaaga aagaaaaagg aaggaaggaa gcacagatta
+     1441 attattaatt atttggtctc tcttagtctt ctctgtcttt gtcatccatc tatttccacc
+     1501 tctcttcatg cattcctttc tccctcttcc ctttcaggat ccatctctga ctccctgctt
+     1561 ctttatatgg acagtgggtt tgtaaaacaa aagttgaaaa atcagatagt taaaaggtga
+     1621 agtgaactgg aaggtctaaa cttccacaac cttattaacc atggctgctc ccattctgat
+     1681 tttgttcgac ggtggaagtt tcacctcctt ctccagagca cttggcttct ttgttccaaa
+     1741 tttcctttct tcagcctcac accagagtgc cctggtcagg ctcggctcat ccattaggca
+     1801 caacatgggc aatgcagaga accctccaga ctgtaaagcc acatgagaat gttttaactc
+     1861 cttttaagat tagaaaaaaa tgaaatttca gagcctaaga aaatgtttta attcagccta
+     1921 gattgtattg tctttatacc aattcagtca taaaatacaa ttttccatat tttcatggag
+     1981 ggaggggccc acaaaagcaa gagtgctcag ggctcacatg tcagaacgca gccctggtca
+     2041 tggctgatct tggccttctt atgattctgc tagtgtgcct gtccgtcttc cccaaaatct
+     2101 atgtcatcct caaatatagc aactgtaatt caaaacacgt ttgagcacac agtaagctaa
+     2161 gttttaagga ttcaaagatg aaaagtcatg ctgtcttccc tgcagagtgt gctcagacta
+     2221 gtgatggaaa cggtatggga tgcaggaaag cagaaggcca ttgctgacca gggcagtgga
+     2281 ctcagcagag gctgaaacta tacaaatgac ttggttccag ctgggccagc agggtgacat
+     2341 cctctagcaa aactcggcac ccaagacaag tcccagatga aaagaaggat tgctttgtgt
+     2401 ttgataagga gtcgaggttt attgcaagga tacggctttg ttggtggcct gttaagacaa
+     2461 tccagggcag tcatactgga taaggaagaa ggtgagctgg aagaggaaca gacaaacagc
+     2521 cagatattga ggtggaggag ctggaggtca taacgtggtc aaaaacatgt cgctgagagg
+     2581 acttagctac aaagttgtta acttaagcag aaacctcaag gatgaatttt aggatttctc
+     2641 caggaagtcc taaaagataa tttcatttca gggagaaaaa caacaaacca ctggaaagac
+     2701 cagggaacat gaaaggataa tgtagtttgg tttgcttggc agatacttat gaaggatgtt
+     2761 ggactgtaag gctgttgata gcctcctcac agaacatgct acagtacatt gtatctgctc
+     2821 ccttacctac ctgactctcc cactcttcag tttgttcctt aatggtagac catgcctgat
+     2881 tggtgtttta cacatcccct gctatgtctg acacttgtgg atgctcagaa agtggggaag
+     2941 gaaggaaaga tacaacggta aaaggcttac acgtcttgac aggaatgtcc agttcggctc
+     3001 atttggctgg agccacattg cacggctgcc attctgctct ggcatcctca gacaagcaca
+     3061 ctgcccatta gaggaaaaag ggtttaattt acctgagtcc tcaagtgaat ataagtgtta
+     3121 agtcagaaca ctgtagacat ttagtaacct ccttcagagg aaaaaaaaag gtggggggaa
+     3181 atgaccaaaa tccaaaaact agtagagctt ccactcttca tttcagaaga aatcagttgc
+     3241 tctcctctaa ggaccattac tattaacaaa acagagacct tgaaggaggc attgtttatt
+     3301 tattgtatat tttgtaatgt tattgccatt cttgttatac tctttcttat accctacaat
+     3361 tgttagcaga cattatttta aattaataag atcctgcatg cttttctttt ttttttaaaa
+     3421 agaaagacct ctgtgtagag tgtcctgttc taagccagtc ctgagaggaa agaaaataac
+     3481 aatcagtttg ttattaactg atgaaagaat taagtgaaag atgaatctta ggaagcagaa
+     3541 ggaagtaaac ttaatctctg actaagaaag ctaaatacca taataactca ttcattcctt
+     3601 cttttgttca attacattat ttaatcataa gtccgtgatg tgccaggcac tcaggaaata
+     3661 gtaaaaacgg gacatgtaat attctgccct tgtgtagcgc acattatagt gggaaagaaa
+     3721 gcacaatttt aaccggacaa ctaccaacaa taagagctga ggaagcaggg gttggaaatg
+     3781 tccacaggct gtgccaaaga taaagcccgt aatatttgaa agtcagtttc tttcatcatt
+     3841 ttgtgtatta aggttctttc ttcccctgtt ctccgccttc ctgcttgtca tcttcactca
+     3901 tcagctgacc acgtcgcctc ttatggtgta aacttgtacc agtcttacgg tccctctggc
+     3961 cagtacaccc atgaatttga tggagatgag cagttctacg tggacctggg gaggaaggag
+     4021 actgtctggt gtttgcctgt tctcagacaa tttagatttg acccgcaatt tgcactgaca
+     4081 aacatcgctg tggcaaaaca caacttgaac agtctgatta aacgctccaa ctctaccgct
+     4141 gctaccaatg gtatgtgtcc acaattctgc ccctctttac tgatttatcc cttcatacca
+     4201 agtttcatta ttttatttcc aagaggtccc cagatcttct catggcaatt gctgaaattt
+     4261 tattatctcc catctctaaa atcacatatt cccatgtaat acaagggtct ttccattatc
+     4321 cattcattaa atccttctag gagaggtctc atcaacctcc tactttatta aacatgccca
+     4381 cagagagaag ggcacaggaa taaagcagag gcaatgtgtc gttactccca agcagaaggt
+     4441 aaataagacc tctttgacta tcaggtggtg aaatgctggt aggagggctc ttccaggatg
+     4501 taatgcagaa gctcatggca gagctattca catttcacat cagtgctgtt tcctcaccac
+     4561 agaggttcct gaggtcacag tgttttccaa gtctcccgtg acgctgggtc agcccaacac
+     4621 cctcatctgt cttgtggaca acatctttcc tcctgtggtc aacatcacat ggctgagcaa
+     4681 tgggcactca gtcacagaag gtgtttctga gaccagcttc ctctccaaga gtgatcattc
+     4741 cttcttcaag gtcagttacc tcaccttcct cccttctgct gatgagattt atgactgcaa
+     4801 ggtggagcac tggggcctgg acgagcctct tctgaaacac tggggtaagg atgagttcca
+     4861 ccactttttg atgctttctt gtctgtcaag ttcagaactt cctgcctttt actcctatat
+     4921 cccaaaactt gttttccaca cttcatgggt ttcttttttt cttctttttt ctttttttga
+     4981 aagaataaag taacaaaagc aaagatttat tgaaaatgaa agtgcactcc acagggtggg
+     5041 agcgggcctg agcatagggg ctcaagagcc acttcatggg tttctaatga tagacttcac
+     5101 tctcctccct aagctgggga ccttgagtct ttgcagagcc aaccctctac accatcccat
+     5161 cccacacaca tgcacatgag cacactctgc tttctgacct caacgaattc atatccacag
+     5221 agcctgagat tccagcccct atgtcagagc tcacagagac tgtggtctgt gccctggggt
+     5281 tgtctgtggg cctcgtgggc attgtggtgg gcactgtctt catcatccga ggcctgcgtt
+     5341 cagttggtgc ttccagacac caagggccct tgtga
+//
+LOCUS       NHP00835                5228 bp    DNA     linear   PRI 17-JAN-2022
+DEFINITION  Patr-DQA1*20:01:01:01, DQA1 locus allele.
+ACCESSION   NHP00835
+VERSION     NHP00835
+DBLINK      INSDC: M76193
+            INSDC: OV260051
+            INSDC: LT899692
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Leunissen J, Jonker M, Bontrop RE.
+  TITLE     Evolutionary relationships among the primate Mhc-DQA1 and DQA2
+            alleles.
+  JOURNAL   Immunogenetics 36:71-78 (1992)
+   PUBMED   1612647
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*20:01:01:01
+            IPD accession: NHP00835
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*2001; Patr-DQA1*20:01
+FEATURES             Location/Qualifiers
+     source          1..5228
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5228
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:01:01:01"
+                     /note="previous designations: Patr-DQA1*2001;
+                     Patr-DQA1*20:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3781..4029
+                     /gene="DQA1"
+                     /number=2
+     exon            4442..4723
+                     /gene="DQA1"
+                     /number=3
+     exon            5074..5228
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3780
+                     /gene="DQA1"
+                     /number=1
+     intron          4030..4441
+                     /gene="DQA1"
+                     /number=2
+     intron          4724..5073
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3781..4029,4442..4723,5074..5228)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALLLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEEFYVDLERKETVWQLPLFRSFRGFDPQGALTNIAIAKHNLNILIKRSN
+                     STAATNEVPEVTVFSKSPVTLDQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCT
+                     LGLSVGLVGIVVGTVLIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gctgctgggg gccctcgccc tgaccactgt gatgagccct
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg aatgttctct ggagctgaaa
+      121 aacagtaaat tgaaggaaaa gagagaaagc gatttgcaga gaaattgtag agatttccta
+      181 agaccccttt cagtattaag agaattaaaa attatagctg ttcctccttc aggaaaccag
+      241 agccccaacc tactcttttt gttatgtatg cttttgtgtt cactaaggac gctattctgt
+      301 ttatattata ttcagtgact acagcctgga ggtctctatg tcgttccatc atgattgcct
+      361 caaaaattag tgaggtttcc atcagtggat aattttttat tattaaaaat gtatgaagtg
+      421 tcattctcaa atttccctga acaacttttg aagcttttcg tatgtctcct atagtagatc
+      481 ttggggtcgt tccatcaatt atatactcta tagatattaa aaaagttgcc cgtttctttc
+      541 tctcagactt actcacattt ccacatggga actggcacag gtggggagtg ggtaaaggag
+      601 tccagcaggc tgaatgcctt caacaatcat tttaccacat ggtcctcact tactctcagc
+      661 tgcctcatat gtgtcacctc acaaataatc aaataaaatg ggcatgtagc taagctttgt
+      721 aaatagtgaa aacatggatg tcaattgttt ttacatattt ctattacagg tatagcttca
+      781 catttttctt tagcaaaata agggatcctt ttagtttaaa attgagaagt agaaaaaatt
+      841 ggtaaattaa atcattttat tctcaaatta tcaacccaaa ttacctgttc ttcacctcat
+      901 ctaataaagt cctataaaaa gaaaagcggg ccagacaagg tggctcatgc ctgtaatccc
+      961 agcactttgg gaggccgaag caggaggatc atttaagcct gggagtttga gaccagcctg
+     1021 ggcaacatag caagacctca tctctaccaa aaaataaaat aaaaattagc caggcatggt
+     1081 ggtgcgtgcc tgtggtgcca gctactcaga aggctgcagt gggaggagca cttgagtcca
+     1141 ggaggtggaa gctgcagtga gccatgatgg caccactaca ctccagccag ggcaacagag
+     1201 agagaccctg tctcaaaaag aaagaggaaa gaaagagaga aaggaaggaa agaaggaaag
+     1261 aaggaaggaa ggaaggagaa agggaaggga ggaaggaaaa aagaaagaaa gaaagaaaac
+     1321 ggaaggaagg aagcacagat taattatttg gtctcttagt ctcctctgcc tttgtcgtcc
+     1381 atctcttccc acctctcttc atgcattcct ttctccctct tccctttcag gatccatctc
+     1441 tggctccctg ctcctttata gagatggaca gtgggtttgt aaaacaaaag ttgaaaagtc
+     1501 aggtagttaa aaggggaagt gaactggaag gtactctaaa ctttcacaac cttattaacc
+     1561 gtggctgctc ccattctgat tttgttcagc agtggaagtt tcaccctctc ctccagagcg
+     1621 cttggcttct ttgttccaaa tttcctttct tcaacctcac accagagttc cctggtcagg
+     1681 cttggctcat ccattaggca caatgtgggc agtgcagggg accctccata ctgtaaagcc
+     1741 acatgagaat gttttaactc cttttaaaat tataaaaaaa tgaaattgta gagcctaaga
+     1801 aaatgtttta acttttaatt cagcctagat tatattgtct ttataccaat tcagtcataa
+     1861 aatataattt tccatatttt tatggaggaa ggcgtccaca caagcaagag tgcttggggc
+     1921 tcacatgtca gaacgcaacc ctgatcatgc ctgatcctgg ccttcgtgtg gttctgctaa
+     1981 ctatgtgcct gtcagtcttc cccaaaatct atgtggtcct caaatataac aactgtcatt
+     2041 caatacacat gtttgagcac ccagtgagct aggttttaag gattcaaaga tgaaaagtca
+     2101 tgctgtctcc cctgcagagg gtgctcagac tagtgatgga aacagtatgg gatgaaagaa
+     2161 agcagaaggc cattgctgag caggcagtgg actcagcaga ggctgaaact atacaagtga
+     2221 cttggttcca gctggaccag caggataacc agatgaaaag aaggattgca tatattccat
+     2281 atatatttat gtttgaacaa agagtcaagg tttattgcaa ggataaggag gctttgttgg
+     2341 tggcctgtta agaccatcca gggtggtcat actggatagg gaagaaggtg agctggaaga
+     2401 gggatagaca aacttggatg gccagatgtt gagatggagg agctggacgt cataacgtgg
+     2461 tcaaaaacat gttgatgaga ggacttatct acaaagttgt taacttaagc agaaacctca
+     2521 aggattgatt ttatgatttc tccaggaagt cctaaaagat aatttcattt cagggagaaa
+     2581 aacaacagac cactgcaaag accaggaaca tgaaaggata atgtagtttg gcttgcttgg
+     2641 cagatacttg tgaaagatgt tggactgtaa ggctgtcaat atcctcctcg cagaacttac
+     2701 tacagtacat tgtatctgct cccttaccta cctgactctc ccactattca gtttgttcct
+     2761 taatggtaga ccatgcctga tcggtgtttt acacatcccc tgctatgtct gatacttgtg
+     2821 gatgctcaga aagtggggaa ggaaggaaag atacgatggt aaaaggctta cacatgtctt
+     2881 gaccagaatg ttcagtttgg ctcatttggc tggagtcata ctgcatggct gccattctgc
+     2941 tctggcatcc tcagagaagc atactgccca ttaaaggaaa aagcgtgaat ataaatgttg
+     3001 agtcagaaca ctgcagacat ttagtaacct ccttcagagg aaaaaaaaaa ggtgggggga
+     3061 atgacagaaa tccaaaaact agtagagctt ccactttttc atttcagaag aaatcagtta
+     3121 ctctcctcta aggaccatta ctattaacaa aacagagacc ttagaaggaa gcattattta
+     3181 tttatcatat attttgtaat gttattaccg ttcttgttat actctttctt ataccctacc
+     3241 attgttagca gaaattattt taaattaata agatcctgca tgcttttcct ttttctaaaa
+     3301 aaagaaagat ctctgtgtag aatgtcctgt tctgagccag tcctgagagg aaaggaagta
+     3361 taatcaattt gttattaact gatgaaagaa ttaactgaaa gataaacctt aggaagcaga
+     3421 gggaagttaa tctatgacta agaaagttaa gtactctgat aactcattca ttccttcttt
+     3481 tattcattta cattatttaa tcacaagtct atgatgtgcc aggcactcag gaaatagtga
+     3541 aaattggaca cgcgatattc tgcccttgtg tagcacatac tgtagtggga aagaaagtgc
+     3601 acttttaacc ggacaactat caacacgaag aggggaggaa gcaggggctg gaaatgtcca
+     3661 cagactttgc caaagacaaa gcccataata tttgaaagtc agtttcttcc atcattttgt
+     3721 gtattaaggt tctttattcc cgtgttctcc gccttcctgc ttgtcatctt cactcatcag
+     3781 ctgaccacgt tgcctcttac ggtgtaaact tgtaccagtc ttacggtccc tctgggcagt
+     3841 acacccatga atttgatgga gatgaggagt tctatgtgga cctggagagg aaggagactg
+     3901 tctggcagtt gcctctgttc cgcagcttta gaggatttga cccgcagggt gcgctgacca
+     3961 acattgctat tgcaaaacac aacttgaaca tcctgattaa acgctccaac tctaccgctg
+     4021 ctaccaatgg tatgtgtcca ccattctgcc tttctttact gatctatccc tttataccaa
+     4081 gtttcattat tttctttcca agaggtcccc agatcttctc attgcaattg ctgaaatttt
+     4141 atcatttctc atctctaaaa tcacatattc ccatgtaata caagggtctt tccattatgc
+     4201 attcattaag tccttctagg agaggtctca tcaacctcct actttattaa acatgcccac
+     4261 agagagaagg gcacaggagt aaagcagagg caatgtgtcg ttgctcccaa gtagaaggta
+     4321 aataaggcct ctttgaccag caggagagga aatgctggta ggaagactct tccaggatgt
+     4381 aatgcagaag ctcagggcag agctattcac acttcacacc agtgctgttt cctcaccata
+     4441 gaggttcctg aggtcacagt gttttccaag tctcccgtga cgctggatca gccaaacacc
+     4501 ctcatctgtc ttgtggacaa catctttcct cctgtggtca acatcacatg gctgagcaat
+     4561 gggcactcag tcacagaagg tgtttctgag accagcttcc tctccaagag tgatcattcc
+     4621 ttcttcaaga tcagttacct caccttcctc ccttctgctg atgagattta tgactgcaag
+     4681 gtggagcact ggggcctgga tgagcctctt ctgaaacact ggggtaagga tgagtttcac
+     4741 cattttttga tgctttcttg tctgtcaagt tcagaacttc ctgcctttta ctctatatcc
+     4801 caaaacttgt tttccacact tcatgagttt cttttatctt tttttttttg aaagaattaa
+     4861 gcaacaaaag cacagattta ttaaaaaaga aagtacactc cacagggtgg gagcaggcct
+     4921 gccacttcat gggtttctaa taacagactt cactctcctc cctaagccag gggccttcag
+     4981 tctttgcaga gccaaccctc caccccatcc catcccacac acatgcacat gagcacaccc
+     5041 tgcattctga actcaacaac ttcacttcca cagagcctga gattccagca cctatgtcag
+     5101 agctcacaga gactgtggtc tgcaccctgg ggttgtctgt gggcctcgtg ggcattgtgg
+     5161 tggggaccgt cttgatcatc cgaggcctgc gttcagttgg tgcttccaga caccaagggc
+     5221 ccttgtga
+//
+LOCUS       NHP00836                 226 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQA1*20:02, DQA1 locus allele.
+ACCESSION   NHP00836
+VERSION     NHP00836
+DBLINK      INSDC: AF038155
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Otting N, de Vos-Rouweller AJ,
+            Remarque EJ, Bonhomme M, Doxiadis GG, Crouau-Roy B, Bontrop RE.
+  TITLE     Pinpointing a selective sweep to the chimpanzee MHC class I region
+            by comparative genomics.
+  JOURNAL   Mol Ecol 17:2074-2088 (2008)
+   PUBMED   18346126
+COMMENT     IPD-MHC allele: Patr-DQA1*20:02
+            IPD accession: NHP00836
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*2002
+FEATURES             Location/Qualifiers
+     source          1..226
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..226
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:02"
+                     /note="previous designations: Patr-DQA1*2002"
+     exon            1..226
+                     /gene="DQA1"
+                     /number=1
+     CDS             1..226
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:02"
+                     /codon_start=3
+                     /product="MHC class II DQA1 antigen"
+                     /translation="DHVASCGVNLYQSYGPSGQYTHEFDGDEEFYVDLERKETVWQLPL
+                     FRSFRGFDPQGALTNIAITKHNLNILIKR"
+ORIGIN
+        1 ctgaccatgt tgcctcttgt ggtgtaaact tgtaccagtc ttacggtccc tctgggcagt
+       61 acacccatga atttgatgga gatgaggagt tctatgtgga cctggagagg aaggagactg
+      121 tctggcagtt gcctctgttc cgcagcttta gaggatttga cccgcagggt gcgctgacca
+      181 acattgctat tacaaaacac aacttgaaca tcctgattaa acgctc
+//
+LOCUS       NHP00837                 768 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQA1*20:03, DQA1 locus allele.
+ACCESSION   NHP00837
+VERSION     NHP00837
+DBLINK      INSDC: AJ534308
+            INSDC: LT963443
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*20:03
+            IPD accession: NHP00837
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*2003
+FEATURES             Location/Qualifiers
+     source          1..768
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..768
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:03"
+                     /note="previous designations: Patr-DQA1*2003"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            83..331
+                     /gene="DQA1"
+                     /number=2
+     exon            332..613
+                     /gene="DQA1"
+                     /number=3
+     exon            614..768
+                     /gene="DQA1"
+                     /number=4
+     CDS             1..768
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:03"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALLLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEEFYVDLERKETVWQLPLFRSFRGFDPQGALTNIAIAKHSLNILIKRSN
+                     STAATNEVPEVTVFSKSPVTLDQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCT
+                     LGLSVGLVGIVVGTVLIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gctgctgggg gccctcgccc tgaccactgt gatgagccct
+       61 tgtggaggtg aagacattgt ggctgaccac gttgcctctt acggtgtaaa cttgtaccag
+      121 tcttacggtc cctctgggca gtacacccat gaatttgatg gagatgagga gttctatgtg
+      181 gacctggaga ggaaggagac tgtctggcag ttgcctctgt tccgcagctt tagaggattt
+      241 gacccgcagg gtgcgctgac caacattgct attgcaaaac acagcttgaa catcctgatt
+      301 aaacgctcca actctaccgc tgctaccaat gaggttcctg aggtcacagt gttttccaag
+      361 tctcccgtga cgctggatca gcccaacacc ctcatctgtc ttgtggacaa catctttcct
+      421 cctgtggtca acatcacatg gctgagcaat gggcactcag tcacagaagg tgtttctgag
+      481 accagcttcc tctccaagag tgatcattcc ttcttcaaga tcagttacct caccttcctc
+      541 ccttctgctg atgagattta tgactgcaag gtggagcact ggggcctgga tgagcctctt
+      601 ctgaaacact gggagcctga gattccagca cctatgtcag agctcacaga gactgtggtc
+      661 tgcaccctgg ggttgtctgt gggcctcgtg ggcattgtgg tggggaccgt cttgatcatc
+      721 cgaggcctgc gttcagttgg tgcttccaga caccaagggc ccttgtga
+//
+LOCUS       NHP08837                5401 bp    DNA     linear   PRI 17-JAN-2022
+DEFINITION  Patr-DQA1*05:02:02:01, DQA1 locus allele.
+ACCESSION   NHP08837
+VERSION     NHP08837
+DBLINK      INSDC: LT622882
+            INSDC: OV259954
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*05:02:02:01
+            IPD accession: NHP08837
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*05:02:02
+FEATURES             Location/Qualifiers
+     source          1..5401
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5401
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:02:02:01"
+                     /note="previous designations: Patr-DQA1*05:02:02"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3936..4181
+                     /gene="DQA1"
+                     /number=2
+     exon            4594..4875
+                     /gene="DQA1"
+                     /number=3
+     exon            5247..5401
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3935
+                     /gene="DQA1"
+                     /number=1
+     intron          4182..4593
+                     /gene="DQA1"
+                     /number=2
+     intron          4876..5246
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3936..4181,4594..4875,5247..5401)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*05:02:02:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQFTHEFDGDEQFYVDLGRKETVWCLPVLRQFRFDPQFALTNIAVLKHNLNSLIKRSNS
+                     TAATNEVPEVTVFSKSPVTLGQPNILICLVDNIFPPVVNITWLSNGHSVTEGVSETSFL
+                     SKSDHSFFKISYLTLLPSAEESYDCKVEHWGLDKPLLKHWEPEIPAPMSELTETVVCAL
+                     GLSVGLVGIVVGTVFIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctcgccc tgaccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg gatgttctct ggagctggaa
+      121 gagaggaaat tgaagaaaag agagaaagcg atttgcagag aaactgtaga gatttcctaa
+      181 gggccccttc agtattaaga gatttaaaaa ttatggctgt ttctccttca ggaaaccaga
+      241 gtcccaacct actctttttg ttatctatgc tgttggcgtt cactaaggat gctattctgt
+      301 ttatattgta ttcagtcact acagcctgga ggtctctatg tcattccatc atgattgcct
+      361 caaaaattgg tgaggtttcc atcagtcgat aattttttat tattaaaaat ttgtgaagta
+      421 tcattctcaa atttccctga acaacttttg aagcttttcg gatgtctcct gtagtagacc
+      481 ttggggtaaa tgattccatc aattatatac tctatagata ttaagaaaga tgcccttttc
+      541 tttctctcag acttactcac atttccacgt gggaactggc acaggtgggg agtgggtaaa
+      601 ggagtccagc aggctgaatg ccttcaacaa tcattttacc acatggtcct cacttactct
+      661 cagctgcctc atttgtgtca cctcacaaat aatcaaataa aatgggcatg tagttaagct
+      721 ttgtaaatag tgaaaacatg aatgtcaatt ttatttttac atatttccat tataggtgta
+      781 gcttcacatt tcttttcttt agcaaaataa ggaatccttt tattttaaaa ttgagaattt
+      841 atagtagaaa aacttggtaa attaaatcat tttgttctca aattatcaac ccaaattacc
+      901 tgttgttcac ctcatctaat gaagtcctat aaaaagaaaa gtgggccaga catggtggct
+      961 catgtctgta atcccagcac tttgggaggc tgaggcagga ggatcctttg agcccaggag
+     1021 ttcgagacca gcctgggcaa catagcaaga cctcatctct acaaaaaata aaaattagcc
+     1081 aggtgtggtg gtgcatgcct gtggtgccag ctactcagaa ggctgcaatg ggaggactgc
+     1141 ttgagtccag gaggcggaag ctgcagtgag ccatgatggc accactacac tccagccagg
+     1201 gcaacagaga gagaccttgt cccaaaaaga aagaggaaag gaagagagaa aggaaggaaa
+     1261 gaaagaaaga aggaaggaag gaaggaaaga aggaaggaag gaagggagaa ggggaaggga
+     1321 aggaaaggaa ggaaggaaag gaaagggaag ggaggaaaga aggaaggaaa aaagaaaaag
+     1381 aaagaaagta gaaaggaaga aagaagaaag aaagaaagaa aggaaagaaa agaaggaagg
+     1441 aaagaagaag gaaggaagca cagattaatt attaattatt tggtctctct tagtctcctc
+     1501 tgtctccgtc atccatctct tcctacccct cttcatgcat tcctttctcc ctcttccctt
+     1561 tcaggatcca tctctgactc cctgcttctt tatatggaca gtgggtttgt aaaacaaaag
+     1621 ttgaaaaatc agatagttaa aaggtgaagt gaactggaag gtctaaactt ccacaacctt
+     1681 attaaccatg gctgctccta ttctgatttt gttcggcagt ggaagtttca cctgcttctc
+     1741 cagagcactt agcttctttg ttccaaattt cctttcttca gcctcatacc agagtgccct
+     1801 ggtcaggctc ggctcatcca ttaggcacaa cgtgggcaat gcagagaacc ctccatactg
+     1861 taaagccaca tgagaatgtt ttaactcctt ttaagattag aaaaaaatga aatttcagag
+     1921 actaagaaaa tgttttaatt cagcctagat tgtattgtct ttataccaat tcagtcataa
+     1981 aatacaattt tccatatttt tatggaggaa ggggcccaca aaagcaagag tgctcagggc
+     2041 tcacatgtca gaacgcagcc ctggtcatgg ctgatcctgg ccttcatatg attctgctag
+     2101 tgtacctgtc catcttcccc aaaatctatg tggtcctcaa atatagcaac tgtaattcaa
+     2161 aacacgtttg agcacacagt aagctaagtt ttaaggattc aaagacgaaa agccatgctg
+     2221 tcttccctgc agagggtgct cagactagtg atggaaacag tatgggatgc aggaaagcag
+     2281 aaggccattg ctgagcaggg cagtggactc agcagaggct gaaactgtac aaatgacttg
+     2341 gttccagctg ggccagcagg gtgatatcct ccggcaaaac tcggcaccca agacaagtcc
+     2401 cagatgaaaa gaaggattgc tttgtgtttg ataaggagtc gaggtttatt gcaaggataa
+     2461 gaaggctttg ttggtggcct gttaagacca tccagggcag tcatactgga taaggaagaa
+     2521 ggtgagctgg aagaggaaca gacaaacagc cagatattga gatggaggag gtggaggtta
+     2581 taacgtggta aaaaacatgt tgatgagagg acttagctac aaagttgttt acttaagcat
+     2641 aaaccgcaag gatgaatttt aggatttctt caggaagtcc taaaagataa tttcatttca
+     2701 gggagaaaaa caacaaacca ctgcaaagac caggcaacac gaaaggataa tgtagttttg
+     2761 tttgcttgac agatacttat gaaagatgtt ggactgtaag gctgttgata gcctcctcac
+     2821 agaacgtgct acagtacatt gtatctactc ccttacctac ctgactcttc cactgttcag
+     2881 tttgttcctt aatggtagac catgcctgat tggtgtttta cagatcctct gctatgtctg
+     2941 acacttgtgg atgctcagaa agtggggaag gaaggaaaga tacaacggta aaaggcttac
+     3001 acgtcttgac aagaatgtcc agttcggctc atttggctgg aaccatatcg catggctgcc
+     3061 attctgctct ggcatcctca gacaagctca ctgcccatta gaggaaaaag ggtttaattt
+     3121 agctgagtcc tcaagtgaat ataagtgttg agtcagaacg ctgtagacat ttagtaacct
+     3181 ccttcagagg aaaaaaaaga gacgggggaa aatgacagaa atccaaaaac tagtggagct
+     3241 tccactcttc atttcagaag aaatcagttg ctctcctcta aggatcatta ctattaacaa
+     3301 aacagagacc ttgaaggagg cattgtttat ttattatata ttttgtaatg ttattaccat
+     3361 tcttgttata ctctttctta taccctacaa ttgttagcag acattatttt aaattaataa
+     3421 gatcctgcat gcttttcctt tttttaaaaa aaagaaagac ctctgtgtag agtgtcctgt
+     3481 tctgagccag tcctgagagg aaagaaagta caatcagttt gttattaact gatgaaagaa
+     3541 ttaagtgaaa gatgaatctt aggaagcaga gggaagtaaa cctagtctct gactaagaaa
+     3601 gctaaatacc ataataactc attcattcct tcttttgttc aattacagta tttaatcgta
+     3661 agtccatgat gtgccaggca ctcaggaaat agtaaaaact ggacatgcga tattctgccc
+     3721 ttgtgtagca cacattatag tgggaaagaa agcgcaattt taaccggaca actaccaaca
+     3781 ctaagagcgg aggaagcagg ggctggaaat gtccacaggc tgtgccaaag atgaagcccg
+     3841 taatatttga aagtcagttt cttccatcat tttgtgtatt aagattcttt cttcccctgt
+     3901 tctccacctt cctgcttgtc atcttcactc atcagctgac cacgtcgcct cttatggtgt
+     3961 aaacttgtac cagtcttacg gtccctctgg ccagttcacc catgaatttg atggagacga
+     4021 gcagttctac gtggacctgg ggaggaagga gactgtctgg tgtttgcctg ttctcagaca
+     4081 atttagattt gacccgcaat ttgcactgac aaacatcgct gtcctaaaac ataacttgaa
+     4141 cagtctgatt aaacgctcca actctaccgc tgctaccaat ggtatgtgtc cacaattctg
+     4201 cccctcttta ctgatttatc ccttcatacc aagtttcatt attttatttc caagaggtcc
+     4261 ccagatcttc tcatggcaat tgctgaaatt ttattatctc ccatctctaa aatcacatat
+     4321 tcccatgtaa tacaagggtc tttccattat ccattcatta aatccttcta ggagaggtct
+     4381 catcaacctc ctactttatt aaacatgccc acagagagaa gggcacagga ataaagcaga
+     4441 ggcaatgtgt cgttgctccc aagcagaagg taaataagac ctctttgact atcaggtggt
+     4501 gaaatgctgg taggagggct cttccaggat gtaatgcaga agctcatggc agagctattc
+     4561 acacttcaca tcagtgctgt ttcctcacca cagaggttcc tgaggtcaca gtgttttcca
+     4621 agtctcccgt gacactgggt cagcccaaca tcctcatctg tcttgtggac aacatctttc
+     4681 ctcctgtggt caacatcaca tggctgagca atgggcactc agtcacagaa ggtgtttctg
+     4741 agaccagctt cctctccaag agtgatcatt ccttcttcaa gatcagttac ctcaccctcc
+     4801 tcccttctgc tgaggagagt tatgactgca aggtggagca ctggggcctg gacaagcctc
+     4861 ttctgaaaca ctggggtaag gatgagttcc accacttttt gatgctttct tgtctgtcaa
+     4921 gttcagaact tcctgccttt tactcctata tcccaaaact tgttttccac acttcatggg
+     4981 tttctttctt tctttctttc ttttttgaaa gaataaagca acaaaagcaa agatttattg
+     5041 aaaatgaaag tacacttcac atggtgggag cgggcctgag cacaggggct caagagccac
+     5101 ttcatgggtt tctaataata gacttcactc ttctccctaa gcctgggacc ttgagtcttt
+     5161 gcagagccag ccctccaccc catcccatcc cacacacatg cacatgagca cattgctttc
+     5221 tgacctcaac gacttcatat ccacagagcc tgagattcca gcccctatgt cagagctcac
+     5281 agagactgtg gtctgcgccc tggggttgtc tgtgggactc gtgggcattg tggtgggcac
+     5341 tgtcttcatc atccgaggcc tgcgttcagt tggtgcttcc agacaccaag ggcccttgtg
+     5401 a
+//
+LOCUS       NHP08838                5224 bp    DNA     linear   PRI 19-JAN-2022
+DEFINITION  Patr-DQA1*20:04:01:01, DQA1 locus allele.
+ACCESSION   NHP08838
+VERSION     NHP08838
+DBLINK      INSDC: LT622884
+            INSDC: OV260055
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*20:04:01:01
+            IPD accession: NHP08838
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*20:04:01
+FEATURES             Location/Qualifiers
+     source          1..5224
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5224
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:04:01:01"
+                     /note="previous designations: Patr-DQA1*20:04:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3778..4026
+                     /gene="DQA1"
+                     /number=2
+     exon            4439..4720
+                     /gene="DQA1"
+                     /number=3
+     exon            5070..5224
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3777
+                     /gene="DQA1"
+                     /number=1
+     intron          4027..4438
+                     /gene="DQA1"
+                     /number=2
+     intron          4721..5069
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3778..4026,4439..4720,5070..5224)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:04:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALLLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEEFYVDLERKETVWQLPLFRSFRGFDPQGALTNIAITKHNLNILIKRSN
+                     STAATNEVPEVTVFSKSPVTLDQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCT
+                     LGLSVGLVGIVVGTVLIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gctgctgggg gccctcgccc tgaccactgt gatgagccct
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg aatgttctct ggagctgaaa
+      121 aacagtaaat tgaaggaaaa gagagaaagc gatttgcaga gaaattgtag agatttccta
+      181 agaccccttt cagtattaag agaattaaaa attatagctg ttcctccttc aggaaaccag
+      241 agccccaacc tactcttttt gttatgtatg cttttgtgtt cactaaggac gctattctgt
+      301 ttatattata ttcagtgact acagcctgga ggtctctatg tcgttccatc atgattgcct
+      361 caaaaattag tgaggtttcc atcagtggat aattttttat tattaaaaat gtatgaagtg
+      421 tcattctcaa atttccctga acaacttttg aagcttttcg tatgtctcct atagtagatc
+      481 ttggggtcgt tccatcaatt atatactcta tagatattaa aaaagttgcc cgtttctttc
+      541 tctcagactt actcacattt ccacatggga actggcacag gtggggagtg ggtaaaggag
+      601 tccagcaggc tgaatgcctt caacaatcat tttaccacat ggtcctcact tactctcagc
+      661 tgcctcatat gtgtcacctc acaaataatc aaataaaatg ggcatgtagc taagctttgt
+      721 aaatagtgaa aacatggatg tcaattgttt ttacatattt ctattacagg tatagcttca
+      781 catttttctt tagcaaaata agggatcctt ttagtttaaa attgagaagt agaaaaaatt
+      841 ggtaaattaa atcattttat tctcaaatta tcaacccaaa ttacctgttc ttcacctcat
+      901 ctaataaagt cctataaaaa gaaaagcggg ccagacaagg tggctcatgc ctgtaatccc
+      961 agcactttgg gaggccgaag caggaggatc atttaagcct gggagtttga gaccagcctg
+     1021 ggcaacatag caagacctca tctctaccaa aaaataaaat aaaaattagc caggcatggt
+     1081 ggtgtgtgcc tgtggtgcca gctactcaga aggctgcagt gggaggagca cttgagtcca
+     1141 ggaggtggaa gctgcagtga gccatgatgg caccactaca ctccagccaa ggcaacagag
+     1201 agagaccctg tctcaaaaag aaagaggaaa gaaagagaga aaggaaggaa agaaggaaag
+     1261 aaggaaggaa ggaaggagaa agggaaggga ggaaggaaaa aagaaagaaa gaaagaaaac
+     1321 ggaaggaagg aagcacagat taattacttg gtctcttagt ctcctctgcc tttgtcgtcc
+     1381 atctcttccc acctctcttc atgcattcct ttctccctct tccctttcag gatccatctc
+     1441 tggctccctg ctcctttata gagatggaca gtgggtttgt aaaacaaaag ttgaaaagtc
+     1501 agatagttaa aaggggaagt gaactggaag gtctaaactt tcacaacctt attaaccgtg
+     1561 gctgctccca ttctgatttt gttcagcagt ggaagtttca ccctctcctc cagagcgctt
+     1621 ggcttctttg ttccaagttt cctttcttca acctcacacc agagttccct ggtcaggctt
+     1681 ggctcatcca ttaggcgcaa tgtgggcagt gcaggggacc ctccatactg taaagccaca
+     1741 tgagaatgtt ttaactcctt ttaaaattat aaaaaaatga aattgtagag cctaagaaaa
+     1801 tgttttaact tttaattcag cctagattat attgtcttta taccaattca gtcataaaat
+     1861 ataattttcc atatttttat ggaggaaggc gtccacacaa gcaagagtgc ttggggctca
+     1921 catgtcagaa cgcaaccctg atcatggctg atcctggcct tcgtgtggtt ctgctaacta
+     1981 tgtgcctgtc agtcttcccc aaaatctatg tggtcctcaa atataacaac tgtcattcaa
+     2041 tacacatgtt tgagcaccca gtgagctaag ttttaaggat tcaaagatga aaagtcatgc
+     2101 tgtctcccct gcagagggtg ctcagactag tgatggaaac agtatgggat gaaagaaagc
+     2161 agaaggccgt tgctgagcag gcagtggact cagcagaggc tgaaactata caagtgactc
+     2221 ggttccagct ggaccagcag gataaccaga tgaaaagaag gattgcatat attccatata
+     2281 tatttatgtt tgaacaaaga gtcaaggttt attgcaagga taaggaggct ttgttggtgg
+     2341 cctgttaaga ccatccaggg tggtcatact ggatagggaa gaaggtgagc tggaagaggg
+     2401 atagacaaac ttggatggcc agatgttgag atggaggagc tggacgtcat aacgtggtca
+     2461 aaaacatgtt gatgagagga cttatctaca aagttgttaa cttaagaaga aacctcaagg
+     2521 attgatttta tgatttctcc aggaagtcct aaaagataat ttcatttcag ggagaaaaac
+     2581 aacagaccac tgcaaagacc aggaacatga aaggataatg tagtttggtt tgcttggcag
+     2641 atacttgtga aagatgttgg actgtaaggc tgtcaatatc ctcctcgcag aacttactac
+     2701 agtacattgt atctgctccc ttacctacct gactctccca ctattcagtt tgttccttaa
+     2761 tggtagacca tgcctgatcg gtgttttaca catcccctgc tatgtctgat acttgtggat
+     2821 gctcagaaag tggggaagga aggaaagata cgatggtaaa aggcttacac atgtcttgac
+     2881 cagaatgttc agtttggctc atttggctgg agtcatactg catggctgcc attctgctct
+     2941 ggcatcctca gagaagcata ccgcccatta aaggaaaaag cgtgaatata aatgttgagt
+     3001 cagaacactg cagacattta gtaacctcct tcagaggaaa aaaaaaaggt ggggggaatg
+     3061 acagaaatcc aaaaactagt agagcttcca ctttttcatt tcagaagaaa tcagttactc
+     3121 tcctctaagg accattacta ttaacaaaac agagacctta gaaggaagca ttatttattt
+     3181 atcatatatt ttgtaatgtt attacctttc ttgttatact ctttcttata ccctaccatt
+     3241 gttagcagaa attattttaa attaataaga tcctgcatgc ttttcctttt tctaaaaaaa
+     3301 gaaagatctc tgtgtagaat gtcctgttct gagccagtcc tgagaggaaa ggaagtataa
+     3361 tcaatttgtt attaactgat gaaagaatta actgaaagat aaaccttagg aagcagaggg
+     3421 aagttaatct atgactaaga aagttaagta ctctgataac tcattcattc cttcttttat
+     3481 tcatttacat tatttaatca caagtctatg atgtgccagg cactcaggaa atagtgaaaa
+     3541 ttggacacgc gatattctgc ccttgtgtag cacatactgt agtgggaaag aaagtgcact
+     3601 tttaaccgga caactatcaa cacgaagagg ggaggaagca ggggctggaa atgtccacag
+     3661 actttgccaa agacaaagcc cataatattt gaaagtcagt ttcttccatc attttgtgta
+     3721 ttaaggttct ttattcccgt gttctccgcc ttcctgcttg tcatcttcac tcatcagctg
+     3781 accacgttgc ctcttacggt gtaaacttgt accagtctta cggtccctct gggcagtaca
+     3841 cccatgaatt tgatggagat gaggagttct atgtggacct ggagaggaag gagactgtct
+     3901 ggcagttgcc tctgttccgc agctttagag gatttgaccc gcagggtgcg ctgaccaaca
+     3961 ttgctattac aaaacacaac ttgaacatcc tgattaaacg ctccaactct accgctgcta
+     4021 ccaatggtat gtgtccacca ttctgccttt ctttactgat ctatcccttt ataccaagtt
+     4081 tcattatttt ctttccaaga ggtccccaga tcttctcatt gcaattgctg aaattttatc
+     4141 atttctcatc tctaaaatca catattccca tgtaatacaa gggtctttcc attatgcatt
+     4201 cattaagtcc ttctaggaga ggtctcatca acctcctact ttattaaaca tgcccacaga
+     4261 gagaagggca caggagtaaa gcagaggcaa tgtgtcgttg ctcccaagta gaaggtaaat
+     4321 aaggcctctt tgaccagcag gagaggaaat gctggtagga agactcttcc aggatgtaat
+     4381 gcagaagctc agggcagagc tattcacact tcacaccagt gctgtttcct caccatagag
+     4441 gttcctgagg tcacagtgtt ttccaagtct cccgtgacgc tggatcagcc caacaccctc
+     4501 atctgtcttg tggacaacat ctttcctcct gtggtcaaca tcacatggct gagcaatggg
+     4561 cactcagtca cagaaggtgt ttctgagacc agcttcctct ccaagagtga tcattccttc
+     4621 ttcaagatca gttacctcac cttcctccct tctgctgatg agatttatga ctgcaaggtg
+     4681 gagcactggg gcctggatga gcctcttctg aaacactggg gtaaggatga gtttcaccat
+     4741 tttttgatgc tttcttgtct gtcaagttca gaacttcctg ccttttactc tatatcccaa
+     4801 aacttgtttt ccacacttca tgagtttctt ttatcttttt tttttgaaag aattaagcaa
+     4861 caaaagcaca gatttattaa aaaagaaagt acactccaca gggtgggagc aggcctgcca
+     4921 cttcatgggt ttctaataac agacttcact ctcctcccta agccaggggc cttcagtctt
+     4981 tgcagagcca accctccacc ccatcccatc ccacacacat gcacatgagc acaccctgca
+     5041 ttctgaactc aacaacttca cttccacaga gcctgagatt ccagcaccta tgtcagagct
+     5101 cacagagact gtggtctgca ccctggggtt gtctgtgggc ctcgtgggca ttgtggtggg
+     5161 gaccgtcttg atcatccgag gcctgcgttc agttggtgct tccagacacc aagggccctt
+     5221 gtga
+//
+LOCUS       NHP08839                5224 bp    DNA     linear   PRI 19-JAN-2022
+DEFINITION  Patr-DQA1*20:04:02:01, DQA1 locus allele.
+ACCESSION   NHP08839
+VERSION     NHP08839
+DBLINK      INSDC: LT622885
+            INSDC: OV260056
+            INSDC: LT899693
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQA1*20:04:02:01
+            IPD accession: NHP08839
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA1*20:04:02
+FEATURES             Location/Qualifiers
+     source          1..5224
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5224
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:04:02:01"
+                     /note="previous designations: Patr-DQA1*20:04:02"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3778..4026
+                     /gene="DQA1"
+                     /number=2
+     exon            4439..4720
+                     /gene="DQA1"
+                     /number=3
+     exon            5070..5224
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3777
+                     /gene="DQA1"
+                     /number=1
+     intron          4027..4438
+                     /gene="DQA1"
+                     /number=2
+     intron          4721..5069
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3778..4026,4439..4720,5070..5224)
+                     /gene="DQA1"
+                     /allele="Patr-DQA1*20:04:02:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALLLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEEFYVDLERKETVWQLPLFRSFRGFDPQGALTNIAITKHNLNILIKRSN
+                     STAATNEVPEVTVFSKSPVTLDQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCT
+                     LGLSVGLVGIVVGTVLIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gctgctgggg gccctcgccc tgaccactgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg aatgttctct ggagctgaaa
+      121 aacagtaaat tgaaggaaaa gagagaaagc gatttgcaga gaaattgtag agatttccta
+      181 agaccccttt cagtattaag agaattaaaa attatagctg ttcctccttc aggaaaccag
+      241 agccccaacc tactcttttt gttatgtatg cttttgtgtt cactaaggac gctattctgt
+      301 ttatattata ttcagtgact acagcctgga ggtctctatg tcgttccatc atgattgcct
+      361 caaaaattag tgaggtttcc atcagtggat aattttttat tattaaaaat gtatgaagtg
+      421 tcattctcaa atttccctga acaacttttg aagcttttcg tatgtctcct atagtagatc
+      481 ttggggtcgt tccatcaatt atatactcta tagatattaa aaaagttgcc cgtttctttc
+      541 tctcagactt actcacattt ccacatggga actggcacag gtggggagtg ggtaaaggag
+      601 tccagcaggc tgaatgcctt caacaatcat tttaccacat ggtcctcact tactctcagc
+      661 tgcctcatat gtgtcacctc acaaataatc aaataaaatg ggcatgtagc taagctttgt
+      721 aaatagtgaa aacatggatg tcaattgttt ttacatattt ctattacagg tatagcttca
+      781 catttttctt tagcaaaata agggatcctt ttagtttaaa attgagaagt agaaaaaatt
+      841 ggtaaattaa atcattttat tctcaaatta tcaacccaaa ttacctgttc ttcacctcat
+      901 ctaataaagt cctataaaaa gaaaagcggg ccagacaagg tggctcatgc ctgtaatccc
+      961 agcactttgg gaggccgaag caggaggatc atttaagcct gggagtttga gaccagcctg
+     1021 ggcaacatag caagacctca tctctaccaa aaaataaaat aaaaattagc caggcatggt
+     1081 ggtgtgtgcc tgtggtgcca gctactcaga aggctgcagt gggaggagca cttgagtcca
+     1141 ggaggtggaa gctgcagtga gccatgatgg caccactaca ctccagccaa ggcaacagag
+     1201 agagaccctg tctcaaaaag aaagaggaaa gaaagagaga aaggaaggaa agaaggaaag
+     1261 aaggaaggaa ggaaggagaa agggaaggga ggaaggaaaa aagaaagaaa gaaagaaaac
+     1321 ggaaggaagg aagcacagat taattacttg gtctcttagt ctcctctgcc tttgtcgtcc
+     1381 atctcttccc acctctcttc atgcattcct ttctccctct tccctttcag gatccatctc
+     1441 tggctccctg ctcctttata gagatggaca gtgggtttgt aaaacaaaag ttgaaaagtc
+     1501 agatagttaa aaggggaagt gaactggaag gtctaaactt tcacaacctt attaaccgtg
+     1561 gctgctccca ttctgatttt gttcagcagt ggaagtttca ccctctcctc cagagcgctt
+     1621 ggcttctttg ttccaagttt cctttcttca acctcacacc agagttccct ggtcaggctt
+     1681 ggctcatcca ttaggcgcaa tgtgggcagt gcaggggacc ctccatactg taaagccaca
+     1741 tgagaatgtt ttaactcctt ttaaaattat aaaaaaatga aattgtagag cctaagaaaa
+     1801 tgttttaact tttaattcag cctagattat attgtcttta taccaattca gtcataaaat
+     1861 ataattttcc atatttttat ggaggaaggc gtccacacaa gcaagagtgc ttggggctca
+     1921 catgtcagaa cgcaaccctg atcatggctg atcctggcct tcgtgtggtt ctgctaacta
+     1981 tgtgcctgtc agtcttcccc aaaatctatg tggtcctcaa atataacaac tgtcattcaa
+     2041 tacacatgtt tgagcaccca gtgagctaag ttttaaggat tcaaagatga aaagtcatgc
+     2101 tgtctcccct gcagagggtg ctcagactag tgatggaaac agtatgggat gaaagaaagc
+     2161 agaaggccgt tgctgagcag gcagtggact cagcagaggc tgaaactata caagtgactc
+     2221 ggttccagct ggaccagcag gataaccaga tgaaaagaag gattgcatat attccatata
+     2281 tatttatgtt tgaacaaaga gtcaaggttt attgcaagga taaggaggct ttgttggtgg
+     2341 cctgttaaga ccatccaggg tggtcatact ggatagggaa gaaggtgagc tggaagaggg
+     2401 atagacaaac ttggatggcc agatgttgag atggaggagc tggacgtcat aacgtggtca
+     2461 aaaacatgtt gatgagagga cttatctaca aagttgttaa cttaagaaga aacctcaagg
+     2521 attgatttta tgatttctcc aggaagtcct aaaagataat ttcatttcag ggagaaaaac
+     2581 aacagaccac tgcaaagacc aggaacatga aaggataatg tagtttggtt tgcttggcag
+     2641 atacttgtga aagatgttgg actgtaaggc tgtcaatatc ctcctcgcag aacttactac
+     2701 agtacattgt atctgctccc ttacctacct gactctccca ctattcagtt tgttccttaa
+     2761 tggtagacca tgcctgatcg gtgttttaca catcccctgc tatgtctgat acttgtggat
+     2821 gctcagaaag tggggaagga aggaaagata cgatggtaaa aggcttacac atgtcttgac
+     2881 cagaatgttc agtttggctc atttggctgg agtcatactg catggctgcc attctgctct
+     2941 ggcatcctca gagaagcata ccgcccatta aaggaaaaag cgtgaatata aatgttgagt
+     3001 cagaacactg cagacattta gtaacctcct tcagaggaaa aaaaaaaggt ggggggaatg
+     3061 acagaaatcc aaaaactagt agagcttcca ctttttcatt tcagaagaaa tcagttactc
+     3121 tcctctaagg accattacta ttaacaaaac agagacctta gaaggaagca ttatttattt
+     3181 atcatatatt ttgtaatgtt attacctttc ttgttatact ctttcttata ccctaccatt
+     3241 gttagcagaa attattttaa attaataaga tcctgcatgc ttttcctttt tctaaaaaaa
+     3301 gaaagatctc tgtgtagaat gtcctgttct gagccagtcc tgagaggaaa ggaagtataa
+     3361 tcaatttgtt attaactgat gaaagaatta actgaaagat aaaccttagg aagcagaggg
+     3421 aagttaatct atgactaaga aagttaagta ctctgataac tcattcattc cttcttttat
+     3481 tcatttacat tatttaatca caagtctatg atgtgccagg cactcaggaa atagtgaaaa
+     3541 ttggacacgc gatattctgc ccttgtgtag cacatactgt agtgggaaag aaagtgcact
+     3601 tttaaccgga caactatcaa cacgaagagg ggaggaagca ggggctggaa atgtccacag
+     3661 actttgccaa agacaaagcc cataatattt gaaagtcagt ttcttccatc attttgtgta
+     3721 ttaaggttct ttattcccgt gttctccgcc ttcctgcttg tcatcttcac tcatcagctg
+     3781 accacgttgc ctcttacggt gtaaacttgt accagtctta cggtccctct gggcagtaca
+     3841 cccatgaatt tgatggagat gaggagttct atgtggacct ggagaggaag gagactgtct
+     3901 ggcagttgcc tctgttccgc agctttagag gatttgaccc gcagggtgcg ctgaccaaca
+     3961 ttgctattac aaaacacaac ttgaacatcc tgattaaacg ctccaactct accgctgcta
+     4021 ccaatggtat gtgtccacca ttctgccttt ctttactgat ctatcccttt ataccaagtt
+     4081 tcattatttt ctttccaaga ggtccccaga tcttctcatt gcaattgctg aaattttatc
+     4141 atttctcatc tctaaaatca catattccca tgtaatacaa gggtctttcc attatgcatt
+     4201 cattaagtcc ttctaggaga ggtctcatca acctcctact ttattaaaca tgcccacaga
+     4261 gagaagggca caggagtaaa gcagaggcaa tgtgtcgttg ctcccaagta gaaggtaaat
+     4321 aaggcctctt tgaccagcag gagaggaaat gctggtagga agactcttcc aggatgtaat
+     4381 gcagaagctc agggcagagc tattcacact tcacaccagt gctgtttcct caccatagag
+     4441 gttcctgagg tcacagtgtt ttccaagtct cccgtgacgc tggatcagcc caacaccctc
+     4501 atctgtcttg tggacaacat ctttcctcct gtggtcaaca tcacatggct gagcaatggg
+     4561 cactcagtca cagaaggtgt ttctgagacc agcttcctct ccaagagtga tcattccttc
+     4621 ttcaagatca gttacctcac cttcctccct tctgctgatg agatttatga ctgcaaggtg
+     4681 gagcactggg gcctggatga gcctcttctg aaacactggg gtaaggatga gtttcaccat
+     4741 tttttgatgc tttcttgtct gtcaagttca gaacttcctg ccttttactc tatatcccaa
+     4801 aacttgtttt ccacacttca tgagtttctt ttatcttttt tttttgaaag aattaagcaa
+     4861 caaaagcaca gatttattaa aaaagaaagt acactccaca gggtgggagc aggcctgcca
+     4921 cttcatgggt ttctaataac agacttcact ctcctcccta agccaggggc cttcagtctt
+     4981 tgcagagcca accctccacc ccatcccatc ccacacacat gcacatgagc acaccctgca
+     5041 ttctgaactc aacaacttca cttccacaga gcctgagatt ccagcaccta tgtcagagct
+     5101 cacagagact gtggtctgca ccctggggtt gtctgtgggc ctcgtgggca ttgtggtggg
+     5161 gaccgtcttg atcatccgag gcctgcgttc agttggtgct tccagacacc aagggccctt
+     5221 gtga
+//

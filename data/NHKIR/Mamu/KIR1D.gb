@@ -1,0 +1,1261 @@
+LOCUS       NHP00048               14567 bp    DNA     linear   PRI 25-OCT-2023
+DEFINITION  Mamu-KIR1D*002, KIR1D locus allele.
+ACCESSION   NHP00048
+VERSION     NHP00048
+DBLINK      INSDC: NG0002000
+            INSDC: GU112257
+            INSDC: GU112266
+            INSDC: GU112332
+            INSDC: MF164921
+            INSDC: LR740765
+            INSDC: LR740766
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Sambrook JG, Bashirova A, Palmer S, Sims S, Trowsdale J, Abi-Rached
+            L, Parham P, Carrington M, Beck S.
+  TITLE     Single haplotype analysis demonstrates rapid evolution of the killer
+            immunoglobulin-like receptor (KIR) loci in primates.
+  JOURNAL   Genome Res 15:25-35 (2005)
+   PUBMED   15632087
+REFERENCE   2
+  AUTHORS   Blokhuis JH, van der Wiel MK, Doxiadis GG, Bontrop RE.
+  TITLE     The mosaic of KIR haplotypes in rhesus macaques.
+  JOURNAL   Immunogenetics 62:295-306 (2010)
+   PUBMED   20204612
+REFERENCE   3
+  AUTHORS   Ries M, Reynolds MR, Bashkueva K, Crosno K, Capuano S, Prall TM,
+            Wiseman R, O'Connor DH, Rakasz EG, Uno H, Lifson JD, Evans DT.
+  TITLE     KIR3DL01 upregulation on gut natural killer cells in response to SIV
+            infection of KIR- and MHC class I-defined rhesus macaques.
+  JOURNAL   PLoS Pathog 13:e1006506 (2017)
+   PUBMED   28708886
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*002
+            IPD accession: NHP00048
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..14567
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..14567
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*002"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            1010..1045
+                     /gene="KIR1D"
+                     /number=2
+     exon            1764..2041
+                     /gene="KIR1D"
+                     /number=3
+     exon            3798..4097
+                     /gene="KIR1D"
+                     /number=4
+     exon            5621..5907
+                     /gene="KIR1D"
+                     /number=5
+     exon            9204..9254
+                     /gene="KIR1D"
+                     /number=6
+     exon            13591..13695
+                     /gene="KIR1D"
+                     /number=7
+     exon            14158..14210
+                     /gene="KIR1D"
+                     /number=8
+     exon            14310..14567
+                     /gene="KIR1D"
+                     /number=9
+     intron          35..1009
+                     /gene="KIR1D"
+                     /number=1
+     intron          1046..1763
+                     /gene="KIR1D"
+                     /number=2
+     intron          2042..3797
+                     /gene="KIR1D"
+                     /number=3
+     intron          4098..5620
+                     /gene="KIR1D"
+                     /number=4
+     intron          5908..9203
+                     /gene="KIR1D"
+                     /number=5
+     intron          9255..13590
+                     /gene="KIR1D"
+                     /number=6
+     intron          13696..14157
+                     /gene="KIR1D"
+                     /number=7
+     intron          14211..14309
+                     /gene="KIR1D"
+                     /number=8
+     CDS             join(1..34,1010..1045,1764..2041,3798..4097,5621..5907,
+                     9204..9254,13591..13695,14158..14210,14310..14567)
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*002"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSVACVGFFLVQRACPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNSSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNEKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag cgtggcgtgt gttggtgagt actggaaggg aatcgacgga
+       61 ggaagcactg ggtggagatc tgggcccgga ggtggagata tgggcctaga ggtggagata
+      121 cgggtctaga ggtggcgtta cgggcctgga gtggagatct gggcctagag gtggagatat
+      181 gggtctagag atggagttat gggcctgaag tggagatgtg ggcctggaga ggagatctcg
+      241 gcctggagtg gagatctggg cctggagtgg ggatatggtc ctggagtgga gatcttggcc
+      301 tggagtggat atacgggcct ggaggtggag tgatgggcct ggagtggcga tatgggcctg
+      361 aagtggagat ataagcctgg agtggagata tgggcctgga gtggagatat gggccaggag
+      421 tggagatttg ggcctggagt ggagatatgg gccaggagtg gagatatgag cctggagtgg
+      481 aaatatgagc ctggagtgga ggtatgggcc tggggtggag atatgagcct ggagtggaga
+      541 tatgggcctg gagtggagat ttgggcctgg agtggagata tgggcctgga atgaagatat
+      601 gggactggag tggagatatg agcttggagt ggagatatgg gccagtggag acacaggtct
+      661 ggcatggaga tctgggccaa gagtggagac ctgggccagg agtggagata tgggtctaga
+      721 ggtggagtta cgggcctgga gtggagatat gggcctaggg tggagatatg ggcctgggat
+      781 ggaaatatgg gcctagagtg gagatatggg cctggagtgg agatctgggc ctggaggctg
+      841 ggtctctgca cagctgagag ccctgttctt gggggcaggt aggcagtaag tgtgagttta
+      901 ccttcagccc aggaaaagcc tggctgccaa gactcacagc ccagtggggg cagcaaggga
+      961 ggcctagttt tcctgcagat ggatcatcga ccatgatctt tctttccagg gttcttcttg
+     1021 gtccagaggg cctgtccaca cacgggtgag tccttcccca aaccttaggg tgtcatctcc
+     1081 ccacctgaga ggattttcct gaaacaggag ggaagtcctg tccaggagtc tctcatcaat
+     1141 taggaagagg gggcgctcgg atactcaacc cacagttctg acctcgccct ccccagcctg
+     1201 tctttccctt ggcagagtca agttctgtgg ggaccagggt gagactgggg tgctcaaagc
+     1261 tggggtgtgg aggggggaag tgctaggaac agcaggtcct ctgaggacaa aggtgtaact
+     1321 cacaccctcc agtgtttcca tgacggtcag ggctgcagtg tggctgctgt cattctacca
+     1381 gaagaggtgg ggaaaccaca gccatggccc tgacattcca aatccgctga tgggggctca
+     1441 gctgtttatt ttcgttcagg catcggctga tattccattc acaaaggaca tgccctccac
+     1501 cccatgtcta ccttgtgtcg ttttatgtga gtaatcttgc agtattaaaa tctaggagtc
+     1561 gcttactcag cacttgctca aagttctcag ctaacacttt gttgcaaaga gacaccatgt
+     1621 ctttgcggga tgggtccttc ctttagccct gggcacccag gtgaggtagg agccatagaa
+     1681 acgtggaaag cgaggagaat cttctgagca cacggagggt ggggaagtcc tcctctctaa
+     1741 ggcggggcct ccttctcccc aaggtggtca ggacaagccc ttgctgtcgg cctggctcag
+     1801 tgctatgatg tctccaggac gtgactcttt ggtgtcactc ttatcttggg tttaacaggt
+     1861 tcagtccgta caaggaagac ggggtgcctg tccctgagcc ctacaacaga atattctgga
+     1921 acagcttcct catggcactt tgatcccaca catgcaggga cctacagatg tgggggttca
+     1981 cacccgcact gccccagtgg gtggtaggct cccagcaacc ccctggcgat catggtcaca
+     2041 ggtcagaggg ctcctgtctg ggcttctcct tgtcccacct cccgaatccc agagcttctg
+     2101 ctgggggtgt ccgtcaggat ttggtcactc aggccctgac tttatttggg gtaaaggggg
+     2161 attgaataca tggaaatcgg tgctgtgatg ggaagaataa ctgtccccaa tgatggctac
+     2221 attctaatcc ctggagcctg tgactattta tgctataggg caggggactg aaggggaaga
+     2281 cggagctctg gttgttgatg agttgacctt gagatgggga gacggcctgg actgtcctgc
+     2341 tgggctcagt gtaatcacaa gggaccacac gagaggagaa ggatgaaggg agtggggatt
+     2401 agagcagcat cgtgggagac tccatccgct ttgaaggtgt aggaagccca tgggccacca
+     2461 atgcaggtga cctatagagt ctggaaaagt caaggaactg attctcccaa gtctccagag
+     2521 ggaacgcagc cctgcagatg ccttgatttt agcccaggaa aaacagggtc caatttctgt
+     2581 ctccagaagt ggaggggtca gtgtgtttct cctgctgcca tgcttctgat aattttctac
+     2641 agcggcaaca ggaaaccaac actggaatcc aggtcatgga caagttaaga aacggcccaa
+     2701 ggatagccag gcgtggtcac aggcacatgt aatcctagcg actcgggagg ctgaggcagg
+     2761 agaatcgctt aaacccagga ggcagagtaa gctgagacca cacctcttca ctccagcctg
+     2821 ggcgaaggag tgagactctg tctccaaaat taattaatta attaaacaag ccaaacaagg
+     2881 agaaggttgg caaccccgag atcagcaagg gcaggacgct gatgccatca ccaggttcga
+     2941 tccacatagg gaggggttga tagtcctcga gccagcacca ggaaccaccc tatggaagct
+     3001 ggcaccatgg agaaggcaca gagatggcaa aagcggctcc cagtcaccac caggaacagg
+     3061 gagtgtggac actggtgcct gccttactga tcagttcata cgtcctgcca aggactccaa
+     3121 tgtgtccgaa agagattgaa ccaggctgct aagagcctgg acatgcagcc tgtcctgttt
+     3181 cctcttccac ccccacatag acagcaggaa agagattagt gggaaacaga tacaacagcc
+     3241 caagacatga ggctgagccc agtgggaagg gaatcagggg ctactagaga cagagagaca
+     3301 gagaagaggg agggagacag atggaaggac ctgcaccagg agttaagggc acagaaaaga
+     3361 acacggagac acagagagga aggagagaga cagacaccag ggaggggaag cctcagtcat
+     3421 tccggatcct gtggatgaga tgaaaaagag agatgcggcc gggcgcggtg gctcaagcct
+     3481 gtaatcccag cactttggga ggccaggtgg atcacgaggt caggagatcg agaccatcct
+     3541 ggctaatccg gtgaaacccc gtctctacta aaaaatacaa aaaactagcc gggcgaggtg
+     3601 gcgggcgtct gtagtcccag ctactcggga ggctgaggca ggggaatggc gtgaacccgg
+     3661 gaggcggagc ttgcagtgag ctaagatccg gtcactgcac tccagcctgg gggacagagc
+     3721 gagactccgt ctcaaaaaaa aaaagaaaag aaaaaagaaa gagagacgcc ttctaaactc
+     3781 acaaattctc ttcctaggag tccacagaaa accttctctc ctggccctcc caggtcccct
+     3841 ggtgaaatca gaagagacgg tcatcctgca gtgctggtca gatatcaagt ttgagcactt
+     3901 ccttctgcac cgagtgggga agtttgagga gcccttgcat ctcatcggag agctccatga
+     3961 tgggggctcc aaggccaatg tctccatcag tccagtgaca cctgccctgg cagggaccta
+     4021 ccaatgctac ggttctgtca ctcactcccc ctatgtgttg tcagctccca gtgatcccct
+     4081 ggagatcgtg atcacaggta aatatgagaa accttctctc tcagcccagc cgggccccac
+     4141 ggtgaatgat cctggacttg gaggcccagg tggttgtaag gaaaatgtgc atgagattct
+     4201 tatggagaga gactgacttg gcgaggtctg taccaacaga gacagagaaa caggagacac
+     4261 aagcacagac caggtgtcat aacagaggac agacacaggg gccataaaag gagtcaggca
+     4321 ggagagaacg agttaaaggg gacacccgga cacacagaca tgtcccagag agaggcgtcc
+     4381 ttccgtgttg accttgtcct gcagcctggc agaggttaga agtttcatcc tggcgctcct
+     4441 ttgacatgta ccatctatcc agggaggggg aggacaccca catttctgac ctgagttggc
+     4501 ccccatgaac ttaggctctg tggcacctgc agatgccgtg ttgattccga cacctctgcc
+     4561 cagtgtccat ggaagagtca tcgttccagg ccgacttccc tctgggaccc caacccctgt
+     4621 atgccgtgtg aacttggggt ccccgcactg gattctgagg ctcatattcc aaataatccc
+     4681 acatatgata ggattgttga gagacataga gagaaatcag gggcatcaaa agcaaaggta
+     4741 taaacacaca gagaatgaac cagaagaagg ggatggaggg acctacagat gcataaagag
+     4801 aaaagagggc agataagtgg agagaatgat ggaagggagc agagaaaagc tccaaaatta
+     4861 gagtcctgag ggagaggccc aaggacagag aaagggagat gtgcggatga attacagaga
+     4921 ttccaaagag aactagagag accaagaggc agagaaaaac agatgataga tggatagata
+     4981 gatatagaga gatgataaat agttaggtga cagataatag ataggttata gatacataaa
+     5041 tgatgttcgg ttctttcatt gattaataga tgatacatag agatgacgat gatgaagata
+     5101 aataaataga tgatacctgg agagagatag agaggcagag agagaaatca gagagagaga
+     5161 gagatgatac atagatatag ataatagatg attgacggat agatagacaa ttgatagaga
+     5221 gataaataga tgatacatag atatacatga cagataattt atagatagac gctgaataga
+     5281 tcaatagata acatatagaa atatgcagaa agttatgaac aggacacaaa gtgagaaact
+     5341 tagaattaat aaaaagtaac atcaagtcaa caaatccaag gagggtcaga gagaagaaaa
+     5401 caatacaaaa agggaaaacg tgccccaccc tggggaagtg aggtcagaga cctagagaga
+     5461 cagagaaggt ggaaggagga aacagacatg aagagagatc gagtggaggg tgagagagag
+     5521 cattaggtca tagagcaggg cagggagttc tcagctcaga cccgagtgac cctgggacag
+     5581 ggaagaacct ccctgaggaa actgcccgtt tctgtcacag gtaaatatga gaaaccttct
+     5641 ctctcagccc agccgggccc cacggttcag gcaggagaga acgtgacctt gtcctgcagc
+     5701 tcctggcgct cctttgacat gtaccatcta tccagggagg gggaggccca tgaacttagg
+     5761 ctccctgcag tgcccagtgt ccatggaacg ttccaggccg acttccctct gggacccatg
+     5821 gagggaccta cagatgcttc ggttctttcc gtgccccacc cttcgagtgg tcagacccga
+     5881 gtgacccact gcccgtttct gtcacaggtg aggaaagccc atgcctgtcc catgtcttac
+     5941 gatcctagag ccatagttga ggagcttcct gctgatgatg gaaagaagca tggacagatg
+     6001 cagagagaag acgaagcctg ggtgcgaggg gggaatcagg gcacagcatg gcagagaggg
+     6061 cacctccaaa ccctcctgcg tggcctgcgt ggttgtccgc ggtcagggct ccaggcaccc
+     6121 aggcagatgg agaaagcggt caggacagac ccagaggagg gagactgggc tcggtttggg
+     6181 gagatcagag gttccctcgg cccctcaacc ttacccattc accagaagcc caccccggcc
+     6241 tctcacccac agagacatat catcaccagc aaaccctagg actgtttcct ctttgtctga
+     6301 aaaattattt attgaggtta aatacaccta tatagtttac cacttttaac aatttttttt
+     6361 tttgaggcgg agtctacctc tgtcccctat gctggagtac actggcacaa tcttggctca
+     6421 ctgcaacctc cgcctcctgg gttcaagcaa ttctcctgcc tcagccacct gagtagccgc
+     6481 tactacaggc gtgcaccacc aggccaggct actttttgta tttttagtag agacagggtt
+     6541 tcaccatatt ggtcgggttg gtctcgaact cctgaccacg tgatccgcca gcctcggcct
+     6601 cccaaagtgc tgggattaca ggtgtgagcc accacgccca gccaccttta ccatttttaa
+     6661 gtgtaaagtc aagtggtcat aaatacattt atatatttat gtgtgtgtgt gtatatacat
+     6721 atatgtgtat atatgtgcgt gtgtatatgt gtatatatat atgtgtgtgt gtatatgtgt
+     6781 atatatatgt gtgtgcatat atatgtatat ttttaaccct cctccctttt cttccgggcc
+     6841 tctggtagcc accattctac tctctacctt catgagatca ccttttatct cccgcctatg
+     6901 ggtgagaaat gggaatcttt gtaatgacct ccagttccat ccatgtggct gcaaatgtca
+     6961 gggtgttact gtctctatgg atgagtagtc tccactgtgt gtatgtacta cattctctct
+     7021 atccgttcac ccactgatgg gcaggtaggt tgtctccatg tcttggctac tgtgaacagt
+     7081 gctggaccaa tcatacgagc gcagatatta cttcgatata ctgatttcct ttcctttgga
+     7141 tataaaccca gtagtgaaat tgctagatac tatgaaagtt ctctttttag tttttcgttt
+     7201 gttgttttgg ttttggtttt tgagacagtt tccctctgtg cccaggctgg agttcaagtg
+     7261 atgtgatctt gcctcattgc aacctccatc tcctgggttc aaacgatttt cctgcctcag
+     7321 cctccctagt agctgggatt acaggtgcat gccaccatgc ctggctactt tttgtacttt
+     7381 ttagtacaga tggggtttcc ccatgttggc caggctgctt tcaaactcaa gacctcaagt
+     7441 gaggcgcctg cctcagtctc gcaaagtgct gggattacag gtgggagcca ctgtgcccaa
+     7501 tttcttttta gttatttaaa ggacttccat acttttctcc gtaatggctg tactaattta
+     7561 cattcctacc aacagggtac cagggttctc ctttctctac caccttgcca gcatttgttt
+     7621 tgcctgtctt gcagctaaaa gccattttat tttattttat tttattttat tttattttat
+     7681 tttatttatt ttgagatgga gttttgctct tgtcacccag gctggagtgc agtggcacga
+     7741 tctcggctca ctgcaacctc cacctcccgg gttcaagtga tcctcctgcc tcagcctccc
+     7801 gaatagctgg gattacagga atgcgccacc atgcctggct aatttttgca tttttagtag
+     7861 aaacagtgtt tctccacgtg ggtcaggctg gtctcaaact cccaacctca ggtgattcgc
+     7921 ccacctcagg ctctcaaagt gctaggatga tagacgtgag ccaccacgcc cggcctaaaa
+     7981 gccattttaa tggggtgaga tgacaactca ctttgatttt aatttgcatt tttctaatga
+     8041 taagtgatac tgagcacttt ttcatatgcg gggaaatttc aggtcttttg ctccttttta
+     8101 attaaatcat ttgttttatt gagttgttta agcttctcat atttctagtt attaatcccg
+     8161 tctcagatgc atagtttgca catatttgct cccaatctgt gggttgtctc ttcactttgt
+     8221 tggttaatgg ttagcggtgc agaagctgct tagtttgatg taatcccaat ggtctatttt
+     8281 ttgctttgat tacttgtgtt tttaaggttt taaacaaaat gtctttcctc agacaaatgt
+     8341 cctggagcat ttccccaaga ctttctacta tgtgtttcat aggttcagcc ttagactcac
+     8401 atctttaatc cattttcatt tgatttttgt gtatggtgag aggtagaggt gcagtttcat
+     8461 tcctctgcat gtagatatcc agttttccct gcatggttta ctaaaaagtc tgtcctttcc
+     8521 tgattgtaag ttcttggcac ctttgtcaaa gtccatcgga tgggctgggc acggtggttc
+     8581 acacctgcaa ttccagcact ttgggaggcc gaggcaggtg gatcacctga ggccaagagt
+     8641 tcaagatcag cctggccaac atggtgaaac atcgtctgta ctaaaaatac aaaaattagc
+     8701 tgagcatggt ggtcagcgcc tgtaatacca ctactcagga gtttgaggca aaagaattga
+     8761 ttgaacccag gaggctgagg ttgcagtgaa ccgagattgc acctctgcac tccaacctgg
+     8821 gtgacagagc gagattccgt ctcaaaagag aaaaaaaaaa aaaaaaaacc attggatgta
+     8881 aatgcatgga ttatatctgt gttcttaatt ctgctccgtt gttctatgtg cctttcttta
+     8941 tgccaatgcc atgctgtttt gcttactaaa gctctgtaac atatttttag atcaggtaga
+     9001 gtgatgctcc tgttttcttt ttataccttg aactctcaag acagtgggca tcacatacaa
+     9061 acattatgga gaaaaggatc ccaggattcc cagggcccaa tattaaataa cagagtgttg
+     9121 gccatgaacc aacctcaaat atttccattg agtagaggac aggcagcctc atttcctcac
+     9181 ctctctcctg tctcgtgttc tagggaactc ttcaaatggt tggccttcac ccactgaacc
+     9241 aagttccaaa actggtgagt acagaaccct cttatatctg cttttgggaa cctggggagt
+     9301 tggaagcctt ggattcaggc gttgactcag catctcgcag ctctgacatt gtgggcctgt
+     9361 cttccaccat ctctgaactc cagatactcc aacagtgaaa gggatctggg cccaacacag
+     9421 ggctcagtga aatctcttaa tctctaattt tatggagatg agacctccta caagctagaa
+     9481 gaatgactgc ctatctgaca tccttctcag gaaaaataca gtgcttgttc tccctgcatt
+     9541 cctaactgga ggataaattc ctgggggctt gacagaggga agggaaggga acatctgatg
+     9601 agggccaggg gttttagaga agttccactt gccaaagaat gagctcctgt tggtcatgag
+     9661 gcaaccctgg ctgactcagc agagcaagag ccttgcagta acagagaaca gagcttatgc
+     9721 acgcacactt cgactcactg actcattcag ccatggcccc atgctcaggc tgtgcagctg
+     9781 gaatcctttc ctactgttgc cataacaaat ttccacaaga ttcgtgggtg aaaacaaaat
+     9841 ggttttttaa ttatcttaca gtgctgtagc tcaaaggatg aaatgcatct tactgggcta
+     9901 aaatcaggtg acagcaaggc tgccttcctt ctgaaggttc caggcaagaa tttgcttctc
+     9961 acttgtccca gcttctaaag gctcccacat cccttggctc ctggtgccct tcctccttcc
+    10021 tcaaaaccca caaagactgg tcacatctca catggcatca ctcagaccct tcttccttac
+    10081 cacacttctt tctctgaatg ctgctctccc ttcttcttca tctttggaaa acttggggat
+    10141 tctattgggt tcaccaagat gaaaatccat cataatctcc ctgaaatcat ccaggatacc
+    10201 cttgtcttaa gttcagctga ttagcaaccg taattctgtc tgcaatcttc attcctcctt
+    10261 tccatgtaaa ataacatatt cacaagctat ggaggctagg acagggacat tttggagtgg
+    10321 gacagcgttc tcctgccttc cacaaacagg aaacaagatg catttggcct ctgctcttgg
+    10381 gacactgata ttgcagatgg ttaaatggga gggcagaaaa tgaatgcaca agtgtaccaa
+    10441 taaatgaatg atccattgga aagcatctgt gcaagaaatc tatttgcttg ttcgtttgtt
+    10501 tatcgagacg gagtctccct ctgtcttcca ggctacagtg cagtggcacc atctctgctc
+    10561 actgcaacct gtgcctcctg ggttcaagtg attctcctgc ctcagcctct cgagtagctg
+    10621 ggattacagg caaccacgac cacgcccggc taattctgtt tgtatatttt ttgtagagag
+    10681 gatgtttcac catgttggcc aagcttgtct gaaactccca acctcaagtg atctgaccat
+    10741 ctcagcctcc caaagtactg ggattacagg tgtgagccac tgtgcccagc cagaatttaa
+    10801 aataaataat agataatgct gagtgtataa ttttggatga cagagaaggt ctcactaatc
+    10861 agatatttgt gacattaatg aaaaagatgg attgaatccc tggaagactg gcggaaggat
+    10921 tttccgcaca cagctgtcag ccttgaaggc acaaaggtga aaacaatctt atgtggaagg
+    10981 aagaggctct gcctgaaacg ctgggaatga gatggggaga atcactggaa agagaggaga
+    11041 gcacactggg tacacaggaa actaaagagg aacaaggagt gtgtgtttta tactcacagc
+    11101 cattggattc acctcagggt aactaggaat ccctacatga ttaatagtga ctgacatgaa
+    11161 cataagggag gcccaggtgc gtaactggaa tctaggagac tgtggaaaag gcaattccca
+    11221 cctcactggt gaaatgtggt gctgatttag acactaaatg aatgaaggac atggatataa
+    11281 gatatgtttg tgaggtagaa tcatttgcag ggaggactcg ctgggtttga ttttcctagt
+    11341 tgtttaatcc ttgcttaatt aaattctttc tgagatttat tcctcctgca tgtaaatcaa
+    11401 tacctggcag aggagtgaca gatagatgag gggtggtaga aatgaaggga cctaattaca
+    11461 acataatata caagactgtg aacggttgct catgcctcta acccagcact gcaggaggcc
+    11521 aaggcaggtg gattccatga agtcaggagt tcaagaccag cctggccaac atggtgaaac
+    11581 cctatctcta ataaaaatac aaatattagc tgagcatggt ggtgcatgcc tgtaatccca
+    11641 gctcctactc tggaggagga agcaggagaa tgacttcaac ccaggaggtg gaggttgcag
+    11701 tgagtcgaga tcacatcact gcactccaac ctgggtgact caaggagact ccgtctcaaa
+    11761 taataaaaat aagaaatgca taaatataat gtaacacaca tgaatgacaa tggcacctgg
+    11821 attaccatca tcattttcct atttctctat aattacttct ttgatcgttt atcttatcca
+    11881 ttaggcaatc agcctaaaac ctcttcccca tttgctttct gtgagcgtga aataatatag
+    11941 aaaatatgaa aactccctga tcccaccagc acaggtcctg gaatagagga agtgctctgc
+    12001 tcatcgcaaa atgctggccc cctcacccaa atcccccacc ttacccctac ttccaatcac
+    12061 ctgtggagat tcagatagac catggggagg taaacactaa tactacttgc agtgagttca
+    12121 gatcttggaa tcagagatca gcaccagcac tagctcctgg tcccctttcc tactaatcca
+    12181 cggaaggaca ggttgtattg aagcaataga tggtggaggg cattgtcctt cccccagctt
+    12241 ctcgtgtaga acagcaacct aatatatgac tcccgagatc acaaagagta gcacgtttcc
+    12301 aacgggcttc aacgctattt cctggctgtt tgacataaga gaattctgct tcgtgttttt
+    12361 gatcttgatt tcacttttct ttccttttct tggagaatgt aagttgtttg agtcaggagt
+    12421 gctgtgcatg tagaaatcct aaagcacatt cactgtgcat gaatcccagt tcagtcttcc
+    12481 cagagaagac tctaaacacc tcctgtactg cacctggggc tatgccaatt cctatcactc
+    12541 accatcactc cagggagaca gaacacacag agaatatgtg acataagcag gttcattact
+    12601 aacacaaaag cagcaagtga caactgaagc atttatttct atgtgagcca gtcccccaag
+    12661 gctcagaaaa gctgctcagg acatatagaa tcaccccata tgcagtgtat ctgggggaac
+    12721 ccgagaatca gcccagcctg ggttttgtac cctggagcca caggaagcac tgagctaaag
+    12781 cactgcatgg cgtcctcctc tgggaagaac aggaagacag cccagcctgg gttttgtacc
+    12841 ctggagccac aggaagcact gagctaaagc actgcatgac gtcctcctct gggaagaaca
+    12901 agaagacagc ccaggccgtt ctgggacgtt cctcctgatt tcacgatgct aatgtcttag
+    12961 tccatttttg ttgctataaa agaacacttg agcttgggta acttctaaag ataagcgatt
+    13021 tatttgcctc acagttctgc aggctgtact agaagcatgg caccagcatc tatttcttgt
+    13081 aatgacctca gtctgctccc actctggcag aagggaagga gggtctctgt gtgcagagac
+    13141 cagagagatc acacggcaag agagggagca agggggaggg ggagcgatgg agcttccaag
+    13201 ctctgtttaa aaaccaattc tccaggaact aatagaggga gaacttgcta accccgtcgt
+    13261 atgggacagc attaatctat gcatgatgga tccacctcca tgacccaaat acgtcccaat
+    13321 agccccaacc tcccacattg ggggttaaat ttcaatgtgc tgtttgaagg ggtcaagcat
+    13381 ctaaactaaa gcagttgtat attcagcaca ttctatggtt actatgagag ctataactga
+    13441 gaaagcagga gaaacctggg tctcccacca tgtgggtgca cgtcctaaag agacgttgta
+    13501 tatggctacc tgtcaatcaa gaaatgcgag acaatccata gagaggaact gctgtgatta
+    13561 gcttcttgtt ggtgcctcgt cttcctccag gtatccccag acacctgcat gttctgattg
+    13621 tgtcctcagt ggtcatgatt ctcttcacca tcctcttctt ctttctcctg catcgctggt
+    13681 gctccaatga aaagggtaag tctcacgaag cagaggccac agacctcagg gccaagtggg
+    13741 gaagcgggat gggagcacgc aggtgtgtgt ttctcactgg caggatggtc tctggcccaa
+    13801 ggcaggagcc acagaggcag ggatttctag agagagcacc agacgccctg tccctgcctt
+    13861 cagctcacag accattgcct gattctcaac tgtatcctca tgtccctgca gccactgaca
+    13921 tccaggagaa ggttccatga caggcagaaa gtgggagaca gaatcaatgg gatggaaatt
+    13981 gagagctatt tatgggatgg gtccttgaac taagagagat agaatgtctg agtctggctg
+    14041 ttggcagctg agggacctca ggcacctacg gcctccccct gtgtgttggg ctctgcacat
+    14101 gaaatgagga cccagacgtg ccctctcagc tgttttgatg acttttgtct cctacagatg
+    14161 ctgctgtaat ggaccaagag cctggagtgg aaagaacagt gaatccggag gtaggtcctc
+    14221 ctcggtccag cctcatggat atagtcttat tccctaatag tcctgaagaa tgtgagcccc
+    14281 tccctcactc aacatttccc tctctccagg actctgatga acaagaccct caggaggtga
+    14341 catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc ccttctcaga
+    14401 ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat gctgagccca
+    14461 gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca acagccctgt
+    14521 ctcaaaccca gcttgccagt tccaatgtac cagcagcagg aatctga
+//
+LOCUS       NHP00049                1115 bp    DNA     linear   PRI 25-OCT-2023
+DEFINITION  Mamu-KIR1D*001, KIR1D locus allele.
+ACCESSION   NHP00049
+VERSION     NHP00049
+DBLINK      INSDC: AF334634
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Hershberger KL, Shyam R, Miura A, Letvin NL.
+  TITLE     Diversity of the killer cell Ig-like receptors of rhesus monkeys.
+  JOURNAL   J Immunol 166:4380-4390 (2001)
+   PUBMED   11254692
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*001
+            IPD accession: NHP00049
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..1115
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..1115
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*001"
+     exon            1..25
+                     /gene="KIR1D"
+                     /number=1
+     exon            26..61
+                     /gene="KIR1D"
+                     /number=2
+     exon            62..361
+                     /gene="KIR1D"
+                     /number=3
+     exon            649..699
+                     /gene="KIR1D"
+                     /number=4
+     exon            700..804
+                     /gene="KIR1D"
+                     /number=5
+     exon            805..857
+                     /gene="KIR1D"
+                     /number=6
+     exon            858..1115
+                     /gene="KIR1D"
+                     /number=7
+     intron          362..648
+                     /gene="KIR1D"
+                     /number=1
+     CDS             join(1..25,26..61,62..361,649..699,700..804,805..857,
+                     858..1115)
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*001"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MVVSVACVGFFLVQRACPHTGVHRKPPLLALPGPLVKSEETVILQ
+                     CWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSVTHS
+                     PYVLSAPSDPLEIVITGNSSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILFFFL
+                     LHRWCSNEKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITRPSQRS
+                     KRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atggtcgtta gcgtggcgtg tgttgggttc ttcttggtcc agagggcctg tccacacacg
+       61 ggagtccaca gaaaacctcc tctcctggcc ctcccaggtc ccctggtgaa atcagaagag
+      121 acggtcatcc tgcagtgctg gtcagatatc aagtttgagc acttccttct gcaccgagtg
+      181 gggaagtttg aggagccctt gcatctcatc ggagagctcc atgatggggg ctccaaggcc
+      241 aatgtctcca tcagtccagt gacacctgcc ctggcaggga cctaccaatg ctacggttct
+      301 gtcactcact ccccctatgt gttgtcagct cccagtgatc ccctggagat cgtgatcaca
+      361 ggtaaatatg agaaaccttc tctctcagcc cagccgggcc ccacggttca ggcaggagag
+      421 aacgtgacct tgtcctgcag ctcctggcgc tcctttgaca tgtaccatct atccagggag
+      481 ggggaggccc atgaacttag gctccctgca gtgcccagtg tccatggaac gttccaggcc
+      541 gacttccctc tgggacccat ggagggacct acagatgctt cggttctttc cgtgccccac
+      601 ccttcgagtg gtcagacccg agtgacccac tgcccgtttc tgtcacaggg aactcttcaa
+      661 atggttggcc ttcacccact gaaccaagtt ccaaaactgg tatccccaga cacctgcatg
+      721 ttctgattgt gtcctcagtg gtcatgattc tcttcaccat cctcttcttc tttctcctgc
+      781 atcgctggtg ctccaatgaa aaggatgctg ctgtaatgga ccaagagcct ggagtggaaa
+      841 gaacagtgaa tccggaggac tctgatgaac aagaccctca ggaggtgaca tacgcacagt
+      901 tggatcactg cgttttcaca cagggaaaaa tcactcgccc ttctcagagg tccaagagac
+      961 ccccaacaga taccagcgtg tacatagagc ttccagatgc tgagcccaga tcgaaagttg
+     1021 accacagtca ggccttgagg gggtcctcca gggagacaac agccctgtct caaacccagc
+     1081 ttgccagttc caatgtacca gcagcaggaa tctga
+//
+LOCUS       NHP00642                 858 bp    DNA     linear   PRI 26-MAR-2020
+DEFINITION  Mamu-KIR1D*003:01, KIR1D locus allele.
+ACCESSION   NHP00642
+VERSION     NHP00642
+DBLINK      INSDC: KY660349
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Ries M, Reynolds MR, Bashkueva K, Crosno K, Capuano S, Prall TM,
+            Wiseman R, O'Connor DH, Rakasz EG, Uno H, Lifson JD, Evans DT.
+  TITLE     KIR3DL01 upregulation on gut natural killer cells in response to SIV
+            infection of KIR- and MHC class I-defined rhesus macaques.
+  JOURNAL   PLoS Pathog 13:e1006506 (2017)
+   PUBMED   28708886
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*003:01
+            IPD accession: NHP00642
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..858
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*003:01"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..858
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*003:01"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITCPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVLAAGIRRC
+                     ESAS"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcacttgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac tagcagcagg aatccgaagg
+      841 tgtgagtctg catcttag
+//
+LOCUS       NHP00714                 858 bp    DNA     linear   PRI 26-MAR-2020
+DEFINITION  Mamu-KIR1D*005, KIR1D locus allele.
+ACCESSION   NHP00714
+VERSION     NHP00714
+DBLINK      INSDC: FJ217805
+            INSDC: LR694090
+            INSDC: LR740768
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*005
+            IPD accession: NHP00714
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR1D*004
+FEATURES             Location/Qualifiers
+     source          1..858
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*005"
+                     /note="previous designations: Mamu-KIR1D*004"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..858
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*005"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     TLQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITCPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVLAAGIRRC
+                     ESAS"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcaccct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcacttgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac tagcagcagg aatccgaagg
+      841 tgtgagtctg catcttag
+//
+LOCUS       NHP00715                 837 bp    DNA     linear   PRI 25-OCT-2023
+DEFINITION  Mamu-KIR1D*006, KIR1D locus allele.
+ACCESSION   NHP00715
+VERSION     NHP00715
+DBLINK      INSDC: LR694091
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*006
+            IPD accession: NHP00715
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*006"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*006"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSVACVGFFLVQRACPHMGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFGHFLLHQVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLDIVITGNSSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNEKDAAVMDQEPSGDRTVNPEDSDEQYPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccacacatgg gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgggca cttccttctg
+      181 caccaagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggacatc
+      361 gtgatcacag ggaactcttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat tctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaatg aaaaggatgc tgctgtaatg
+      541 gaccaagagc cttctgggga cagaacagtg aatccggagg actctgatga acaataccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac cagcagcagg aatctga
+//
+LOCUS       NHP00716                 837 bp    DNA     linear   PRI 25-OCT-2023
+DEFINITION  Mamu-KIR1D*007, KIR1D locus allele.
+ACCESSION   NHP00716
+VERSION     NHP00716
+DBLINK      INSDC: LR694092
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*007
+            IPD accession: NHP00716
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*007"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*007"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSVACVGFFLVQRACPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEETLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPNAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccacacacag gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagaccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccaaat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac cagccgcagg aatctga
+//
+LOCUS       NHP00717                 837 bp    DNA     linear   PRI 25-OCT-2023
+DEFINITION  Mamu-KIR1D*008, KIR1D locus allele.
+ACCESSION   NHP00717
+VERSION     NHP00717
+DBLINK      INSDC: LR694093
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*008
+            IPD accession: NHP00717
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*008"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*008"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFGHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLDIVITGNSSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNEKDAAVMDQEPAGDRTVNPEDSDEQYPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgggca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggacatc
+      361 gtgatcacag ggaactcttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat tctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaatg aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctgctgggga cagaacagtg aatccggagg actctgatga acaataccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac cagccgcagg aatctga
+//
+LOCUS       NHP00718                 837 bp    DNA     linear   PRI 25-OCT-2023
+DEFINITION  Mamu-KIR1D*009, KIR1D locus allele.
+ACCESSION   NHP00718
+VERSION     NHP00718
+DBLINK      INSDC: LR694094
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*009
+            IPD accession: NHP00718
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*009"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*009"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSVACVGFFLVQRACPHTGVHRKPSLLALPGPLVKSGETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccacacacgg gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcaggagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac cagcagcagg aatctga
+//
+LOCUS       NHP00805                 858 bp    DNA     linear   PRI 25-JAN-2022
+DEFINITION  Mamu-KIR1D*003:02, KIR1D locus allele.
+ACCESSION   NHP00805
+VERSION     NHP00805
+DBLINK      INSDC: LR740767
+            INSDC: LR865783
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*003:02
+            IPD accession: NHP00805
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR1D*010; Mamu-KIR1D*003:04
+FEATURES             Location/Qualifiers
+     source          1..858
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*003:02"
+                     /note="previous designations: Mamu-KIR1D*010;
+                     Mamu-KIR1D*003:04"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..858
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*003:02"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITCPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVLAAGIRRC
+                     ESAS"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttct ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcacttgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac tagcagcagg aatccgaagg
+      841 tgtgagtctg catcttag
+//
+LOCUS       NHP01150                 858 bp    DNA     linear   PRI 02-MAR-2021
+DEFINITION  Mamu-KIR1D*012, KIR1D locus allele.
+ACCESSION   NHP01150
+VERSION     NHP01150
+DBLINK      INSDC: LR992919
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*012
+            IPD accession: NHP01150
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..858
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*012"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..858
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..858
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*012"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSVACVGFFLVQRACPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITCPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVLAAGIRRC
+                     ESAS"
+ORIGIN
+        1 atgtcgctca tggtcgttag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccacacacgg gagtccacag aaaaccttct ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgatcc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcacttgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac tagcagcagg aatccgaagg
+      841 tgtgagtctg catcttag
+//
+LOCUS       NHP01213                 837 bp    DNA     linear   PRI 25-JAN-2022
+DEFINITION  Mamu-KIR1D*013, KIR1D locus allele.
+ACCESSION   NHP01213
+VERSION     NHP01213
+DBLINK      INSDC: FJ217804
+            INSDC: LR739031
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Chaichompoo P, Bostik P, Stephenson S, Udompunturuk S, Kobkitjaroen
+            J, Pattanapanyasat K, Ansari AA.
+  TITLE     Multiple KIR gene polymorphisms are associated with plasma viral
+            loads in SIV-infected rhesus macaques.
+  JOURNAL   Cell Immunol 263:176-187 (2010)
+   PUBMED   20430371
+REFERENCE   2
+  AUTHORS   Ries M, Reynolds MR, Bashkueva K, Crosno K, Capuano S, Prall TM,
+            Wiseman R, O'Connor DH, Rakasz EG, Uno H, Lifson JD, Evans DT.
+  TITLE     KIR3DL01 upregulation on gut natural killer cells in response to SIV
+            infection of KIR- and MHC class I-defined rhesus macaques.
+  JOURNAL   PLoS Pathog 13:e1006506 (2017)
+   PUBMED   28708886
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*013
+            IPD accession: NHP01213
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR1D*003:02
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*013"
+                     /note="previous designations: Mamu-KIR1D*003:02"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*013"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNPSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNKKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPSTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttct ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaacccttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat cctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catatgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag accctcaaca gataccagcg tgtacataga acttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac cagcagcagg aatctga
+//
+LOCUS       NHP01214                 837 bp    DNA     linear   PRI 25-JAN-2022
+DEFINITION  Mamu-KIR1D*010, KIR1D locus allele.
+ACCESSION   NHP01214
+VERSION     NHP01214
+DBLINK      INSDC: LR694095
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*010
+            IPD accession: NHP01214
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR1D*003:02
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*010"
+                     /note="previous designations: Mamu-KIR1D*003:02"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*010"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNSSNGWPSPTEPSSKTGIPRHLHVLIGTSVVMILFTIFF
+                     FFLLHRWCSDKKDAAVMDQEPGVERTVNPEDSDEQYPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTVLSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttct ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggagatc
+      361 gtgatcacag ggaactcttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gggacctcag tggtcatgat cctcttcacc
+      481 atcttcttct tctttctcct gcatcgctgg tgctccgaca aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaataccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagtcctgt ctcaaaccca gcttgccagt tccaatgtac cagcagcagg aatctga
+//
+LOCUS       NHP01215                 837 bp    DNA     linear   PRI 25-JAN-2022
+DEFINITION  Mamu-KIR1D*011, KIR1D locus allele.
+ACCESSION   NHP01215
+VERSION     NHP01215
+DBLINK      INSDC: LR694096
+KEYWORDS    IPD-NHKIR; KIR1D.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR1D*011
+            IPD accession: NHP01215
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR1D*003:03
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*011"
+                     /note="previous designations: Mamu-KIR1D*003:03"
+     exon            1..34
+                     /gene="KIR1D"
+                     /number=1
+     exon            35..70
+                     /gene="KIR1D"
+                     /number=2
+     exon            71..370
+                     /gene="KIR1D"
+                     /number=3
+     exon            371..421
+                     /gene="KIR1D"
+                     /number=4
+     exon            422..526
+                     /gene="KIR1D"
+                     /number=5
+     exon            527..579
+                     /gene="KIR1D"
+                     /number=6
+     exon            580..837
+                     /gene="KIR1D"
+                     /number=7
+     CDS             1..837
+                     /gene="KIR1D"
+                     /allele="Mamu-KIR1D*011"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor KIR1D"
+                     /translation="MSLMVVSMACVGFFLLQRAWPHTGVHRKPSLLALPGPLVKSEETV
+                     ILQCWSDIKFEHFLLHRVGKFEEPLHLIGELHDGGSKANVSISPVTPALAGTYQCYGSV
+                     THSPYVLSAPSDPLEIVITGNSSNGWPSPTEPSSKTGIPRHLHVLIVSSVVMILFTILF
+                     FFLLHRWCSNEKDAAVMDQEPGVERTVNPEDSDEQDPQEVTYAQLDHCVFTQGKITRPS
+                     QRSKRPPTDTSVYIELPDAEPRSKVDHSQALRGSSRETTALSQTQLASSNVPAAGI"
+ORIGIN
+        1 atgtcgctca tggtcgttag catggcgtgt gttgggttct tcttgctgca gagggcctgg
+       61 ccacacacgg gagtccacag aaaaccttcc ctcctggccc tcccaggtcc cctggtgaaa
+      121 tcagaagaga cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg
+      181 caccgagtgg ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc
+      241 tccaaggcca atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc
+      301 tacggttctg tcactcactc cccctatgtg ttgtcagctc ccagtgatcc cctggagatc
+      361 gtgatcacag ggaactcttc aaatggttgg ccttcaccca ctgaaccaag ttccaaaact
+      421 ggtatcccca gacacctgca tgttctgatt gtgtcctcag tggtcatgat tctcttcacc
+      481 atcctcttct tctttctcct gcatcgctgg tgctccaatg aaaaggatgc tgctgtaatg
+      541 gaccaagagc ctggagtgga aagaacagtg aatccggagg actctgatga acaagaccct
+      601 caggaggtga catacgcaca gttggatcac tgcgttttca cacagggaaa aatcactcgc
+      661 ccttctcaga ggtccaagag acccccaaca gataccagcg tgtacataga gcttccagat
+      721 gctgagccca gatcgaaagt tgaccacagt caggccttga gggggtcctc cagggagaca
+      781 acagccctgt ctcaaaccca gcttgccagt tccaatgtac cagccgcagg aatctga
+//

@@ -1,0 +1,71 @@
+LOCUS       NHP02073                 786 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Saoe-N4*01, N4 locus allele.
+ACCESSION   NHP02073
+VERSION     NHP02073
+DBLINK      INSDC: U83202
+KEYWORDS    IPD-MHC; MHC class I; N4.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Alvarez M, MartÃ­nez-Laso J, GarcÃ­a-Torre C, Varela P, PÃ©rez-Blas
+            M, Moreno MA, GÃ³mez-Casado E, Arnaiz-Villena A.
+  TITLE     Description of a new kind of MHC DNA sequence in Saguinus oedipus
+            (cotton-top tamarin).
+  JOURNAL   Eur J Immunogenet 25:287-292 (1998)
+   PUBMED   9777328
+COMMENT     IPD-MHC allele: Saoe-N4*01
+            IPD accession: NHP02073
+            Species prefix: Saoe
+            MHC class: I
+            Previous designations: Saoe-N4
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Saguinus oedipus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9490"
+     gene            1..786
+                     /gene="N4"
+                     /allele="Saoe-N4*01"
+                     /note="previous designations: Saoe-N4"
+     exon            1..13
+                     /gene="N4"
+                     /number=1
+     exon            122..367
+                     /gene="N4"
+                     /number=2
+     exon            591..786
+                     /gene="N4"
+                     /number=3
+     intron          14..121
+                     /gene="N4"
+                     /number=1
+     intron          368..590
+                     /gene="N4"
+                     /number=2
+     CDS             join(1..13,122..367,591..786)
+                     /gene="N4"
+                     /allele="Saoe-N4*01"
+                     /codon_start=3
+                     /product="MHC class I N4 antigen"
+                     /translation="DLSSEPLLAPRLPVHEVFEDPCFISMGYMEDTQIARFDRDASSPR
+                     MEPRAPWMEKVGLEYWNLGTRTEFPSEPAEPARLLQPERSRVPHPPGDVLLEPGAGRAP
+                     SPRVSPVRLX"
+ORIGIN
+        1 gagacctgag caggtaagtg cgggatcgca agggaaacgg cctctgaggg aggagcgagg
+       61 agcccgcccc gcgggagcac aggactcggg gagccgcgcc aggaggaggg tcgggcgggt
+      121 ctgagcccct cctcgccccc aggctcccag tccatgaggt atttgaggac ccctgcttca
+      181 tctccatggg ctacatggaa gacacgcaga tcgcgcggtt cgacagagac gcctcgagtc
+      241 cgaggatgga gccgcgggcg ccgtggatgg agaaggtggg tctggagtat tggaacctgg
+      301 gtacacggac agagtttccg agtgaacctg cagaacctgc gcggctacta caaccagagc
+      361 gtagccggtg acttatgcct gtccagcgcg caggtcacga cccctccccg ttcccgacgg
+      421 acggcctggg tcaccccgag tctccgggtc cgagatccac cccgagactg ggggacaccc
+      481 ccggaccctc gacctgggag agccccaagc ccctttaccc ggtttcgttt tcagtttagg
+      541 ccaaaatagc agcgggttgg acggtggcgg ggctcgatgg gcggggccag ggtcccacac
+      601 cctccgggag atgtattgct agaacctggg gccggaaggg ctccttctcc acgggtatca
+      661 ccagttcgcc tatgacggca aggattaagt cgccccgaac gaggacctgc gctcctggac
+      721 catcgcggac ctggcggctc agatcaccca gctcaagtgg gaggtagaca atgtggcgga
+      781 gaaggt
+//

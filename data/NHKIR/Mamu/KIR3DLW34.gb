@@ -1,0 +1,951 @@
+LOCUS       NHP00879                1323 bp    DNA     linear   PRI 10-MAR-2020
+DEFINITION  Mamu-KIR3DLW34*001, KIR3DLW34 locus allele.
+ACCESSION   NHP00879
+VERSION     NHP00879
+DBLINK      INSDC: EU419051
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Moreland AJ, Guethlein LA, Reeves RK, Broman KW, Johnson RP, Parham
+            P, O'Connor DH, Bimber BN.
+  TITLE     Characterization of killer immunoglobulin-like receptor genetics and
+            comprehensive genotyping by pyrosequencing in rhesus macaques.
+  JOURNAL   BMC Genomics 12:295 (2011)
+   PUBMED   21645414
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*001
+            IPD accession: NHP00879
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*001
+FEATURES             Location/Qualifiers
+     source          1..1323
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1323
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*001"
+                     /note="previous designations: Mamu-KIR3DLW03*001"
+     exon            1..25
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            26..61
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            62..346
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            347..646
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            647..940
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            941..991
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            992..1096
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1097..1149
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1150..1323
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1323
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*001"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="IVLSVACVGFFLVQTACPYTGGQDKNFLSAWPSPVVPQGGHVTLR
+                     CHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPTEWS
+                     TPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEEPLH
+                     LVEELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYEKPS
+                     LSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVPSVNGTFQGDFPLGP
+                     ATHGGTYRCFGSFRTAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLHVLI
+                     GTSVIMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQLDH
+                     CVLTQGKITHPSQKPKTPPTDTSVYRELPNAEPRSKVVFYP"
+ORIGIN
+        1 atagtcctca gcgtggcgtg tgttgggttc ttcttggtcc agacggcctg tccatacacg
+       61 ggtggtcagg acaagaactt cctgtctgcc tggcccagcc ctgtggtgcc tcagggagga
+      121 catgtgactc ttcggtgtca ctatcgtggt gggtttaaca acttcactct gtacaaagac
+      181 gacagaagcc acattcccat cttccacagc agaatattcc aggagagctt cctcatgggc
+      241 cctgtgaccc cggcacacgc agggacctac agatgtcggg gttcataccc gcactccccc
+      301 actgagtggt cgactcccag caaccccctg gcgatcaggg tcacaggagt ccacaaaaag
+      361 ccttccctcc tggccctccc aggtcccctg gtgaaatcag gagagacggt caccctacaa
+      421 tgttcatcag ataccgtgtt tgagcacttc tttctgcacc gtgaggtgac ccttgaggag
+      481 cccttgcacc ttgttgaaga gctccatggt gggggatccc aggccaagta ttccatcaat
+      541 tccacgacat ctgaccttgc agggacctac agatgctatg gttcttttac tcactccccc
+      601 tatgtgttgt cagctcccag tgaccccctg gacatcgtga tcacaggtct atatgagaaa
+      661 ccttctctct cagcccagcc gggccccacg gttcaggcag gagagaacgt gaccttgtcc
+      721 tgcagctccc ggtgctcctt tgacatgtac catctatcca gggaggggga ggcccgtgaa
+      781 cttagtctct ctgcagtgcc aagcgtcaac ggaacattcc agggcgactt ccctctgggc
+      841 cctgccaccc atggaggaac ctacagatgc ttcggttctt tccgtaccgc accctacaag
+      901 tggtcacacc cgagtgaccc actgcctgtt tctgtcacag gaaacccttc acgtagttgg
+      961 ccttcaccca ctgaaccaaa ctccaaaact ggtatcccca gacacctgca tgttctgatt
+     1021 gggacctcag tgatcatgat cctcttcacc atcttcttct ttctcctgca tcgctggtgc
+     1081 tccaacaaaa agaatgctgc tgtaatggac caagagcctg cgggggacag aacagtgaac
+     1141 agggaggacc ctgatgaaca agaccctcag gaggtgacat acgcacagtt ggatcactgc
+     1201 gttctcacac agggaaaaat cactcaccct tctcagaagc ccaagacacc cccaacagat
+     1261 accagcgtgt acagggaact tccaaatgct gagcccagat cgaaagttgt cttctatcca
+     1321 tga
+//
+LOCUS       NHP00880                1332 bp    DNA     linear   PRI 24-NOV-2020
+DEFINITION  Mamu-KIR3DLW34*002, KIR3DLW34 locus allele.
+ACCESSION   NHP00880
+VERSION     NHP00880
+DBLINK      INSDC: EU419031
+            INSDC: LR865850
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Moreland AJ, Guethlein LA, Reeves RK, Broman KW, Johnson RP, Parham
+            P, O'Connor DH, Bimber BN.
+  TITLE     Characterization of killer immunoglobulin-like receptor genetics and
+            comprehensive genotyping by pyrosequencing in rhesus macaques.
+  JOURNAL   BMC Genomics 12:295 (2011)
+   PUBMED   21645414
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*002
+            IPD accession: NHP00880
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*003
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*002"
+                     /note="previous designations: Mamu-KIR3DLW03*003"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*002"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQTACPYTGGQDNTFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPT
+                     EWSALSDPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRNAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHRVLTQGKITHPSQKPKTPPTDTSVYIELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gacggcctgt
+       61 ccatacacgg gtggtcagga caacaccttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagcc gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc ggcacacgca gggacctaca gatgtcgggg ctcatacccg
+      301 cactccccca ctgagtggtc ggcactcagt gaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaacgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcaccctt ctcagaagcc caagacaccc
+     1261 ccaacagata ccagcgtgta catagaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00881                1332 bp    DNA     linear   PRI 26-AUG-2024
+DEFINITION  Mamu-KIR3DLW34*003, KIR3DLW34 locus allele.
+ACCESSION   NHP00881
+VERSION     NHP00881
+DBLINK      INSDC: FN424253
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Kruse PH, Rosner C, Walter L.
+  TITLE     Characterization of rhesus macaque KIR genotypes and haplotypes.
+  JOURNAL   Immunogenetics 62:281-293 (2010)
+   PUBMED   20195593
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*003
+            IPD accession: NHP00881
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*004
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*003"
+                     /note="previous designations: Mamu-KIR3DLW03*004"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*003"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQTACPYTGGQDKNFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPT
+                     EWSTPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYPINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRTTPYKWSDPSDPLPVSVTGNPSRTWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHCVFTQEKITCPSQRSKRPPTDTSVYTELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gacggcctgt
+       61 ccatacacgg gtggtcagga caagaacttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagca gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc ggcacacgca gggacctaca gatgtcgggg ttcatacccg
+      301 cactccccca ctgagtggtc gactcccagc aaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 cccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaagcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gctcgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct ttggttcttt ccgtaccaca
+      901 ccctacaagt ggtcagaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtacttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcactgcg ttttcacaca ggaaaaaatc acttgccctt ctcagaggtc caagagaccc
+     1261 ccaacagata ccagcgtgta cacagaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00882                1332 bp    DNA     linear   PRI 26-AUG-2024
+DEFINITION  Mamu-KIR3DLW34*004, KIR3DLW34 locus allele.
+ACCESSION   NHP00882
+VERSION     NHP00882
+DBLINK      INSDC: FN424256
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Kruse PH, Rosner C, Walter L.
+  TITLE     Characterization of rhesus macaque KIR genotypes and haplotypes.
+  JOURNAL   Immunogenetics 62:281-293 (2010)
+   PUBMED   20195593
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*004
+            IPD accession: NHP00882
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*005
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*004"
+                     /note="previous designations: Mamu-KIR3DLW03*005"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*004"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQTACPYTGGQDKNFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPT
+                     EWSTPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRTTPYKWSDPSDPLPVSVTGNPSRTWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHCVFTQEKITCPSQRSKRPPTDTSVYTELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gacggcctgt
+       61 ccatacacgg gtggtcagga caagaacttc ctgtctgcct ggcccagccc tgtggtgccc
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcaccctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagca gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc ggcacacgca gggacctaca gatgtcgggg ttcatacccg
+      301 cactccccca ctgagtggtc gactcccagc aaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaagcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gctcgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggtgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct ttggttcttt ccgtaccaca
+      901 ccctacaagt ggtcagaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtacttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcactgcg ttttcacaca ggaaaaaatc acttgccctt ctcagaggtc caagagaccc
+     1261 ccaacagata ccagcgtgta cacagaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00883                1332 bp    DNA     linear   PRI 26-AUG-2024
+DEFINITION  Mamu-KIR3DLW34*005, KIR3DLW34 locus allele.
+ACCESSION   NHP00883
+VERSION     NHP00883
+DBLINK      INSDC: LS997651
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*005
+            IPD accession: NHP00883
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*009
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*005"
+                     /note="previous designations: Mamu-KIR3DLW03*009"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*005"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQTACPYTGGQDNTFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPT
+                     EWSALSDPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRNAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHRVLTQGKITHPSQRPKTPPTDTSVYMELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gacggcctgt
+       61 ccatacacgg gtggtcagga caacaccttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagcc gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc ggcacacgca gggacctaca gatgtcgggg ctcatacccg
+      301 cactccccca ctgagtggtc ggcactcagt gaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaacgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcaccctt ctcagaggcc caagacaccc
+     1261 ccaacagata ccagcgtgta catggaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00885                1332 bp    DNA     linear   PRI 24-JUN-2020
+DEFINITION  Mamu-KIR3DLW34*006, KIR3DLW34 locus allele.
+ACCESSION   NHP00885
+VERSION     NHP00885
+DBLINK      INSDC: LR694237
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*006
+            IPD accession: NHP00885
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*014
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*006"
+                     /note="previous designations: Mamu-KIR3DLW03*014"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*006"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQRACPYTGGQDNTFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSLT
+                     EWSTPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPMVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRTAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHRVLTQGKITHPSQKPKTPPTDTSVYRELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccatacacgg gtggtcagga caacaccttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagca gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc agcacacgca gggacctaca gatgtcgggg ctcatacccg
+      301 cactccctca ctgagtggtc gactcccagc aaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccatgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaccgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcaccctt ctcagaagcc caagacaccc
+     1261 ccaacagata ccagcgtgta cagggaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00886                1332 bp    DNA     linear   PRI 24-JUN-2020
+DEFINITION  Mamu-KIR3DLW34*007, KIR3DLW34 locus allele.
+ACCESSION   NHP00886
+VERSION     NHP00886
+DBLINK      INSDC: LR694239
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*007
+            IPD accession: NHP00886
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*016
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*007"
+                     /note="previous designations: Mamu-KIR3DLW03*016"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*007"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQTACPYTGGQDKNFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPT
+                     EWSTPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVEELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRTAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVIMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHRVLTQGKITRPSQRPKTPPTDTSVYTELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gacggcctgt
+       61 ccatacacgg gtggtcagga caagaacttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagca gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc ggcacacgca gggacctaca gatgtcgggg ttcatacccg
+      301 cactccccca ctgagtggtc gactcccagc aaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttgaagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaccgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt gatcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcgccctt ctcagaggcc caagacaccc
+     1261 ccaacagata ccagcgtgta cacggaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00887                1332 bp    DNA     linear   PRI 24-JUN-2020
+DEFINITION  Mamu-KIR3DLW34*008, KIR3DLW34 locus allele.
+ACCESSION   NHP00887
+VERSION     NHP00887
+DBLINK      INSDC: LR694240
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*008
+            IPD accession: NHP00887
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*017
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*008"
+                     /note="previous designations: Mamu-KIR3DLW03*017"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*008"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQRACPYTGGQDNTFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSLT
+                     EWSTPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRTAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHRVLTQGKITHPSQKPKTPPTDTSVYRELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccatacacgg gtggtcagga caacaccttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagca gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc agcacacgca gggacctaca gatgtcgggg ctcatacccg
+      301 cactccctca ctgagtggtc gactcccagc aaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaccgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcaccctt ctcagaagcc caagacaccc
+     1261 ccaacagata ccagcgtgta cagggaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP00888                1332 bp    DNA     linear   PRI 24-JUN-2020
+DEFINITION  Mamu-KIR3DLW34*009, KIR3DLW34 locus allele.
+ACCESSION   NHP00888
+VERSION     NHP00888
+DBLINK      INSDC: LR694241
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Bruijnesteijn J, de Groot N, van der Wiel MKH, Otting N, de
+            Vos-Rouweler AJM, de Groot NG, Bontrop RE.
+  TITLE     Unparalleled Rapid Evolution of KIR Genes in Rhesus and Cynomolgus
+            Macaque Populations.
+  JOURNAL   J Immunol 204:1770-1786 (2020)
+   PUBMED   32111732
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*009
+            IPD accession: NHP00888
+            Species prefix: Mamu
+            Previous designations: Mamu-KIR3DLW03*018
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*009"
+                     /note="previous designations: Mamu-KIR3DLW03*018"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*009"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQRACPYTGGQDNTFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSLT
+                     EWSTPSNPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSMNSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRTAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVMILFTIFFFLLHRWCSNKKNAAVMDQEPAGDRTVNREDPDEQDPQEVTYAQ
+                     LDHRVLTQGKITHPSQKPKTPPTDTSVYRELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gagggcctgt
+       61 ccatacacgg gtggtcagga caacaccttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagca gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc agcacacgca gggacctaca gatgtcgggg ctcatacccg
+      301 cactccctca ctgagtggtc gactcccagc aaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatgaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaccgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcatgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 cgctggtgct ccaacaaaaa gaatgctgct gtaatggacc aagagcctgc gggggacaga
+     1141 acagtgaaca gggaggaccc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcaccctt ctcagaagcc caagacaccc
+     1261 ccaacagata ccagcgtgta cagggaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//
+LOCUS       NHP01163                1332 bp    DNA     linear   PRI 02-MAR-2021
+DEFINITION  Mamu-KIR3DLW34*010, KIR3DLW34 locus allele.
+ACCESSION   NHP01163
+VERSION     NHP01163
+DBLINK      INSDC: LR992932
+KEYWORDS    IPD-NHKIR; KIR3DLW34.
+SOURCE      Macaca mulatta (Rhesus Monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mamu-KIR3DLW34*010
+            IPD accession: NHP01163
+            Species prefix: Mamu
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*010"
+     exon            1..34
+                     /gene="KIR3DLW34"
+                     /number=1
+     exon            35..70
+                     /gene="KIR3DLW34"
+                     /number=2
+     exon            71..355
+                     /gene="KIR3DLW34"
+                     /number=3
+     exon            356..655
+                     /gene="KIR3DLW34"
+                     /number=4
+     exon            656..949
+                     /gene="KIR3DLW34"
+                     /number=5
+     exon            950..1000
+                     /gene="KIR3DLW34"
+                     /number=6
+     exon            1001..1105
+                     /gene="KIR3DLW34"
+                     /number=7
+     exon            1106..1158
+                     /gene="KIR3DLW34"
+                     /number=8
+     exon            1159..1332
+                     /gene="KIR3DLW34"
+                     /number=9
+     CDS             1..1332
+                     /gene="KIR3DLW34"
+                     /allele="Mamu-KIR3DLW34*010"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR3DLW34"
+                     /translation="MSLIVLSVACVGFFLVQTACPYTGGQDNTFLSAWPSPVVPQGGHV
+                     TLRCHYRGGFNNFTLYKDDRSHIPIFHSRIFQESFLMGPVTPAHAGTYRCRGSYPHSPT
+                     EWSALSDPLAIRVTGVHKKPSLLALPGPLVKSGETVTLQCSSDTVFEHFFLHREVTLEE
+                     PLHLVGELHGGGSQAKYSINSTTSDLAGTYRCYGSFTHSPYVLSAPSDPLDIVITGLYE
+                     KPSLSAQPGPTVQAGENVTLSCSSRCSFDMYHLSREGEARELSLSAVRSVNGTFQGDFP
+                     LGPATHGGTYRCFGSFRNAPYKWSHPSDPLPVSVTGNPSRSWPSPTEPNSKTGIPRHLH
+                     VLIGTSVVTILFTIFFFLLHLWCSNKKNAAAMDQEPAGDRTVNPEDSDEQDPQEVTYAQ
+                     LDHRVLTQGKITRPSQRPKTPPTDTSVYTELPNAEPRSKVVFYP"
+ORIGIN
+        1 atgtcgctca tagtcctcag cgtggcgtgt gttgggttct tcttggtcca gacggcctgt
+       61 ccatacacgg gtggtcagga caacaccttc ctgtctgcct ggcccagccc tgtggtgcct
+      121 cagggaggac atgtgactct tcggtgtcac tatcgtggtg ggtttaacaa cttcactctg
+      181 tacaaagacg acagaagcca cattcccatc ttccacagcc gaatattcca ggagagcttc
+      241 ctcatgggcc ctgtgacccc ggcacacgca gggacctaca gatgtcgggg ctcatacccg
+      301 cactccccca ctgagtggtc ggcactcagt gaccccctgg cgatcagggt cacaggagtc
+      361 cacaaaaagc cttccctcct ggccctccca ggtcccctgg tgaaatcagg agagacggtc
+      421 accctacaat gttcatcaga taccgtgttt gagcacttct ttctgcaccg tgaggtgacc
+      481 cttgaggagc ccttgcacct tgttggagag ctccatggtg ggggatccca ggccaagtat
+      541 tccatcaatt ccacgacatc tgaccttgca gggacctaca gatgctatgg ttcttttact
+      601 cactccccct atgtgttgtc agctcccagt gaccccctgg acatcgtgat cacaggtcta
+      661 tatgagaaac cttctctctc agcccagccg ggccccacgg ttcaggcagg agagaacgtg
+      721 accttgtcct gcagctcccg gtgctccttt gacatgtacc atctatccag ggagggggag
+      781 gcccgtgaac ttagtctctc tgcagtgcga agcgtcaacg gaacattcca gggcgacttc
+      841 cctctgggcc ctgccaccca tggaggaacc tacagatgct tcggttcttt ccgtaacgca
+      901 ccctacaagt ggtcacaccc gagtgaccca ctgcctgttt ctgtcacagg aaacccttca
+      961 cgtagttggc cttcacccac tgaaccaaac tccaaaactg gtatccccag acacctgcat
+     1021 gttctgattg ggacctcagt ggtcacgatc ctcttcacca tcttcttctt tctcctgcat
+     1081 ctctggtgct ccaacaaaaa gaatgctgct gcaatggacc aagagcctgc gggggacaga
+     1141 acagtgaatc cggaggactc tgatgaacaa gaccctcagg aggtgacata cgcacagttg
+     1201 gatcaccgcg ttctcacaca gggaaaaatc actcgccctt ctcagaggcc caagacaccc
+     1261 ccaacagata ccagcgtgta cacggaactt ccaaatgctg agcccagatc gaaagttgtc
+     1321 ttctatccat ga
+//

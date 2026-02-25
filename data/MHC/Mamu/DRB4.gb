@@ -1,0 +1,350 @@
+LOCUS       NHP00495                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB4*01:01, DRB4 locus allele.
+ACCESSION   NHP00495
+VERSION     NHP00495
+DBLINK      INSDC: Z26160
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, van Noort JT, Bakas RM, Otting N, Jonker M, Bontrop
+            RE.
+  TITLE     Evolutionary stability of transspecies major histocompatibility
+            complex class II DRB lineages in humans and rhesus monkeys.
+  JOURNAL   Hum Immunol 35:29-39 (1992)
+   PUBMED   1478892
+COMMENT     IPD-MHC allele: Mamu-DRB4*01:01
+            IPD accession: NHP00495
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB4*0101
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..246
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:01"
+                     /note="previous designations: Mamu-DRB4*0101"
+     exon            1..246
+                     /gene="DRB4"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="LEQAKCECHFFNGTERVWNLIRYIYNQEEYARYNSDLGEYQAVTE
+                     LGRPDAEYWNSQKDLLERRRAEVDTYCRYNYGVGES"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga cggagcgagt gtggaacctg
+       61 atcagataca tctataacca agaggagtac gcgcgctaca acagtgacct gggggagtac
+      121 caggcggtga cggagctggg gcggcctgac gctgagtact ggaacagcca gaaggacctc
+      181 ctggagcgga ggcgggccga ggtggacacc tactgcagat acaactacgg ggttggtgag
+      241 agcttc
+//
+LOCUS       NHP00496                3818 bp    DNA     linear   PRI 20-DEC-2022
+DEFINITION  Mamu-DRB4*01:02:01:01, DRB4 locus allele.
+ACCESSION   NHP00496
+VERSION     NHP00496
+DBLINK      INSDC: AF163275
+            INSDC: HM594301
+            INSDC: OX377332
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB4*01:02:01:01
+            IPD accession: NHP00496
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB4*0102; Mamu-DRB4*01:02
+FEATURES             Location/Qualifiers
+     source          1..3818
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..3818
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:02:01:01"
+                     /note="previous designations: Mamu-DRB4*0102;
+                     Mamu-DRB4*01:02"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            2687..2968
+                     /gene="DRB4"
+                     /number=3
+     exon            3670..3780
+                     /gene="DRB4"
+                     /number=4
+     exon            3781..3804
+                     /gene="DRB4"
+                     /number=5
+     exon            3805..3818
+                     /gene="DRB4"
+                     /number=6
+     intron          371..2686
+                     /gene="DRB4"
+                     /number=1
+     intron          2969..3669
+                     /gene="DRB4"
+                     /number=2
+     CDS             join(1..100,101..370,2687..2968,3670..3780,3781..3804,
+                     3805..3818)
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTITLMVLSSPLALAGDTRARFLEQAKSECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVTELGRPDAEYWNGQKDLLERRRAEV
+                     DTVCRHNYGVGESFTVQRRVQPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPQSGELYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFKNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacaat aacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccgag cacgtttctt ggagcaggct
+      121 aagtctgagt gtcatttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccaag aggagaacgc gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgacgc cgagtactgg aacggccaga aggacctcct ggagcggagg
+      301 cgggccgagg tggacacagt gtgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag gtgagcgcgg cgcgggcggg tcctgggtcc ctgtgagctg ggaatctgtg
+      421 tgtgtgtgtg agtgtgtgtg tgtgtgtgta ggtgtgtgtg tgagagagag agagagagag
+      481 agacagagac agagagacag agagagagac agagacagag agacagagag agagacagag
+      541 acagagagac agagagagag acagagacag agagagcgcg ccatctgtga gcatttagaa
+      601 tcttctctat cctgagcaag cagttctgag ggcacgggtg tgtgtagagt gtggatgtgt
+      661 ctgtgtggct gttgtgggag gggaggctgg agggggctgc ttcttatcct tggaggcctc
+      721 tgtggggagg tgacatggga ggtgggtgca gggggctgga gagaggagac cttgattgtc
+      781 ctgggtcctt gagatgcagg gaagggaaat gtaaggtgta tgtggttggg gtgaaggttt
+      841 aggggagcag agctgagggg tctggaaggt ttgggataat atgaggaggc cagttctaga
+      901 ctgtccctgg cacacaccct tcatgtaatc tctgaaataa aagtgtgtgg tgttcatttg
+      961 caaaagcatt agagtaattt ctagcgtaat tgaggagacc tctgaggcac cttgaagttt
+     1021 ctttaggtct aaatttcttg ctagtttttt tttttttttc agtgtgtaca ggtttacata
+     1081 gtagaaatga ctgtgaaact aacttcttga attaaagttt taacacagtt actattttgt
+     1141 tataatgcta atagttttct agtagttaca tattattctt tcatatgtaa tagttgtgac
+     1201 acaactcacc tcactttccc ctttgttgac ctttattatg acattctcca aaagttgaaa
+     1261 atgtattttt ctggttaatt tttaatttat attttttatt tgtaattcct ttgaattttt
+     1321 ttgacctatt tattggccag ttataagtac tgccctaaga attccctatc gtattaggca
+     1381 ggtaatggac aacgatccac tgtctaatat cttgagggct tagtattttt ctcagtgact
+     1441 ttgtgggttc tttgtactgt aagattatta acactttatt gatatttgat tcagcatatg
+     1501 ctccagtttg tggtatgctg attttgaaaa ttcttttcca tgttaagaat ttgaacattt
+     1561 ttatttaata aaatatattg caaaattttg attaatgatt tacaatccat cttaaactac
+     1621 cattttgtgg tactgtctct aggtttctcc ttacttaaaa aaaattattg catttattga
+     1681 gagtgtgcta gtgtcaggga ttttcctggg cataaacacc caagtaacaa gtcccagacc
+     1741 ccgccttgat ccaaatgtca ttctggaaag aaaaatcatt tcacaatgat aggcctaata
+     1801 ataattatgc ttgtgttgca cgggagatgc gttgatcagc taaatgtaaa tataagaact
+     1861 ttcaaaacta atatgacatt ccttattcct tctctctgct tcaggactca tgtttttcta
+     1921 ggaatgtaaa catttggaga atcatttctg tctgtcccac cttcccaggg gcagaaccat
+     1981 ttccatggtg ttctaaggtg tcagtgcatg gcggtagtat tcctaaaact tcatactcgg
+     2041 tttcctcatg tacccaactc tgtcccttta actatccaca ttgctttaaa tcatactttt
+     2101 ctgtcacggt atacaaggat gataaatagg tgccaagtgg agcacccacg tgtgatgagc
+     2161 cctctcacag gggaatggag ggagaagctt ctgacctcat aaattgaagg ctatcttcag
+     2221 tcattgtttt atacatttta catgcattaa tcctcatata accccaagag gtaaattagt
+     2281 ataattgtcc ttcattgtag gtgacaaagt tgagacacag aagaatcgaa aaactctttc
+     2341 aggatcaacc agtaaaaggc agcccttgga tttgaaccag gcaacctggc tcagatatca
+     2401 tttttaatta ctatactctt tactttcaaa gatttgtaaa cagtttgaca atgcatgcca
+     2461 atttcaagct atgaagaaac aaatataatt ttttacaaca tctctcaaat ctaatgggtc
+     2521 ctcactatca agattaaatt ccaggctgac actctaaggc cacttggcca gcagtgctgg
+     2581 aggcctggtc aaggccagag cctgggttta cagagaagta gaaaaatagc caaacaagga
+     2641 gacactgtct tcctgactca ttcccactat gttttttttc tcctagtcca acctaaggtg
+     2701 actgtgtatc cttcaaagac ccagcccctg cagcaccaca acctcctggt ctgctctgtg
+     2761 aacggtttct atccaggcag cattgaagtc aggtggttcc ggaacggtca ggaagagaag
+     2821 gctggggtgg tgtccacagg cctgatccag aatggagact ggaccttcca gaccctggtg
+     2881 atgctggaaa cagttcctca gagtggagag ctttacacct gccaagtgga gcacccaagc
+     2941 gtgaccagcc ctctcacagt ggaatggagt gagcagcttt ctgacttcat acgtttctca
+     3001 cccaccaaga aggggactgt actaatccct gagtgtcagg tttctcctct cccacatcct
+     3061 attttcattt gctccatgtt ctcatcgccg ttagcatagg tcactggggg tagccctgta
+     3121 ggtgtttctg gaaacacctg taccccttgc agaatcagtc acgcctgcca gacaggagag
+     3181 tctgtccctc ttttgaacct ccccgtgatg tcacaggtca gggtcacccg ctctccccag
+     3241 gctccaggcc ctgtctctgg gtctgagact gagtttctgg tgctgctgct ctgagttatt
+     3301 tgttgtgatc tgggaagagg agaagtgtag ggccctacct gacataaggg aagtctgatc
+     3361 tcagctctgc cttttattag ctctgttact ctagacaaac tacttagcct cattgagtct
+     3421 caggctttct gtggatcaga tgttgaactc gtgccttaca tcaaggctgc aatatttgaa
+     3481 tgagtttgat gtctgaaccc tgtaactgtt cagtgtgatt tgaaatccta cttttctcca
+     3541 gaaatggcta gttattttag ttcttgtggg gcaaccttct tccccatttt caaagctctg
+     3601 aatcttaggg tctcaattaa agaggttcag tttggaatac acatcactaa agctggcttc
+     3661 ctctctcagg agcacggtct gaatctgcac agagcaagat gctgagtgga gtcgggggct
+     3721 ttgtgctggg cctgctcttc cttggggccg ggctgttcat ctacttcaag aatcagaaag
+     3781 gacactctgg acttcagcca acaggactct tgagctga
+//
+LOCUS       NHP00497                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB4*01:03, DRB4 locus allele.
+ACCESSION   NHP00497
+VERSION     NHP00497
+DBLINK      INSDC: AF163276
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB4*01:03
+            IPD accession: NHP00497
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB4*0103
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..246
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:03"
+                     /note="previous designations: Mamu-DRB4*0103"
+     exon            1..246
+                     /gene="DRB4"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:03"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="LWQGKAECHFFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVSE
+                     LGRPDAEYWNSQKDLLERRRAQVDNYCRHNYGVGES"
+ORIGIN
+        1 ttgtggcagg gtaaggctga gtgtcacttc ttcaacggga cggagcgggt gcggtacctg
+       61 atcagataca tctataacca agaggagaac gcgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtgt cggagctggg gcggcctgac gccgagtact ggaacagcca gaaggacctc
+      181 ctggagcgga ggcgggccca ggtggacaac tactgcagac acaactacgg ggttggtgag
+      241 agcttc
+//
+LOCUS       NHP01412                3714 bp    DNA     linear   PRI 20-DEC-2022
+DEFINITION  Mamu-DRB4*01:04:01:01, DRB4 locus allele.
+ACCESSION   NHP01412
+VERSION     NHP01412
+DBLINK      INSDC: AY487269
+            INSDC: JQ579564
+            INSDC: OX377295
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-DRB4*01:04:01:01
+            IPD accession: NHP01412
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB4*0104; Mamu-DRB4*01:04
+FEATURES             Location/Qualifiers
+     source          1..3714
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..3714
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:04:01:01"
+                     /note="previous designations: Mamu-DRB4*0104;
+                     Mamu-DRB4*01:04"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            2622..2903
+                     /gene="DRB4"
+                     /number=3
+     exon            3604..3714
+                     /gene="DRB4"
+                     /number=4
+     intron          371..2621
+                     /gene="DRB4"
+                     /number=1
+     intron          2904..3603
+                     /gene="DRB4"
+                     /number=2
+     CDS             join(1..100,101..370,2622..2903,3604..3714)
+                     /gene="DRB4"
+                     /allele="Mamu-DRB4*01:04:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLRLPGGSCMAALTMTLMVLSSPLALAGDTRARFLWQGKAECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVSELGRPDAEYWNSQKDLLERRRAQV
+                     DNYCRHNYGVVESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQK"
+ORIGIN
+        1 atggtgtgtc tgaggctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccgag cacgtttctt gtggcagggt
+      121 aaggctgagt gtcacttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccaag aggagaacgc gcgcttcgac agcgacgtgg gggagtaccg ggcggtgtcg
+      241 gagctggggc ggcctgacgc cgagtactgg aacagccaga aggacctcct ggagcggagg
+      301 cgggcccagg tggacaacta ctgcagacac aactacgggg ttgtggagag cttcacagtg
+      361 cagcggcgag gtgagcatgg cgggggcggg gcctgggtcc ctgtgagctg ggaatctgtg
+      421 tgtgtgtgtg tgtgtgtgcg tgtgtgtgtg tgtgtgtgtg agagagagag agagagagag
+      481 agagacagag acagagacag agagagcgcg ccatctgtga gcatttagaa tcttctctat
+      541 cctgaccaag gagttctgag gacacaggtg tgtgtagagt gtggatttgt ctgtgtggct
+      601 gttgtgggag gcgaagcagg agcgggctgc ttcttatcct tggaggtctc tgtggggagg
+      661 tgacatggga ggtgggtgca ggggactgga gagagaggag accttgattg tcctgggtcc
+      721 ttagagatgc agggaaggga aatgtaaggt gtatgtggtt ggggtgaagg tttaggggag
+      781 gagagctgag gggtctggaa ggtttgggat aatatgagga ggccagttct agactgtccc
+      841 tggcacacac ccttcatgta atctctgaca taaaagtgtg tggtgttcat ttgcaaaagc
+      901 attagattaa tttctagcgg aattgaggag acctctgagg caccttgaag tttctttagg
+      961 tctaaatttc ttgctagttt tttttttttt ttttcagtgt gtacaggttt acacagtaga
+     1021 aatgactgtg aaactaactt cttgaattaa agttttaaca cagttactat tttgttataa
+     1081 tgctaatagt tttctagtag ttacatatta ttctttcata tgtaatagtt gtgacacaac
+     1141 tcaactcact ttcccctttg ttgaccttta ttatgacatt ctccaaaagt tgaaaatgta
+     1201 tttttctggt taatttttaa tttatatttt ttatttgtaa ttcctttgaa tttctttgac
+     1261 ctatttattg gccagttata attactgccc taagaattcc ctatcatatt aggcaggtaa
+     1321 tggacaacga tccactgtct aatatctcga gggcttagta tttttctcag tgactttgtg
+     1381 ggttctttgt actgtaagat tattaacact ttattgatat ttgattcagc atttgctcca
+     1441 gtttgtggta tgctgatttt gaaaattctt ttccatgtta agaatttgaa catttttatt
+     1501 taataaaata tattgcaaaa ttttgattaa tgatttacaa tccatcttaa actaccattt
+     1561 tgtggtactg tctctaggtt tctccttact taaaaaaaat tattgcattt attgagagta
+     1621 tgctagtgtc agggattttc ctgggcataa gcacccaagt aacaagtccc agaccctgcc
+     1681 ttgatccaaa tgtcattctg gaaagaaaaa tcatttcaca gtgataggcc taataataat
+     1741 tatgctcgtg ttgcacagga gatgcattga tcagctaaat gtaaatataa gaactttcaa
+     1801 aactaatatg acattcctta atccttctct ctgcttcagg actcatgctt ttctaggaac
+     1861 gtaaacattt ggagaatcat ttctgtctgt ccctccttcc caggggcaga accatttccg
+     1921 tggtgttcta aggtgtgcgt gcatggcagt agtattccta aatcttcata ctcggtttcc
+     1981 tcatgtaccc aactctgtcc ctttaactat ccacattgct ttaaatcata tttttctgtc
+     2041 acggtgtaca aggatgataa ataggtgcca agtggagcac ccaagtgtga tgagtcctct
+     2101 cacaggggaa tggagggaga agcttctgac ctcataaatt gaaggctatc ctcagtcatt
+     2161 gttttataca ttttacatgc attaatcctc atataaccga agaggtaaat tagtataatt
+     2221 gtccttcatt gtaggtgaca aagttgagac acagaagaat cgaaaaactc tttcaggatc
+     2281 aaccagtaaa aggcagccct tggatttgaa ccaggcaacc tggctcagat atcattttta
+     2341 attactatac tctttacttt caaagatttg taaacagttt gacaatgcat gccaatttca
+     2401 agctatgaag aaacaaatat aattttttac aacatctctc aaatctaatg ggtcctcact
+     2461 atcaagatta aattccaggc tgacactcta aggccacttg gccagctgtg ctggaggcct
+     2521 ggtcaaggcc agagcctggg tttacagaga agtagaaaaa tagccaaaca aggagacact
+     2581 ctgtcttcct gactcattcc cactatgttt tcttctccta gtccaaccta aggtgactgt
+     2641 gtatcctgaa aagacccagc ccctgcagca ccacaccctc ctggtctgct ctgtgaacgg
+     2701 tttctatcca ggcagcattg aagtcaggtg gttccggaac ggccaggaag agaaggctgg
+     2761 ggtggtgtcc acaggcctga tccagaatgg agactggacc ttccagaccc tggtgatgct
+     2821 ggaaacagtt cctcggagtg gagaggttta cacctgccaa gtggagcacc caagcgtgac
+     2881 cagccctctc acagtgcaat ggagtgagca gctttctgac ttcatacatt tctcacccac
+     2941 caagaagggg actgtactaa tccctgagtg tcaggtttct cctctcccac atcctatttt
+     3001 catttgctcc atgttctcat cgcctttagc ataggtcact gggggtagcc ctgtaatagt
+     3061 ttctagaaac acctgtacct cctggagaag cagtctagcc tgccaggcag gagaggctgt
+     3121 ccctcttttg aacctccccg tgatgtcaca ggtcagggtc acccgctctc cccaggctcc
+     3181 aggccctgtc tctgggtttg agactgagtt tctggtgctg ttgctctgag ttatttgtgg
+     3241 tgatctggga agaggagaag tgtagggccc tacctgacat aagggaagtc tgatctcagc
+     3301 tctgtctttt attagctctg tcactctaga caaactactt agcctcatgg agtctcaggc
+     3361 tttctgtgga tcagatgttg aactcatgcc ttacatcaag gctgtaatat ttgaatgagt
+     3421 ttgatgtctg aaccctgtaa ctgttcagtg tgaatgaaat cctacttttc tccagaaatg
+     3481 gctggttatt ttagttcttg tggggcagcc ttcttcccca ttttcaaagc tctcaatctt
+     3541 agggtctcaa ttaaagaggt tcagtttgga atacacatca ctaaacctgg cttcctctct
+     3601 caggagcacg gtctgaatct gcacagagca agatgctgag tggagtcggg ggctttgtgc
+     3661 tgggcctgct cttccttggg gccgggctgt tcatctactt caggaatcag aaag
+//

@@ -1,0 +1,505 @@
+LOCUS       NHP02209                1545 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRA*01:01:01, DRA locus allele.
+ACCESSION   NHP02209
+VERSION     NHP02209
+DBLINK      INSDC: AM910166
+            INSDC: LT899688
+KEYWORDS    IPD-MHC; MHC class II; DRA.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DRA*01:01:01
+            IPD accession: NHP02209
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRA1*01:01; Patr-DRA1*0101;
+            Patr-DRA*01:01
+FEATURES             Location/Qualifiers
+     source          1..1545
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..1545
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:01:01"
+                     /note="previous designations: Patr-DRA1*01:01;
+                     Patr-DRA1*0101; Patr-DRA*01:01"
+     exon            1..82
+                     /gene="DRA"
+                     /number=1
+     exon            83..328
+                     /gene="DRA"
+                     /number=2
+     exon            820..1101
+                     /gene="DRA"
+                     /number=3
+     exon            1391..1545
+                     /gene="DRA"
+                     /number=4
+     intron          329..819
+                     /gene="DRA"
+                     /number=1
+     intron          1102..1390
+                     /gene="DRA"
+                     /number=2
+     CDS             join(1..82,83..328,820..1101,1391..1545)
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRA antigen"
+                     /translation="MAVSGVPVLGFFIIAVLMGAQESWAIKEEHVIIQAEFYLNPDQSG
+                     EFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNY
+                     TPITNVPPEVTVLTNSPVELREPNILICFIDKFTPPVVNVTWLRNGKPVTTGVSETVFL
+                     PREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCAL
+                     GLTVGLVGIIIGTIFIIKGVRKSNAAERRGPL"
+ORIGIN
+        1 atggccgtaa gtggagtccc tgtgctagga tttttcatca tagctgtgct gatgggcgct
+       61 caggaatcat gggctatcaa agaagaacat gtgatcatcc aggccgagtt ctatctgaat
+      121 cctgaccaat caggcgagtt tatgtttgac tttgatggtg atgagatttt ccacgtggat
+      181 atggcaaaga aggagacggt ctggcggctt gaagaatttg gacgatttgc cagctttgag
+      241 gctcaaggtg cattggccaa catagctgtg gacaaagcca acctggaaat catgacaaag
+      301 cgctccaact atactccgat caccaatggt acctccctct ctgctgcact cctggacatg
+      361 ggaatccata gtttgaaagt agttgcttca gctctttgtg ttagattatt gtaactgatt
+      421 ttccctccaa gggcctaacc ttgccattaa caagccccaa attctcatgc cagaggtctg
+      481 agaactttgt gggtttgatc ctatcttgtt gtgctcaagt cttgtctctg tcatccatgg
+      541 tctcctacga agtcattgcc ctaagttcat gctgggggag ccagaaggga agtccttgga
+      601 tatcttatac ctcaatattg gctcaatttc ttggggaggg ggtgctgtca gagattgtta
+      661 tctgaggatg tgacatagat ttctcagggc acaatttcaa ctactttttc agctttaggg
+      721 tttttagata ggtttgtacc acaattgagc atgggaggga aaggggtgag cctaagcagt
+      781 gatggctgat ttctgtcatg tctgtcatgt gtcccccagt acctccagag gtaactgtgc
+      841 tcacaaacag ccctgtggaa ctgagagagc ccaacatcct catctgtttc atcgacaagt
+      901 tcaccccacc agtggtcaat gtcacgtggc ttcgaaatgg aaaacctgtc accacaggag
+      961 tgtcagagac agtcttcctg cccagggaag accacctttt ccgcaagttc cactatctcc
+     1021 ccttcctgcc ctcaactgag gacgtttacg actgcagggt ggaacactgg ggcttggatg
+     1081 agcctcttct caagcactgg ggtatggacc atcactcaat ctcctttatt tcaaggtttc
+     1141 ctcctatgat gcttgtgtga aactcggtgt tctaactgtt tcataatatc tgctacaatt
+     1201 aatataactg tcttctccta ttacccagct tcctcctctt tttaatcttt agttctctca
+     1261 gtacatcatt ctgtcttcct cttctttaat ctatgaataa cttttctctt tattaagtac
+     1321 cctacacttg attctgagtg ttacttcttc ccacactcat taccatgtat tctgccttat
+     1381 ttccccccag agtttgatgc tccaagccct ctcccagaga ctacagagaa cgtggtgtgt
+     1441 gccctgggcc tgactgtggg tctggtgggc atcatcattg ggaccatctt catcatcaag
+     1501 ggtgtgcgca aaagcaatgc agcagaacgc agggggcctc tgtga
+//
+LOCUS       NHP02210                3955 bp    DNA     linear   PRI 28-APR-2020
+DEFINITION  Patr-DRA*01:01:02:01, DRA locus allele.
+ACCESSION   NHP02210
+VERSION     NHP02210
+DBLINK      INSDC: Am910167
+            INSDC: LT899689
+            INSDC: AM910167
+KEYWORDS    IPD-MHC; MHC class II; DRA.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DRA*01:01:02:01
+            IPD accession: NHP02210
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRA1*01:02; Patr-DRA1*0102;
+            Patr-DRA*01:02; Patr-DRA*01:01:02
+FEATURES             Location/Qualifiers
+     source          1..3955
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..3955
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:01:02:01"
+                     /note="previous designations: Patr-DRA1*01:02;
+                     Patr-DRA1*0102; Patr-DRA*01:02; Patr-DRA*01:01:02"
+     exon            1..82
+                     /gene="DRA"
+                     /number=1
+     exon            2493..2738
+                     /gene="DRA"
+                     /number=2
+     exon            3230..3511
+                     /gene="DRA"
+                     /number=3
+     exon            3801..3955
+                     /gene="DRA"
+                     /number=4
+     intron          83..2492
+                     /gene="DRA"
+                     /number=1
+     intron          2739..3229
+                     /gene="DRA"
+                     /number=2
+     intron          3512..3800
+                     /gene="DRA"
+                     /number=3
+     CDS             join(1..82,2493..2738,3230..3511,3801..3955)
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:01:02:01"
+                     /codon_start=1
+                     /product="MHC class II DRA antigen"
+                     /translation="MAVSGVPVLGFFIIAVLMGAQESWAIKEEHVIIQAEFYLNPDQSG
+                     EFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNY
+                     TPITNVPPEVTVLTNSPVELREPNILICFIDKFTPPVVNVTWLRNGKPVTTGVSETVFL
+                     PREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCAL
+                     GLTVGLVGIIIGTIFIIKGVRKSNAAERRGPL"
+ORIGIN
+        1 atggccgtaa gtggagtccc tgtgctagga tttttcatca tagctgtgct gatgggcgct
+       61 caggaatcat gggctatcaa aggtaggtgc tgagggaatg aaatctggga cgatagacta
+      121 cgaagcattg gagaaaagac ctatggacat ttggaagata atgtgtggag tgaaagaata
+      181 gtgtgacagg tattatgtgg tctagacaga aagtataaca aattgtggtt tggtggagtt
+      241 cttccctcac cacaaactga agtaagtcaa atttggttta gaggatcaaa actgagttgt
+      301 gtattgatga atagcacggt cctgctacaa gccaaactgg gggtgggggt gggggtgggg
+      361 gaggaagaat attttctggc aagcattaac aagttatatt tctgggcttt aattattctt
+      421 tctggaaaat tagtaaaatt aaaaactaaa aaccacacat agttttgcta gaattaaatg
+      481 aaaaaaaaag ttattagccc tgttcttatc tgaatacatg atacagtagt tattttttgg
+      541 agtgtaaatc ctgtcggtat atattgagca catatattgt gttgaagatt actagaagga
+      601 aaagtcatca aaaagcaaca atttacccca ggaaaagggg agggaaggca tgctgatatg
+      661 agttgcctca tgggacagtg atagccattc cctgccttcc catctccatg gtacagcaga
+      721 tcttatatca tgttaactta gtaatatttc caagagagta gaaaaataag taaggaaatg
+      781 gggaatctga tattattctc tctcatctcc agagcaacac tggtgctgtt gtaaagatgt
+      841 actgtagaaa agtattcttc acccagagtg acccccacag aaggtatcag gtagacttga
+      901 aataagcaaa gtaataaccc agctcccata cccatagtgt caatggtaga tttctattgc
+      961 cccaaaagag ccatacatag ggatacttac ctagaaagac agaggctctt cccttggttt
+     1021 gtgaagaggc agctagtata tttgtgtgtg tttgcataga tgcaaacggt aaataaattc
+     1081 ctaggtttat caatacacag tcaaacatta aaatctctca tcttggctgg gcacggtggc
+     1141 tcacacctgt aatcccagca ctttgggagg ccgaggtggg cagatcacga ggtcaagaga
+     1201 tcgagaccgt cctgggcaac atggtgaaac cccgtctcta ctaaaaatac aaaaaattag
+     1261 ctgggtatgg tggcacacgc ctgtagtccc agctactcgg gaggctgagg caggattgct
+     1321 tgaacccggg aggcggaggt tgcagtgagc tgagatggtg ccactgcact ccagcctggc
+     1381 gatagagcaa gactccgtct caaacaacca aaccaaaaca aaacaaaata tctcacctta
+     1441 tctttgaaga ctaaggaaaa aaaaaatctc ccactcatcg atacactcca cagaggcagc
+     1501 atactctcca agtgtagctt tctcttttca tgttcattat tcccttggtg ttggttattc
+     1561 tcaatgtcaa tcataataga atatcttcca taataacagt cccaatttaa ggagcattaa
+     1621 gataaaaggt ggaattgcca aggtcaatcc agacgagaac cttctcatag aggtaaccac
+     1681 cgtgtgggtt tggatgctgg gaagcagggg gactatgacg ctacaaggtc tcagtcttaa
+     1741 tttttggagt acttcagtcc ccaggtatat tttccataga tttggccctt aaataaaaag
+     1801 aagcttctga ctctaaaatg taaacagtgc ttgttacagt cttgttgata tattaagaaa
+     1861 ttactcacct tatctcattt aatcttaaaa acaaacccct gacaggatca aaaccacagc
+     1921 agggctacat aataggaaaa ctatacataa ataggtagaa taatctgctc aggatcacta
+     1981 ggtaagttgc tgaataagaa ttcaagatgt ttttgatccc agagtttaaa acccaacctt
+     2041 tcaaacagcg tttctctctt cttagagtac aatgttctga gaaagagatg ctctggaatt
+     2101 ctggcctaag tgtatttaat gcccgggtaa agaaagtgag agaacatttc tctttagggg
+     2161 ctgctgctgg atttctaaaa agaaaataat ttctcagcta ctaacatgga gccaaacaac
+     2221 agcttcacaa gactgtgggt tctttagccc tcatctcctt caatccaccc tctttttaac
+     2281 cagttcttcc tgtttctccc ctcccagctt tgttcagcag catgcccttc acccagacct
+     2341 tgtcttgtca ctcatctcta cttgccatca ttctttcatt cctcttggcc caatctctct
+     2401 ccaccacttc ctgcctacat gtatgtaggt tattcatttc cctctcttga ttccccccac
+     2461 ccaactctct ttctccattt cttgcttttc agaagaacat gtgatcatcc aggccgagtt
+     2521 ctatctgaat cctgaccaat caggcgagtt tatgtttgac tttgatggtg atgagatttt
+     2581 ccacgtggat atggcaaaga aggagacggt ctggcggctt gaagaatttg gacgatttgc
+     2641 cagctttgag gctcaaggtg cattggccaa catagctgtg gacaaagcca acctggaaat
+     2701 catgacaaag cgctccaact atactccgat caccaatggt acctccctct ctgctgcact
+     2761 cctggacatg ggaatccata gtttgaaagt agttgcttca gctctttgtg ttagattatt
+     2821 gtaactgatt ttccctccaa gggcctaacc ttgccattaa caagccccaa attctcatgc
+     2881 cagaggtctg agaactttat gggtttgatc ctatcttgtt gtgctcaagt cttgtctctg
+     2941 tcatccatgg tctcctacga agtcattgcc ctaagttcat gctgggggag ccagaaggga
+     3001 agtccttgga tatcttatac ctcaatattg gctcaatttc ttggggaggg ggtgctgtca
+     3061 gagattgtta tctgaggatg tgacatagat ttctcagggc acaatttcaa ctactttttc
+     3121 agctttaggg tttttagata ggtttgtacc acaattgagc atgggaggga aaggggtgag
+     3181 cctaagcagt gatggctgat ttctgtcatg tctgtcatgt gtcccccagt acctccagag
+     3241 gtaactgtgc tcacaaacag ccctgtggaa ctgagagagc ccaacatcct catctgtttc
+     3301 atcgacaagt tcaccccacc agtggtcaat gtcacgtggc ttcgaaatgg aaaacctgtc
+     3361 accacaggag tgtcagagac agtcttcctg cccagggaag accacctttt ccgcaagttc
+     3421 cactatctcc ccttcctgcc ctcaactgag gacgtttatg actgcagggt ggaacactgg
+     3481 ggcttggatg agcctcttct caagcactgg ggtatggacc atcactcaat ctcctttatt
+     3541 tcaaggtttc ctcctatgat gcttgtgtga aactcggtgt tctaactgtt tcataatatc
+     3601 tgctacaatt aatataactg tcttctccta ttacccagct tcctcctctt tttaatcttt
+     3661 agttctctca gtacatcatt ctgtcttcct cttctttaat ctatgaataa cttttctctt
+     3721 tattaagtac cctacacttg attctgagtg ttacttcttc ccacactcat taccatgtat
+     3781 tctgccttat ttccccccag agtttgatgc tccaagccct ctcccagaga ctacagagaa
+     3841 cgtggtgtgt gccctgggcc tgactgtggg tctggtgggc atcatcattg ggaccatctt
+     3901 catcatcaag ggtgtgcgca aaagcaatgc agcagaacgc agggggcctc tgtga
+//
+LOCUS       NHP09677                 765 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRA*01:03:02, DRA locus allele.
+ACCESSION   NHP09677
+VERSION     NHP09677
+DBLINK      INSDC: LT899690
+KEYWORDS    IPD-MHC; MHC class II; DRA.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DRA*01:03:02
+            IPD accession: NHP09677
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..765
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..765
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:03:02"
+     exon            1..82
+                     /gene="DRA"
+                     /number=1
+     exon            83..328
+                     /gene="DRA"
+                     /number=2
+     exon            329..610
+                     /gene="DRA"
+                     /number=3
+     exon            611..765
+                     /gene="DRA"
+                     /number=4
+     CDS             1..765
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:03:02"
+                     /codon_start=1
+                     /product="MHC class II DRA antigen"
+                     /translation="MAVSGVPVLGFFIIAVLMSAQESWAIKEEHVIIQAEFYLNPDQSG
+                     EFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNY
+                     TPITNVPPEVTVLTNSPVELREPNILICFIDKFTPPVVNVTWLRNGKPVTTGVSETVFL
+                     PREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCAL
+                     GLTVGLVGIIIGTIFIIKGVRKSNAAERRGPL"
+ORIGIN
+        1 atggccgtaa gtggagtccc tgtgctagga tttttcatca tagctgtgct gatgagcgct
+       61 caggaatcat gggctatcaa agaagaacat gtgatcatcc aggccgagtt ctatctgaat
+      121 cctgaccaat caggcgagtt tatgtttgac tttgatggtg atgagatttt ccacgtggat
+      181 atggcaaaga aggagacggt ctggcggctt gaagaatttg gacgatttgc cagctttgag
+      241 gctcaaggtg cattggccaa catagctgtg gacaaagcca acctggaaat catgacaaag
+      301 cgctccaact atactccaat caccaatgta cctccagagg taactgtgct cacaaacagc
+      361 cctgtggaac tgagagagcc caacatcctc atctgtttca tagacaagtt caccccacca
+      421 gtggtcaatg tcacgtggct tcgaaatgga aaacctgtca ccacaggagt gtcagagaca
+      481 gtcttcctgc ccagggaaga ccaccttttc cgcaagttcc actatctccc cttcctgccc
+      541 tcaactgagg acgtttacga ctgcagggtg gagcactggg gcttggatga gcctcttctc
+      601 aagcactggg agtttgatgc tccaagccct ctcccagaga ctacagagaa tgtggtgtgt
+      661 gccctgggcc tgactgtggg tctggtgggc atcattattg ggaccatctt catcatcaag
+      721 ggagtgcgca aaagcaatgc agcagaacgc agggggcctc tgtaa
+//
+LOCUS       NHP09678                3955 bp    DNA     linear   PRI 06-APR-2020
+DEFINITION  Patr-DRA*01:03:01:01, DRA locus allele.
+ACCESSION   NHP09678
+VERSION     NHP09678
+DBLINK      INSDC: LT899691
+            INSDC: AM910166
+KEYWORDS    IPD-MHC; MHC class II; DRA.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DRA*01:03:01:01
+            IPD accession: NHP09678
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRA*01:03:01
+FEATURES             Location/Qualifiers
+     source          1..3955
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..3955
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:03:01:01"
+                     /note="previous designations: Patr-DRA*01:03:01"
+     exon            1..82
+                     /gene="DRA"
+                     /number=1
+     exon            2493..2738
+                     /gene="DRA"
+                     /number=2
+     exon            3230..3511
+                     /gene="DRA"
+                     /number=3
+     exon            3801..3955
+                     /gene="DRA"
+                     /number=4
+     intron          83..2492
+                     /gene="DRA"
+                     /number=1
+     intron          2739..3229
+                     /gene="DRA"
+                     /number=2
+     intron          3512..3800
+                     /gene="DRA"
+                     /number=3
+     CDS             join(1..82,2493..2738,3230..3511,3801..3955)
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:03:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRA antigen"
+                     /translation="MAVSGVPVLGFFIIAVLMSAQESWAIKEEHVIIQAEFYLNPDQSG
+                     EFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNY
+                     TPITNVPPEVTVLTNSPVELREPNILICFIDKFTPPVVNVTWLRNGKPVTTGVSETVFL
+                     PREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCAL
+                     GLTVGLVGIIIGTIFIIKGVRKSNAAERRGPL"
+ORIGIN
+        1 atggccgtaa gtggagtccc tgtgctagga tttttcatca tagctgtgct gatgagcgct
+       61 caggaatcat gggctatcaa aggtaggtgc tgagggaatg aaatctggga cgatagacta
+      121 cgaagcattg gagaaaagac ctatggacat ttggaagata atgtgtggag tgaaagaata
+      181 gtgtgacagg tattatgtgg tctagacaga aagtataaca aattgtggtt tggtggagtt
+      241 cttccctcac cacaaactga agtaagtcaa atttggttta gaggatcaaa actgagttgt
+      301 gtattgatga atagcacggt cctgctacaa gccaaactgg gggtgggggt gggggtgggg
+      361 gaggaagaat attttctggc aagcattaac aagttatatt tctgggcttt aattattctt
+      421 tctggaaaat tagtaaaatt aaaaactaaa aaccacacat agttttgcta gaattaaatg
+      481 aaaaaaaaag ttattagccc tgttcttatc tgaatacatg atacagtagt tattttttgg
+      541 agtgtaaatc ctgtcggtat atattgagca catatattgt gttgaagatt actagaagga
+      601 aaagtcatca aaaagcaaca atttacccca ggaaaagggg agggaaggca tgctgatatg
+      661 agttgcctca tgggacagtg atagccattc cctgccttcc catctccatg gtacagcaga
+      721 tcttatatca tgttaactta gtaatatttc caagagagta gaaaaataag taaggaaatg
+      781 gggaatctga tattattctc tctcatctcc agagcaacac tggtgctgtt gtaaagatgt
+      841 actgtagaaa agtattcttc acccagagtg acccccacag aaggtatcag gtagacttga
+      901 aataagcaaa gtaataaccc agctcccata cccatagtgt caatggtaga tttctattgc
+      961 cccaaaagag ccatacatag ggatacttac ctagaaagac agaggctctt cccttggttt
+     1021 gtgaagaggc agctagtata tttgtgtgtg tttgcataga tgcaaacggt aaataaattc
+     1081 ctaggtttat caatacacag tcaaacatta aaatctctca tcttggctgg gcacggtggc
+     1141 tcacacctgt aatcccagca ctttgggagg ccgaggtggg cagatcacga ggtcaagaga
+     1201 tcgagaccgt cctgggcaac atggtgaaac cccgtctcta ctaaaaatac aaaaaattag
+     1261 ctgggtatgg tggcacacgc ctgtagtccc agctactcgg gaggctgagg caggattgct
+     1321 tgaacccggg aggcggaggt tgcagtgagc tgagatggtg ccactgcact ccagcctggt
+     1381 gatagagcaa gactccgtct caaacaacca aaccaaaaca aaacaaaata tctcacctta
+     1441 tctttgaaga ctaaggaaaa aaaaaatctc ccactcatcg atacactcca cagaggcagc
+     1501 atactctcca agtgtagctt tctcttttca tgttcattat tcccttggtg ttggttattc
+     1561 tcaatgtcaa tcataataga atatcttcca taataacagt cccaatttaa ggagcattaa
+     1621 gataaaaggt ggaattgcca aggtcaatcc agacgagaac cttctcatag aggtaaccac
+     1681 cgtgtgggtt tggatgctgg gaagcagggg gactatgacg ctacaaggtc tcagtcttaa
+     1741 tttttggagt acttcagtcc ccaggtatat tttccataga tttggccctt aaataaaaag
+     1801 aagcttctga ctctaaaatg taaacagtgc ttgttacagt cttgttgata tattaagaaa
+     1861 ttactcacct tatctcattt aatcttaaaa acaaacccct gacaggatca aaaccacagc
+     1921 agggctacat aataggaaaa ctatacataa ataggtagaa taatctgctc aggatcacta
+     1981 ggtaagttgc tgaataagaa ttcaagatgt ttttgatccc agagtttaaa acccaacctt
+     2041 tcaaacagcg tttctctctt cttagagtac aatgttctga gaaagagatg ctctggaatt
+     2101 ctggcctaag tgtatttaat gcccgggtaa agaaagtgag agaacatttc tctttagggg
+     2161 ctgctgctgg atttctaaaa agaaaataat ttctcagcta ctaacatgga gccaaacaac
+     2221 agcttcacaa gactgtgggt tctttagccc tcatctcctt caatccaccc tctttttaac
+     2281 cagttcttcc tgtttctccc ctcccagctt tgttcagcag catgcccttc acccagacct
+     2341 tgtcttgtca ctcatctcta cttgccatca ttctttcatt cctcttggcc caatctctct
+     2401 ccaccacttc ctgcctacat gtatgtaggt tattcatttc cctctcttga ttccccccac
+     2461 ccaactctct ttctccattt cttgcttttc agaagaacat gtgatcatcc aggccgagtt
+     2521 ctatctgaat cctgaccaat caggcgagtt tatgtttgac tttgatggtg atgagatttt
+     2581 ccacgtggat atggcaaaga aggagacggt ctggcggctt gaagaatttg gacgatttgc
+     2641 cagctttgag gctcaaggtg cattggccaa catagctgtg gacaaagcca acctggaaat
+     2701 catgacaaag cgctccaact atactccgat caccaatggt acctccctct ctgctgcact
+     2761 cctggacatg ggaatccata gtttgaaagt agttgcttca gctctttgtg ttagattatt
+     2821 gtaactgatt ttccctccaa gggcctaacc ttgccattaa caagccccaa attctcatgc
+     2881 cagaggtctg agaactttgt gggtttgatc ctatcttgtt gtgctcaagt cttgtctctg
+     2941 tcatccatgg tctcctacga agtcattgcc ctaagttcat gctgggggag ccagaaggga
+     3001 agtccttgga tatcttatac ctcaatattg gctcaatttc ttggggaggg ggtgctgtca
+     3061 gagattgtta tctgaggatg tgacatagat ttctcagggc acaatttcaa ctactttttc
+     3121 agctttaggg tttttagata ggtttgtacc acaattgagc atgggaggga aaggggtgag
+     3181 cctaagcagt gatggctgat ttctgtcatg tctgtcatgt gtcccccagt acctccagag
+     3241 gtaactgtgc tcacaaacag ccctgtggaa ctgagagagc ccaacatcct catctgtttc
+     3301 atcgacaagt tcaccccacc agtggtcaat gtcacgtggc ttcgaaatgg aaaacctgtc
+     3361 accacaggag tgtcagagac agtcttcctg cccagggaag accacctttt ccgcaagttc
+     3421 cactatctcc ccttcctgcc ctcaactgag gacgtttacg actgcagggt ggaacactgg
+     3481 ggcttggatg agcctcttct caagcactgg ggtatggacc atcactcaat ctcctttatt
+     3541 tcaaggtttc ctcctatgat gcttgtgtga aactcggtgt tctaactgtt tcataatatc
+     3601 tgctacaatt aatataactg tcttctccta ttacccagct tcctcctctt tttaatcttt
+     3661 agttctctca gtacatcatt ctgtcttcct cttctttaat ctatgaataa cttttctctt
+     3721 tattaagtac cctacacttg attctgagtg ttacttcttc ccacactcat taccatgtat
+     3781 tctgccttat ttccccccag agtttgatgc tccaagccct ctcccagaga ctacagagaa
+     3841 cgtggtgtgt gccctgggcc tgactgtggg tctggtgggc atcatcattg ggaccatctt
+     3901 catcatcaag ggtgtgcgca aaagcaatgc agcagaacgc agggggcctc tgtga
+//
+LOCUS       NHP09832                 765 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRA*01:04, DRA locus allele.
+ACCESSION   NHP09832
+VERSION     NHP09832
+DBLINK      INSDC: LT908062
+KEYWORDS    IPD-MHC; MHC class II; DRA.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DRA*01:04
+            IPD accession: NHP09832
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..765
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..765
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:04"
+     exon            1..82
+                     /gene="DRA"
+                     /number=1
+     exon            83..328
+                     /gene="DRA"
+                     /number=2
+     exon            329..610
+                     /gene="DRA"
+                     /number=3
+     exon            611..765
+                     /gene="DRA"
+                     /number=4
+     CDS             1..765
+                     /gene="DRA"
+                     /allele="Patr-DRA*01:04"
+                     /codon_start=1
+                     /product="MHC class II DRA antigen"
+                     /translation="MAVSGVPVLGFFIIAVLMGAQESWAIKEEHVIIQAEFYLNPDQSG
+                     EFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNY
+                     TPITNVPPEVTVLTNSPVELREPNILICFIDKFTPPVVNVTWLQNGKPVTTGVSETVFL
+                     PREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCAL
+                     GLTVGLVGIIIGTIFIIKGVRKSNAAERRGPL"
+ORIGIN
+        1 atggccgtaa gtggagtccc tgtgctagga tttttcatca tagctgtgct gatgggcgct
+       61 caggaatcat gggctatcaa agaagaacat gtgatcatcc aggccgagtt ctatctgaat
+      121 cctgaccaat caggcgagtt tatgtttgac tttgatggtg atgagatttt ccacgtggat
+      181 atggcaaaga aggagacggt ctggcggctt gaagaatttg gacgatttgc cagctttgag
+      241 gctcaaggtg cattggccaa catagctgtg gacaaagcca acctggaaat catgacaaag
+      301 cgctccaact atactccgat caccaatgta cctccagagg taactgtgct cacaaacagc
+      361 cctgtggaac tgagagagcc caacatcctc atctgtttca tcgacaagtt caccccacca
+      421 gtggtcaatg tcacgtggct tcaaaatgga aaacctgtca ccacaggagt gtcagagaca
+      481 gtcttcctgc ccagggaaga ccaccttttc cgcaagttcc actatctccc cttcctgccc
+      541 tcaactgagg acgtttacga ctgcagggtg gaacactggg gcttggatga gcctcttctc
+      601 aagcactggg agtttgatgc tccaagccct ctcccagaga ctacagagaa cgtggtgtgt
+      661 gccctgggcc tgactgtggg tctggtgggc atcatcattg ggaccatctt catcatcaag
+      721 ggtgtgcgca aaagcaatgc agcagaacgc agggggcctc tgtga
+//

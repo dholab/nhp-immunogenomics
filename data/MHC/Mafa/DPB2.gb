@@ -1,0 +1,915 @@
+LOCUS       NHP11245                4795 bp    DNA     linear   PRI 29-JUL-2022
+DEFINITION  Mafa-DPB2*02:01:01:01N, DPB2 locus allele.
+ACCESSION   NHP11245
+VERSION     NHP11245
+DBLINK      INSDC: MW679629
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-DPB2*02:01:01:01N
+            IPD accession: NHP11245
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DPB2*01:01:01:01N
+FEATURES             Location/Qualifiers
+     source          1..4795
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..4795
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*02:01:01:01N"
+                     /note="previous designations: Mafa-DPB2*01:01:01:01N"
+     exon            1..100
+                     /gene="DPB2"
+                     /number=1
+     exon            4532..4795
+                     /gene="DPB2"
+                     /number=2
+     intron          101..4531
+                     /gene="DPB2"
+                     /number=1
+     CDS             join(1..100,4532..4795)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*02:01:01:01N"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="MMILQVSGHPWTVDLTALLMVLLISVVQDWATPENSVYQERQECX
+                     "
+ORIGIN
+        1 atgatgatcc tgcaggtttc agggcatccc tggacagtgg atctgacagc actactgatg
+       61 gtgctgctca tatctgtggt ccaggactgg gccactccag gtaagagcag agctgccatt
+      121 cctggagggt ctggttcagg gaacaattcc taggggactt tctcttcatg gaaccagact
+      181 ctgagacagc atgtggggct cctgccacag cctagtgtcc ttctatcaca gctggagaat
+      241 caaactcacc tcctatagga caggttgcta tccagcaggt ctattgtctc tccaggaaca
+      301 tggacacagt aaataaggag cccaggggtc aggatgcttg tctatgggga aatggggcca
+      361 agaggttcag gataaccttg gacagacaag gtttgcagag agagagaggt tggcaagtgc
+      421 aggctcctgg gtgtgctcac atctgcatcc aaccttgagg ggactcaggc agagagccct
+      481 tagccggtgt gtccaggctc caaggatcac tgaggattca gtgctcatgg agaatgcctg
+      541 tcattctcca gggtggagca ggagcccgtg ccccttggac aatgaaggca agatgggagg
+      601 gaggaggaca ggtttgagcc cctgaaggca ctctcgttga aagtatttct cccagcctcc
+      661 ccagaacttg gttagaatat cagggtgggt tgaaacttgt cagaagaatg agacaaggat
+      721 gtgtgagtac gtgaaagaga ttgaatgtag gttatcagac agccaaggaa gcagtaacca
+      781 agggaaaaac ctctgtctcc tgctgtctcc ttgtggctgg tgtaatatta tggcttctat
+      841 gacccattgt tttcctctca gaatattctt acctttctgg cccaaattta catcaacacc
+      901 ctgagaggaa ggactgcaaa gtaggtgcct tacttttcca ctgacttcca cctttctgca
+      961 tagacccttc ctctgagacc gttccacatc cacctaggac ctacctagaa agtactgtcc
+     1021 tcatgtcacc tccccatttt ccaggataac agccttcgaa tctcctgagg acagcccctc
+     1081 aaaccccaga gtccctcacc tgttacctca ggttcattgt ccaggaaagg gtggagaacc
+     1141 tgcacttgta gtcacagagg agtgctgaga actaaccagc aaaacggctc agctctggaa
+     1201 actggagagg ggtgagattg tggagaaagg aggctggagc agcactggtg acactgaaca
+     1261 gtgtccagca ggaggtccat agcaacagtg cccataggta gagttgtttg taggatgagg
+     1321 ggtggtgttg ggaaacgcca tggaaacctc aaggtgcaag gtagcagaaa gcacaggagg
+     1381 gaatgtgatg atgctgggca gtgaacaggt ggaggggcaa agactgggtt gaggttggtg
+     1441 ggggaatgag atgaggcagt ggagccatgt gacagggact gagggtgggt taccagagct
+     1501 ccctgcatag aatgaacatt caatcaaaac ctgctggagg gagagctgga gccataggga
+     1561 gtgggtagag tggacagagc catttctaca attccccgca tgctcttcca gctccacaca
+     1621 catctccatc ctgaaacaga gcacaagagg aaaggcacaa ggagccaggc tgtggcttaa
+     1681 agtgagggag gggagggtgg agaaaagttt ggctgagaca ccacctaggg agcaggagat
+     1741 gacacagcag gtggaaaaac cagcctcctg gaggcaacac ccttttgtct ctgacaggct
+     1801 ttaaaatggg ctttttacag ctgagtttct tacctcaccc cacccactac cccaggcatt
+     1861 agggccacac tcctgagtcc tcctgtcacg ccagctggca cttgcagaag ctcattgtgc
+     1921 atttgagtct gggtacttac tcttctgtta atctaagccc tcaaataaaa tcactagcac
+     1981 agaagacagg tgggaagatc cagtcagcaa acagccaaca cttttcaacc attaaggtct
+     2041 ggtgcccgtg gaaagtcttc ctgaggtttt ccagtagctc ataagctgat ccagttcgtt
+     2101 tttcatatgc atttatttag aattttgctc ctattcaaac aggtcacaca gtgaaaagag
+     2161 gaagggaact aattaacatg gattgagcag tgacagatac aatactatgt attttacata
+     2221 tgtgagctca tttgtttctc acagcaattt tactaggtaa atagtgttat tactattttg
+     2281 cctttcaaga atttgagagt tagaaggttg tttcttgccc aagataactt agtaatcagt
+     2341 cgtagtgcaa gaactggaac ccctacctgg gacatgttcc ttttcttacc catatggcct
+     2401 cccttatatc tttctgcaat tatattttaa tatatcccat tctgagtgag atatgaattc
+     2461 actcagatca ttgattttca tattgtgctc tgggtaactc aattgtcaag ggtcccacaa
+     2521 acaggataaa gtttcccata tacaaaaaaa aaaaaaaaaa aaatgaaggt ttcaaattcc
+     2581 accgtacact catcacttat gtctgctttg caggtaaaat tccatttaaa aagttaaatg
+     2641 ttgcaaagga aagttttgaa attcttactc ttgactaaaa catgttctcg tattggtgaa
+     2701 tgaggaagag aaacaaagac taacaaatta aaatgagagg atacacactc agagtggggc
+     2761 agttgaacag gcaggggtgg attaaagggg ctgggggcga cgggcctgag tgtttaggag
+     2821 gctggagccc aaggcatcgg gagaagaagg ttaggatatc tgaagtcctg ggatcttgcc
+     2881 ttagagatga cactggaaac tacaggccga gtgtatggtg cccctgagac cagccccacc
+     2941 ccttctccac tgtcttctgc caccagctgt gcatcttctg tgaggggtga gttaacaaac
+     3001 gtgagttgta aatttgtaga acatgaaaca ggtgtccaaa acaaatctta atttgctgtg
+     3061 tgcaaatcac agcaccttaa tttctccact gtgaccagga gcagatcagg tctgaagagg
+     3121 ctcagacaga agcaagcaga tatgtgctgg gtcattgcta ctttcgtata cacatgcacc
+     3181 tgccggacac tgccatggta ctccctagga agaaccacag gtggaaaagg ctgccacact
+     3241 tctttatgta aaaacgacac catcaatgct tctaaacctg aaggagtcca gccacttagt
+     3301 attctggttg ttctggtgat tttcatcgat taagatattt tccaggtatt ttgagatcaa
+     3361 gtctttctac agccatgttt gaaaagtgaa aattaacttt caggctacat tgtctttctt
+     3421 atggcaaact tgaagaagtt ttaagaaatg catttctggc cgggcgctgt ggctcacacc
+     3481 tgtaatctca gcactttggg cggccgaggt gagcagatct cgaggtcagg agttcgagac
+     3541 cagcctggcc aacatggtga aaccccatct gtactaaaga tacaaaaatt atctgggcgt
+     3601 ggtggctcac acctgtaatc ccagctactc aggaggctga ggcaggaaaa ctgcttgaac
+     3661 ccgggaggcg gaggttgcac tgagccgaga ttgcgtcact ggactccagc ctgggtgaca
+     3721 gagtgaaact ctgtcgaaag aaagaaagag agagagaaag agagagagga aggaaggaag
+     3781 gaaggaagga aggaaggaag gaaggaagga aggaaggaag ggagggaggg agggagggag
+     3841 ggagggaggg agagagggag ggagggatgc tccgaagaaa gaagaaagaa agaaagagag
+     3901 aaagagaaag agagagagag gaaggaagga aggaagaaaa ggaaaggaaa tgcatggaaa
+     3961 tggatttcta catttccagc atgcagaaca gcaagagtga gttgaggtat tctcaagaaa
+     4021 ctggcagaga aaagagagca cctagctgta aaaagggaaa gaaggaaggg acggcttcct
+     4081 ggaggaggtg gcatttgagc caggactgac atcaggatgg aaatgtcagg caggaagttg
+     4141 ggtaggggga gcagctccag cctccaggtc cccagctcct ctcatgcctt ctgtttcttt
+     4201 gcctgaggga ccctcccccg atgagattct gctcctctct gaggcttcac atgaaatatt
+     4261 tccccctcct cctccagccg ccagccgaag ggactgctca accaccctga gcagtgagtc
+     4321 tcattctttt cagcaaatcc tctcactgca tggtgagaaa actgaggcct ggagagggtc
+     4381 tgtgacctgc ctgggaccac agaactcggt agtaggaaaa atcgtatttt taaatccagc
+     4441 cctgagtggg aagatttgag gaaatagcta atattgagga gggggtgttg ttgggggtgg
+     4501 caccaccccc atctctccac cctcttcaca gagaattccg tgtaccagga acggcaggaa
+     4561 tgctaggcgt tcaatgggac tcagcgcttt gtggacgggc tcatctacaa ccgggaggaa
+     4621 tacgtgcatt ttgacagcgc agtgggggag ttcctagcag tgatggagct gggtcggccc
+     4681 acgggcgagt acttgaacag ccagaaggac tttatggaac ggaagcgagc cgaggtggac
+     4741 aaggtgtgca gacacaagta cgagctgatg gagccactcc tccggcagcg ccgag
+//
+LOCUS       NHP12316                5311 bp    DNA     linear   PRI 20-DEC-2023
+DEFINITION  Mafa-DPB2*02:02:01:01, DPB2 locus allele.
+ACCESSION   NHP12316
+VERSION     NHP12316
+DBLINK      INSDC: OR823536
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DPB2*02:02:01:01
+            IPD accession: NHP12316
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5311
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5311
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*02:02:01:01"
+     exon            1..100
+                     /gene="DPB2"
+                     /number=1
+     exon            4866..5123
+                     /gene="DPB2"
+                     /number=2
+     intron          101..4865
+                     /gene="DPB2"
+                     /number=1
+     intron          5124..5311
+                     /gene="DPB2"
+                     /number=2
+     CDS             join(1..100,4866..5123)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*02:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="MMILQVSGHPWTVDLTALLMVLLISVVQDWATPENSVYQERQECY
+                     PFNGTQRFVDGLIYNREEYVHFDSAVGEFLAVTGRPTGEYLNSQKDFMERKRAEVDKVC
+                     RHKYELMEPLLRQRR"
+ORIGIN
+        1 atgatgatcc tgcaggtttc agggcatccc tggacagtgg atctgacagc actactgatg
+       61 gtgctgctca tatctgtggt ccaggactgg gccactccag gtaagagcag agctgccatt
+      121 cctggagggt ctggttcagg gaacaattcc taggggactt tctcttcatg gaaccagact
+      181 ctgagacagc atgtggggct cctgccacag cctagtgtcc ttctatcaca gctggagaat
+      241 caaactcacc tcctatagga caggttgcta tccagcaggt ctattgtctc tccaggaaca
+      301 tggacacagt aaataaggag cccaggggtc aggatgcttg tctatgggga aatggggcca
+      361 agaggttcag gataaccttg gacagacaag gtttgcagag agagagaggt tggcaagtgc
+      421 aggctcctgg gtgtgctcac atctgcatcc aaccttgagg ggactcaggc agagagccct
+      481 tagccggtgt gtccaggctc caaggatcac tgaggattca gtgctcatgg agaatgcctg
+      541 tcattctcca gggtggagca ggagcccgtg ccccttggac aatgaaggca agatgggagg
+      601 gaggaggaca ggtttgagcc cctgaaggca ctctcgttga aagtatttct cccagcctcc
+      661 ccagaacttg gttagaatat cagggtgggt tgaaacttgt cagaagaatg agacaaggat
+      721 gtgtgagtac gtgaaagaga ttgaatgtag gttatcagac agccaaggaa gcagtaacca
+      781 agggaaaaac ctctgtctcc tgctgtctcc ttgtggctgg tgtaatatta tggcttctat
+      841 gacccattgt tttcctctca gaatattctt acctttctgg cccaaattta catcaacacc
+      901 ctgagaggaa ggactgcaaa gtaggtgcct tacttttcca ctgacttcca cctttctgca
+      961 tagacccttc ctctgagacc gttccacatc cacctaggac ctacctagaa agtactgtcc
+     1021 tcatgtcacc tccccatttt ccaggataac agccttcgaa tctcctgagg acagcccctc
+     1081 aaaccccaga gtccctcacc tgttacctca ggttcattgt ccaggaaagg gtggagaacc
+     1141 tgcacttgta gtcacagagg agtgctgaga actaaccagc aaaacggctc agctctggaa
+     1201 actggagagg ggtgagattg tggagaaagg aggctggagc agcactggtg acactgaaca
+     1261 gtgtccagca ggaggtccat agcaacagtg cccataggta gagttgtttg taggatgagg
+     1321 ggtggtgttg ggaaacgcca tggaaacctc aaggtgcaag gtagcagaaa gcacaggagg
+     1381 gaatgtgatg atgctgggca gtgaacaggt ggaggggcaa agactgggtt gaggttggtg
+     1441 ggggaatgag atgaggcagt ggagccatgt gacagggact gagggtgggt taccagagct
+     1501 ccctgcatag aatgaacatt caatcaaaac ctgctggagg gagagctgga gccataggga
+     1561 gtgggtagag tggacagagc catttctaca attccccgca tgctcttcca gctccacaca
+     1621 catctccatc ctgaaacaga gcacaagagg aaaggcacaa ggagccaggc tgtggcttaa
+     1681 agtgagggag gggagggtgg agaaaagttt ggctgagaca ccacctaggg agcaggagat
+     1741 gacacagcag gtggaaaaac cagcctcctg gaggcaacac ccttttgtct ctgacaggct
+     1801 ttaaaatggg ctttttacag ctgagtttct tacctcaccc cacccactac cccaggcatt
+     1861 agggccacac tcctgagtcc tcctgtcaca ccagctggca cttgcagaag ctcattgtgc
+     1921 atttgagtct gggtacttac tcttctgtta atctaagccc tcaaataaaa tcactagcac
+     1981 agaagacagg tgggaagatc cagtcagcaa acagccaaca cttttcaacc attaaggtct
+     2041 ggtgcccgtg gaaagtcttc ctgaggtttt ccagtagccc ataagctgat ccagttcgtt
+     2101 tttcatatgc atttatttag aattttgctc ctattcaaac aggtcacaca gtgaaaagag
+     2161 gaagggaact aattaacatg gattgagcag tgacagatac aatactatgt attttacata
+     2221 tgtgagatca tttggttctc acagcaattt tactaggtaa atagtgttat tactattttg
+     2281 cctttcaaga atttgagagt tagaaggttg tttcttgccc aagataactt agtaatcagt
+     2341 cgtagtgcaa gaactggaac ccctacctgg gacatgttcc ttttcttacc catatggcct
+     2401 cccttatatc tttctgcaat tatatgttaa tatatcccat tttgagtgag agatgaattc
+     2461 actcagatca ttgattttca aattgtgctc tgggtaactc aattgtcaag ggtcccacaa
+     2521 acaggataaa gtttcccata tacaaaaaaa aaaaaaaatg aaggtttcaa attccaccgt
+     2581 acactcatca cttatgtctg ctttgcaggt aaaattccat ttaaaaagtt aaatgttggc
+     2641 caggcgcggt ggctcaagcc tgtaatccca gcactttggg aggccgagac gggcggatca
+     2701 cgaggtcagg agatcgagac catcctggct aacatggtga aaccccgtct ctactaaaaa
+     2761 tacaaaaaac tagccgggcg aggtggcggg cgcctgtagt cccagctact tgagaggctg
+     2821 aggcaggaga atggcgtaaa cccgggaggc ggagcttgca gtgagctgag atccggccac
+     2881 tgcactccag cctgggcgac agagcgagac tctgtctcaa aaaaaaaaaa aaaagaaaga
+     2941 aaaaaaaagt taaatgttgc aaaggaaagt tttgaaattc ttactcttga ctaaaacatg
+     3001 ttctcgtatt ggtgaatgag gaagagaaac aaagactaac aaattaaaat gagaggatac
+     3061 acactcagag tggggcagtt gaagaggcag gggtggacta aaggggctgg gggcgacggg
+     3121 cctgggtgtt tcagaggctg gagcccaagg cactgggaga agaagcaggt taggatatct
+     3181 gaagtcctgg ggtcttgcct tagagatgac actggaaact acaggccgag tgtatggtgc
+     3241 ccctgagacc agccccaccc cttctccact gtcttctgcc accagctgtg catcttctgt
+     3301 gaggggtgag ttaacaaacg tgagttgtaa atttgtagaa catgaaacag gtgtccaaaa
+     3361 acaaatctta atttgctgtg tgcaaatcac ggcaccttaa tttctccact gtgaccagga
+     3421 gcagatcagg tctgaagagg ctcagacaga agcaagcaga tatgtgctgg gtcattgcta
+     3481 cttccgtata cacatgcacc tgccggacac tgccatggtg ctccctagga agaaccacag
+     3541 gtggaaaagg ctgccacact tctttatgta aaaacgacac catcaatgct tctaaaccta
+     3601 aaggagtaca gccacttagt attctggttg ttctggtgat tttcatcgat taagatattt
+     3661 tccaggtatt ttgagatcaa gtctttctac agccatgttt gaaaagtgaa aattaacttt
+     3721 caggctacat tgtctttctt atggcaaact tgaagaagtt ttaagaaatg catttctggc
+     3781 cgggcgcggt ggctcacacc tgtaatctca gcactttggg cggccgaggt gagcagatct
+     3841 cgaggtcagg agtttgagag cagcctggcc aacatggtga aaccccatct gtactaaaga
+     3901 tacaaaaatt atcggggcat ggtggctcac gcctgtaatc ccagctactc aggaggctga
+     3961 ggcaggaaaa ctgcttgaac ccgggaggcg gaggttgcac tgagccgaga ttgcgtcact
+     4021 ggactccagc ctgggtgaca gagtgaaact ccatcgaaag aaagaaagag agagagaaag
+     4081 agagcgagaa aggaaggaag gaaggaagga aggaaggaag gaaggaagga aggaaggaag
+     4141 gaaggaagga aggaagggag agagggaggg agggagggac ggagggaggg agggatgctc
+     4201 cgaagaaaga agaaagaaag aaagaaagag agaaagagaa agagagagag agaggaagga
+     4261 aggaaggaag aaaaggaaag gaaatgcatg gaaatggatt tctacatttc cagcatgcag
+     4321 aacagcaaga gcgagttgag gtattcttaa gaaactggca gagaaaagag agcacctagc
+     4381 tgtaaaaagg gaaagaagga agggacggct tcctggagga ggtggtattt gagccaggac
+     4441 tgacatcagg acggaaatgt caggcaggaa gttgggtagg gggagcagct ccagcctcca
+     4501 ggtccccagc tcctcccatg ccttctgttt ctttgcctga gggaccctcc cccgatgaga
+     4561 ttctgctcct ctctgaggct tcacatgaaa tatttccccc tcctcctcca gccgccagcc
+     4621 gaagggactg ctcaaccacc ctgagcagtg agtctcattc ttttcagcaa atcctctcac
+     4681 tgcatggtga gaaaactgag gcctggagag ggtctgtgac ctgcctggga ccacagaact
+     4741 cggtagtagg aaaaatcgta tttttaaatc cagccctgag tgggaagatt tgaggaaata
+     4801 gctaatattg aggagggggt gttgttgggg gtggcaccac ccccatctct ccaccctctt
+     4861 cacggagaat tccgtgtacc aggaacggca ggaatgctac ccgttcaatg ggactcagcg
+     4921 ctttgtggac gggctcatct acaaccggga ggaatacgtg cattttgaca gcgcagtggg
+     4981 ggagttccta gcagtgacgg ggcggcccac gggcgagtac ttgaacagcc agaaggactt
+     5041 tatggaacgg aagcgagccg aggtggacaa ggtgtgcaga cacaagtacg agctgatgga
+     5101 gccactcctc cggcagcgcc gaggtgaggg ctgtggacca gggctcctgg ggcagccgtg
+     5161 ggggccgggc ccagggagta agggcagccg ggccggccta agggatctta gtgcctggag
+     5221 ggaaggggac tttgggctgg caattgatgg gaggagctca accggagttt gtcggagggt
+     5281 gagcacggag actgggctga gcttggagtg a
+//
+LOCUS       NHP12317                5202 bp    DNA     linear   PRI 20-DEC-2023
+DEFINITION  Mafa-DPB2*03:01:01:01N, DPB2 locus allele.
+ACCESSION   NHP12317
+VERSION     NHP12317
+DBLINK      INSDC: OR823538
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DPB2*03:01:01:01N
+            IPD accession: NHP12317
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5202
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5202
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*03:01:01:01N"
+     exon            1..100
+                     /gene="DPB2"
+                     /number=1
+     exon            4753..5013
+                     /gene="DPB2"
+                     /number=2
+     intron          101..4752
+                     /gene="DPB2"
+                     /number=1
+     intron          5014..5202
+                     /gene="DPB2"
+                     /number=2
+     CDS             join(1..100,4753..5013)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*03:01:01:01N"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="MMILQVSGHPWTVALTALLMVLLISVVQGRATPENSVYQERQECY
+                     PFNGTQRFVDRLIYNREDYVHLDSAVGEFLAVMELGWPTGEYLNSX"
+ORIGIN
+        1 atgatgatcc tgcaggtttc agggcatccc tggacagtgg ctctgacagc attactgatg
+       61 gtgctgctca tatctgtggt ccagggcagg gccactccag gtaagagcag agcttccatt
+      121 cctggagggt ctggttcagg gaacaattcc taggggtctt tctcttcatg gaaccagact
+      181 ctgagacagc atgtgcggct cctgccacag cctagtgtcc ttctatcaca gctggagaat
+      241 caaactcacc tcctatagga caggttgcta tccagcaggt ctattgtctc tccaggaaca
+      301 tggacacagt aaataaggag cccaggggtc aggatgcttg tctatgggga aatggggcca
+      361 agatgttcag gataaccttg gatagacaaa gttttcagag agagaggttg acaagtgcag
+      421 gctcctgggt gtgctcacat ctgcatccaa ccttgagggg actcaggcag agagccctta
+      481 gctgatgtgt ccaggctcca aatatcactg aggattcagt gctcatggag aatgcctggc
+      541 attctccaag gtggagcagg agcccatgtc ccttggacaa tgaaggcaag atgggaggga
+      601 ggaggacagg tttgagcccc tgaaagcact ctcgttgaag gtatttctcc cagcctcccc
+      661 agaacttggt tagaatatca gggcgggttg aaacttgtca gaagaatgag ataaggatgt
+      721 gtgagtacgt gaaagaaatt gaatgtaggt tatcagacag ccaaggaagc agtaaccaag
+      781 ggaaaaacct ctgtctcctg ctgtctcctt gtggctggtg taatattatg gcttctatga
+      841 cccattgttt tcctctcaga atgttcttac ctttctggcc caaatttaca tcaacaccct
+      901 gagaggaagg actgcaaagt aggcgcctta cttttccact gacttccacc tttctgcaga
+      961 gacccttcct ctgagatcat tccacatcca cctaggacct acctagaaag tactgtcctc
+     1021 atgtcacctc cccattttcc aggataacag ctttcgaatc tcctgaggac agcccctcaa
+     1081 accccaaagc ccctcacctg ttaccttagg ttcattgtcc aggaaagggt ggagaacctg
+     1141 cacttgtagt cacagagggg tgctgagaac taaccagcaa gaaggctcag ctctggaaac
+     1201 tggagagggg tgaagttggg gagagaggag gctggagcag cactggtgac actgaacagt
+     1261 gtccagcagg aggtccatag caacagtgcc cataggtaga gttgtttgta ggatgagggg
+     1321 tggtgttggg aaatgccatg gaaacctcaa ggtgcagggt agcagaaagc acaggaggga
+     1381 gtgtgatgat gctgggcagt gaacgggtgg aggggcaaag agtgggttga ggttggtggg
+     1441 gggatgagat gaggcagtgg agccatgtga caggcactga ggatgggtta tcagaactcc
+     1501 ctgcatagaa tgaatgttca atcaaaacct actggaggga gagctggagc catagggagt
+     1561 gggtagagtg gacagggcca tttccacaat tccccgcatg ctcttccaac tccacacaca
+     1621 tctccatcct gaaacagagc acaagaggaa aggcacaagg agccaggctg tggcttaaag
+     1681 tgagggaggg gagggtggag aaaagcttgg ctgagacacc acctagggag caggagatga
+     1741 cacagcaggt ggaaaaacca gactcgtgga ggcaacaccc ttttgtctct gacaggcttt
+     1801 aaaatgggct ttttacagct gagtttctta cctcacccca cccactaccc caggcattag
+     1861 ggccacactc ccgagtcctc ctgtcatacc agctggcact tgcagaagct cattgtgcat
+     1921 ttgagtcttt gagtacttac tcttctgtta atctaagtcc tcaaataaaa tcactagcac
+     1981 agaagacagg tgggaagatc cagtcagcaa acagccaaca cttttcaacc attaaggtct
+     2041 ggtgcccgtg gaaagtcttc ctgaggtttt ccagtagctc ataagctgat ccagttcctt
+     2101 tttcatatgc atttatttag aattttgctc ccattcaaac acgtcacaca gtgaaaagag
+     2161 gaagggaact aattaacatg gattgagcag tgacagatac aatactatgt attttacata
+     2221 tgtgagctca tttggttctc acagcaattt tgctaggtaa atagtgttat tactattttg
+     2281 cctttcaaga aattgagagt tagaaggttg tttcttgccc aagataactt aataatcagt
+     2341 cgtagtgcaa gaactggaac ccctacctgg gacatgttcc ttttcttacc catatggcct
+     2401 cccttatatc tttctgtaat tatattttaa tatatcctat tctgagtgag agatgaattc
+     2461 acacagatca ttgattttca aattgtgctc tgggtaactc aattgtcaag ggttccacaa
+     2521 acaggataaa gtttcccata tacaaaaaaa aaaaaaaaat gaaggtttca aattccacca
+     2581 tacactcatc acttatgtct gctttgcaga taaaattcca tttaaaaagt taaatgttgc
+     2641 aaaggaaagt tttgaaattc ttactcttga ctaaaacatg ttctcgtatt ggtgaatgag
+     2701 gaagagaaac aaagactgac aaaatgagag gatacacact cagagtgggg cagttgaata
+     2761 gggagaggtg gactaaaggg gctgggggtg acgggcctgg gtgtttagga ggctggagcc
+     2821 caaggcacca ggagaagaag caggttatga tatctgaagt cctgggatct tgccttagag
+     2881 atgacactgg aaactacagg ccgagtgtat ggtgcccctg agcccagcac caccccttct
+     2941 ccactgtcct ctgccaccag ctgtgcatct tctgtgaggg gtgagttaac aaacatgagt
+     3001 tgtaaatttg tagaacacga aacaggtgtc caaaacaaat cttgatttgc tgtgtgcaaa
+     3061 tcacagcacc ttaatttctc cactgtgacc aggaacagat caggactgaa gaggctcaga
+     3121 cagaagcaag cagacatgtg ctaggtgatt gctacttccg tatacacatg cacctgctgg
+     3181 acactgccat ggtgctccct aggaagaacc acaggtggaa aaggctgcca cacttcttat
+     3241 gtaaaaatga caccatcaat gcctctaaac ctaaaggagt ccagccactt agtattctgg
+     3301 ttgttctggt gattttcatc gattaaggta tttttcaggt attttgagat caagtctttc
+     3361 tacagccatg tttgaaaagt gaaaattaac tttcaggcta cattgtcttt cttatggcaa
+     3421 acttgaagaa gttttaagaa atgcatttct ggccgggcgc ggtggctcac gcctgtaata
+     3481 tcagcacttt gggcagccga ggtgagcaga tatcgaggtc aggagttcga gaccagcctg
+     3541 gccaacatgg tgaaaccccg tctctactaa agatacaaaa attatctggg cgtggtggct
+     3601 cacgcctgta atcccagcta ctcaggaggc tgaggcagga aaactgtttg aacccaggag
+     3661 gcggaggttg cagtgagccg agattgtgtc actggactcc agcctgggcg acagagtgaa
+     3721 agtccgttga aagaaagaaa gagagagaga gagagagaga aagaaagagg gggggggagg
+     3781 aagggaagga aggaaggaag gaaggaagga aggaaggaag gaaggaagga aggaaggaag
+     3841 gaaggaagga agggatgctc tgaagaaaga agaaagaaag aaagagagag agagagaaag
+     3901 aaagaaagaa agaaagaaag aaagaaagaa agaaagaaag aaagaaagaa agaaagaaag
+     3961 aaagaaggaa agaaagacag aaggaaagaa agaaagaagg aaagaaagaa ggaaagaaag
+     4021 aaagaaggaa agaaagaaag aaggaaagaa agaaagaaga gaaagagaca gagaggaagg
+     4081 aaggaaggaa ggaaggaagg aaggaaggaa ggaaggaagg aaggaaggaa ggaagggaaa
+     4141 ggaaatgcat ggaaatggat ttctacattt ccagcatgca gaacagcaaa agcaagttga
+     4201 ggtattctca agaaactggc agagaaaaga gagcacccag ctgtagaaag ggaaagaagg
+     4261 aagggagggc ttcctggaga aggtggcatt tgagccagga ctgacatcag gatggaaatg
+     4321 tcaggcagga agttgggtag ggggagcagc tccagcctcc aggtccccag cttctcccac
+     4381 gccttctgtt tctctgcctg agggaccctc cccctgatga gattctgctc ctccctgaga
+     4441 cttcacatga aatatttccc tctccgccag cagaaggggc tgctttccct tcagcgtggg
+     4501 cctctcccta atgattgctc agccaccctg agcagtgagt ctcattcttt tcagcaaatc
+     4561 ctctcgcttc atggtgagaa aactgaggcc tggagagggt ctgtgacctg cctgggacca
+     4621 cagaactcgg tagtaggaaa aatcgtattt ttaaatccag ccctgagtga gaagatttga
+     4681 ggaaatagct aatattgagg agggggtgtt gttgggggtg gcaccacccc catctctcca
+     4741 ccctcttcac agagaattcc gtgtaccagg aacggcagga atgctacccg ttcaatggga
+     4801 ctcagcgctt tgtggacagg ctcatctaca accgggagga ttacgtgcat ttagacagcg
+     4861 cagtggggga gttcctagca gtgatggagc tggggtggcc cacgggcgag tacttgaaca
+     4921 gctaggactt tatggaacgg aagcaagccg aggtggacaa ggtgtgcaga cacaagtaca
+     4981 agctgatgga gccactcatc cggcagcgcc caggtgaggg ctgtggacca gggctcctgg
+     5041 ggcggccatg ggggccgggt ccagggagta ggggcaggtg ggccggccta agggacctta
+     5101 gtgcctggag ggaaggggac tttgggctgg gaattgatgg gaggagccca accggagttt
+     5161 gtcaggaggg tgagcacgga gactgggctg agcatggagt ga
+//
+LOCUS       NHP12318                5178 bp    DNA     linear   PRI 20-DEC-2023
+DEFINITION  Mafa-DPB2*03:01:01:02N, DPB2 locus allele.
+ACCESSION   NHP12318
+VERSION     NHP12318
+DBLINK      INSDC: OR823539
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DPB2*03:01:01:02N
+            IPD accession: NHP12318
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5178
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5178
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*03:01:01:02N"
+     exon            1..100
+                     /gene="DPB2"
+                     /number=1
+     exon            4729..4989
+                     /gene="DPB2"
+                     /number=2
+     intron          101..4728
+                     /gene="DPB2"
+                     /number=1
+     intron          4990..5178
+                     /gene="DPB2"
+                     /number=2
+     CDS             join(1..100,4729..4989)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*03:01:01:02N"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="MMILQVSGHPWTVALTALLMVLLISVVQGRATPENSVYQERQECY
+                     PFNGTQRFVDRLIYNREDYVHLDSAVGEFLAVMELGWPTGEYLNSX"
+ORIGIN
+        1 atgatgatcc tgcaggtttc agggcatccc tggacagtgg ctctgacagc attactgatg
+       61 gtgctgctca tatctgtggt ccagggcagg gccactccag gtaagagcag agcttccatt
+      121 cctggagggt ctggttcagg gaacaattcc taggggtctt tctcttcatg gaaccagact
+      181 ctgagacagc atgtgcggct cctgccacag cctagtgtcc ttctatcaca gctggagaat
+      241 caaactcacc tcctatagga caggttgcta tccagcaggt ctattgtctc tccaggaaca
+      301 tggacacagt aaataaggag cccaggggtc aggatgcttg tctatgggga aatggggcca
+      361 agatgttcag gataaccttg gatagacaaa gttttcagag agagaggttg acaagtgcag
+      421 gctcctgggt gtgctcacat ctgcatccaa ccttgagggg actcaggcag agagccctta
+      481 gctgatgtgt ccaggctcca aatatcactg aggattcagt gctcatggag aatgcctggc
+      541 attctccaag gtggagcagg agcccatgtc ccttggacaa tgaaggcaag atgggaggga
+      601 ggaggacagg tttgagcccc tgaaagcact ctcgttgaag gtatttctcc cagcctcccc
+      661 agaacttggt tagaatatca gggcgggttg aaacttgtca gaagaatgag ataaggatgt
+      721 gtgagtacgt gaaagaaatt gaatgtaggt tatcagacag ccaaggaagc agtaaccaag
+      781 ggaaaaacct ctgtctcctg ctgtctcctt gtggctggtg taatattatg gcttctatga
+      841 cccattgttt tcctctcaga atgttcttac ctttctggcc caaatttaca tcaacaccct
+      901 gagaggaagg actgcaaagt aggcgcctta cttttccact gacttccacc tttctgcaga
+      961 gacccttcct ctgagatcat tccacatcca cctaggacct acctagaaag tactgtcctc
+     1021 atgtcacctc cccattttcc aggataacag ctttcgaatc tcctgaggac agcccctcaa
+     1081 accccaaagc ccctcacctg ttaccttagg ttcattgtcc aggaaagggt ggagaacctg
+     1141 cacttgtagt cacagagggg tgctgagaac taaccagcaa gaaggctcag ctctggaaac
+     1201 tggagagggg tgaagttggg gagagaggag gctggagcag cactggtgac actgaacagt
+     1261 gtccagcagg aggtccatag caacagtgcc cataggtaga gttgtttgta ggatgagggg
+     1321 tggtgttggg aaatgccatg gaaacctcaa ggtgcagggt agcagaaagc acaggaggga
+     1381 gtgtgatgat gctgggcagt gaacgggtgg aggggcaaag agtgggttga ggttggtggg
+     1441 gggatgagat gaggcagtgg agccatgtga caggcactga ggatgggtta tcagaactcc
+     1501 ctgcatagaa tgaatgttca atcaaaacct actggaggga gagctggagc catagggagt
+     1561 gggtagagtg gacagggcca tttccacaat tccccgcatg ctcttccaac tccacacaca
+     1621 tctccatcct gaaacagagc acaagaggaa aggcacaagg agccaggctg tggcttaaag
+     1681 tgagggaggg gagggtggag aaaagcttgg ctgagacacc acctagggag caggagatga
+     1741 cacagcaggt ggaaaaacca gactcgtgga ggcaacaccc ttttgtctct gacaggcttt
+     1801 aaaatgggct ttttacagct gagtttctta cctcacccca cccactaccc caggcattag
+     1861 ggccacactc ccgagtcctc ctgtcatacc agctggcact tgcagaagct cattgtgcat
+     1921 ttgagtcttt gagtacttac tcttctgtta atctaagtcc tcaaataaaa tcactagcac
+     1981 agaagacagg tgggaagatc cagtcagcaa acagccaaca cttttcaacc attaaggtct
+     2041 ggtgcccgtg gaaagtcttc ctgaggtttt ccagtagctc ataagctgat ccagttcctt
+     2101 tttcatatgc atttatttag aattttgctc ccattcaaac acgtcacaca gtgaaaagag
+     2161 gaagggaact aattaacatg gattgagcag tgacagatac aatactatgt attttacata
+     2221 tgtgagctca tttggttctc acagcaattt tgctaggtaa atagtgttat tactattttg
+     2281 cctttcaaga aattgagagt tagaaggttg tttcttgccc aagataactt aataatcagt
+     2341 cgtagtgcaa gaactggaac ccctacctgg gacatgttcc ttttcttacc catatggcct
+     2401 cccttatatc tttctgtaat tatattttaa tatatcctat tctgagtgag agatgaattc
+     2461 acacagatca ttgattttca aattgtgctc tgggtaactc aattgtcaag ggttccacaa
+     2521 acaggataaa gtttcccata tacaaaaaaa aaaaaaaaat gaaggtttca aattccacca
+     2581 tacactcatc acttatgtct gctttgcaga taaaattcca tttaaaaagt taaatgttgc
+     2641 aaaggaaagt tttgaaattc ttactcttga ctaaaacatg ttctcgtatt ggtgaatgag
+     2701 gaagagaaac aaagactgac aaaatgagag gatacacact cagagtgggg cagttgaata
+     2761 gggagaggtg gactaaaggg gctgggggtg acgggcctgg gtgtttagga ggctggagcc
+     2821 caaggcacca ggagaagaag caggttatga tatctgaagt cctgggatct tgccttagag
+     2881 atgacactgg aaactacagg ccgagtgtat ggtgcccctg agcccagcac caccccttct
+     2941 ccactgtcct ctgccaccag ctgtgcatct tctgtgaggg gtgagttaac aaacatgagt
+     3001 tgtaaatttg tagaacacga aacaggtgtc caaaacaaat cttgatttgc tgtgtgcaaa
+     3061 tcacagcacc ttaatttctc cactgtgacc aggaacagat caggactgaa gaggctcaga
+     3121 cagaagcaag cagacatgtg ctaggtgatt gctacttccg tatacacatg cacctgctgg
+     3181 acactgccat ggtgctccct aggaagaacc acaggtggaa aaggctgcca cacttcttat
+     3241 gtaaaaatga caccatcaat gcctctaaac ctaaaggagt ccagccactt agtattctgg
+     3301 ttgttctggt gattttcatc gattaaggta tttttcaggt attttgagat caagtctttc
+     3361 tacagccatg tttgaaaagt gaaaattaac tttcaggcta cattgtcttt cttatggcaa
+     3421 acttgaagaa gttttaagaa atgcatttct ggccgggcgc ggtggctcac gcctgtaata
+     3481 tcagcacttt gggcagccga ggtgagcaga tatcgaggtc aggagttcga gaccagcctg
+     3541 gccaacatgg tgaaaccccg tctctactaa agatacaaaa attatctggg cgtggtggct
+     3601 cacgcctgta atcccagcta ctcaggaggc tgaggcagga aaactgtttg aacccaggag
+     3661 gcggaggttg cagtgagccg agattgtgtc actggactcc agcctgggcg acagagtgaa
+     3721 agtccgttga aagaaagaaa gagagagaga gagagagaga aagaaagagg gggggggagg
+     3781 aagggaagga aggaaggaag gaaggaagga aggaaggaag gaaggaagga aggaaggaag
+     3841 gaagggatgc tctgaagaaa gaagaaagaa agaaagagag agagagagaa agaaagaaag
+     3901 aaagaaagaa agaaagaaag aaagaaagaa agaaagaaag aaagaaagaa agaaggaaag
+     3961 aaagacagaa ggaaagaaag aaagaaggaa agaaagaagg aaagaaagaa agaaggaaag
+     4021 aaagaaagaa ggaaagaaag aaagaagaga aagagacaga gaggaaggaa ggaaggaagg
+     4081 aaggaaggaa ggaaggaagg aaggaaggaa gggaaaggaa atgcatggaa atggatttct
+     4141 acatttccag catgcagaac agcaaaagca agttgaggta ttctcaagaa actggcagag
+     4201 aaaagagagc acccagctgt agaaagggaa agaaggaagg gagggcttcc tggagaaggt
+     4261 ggcatttgag ccaggactga catcaggatg gaaatgtcag gcaggaagtt gggtaggggg
+     4321 agcagctcca gcctccaggt ccccagcttc tcccacgcct tctgtttctc tgcctgaggg
+     4381 accctccccc tgatgagatt ctgctcctcc ctgagacttc acatgaaata tttccctctc
+     4441 cgccagcaga aggggctgct ttcccttcag cgtgggcctc tccctaatga ttgctcagcc
+     4501 accctgagca gtgagtctca ttcttttcag caaatcctct cgcttcatgg tgagaaaact
+     4561 gaggcctgga gagggtctgt gacctgcctg ggaccacaga actcggtagt aggaaaaatc
+     4621 gtatttttaa atccagccct gagtgagaag atttgaggaa atagctaata ttgaggaggg
+     4681 ggtgttgttg ggggtggcac cacccccatc tctccaccct cttcacagag aattccgtgt
+     4741 accaggaacg gcaggaatgc tacccgttca atgggactca gcgctttgtg gacaggctca
+     4801 tctacaaccg ggaggattac gtgcatttag acagcgcagt gggggagttc ctagcagtga
+     4861 tggagctggg gtggcccacg ggcgagtact tgaacagcta ggactttatg gaacggaagc
+     4921 aagccgaggt ggacaaggtg tgcagacaca agtacaagct gatggagcca ctcatccggc
+     4981 agcgcccagg tgagggctgt ggaccagggc tcctggggcg gccatggggg ccgggtccag
+     5041 ggagtagggg caggtgggcc ggcctaaggg accttagtgc ctggagggaa ggggactttg
+     5101 ggctgggaat tgatgggagg agcccaaccg gagtttgtca ggagggtgag cacggagact
+     5161 gggctgagca tggagtga
+//
+LOCUS       NHP12319                5109 bp    DNA     linear   PRI 20-DEC-2023
+DEFINITION  Mafa-DPB2*05:01:01:01, DPB2 locus allele.
+ACCESSION   NHP12319
+VERSION     NHP12319
+DBLINK      INSDC: OR823537
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DPB2*05:01:01:01
+            IPD accession: NHP12319
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5109
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5109
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*05:01:01:01"
+     exon            1..100
+                     /gene="DPB2"
+                     /number=1
+     exon            4658..4921
+                     /gene="DPB2"
+                     /number=2
+     intron          101..4657
+                     /gene="DPB2"
+                     /number=1
+     intron          4922..5109
+                     /gene="DPB2"
+                     /number=2
+     CDS             join(1..100,4658..4921)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*05:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="VMILQVSRGPWTVALTALLMVLLISVVQGRATPENSVYLEGQECY
+                     AFNGTQRFVHGLIYNREEYVHFDSAVEEFLAVMELGRPTGKYLNSQKDFMERKRAEVDK
+                     VCRHQYELMEPLIWQRP"
+ORIGIN
+        1 gtgatgatcc tacaggtttc aaggggtccc tggacagtgg ctctgacagc attactgatg
+       61 gtgctgctca tatctgtggt ccagggcagg gccactccag gtaagagcag aagtgccatt
+      121 cctggagggt ctggttcagg gaacaattcc taggggactt tctcttcatg gaaccagact
+      181 ctgagacagc atgtggggct cctgccacag cctagtgtcc ttctatcaca gttggagaat
+      241 caaactcacc tcctatagga taggttgcta tccagcaggt ctattgtctc tccaggaaca
+      301 tggacacagt aaataaggag cccaggggtc aggatgcttg tctatgggga aatggggcca
+      361 agaggttcag gataaccttg gacagacaag gtttgcagag agagaggttg gcaagtgcag
+      421 gctcctgggt gtgctcacat ctgcatccaa ccttgagggg actcaggcag agagccctta
+      481 gctggtgtgt ccaggctcca aatatcactg aggattcagt gctcatggag aatgcctgtc
+      541 attctccaag gtggagcagg agcccgtgcc ccttggacaa tgaaggcaag atgggaggga
+      601 ggaggacagg tttgagcccc tgaaggcact ctcattgaag gtatttctcc cagccttccc
+      661 agaacttggt tagagtatca gggtgggttg aaacttgtca gaaaaatgag ataaggatgt
+      721 gtgagtatgt gaaagagatt gaatgcaggt tatcagacag ccaaggaagc cgtaaccaag
+      781 ggaaaaactt ctgtctcctg ctgtctcctt gtggctggtg taatattatg gcttctatga
+      841 cccattgttt tcctctcaga atgttcttac ctttctggcc caaatttaca tcaacaccct
+      901 gagaggaagg actgcaaagt aggtgcctta cttttccact gaattccacc tttctgcata
+      961 gacccttcct ctgagaccgt tccacatcca cctaggacct acctagaaag tactgtcctc
+     1021 atgtcacctc cccattttcc aggataacag cattcgaatc tcctgaggac agaccctcaa
+     1081 accccaaagc ccctcacctg ttacctcagg ttcattgtcc aggaaagggt ggagaacctg
+     1141 cacttgtagt cacacagggg tgctgagaac taaccaccaa gacggctcag ccctgggaac
+     1201 tggagagggg tgaggttggg gagagaggag gctggaacag cactggtgac actgaacagt
+     1261 gtccagcagg aggtccatag caacagtgtc cataggtaga gttgtttgta ggatgagggg
+     1321 tggtgttggg aaacaccatg gaaacctcaa ggtgcagggt agcagaaagc acaggaagga
+     1381 gtgtgatgat gctggacagt gaacaggtgg aggggcaaag agtgggttga ggttggtggg
+     1441 gggatgagat gaggcagtgg agccatgtga cggggactga gggtgggtta ccagagctcc
+     1501 ccgcatagaa tgaatgttca atcaaaacct gctggaggga gagctggagc catagggagt
+     1561 gggtagagtg gacagggcca attccacaat tccccgcatg ctcttccaac tccacacaca
+     1621 tctccatcct caaacagagc acaagaggaa aggcacaagg agccaggctg tggcttaagg
+     1681 tgagggaggg gagggtggag aaaagcttgg ctgagacacc acctagggag caggagatga
+     1741 cacagcaggt ggaaaaacca gactcctgga ggcaacaccc ttttgtctct gacaggcttt
+     1801 aaaatgggct ttttacagct gagtttcttg cctcacccca cccactaccc caggcattag
+     1861 ggccacactc ccgagtcctc ctgtcatacc agctgacact tgcagaagct cattgtgcat
+     1921 ttgagtcttt gggtacttac tctgctgtta atctaagtcc tcaaataaaa tcactagcac
+     1981 agaagacagg tgggaagatc cagtcagcaa acagccaaca cttttcaacc gttaaggtct
+     2041 ggtgcccatg gaaagtcttc ctgaggtttt ccagtagttc ataagctgat ccagttcctt
+     2101 tttcatatgc atttatttag aattttgctc ctattcaaac aggtcacaca gtgaaaagag
+     2161 gaagggaact aattaacatg gattgagcag tgacaggtac agtactatgt attttacgta
+     2221 tgtgagctca tttggttctc acagcaattt tgctaggtaa atagtgttat tactattttg
+     2281 tctttcaaga aattgagagt tagaaggttg tttcttgccc aagataactt agtaatcagt
+     2341 cgtagtgcga gaactggaac ccctacctgg gacatgttcc ttttcttacc catatggcct
+     2401 cccttatatc tttctgtaat tatattttaa tatatcctat tctgagtgag agattaattc
+     2461 acacagatca ttgattttca aattgtgctc tgggtaactc aattgtcaag ggttccacaa
+     2521 acaggataaa gtttcccata tacaaaaata aataaataaa atgaaggttt caaatttcac
+     2581 catacactca tcacttatgt ctgctttgca ggtaaaattc cattcaaaaa gttaaatgtt
+     2641 gcaaaggaac gttttgaaat tcttactctt gactaaaacg tgttctcgta ttggtgaatg
+     2701 aggaagagaa acaaagacta acaaaatgag aggatacaca ctcagagtgg ggcaattgaa
+     2761 tagggagagg tggactaaag gggctggggg tgactggcct gggtgtttag gaggctggag
+     2821 cccaaggcac cgggagaaga agcaggttag gatatctgaa gtcctgggat cttgccttag
+     2881 agatgacact ggaaactaca ggctgagtgt atggtgcccc tgagcccagc accacccctt
+     2941 ctccactgtc ctctgccacc agctgtgcat cttctgtgag gggtgagtta acaaacatga
+     3001 gttgtaaatt tgtagaacat gaaacaggtg tccaaaacaa atcttaattt gctgtatgca
+     3061 aatcacagca ccttaatttc tccactgtga ccaggaacag atcaggtctg aagaggctca
+     3121 gacagaagta agcagacatg tgctgggtca ttgctacttc tgtatacaca tgcacctgcc
+     3181 ggacactgcc atggtgctcc ctaggaagaa ccacaggtgg aaaaggctgc cacacttctt
+     3241 atgtaaaaat gacaccatca atgcttctaa acctaaagga gtccagccac ttagtattct
+     3301 ggttgttctg gtgattttca tcgattaaga tatttttcag gtattttgag atcaagtctt
+     3361 tctacagcca tgtttgaaaa gtgaaaatta actttcaggc tacattgtct ttcttatggc
+     3421 aaacttgaag aagttttaag aaatgcattt ctggccgggc gcggtggctc acgcctgtaa
+     3481 tctcagcact ttgggcggcc gaggtgagca gatctcgagg tcaggagttc gagaccagcc
+     3541 tggccaacat ggtgaaaccc cgtctctact aaagatacaa aaattatctg ggcgtggtgg
+     3601 ctcacgcctg taatcccagc tactcaggag gctgaggcag gaaaactgtt tgaacccggg
+     3661 aggcggaggt tgcagtgagc cgagattgcg tcactggact ccagcctggg cgacagagtg
+     3721 aaactccatc gaaagaaaga aagagagaga gagaaagaga gagagaggga ggaagggaag
+     3781 gaaagaagga aggaaggaag gaaggaagga aggaaggaag gaaggaagga aggaaggaag
+     3841 ggatgctctg aagaaagaaa gagaaagaaa gaaagaaaga aagaaagaaa gaaagaaaga
+     3901 aagaaagaaa gaaagaaaga aagaaagaaa gaaagaaaga aagaaagaaa gaaagaaaga
+     3961 agagaaagaa gagaaagaga gaggaaggaa ggaaggaagg aaggaaggaa ggaaggaagg
+     4021 aaggaaggaa gggaaaggaa attcatggaa atggatttct acatttccag catgcagaac
+     4081 agcaagagca agttgagtat tctcaagaaa ctggcagaga aaagagagca cctagctgta
+     4141 gaaagggaaa gaaggaaggg agggcttcct ggagaaggtg gcatttgagc caggaatgac
+     4201 atcaggatgg aaatgtcagg caggaagttg ggtaggggga gcagctccag cctccaggtc
+     4261 cccagcttct cccacgcctt ctgtttctct gcctgaggga ccctccccct gatgagattc
+     4321 tgctcctccc tgagacttca catgaaatat ttccccctcc tcctccagcc accagcagaa
+     4381 ggggctgctt tcccttcagt gtgggcctct ccctaatgat tactcagcta ccctgagcag
+     4441 tgagtctcat tcttttcagc aaatcctctc gctgcatggt gagaaaactg aggcctggag
+     4501 agggtctgtg acctgcccgg gaccacagaa ctcagtagta ggaaaaattg tatttttaaa
+     4561 tccagccctg agtgggaaga tttgaggaaa tagctaatat tgaggagggg gtgttgttgg
+     4621 gggtggcacc gcccccatct ctccaccctc ttcacagaga attccgtgta cctggaaggg
+     4681 caggaatgct acgcgttcaa tgggactcag cgctttgtgc acgggctcat ctacaaccgg
+     4741 gaggaatacg tgcattttga cagcgcagtg gaggagttcc tagcagtgat ggagctgggg
+     4801 cggcccacgg gcaagtactt gaacagccag aaggacttta tggaacggaa gcgagccgag
+     4861 gtggacaagg tgtgcagaca ccaatacgag ctgatggagc cactcatctg gcagcgccca
+     4921 ggtgagggct gtggaccagg actcctggag cagccgtggg ggccgggccc agggagtagg
+     4981 ggcagctggg ccggcctaag ggaccttagt gccaggaggg aaggggactt tgggctggga
+     5041 attgatggga ggagcccaac cagggtttgt caggagggtg agcacggaga ctggctgagc
+     5101 atggagtga
+//
+LOCUS       NHP12320                5094 bp    DNA     linear   PRI 20-DEC-2023
+DEFINITION  Mafa-DPB2*05:01:01:02, DPB2 locus allele.
+ACCESSION   NHP12320
+VERSION     NHP12320
+DBLINK      INSDC: OR823540
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DPB2*05:01:01:02
+            IPD accession: NHP12320
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5094
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5094
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*05:01:01:02"
+     exon            1..100
+                     /gene="DPB2"
+                     /number=1
+     exon            4643..4906
+                     /gene="DPB2"
+                     /number=2
+     intron          101..4642
+                     /gene="DPB2"
+                     /number=1
+     intron          4907..5094
+                     /gene="DPB2"
+                     /number=2
+     CDS             join(1..100,4643..4906)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*05:01:01:02"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="VMILQVSRGPWTVALTALLMVLLISVVQGRATPENSVYLEGQECY
+                     AFNGTQRFVHGLIYNREEYVHFDSAVEEFLAVMELGRPTGKYLNSQKDFMERKRAEVDK
+                     VCRHQYELMEPLIWQRP"
+ORIGIN
+        1 gtgatgatcc tacaggtttc aaggggtccc tggacagtgg ctctgacagc attactgatg
+       61 gtgctgctca tatctgtggt ccagggcagg gccactccag gtaagagcag aagtgccatt
+      121 cctggagggt ctggttcagg gaacaattcc taggggactt tctcttcatg gaaccagact
+      181 ctgagacagc atgtggggct cctgccacag cctagtgtcc ttctatcaca gttggagaat
+      241 caaactcacc tcctatagga taggttgcta tccagcaggt ctattgtctc tccaggaaca
+      301 tggacacagt aaataaggag cccaggggtc aggatgcttg tctatgggga aatggggcca
+      361 agaggttcag gataaccttg gacagacaag gtttgcagag agagaggttg gcaagtgcag
+      421 gctcctgggt gtgctcacat ctgcatccaa ccttgagggg actcaggcag agagccctta
+      481 gctggtgtgt ccaggctcca aatatcactg aggattcagt gctcatggag aatgcctgtc
+      541 attctccaag gtggagcagg agcccgtgcc ccttggacaa tgaaggcaag atgggaggga
+      601 ggaggacagg tttgagcccc tgaaggcact ctcattgaag gtatttctcc cagccttccc
+      661 agaacttggt tagagtatca gggtgggttg aaacttgtca gaaaaatgag ataaggatgt
+      721 gtgagtatgt gaaagagatt gaatgcaggt tatcagacag ccaaggaagc cgtaaccaag
+      781 ggaaaaactt ctgtctcctg ctgtctcctt gtggctggtg taatattatg gcttctatga
+      841 cccattgttt tcctctcaga atgttcttac ctttctggcc caaatttaca tcaacaccct
+      901 gagaggaagg actgcaaagt aggtgcctta cttttccact gaattccacc tttctgcata
+      961 gacccttcct ctgagaccgt tccacatcca cctaggacct acctagaaag tactgtcctc
+     1021 atgtcacctc cccattttcc aggataacag cattcgaatc tcctgaggac agaccctcaa
+     1081 accccaaagc ccctcacctg ttacctcagg ttcattgtcc aggaaagggt ggagaacctg
+     1141 cacttgtagt cacacagggg tgctgagaac taaccaccaa gacggctcag ccctgggaac
+     1201 tggagagggg tgaggttggg gagagaggag gctggaacag cactggtgac actgaacagt
+     1261 gtccagcagg aggtccatag caacagtgtc cataggtaga gttgtttgta ggatgagggg
+     1321 tggtgttggg aaacaccatg gaaacctcaa ggtgcagggt agcagaaagc acaggaagga
+     1381 gtgtgatgat gctggacagt gaacaggtgg aggggcaaag agtgggttga ggttggtggg
+     1441 gggatgagat gaggcagtgg agccatgtga cggggactga gggtgggtta ccagagctcc
+     1501 ccgcatagaa tgaatgttca atcaaaacct gctggaggga gagctggagc catagggagt
+     1561 gggtagagtg gacagggcca attccacaat tccccgcatg ctcttccaac tccacacaca
+     1621 tctccatcct caaacagagc acaagaggaa aggcacaagg agccaggctg tggcttaagg
+     1681 tgagggaggg gagggtggag aaaagcttgg ctgagacacc acctagggag caggagatga
+     1741 cacagcaggt ggaaaaacca gactcctgga ggcaacaccc ttttgtctct gacaggcttt
+     1801 aaaatgggct ttttacagct gagtttcttg cctcacccca cccactaccc caggcattag
+     1861 ggccacactc ccgagtcctc ctgtcatacc agctgacact tgcagaagct cattgtgcat
+     1921 ttgagtcttt gggtacttac tctgctgtta atctaagtcc tcaaataaaa tcactagcac
+     1981 agaagacagg tgggaagatc cagtcagcaa acagccaaca cttttcaacc gttaaggtct
+     2041 ggtgcccatg gaaagtcttc ctgaggtttt ccagtagttc ataagctgat ccagttcctt
+     2101 tttcatatgc atttatttag aattttgctc ctattcaaac aggtcacaca gtgaaaagag
+     2161 gaagggaact aattaacatg gattgagcag tgacaggtac agtactatgt attttacgta
+     2221 tgtgagctca tttggttctc acagcaattt tgctaggtaa atagtgttat tactattttg
+     2281 tctttcaaga aattgagagt tagaaggttg tttcttgccc aagataactt agtaatcagt
+     2341 cgtagtgcga gaactggaac ccctacctgg gacatgttcc ttttcttacc catatggcct
+     2401 cccttatatc tttctgtaat tatattttaa tatatcctat tctgagtgag agattaattc
+     2461 acacagatca ttgattttca aattgtgctc tgggtaactc aattgtcaag ggttccacaa
+     2521 acaggataaa gtttcccata tacaaaaata aataaataaa atgaaggttt caaatttcac
+     2581 catacactca tcacttatgt ctgctttgca ggtaaaattc cattcaaaaa gttaaatgtt
+     2641 gcaaaggaac gttttgaaat tcttactctt gactaaaacg tgttctcgta ttggtgaatg
+     2701 aggaagagaa acaaagacta acaaaatgag aggatacaca ctcagagtgg ggcaattgaa
+     2761 tagggagagg tggactaaag gggctggggg tgactggcct gggtgtttag gaggctggag
+     2821 cccaaggcac cgggagaaga agcaggttag gatatctgaa gtcctgggat cttgccttag
+     2881 agatgacact ggaaactaca ggctgagtgt atggtgcccc tgagcccagc accacccctt
+     2941 ctccactgtc ctctgccacc agctgtgcat cttctgtgag gggtgagtta acaaacatga
+     3001 gttgtaaatt tgtagaacat gaaacaggtg tccaaaacaa atcttaattt gctgtatgca
+     3061 aatcacagca ccttaatttc tccactgtga ccaggaacag atcaggtctg aagaggctca
+     3121 gacagaagta agcagacatg tgctgggtca ttgctacttc tgtatacaca tgcacctgcc
+     3181 ggacactgcc atggtgctcc ctaggaagaa ccacaggtgg aaaaggctgc cacacttctt
+     3241 atgtaaaaat gacaccatca atgcttctaa acctaaagga gtccagccac ttagtattct
+     3301 ggttgttctg gtgattttca tcgattaaga tatttttcag gtattttgag atcaagtctt
+     3361 tctacagcca tgtttgaaaa gtgaaaatta actttcaggc tacattgtct ttcttatggc
+     3421 aaacttgaag aagttttaag aaatgcattt ctggccgggc gcggtggctc acgcctgtaa
+     3481 tctcagcact ttgggcggcc gaggtgagca gatctcgagg tcaggagttc gagaccagcc
+     3541 tggccaacat ggtgaaaccc cgtctctact aaagatacaa aaattatctg ggcgtggtgg
+     3601 ctcacgcctg taatcccagc tactcaggag gctgaggcag gaaaactgtt tgaacccggg
+     3661 aggcggaggt tgcagtgagc cgagattgcg tcactggact ccagcctggg cgacagagtg
+     3721 aaactccatc gaaagaaaga aagagagaga gagaaagaga gagagaggga ggaagggaag
+     3781 gaaagaagga aggaaggaag gaaggaagga aggaaggaag gaaggaagga aggaaggaag
+     3841 ggatgctctg aagaaagaaa gagaaagaaa gaaagaaaga aagaaagaaa gaaagaaaga
+     3901 aagaaagaaa gaaagaaaga aagaaagaaa gaaagaaaga aagaaagaag agaaagaaga
+     3961 gagagaagga aggaaggaag gaaggaagga aggaaggaag gaaggaagga aggaagggaa
+     4021 aggaaattca tggaaatgga tttctacatt tccagcatgc agaacagcaa gagcaagttg
+     4081 agtattctca agaaactggc agagaaaaga gagcacctag ctgtagaaag ggaaagaagg
+     4141 aagggagggc ttcctggaga aggtggcatt tgagccagga atgacatcag gatggaaatg
+     4201 tcaggcagga agttgggtag ggggagcagc tccagcctcc aggtccccag cttctcccac
+     4261 gccttctgtt tctctgcctg agggaccctc cccctgatga gattctgctc ctccctgaga
+     4321 cttcacatga aatatttccc cctcctcctc cagccaccag cagaaggggc tgctttccct
+     4381 tcagtgtggg cctctcccta atgattactc agctaccctg agcagtgagt ctcattcttt
+     4441 tcagcaaatc ctctcgctgc atggtgagaa aactgaggcc tggagagggt ctgtgacctg
+     4501 cccgggacca cagaactcag tagtaggaaa aattgtattt ttaaatccag ccctgagtgg
+     4561 gaagatttga ggaaatagct aatattgagg agggggtgtt gttgggggtg gcaccgcccc
+     4621 catctctcca ccctcttcac agagaattcc gtgtacctgg aagggcagga atgctacgcg
+     4681 ttcaatggga ctcagcgctt tgtgcacggg ctcatctaca accgggagga atacgtgcat
+     4741 tttgacagcg cagtggagga gttcctagca gtgatggagc tggggcggcc cacgggcaag
+     4801 tacttgaaca gccagaagga ctttatggaa cggaagcgag ccgaggtgga caaggtgtgc
+     4861 agacaccaat acgagctgat ggagccactc atctggcagc gcccaggtga gggctgtgga
+     4921 ccaggactcc tggagcagcc gtgggggccg ggcccaggga gtaggggcag ctgggccggc
+     4981 ctaagggacc ttagtgccag gagggaaggg gactttgggc tgggaattga tgggaggagc
+     5041 ccaaccaggg tttgtcagga gggtgagcac ggagactggc tgagcatgga gtga
+//
+LOCUS       NHP12321                4991 bp    DNA     linear   PRI 20-DEC-2023
+DEFINITION  Mafa-DPB2*04:01:01:01N, DPB2 locus allele.
+ACCESSION   NHP12321
+VERSION     NHP12321
+DBLINK      INSDC: OR823535
+KEYWORDS    IPD-MHC; MHC class II; DPB2.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DPB2*04:01:01:01N
+            IPD accession: NHP12321
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..4991
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..4991
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*04:01:01:01N"
+     exon            1..97
+                     /gene="DPB2"
+                     /number=1
+     exon            4540..4803
+                     /gene="DPB2"
+                     /number=2
+     intron          98..4539
+                     /gene="DPB2"
+                     /number=1
+     intron          4804..4991
+                     /gene="DPB2"
+                     /number=2
+     CDS             join(1..97,4540..4803)
+                     /gene="DPB2"
+                     /allele="Mafa-DPB2*04:01:01:01N"
+                     /codon_start=1
+                     /product="MHC class II DPB2 antigen"
+                     /translation="MILQVSRGPWTVALTALLMVLLISVVQGWATPENSVYQERQEWTQ
+                     RFGTQRFVDGLIYNREEYVHFDSAVGEFLAVMELGRPTGEYLNSX"
+ORIGIN
+        1 atgatcctac aggtttcaag gggtccctgg acagtggctc tgacagcatt actgatggtg
+       61 ctgctcatat ctgtggtcca gggctgggcc actccaggta agagcagagg tgccattcct
+      121 ggagggtctg gttcagggaa caattcctag gggactttct cttcatggaa ccagactctg
+      181 aaacagcatg tggagctcct gccagagcct agtgtccttc tatcacagct ggagaatcaa
+      241 actcacctcc tataggacag gttgctatcc agcaggtcta ttgtctctcc aggaacatgg
+      301 acacagtaaa taaggagccc aggggtcagg atgcttgtct atggggaaat ggagccaaga
+      361 ggttcaggat aaccttggac agacaaggtt tttcagagag agaggttggc aagtgcaggc
+      421 tcctgggtgt gctcacatct gcatccaacc ttgaggggac tcaggcagag agcccttagc
+      481 tggtgtgtcc aggctccaaa gatcactgag gattcagtgc tcatggagaa tgcctgtcat
+      541 tctccaaggt ggagcaggag cccgtgcccc ttggacaatg aaggcaagat gggagggagg
+      601 aggacaggtt tgagcccctg aaggcactct cgttgaaggt atttctccca gccttcccag
+      661 aacttggtta gagtatcagg gtgggttgaa acttgtcaga aaaatgagat aaggatgtgt
+      721 gagtatgtga aagagattga atgcaggtta tcagacagcc aaggaagccg taaccaaggg
+      781 aaaaacctct gtctcctgct gtctccttgt ggccggtgta atattatggc ttctatgacc
+      841 cattgttttc ctctcagaat gttcttacct ttctggccca aatttacatc aacaccctga
+      901 gaggaaggac tgcaaagtag gtgccttact tttccactga cttccacctt tctgcatagg
+      961 cccttcctct gagaccgttc cacatccacc taggacctac ctagaaagta ctgtcctcat
+     1021 gtcacttccc cattttccag gataacagcc ttcgaatctc ctgaggacag cccctcaaac
+     1081 cctaaagtcc ctcacctgtt acctcaggtt cattgtccag gaaagggtgg agaacctgca
+     1141 cttgtagtca cagaggagtg ctgagaacta accagcaaga cggctcagct ctggaatctg
+     1201 gaaactggag aggggtgaga ttggggagaa aggaggctgg agcagcactg gtgacactaa
+     1261 acagtgtcca gcaggaggtc catagcaaca gtgcccatag gtagagttgt ttgtaggatg
+     1321 aggggtggtg ttgggaaacg ccatggaaac ctcaaggtgc agggtagcag aaagcacagg
+     1381 agggagtgtg atgatgctgg gcagtgaaca ggtggagggg caaagactgg gttgaggttg
+     1441 gtgggggaat gagatgaggc agtggagcca tgtgacaggg actgaggatg ggttaccaga
+     1501 gctccctgca tagaatgaac attcaatcaa aacctgcttg agggagagct ggagccatag
+     1561 agagtgggta gagtggatag agccatttct acaattcccc gcatgctctt ccaactccac
+     1621 acacatctcc atcctcaaac agagcacaag aggaaaggcg caaggagcca ggctgtggct
+     1681 taaagtgagg gaggggaggg tggagaaaag cttggctgag acaccaccta gggagcagga
+     1741 gatgacacag caggtggaaa aaccagactc ctggaggcaa cacccttttg tctctgacag
+     1801 gctttaaaat gggcttttta cagctgagtt tcttacctca ccccacccac taccctaggc
+     1861 attagggcca cactacctgt cctcctgtca caccagctgc acttgcagaa gctcattgtg
+     1921 catttgagtc tttgggtact tactcttctg ttaatctaag ccctcaaata aaatcactag
+     1981 cacagaagac aggtgggaag atccagtcag caaacagcca acacttttca accattaagg
+     2041 tctggtgcct gtggaaagtc ttcctgaggt tttccagtag ctcataagct gatccagttc
+     2101 gtttttcata tgcatttatt tagaattttg ctcctattca aacaggtcac acagtgaaaa
+     2161 gaggaaggga actaattaac atggattgag cagtgacagg tacaatacta tgtattttac
+     2221 atatgtgagc tcatttagtt ctcacagcaa ttttactagg taaatagtgt tattactatt
+     2281 ttgcctttca agaaattgag agttagaagg ttgtttcttg cccaagataa cttagtaatc
+     2341 agtcgtagtg tgagaactgg aacccctacc tgggacatgt tccttttctt acccatatgg
+     2401 cctcccttat atctttctgc aattatattt taatatatcc tattctgagt gagagatgaa
+     2461 ttcacacaga tcattgattt tcaaattgtg ctctgggtaa ctcaattgtc aagggttcca
+     2521 caaacaggat aaagtttccc atatacaaaa aaaaaaaaaa aatgaaggtt tcaaattcca
+     2581 ctgtacactc atcactgatg tctgctttgc aggtaaaatt ccatttaaaa agttaaatgt
+     2641 tgcaaaggaa agttttgaaa ttcttactct tgactaaaac atgttctcat attgctgaat
+     2701 gaggaagaga aacaaagact aacaaattaa aatgagagga tacacactca gtgtggggca
+     2761 gttgaatagg gagaggtgga ctaaaggggc tgggggcgac gggcctgggt gtttaggagg
+     2821 ctggagccca aggcatcagg agaagaaggt taggatatct gaagtcctgg gatcttgcct
+     2881 tagagatgac actggaaact acaggccgag tgtgtggtgc ccctgagccc agcaccaccc
+     2941 cttctccact gtcctctgcc accagctgtg catcttctgt gaggggtgag ttaacacaca
+     3001 tgagttataa atttgtagaa catgaaacag gtgtccaaaa caaatcttaa tttgctgtgt
+     3061 gcaaatcaca gcaccttaat ttctccattg tgaccaggaa cagatcagga ctgaagaggc
+     3121 tcagacagaa gcaagcagac atgtgctggg tcattgctac ttctgtatac acatgcacct
+     3181 gctggacact gccatggtgc tccctaggaa gaaccacagg tggaaaaggc tgccacactt
+     3241 ctttatgtaa aaatgacacc atcaatgctt ctaaacctaa aggagtccag ccacttagta
+     3301 ttctgcttgt tctggtgatt ttcatcgatt gagatatttt ccaggtattt tgagatcaag
+     3361 tctttctaca gccatgtttg aaaagtgaaa attaactttc aggctacatt gtctttctta
+     3421 tggcaaactt gaagaagttt taagaaatgc atttctggcc gggcacagtg gctcacacct
+     3481 gtaatctctg cactttgggt ggccgaggtg agcagatctc gaggtcagga gttcgagacc
+     3541 agcctagcca acatggtgaa acccggtctc tacaaaaatt atctgggcgt ggtggctcat
+     3601 gtctgtaatc ccagctactc aggaggctga ggcaggaaaa ctgcttgaac ctgggaggcg
+     3661 gaggttgcac tgagccgaga ttgcatcact ggactccagc ctgggtgaca gagtgaaact
+     3721 cgtcgaaaga aaggaaggac ggaaggaagg aaggaaggaa ggaaggaagg aaggaaggaa
+     3781 ggaaggaagg aaggaaggaa ggaaggcagg caggctccga agaaagaagg aagaaagaaa
+     3841 gagagaaaga gagaggaagg aaggaaggaa ggaaggaagg aaggaaggaa ggaaggaagg
+     3901 aaggaaggaa ggaaggaagg aaagaaggaa agaaggaagg aagaaaagga aaggaaatgc
+     3961 atggaaatgc atttctacat ttccagcata cagaacagca agagcgagtt gaggtattct
+     4021 caagaaactg gcagagaaaa gagagcaccc agctgtaaaa agggaaagaa ggaagggacg
+     4081 gcttcctgga ggaggtggca tttgagccag gactgacatc aggatggaaa tgtcaggcag
+     4141 gaagtttggt agggggagca gctccggcct ccaggtcccc agctcctccc atgccttctg
+     4201 tttctctgcc tgagggatcc tccccgtgat gagattctgc tcctctctga ggcttcacat
+     4261 gaaatatttc cccctcctcc tccagccgcc agcagaaggg gctgctcaac caccctgagg
+     4321 agtgagtctc attcttttca gcaaatcctc tcgctgcatg gtgagaaaac tgaggcctgg
+     4381 agagggtctg tgacctgcct gggaccacag aactcggtag taggaaaaat cgtattttta
+     4441 aatccagccc tgagtgggaa gatttgagga aatagctaat attgaggagg gggtgttgtt
+     4501 gggggtggca ccacccccat ctctccaccc tcttcataga gaattccgtg taccaggaac
+     4561 ggcaggaatg gactcagcgc tttgggactc agcgctttgt ggacgggctc atctacaacc
+     4621 gggaggaata cgtgcatttt gacagcgcag tgggggagtt cctagcagtg atggagctgg
+     4681 ggcggcccac gggcgagtac ttgaacagct agaaggactt tatggaacgg aagcgagccg
+     4741 aggtggacaa ggtgtgcaga cacaagtacg agctgatgga gccactcctc cggcagcgcc
+     4801 gaggtgaggg ctgtggacca gggctcctgg ggcagccgtg ggggccggga ccagggagca
+     4861 agggcagccg ggccggccta agggacctta gtgcctggag ggaaggggac tttgggctgg
+     4921 gaattgatgg gaggagccca accggagttt gtcaggaggg tgagcacgaa gactggctga
+     4981 gcatggagtg a
+//

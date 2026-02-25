@@ -1,0 +1,97 @@
+name: Weekly Update
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Save current version info
+        id: before
+        run: |
+          if [ -f version.json ]; then
+            mhc_ver=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('MHC', {}).get('version', 'unknown'))")
+            nhkir_ver=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('NHKIR', {}).get('version', 'unknown'))")
+            echo "mhc_version=$mhc_ver" >> "$GITHUB_OUTPUT"
+            echo "nhkir_version=$nhkir_ver" >> "$GITHUB_OUTPUT"
+          else
+            echo "mhc_version=none" >> "$GITHUB_OUTPUT"
+            echo "nhkir_version=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run incremental update
+        run: uv run nhp-pipeline update
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Read updated version info
+        if: steps.changes.outputs.has_changes == 'true'
+        id: after
+        run: |
+          mhc_ver=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('MHC', {}).get('version', 'unknown'))")
+          nhkir_ver=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('NHKIR', {}).get('version', 'unknown'))")
+          mhc_count=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('MHC', {}).get('allele_count', 0))")
+          nhkir_count=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('NHKIR', {}).get('allele_count', 0))")
+          echo "mhc_version=$mhc_ver" >> "$GITHUB_OUTPUT"
+          echo "nhkir_version=$nhkir_ver" >> "$GITHUB_OUTPUT"
+          echo "mhc_count=$mhc_count" >> "$GITHUB_OUTPUT"
+          echo "nhkir_count=$nhkir_count" >> "$GITHUB_OUTPUT"
+
+      - name: Summarize changed files
+        if: steps.changes.outputs.has_changes == 'true'
+        id: summary
+        run: |
+          gb_changed=$(git diff --name-only -- 'data/**/*.gb' | wc -l | tr -d ' ')
+          gb_new=$(git ls-files --others --exclude-standard -- 'data/**/*.gb' | wc -l | tr -d ' ')
+          echo "gb_changed=$gb_changed" >> "$GITHUB_OUTPUT"
+          echo "gb_new=$gb_new" >> "$GITHUB_OUTPUT"
+
+      - name: Create pull request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Update allele data (MHC ${{ steps.after.outputs.mhc_version }}, NHKIR ${{ steps.after.outputs.nhkir_version }})"
+          title: "Update allele data (MHC ${{ steps.after.outputs.mhc_version }}, NHKIR ${{ steps.after.outputs.nhkir_version }})"
+          body: |
+            Automated incremental update detected changes in IPD allele data.
+
+            | Database | Previous | Updated | Alleles |
+            |----------|----------|---------|---------|
+            | IPD-MHC  | ${{ steps.before.outputs.mhc_version }} | ${{ steps.after.outputs.mhc_version }} | ${{ steps.after.outputs.mhc_count }} |
+            | IPD-NHKIR | ${{ steps.before.outputs.nhkir_version }} | ${{ steps.after.outputs.nhkir_version }} | ${{ steps.after.outputs.nhkir_count }} |
+
+            **Changed files**: ${{ steps.summary.outputs.gb_changed }} modified, ${{ steps.summary.outputs.gb_new }} new GenBank files.
+
+            Only locus files containing new or modified alleles were regenerated.
+            Version suffixes (e.g., 3.16.0.0.1) indicate silent IPD updates without an official release.
+            Please review the changes and merge if the data looks correct.
+          branch: auto-update/ipd-release
+          delete-branch: true

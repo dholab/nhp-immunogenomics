@@ -1,0 +1,1930 @@
+LOCUS       NHP00191                2899 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*01:01:01, C locus allele.
+ACCESSION   NHP00191
+VERSION     NHP00191
+DBLINK      INSDC: X60252
+            INSDC: KY189963
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Lawlor DA, Warren E, Taylor P, Parham P.
+  TITLE     Gorilla class I major histocompatibility complex alleles: comparison
+            to human and chimpanzee class I.
+  JOURNAL   J Exp Med 174:1491-1509 (1991)
+   PUBMED   1744581
+REFERENCE   2
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*01:01:01
+            IPD accession: NHP00191
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*01:01; Gogo-C*0101
+FEATURES             Location/Qualifiers
+     source          1..2899
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2899
+                     /gene="C"
+                     /allele="Gogo-C*01:01:01"
+                     /note="previous designations: Gogo-C*01:01; Gogo-C*0101"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            205..474
+                     /gene="C"
+                     /number=2
+     exon            721..996
+                     /gene="C"
+                     /number=3
+     exon            1585..1860
+                     /gene="C"
+                     /number=4
+     exon            1985..2101
+                     /gene="C"
+                     /number=5
+     exon            2541..2573
+                     /gene="C"
+                     /number=6
+     exon            2683..2730
+                     /gene="C"
+                     /number=7
+     exon            2895..2899
+                     /gene="C"
+                     /number=8
+     intron          74..204
+                     /gene="C"
+                     /number=1
+     intron          475..720
+                     /gene="C"
+                     /number=2
+     intron          997..1584
+                     /gene="C"
+                     /number=3
+     intron          1861..1984
+                     /gene="C"
+                     /number=4
+     intron          2102..2540
+                     /gene="C"
+                     /number=5
+     intron          2574..2682
+                     /gene="C"
+                     /number=6
+     intron          2731..2894
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,205..474,721..996,1585..1860,1985..2101,
+                     2541..2573,2683..2730,2895..2899)
+                     /gene="C"
+                     /allele="Gogo-C*01:01:01"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFFTAVAPPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAANTRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRK
+                     LRGYYNQSEDGSHTFQRMYGCDVGPDGRLQRGYDQLAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAARWAERQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDIELVETRPAGDGTFQKWAAMVVPSGEEQRY
+                     TCHVQHKGLLEPLTLRWEPSSQPTIPIVGIVAGLAVLAVVFTGTVVAAVMCRRKSSGGK
+                     GGSCSQAACSNSAQGSDESLIACKA"
+ORIGIN
+        1 atgcgggtca tggctccccg aaccctcatc ctgctgctct caggagccct ggccctgacc
+       61 gagacctggg ccgggtgagt gcggggtcgg gagggaaacg gcctctgcgg agaggagcga
+      121 ggggcccgcc cggcgagggc gcaggacccg gggagccgcg gagggaggag ggtcgggcgg
+      181 gtctcagccc ctccttgccc ccaggctccc actccatgag gtatttcttc accgccgtgg
+      241 ccccgcccgg ccgcggagag ccccgcttca tcgcagtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgcgaata cgagagggga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa gtacaagcgc caggcacaga
+      421 ctgaccgagt gagcctgcgg aaactgcgcg gctactacaa ccagagcgag gacggtgagt
+      481 gaccccggcc tggggcgcag gtcacgaccc ctccccatcc cccacggacg gcccgggtcg
+      541 ccccgagtct cccggtctga gatccacccc gaggctgcgg aacccgccca gaccctcgac
+      601 cggagagagc cccagtcgcc tttacccggt ttcattttca gtttaggcca aaatccccgc
+      661 gggttggtcg gggctggggc ggggctcggc gggcatggct gaccacgggg gcggggccag
+      721 ggtctcacac cttccagagg atgtatggct gcgacgtggg gcccgacggg cgcctccaac
+      781 gcgggtatga ccagttggcc tacgatggca aggattacat cgccctgaac gaggacctgc
+      841 gctcctggac cgccgcggac acggcggctc agatcaccca gcgcaagtgg gaggcagccc
+      901 gttgggcgga gcggcagaga gcctacctgg agggcctgtg cgtggagtgg ctccgcagat
+      961 acctggagaa tgggaaggag acgctgcagc gcgcaggtac caggggcagt ggggagcctt
+     1021 ccccatctcc tatagatctc ctgggatggc ctctcacgag gagaggagga aaatgggatc
+     1081 agcgctagaa tatcgccctc ccttgaatgg agaatggcat gagttttcct gagtttcttc
+     1141 tgagggcccc ctctgctctc taggacaatt aagggatgaa gtccctgagg aaatggaggg
+     1201 gaagacagtc cctggaatac tgatcagggg tcccctttga ccactttgac cactgcggca
+     1261 gctgtggtca ggctgctgac ctttctctca ggccttgttc tctgcctcac actcaatgtg
+     1321 tttgaaggtt tgattccagc ttttctgagt ccttcggcct ccacctcagg tcaggaccag
+     1381 aagtcgctgt tcctccctca gatactagaa ctttccaatg aataggagat tatcccaggt
+     1441 acctgtgtcc aggctggcgt ttgggttctg tgcccccttc cccaccccag gtgtcctgtc
+     1501 cattctcagg atggtcacat gggcgctgcg ggagtgtcgc aagagagatg caaagtgtct
+     1561 gaattttctg actcttcccg tcagaccccc caaagacaca cgtgacccac caccccatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggagcaaa ctcaggacat cgagcttgtg gagaccaggc
+     1741 cagcaggaga tggaaccttc cagaagtggg cagctatggt ggtgccttct ggagaagagc
+     1801 agagatacac gtgccatgtg cagcacaagg ggctgctgga gcccctcacc ctgagatggg
+     1861 gtaaggaggg gaatgagggg ccgtgtctct tctcagagaa agcagaagtc cttctggagc
+     1921 ccttcagccg ggtcagggct gaggcttggg ggtcagggcc cctcaccttc ccctcctttc
+     1981 ccagagccgt cttcccagcc caccatcccc atcgtgggca ttgttgctgg cctggctgtc
+     2041 ctagcagttg tgttcactgg aactgtggtc gctgctgtga tgtgtaggag gaagagctca
+     2101 ggtagggacg gggtgaggag tggggtctgg gttttcttgt cccactggga gtttcaatcc
+     2161 ccaggtagaa gtgtgccgcg cctcgttact ggaagcacca tccacacatg ggccatccca
+     2221 gcctgggact cagtgtgcca gcagttactc ttttgtgagg cacatgtgac aatgaaggac
+     2281 aatgtatcac cttgatgatt atggttttgg agtcctgatt ccagcattca tgagtcaggg
+     2341 gaaggtccct gctaaggaca gaccttagga gggcagttgg tccagaaccc acagctgctt
+     2401 tccttgtgtt tcctaatcct gccctgggtc tgcagtcata gttctggaaa cttctcttgg
+     2461 gtccaagact aggaggttcc cctaagatcg catggccctg cctcctccct gtcccttcac
+     2521 agggcatttt cttcccacag gtggaaaagg agggagctgc tctcaggctg cgtgtaagtg
+     2581 atggcggcgg gtgtgtggag gagctcaccg accccataat tcctcttgtc ccacatctcc
+     2641 tgtgggctct gaccaggtct tttttttcta ttctacccca gggcagcaac agtgcccagg
+     2701 gctctgatga gtctctcatc gcttgtaaag gtgagattct ggggagctga agtggtcggg
+     2761 ggtggggcag agggaaaagg cctgggtaat ggagattctt tgattgggat gtttcgcgtg
+     2821 tgtggtgggc tgttcagaat gtcatcactt accatgactg acctgaattt gttcatgact
+     2881 attgtgttct gtagcctga
+//
+LOCUS       NHP00192                2866 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*01:01:02, C locus allele.
+ACCESSION   NHP00192
+VERSION     NHP00192
+DBLINK      INSDC: X60250
+            INSDC: KY189964
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Lawlor DA, Warren E, Taylor P, Parham P.
+  TITLE     Gorilla class I major histocompatibility complex alleles: comparison
+            to human and chimpanzee class I.
+  JOURNAL   J Exp Med 174:1491-1509 (1991)
+   PUBMED   1744581
+REFERENCE   2
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*01:01:02
+            IPD accession: NHP00192
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*01:02; Gogo-C*0102
+FEATURES             Location/Qualifiers
+     source          1..2866
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2866
+                     /gene="C"
+                     /allele="Gogo-C*01:01:02"
+                     /note="previous designations: Gogo-C*01:02; Gogo-C*0102"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            205..474
+                     /gene="C"
+                     /number=2
+     exon            721..996
+                     /gene="C"
+                     /number=3
+     exon            1585..1860
+                     /gene="C"
+                     /number=4
+     exon            1985..2101
+                     /gene="C"
+                     /number=5
+     exon            2541..2573
+                     /gene="C"
+                     /number=6
+     exon            2683..2730
+                     /gene="C"
+                     /number=7
+     exon            2862..2866
+                     /gene="C"
+                     /number=8
+     intron          74..204
+                     /gene="C"
+                     /number=1
+     intron          475..720
+                     /gene="C"
+                     /number=2
+     intron          997..1584
+                     /gene="C"
+                     /number=3
+     intron          1861..1984
+                     /gene="C"
+                     /number=4
+     intron          2102..2540
+                     /gene="C"
+                     /number=5
+     intron          2574..2682
+                     /gene="C"
+                     /number=6
+     intron          2731..2861
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,205..474,721..996,1585..1860,1985..2101,
+                     2541..2573,2683..2730,2862..2866)
+                     /gene="C"
+                     /allele="Gogo-C*01:01:02"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFFTAVAPPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAANTRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRK
+                     LRGYYNQSEDGSHTFQRMYGCDVGPDGRLQRGYDQLAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAARWAERQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDIELVETRPAGDGTFQKWAAMVVPSGEEQRY
+                     TCHVQHKGLLEPLTLRWEPSSQPTIPIVGIVAGLAVLAVVFTGTVVAAVMCRRKSSGGK
+                     GGSCSQAACSNSAQGSDESLIACKA"
+ORIGIN
+        1 atgcgggtca tggctccccg aaccctcatc ctgctgctct caggagccct ggccctgacc
+       61 gagacctggg ccgggtgagt gcggggtcgg gagggaaacg gcctctgcgg agaggagcga
+      121 ggggcccgcc cggcgagggc gcaggacccg gggagccgcg gagggaggag ggtcgggcgg
+      181 gtctcagccc ctccttgccc ccaggctccc actccatgag gtatttcttc accgccgtgg
+      241 ccccgcccgg ccgcggagag ccccgcttca tcgcagtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgcgaata cgagagggga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa gtacaagcgc caggcacaga
+      421 ctgaccgagt gagcctgcgg aaactgcgcg gctactacaa ccagagcgag gacggtgagt
+      481 gaccccggcc tggggcgcag gtcacgaccc ctccccatcc cccacggacg gcccgggtcg
+      541 ccccgagtct cccggtctga gatccacccc gaggctgcgg aacccgccca gaccctcgac
+      601 cggagagagc cccagtcgcc tttacccggt ttcattttca gtttaggcca aaatccccgc
+      661 gggttggtcg gggctggggc ggggctcggc gggcatggct gaccacgggg gcggggccag
+      721 ggtctcacac cttccagagg atgtatggct gcgacgtggg gcccgacggg cgcctccaac
+      781 gcgggtatga ccagttggcc tacgatggca aggattacat cgccctgaac gaggacctgc
+      841 gctcctggac cgccgcggac acggcggctc agatcaccca gcgcaagtgg gaggcagccc
+      901 gttgggcgga gcggcagaga gcctacctgg agggcctgtg cgtggagtgg ctccgcagat
+      961 acctggagaa tgggaaggag acgctgcagc gcgcaggtac caggggcagt ggggagcctt
+     1021 ccccatctcc tatagatctc ctgggatggc ctctcacgag gagaggagga aaatgggatc
+     1081 agcgctagaa tatcgccctc ccttgaatgg agaatggcat gagttttcct gagtttcttc
+     1141 tgagggcccc ctctgctctc taggacaatt aagggatgaa gtccctgagg aaatggaggg
+     1201 gaagacagtc cctggaatac tgatcagggg tcccctttga ccactttgac cactgcggca
+     1261 gctgtggtca ggctgctgac ctttctctca ggccttgttc tctgcctcac actcaatgtg
+     1321 tttgaaggtt tgattccagc ttttctgagt ccttcggcct ccacctcagg tcaggaccag
+     1381 aagtcgctgt tcctccctca gatactagaa ctttccaatg aataggagat tatcccaggt
+     1441 acctgtgtcc aggctggcgt ttgggttctg tgcccccttc cccaccccag gtgtcctgtc
+     1501 cattctcagg atggtcacat gggcgctgcg ggagtgtcgc aagagagatg caaagtgtct
+     1561 gaattttctg actcttcccg tcagaccccc caaagacaca cgtgacccac caccccatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggagcaaa ctcaggacat cgagcttgtg gagaccaggc
+     1741 cagcaggaga tggaaccttc cagaagtggg cagctatggt ggtgccttct ggagaagagc
+     1801 agagatacac gtgccatgtg cagcacaagg ggctgctgga gcccctcacc ctgagatggg
+     1861 gtaaggaggg gaatgagggg ccgtgtctct tctcagagaa agcagaagtc cttctggagc
+     1921 ccttcagccg ggtcagggct gaggcttggg ggtcagggcc cctcaccttc ccctcctttc
+     1981 ccagagccgt cttcccagcc caccatcccc atcgtgggca tcgttgctgg cctggctgtc
+     2041 ctagcagttg tgttcactgg aactgtggtc gctgctgtga tgtgtaggag gaagagctca
+     2101 ggtagggacg gggtgaggag tggggtctgg gttttcttgt cccactggga gtttcaatcc
+     2161 ccaggtagaa gtgtgccgcg cctcgttact ggaagcacca tccacacatg ggccatccca
+     2221 gcctgggact cagtgtgcca gcagttactc ttttgtgagg cacatgtgac aatgaaggac
+     2281 aatgtatcac cttgatgatt atggttttgg agtcctgatt ccagcattca tgagtcaggg
+     2341 gaaggtccct gctaaggaca gaccttagga gggcagttgg tccagaaccc acagctgctt
+     2401 tccttgtgtt tcctaatcct gccctgggtc tgcagtcata gttctggaaa cttctcttgg
+     2461 gtccaagact aggaggttcc cctaagatcg catggccctg cctcctccct gtcccttcac
+     2521 agggcatttt cttcccacag gtggaaaagg agggagctgc tctcaggctg cgtgtaagtg
+     2581 atggcggcgg gtgtgtggag gagctcaccg accccataat tcctcttgtc ccacatctcc
+     2641 tgtgggctct gaccaggtct tttttttcta ttctacccca gggcagcaac agtgcccagg
+     2701 gctctgatga gtctctcatc gcttgtaaag gtgagattct ggggagctga agtggtcggg
+     2761 ggtggggcag agggaaaagg cctgggtaat ggagattctt tgattgggat gtttcgcgtg
+     2821 tgtggtgggc tgttcagaat gtcatcactt accatgactg acctga
+//
+LOCUS       NHP00193                2899 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*01:03, C locus allele.
+ACCESSION   NHP00193
+VERSION     NHP00193
+DBLINK      INSDC: AF157410
+            INSDC: KY189966
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Urvater JA, Hickman H, Dzuris JL, Prilliman K, Allen TM, Schwartz
+            KJ, Lorentzen D, Shufflebotham C, Collins EJ, Neiffer DL, Raphael B,
+            Hildebrand W, Sette A, Watkins DI.
+  TITLE     Gorillas with spondyloarthropathies express an MHC class I molecule
+            with only limited sequence similarity to HLA-B27 that binds peptides
+            with arginine at P2.
+  JOURNAL   J Immunol 166:3334-3344 (2001)
+   PUBMED   11207289
+REFERENCE   2
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*01:03
+            IPD accession: NHP00193
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*0103
+FEATURES             Location/Qualifiers
+     source          1..2899
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2899
+                     /gene="C"
+                     /allele="Gogo-C*01:03"
+                     /note="previous designations: Gogo-C*0103"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            205..474
+                     /gene="C"
+                     /number=2
+     exon            721..996
+                     /gene="C"
+                     /number=3
+     exon            1585..1860
+                     /gene="C"
+                     /number=4
+     exon            1985..2101
+                     /gene="C"
+                     /number=5
+     exon            2541..2573
+                     /gene="C"
+                     /number=6
+     exon            2683..2730
+                     /gene="C"
+                     /number=7
+     exon            2895..2899
+                     /gene="C"
+                     /number=8
+     intron          74..204
+                     /gene="C"
+                     /number=1
+     intron          475..720
+                     /gene="C"
+                     /number=2
+     intron          997..1584
+                     /gene="C"
+                     /number=3
+     intron          1861..1984
+                     /gene="C"
+                     /number=4
+     intron          2102..2540
+                     /gene="C"
+                     /number=5
+     intron          2574..2682
+                     /gene="C"
+                     /number=6
+     intron          2731..2894
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,205..474,721..996,1585..1860,1985..2101,
+                     2541..2573,2683..2730,2895..2899)
+                     /gene="C"
+                     /allele="Gogo-C*01:03"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFFTAVAPPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAANTRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTFQRMYGCDVGPDGRLQRGYDQLAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAARWAERQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDIELVETRPAGDGTFQKWAAMVVPSGEEQRY
+                     TCHVQHKGLPEPLTLRWEPSSQPTIPIVGIVAGLAVLAVVFTGTVVAAVMCRRKSSGGK
+                     GGSCSQAACSNSAQGSDESLIACKA"
+ORIGIN
+        1 atgcgggtca tggctccccg aaccctcatc ctgctgctct caggagccct ggccctgacc
+       61 gagacctggg ccgggtgagt gcggggtcgg gagggaaacg gcctctgcgg agaggagcga
+      121 ggggcccgcc cggcgagggc gcaggacccg gggagccgcg gagggaggag ggtcgggcgg
+      181 gtctcagccc ctccttgccc ccaggctccc actccatgag gtatttcttc accgccgtgg
+      241 ccccgcccgg ccgcggagag ccccgcttca tcgcagtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgcgaata cgagagggga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa gtacaagcgc caggcacaga
+      421 ctgaccgagt gaacctgcgg aaactgcgcg gctactacaa ccagagcgag gacggtgagt
+      481 gaccccggcc tggggcgcag gtcacgaccc ctccccatcc cccacggacg gcccgggtcg
+      541 ccccgagtct cccggtctga gatccacccc gaggctgcgg aacccgccca gaccctcgac
+      601 cggagagagc cccagtcgcc tttacccggt ttcattttca gtttaggcca aaatccccgc
+      661 gggttggtcg gggctggggc ggggctcggc gggcatggct gaccacgggg gcggggccag
+      721 ggtctcacac cttccagagg atgtatggct gcgacgtggg gcccgacggg cgcctccaac
+      781 gcgggtatga ccagttggcc tacgatggca aggattacat cgccctgaac gaggacctgc
+      841 gctcctggac cgccgcggac acggcggctc agatcaccca gcgcaagtgg gaggcagccc
+      901 gttgggcgga gcggcagaga gcctacctgg agggcctgtg cgtggagtgg ctccgcagat
+      961 acctggagaa tgggaaggag acgctgcagc gcgcaggtac caggggcagt ggggagcctt
+     1021 ccccatctcc tatagatctc ctgggatggc ctctcacgag gagaggagga aaatgggatc
+     1081 agcgctagaa tatcgccctc ccttgaatgg agaatggcat gagttttcct gagtttcttc
+     1141 tgagggcccc ctctgctctc taggacaatt aagggatgaa gtccctgagg aaatggaggg
+     1201 gaagacagtc cctggaatac tgatcagggg tcccctttga ccactttgac cactgcggca
+     1261 gctgtggtca ggctgctgac ctttctctca ggccttgttc tctgcctcac actcaatgtg
+     1321 tttgaaggtt tgattccagc ttttctgagt ccttcggcct ccacctcagg tcaggaccag
+     1381 aagtcgctgt tcctccctca gatactagaa ctttccaatg aataggagat tatcccaggt
+     1441 acctgtgtcc aggctggcgt ttgggttctg tgcccccttc cccaccccag gtgtcctgtc
+     1501 cattctcagg atggtcacat gggcgctgcg ggagtgtcgc aagagagatg caaagtgtct
+     1561 gaattttctg actcttcccg tcagaccccc caaagacaca cgtgacccac caccccatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggagcaaa ctcaggacat cgagcttgtg gagaccaggc
+     1741 cagcaggaga tggaaccttc cagaagtggg cagctatggt ggtgccttct ggagaagagc
+     1801 agagatacac gtgccatgtg cagcacaagg ggctgccgga gcccctcacc ctgagatggg
+     1861 gtaaggaggg gaatgagggg ccgtgtctct tctcagagaa agcagaagtc cttctggagc
+     1921 ccttcagccg ggtcagggct gaggcttggg ggtcagggcc cctcaccttc ccctcctttc
+     1981 ccagagccgt cttcccagcc caccatcccc atcgtgggca tcgttgctgg cctggctgtc
+     2041 ctagcagttg tgttcactgg aactgtggtc gctgctgtga tgtgtaggag gaagagctca
+     2101 ggtagggacg gggtgaggag tggggtctgg gttttcttgt cccactggga gtttcaatcc
+     2161 ccaggtagaa gtgtgccgcg cctcgttact ggaagcacca tccacacatg ggccatccca
+     2221 gcctgggact cagtgtgcca gcagttactc ttttgtgagg cacatgtgac aatgaaggac
+     2281 aatgtatcac cttgatgatt atggttttgg agtcctgatt ccagcattca tgagtcaggg
+     2341 gaaggtccct gctaaggaca gaccttagga gggcagttgg tccagaaccc acagctgctt
+     2401 tccttgtgtt tcctaatcct gccctgggtc tgcagtcata gttctggaaa cttctcttgg
+     2461 gtccaagact aggaggttcc cctaagatcg catggccctg cctcctccct gtcccttcac
+     2521 agggcatttt cttcccacag gtggaaaagg agggagctgc tctcaggctg cgtgtaagtg
+     2581 atggcggcgg gtgtgtggag gagctcaccg accccataat tcctcttgtc ccacatctcc
+     2641 tgtgggctct gaccaggtct tttttttctg ttctacccca gggcagcaac agtgcccagg
+     2701 gctctgatga gtctctcatc gcttgtaaag gtgagattct ggggagctga agtggtcggg
+     2761 ggtggggcag agggaaaagg cctgggtaat ggagattctt tgattgggat gtttcgcgtg
+     2821 tgtggtgggc tgttcagaat gtcatcactt accatgactg acctgaattt gttcatgact
+     2881 attgtgttct gtagcctga
+//
+LOCUS       NHP00194                1101 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*02:01, C locus allele.
+ACCESSION   NHP00194
+VERSION     NHP00194
+DBLINK      INSDC: X60251
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Lawlor DA, Warren E, Taylor P, Parham P.
+  TITLE     Gorilla class I major histocompatibility complex alleles: comparison
+            to human and chimpanzee class I.
+  JOURNAL   J Exp Med 174:1491-1509 (1991)
+   PUBMED   1744581
+COMMENT     IPD-MHC allele: Gogo-C*02:01
+            IPD accession: NHP00194
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*0201
+FEATURES             Location/Qualifiers
+     source          1..1101
+                     /organism="Gorilla gorilla"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9593"
+     gene            1..1101
+                     /gene="C"
+                     /allele="Gogo-C*02:01"
+                     /note="previous designations: Gogo-C*0201"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            74..343
+                     /gene="C"
+                     /number=2
+     exon            344..619
+                     /gene="C"
+                     /number=3
+     exon            620..895
+                     /gene="C"
+                     /number=4
+     exon            896..1015
+                     /gene="C"
+                     /number=5
+     exon            1016..1048
+                     /gene="C"
+                     /number=6
+     exon            1049..1096
+                     /gene="C"
+                     /number=7
+     exon            1097..1101
+                     /gene="C"
+                     /number=8
+     CDS             1..1101
+                     /gene="C"
+                     /allele="Gogo-C*02:01"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILPLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQVTQRKWEAARVAEQERAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgccgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggctccca ctccatgagg tatttctaca cctccgtgtc ccggcccggc
+      121 cgcggggagc cccgcttcat ctcagtgggc tacgtggacg acacgcagtt cgtgcggttc
+      181 gacagcgacg ccgcgagtcc aagaggggag ccgcgggcgc cgtgggtgga gcaggagggg
+      241 ccggagtatt gggaccggga gacacagaag tacaagcgcc aggcacagac tgaccgagtg
+      301 aacctgcgga aactgcgcgg ctactacaac cagagcgagg acgggtctca cactctccag
+      361 tcgatgtatg gctgcgacct ggggccggac gggcgcctcc tccgcgggta tagccagttc
+      421 gcctacgacg gcaaggatta catcgccctg aacgaggacc tgcgctcctg gaccgccgcg
+      481 gacacggcgg ctcaggtcac acagcgcaag tgggaggcgg cccgtgtggc ggagcaggag
+      541 agagcctacc tggagggcct gtgcgtggag tggctccgca gatacctgga gaacgggaag
+      601 gagacgctgc agcgcgcgga ccccccaaag acacacgtga cccaccaccc cctctctgac
+      661 catgaggcca ccctgaggtg ctgggccctg ggcttctacc ctgcggagat cacactgacc
+      721 tggcagcggg atggggagga ccagacccag gacaccgagc ttgtggagac caggccagca
+      781 ggagatggaa ccttccagaa gtgggcagct gtggtggtgc cttctggaca agagcagaga
+      841 tacacgtgcc atatgcagca cgaggggctg ccagagcccc tcaccctgag atgggagcca
+      901 tcttcccagc ccaccatccc catcgtgggc attgttgttg gcctggctgt cctggttgtc
+      961 ctagctgtcc ttggagctgt ggtcaccgct atgatgtgta ggaggaagag ctcaggtgga
+     1021 aaaggaggga gctgctctca ggctgcgtgc agcaacagtg cccagggctc tgatgagtct
+     1081 ctcatcactt gtaaagcctg a
+//
+LOCUS       NHP00195                2866 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*02:02, C locus allele.
+ACCESSION   NHP00195
+VERSION     NHP00195
+DBLINK      INSDC: X60249
+            INSDC: KY189968
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Lawlor DA, Warren E, Taylor P, Parham P.
+  TITLE     Gorilla class I major histocompatibility complex alleles: comparison
+            to human and chimpanzee class I.
+  JOURNAL   J Exp Med 174:1491-1509 (1991)
+   PUBMED   1744581
+REFERENCE   2
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*02:02
+            IPD accession: NHP00195
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*0202
+FEATURES             Location/Qualifiers
+     source          1..2866
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2866
+                     /gene="C"
+                     /allele="Gogo-C*02:02"
+                     /note="previous designations: Gogo-C*0202"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            204..473
+                     /gene="C"
+                     /number=2
+     exon            720..995
+                     /gene="C"
+                     /number=3
+     exon            1583..1858
+                     /gene="C"
+                     /number=4
+     exon            1982..2101
+                     /gene="C"
+                     /number=5
+     exon            2542..2574
+                     /gene="C"
+                     /number=6
+     exon            2683..2730
+                     /gene="C"
+                     /number=7
+     exon            2862..2866
+                     /gene="C"
+                     /number=8
+     intron          74..203
+                     /gene="C"
+                     /number=1
+     intron          474..719
+                     /gene="C"
+                     /number=2
+     intron          996..1582
+                     /gene="C"
+                     /number=3
+     intron          1859..1981
+                     /gene="C"
+                     /number=4
+     intron          2102..2541
+                     /gene="C"
+                     /number=5
+     intron          2575..2682
+                     /gene="C"
+                     /number=6
+     intron          2731..2861
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,204..473,720..995,1583..1858,1982..2101,
+                     2542..2574,2683..2730,2862..2866)
+                     /gene="C"
+                     /allele="Gogo-C*02:02"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKLEAARAAEQQRAYLEGLCVESLRRYLENGKETLQRAEPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccgggtgagt gcggggtcgg gagggaaacg gcctctgcgg aaaggagcga
+      121 ggggcccgcc cggcgagggc gcaggaccgg ggagccgcgc cgggaggagg gtcaggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctcagtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagtcc aagaggggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaag tacaagcgcc aggcacagac
+      421 tgaccgagtg aacctgcgga aactgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtcgc
+      541 cccgagtctc ccggtctgag atccaccccg aggctgcgga acccgcccag accctcgacc
+      601 ggagagagcc ccagtcacct ttacccggtt tcattttcag tttaggccaa aatccccgcg
+      661 ggttggtcgg ggctggggcg gggctcgggg gacggggctg accacggggg cggggccagg
+      721 gtctcacact ctccagtcga tgtatggctg cgacctgggg cccgacgggc gcctcctccg
+      781 cgggtatagc cagttcgcct acgacggcaa ggattacatc gccctgaacg aggacctgcg
+      841 ctcctggacc gccgcggaca cggcggctca gatcacccag cgcaagttgg aggcggcccg
+      901 tgcggcggag cagcagagag cctacctgga gggcctgtgc gtggagtcgc tccgcagata
+      961 cctggagaac gggaaggaga cgctgcagcg cgcgggtacc aggggcagtg gggagccgtc
+     1021 tccatctcct atagatctcc cgggatggcc tcccacgagg aagggaggaa aatgggatca
+     1081 gcactggaat atcgccctcc cttgaatgga gaatggcatg agttttcctg agtttcctct
+     1141 gagggccccc tctgctctct aggacaatta agggatgaag tctctgagga aatggagggg
+     1201 aagacagtcc ctggaatact gatcaggggt ctcctttgac cactttgacc actgcggcag
+     1261 ctgtggtcag gctgctgacc tttctctcag gccttgttct ctgcctcaca ctcaatgtgt
+     1321 ctgaaggttt gattccagct tttctgagtc ctgcggcctc cactcaggtc aggaccagaa
+     1381 gtcgctgttc ctccctcaga gactagaact ttccaatgaa taggagatta tcccaggtgc
+     1441 ttgtgtccag gctggcgtct gggttctgtg ccgccttccc cgccccaggt gtcctgtcca
+     1501 ttctcaggat ggtcacatgg gcgctgctgg agtgtcccaa gagagatgca aagtgtctga
+     1561 attttctgac tcttcccgtc agaaccccca aagacacacg tgacccacca ccccctctct
+     1621 gaccatgagg ccaccctgag gtgctgggcc ctgggcttct accctgcgga gatcacactg
+     1681 acctggcagc gggatgggga ggaccagacc caggacaccg agcttgtgga gaccaggcca
+     1741 gcaggagatg gaaccttcca gaagtgggca gctgtggtgg tgccttctgg acaagagcag
+     1801 agatacacgt gccatatgca gcacgagggg ctgccagagc ccctcaccct gagatggggt
+     1861 aaggagggga atgggggtca catctcttat cagagaaagc agaagtcctt ctggagccct
+     1921 tcagccgggt cagggctgag gcttgggggt cagggcccct caccttcccc tcctttccca
+     1981 gagccatctt cccagcccac catccccatc gtgggcattg ttgttggcct ggctgtcctg
+     2041 gttgtcctag ctgtccttgg agctgtggtc accgctatga tgtgtaggag gaagagctca
+     2101 ggtagggaag gggtgaagag tggggtctgg gttttcttgt cccactggga gtttcaagcc
+     2161 ccaggtagaa gtgtgccccg ccttgttact ggaagcacca tccacacatg ggccatccca
+     2221 gcctgggacc ctgtgtgcca gcacttactc ttttgtgaag cacatgtgac aatgaaggac
+     2281 ggatgtatca ccttgatgat tatggtgttg gggtcctgat tccagcattc acgagtcagg
+     2341 ggaaggtccc tgctaaggac agaccttagg agggcagttg gtccagaacc cacaactgct
+     2401 ttccccatgt ttcctgatcc tgccctgggt ctgcagtcgt agttctggaa acttctcttg
+     2461 ggtccaagac taggaggttc ccctaagatc acatggccct gcctcctccc agtcccctca
+     2521 taaggcattt tcttcccaca ggtggaaaag gagggagctg ctctcaggct gcgtgtaagt
+     2581 gatggcggcg ggcgtgtgga ggagctcacc tactccataa ttcctcttgt cccacatctc
+     2641 ctgcgggctc tgaccaggtc tttttttttg ttctacccca gggcagcaac agtgcccagg
+     2701 gctctgatga gtctctcatc acttgtaaag gtgagattct ggggagctga agtggtcggg
+     2761 ggtggggcag agggaaaagg cctgggtaat ggggattctt tgattggggc gttttgagtg
+     2821 tgtggtgggc cgttcagagt gtcatcactt accatgactg acctga
+//
+LOCUS       NHP00196                2867 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*02:03, C locus allele.
+ACCESSION   NHP00196
+VERSION     NHP00196
+DBLINK      INSDC: X60248
+            INSDC: KY189969
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Lawlor DA, Warren E, Taylor P, Parham P.
+  TITLE     Gorilla class I major histocompatibility complex alleles: comparison
+            to human and chimpanzee class I.
+  JOURNAL   J Exp Med 174:1491-1509 (1991)
+   PUBMED   1744581
+REFERENCE   2
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*02:03
+            IPD accession: NHP00196
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*0203
+FEATURES             Location/Qualifiers
+     source          1..2867
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2867
+                     /gene="C"
+                     /allele="Gogo-C*02:03"
+                     /note="previous designations: Gogo-C*0203"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            204..473
+                     /gene="C"
+                     /number=2
+     exon            720..995
+                     /gene="C"
+                     /number=3
+     exon            1583..1858
+                     /gene="C"
+                     /number=4
+     exon            1983..2102
+                     /gene="C"
+                     /number=5
+     exon            2543..2575
+                     /gene="C"
+                     /number=6
+     exon            2684..2731
+                     /gene="C"
+                     /number=7
+     exon            2863..2867
+                     /gene="C"
+                     /number=8
+     intron          74..203
+                     /gene="C"
+                     /number=1
+     intron          474..719
+                     /gene="C"
+                     /number=2
+     intron          996..1582
+                     /gene="C"
+                     /number=3
+     intron          1859..1982
+                     /gene="C"
+                     /number=4
+     intron          2103..2542
+                     /gene="C"
+                     /number=5
+     intron          2576..2683
+                     /gene="C"
+                     /number=6
+     intron          2732..2862
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,204..473,720..995,1583..1858,1983..2102,
+                     2543..2575,2684..2731,2863..2867)
+                     /gene="C"
+                     /allele="Gogo-C*02:03"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQVTQRKWEAARVAEQERAYLEGLCVEWLRRYLENGKETLQRAEPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccgggtgagt gcggggtcgg gagggaaacg gcctctgcgg aaaggagcga
+      121 ggggcccgcc cggcgagggc gcaggaccgg ggagccgcgc cgggaggagg gtcaggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctcagtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagtcc aagaggggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaag tacaagcgcc aggcacagac
+      421 tgaccgagtg aacctgcgga aactgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtcgc
+      541 ccccagtctc ccggtctgag atccaccccg aggctgcgga acccgcccag accctcgacc
+      601 ggagagagcc ccagtcacct ttacccggtt tcattttcag tttaggccaa aatccccgcg
+      661 ggttggtcgg ggctggggcg gggctcgggg gacggggctg accacggggg cggggccagg
+      721 gtctcacact ctccagtcga tgtatggctg cgacctgggg cccgacgggc gcctcctccg
+      781 cgggtatagc cagttcgcct acgacggcaa ggattacatc gccctgaacg aggacctgcg
+      841 ctcctggacc gccgcggaca cggcggctca ggtcacacag cgcaagtggg aggcggcccg
+      901 tgtggcggag caggagagag cctacctgga gggcctgtgc gtggagtggc tccgcagata
+      961 cctggagaac gggaaggaga cgctgcagcg cgcgggtacc aggggcagtg gggagccttc
+     1021 tccatctcct ataggtctcc cgggatggcc tcccacgagg aagggaggaa aatgggatca
+     1081 gcactggaat atcgccctcc cttgaatgga gaatggcatg agttttcctg agtttcctct
+     1141 gagggccccc tctgctctct aggacaatta agggatgaag tctctgagga aatggagggg
+     1201 aagacagtcc ctggaatact gatcaggggt ctcctttgac cactttgacc actgcggcag
+     1261 ctgtggtcag gctgctgacc tttctctcag gccttgttct ctgcctcaca ctcaatgtgt
+     1321 ctgaaggttt gattccagct tttctgagtc ctgcggcctc cactcaggtc aggaccagaa
+     1381 gtcgctgttc ctccctcaga gactagaact ttccaatgaa taggagatta tcccaggtgc
+     1441 ttgtgtccag gctggcgtct gggttctgtg ccgccttccc cgccccaggt gtcctgtcca
+     1501 ttctcaggat ggtcacatgg gcgctgctgg agtgtcccaa gagagatgca aagtgtctga
+     1561 attttctgac tcttcccgtc agaaccccca aagacacacg tgacccacca ccccctctct
+     1621 gaccatgagg ccaccctgag gtgctgggcc ctgggcttct accctgcgga gatcacactg
+     1681 acctggcagc gggatgggga ggaccagacc caggacaccg agcttgtgga gaccaggcca
+     1741 gcaggagatg gaaccttcca gaagtgggca gctgtggtgg tgccttctgg acaagagcag
+     1801 agatacacgt gccatatgca gcacgagggg ctgccagagc ccctcaccct gagatggggt
+     1861 aaggagggga atggggggtc acatctctta tcagagaaac cagaagtcct tctggagccc
+     1921 ttcagccggg tcagggctga ggcttggggg tcagggcccc tcaccttccc ctcctttccc
+     1981 agagccatct tcccagccca ccatccccat cgtgggcatt gttgttggcc tggctgtcct
+     2041 ggttgtccta gctgtccttg gagctgtggt caccgctatg atgtgtagga ggaagagctc
+     2101 aggtagggaa ggggtgaaga gtggggtctg ggttttcttg tcccactggg agtttcaagc
+     2161 cccaggtaga agtgtgcccc gccttgttac tggaagcacc atccacacat gggccatccc
+     2221 agcctgggac cctgtgtgcc agcacttact cttttgtgaa gcacatgtga caatgaagga
+     2281 cggatgtatc accttgatga ttatggtgtt ggggtcctga ttccagcatt cacgagtcag
+     2341 gggaaggtcc ctgctaagga cagaccttag gagggcagtt ggtccagaac ccacaactgc
+     2401 tttccccatg tttcctgatc ctgccctggg tctgcagtcg tagttctgga aacttctctt
+     2461 gggtccaaga ctaggaggtt cccctaagat cacatggccc tgcctcctcc cagtcccctc
+     2521 ataaggcatt ttcttcccac aggtggaaaa ggagggagct gctctcaggc tgcgtgtaag
+     2581 tgatggcggc gggcgtgtgg aggagctcac ctactccata attcctcttg tcccacatct
+     2641 cctgcgggct ctgaccaggt cttttttttt gttctacccc agggcagcaa cagtgcccag
+     2701 ggctctgatg agtctctcat cacttgtaaa ggtgagattc tggggagctg aagtggtcgg
+     2761 gggtggggca gagggaaaag gcctgggtaa tggggattct ttgattgggg cgttttgagt
+     2821 gtgtggtggg ccgttcagag tgtcatcact taccatgact gacctga
+//
+LOCUS       NHP00197                2866 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*02:04:01:01, C locus allele.
+ACCESSION   NHP00197
+VERSION     NHP00197
+DBLINK      INSDC: AF157411
+            INSDC: KY189970
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Urvater JA, Hickman H, Dzuris JL, Prilliman K, Allen TM, Schwartz
+            KJ, Lorentzen D, Shufflebotham C, Collins EJ, Neiffer DL, Raphael B,
+            Hildebrand W, Sette A, Watkins DI.
+  TITLE     Gorillas with spondyloarthropathies express an MHC class I molecule
+            with only limited sequence similarity to HLA-B27 that binds peptides
+            with arginine at P2.
+  JOURNAL   J Immunol 166:3334-3344 (2001)
+   PUBMED   11207289
+REFERENCE   2
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*02:04:01:01
+            IPD accession: NHP00197
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-C*02:04; Gogo-C*0204
+FEATURES             Location/Qualifiers
+     source          1..2866
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2866
+                     /gene="C"
+                     /allele="Gogo-C*02:04:01:01"
+                     /note="previous designations: Gogo-C*02:04; Gogo-C*0204"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            204..473
+                     /gene="C"
+                     /number=2
+     exon            720..995
+                     /gene="C"
+                     /number=3
+     exon            1583..1858
+                     /gene="C"
+                     /number=4
+     exon            1982..2101
+                     /gene="C"
+                     /number=5
+     exon            2542..2574
+                     /gene="C"
+                     /number=6
+     exon            2683..2730
+                     /gene="C"
+                     /number=7
+     exon            2862..2866
+                     /gene="C"
+                     /number=8
+     intron          74..203
+                     /gene="C"
+                     /number=1
+     intron          474..719
+                     /gene="C"
+                     /number=2
+     intron          996..1582
+                     /gene="C"
+                     /number=3
+     intron          1859..1981
+                     /gene="C"
+                     /number=4
+     intron          2102..2541
+                     /gene="C"
+                     /number=5
+     intron          2575..2682
+                     /gene="C"
+                     /number=6
+     intron          2731..2861
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,204..473,720..995,1583..1858,1982..2101,
+                     2542..2574,2683..2730,2862..2866)
+                     /gene="C"
+                     /allele="Gogo-C*02:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQNYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKLEAARAAEQQRAYLEGLCVESLRRYLENGKETLQRAEPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccgggtgagt gcggggtcgg gagggaaacg gcctctgcgg aaaggagcga
+      121 ggggcccgcc cggcgagggc gcaggaccgg ggagccgcgc cgggaggagg gtcaggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctcagtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagtcc aagaggggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac tacaagcgcc aggcacagac
+      421 tgaccgagtg aacctgcgga aactgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtcgc
+      541 cccgagtctc ccggtctgag atccaccccg aggctgcgga acccgcccag accctcgacc
+      601 ggagagagcc ccagtcacct ttacccggtt tcattttcag tttaggccaa aatccccgcg
+      661 ggttggtcgg ggctggggcg gggctcgggg gacggggctg accgcggggg cggggccagg
+      721 gtctcacact ctccagtcga tgtatggctg cgacctgggg cccgacgggc gcctcctccg
+      781 cgggtatagc cagttcgcct acgacggcaa ggattacatc gccctgaacg aggacctgcg
+      841 ctcctggacc gccgcggaca cggcggctca gatcacccag cgcaagttgg aggcggcccg
+      901 tgcggcggag cagcagagag cctacctgga gggcctgtgc gtggagtcgc tccgcagata
+      961 cctggagaac gggaaggaga cgctgcagcg cgcgggtacc aggggcagtg gggagccgtc
+     1021 tccatctcct atagatctcc cgggatggcc tcccacgagg aagggaggaa aatgggatca
+     1081 gcactggaat atcgccctcc cttgaatgga gaatggcatg agttttcctg agtttcctct
+     1141 gagggccccc tctgctctct aggacaatta agggatgaag tctctgagga aatggagggg
+     1201 aagacagtcc ctggaatact gatcaggggt ctcctttgac cactttgacc actgcggcag
+     1261 ctgtggtcag gctgctgacc tttctctcag gccttgttct ctgcctcaca ctcaatgtgt
+     1321 ctgaaggttt gattccagct tttctgagtc ctgcggcctc cactcaggtc aggaccagaa
+     1381 gtcgctgttc ctccctcaga gactagaact ttccaatgaa taggagatta tcccaggtgc
+     1441 ttgtgtccag gctggcgtct gggttctgtg ccgccttccc cgccccaggt gtcctgtcca
+     1501 ttctcaggat ggtcacatgg gcgctgctgg agtgtcccaa gagagatgca aagtgtctga
+     1561 attttctgac tcttcccgtc agaaccccca aagacacacg tgacccacca ccccctctct
+     1621 gaccatgagg ccaccctgag gtgctgggcc ctgggcttct accctgcgga gatcacactg
+     1681 acctggcagc gggatgggga ggaccagacc caggacaccg agcttgtgga gaccaggcca
+     1741 gcaggagatg gaaccttcca gaagtgggca gctgtggtgg tgccttctgg acaagagcag
+     1801 agatacacgt gccatatgca gcacgagggg ctgccagagc ccctcaccct gagatggggt
+     1861 aaggagggga atgggggtca catctcttat cagagaaagc agaagtcctt ctggagccct
+     1921 tcagccgggt cagggctgag gcttgggggt cagggcccct caccttcccc tcctttccca
+     1981 gagccatctt cccagcccac catccccatc gtgggcattg ttgttggcct ggctgtcctg
+     2041 gttgtcctag ctgtccttgg agctgtggtc accgctatga tgtgtaggag gaagagctca
+     2101 ggtagggaag gggtgaagag tggggtctgg gttttcttgt cccactggga gtttcaagcc
+     2161 ccaggtagaa gtgtgccccg ccttgttact ggaagcacca tccacacatg ggccatccca
+     2221 gcctgggacc ctgtgtgcca gcacttactc ttttgtgaag cacatgtgac aatgaaggac
+     2281 ggatgtatca ccttgatgat tatggtgttg gggtcctgat tccagcattc acgagtcagg
+     2341 ggaaggtccc tgctaaggac agaccttagg agggcagttg gtccagaacc cacaactgct
+     2401 ttccccatgt ttcctgatcc tgccctgggt ctgcagtcgt agttctggaa acttctcttg
+     2461 ggtccaagac taggaggttc ccctaagatc acatggccct gcctcctccc agtcccctca
+     2521 taaggcattt tcttcccaca ggtggaaaag gagggagctg ctctcaggct gcgtgtaagt
+     2581 gatggcggcg ggcgtgtgga ggagctcacc tactccataa ttcctcttgt cccacatctc
+     2641 ctgcgggctc tgaccaggtc tttttttttg ttctacccca gggcagcaac agtgcccagg
+     2701 gctctgatga gtctctcatc acttgtaaag gtgagattct ggggagctga agtggtcggg
+     2761 ggtggggcag agggaaaagg cctgggtaat ggggattctt tgattggggc gttttgagtg
+     2821 tgtggtgggc cgttcagagt gtcatcactt accatgactg acctga
+//
+LOCUS       NHP09046                2897 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*01:01:03, C locus allele.
+ACCESSION   NHP09046
+VERSION     NHP09046
+DBLINK      INSDC: KY189965
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*01:01:03
+            IPD accession: NHP09046
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2897
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2897
+                     /gene="C"
+                     /allele="Gogo-C*01:01:03"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            204..473
+                     /gene="C"
+                     /number=2
+     exon            720..995
+                     /gene="C"
+                     /number=3
+     exon            1584..1859
+                     /gene="C"
+                     /number=4
+     exon            1984..2100
+                     /gene="C"
+                     /number=5
+     exon            2540..2572
+                     /gene="C"
+                     /number=6
+     exon            2681..2728
+                     /gene="C"
+                     /number=7
+     exon            2893..2897
+                     /gene="C"
+                     /number=8
+     intron          74..203
+                     /gene="C"
+                     /number=1
+     intron          474..719
+                     /gene="C"
+                     /number=2
+     intron          996..1583
+                     /gene="C"
+                     /number=3
+     intron          1860..1983
+                     /gene="C"
+                     /number=4
+     intron          2101..2539
+                     /gene="C"
+                     /number=5
+     intron          2573..2680
+                     /gene="C"
+                     /number=6
+     intron          2729..2892
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,204..473,720..995,1584..1859,1984..2100,
+                     2540..2572,2681..2728,2893..2897)
+                     /gene="C"
+                     /allele="Gogo-C*01:01:03"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFFTAVAPPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAANTRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRK
+                     LRGYYNQSEDGSHTFQRMYGCDVGPDGRLQRGYDQLAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAARWAERQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDIELVETRPAGDGTFQKWAAMVVPSGEEQRY
+                     TCHVQHKGLLEPLTLRWEPSSQPTIPIVGIVAGLAVLAVVFTGTVVAAVMCRRKSSGGK
+                     GGSCSQAACSNSAQGSDESLIACKA"
+ORIGIN
+        1 atgcgggtca tggctccccg aaccctcatc ctgctgctct caggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga gaggagcgag
+      121 gggcccgccc ggcgagggcg caggacccgg ggagccgcgg agggaggagg gtcgggcggg
+      181 tctcagcccc tccttgcccc caggctccca ctccatgagg tatttcttca ccgccgtggc
+      241 cccgcccggc cgcggagagc cccgcttcat cgcagtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgaatac gagaggggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaag tacaagcgcc aggcacagac
+      421 tgaccgagtg agcctgcgga aactgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggcct ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtcgc
+      541 cccgagtctc ccggtctgag atccaccccg aggctgcgga acccgcccag accctcgacc
+      601 ggagagagcc ccagtcgcct ttacccggtt tcattttcag tttaggccaa aatccccgcg
+      661 ggttggtcgg ggctggggcg gggctcggcg ggcatggctg accacggggg cggggccagg
+      721 gtctcacacc ttccagagga tgtatggctg cgacgtgggg cccgacgggc gcctccaacg
+      781 cgggtatgac cagttggcct acgatggcaa ggattacatc gccctgaacg aggacctgcg
+      841 ctcctggacc gccgcggaca cggcggctca gatcacccag cgcaagtggg aggcagcccg
+      901 ttgggcggag cggcagagag cctacctgga gggcctgtgc gtggagtggc tccgcagata
+      961 cctggagaat gggaaggaga cgctgcagcg cgcaggtacc aggggcagtg gggagccttc
+     1021 cccatctcct atagatctcc tgggatggcc tctcacgagg agaggaggaa aatgggatca
+     1081 gcgctagaat atcgccctcc cttgaatgga gaatggcatg agttttcctg agtttcttct
+     1141 gagggccccc tctgctctct aggacaatta agggatgaag tccctgagga aatggagggg
+     1201 aagacagtcc ctggaatact gatcaggggt cccctttgac cactttgacc actgcggcag
+     1261 ctgtggtcag gctgctgacc tttctctcag gccttgttct ctgcctcaca ctcaatgtgt
+     1321 ttgaaggttt gattccagct tttctgagtc cttcggcctc cacctcaggt caggaccaga
+     1381 agtcgctgtt cctccctcag atactagaac tttccaatga ataggagatt atcccaggta
+     1441 cctgtgtcca ggctggcgtt tgggttctgt gcccccttcc ccaccccagg tgtcctgtcc
+     1501 attctcagga tggtcacatg ggcgctgcgg gagtgtcgca agagagatgc aaagtgtctg
+     1561 aattttctga ctcttcccgt cagacccccc aaagacacac gtgacccacc accccatctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatgggg aggagcaaac tcaggacatc gagcttgtgg agaccaggcc
+     1741 agcaggagat ggaaccttcc agaagtgggc agctatggtg gtgccttctg gagaagagca
+     1801 gagatacacg tgccatgtgc agcacaaggg gctgctggag cccctcaccc tgagatgggg
+     1861 taaggagggg aatgaggggc cgtgtctctt ctcagagaaa gcagaagtcc ttctggagcc
+     1921 cttcagccgg gtcagggctg aggcttgggg gtcagggccc ctcaccttcc cctcctttcc
+     1981 cagagccgtc ttcccagccc accattccca tcgtgggcat cgttgctggc ctggctgtcc
+     2041 tagcagttgt gttcactgga actgtggtcg ctgctgtgat gtgtaggagg aagagctcag
+     2101 gtagggacgg ggtgaggagt ggggtctggg ttttcttgtc ccactgggag tttcaatccc
+     2161 caggtagaag tgtgccgcgc ctcgttactg gaagcaccat ccacacatgg gccatcccag
+     2221 cctgggactc agtgtgccag cagttactct tttgtgaggc acatgtgaca atgaaggaca
+     2281 atgtatcacc ttgatgatta tggttttgga gtcctgattc cagcattcat gagtcagggg
+     2341 aaggtccctg ctaaggacag accttaggag ggcagttggt ccagaaccca cagctgcttt
+     2401 ccttgtgttt cctaatcctg ccctgggtct gcagtcatag ttctggaaac ttctcttggg
+     2461 tccaagacta ggaggttccc ctaagatcgc atggccctgc ctcctccctg tcccttcaca
+     2521 gggcattttc ttcccacagg tggaaaagga gggagctgct ctcaggctgc gtgtaagtga
+     2581 tggcggcggg tgtgtggagg agctcaccga ccccataatt cctcttgtcc cacatctcct
+     2641 gtgggctctg accaggtctt ttttttctat tctaccccag gcagcaacag tgcccagggc
+     2701 tctgatgagt ctctcatcgc ttgtaaaggt gagattctgg ggagctgaag tggtcggggg
+     2761 tggggcagag ggaaaaggcc tgggtaatgg agattctttg attgggatgt ttcgcgtgtg
+     2821 tggtgggctg ttcagaatgt catcacttac catgactgac ctgaatttgt tcatgactat
+     2881 tgtgttctgt agcctga
+//
+LOCUS       NHP09047                2864 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*01:04, C locus allele.
+ACCESSION   NHP09047
+VERSION     NHP09047
+DBLINK      INSDC: KY189967
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*01:04
+            IPD accession: NHP09047
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2864
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2864
+                     /gene="C"
+                     /allele="Gogo-C*01:04"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            204..473
+                     /gene="C"
+                     /number=2
+     exon            720..995
+                     /gene="C"
+                     /number=3
+     exon            1584..1859
+                     /gene="C"
+                     /number=4
+     exon            1984..2100
+                     /gene="C"
+                     /number=5
+     exon            2540..2572
+                     /gene="C"
+                     /number=6
+     exon            2681..2728
+                     /gene="C"
+                     /number=7
+     exon            2860..2864
+                     /gene="C"
+                     /number=8
+     intron          74..203
+                     /gene="C"
+                     /number=1
+     intron          474..719
+                     /gene="C"
+                     /number=2
+     intron          996..1583
+                     /gene="C"
+                     /number=3
+     intron          1860..1983
+                     /gene="C"
+                     /number=4
+     intron          2101..2539
+                     /gene="C"
+                     /number=5
+     intron          2573..2680
+                     /gene="C"
+                     /number=6
+     intron          2729..2859
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,204..473,720..995,1584..1859,1984..2100,
+                     2540..2572,2681..2728,2860..2864)
+                     /gene="C"
+                     /allele="Gogo-C*01:04"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFVTAVAPPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAANTRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRK
+                     LRGYYNQSEDGSHTFQRMYGCDVGPDGRLQRGYDQLAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAARWAERQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDIELVETRPAGDGTFQKWAAMVVPSGEEQRY
+                     TCHVQHKGLLEPLTLRWEPSSQPTIPIVGIVAGLAVLAVVFTGTVVAAVMCRRKSSGGK
+                     GGSCSQAACSNSAQGSDESLIACKA"
+ORIGIN
+        1 atgcgggtca tggctccccg aaccctcatc ctgctgctct caggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga gaggagcgag
+      121 gggcccgccc ggcgagggcg caggacccgg ggagccgcgg agggaggagg gtcgggcggg
+      181 tctcagcccc tccttgcccg caggctccca ctccatgagg tatttcgtca ccgccgtggc
+      241 cccgcccggc cgcggagagc cccgcttcat cgcagtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgaatac gagaggggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaag tacaagcgcc aggcacagac
+      421 tgaccgagtg agcctgcgga aactgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggcct ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtcgc
+      541 cccgagtctc ccggtctgag atccaccccg aggctgcgga acccgcccag accctcgacc
+      601 ggagagagcc ccagtcgcct ttacccggtt tcattttcag tttaggccaa aatccccgcg
+      661 ggttggtcgg ggctggggcg gggctcggcg ggcatggctg accacggggg cggggccagg
+      721 gtctcacacc ttccagagga tgtatggctg cgacgtgggg cccgacgggc gcctccaacg
+      781 cgggtatgac cagttggcct acgatggcaa ggattacatc gccctgaacg aggacctgcg
+      841 ctcctggacc gccgcggaca cggcggctca gatcacccag cgcaagtggg aggcagcccg
+      901 ttgggcggag cggcagagag cctacctgga gggcctgtgc gtggagtggc tccgcagata
+      961 cctggagaat gggaaggaga cgctgcagcg cgcaggtacc aggggcagtg gggagccttc
+     1021 cccatctcct atagatctcc tgggatggcc tctcacgagg agaggaggaa aatgggatca
+     1081 gcgctagaat atcgccctcc cttgaatgga gaatggcatg agttttcctg agtttcttct
+     1141 gagggccccc tctgctctct aggacaatta agggatgaag tccctgagga aatggagggg
+     1201 aagacagtcc ctggaatact gatcaggggt cccctttgac cactttgacc actgcggcag
+     1261 ctgtggtcag gctgctgacc tttctctcag gccttgttct ctgcctcaca ctcaatgtgt
+     1321 ttgaaggttt gattccagct tttctgagtc cttcggcctc cacctcaggt caggaccaga
+     1381 agtcgctgtt cctccctcag atactagaac tttccaatga ataggagatt atcccaggta
+     1441 cctgtgtcca ggctggcgtt tgggttctgt gcccccttcc ccaccccagg tgtcctgtcc
+     1501 attctcagga tggtcacatg ggcgctgcgg gagtgtcgca agagagatgc aaagtgtctg
+     1561 aattttctga ctcttcccgt cagacccccc aaagacacac gtgacccacc accccatctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatgggg aggagcaaac tcaggacatc gagcttgtgg agaccaggcc
+     1741 agcaggagat ggaaccttcc agaagtgggc agctatggtg gtgccttctg gagaagagca
+     1801 gagatacacg tgccatgtgc agcacaaggg gctgctggag cccctcaccc tgagatgggg
+     1861 taaggagggg aatgaggggc cgtgtctctt ctcagagaaa gcagaagtcc ttctggagcc
+     1921 cttcagccgg gtcagggctg aggcttgggg gtcagggccc ctcaccttcc cctcctttcc
+     1981 cagagccgtc ttcccagccc accatcccca tcgtgggcat cgttgctggc ctggctgtcc
+     2041 tagcagttgt gttcactgga actgtggtcg ctgctgtgat gtgtaggagg aagagctcag
+     2101 gtagggacgg ggtgaggagt ggggtctggg ttttcttgtc ccactgggag tttcaatccc
+     2161 caggtagaag tgtgccgcgc ctcgttactg gaagcaccat ccacacatgg gccatcccag
+     2221 cctgggactc agtgtgccag cagttactct tttgtgaggc acatgtgaca atgaaggaca
+     2281 atgtatcacc ttgatgatta tggttttgga gtcctgattc cagcattcat gagtcagggg
+     2341 aaggtccctg ctaaggacag accttaggag ggcagttggt ccagaaccca cagctgcttt
+     2401 ccttgtgttt cctaatcctg ccctgggtct gcagtcatag ttctggaaac ttctcttggg
+     2461 tccaagacta ggaggttccc ctaagatcgc atggccctgc ctcctccctg tcccttcaca
+     2521 gggcattttc ttcccacagg tggaaaagga gggagctgct ctcaggctgc gtgtaagtga
+     2581 tggcggcggg tgtgtggagg agctcaccga ccccataatt cctcttgtcc cacatctcct
+     2641 gtgggctctg accaggtctt ttttttctat tctaccccag gcagcaacag tgcccagggc
+     2701 tctgatgagt ctctcatcgc ttgtaaaggt gagattctgg ggagctgaag tggtcggggg
+     2761 tggggcagag ggaaaaggcc tgggtaatgg agattctttg attgggatgt ttcgcgtgtg
+     2821 tggtgggctg ttcagaatgt catcacttac catgactgac ctga
+//
+LOCUS       NHP09048                2897 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*02:04:01:02, C locus allele.
+ACCESSION   NHP09048
+VERSION     NHP09048
+DBLINK      INSDC: KY189971
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*02:04:01:02
+            IPD accession: NHP09048
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2897
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2897
+                     /gene="C"
+                     /allele="Gogo-C*02:04:01:02"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            203..472
+                     /gene="C"
+                     /number=2
+     exon            719..994
+                     /gene="C"
+                     /number=3
+     exon            1582..1857
+                     /gene="C"
+                     /number=4
+     exon            1981..2100
+                     /gene="C"
+                     /number=5
+     exon            2541..2573
+                     /gene="C"
+                     /number=6
+     exon            2681..2728
+                     /gene="C"
+                     /number=7
+     exon            2893..2897
+                     /gene="C"
+                     /number=8
+     intron          74..202
+                     /gene="C"
+                     /number=1
+     intron          473..718
+                     /gene="C"
+                     /number=2
+     intron          995..1581
+                     /gene="C"
+                     /number=3
+     intron          1858..1980
+                     /gene="C"
+                     /number=4
+     intron          2101..2540
+                     /gene="C"
+                     /number=5
+     intron          2574..2680
+                     /gene="C"
+                     /number=6
+     intron          2729..2892
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,203..472,719..994,1582..1857,1981..2100,
+                     2541..2573,2681..2728,2893..2897)
+                     /gene="C"
+                     /allele="Gogo-C*02:04:01:02"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQNYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKLEAARAAEQQRAYLEGLCVESLRRYLENGKETLQRAEPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga aaggagcgag
+      121 gggcccgccc ggcgagggcg caggaccggg gagccgcgcc gggaggaggg tcaggcgggt
+      181 ctcagcccct cctcgccccc aggctcccac tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tcagtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtcca agaggggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaact acaagcgcca ggcacagact
+      421 gaccgagtga acctgcggaa actgcgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcccg gggcgcaggt cacgacccct ccccatcccc cacggacggc ccgggtcgcc
+      541 ccgagtctcc cggtctgaga tccaccccga ggctgcggaa cccgcccaga ccctcgaccg
+      601 gagagagccc cagtcacctt tacccggttt cattttcagt ttaggccaaa atccccgcgg
+      661 gttggtcggg gctggggcgg ggctcggggg acggggctga ccgcgggggc ggggccaggg
+      721 tctcacactc tccagtcgat gtatggctgc gacctggggc ccgacgggcg cctcctccgc
+      781 gggtatagcc agttcgccta cgacggcaag gattacatcg ccctgaacga ggacctgcgc
+      841 tcctggaccg ccgcggacac ggcggctcag atcacccagc gcaagttgga ggcggcccgt
+      901 gcggcggagc agcagagagc ctacctggag ggcctgtgcg tggagtcgct ccgcagatac
+      961 ctggagaacg ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccgtct
+     1021 ccatctccta tagatctccc gggatggcct cccacgagga agggaggaaa atgggatcag
+     1081 cactggaata tcgccctccc ttgaatggag aatggcatga gttttcctga gtttcctctg
+     1141 agggccccct ctgctctcta ggacaattaa gggatgaagt ctctgaggaa atggagggga
+     1201 agacagtccc tggaatactg atcaggggtc tcctttgacc actttgacca ctgcggcagc
+     1261 tgtggtcagg ctgctgacct ttctctcagg ccttgttctc tgcctcacac tcaatgtgtc
+     1321 tgaaggtttg attccagctt ttctgagtcc tgcggcctcc actcaggtca ggaccagaag
+     1381 tcgctgttcc tccctcagag actagaactt tccaatgaat aggagattat cccaggtgct
+     1441 tgtgtccagg ctggcgtctg ggttctgtgc cgccttcccc gccccaggtg tcctgtccat
+     1501 tctcaggatg gtcacatggg cgctgctgga gtgtcccaag agagatgcaa agtgtctgaa
+     1561 ttttctgact cttcccgtca gaacccccaa agacacacgt gacccaccac cccctctctg
+     1621 accatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga
+     1681 cctggcagcg ggatggggag gaccagaccc aggacaccga gcttgtggag accaggccag
+     1741 caggagatgg aaccttccag aagtgggcag ctgtggtggt gccttctgga caagagcaga
+     1801 gatacacgtg ccatatgcag cacgaggggc tgccagagcc cctcaccctg agatggggta
+     1861 aggaggggaa tgggggtcac atctcttatc agagaaagca gaagtccttc tggagccctt
+     1921 cagccgggtc agggctgagg cttgggggtc agggcccctc accttcccct cctttcccag
+     1981 agccatcttc ccagcccacc atccccatcg tgggcattgt tgttggcctg gctgtcctgg
+     2041 ttgtcctagc tgtccttgga gctgtggtca ccgctatgat gtgtaggagg aagagctcag
+     2101 gtagggaagg ggtgaagagt ggggtctggg ttttcttgtc ccactgggag tttcaagccc
+     2161 caggtagaag tgtgccccgc cttgttactg gaagcaccat ccacacatgg gccatcccag
+     2221 cctgggaccc tgtgtgccag cacttactct tttgtgcagc acatgtgaca atgaaggacg
+     2281 gatgtatcac cttgatgatt atggtgttgg ggtcctgatt ccagcattca cgagtcaggg
+     2341 gaaggtccct gctaaggaca gaccttagga gggcagttgg tccagaaccc acaactgctt
+     2401 tccccatgtt tcctgatcct gccctgggtc tgcagtcgta gttctggaaa cttctcttgg
+     2461 gtccaagact aggaggttcc cctaagatca catggccctg cctcctccca gtcccctcat
+     2521 aaggcatttt cttcccacag gtggaaaagg agggagctgc tctcaggctg cgtgtaagtg
+     2581 atggcggcgg gcgtgtggag gagctcacct actccataat tcctcttgtc ccacatctcc
+     2641 tgcgggctct gaccaggtct ttttttttgt tctaccccag gcagcaacag tgcccagggc
+     2701 tctgatgagt ctctcatcac ttgtaaaggt gagattctgg ggagctgaag tggtcggggg
+     2761 tggggcagag ggaaaaggcc tgggtaatgg ggattctttg attggggcgt tttgagtgtg
+     2821 tggtgggccg ttcagagtgt catcacttac catgactgac ctgaatttgt tcatgactat
+     2881 tgtgttttgc agcctga
+//
+LOCUS       NHP09049                2864 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*02:05, C locus allele.
+ACCESSION   NHP09049
+VERSION     NHP09049
+DBLINK      INSDC: KY189972
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-C*02:05
+            IPD accession: NHP09049
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2864
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2864
+                     /gene="C"
+                     /allele="Gogo-C*02:05"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            203..472
+                     /gene="C"
+                     /number=2
+     exon            719..994
+                     /gene="C"
+                     /number=3
+     exon            1582..1857
+                     /gene="C"
+                     /number=4
+     exon            1981..2100
+                     /gene="C"
+                     /number=5
+     exon            2541..2573
+                     /gene="C"
+                     /number=6
+     exon            2681..2728
+                     /gene="C"
+                     /number=7
+     exon            2860..2864
+                     /gene="C"
+                     /number=8
+     intron          74..202
+                     /gene="C"
+                     /number=1
+     intron          473..718
+                     /gene="C"
+                     /number=2
+     intron          995..1581
+                     /gene="C"
+                     /number=3
+     intron          1858..1980
+                     /gene="C"
+                     /number=4
+     intron          2101..2540
+                     /gene="C"
+                     /number=5
+     intron          2574..2680
+                     /gene="C"
+                     /number=6
+     intron          2729..2859
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,203..472,719..994,1582..1857,1981..2100,
+                     2541..2573,2681..2728,2860..2864)
+                     /gene="C"
+                     /allele="Gogo-C*02:05"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQNYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKLEAARAAEQQRAYLEGLCVEWLRRYLENGKETLQRAEPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga aaggagcgag
+      121 gggcccgccc ggcgagggcg caggaccggg gagccgcgcc gggaggaggg tcaggcgggt
+      181 ctcagcccct cctcgccccc aggctcccac tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tcagtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtcca agaggggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaact acaagcgcca ggcacagact
+      421 gaccgagtga acctgcggaa actgcgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcccg gggcgcaggt cacgacccct ccccatcccc cacggacggc ccgggtcgcc
+      541 ccgagtctcc cggtctgaga tccaccccga ggctgcggaa cccgcccaga ccctcgaccg
+      601 gagagagccc cagtcacctt tacccggttt cattttcagt ttaggccaaa atccccgcgg
+      661 gttggtcggg gctggggcgg ggctcggggg acggggctga ccgcgggggc ggggccaggg
+      721 tctcacactc tccagtcgat gtatggctgc gacctggggc ccgacgggcg cctcctccgc
+      781 gggtatagcc agttcgccta cgacggcaag gattacatcg ccctgaacga ggacctgcgc
+      841 tcctggaccg ccgcggacac ggcggctcag atcacccagc gcaagttgga ggcggcccgt
+      901 gcggcggagc agcagagagc ctacctggag ggcctgtgcg tggagtggct ccgcagatac
+      961 ctggagaacg ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccgtct
+     1021 ccatctccta tagatctccc gggatggcct cccacgagga agggaggaaa atgggatcag
+     1081 cactggaata tcgccctccc ttgaatggag aatggcatga gttttcctga gtttcctctg
+     1141 agggccccct ctgctctcta ggacaattaa gggatgaagt ctctgaggaa atggagggga
+     1201 agacagtccc tggaatactg atcaggggtc tcctttgacc actttgacca ctgcggcagc
+     1261 tgtggtcagg ctgctgacct ttctctcagg ccttgttctc tgcctcacac tcaatgtgtc
+     1321 tgaaggtttg attccagctt ttctgagtcc tgcggcctcc actcaggtca ggaccagaag
+     1381 tcgctgttcc tccctcagag actagaactt tccaatgaat aggagattat cccaggtgct
+     1441 tgtgtccagg ctggcgtctg ggttctgtgc cgccttcccc gccccaggtg tcctgtccat
+     1501 tctcaggatg gtcacatggg cgctgctgga gtgtcccaag agagatgcaa agtgtctgaa
+     1561 ttttctgact cttcccgtca gaacccccaa agacacacgt gacccaccac cccctctctg
+     1621 accatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga
+     1681 cctggcagcg ggatggggag gaccagaccc aggacaccga gcttgtggag accaggccag
+     1741 caggagatgg aaccttccag aagtgggcag ctgtggtggt gccttctgga caagagcaga
+     1801 gatacacgtg ccatatgcag cacgaggggc tgccagagcc cctcaccctg agatggggta
+     1861 aggaggggaa tgggggtcac atctcttatc agagaaagca gaagtccttc tggagccctt
+     1921 cagccgggtc agggctgagg cttgggggtc agggcccctc accttcccct cctttcccag
+     1981 agccatcttc ccagcccacc atccccatcg tgggcattgt tgttggcctg gctgtcctgg
+     2041 ttgtcctagc tgtccttgga gctgtggtca ccgctatgat gtgtaggagg aagagctcag
+     2101 gtagggaagg ggtgaagagt ggggtctggg ttttcttgtc ccactgggag tttcaagccc
+     2161 caggtagaag tgtgccccgc cttgttactg gaagcaccat ccacacatgg gccatcccag
+     2221 cctgggaccc tgtgtgccag cacttactct tttgtgaagc acatgtgaca atgaaggacg
+     2281 gatgtatcac cttgatgatt atggtgttgg ggtcctgatt ccagcattca cgagtcaggg
+     2341 gaaggtccct gctaaggaca gaccttagga gggcagttgg tccagaaccc acaactgctt
+     2401 tccccatgtt tcctgatcct gccctgggtc tgcagtcgta gttctggaaa cttctcttgg
+     2461 gtccaagact aggaggttcc cctaagatca catggccctg cctcctccca gtcccctcat
+     2521 aaggcatttt cttcccacag gtggaaaagg agggagctgc tctcaggctg cgtgtaagtg
+     2581 atggcggcgg gcgtgtggag gagctcacct actccataat tcctcttgtc ccacatctcc
+     2641 tgcgggctct gaccaggtct ttttttttgt tctaccccag gcagcaacag tgcccagggc
+     2701 tctgatgagt ctctcatcac ttgtaaaggt gagattctgg ggagctgaag tggtcggggg
+     2761 tggggcagag ggaaaaggcc tgggtaatgg ggattctttg attggggcgt tttgagtgtg
+     2821 tggtgggccg ttcagagtgt catcacttac catgactgac ctga
+//
+LOCUS       NHP09805                2873 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*03:01:01:01, C locus allele.
+ACCESSION   NHP09805
+VERSION     NHP09805
+DBLINK      INSDC: MF593179
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Vigilant L.
+  TITLE     Discovery of gorilla MHC-C expressing C1 ligand for KIR.
+  JOURNAL   Immunogenetics 70:293-304 (2018)
+   PUBMED   29101448
+COMMENT     IPD-MHC allele: Gogo-C*03:01:01:01
+            IPD accession: NHP09805
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2873
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2873
+                     /gene="C"
+                     /allele="Gogo-C*03:01:01:01"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            203..472
+                     /gene="C"
+                     /number=2
+     exon            719..994
+                     /gene="C"
+                     /number=3
+     exon            1581..1856
+                     /gene="C"
+                     /number=4
+     exon            1961..2074
+                     /gene="C"
+                     /number=5
+     exon            2515..2547
+                     /gene="C"
+                     /number=6
+     exon            2654..2701
+                     /gene="C"
+                     /number=7
+     exon            2869..2873
+                     /gene="C"
+                     /number=8
+     intron          74..202
+                     /gene="C"
+                     /number=1
+     intron          473..718
+                     /gene="C"
+                     /number=2
+     intron          995..1580
+                     /gene="C"
+                     /number=3
+     intron          1857..1960
+                     /gene="C"
+                     /number=4
+     intron          2075..2514
+                     /gene="C"
+                     /number=5
+     intron          2548..2653
+                     /gene="C"
+                     /number=6
+     intron          2702..2868
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,203..472,719..994,1581..1856,1961..2074,
+                     2515..2547,2654..2701,2869..2873)
+                     /gene="C"
+                     /allele="Gogo-C*03:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MGVMAPRTLLLLLSGALALTETWAGSHSMRYFYTSVSRPGREEPR
+                     FIAVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRNTQIYKRQAQADRVSLRN
+                     LRGYYNQSEDGSHTWQRMYGCDMGSDWRLLRGYDQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAAREAEQLRAYLEGTCVEWLRRHLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALAFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIVAGLAVLAVVVIGIVTAEKCRRKSSGGKG
+                     GGYSQAASSDSAQGSDVSLTAX"
+ORIGIN
+        1 atgggggtca tggcgccccg aaccctcctc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga aaggagcgag
+      121 gggcccgccc ggcgagggcg caggaccggg gagccgcgcc gggaggaggg tcaggcgggt
+      181 ctcagcccct cctcgccccc aggctcccat tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcgaggagcc ccgcttcatc gccgtgggct acgtggacga cacccagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg agaggggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccggaac acacagatct acaagcgcca ggcacaggct
+      421 gaccgagtga gcctgcggaa cctacgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcctg gggcgcaggt cacgacccct ccccatcccc cacggacggc ccgggtcgcc
+      541 ccgagtcccc cggtctgaga tccacccaga ggctgcggaa cccgcccaga ccctcgaccg
+      601 gagagagccc cagtcgcctt tacccggttt cattttcagt ttaggccaaa atccccgcgg
+      661 gttggtcggg gctggggcgg ggctcggcgg gcatggctga ccacgggggc ggggccagga
+      721 tctcacacct ggcagaggat gtatggctgc gacatggggt ccgactggcg cctcctccgc
+      781 gggtatgacc agttcgccta cgacggcaag gattacatcg ccctgaacga ggacctgcgc
+      841 tcctggaccg ccgcggacac ggcggcccag atcacccagc gcaagtggga ggcggcccgt
+      901 gaggcggagc agctgagagc ctacctggag ggcacgtgcg tggagtggct ccgcagacac
+      961 ctggagaacg ggaaggagac gctgcagcgc gcgggtaccg gggcagtggg gagccttccc
+     1021 catctcctat aggtctcccg ggatggcctc ccacgaggag gggaggaaaa tgggataagc
+     1081 gctagaatgt cgccctccct tgaatggaga atgggatgag ttttcctgag tttcctctga
+     1141 gggccccctc tgctctctag gacagttaag ggatgaagtc tctgaggaaa tggagggaaa
+     1201 gacagtccct ggaatactga tcagggatcc cctttgacca ctttgaccac tgcggcagct
+     1261 gtggtcaggc tgctgacctt tctctcaggt cttgttctct gcctcgcact caatgtgttt
+     1321 gaaggtttga ttccagcttt tctgagtcct tcggcctcca ctcaggtcag gaccagaagt
+     1381 cgctgttcct ccctcagaga ctagaacttt ccaatgaata ggagattatc ccagttgcct
+     1441 gtgtccaagc tggcgtctgg gttctgtgct ccctttccca ccccaggtgt cctgtccatt
+     1501 ctcaggatgg tcacatgggc gttgctggag tgtcgcaaga gagatacaaa ttgtctgaat
+     1561 tttctgactc ttcccatcag accccccaaa gacacacgtg acccaccacc ccatctctga
+     1621 ccatgaggcc accctgaggt gctgggccct ggccttctac cctgcggaga tcacactgac
+     1681 ctggcagcgg gatggggagg accaaactca ggacaccgag cttgtggaga ccaggccagc
+     1741 aggagatgga accttccaga agtgggcagc tgtggtggtg ccttctggag aagagcagag
+     1801 atacacatgc catgtgcagc acgaggggct gccggagccc ctcaccctga gatggggtaa
+     1861 ggagggggat gaggggtcat gtctcttctc agggaaagca ggagcccttc tggagccctt
+     1921 cagcagggtc agggcccctc atcttcccct cctttcccag agccatcttc ccagtccacc
+     1981 atcctcatcg tgggcattgt tgctggcctg gctgtcctag cagttgtggt catcggaatt
+     2041 gtcactgctg agaagtgtag gaggaagagc tcaggtaggg aaggggtgag gggtggggtc
+     2101 tgggttttct tgtcccactg ggggtttcaa gccccaggta gaagtgttcc ctgcctcatt
+     2161 actgggaagc agcatccaca caggggctaa cccagcctgg gaccctgtgt gccacactta
+     2221 ctgttttgtg cagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggtg
+     2281 ttgggatcct gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt
+     2341 aggagggcag ttggtctagg acacacacct gctttcctca tgtttcctga tcctgtcctg
+     2401 ggtctgtagt catagttctg gaaatttctc ttgggtccaa gactgggagg ttcctctaag
+     2461 atctcatggc cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa
+     2521 aaggaggggg ctactctcag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc
+     2581 acccacccca taattcctcc tgtcccacat ctcctgcggg ctctgaccgg gtcctgtttt
+     2641 tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttgaaaa
+     2701 ggtgagattc ttggggtcta gagtgggtgg ggggggtggg gcagagggga aaggcctggg
+     2761 taatggagat tctttgattg ggacatttcg agtgtgtggt gggctgttca gagtgtcatc
+     2821 acttaccatg actgaccaga atttgttcat gactgttgtt ttctgtagcc tga
+//
+LOCUS       NHP09806                2873 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*03:01:01:02, C locus allele.
+ACCESSION   NHP09806
+VERSION     NHP09806
+DBLINK      INSDC: MF593180
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Vigilant L.
+  TITLE     Discovery of gorilla MHC-C expressing C1 ligand for KIR.
+  JOURNAL   Immunogenetics 70:293-304 (2018)
+   PUBMED   29101448
+COMMENT     IPD-MHC allele: Gogo-C*03:01:01:02
+            IPD accession: NHP09806
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2873
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2873
+                     /gene="C"
+                     /allele="Gogo-C*03:01:01:02"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            203..472
+                     /gene="C"
+                     /number=2
+     exon            719..994
+                     /gene="C"
+                     /number=3
+     exon            1581..1856
+                     /gene="C"
+                     /number=4
+     exon            1961..2074
+                     /gene="C"
+                     /number=5
+     exon            2515..2547
+                     /gene="C"
+                     /number=6
+     exon            2654..2701
+                     /gene="C"
+                     /number=7
+     exon            2869..2873
+                     /gene="C"
+                     /number=8
+     intron          74..202
+                     /gene="C"
+                     /number=1
+     intron          473..718
+                     /gene="C"
+                     /number=2
+     intron          995..1580
+                     /gene="C"
+                     /number=3
+     intron          1857..1960
+                     /gene="C"
+                     /number=4
+     intron          2075..2514
+                     /gene="C"
+                     /number=5
+     intron          2548..2653
+                     /gene="C"
+                     /number=6
+     intron          2702..2868
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,203..472,719..994,1581..1856,1961..2074,
+                     2515..2547,2654..2701,2869..2873)
+                     /gene="C"
+                     /allele="Gogo-C*03:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MGVMAPRTLLLLLSGALALTETWAGSHSMRYFYTSVSRPGREEPR
+                     FIAVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRNTQIYKRQAQADRVSLRN
+                     LRGYYNQSEDGSHTWQRMYGCDMGSDWRLLRGYDQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAAREAEQLRAYLEGTCVEWLRRHLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALAFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIVAGLAVLAVVVIGIVTAEKCRRKSSGGKG
+                     GGYSQAASSDSAQGSDVSLTAX"
+ORIGIN
+        1 atgggggtca tggcgccccg aaccctcctc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga aaggagcgag
+      121 gggcccgccc ggcgagggcg caggaccggg gagccgcgcc gggaggaggg tcaggcgggt
+      181 ctcagcccct cctcgccccc aggctcccat tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcgaggagcc ccgcttcatc gccgtgggct acgtggacga cacccagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg agaggggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccggaac acacagatct acaagcgcca ggcacaggct
+      421 gaccgagtga gcctgcggaa cctacgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcctg gggcgcaggt cacgacccct ccccatcccc cacggacggc ccgggtcgcc
+      541 ccgagtcccc cggtctgaga tccacccaga ggctgcggaa cccgcccaga ccctcgaccg
+      601 gagagagccc cagtcgcctt tacccggttt cattttcagt ttaggccaaa atccccgcgg
+      661 gttggtcggg gctggggcgg ggctcggcgg gcatggctga ccacgggggc ggggccagga
+      721 tctcacacct ggcagaggat gtatggctgc gacatggggt ccgactggcg cctcctccgc
+      781 gggtatgacc agttcgccta cgacggcaag gattacatcg ccctgaacga ggacctgcgc
+      841 tcctggaccg ccgcggacac ggcggcccag atcacccagc gcaagtggga ggcggcccgt
+      901 gaggcggagc agctgagagc ctacctggag ggcacgtgcg tggagtggct ccgcagacac
+      961 ctggagaacg ggaaggagac gctgcagcgc gcgggtaccg gggcagtggg gagccttccc
+     1021 catctcctat aggtctcccg ggatggcctc ccacgaggag gggaggaaaa tgggataagc
+     1081 gctagaatgt cgccctccct tgaatggaga atgggatgag ttttcctgag tttcctctga
+     1141 gggccccctc tgctctctag gacagttaag ggatgaagtc tctgaggaaa tggagggaaa
+     1201 gacagtccct ggaatactga tcagggatcc cctttgacca ctttgaccac tgcggcagct
+     1261 gtggtcaggc tgctgacctt tctctcaggt cttgttctct gcctcgcact caatgtgttt
+     1321 gaaggtttga ttccagcttt tctgagtcct tcggcctcca ctcaggtcag gaccagaagt
+     1381 cgctgttcct ccctcagaga ctagaacttt ccaatgaata ggagattatc ccagttgcct
+     1441 gtgtccaagc tggcgtctgg gttctgtgct ccctttccca ctccaggtgt cctgtccatt
+     1501 ctcaggatgg tcacatgggc gttgctggag tgtcgcaaga gagatacaaa ttgtctgaat
+     1561 tttctgactc ttcccatcag accccccaaa gacacacgtg acccaccacc ccatctctga
+     1621 ccatgaggcc accctgaggt gctgggccct ggccttctac cctgcggaga tcacactgac
+     1681 ctggcagcgg gatggggagg accaaactca ggacaccgag cttgtggaga ccaggccagc
+     1741 aggagatgga accttccaga agtgggcagc tgtggtggtg ccttctggag aagagcagag
+     1801 atacacatgc catgtgcagc acgaggggct gccggagccc ctcaccctga gatggggtaa
+     1861 ggagggggat gaggggtcat gtctcttctc agggaaagca ggagcccttc tggagccctt
+     1921 cagcagggtc agggcccctc atcttcccct cctttcccag agccatcttc ccagtccacc
+     1981 atcctcatcg tgggcattgt tgctggcctg gctgtcctag cagttgtggt catcggaatt
+     2041 gtcactgctg agaagtgtag gaggaagagc tcaggtaggg aaggggtgag gggtggggtc
+     2101 tgggttttct tgtcccactg ggggtttcaa gccccaggta gaagtgttcc ctgcctcatt
+     2161 actgggaagc agcatccaca caggggctaa cccagcctgg gaccctgtgt gccacactta
+     2221 ctgttttgtg cagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggtg
+     2281 ttgggatcct gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt
+     2341 aggagggcag ttggtctagg acacacacct gctttcctca tgtttcctga tcctgtcctg
+     2401 ggtctgtagt catagttctg gaaatttctc ttgggtccaa gactgggagg ttcctctaag
+     2461 atctcatggc cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa
+     2521 aaggaggggg ctactctcag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc
+     2581 acccacccca taattcctcc tgtcccacat ctcctgcggg ctctgaccgg gtcctgtttt
+     2641 tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttgaaaa
+     2701 ggtgagattc ttggggtcta gagtgggtgg ggggggtggg gcagagggga aaggcctggg
+     2761 taatggagat tctttgattg ggacatttcg agtgtgtggt gggctgttca gagtgtcatc
+     2821 acttaccatg actgaccaga atttgttcat gactgttgtt ttctgtagcc tga
+//
+LOCUS       NHP09807                2874 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-C*03:01:01:03, C locus allele.
+ACCESSION   NHP09807
+VERSION     NHP09807
+DBLINK      INSDC: MF593181
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Vigilant L.
+  TITLE     Discovery of gorilla MHC-C expressing C1 ligand for KIR.
+  JOURNAL   Immunogenetics 70:293-304 (2018)
+   PUBMED   29101448
+COMMENT     IPD-MHC allele: Gogo-C*03:01:01:03
+            IPD accession: NHP09807
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2874
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2874
+                     /gene="C"
+                     /allele="Gogo-C*03:01:01:03"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            203..472
+                     /gene="C"
+                     /number=2
+     exon            719..994
+                     /gene="C"
+                     /number=3
+     exon            1581..1856
+                     /gene="C"
+                     /number=4
+     exon            1961..2074
+                     /gene="C"
+                     /number=5
+     exon            2515..2547
+                     /gene="C"
+                     /number=6
+     exon            2654..2701
+                     /gene="C"
+                     /number=7
+     exon            2870..2874
+                     /gene="C"
+                     /number=8
+     intron          74..202
+                     /gene="C"
+                     /number=1
+     intron          473..718
+                     /gene="C"
+                     /number=2
+     intron          995..1580
+                     /gene="C"
+                     /number=3
+     intron          1857..1960
+                     /gene="C"
+                     /number=4
+     intron          2075..2514
+                     /gene="C"
+                     /number=5
+     intron          2548..2653
+                     /gene="C"
+                     /number=6
+     intron          2702..2869
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,203..472,719..994,1581..1856,1961..2074,
+                     2515..2547,2654..2701,2870..2874)
+                     /gene="C"
+                     /allele="Gogo-C*03:01:01:03"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MGVMAPRTLLLLLSGALALTETWAGSHSMRYFYTSVSRPGREEPR
+                     FIAVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRNTQIYKRQAQADRVSLRN
+                     LRGYYNQSEDGSHTWQRMYGCDMGSDWRLLRGYDQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKWEAAREAEQLRAYLEGTCVEWLRRHLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALAFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIVAGLAVLAVVVIGIVTAEKCRRKSSGGKG
+                     GGYSQAASSDSAQGSDVSLTAX"
+ORIGIN
+        1 atgggggtca tggcgccccg aaccctcctc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga aaggagcgag
+      121 gggcccgccc ggcgagggcg caggaccggg gagccgcgcc gggaggaggg tcaggcgggt
+      181 ctcagcccct cctcgccccc aggctcccat tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcgaggagcc ccgcttcatc gccgtgggct acgtggacga cacccagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg agaggggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccggaac acacagatct acaagcgcca ggcacaggct
+      421 gaccgagtga gcctgcggaa cctacgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcctg gggcgcaggt cacgacccct ccccatcccc cacggacggc ccgggtcgcc
+      541 ccgagtcccc cggtctgaga tccacccaga ggctgcggaa cccgcccaga ccctcgaccg
+      601 gagagagccc cagtcgcctt tacccggttt cattttcagt ttaggccaaa atccccgcgg
+      661 gttggtcggg gctggggcgg ggctcggcgg gcatggctga ccacgggggc ggggccagga
+      721 tctcacacct ggcagaggat gtatggctgc gacatggggt ccgactggcg cctcctccgc
+      781 gggtatgacc agttcgccta cgacggcaag gattacatcg ccctgaacga ggacctgcgc
+      841 tcctggaccg ccgcggacac ggcggcccag atcacccagc gcaagtggga ggcggcccgt
+      901 gaggcggagc agctgagagc ctacctggag ggcacgtgcg tggagtggct ccgcagacac
+      961 ctggagaacg ggaaggagac gctgcagcgc gcgggtaccg gggcagtggg gagccttccc
+     1021 catctcctat aggtctcccg ggatggcctc ccacgaggag gggaggaaaa tgggataagc
+     1081 gctagaatgt cgccctccct tgaatggaga atgggatgag ttttcctgag tttcctctga
+     1141 gggccccctc tgctctctag gacagttaag ggatgaagtc tctgaggaaa tggagggaaa
+     1201 gacagtccct ggaatactga tcagggatcc cctttgacca ctttgaccac tgcggcagct
+     1261 gtggtcaggc tgctgacctt tctctcaggt cttgttctct gcctcgcact caatgtgttt
+     1321 gaaggtttga ttccagcttt tctgagtcct tcggcctcca ctcaggtcag gaccagaagt
+     1381 cgctgttcct ccctcagaga ctagaacttt ccaatgaata ggagattatc ccagttgcct
+     1441 gtgtccaagc tggcgtctgg gttctgtgct ccctttccca ccccaggtgt cctgtccatt
+     1501 ctcaggatgg tcacatgggc gttgctggag tgtcgcaaga gagatacaaa ttgtctgaat
+     1561 tttctgactc ttcccatcag accccccaaa gacacacgtg acccaccacc ccatctctga
+     1621 ccatgaggcc accctgaggt gctgggccct ggccttctac cctgcggaga tcacactgac
+     1681 ctggcagcgg gatggggagg accaaactca ggacaccgag cttgtggaga ccaggccagc
+     1741 aggagatgga accttccaga agtgggcagc tgtggtggtg ccttctggag aagagcagag
+     1801 atacacatgc catgtgcagc acgaggggct gccggagccc ctcaccctga gatggggtaa
+     1861 ggagggggat gaggggtcat gtctcttctc agggaaagca ggagcccttc tggagccctt
+     1921 cagcagggtc agggcccctc atcttcccct cctttcccag agccatcttc ccagtccacc
+     1981 atcctcatcg tgggcattgt tgctggcctg gctgtcctag cagttgtggt catcggaatt
+     2041 gtcactgctg agaagtgtag gaggaagagc tcaggtaggg aaggggtgag gggtggggtc
+     2101 tgggttttct tgtcccactg ggggtttcaa gccccaggta gaagtgttcc ctgcctcatt
+     2161 actgggaagc agcatccaca caggggctaa cccagcctgg gaccctgtgt gccacactta
+     2221 ctgttttgtg cagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggtg
+     2281 ttgggatcct gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt
+     2341 aggagggcag ttggtctagg acacacacct gctttcctca tgtttcctga tcctgtcctg
+     2401 ggtctgtagt catagttctg gaaatttctc ttgggtccaa gactgggagg ttcctctaag
+     2461 atctcatggc cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa
+     2521 aaggaggggg ctactctcag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc
+     2581 acccacccca taattcctcc tgtcccacat ctcctgcggg ctctgaccgg gtcctgtttt
+     2641 tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttgaaaa
+     2701 ggtgagattc ttggggtcta gagtgggtgg gggggggtgg ggcagagggg aaaggcctgg
+     2761 gtaatggaga ttctttgatt gggacatttc gagtgtgtgg tgggctgttc agagtgtcat
+     2821 cacttaccat gactgaccag aatttgttca tgactgttgt tttctgtagc ctga
+//

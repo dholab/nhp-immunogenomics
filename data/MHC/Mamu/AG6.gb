@@ -1,0 +1,1710 @@
+LOCUS       NHP11143                2911 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:03:01:02, AG6 locus allele.
+ACCESSION   NHP11143
+VERSION     NHP11143
+DBLINK      INSDC: LR989640
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:03:01:02
+            IPD accession: NHP11143
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2911
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2911
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:03:01:02"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            716..991
+                     /gene="AG6"
+                     /number=3
+     exon            1581..1856
+                     /gene="AG6"
+                     /number=4
+     exon            1959..2075
+                     /gene="AG6"
+                     /number=5
+     exon            2518..2550
+                     /gene="AG6"
+                     /number=6
+     exon            2693..2739
+                     /gene="AG6"
+                     /number=7
+     exon            2907..2911
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..715
+                     /gene="AG6"
+                     /number=2
+     intron          992..1580
+                     /gene="AG6"
+                     /number=3
+     intron          1857..1958
+                     /gene="AG6"
+                     /number=4
+     intron          2076..2517
+                     /gene="AG6"
+                     /number=5
+     intron          2551..2692
+                     /gene="AG6"
+                     /number=6
+     intron          2740..2906
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,716..991,1581..1856,1959..2075,
+                     2518..2550,2693..2739,2907..2911)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:03:01:02"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgcggg gaggagggga
+      121 gggcctgccc ggccggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagtctc tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgttcagttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctccggggac gggctgaccg cgggggcggg gccagggtct
+      721 cacaccgtcc agaagatgta cggctgcgac ctggggcccg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagtgat tacatcgccc tgaacgagga cctgcgctcc
+      841 tggacggccg cggacatggc ggctcagaac acccagcgca agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tcgcctgtgg atctcccggg ctggcctccc acaaggaggg gagacaaatg ggaccaacac
+     1081 tagaatagcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga ggttccgccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga tgatccctcg aatactggtt ccctttgaca ccggcagcag
+     1261 ccttgggccc cgtgactttt cctctcaggc cctgttctct gcttcacact caatgtgtgt
+     1321 gggggtctga gtccagctcc tctgagtccc tcagcctcca ctcaggtcag gaccagaagt
+     1381 cactgttcct tcctcaggga atagaatttt ccacggaata ggtgattctc ccaggtgcct
+     1441 gtgtccagga tggtgtctgg gttctgtgct cccttcccca ccccaggtgt cctgtccatt
+     1501 ctcaagatgg tcacatgcgt gctggtggag tgtcccatga gagatgcaaa atgactgaat
+     1561 tttctgactc ttcccatcag acccccccaa gacacatgtg acccaccacc ccgtctctga
+     1621 ccatgaggcc accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac
+     1681 ctggcagcgg gatggagagg aacaaactga ggacacagag ctcgtggaga ccaggcctac
+     1741 aggggatgga accttccaga agtgggcggc tgtggtggtg ccttctggag aggagcagag
+     1801 atacacctgt catgtgcaac atgagggtct gcccaagccc ctcaccttga gatggagtaa
+     1861 agagggagat gggggtgtca tgtcttttag ggaaagccgg agcctctctg gagaccttta
+     1921 gcagggtcag gacccctcac cttaccctct tttcccagag ccgtcttccc agtccaccat
+     1981 ccccatcgtg ggcatcattg ctggcctggt tctgcttgga actgtggtca ctggagctgt
+     2041 ggttgctgct gtgatgtgga ggaggaagag ctcaggtgag gaaggggtga ggagtggggt
+     2101 ctgggatttc ttgtctcact gagggtttca agccccaggt agaagtgtac cctgtctggt
+     2161 tactgggaag caccatccac actcatgggc tgacccagcc tgggccctgt gtgccagcac
+     2221 ctactttttt gtaaagcacc tgttacaatg aaggacagat ttatcacctt gattatggtg
+     2281 atgggacctg atcccagcac tcacaagtca caagggaagg tccctgctga ggacagacct
+     2341 caggagggca attggtccag gacccacacc tgatttcttc atgtttcctg atcctgccct
+     2401 gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg agattcctgt
+     2461 aggaccttat ggccctgact cctttctgat atctcacagg acattttctt ctcatagata
+     2521 gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga tccctgagat
+     2581 ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca gttcctcctc
+     2641 tagccgcatc tccagagggg tctgaccagg tcctgttttt gttctactcc aggcagtgac
+     2701 agtgaccaag gttctgatgt gtctctcacg gctttaaagg tgagaccctg gggggcctga
+     2761 tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt ctttgacttg
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctgactgtga cggatgtgaa
+     2881 ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11144                2913 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:04:01:01, AG6 locus allele.
+ACCESSION   NHP11144
+VERSION     NHP11144
+DBLINK      INSDC: LR989643
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:04:01:01
+            IPD accession: NHP11144
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2913
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2913
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:04:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            717..992
+                     /gene="AG6"
+                     /number=3
+     exon            1582..1857
+                     /gene="AG6"
+                     /number=4
+     exon            1960..2076
+                     /gene="AG6"
+                     /number=5
+     exon            2519..2551
+                     /gene="AG6"
+                     /number=6
+     exon            2694..2740
+                     /gene="AG6"
+                     /number=7
+     exon            2909..2913
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..716
+                     /gene="AG6"
+                     /number=2
+     intron          993..1581
+                     /gene="AG6"
+                     /number=3
+     intron          1858..1959
+                     /gene="AG6"
+                     /number=4
+     intron          2077..2518
+                     /gene="AG6"
+                     /number=5
+     intron          2552..2693
+                     /gene="AG6"
+                     /number=6
+     intron          2741..2908
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1582..1857,1960..2076,
+                     2519..2551,2694..2740,2909..2913)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtctt ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggccctccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcagttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtccggg cggggcgggg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcagtga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atggcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccgcc ctgctctctg acacaattaa ggatgaaatc
+     1201 tctgagggaa tgaagggaag atgatcccgc gaatactggt tccctttgac accggcagca
+     1261 gccttgggcc ccgtgacttt tcctctcagg ccctgttctc tgcttcacac tcaatgtgtg
+     1321 tgggggtctg agtccagctc ctctgagtcc ctcagcctcc actcaggtca ggaccagaag
+     1381 tcactgttcc ttcctcaggg aatagaattt tccacggaat aggtgattat cccaggtgcc
+     1441 tgtgtccagg atggtgtctg ggttctgtgc tcccttcccc accccaggtg tcctgtccat
+     1501 tctcaagatg gtcacatgcg tgctggtgga gtgtcccatg agagatgcaa aatgactgaa
+     1561 ttttctgact cttcccatca gaccccccca agacacatgt gacccaccac cccgtctctg
+     1621 accatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga
+     1681 cctggcagcg ggatggagag gaacaaactg aggacacaga gctcgtggag accaggccta
+     1741 caggggatgg aaccttccag aagtgggcgg ctgtggtggt gccttctgga gaggagcaga
+     1801 gatacacctg tcatgtgcaa catgagggtc tgcccaagcc cctcaccttg agatggagta
+     1861 aagagggaga tgggggtgtc atgtctttta gggaaagccg gagcctctct ggagaccttt
+     1921 agcagggtca ggacccctca ccttcccctc ttttcccaga gccgtcttcc cagtccacca
+     1981 tccccatcgt gggcatcatt gctggcctgg ttctgcttgg aactgtggtc actggagctg
+     2041 tggttgctgc tgtgatgtgg aggaggaaga gctcaggtga ggaaggggtg aggagtgggg
+     2101 tctgggattt cttgtctcac tgagggtttc aagccccagg tagaagtgta ccctgtctgg
+     2161 ttactgggaa gcaccatcca cactcatggg ctgacccagc ctgggccctg tgtgccagca
+     2221 cctacttttt tgtaaagcac ctgttacaat gaaggacaga tttatcacct tgattatggt
+     2281 gatgggacct gatcccagca ctcacaagtc acaagggaag gtccctgctg aggacagacc
+     2341 tcaggagggc aattggtcca ggacccacac ctgatttctt catgtttcct gatcctgccc
+     2401 tgggtctgca atcacacatt tctggaaact tctctggggt ccaagactag gagattcctg
+     2461 taggacctta tggcactgac tcctttctga tatctcacag gacattttct tctcatagat
+     2521 agataaggcg ggagctactc tcaggctgca agtaagtagg aaagaggctg atccctgaga
+     2581 tccttgggat attgtggttg ggagcccatg ggggagctca ccaaccccac agttcctcct
+     2641 ctagccgcat ctccagaggg gtctgaccag gtcctgtttt tgttctactc caggcagtga
+     2701 cagtgcccaa ggttctgatg tgtctctcac ggctttaaag gtgagaccct ggggggcctg
+     2761 atgtgtgtgg ggtgttgggg ggaacagtgg acgcagctgt gctgtggggt ttctttgact
+     2821 tggatgtatt gagcatgtga tgggctgttt aaagtgtcac tactgactgt gacggatgtg
+     2881 aattttttca tgaatatttt ttctatagtg tga
+//
+LOCUS       NHP11145                2913 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:04:01:02, AG6 locus allele.
+ACCESSION   NHP11145
+VERSION     NHP11145
+DBLINK      INSDC: LR989645
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:04:01:02
+            IPD accession: NHP11145
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2913
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2913
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:04:01:02"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            717..992
+                     /gene="AG6"
+                     /number=3
+     exon            1582..1857
+                     /gene="AG6"
+                     /number=4
+     exon            1960..2076
+                     /gene="AG6"
+                     /number=5
+     exon            2519..2551
+                     /gene="AG6"
+                     /number=6
+     exon            2694..2740
+                     /gene="AG6"
+                     /number=7
+     exon            2909..2913
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..716
+                     /gene="AG6"
+                     /number=2
+     intron          993..1581
+                     /gene="AG6"
+                     /number=3
+     intron          1858..1959
+                     /gene="AG6"
+                     /number=4
+     intron          2077..2518
+                     /gene="AG6"
+                     /number=5
+     intron          2552..2693
+                     /gene="AG6"
+                     /number=6
+     intron          2741..2908
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1582..1857,1960..2076,
+                     2519..2551,2694..2740,2909..2913)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:04:01:02"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtctt ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggccctccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcagttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtccggg cggggcgggg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcagtga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atggcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccgcc ctgctctctg acacaattaa ggatgaaatc
+     1201 tctgagggaa tgaagggaag atgatcccgc gaatactggt tccctttgac accggcagca
+     1261 gccttgggcc ccgtgacttt tcctctcagg ccctgttctc tgcttcacac tcaatgtgtg
+     1321 tgggggtctg agtccagctc ctctgagtcc ctcagcctcc actcaggtca ggaccagaag
+     1381 tcactgttcc ttcctcaggg aatagaattt tccacggaat aggtgattat cccaggtgcc
+     1441 tgtgtccagg atggtgtctg ggttctgtgc tcccttcccc accccaggtg tcctgtccat
+     1501 tctcaagatg gtcacatgcg tgctggtgga gtgtcccatg agagatgcaa aatgactgaa
+     1561 ttttctgact cttcccatca gaccccccca agacacatgt gacccaccac cccgtctctg
+     1621 accatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga
+     1681 cctggcagcg ggatggagag gaacaaactg aggacacaga gctcgtggag accaggccta
+     1741 caggggatgg aaccttccag aagtgggcgg ctgtggtggt gccttctgga gaggagcaga
+     1801 gatacacctg tcatgtgcaa catgagggtc tgcccaagcc cctcaccttg agatggagta
+     1861 aagagggaga tgggggtgtc atgtctttta gggaaagccg gagcctctct ggagaccttt
+     1921 agcagggtca ggacccctca ccttcccctc ttttcccaga gccgtcttcc cagtccacca
+     1981 tccccatcgt gggcatcatt gctggcctgg ttctgcttgg aactgtggtc actggagctg
+     2041 tggttgctgc tgtgatgtgg aggaggaaga gctcaggtga ggaaggggtg aggagtgggg
+     2101 tctgggattt cttgtctcac tgagggtttc aagccccagg tagaagtgta ccctgtctgg
+     2161 ttactgggaa gcaccatcca cactcatggg ctgacccagc ctgggccctg tgtgccagca
+     2221 cctacttttt tgtaaagcac ctgttacaat gaaggacaga tttatcacct tgattatggt
+     2281 gatgggacct gatcccagca ctcacaagtc acaagggaag gtccctgctg aggacagacc
+     2341 tcaggagggc aattggtcca ggacccacac ctgatttctt catgtttcct gatcctgccc
+     2401 tgggtctgca atcacacatt tctggaaact tctctggggt ccaagactag gagattcctg
+     2461 taggacctta tggcactgac tcctttctga tatctcacag gacattttct tctcatagat
+     2521 agataaggcg ggagctactc tcaggctgca agtgagtagg aaagaggctg atccctgaga
+     2581 tccttgggat attgtggttg ggagcccatg ggggagctca ccaaccccac agttcctcct
+     2641 ctagccgcat ctccagaggg gtctgaccag gtcctgtttt tgttctactc caggcagtga
+     2701 cagtgcccaa ggttctgatg tgtctctcac ggctttaaag gtgagaccct ggggggcctg
+     2761 atgtgtgtgg ggtgttgggg ggaacagtgg acgcagctgt gctgtggggt ttctttgact
+     2821 tggatgtatt gagcatgtga tgggctgttt aaagtgtcac tactgactgt gacggatgtg
+     2881 aattttttca tgaatatttt ttctatagtg tga
+//
+LOCUS       NHP11146                2919 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:01:01:01, AG6 locus allele.
+ACCESSION   NHP11146
+VERSION     NHP11146
+DBLINK      INSDC: LR989697
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:01:01:01
+            IPD accession: NHP11146
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2919
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2919
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:01:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            717..992
+                     /gene="AG6"
+                     /number=3
+     exon            1589..1864
+                     /gene="AG6"
+                     /number=4
+     exon            1967..2083
+                     /gene="AG6"
+                     /number=5
+     exon            2526..2558
+                     /gene="AG6"
+                     /number=6
+     exon            2701..2747
+                     /gene="AG6"
+                     /number=7
+     exon            2915..2919
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..716
+                     /gene="AG6"
+                     /number=2
+     intron          993..1588
+                     /gene="AG6"
+                     /number=3
+     intron          1865..1966
+                     /gene="AG6"
+                     /number=4
+     intron          2084..2525
+                     /gene="AG6"
+                     /number=5
+     intron          2559..2700
+                     /gene="AG6"
+                     /number=6
+     intron          2748..2914
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
+                     2526..2558,2701..2747,2915..2919)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESTRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLEKGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtagcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggccctccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgaga tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcagttc gacagcgacg ccgagagtac gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggaggga ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgagg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccgtc cagaagatgt acggctgcga cctggggcca gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcagtga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaaaggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atggcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccgcc ctgctctctg acacaattaa ggataaaatc
+     1201 tctgagggaa tgaagggaag atgatccctc gaatactgat caggggttcc ctttgacacc
+     1261 ggcagcagcc ttgggccccg tgacttttcc tctcaggccc tgttctctgc ttcacactca
+     1321 atgtgtgtgg gggtctgagt ccagctcctc tgagtccctc agcctccact caggtcagga
+     1381 ccagaagtca ctgttccttc ctcagggaat agaattttcc acggaatagg tgattatccc
+     1441 aggtgcctgt gtccaggatg gtgtctgggt tctgtgctcc cttccccacc ccaggtgtcc
+     1501 tgtccattct caagatggtc acatgcgtgc tggtggagtg tcccatgaca gatgcaaaat
+     1561 gactgaattt tctgactctt cccatcagac ccccccaaga cacatgtgac ccaccacccc
+     1621 gtctccgacc atgaggccac cctgaggtgc tgggccctgg gcttctaccc tgcggagatc
+     1681 acactgacct ggcagcggga tggagaggaa caaactgagg acacagagct cgtggagacc
+     1741 aggcctacag gggatggaac cttccagaag tgggcggctg tggtggtgcc ttctggagag
+     1801 gagcagagat acacctgtca tgtgcaacat gagggtctgc ccaagcccct caccttgaga
+     1861 tggagtaaag agggagatgg gggtgtcatg tcttttaggg aaagccggag cctctctgga
+     1921 gacctttagc agggtcagga cccctcacct taccctcttt tcccagagcc gtcttcccag
+     1981 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggaac tgtggtcact
+     2041 ggagctgtgg ttgctgctgt gatgtggagg aggaagagct caggtgagga aggggttagg
+     2101 agtggggtct gggatttctt gtctcactga gggtttcaag ccccaggtag aagtgtaccc
+     2161 tgtctggtta ctgggaagca ccatccacac tcatgggctg acccagcctg ggccttgtgt
+     2221 gccagcacct actcttttgt aaagcacctg ttacaatgaa ggacagattt atcaccttga
+     2281 ttatggtgat gggacctgat cccagcagtc acaagtcaca agggaaggtc cctgctgagg
+     2341 acagacctca ggagggcaat tggtccagga cccacacctg atttcttcat gtttcctgat
+     2401 cctgccctgg gtctgcaatc acacatttct ggaaacttct ctggggtcca agactaggag
+     2461 attcctgtag gaccttatgg cactgactcc tttctgatat ctcacaggac attttcttct
+     2521 catagataga taaggcggga gctactctca ggctgcaagt aagtaggaag gaggctgatc
+     2581 cctgagatcc ttgggatatt gtggttggga gcccatgggg gagctcacta accccacagt
+     2641 tcctcctcta gccgcatctc cagaggggtc tgaccaggtc ctgtttttgt tctactccag
+     2701 gcagtgacag tgcccaaggt tctgatgtgt ctctcacggc tttaaaggtg agaccctggg
+     2761 gggcctgatg tgtggggggt gttgggggaa cagtggacgc agctgtgctg tggggtttct
+     2821 ttgacttgga tgtattgagc atgtgatggg ctgtttaaag tgtcactcct cactgtgacg
+     2881 gatgtgaatt ttttcatgaa tattttttct atagtgtga
+//
+LOCUS       NHP11150                2921 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:05:01:01, AG6 locus allele.
+ACCESSION   NHP11150
+VERSION     NHP11150
+DBLINK      INSDC: LR990421
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:05:01:01
+            IPD accession: NHP11150
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2921
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:05:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            205..474
+                     /gene="AG6"
+                     /number=2
+     exon            718..993
+                     /gene="AG6"
+                     /number=3
+     exon            1590..1865
+                     /gene="AG6"
+                     /number=4
+     exon            1968..2084
+                     /gene="AG6"
+                     /number=5
+     exon            2527..2559
+                     /gene="AG6"
+                     /number=6
+     exon            2702..2748
+                     /gene="AG6"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG6"
+                     /number=8
+     intron          74..204
+                     /gene="AG6"
+                     /number=1
+     intron          475..717
+                     /gene="AG6"
+                     /number=2
+     intron          994..1589
+                     /gene="AG6"
+                     /number=3
+     intron          1866..1967
+                     /gene="AG6"
+                     /number=4
+     intron          2085..2526
+                     /gene="AG6"
+                     /number=5
+     intron          2560..2701
+                     /gene="AG6"
+                     /number=6
+     intron          2749..2916
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1590..1865,1968..2084,
+                     2527..2559,2702..2748,2917..2921)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPQTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgcccca aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccctcc cggcgggggc gcaggacccg gggagccgcg cggggaggag agtcgggcgg
+      181 atctcagcct ctcctcgccc ccaggctccc actccatgag gtatttctac accgccgtgt
+      241 cccggcccgg ccgctgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcagtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg accggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gttacgaccc ctccccatcc cccacggacg gcccgggtgg
+      541 ccccgagtca atgggtccga gatccacccc gaagccgcgg gacccgggga cccttgaccc
+      601 gggagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttgatcggg gcggggcgag gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtatgaaca gttcgcctac gacggcagtg attacatcgc cctgaatgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 ccgcggagca gcacagaacc tacctggagg gcgagtgcct ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatggcctgt agatctcccg ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gggagtccac cctgctctct gacacaatta aggataaaat
+     1201 ctctgaggga atgaagggaa gatgatccct cgaatactga tcaggggttc cctttgacac
+     1261 cggcagcagc cttgggcccc gtgacttttc ctctcaggcc ctgttctctg cttcacactc
+     1321 aatgtgtgtg ggggtctgag tccagctcct ctgagtccct cagcctccac tcaagtcagg
+     1381 accagaagtc actgttcctt cctcagggaa tagaattttc cacggaatag gtgattatcc
+     1441 caggtgcctg tgtccaggat ggtgtctggg ttctgtgctc ccttccccac cccaggtgtc
+     1501 ctgtccattc tcaagatggt cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa
+     1561 tgactgaatt ttctgactct tcccatcaga cccccccaag acacatgtga cccaccaccc
+     1621 cgtctctgac catgaggcca ccctgaggtg ctgggccctg ggcttctacc ctgcggagat
+     1681 cacactgacc tggcagcggg atggagagga acaaactgag gacacagagc tcgtggagac
+     1741 caggcctaca ggggatggaa ccttccagaa gtgggcggct gtggtggtgc cttctggaga
+     1801 ggagcagaga tacacctgtc atgtgcaaca tgagggtctg cccaagcccc tcaccttgag
+     1861 atggagtaaa gagggagatg ggggtgtcat gtcttttagg gaaagccgga gcctctctgg
+     1921 agacctttag cagggtcagg acccctcacc ttaccctctt ttcccagagc cgtcttccca
+     1981 gtccaccatc cccatcgtgg gcatcattgc tggcctggtt ctgcttggag ctgtggtcac
+     2041 tggagctgtg gttgctgctg tgatgtggag gaggaagagc tcaggtgagg aaggggtgag
+     2101 gagtggggtc tgggatttct tgtctcactg agggtttcaa gccccagcta gaagtgtacc
+     2161 ctgtctggtt actgggaagc accatccaca ctcatgggct gacccagcct gggccctatg
+     2221 tgccagcacc tactcttttg taaagcacct gttacaatga aggacagatt tatcaccttg
+     2281 attatggtga agggacctga tcccagcact cacaagtcac aagggaaggt ccctgctgag
+     2341 gacagacctc aggagggcaa ttggtccagg acccacacct gatttcttca tgtttcctga
+     2401 tcctgccctg ggtctgcaat cacacatttc tggaaacttc tctggggtcc aagactagga
+     2461 gattcctgta ggaccttatg gcactgactc ctttctgata tctcacagga cattttcttc
+     2521 tcatagatag ataaggcggg agctactctc aggctgcaag taagtaggaa ggaggctgat
+     2581 ccctgagatc cttgggatat tgtggttggg agcccatggg ggagctcact aaccccacag
+     2641 ttcctcctct agccgcatct ccagaggggt ctgaccaggt cctatttttg ttctactcca
+     2701 ggcagtgaca gtgcccaagg ttctgatgtg tctctcacgg ctttaaaggt gagaccctgg
+     2761 ggggcctgat gtgtgtgggg tgttgggggg aacagtggac acagttgtgc tgtggggttt
+     2821 ctttgacttg gatgtattga gcatgtgatg ggctgtttga agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11151                2921 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:06:01:01, AG6 locus allele.
+ACCESSION   NHP11151
+VERSION     NHP11151
+DBLINK      INSDC: LR990422
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:06:01:01
+            IPD accession: NHP11151
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2921
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:06:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            205..474
+                     /gene="AG6"
+                     /number=2
+     exon            718..993
+                     /gene="AG6"
+                     /number=3
+     exon            1590..1865
+                     /gene="AG6"
+                     /number=4
+     exon            1968..2084
+                     /gene="AG6"
+                     /number=5
+     exon            2527..2559
+                     /gene="AG6"
+                     /number=6
+     exon            2702..2748
+                     /gene="AG6"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG6"
+                     /number=8
+     intron          74..204
+                     /gene="AG6"
+                     /number=1
+     intron          475..717
+                     /gene="AG6"
+                     /number=2
+     intron          994..1589
+                     /gene="AG6"
+                     /number=3
+     intron          1866..1967
+                     /gene="AG6"
+                     /number=4
+     intron          2085..2526
+                     /gene="AG6"
+                     /number=5
+     intron          2560..2701
+                     /gene="AG6"
+                     /number=6
+     intron          2749..2916
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1590..1865,1968..2084,
+                     2527..2559,2702..2748,2917..2921)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPQTLLLVLSGVLALTRTWAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgcccca aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccctcc cggcgggggc gcaggacccg gggagccgcg cggggaggag ggtcgggcgg
+      181 gtctcagcct ctcctcgccc ccaggctccc actccatgag gtatttctac accgccgtgt
+      241 cccggcccgg ccgctgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcagtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg accggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gttacgaccc ctccccatcc cccacggacg gcccgggtgg
+      541 ccccgagtca atgggtccga gatccacccc gaagccgcgg gacccgggga cccttgaccc
+      601 gggagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttgatcggg gcggggcgag gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccgt ccagaagatg tatggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtatgaaca gttcgcctac gacggcagtg attacatcgc cctgaatgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 ccgcggagca gcacagaacc tacctggagg gcgagtgcct ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatggcctgt agatctcccg ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gggagtccac cctgctctct gacacaatta aggataaaat
+     1201 ctctgaggga atgaagggaa gatgatccct cgaatactga tcaggggttc cctttgacac
+     1261 cggcagcagc cttgggcccc gtgacttttc ctctcaggcc ctgttctctg cttcacactc
+     1321 aatgtgtgtg ggggtctgag tccagctcct ctgagtccct cagcctccac tcaagtcagg
+     1381 accagaagtc actgttcctt cctcagggaa tagaattttc cacggaatag gtgattatcc
+     1441 caggtgcctg tgtccaggat ggtgtctggg ttctgtgctc ccttccccac cccaggtgtc
+     1501 ctgtccattc tcaagatggt cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa
+     1561 tgactgaatt ttctgactct tcccatcaga cccccccaag acacatgtga cccaccaccc
+     1621 cgtctctgac catgaggcca ccctgaggtg ctgggccctg ggcttctacc ctgcggagat
+     1681 cacactgacc tggcagcggg atggagagga acaaactgag gacacagagc tcgtggagac
+     1741 caggcctaca ggggatggaa ccttccagaa gtgggcggct gtggtggtgc cttctggaga
+     1801 ggagcagaga tacacctgtc atgtgcaaca tgagggtctg cccaagcccc tcaccttgag
+     1861 atggagtaaa gagggagatg ggggtgtcat gtcttttagg gaaagccgga gcctctctgg
+     1921 agacctttag cagggtcagg acccctcacc ttaccctctt ttcccagagc cgtcttccca
+     1981 gtccaccatc cccatcgtgg gcatcattgc tggcctggtt ctgcttggag ctgtggtcac
+     2041 tggagctgtg gttgctgctg tgatgtggag gaggaagagc tcaggtgagg aaggggtgag
+     2101 gagtggggtc tgggatttct tgtctcactg agggtttcaa gccccagcta gaagtgtacc
+     2161 ctgtctggtt actgggaagc accatccaca ctcatgggct gacccagcct gggccctatg
+     2221 tgccagcacc tactcttttg taaagcacct gttacaatga aggacagatt tatcaccttg
+     2281 attatggtga agggacctga tcccagcact cacaagtcac aagggaaggt ccctgctgag
+     2341 gacagacctc aggagggcaa ttggtccagg acccacacct gatttcttca tgtttcctga
+     2401 tcctgccctg ggtctgcaat cacacatttc tggaaacttc tctggggtcc aagactagga
+     2461 gattcctgta ggaccttatg gcactgactc ctttctgata tctcacagga cattttcttc
+     2521 tcatagatag ataaggcggg agctactctc aggctgcaag taagtaggaa ggaggctgat
+     2581 ccctgagatc cttgggatat tgtggttggg agcccatggg ggagctcact aaccccacag
+     2641 ttcctcctct agccgcatct ccagaggggt ctgaccaggt cctatttttg ttctactcca
+     2701 ggcagtgaca gtgcccaagg ttctgatgtg tctctcacgg ctttaaaggt gagaccctgg
+     2761 ggggcctgat gtgtgtgggg tgttgggggg aacagtggac acagttgtgc tgtggggttt
+     2821 ctttgacttg gatgtattga gcatgtgatg ggctgtttga agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11152                2913 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:03:01:01, AG6 locus allele.
+ACCESSION   NHP11152
+VERSION     NHP11152
+DBLINK      INSDC: LR990426
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:03:01:01
+            IPD accession: NHP11152
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2913
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2913
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:03:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            717..992
+                     /gene="AG6"
+                     /number=3
+     exon            1582..1857
+                     /gene="AG6"
+                     /number=4
+     exon            1960..2076
+                     /gene="AG6"
+                     /number=5
+     exon            2519..2551
+                     /gene="AG6"
+                     /number=6
+     exon            2694..2740
+                     /gene="AG6"
+                     /number=7
+     exon            2909..2913
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..716
+                     /gene="AG6"
+                     /number=2
+     intron          993..1581
+                     /gene="AG6"
+                     /number=3
+     intron          1858..1959
+                     /gene="AG6"
+                     /number=4
+     intron          2077..2518
+                     /gene="AG6"
+                     /number=5
+     intron          2552..2693
+                     /gene="AG6"
+                     /number=6
+     intron          2741..2908
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1582..1857,1960..2076,
+                     2519..2551,2694..2740,2909..2913)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtctt ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggccctccc ggcgggggcg catgacccgg ggagccgcgc ggggaggaga ctcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcagttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtcgggg cggggtgggg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccgtc cagaagatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcagtga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 ctggcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccgcc ctgctctctg acacaattaa ggataaaatc
+     1201 tctgagggaa tgaagggaag atgatccctc gaatactggt tccctttgac accggcagca
+     1261 gccttgggcc ccgtgacttt tcctctcagg ccctgttctc tgcttcacac tcaatgtgtg
+     1321 tgggggtctg agtccagctc ctctgagtcc ctcagcctcc actcaggtca ggaccagaag
+     1381 tcactgttcc ttcctcaggg aatagaattt tccacggaat aggtgattat cccaggtgcc
+     1441 tgtgtccagg atggtgtctg ggttctgtgc tcccttcccc accccaggtg tcctgtccat
+     1501 tctcaagatg gtcacatgcg tgctggtgga gtgtcccatg agagatgcaa aatgactgaa
+     1561 ttttctgact cttcccatca gaccccccca agacacatgt gacccaccac cccgtctctg
+     1621 accatgaggc caccctgaga tgctgggccc tgggcttcta ccctgcggag atcacactga
+     1681 cctggcagcg ggatggagag gaacaaactg aggacacaga gctcgtggag accaggccta
+     1741 caggggatgg aaccttccag aagtgggcgg ctgtggtggt gccttctgga gaggagcaga
+     1801 gatacacctg tcatgtgcaa catgagggtc tgcccaagcc cctcaccttg agatggagta
+     1861 aagagggaga tgggggtgtc atgtctttta gggaaagcca gagcctctct ggagaccttt
+     1921 agcagggtca ggacccctca ccttcccctc ttttcccaga gccgtcttcc cagtccacca
+     1981 tccccatcgt gggcatcatt gctggcctgg ttctgcttgg aactgtggtc actggagctg
+     2041 tggttgctgc tgtgatgtgg aggaggaaga gctcaggtga ggaaggggtg aggagtgggg
+     2101 tctgggattt cttgtctcac tgagggtttc aagccccagg tagaagtgta ccctgtctgg
+     2161 ttactgggaa gcaccatcca cactcatggg ctgacccagc ctgggccctg tgtgccagca
+     2221 cctacttttt tgtaaagcac gtgttacaat gaaggacaga tttatcacct tgattatggt
+     2281 gatgggacct gatcccagca ctcacaagtc acaagggaag gtccctgctg aggacagacc
+     2341 tcaggagggc aattggtcca ggacccacac ctgatttctt catgtttcct gatcctgccc
+     2401 tgcgtctgca atcacacatt tctggaaact tctctggggt ccaagactag gagattcctg
+     2461 taggacctta tggcactgac tcctttctga tatctcacag gacattttct tctcatagat
+     2521 agataaggcg ggagctactc tcaggctgca agtaagtagg aaggaggctg atccctgaga
+     2581 tccttgggat attgtggttg ggagcccatg ggggagctca ccaaccccac agttcctcct
+     2641 ctagcagcat ctccagaggg gtctgaccag gtcctgtttt tgttctactc caggcagtga
+     2701 cagtgcccaa ggttctgatg tgtctctcac ggctttaaag gtgagaccct ggggggcctg
+     2761 atgtgtgtgg ggtgttgggg ggaacagtgg acgcagctgt gctgtggggt ttctttgact
+     2821 tggatgtatt gagcatgtga tgggctgttt aaagtgtcac tcctgactgt gacggatgtg
+     2881 aattttttca tgaatatttt ttctatagtg tga
+//
+LOCUS       NHP11153                2919 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:02:01:01, AG6 locus allele.
+ACCESSION   NHP11153
+VERSION     NHP11153
+DBLINK      INSDC: LR990464
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:02:01:01
+            IPD accession: NHP11153
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2919
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2919
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:02:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            717..992
+                     /gene="AG6"
+                     /number=3
+     exon            1589..1864
+                     /gene="AG6"
+                     /number=4
+     exon            1967..2083
+                     /gene="AG6"
+                     /number=5
+     exon            2526..2558
+                     /gene="AG6"
+                     /number=6
+     exon            2701..2747
+                     /gene="AG6"
+                     /number=7
+     exon            2915..2919
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..716
+                     /gene="AG6"
+                     /number=2
+     intron          993..1588
+                     /gene="AG6"
+                     /number=3
+     intron          1865..1966
+                     /gene="AG6"
+                     /number=4
+     intron          2084..2525
+                     /gene="AG6"
+                     /number=5
+     intron          2559..2700
+                     /gene="AG6"
+                     /number=6
+     intron          2748..2914
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
+                     2526..2558,2701..2747,2915..2919)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPL
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQKY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gaggatggag
+      121 gggcccgccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc ccctcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcagttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggaggga ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcagtga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atggcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccgcc ctgctctctg acacaattaa ggataaaatc
+     1201 tctgagggaa tgaagggaag atgatccctc gaatactgat caggggttcc ctttgacacc
+     1261 ggcagcagcc ttgggccccg tgacttttcc tctcaggccc tgttctctgc ttcacactca
+     1321 atgtgtgtga gggtctgagt ccagctcctc tgagtccctc agcctccact caggtcagga
+     1381 ccagaagtca ctgttccttc ctcagggaat agaattttcc acggaatagg tgattatccc
+     1441 aggtgcctgt gtccaggatg gtgtctgggt tctgtgctcc cttccccacc ccaggtgtcc
+     1501 tgtccattct caagatggtc acatgtgtgc tggtggagtg tcccatgaca gatgcaaaat
+     1561 gactgaattt tctgactctt cccatcagac ccccccaaga cacatgtaac ccaccacccc
+     1621 gtctctgacc atgaggccac cctgaggtgc tgggccctgg gcttctaccc tgcggagatc
+     1681 acactgacct ggcagcggga tggagaggaa caaactgagg acacagagct cgtggagacc
+     1741 aggcctacag gggatggaac cttccagaag tgggcggctg tggtggtgcc ttctggagag
+     1801 gagcagaaat acacctgtca tgtgcaacat gagggtctgc ccaagcccct caccttgaga
+     1861 tggagtaaag agggagatgg gggtgtcatg tcttttaggg aaagccggag cctctctaga
+     1921 gacctttagc agggtcagga ccactcacct taccctcttt tcccagagcc gtcttcccag
+     1981 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggagc tgtggtcact
+     2041 ggagctgtgg ttgctgctgt gatgtggagg aggaagagct caggtgagga aggggtgagg
+     2101 agtggggtct gggatttctt gtctcactga gggtttcaag ccccaggtag aagtgtaccc
+     2161 tgtctggtta ctgggaagca ccatccacac tcatgggctg acccagcctg ggccctgtgt
+     2221 gccagcacct actcttttgt aaagcacctg ttacaatgaa ggacagattt atcaccttga
+     2281 ttatggtgat gggacctgat cccagcagtc acaagtcaca agggaaggtc cctgctgagg
+     2341 acagacctca ggagggcaat tggtccagga cccacacctg atttcttcat gtttcctgat
+     2401 cctgccctgg gtttgcaatc acacatttct ggaaacttct ctggggtcca agactaggag
+     2461 attcctgtag gaccttatgt cactgactcc tttctgatat ctcacaggac attttcttct
+     2521 catagataga taaggcggga gctactctca ggctgcaagt aagtaggaag gaggctgatc
+     2581 cctgagatcc ttgggatatt gtggttggga gcccatgggg gagctcacta accccacagt
+     2641 tcctcctcta gccgcatctc cagaggggtc tgaccaggtc ctgtttttgt tctactccag
+     2701 gcagtgacag tgcccaaggt tctgatgtgt ctctcacggc tttaaaggtg agaccctggg
+     2761 gggcctgatg tgtggggggt cttgggggaa cagtggacgc agctgtgctg tggggtttct
+     2821 ttgacttgga tgtattgagc atgtgatggg ctgtttaaag tgtcactcct cactgcgacg
+     2881 gatgtgaatt ttttcatgaa tattttttct atagtgtga
+//
+LOCUS       NHP11220                2917 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:07:01:01, AG6 locus allele.
+ACCESSION   NHP11220
+VERSION     NHP11220
+DBLINK      INSDC: LR989637
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:07:01:01
+            IPD accession: NHP11220
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2917
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:07:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            204..473
+                     /gene="AG6"
+                     /number=2
+     exon            717..992
+                     /gene="AG6"
+                     /number=3
+     exon            1589..1864
+                     /gene="AG6"
+                     /number=4
+     exon            1967..2083
+                     /gene="AG6"
+                     /number=5
+     exon            2526..2557
+                     /gene="AG6"
+                     /number=6
+     exon            2699..2745
+                     /gene="AG6"
+                     /number=7
+     exon            2913..2917
+                     /gene="AG6"
+                     /number=8
+     intron          74..203
+                     /gene="AG6"
+                     /number=1
+     intron          474..716
+                     /gene="AG6"
+                     /number=2
+     intron          993..1588
+                     /gene="AG6"
+                     /number=3
+     intron          1865..1966
+                     /gene="AG6"
+                     /number=4
+     intron          2084..2525
+                     /gene="AG6"
+                     /number=5
+     intron          2558..2698
+                     /gene="AG6"
+                     /number=6
+     intron          2746..2912
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
+                     2526..2557,2699..2745,2913..2917)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:07:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggccctccg ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcagttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccacatccc ccacggacgg cccgggtggc
+      541 cccgagtcaa tgggtccgag atccaccccg aagccgcggg acccggggac ccttgacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgagg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccgtc cagaagatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcagtga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atggcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggatcaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaattaa ggataaaatc
+     1201 tctgaaggaa tgaagggaag atgatccctc gaatactgat caggggttcc ctttgacacc
+     1261 ggcagcagcc ttgggccccg tgacttttcc tctcaggccc tgttctctgc ttcacactca
+     1321 atgtgtgtgg gggtctgagt ccagctcctc tgagtccctc agcctccact caggtcagga
+     1381 ccagaagtca ctgttccttc ctcagggaat agaattttcc acggaatagg agattctccc
+     1441 aggtgcctgt gtccaggatg gtgtctgggt tctgtgctcc cttccccacc ccaggtgtcc
+     1501 tgtccattct caagatggcc acatgtgtgc tggtggagtg tcccatgaca gatgcaaaat
+     1561 gactgaattt tctgactctt cccatcagac ccccccaaga cacatgtgac ccaccacccc
+     1621 gtctctgacc atgaggccac cctgaggtgt tgggccctgg gcttctaccc tgcggggatc
+     1681 acactgacct ggcagcggga tggagaggaa caaactgaag acacagagct cgtggagacc
+     1741 aggcctacag gggatggaac cttccagaag tgggcggctg tggtggtgcc ttctggagag
+     1801 gagcagagat acacctgtca tgtgcaacat gagggtctgc ccaagcccct caccttgaga
+     1861 tggggtaaag agggagatgg gggtgtcatg tattttaggg aaagcaggag cctctctaga
+     1921 gacctttagc agggtcagga cccctcacct tcccctcttt tcccagagcc gtcttcccag
+     1981 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggaac tgtggtcact
+     2041 ggagctgtgg ttgctgctgt gatgtggagg aggaagagct caggtgagga aggggtgagg
+     2101 agtggggtct gggatttctt gtctcactga gggtttcaag ccccaggtag aagtgtaccc
+     2161 tgtctggtta ctgggaagca ccatccacac tcatgggctg acccagcctg ggccctgtgt
+     2221 gccagcacct actcttttgt aaagcacctg ttacaatgaa ggacagattt atcaccttga
+     2281 ttatggtgat gggacctgat cccagcactc acaagtcaca agggaaggtc cctgctgagg
+     2341 acagacctca ggagggcaat tggtccagga cccacacctg atttcttcat gtttcctgat
+     2401 cctgccctgg gtctgcaatc acacatttct ggaaacttct ctggggtcca agactaggag
+     2461 attcctgtag gaccttatgg ccctgactcc tttctgatat ctcacaggac attttcttct
+     2521 catagataga taagcgggag ctactctcag gctgcaagta agtaggaagg aggctgatcc
+     2581 ctgagatcct tgggatactg tggttgggag cccatgggga gctcactaac cccacagttc
+     2641 ctcctctagc cgcatctcca gaggggtctg accaggtcct gtttttgttc tactccaggc
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggtgag accctggggg
+     2761 gcctgatgtg tggggggtgt tgggggaaca gtggacgcag ctgtgctgtg gggtttcttt
+     2821 gacttggatg tattgagcat gtgatgggct gtttaaagtg tcactcctca ctgtgacgga
+     2881 tgtgaatttt ttcatgaata ttttttctat agtgtga
+//
+LOCUS       NHP11221                2920 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG6*04:08:01:01, AG6 locus allele.
+ACCESSION   NHP11221
+VERSION     NHP11221
+DBLINK      INSDC: LR989662
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:08:01:01
+            IPD accession: NHP11221
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2920
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2920
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:08:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            205..474
+                     /gene="AG6"
+                     /number=2
+     exon            718..993
+                     /gene="AG6"
+                     /number=3
+     exon            1590..1865
+                     /gene="AG6"
+                     /number=4
+     exon            1968..2084
+                     /gene="AG6"
+                     /number=5
+     exon            2527..2559
+                     /gene="AG6"
+                     /number=6
+     exon            2702..2748
+                     /gene="AG6"
+                     /number=7
+     exon            2916..2920
+                     /gene="AG6"
+                     /number=8
+     intron          74..204
+                     /gene="AG6"
+                     /number=1
+     intron          475..717
+                     /gene="AG6"
+                     /number=2
+     intron          994..1589
+                     /gene="AG6"
+                     /number=3
+     intron          1866..1967
+                     /gene="AG6"
+                     /number=4
+     intron          2085..2526
+                     /gene="AG6"
+                     /number=5
+     intron          2560..2701
+                     /gene="AG6"
+                     /number=6
+     intron          2749..2915
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1590..1865,1968..2084,
+                     2527..2559,2702..2748,2916..2920)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:08:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLFLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTEDTELLETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcttc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccctcc cggcgggggc gcaggacccg gggagccgcg cggggaggag agtcgggcgg
+      181 atctcagcct ctcctcgccc ccaggttccc actccatgag gtatttctac accgccgtgt
+      241 cccggcccgg ccgctgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gttacgaccc ctccacatcc cccacggacg gcccgggtgg
+      541 ccccgagtca atgggtccga gatccacccc gaagccgcgg gacccgggga cccttgaccc
+      601 gggagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttggtcgga gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtatgaaca gttcgcctac gacggcagtg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 ccgcggagca gcacagaacc tacctggagg gcgagtgcct ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatggcctgt agatctcccg ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctccaggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagagtccac cctgctctct gacacaatta aggataaaat
+     1201 ctctgaggga atgaagggaa gatgatccct cgaatactga tcaggggttc cctttgacac
+     1261 cggcagcagc cttgggcccc gtgacttttc ttctcaggcc ctgttctctg cttcacactc
+     1321 aatgtgtgtg ggggtctgag tccagctcct ctgagtccct cagcctccac tcaggtcagg
+     1381 accagaagtc actgttcctt cctcagggaa tagaattttc cacggaatag gtgattctcc
+     1441 caggtgcctg tgtccaggat ggtgtctggg ttctgtgctc ccttccccac cccaggtgtc
+     1501 ctgtccattc tcaagatggt cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa
+     1561 tgactgaatt ttctgactct tcccatcaga cccccctaag acacatgtga cccaccaccc
+     1621 cgtctctgac tacgaggcca ccctgaggtg ctgggccctg ggcttctacc ctgcggagat
+     1681 cacactgacc tggcagcggg atggagagga acaaactgag gacacagagc tcctggagac
+     1741 caggcctaca ggggatggaa ccttccagaa gtgggcggct gtggtggtgc cttctggaga
+     1801 ggagcagaga tacacctgtc atgtgcaaca tgagggtctg cccaagcccc tcaccttgag
+     1861 atggagtaaa gagggagatg ggggtgtcat gtcttttagg gaaagccgga gcctctctgg
+     1921 agacctttag cagggtcagg acccctcacc ttaccctctt ttcccagagc cgtcttccca
+     1981 gtccaccatc cccatcgtgg gcatcattgc tggcctggtt ctgcttggag ctgtggtcac
+     2041 tggagctgtg gttgctgctg tgatgtggag gaggaagagc tcaggtgagg aaggggtgag
+     2101 gagtggggtc tgggatttct tgtctcactg agggtttcaa gccccaggta gaagtgtacc
+     2161 ctgtctggtt actgggaagc accatccaca ctcatgggct gacccagcct gggccctgtg
+     2221 tgccagcacc tactcttttg taaagcacct gttacaatga aggacagatt tatcaccttg
+     2281 attatggtga tgggacctga tcccagcact cacaagtcac aagggaaggt ccctgctgag
+     2341 gacagacctc aggagggcaa ttggtccagg acccacacct gatttcttca tgtttcctga
+     2401 tcctgccctg ggtctgcaat cacacatttc tggaaacttc tctggggtcc aagactagga
+     2461 gattcctgta ggaccttatg gcactgactc ctttctgata tctcacagga cattttcttc
+     2521 tcatagatag ataaggcggg agctactctc aggctgcaag taagtaggaa ggaggctgat
+     2581 ccctgagatc cttgggatat tgtggttggg agcccatggg ggagctcact aaccccacag
+     2641 ttcctcctct agccgcatct ccagaggggt ctgaccaggt cctgtttttg ttctactcca
+     2701 ggcagtgaca gtgcccaagg ttctgatgtg tctctcacgg ctttaaaggt gagaccctgg
+     2761 ggggcctgat gtgtgggggg tgttggggga acagtggacg cagctgtgct gtggggtttc
+     2821 tttgacttgg atgtattgag catgtgatgg gctgtttaaa gtgtcactcc tcactgtgac
+     2881 ggatgtgaat tttttcatga atattttttc tatagtgtga
+//
+LOCUS       NHP11804                2922 bp    DNA     linear   PRI 28-MAY-2021
+DEFINITION  Mamu-AG6*04:09:01:01N, AG6 locus allele.
+ACCESSION   NHP11804
+VERSION     NHP11804
+DBLINK      INSDC: LR989634
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:09:01:01N
+            IPD accession: NHP11804
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2922
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2922
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:09:01:01N"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            205..474
+                     /gene="AG6"
+                     /number=2
+     exon            718..993
+                     /gene="AG6"
+                     /number=3
+     exon            1590..1866
+                     /gene="AG6"
+                     /number=4
+     exon            1969..2085
+                     /gene="AG6"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG6"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG6"
+                     /number=7
+     exon            2918..2922
+                     /gene="AG6"
+                     /number=8
+     intron          74..204
+                     /gene="AG6"
+                     /number=1
+     intron          475..717
+                     /gene="AG6"
+                     /number=2
+     intron          994..1589
+                     /gene="AG6"
+                     /number=3
+     intron          1867..1968
+                     /gene="AG6"
+                     /number=4
+     intron          2086..2527
+                     /gene="AG6"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG6"
+                     /number=6
+     intron          2750..2917
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1590..1866,1969..2085,
+                     2528..2560,2703..2749,2918..2922)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:09:01:01N"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPQTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPQDTCDPPPRLX"
+ORIGIN
+        1 atggcggtca tggcgcccca aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccctcc cggcgggggc gcaggacccg gggagccgcg cggggaggag agtcgggcgg
+      181 atctcagcct ctcctcgccc ccaggctccc actccatgag gtatttctac accgccgtgt
+      241 cccggcccgg ccgctgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcagtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg accggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gttacgaccc ctccccatcc cccacggacg gcccgggtgg
+      541 ccccgagtca atgggtccga gatccacccc gaagccgcgg gacccgggga cccttgaccc
+      601 gggagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttgatcggg gcggggcgag gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtatgaaca gttcgcctac gacggcagtg attacatcgc cctgaatgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 ccgcggagca gcacagaacc tacctggagg gcgagtgcct ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatggcctgt agatctcccg ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gggagtccac cctgctctct gacacaatta aggataaaat
+     1201 ctctgaggga atgaagggaa gatgatccct cgaatactga tcaggggttc cctttgacac
+     1261 cggcagcagc cttgggcccc gtgacttttc ctctcaggcc ctgttctctg cttcacactc
+     1321 aatgtgtgtg ggggtctgag tccagctcct ctgagtccct cagcctccac tcaagtcagg
+     1381 accagaagtc actgttcctt cctcagggaa tagaattttc cacggaatag gtgattatcc
+     1441 caggtgcctg tgtccaggat ggtgtctggg ttctgtgctc ccttccccac cccaggtgtc
+     1501 ctgtccattc tcaagatggt cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa
+     1561 tgactgaatt ttctgactct tcccatcaga ccccccccaa gacacatgtg acccaccacc
+     1621 ccgtctctga ccatgaggcc accctgaggt gctgggccct gggcttctac cctgcggaga
+     1681 tcacactgac ctggcagcgg gatggagagg aacaaactga ggacacagag ctcgtggaga
+     1741 ccaggcctac aggggatgga accttccaga agtgggcggc tgtggtggtg ccttctggag
+     1801 aggagcagag atacacctgt catgtgcaac atgagggtct gcccaagccc ctcaccttga
+     1861 gatggagtaa agagggagat gggggtgtca tgtcttttag ggaaagccgg agcctctctg
+     1921 gagaccttta gcagggtcag gacccctcac cttaccctct tttcccagag ccgtcttccc
+     1981 agtccaccat ccccatcgtg ggcatcattg ctggcctggt tctgcttgga gctgtggtca
+     2041 ctggagctgt ggttgctgct gtgatgtgga ggaggaagag ctcaggtgag gaaggggtga
+     2101 ggagtggggt ctgggatttc ttgtctcact gagggtttca agccccagct agaagtgtac
+     2161 cctgtctggt tactgggaag caccatccac actcatgggc tgacccagcc tgggccctat
+     2221 gtgccagcac ctactctttt gtaaagcacc tgttacaatg aaggacagat ttatcacctt
+     2281 gattatggtg aagggacctg atcccagcac tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tgatttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctgt aggaccttat ggcactgact cctttctgat atctcacagg acattttctt
+     2521 ctcatagata gataaggcgg gagctactct caggctgcaa gtaagtagga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccgcatc tccagagggg tctgaccagg tcctattttt gttctactcc
+     2701 aggcagtgac agtgcccaag gttctgatgt gtctctcacg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtgtggg gtgttggggg gaacagtgga cacagttgtg ctgtggggtt
+     2821 tctttgactt ggatgtattg agcatgtgat gggctgtttg aagtgtcact cctcactgtg
+     2881 acggatgtga attttttcat gaatattttt tctatagtgt ga
+//
+LOCUS       NHP11808                2922 bp    DNA     linear   PRI 28-MAY-2021
+DEFINITION  Mamu-AG6*04:10:01:01N, AG6 locus allele.
+ACCESSION   NHP11808
+VERSION     NHP11808
+DBLINK      INSDC: LR990420
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:10:01:01N
+            IPD accession: NHP11808
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2922
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2922
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:10:01:01N"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            205..474
+                     /gene="AG6"
+                     /number=2
+     exon            718..993
+                     /gene="AG6"
+                     /number=3
+     exon            1590..1866
+                     /gene="AG6"
+                     /number=4
+     exon            1969..2085
+                     /gene="AG6"
+                     /number=5
+     exon            2524..2560
+                     /gene="AG6"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG6"
+                     /number=7
+     exon            2918..2922
+                     /gene="AG6"
+                     /number=8
+     intron          74..204
+                     /gene="AG6"
+                     /number=1
+     intron          475..717
+                     /gene="AG6"
+                     /number=2
+     intron          994..1589
+                     /gene="AG6"
+                     /number=3
+     intron          1867..1968
+                     /gene="AG6"
+                     /number=4
+     intron          2086..2523
+                     /gene="AG6"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG6"
+                     /number=6
+     intron          2750..2917
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1590..1866,1969..2085,
+                     2524..2560,2703..2749,2918..2922)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:10:01:01N"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPQTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPQDTCDPPPRLX"
+ORIGIN
+        1 atggcggtca tggcgcccca aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccctcc cggcgggggc gcaggacccg gggagccgcg cggggaggag agtcgggcgg
+      181 atctcagcct ctcctcgccc ccaggctccc actccatgag gtatttctac accgccgtgt
+      241 cccggcccgg ccgctgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcagtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg accggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gttacgaccc ctccccatcc cccacggacg gcccgggtgg
+      541 ccccgagtca atgggtccga gatccacccc gaagccgcgg gacccgggga cccttgaccc
+      601 gggagagcac caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttgatcggg gcggggcgag gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtatgaaca gttcgcctac gacggcagtg attacatcgc cctgaatgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 ccgcggagca gcacagaacc tacctggagg gcgagtgcct ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatggcctgt agatctcccg ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gggagtccac cctgctctct gacacaatta aggataaaat
+     1201 ctctgaggga atgaagggaa gatgatccct cgaatactga tcaggggttc cctttgacac
+     1261 cggcagcagc cttgggcccc gtgacttttc ctctcaggcc ctgttctctg cttcacactc
+     1321 aatgtgtgtg ggggtctgag tccagctcct ctgagtccct cagcctccac tcaagtcagg
+     1381 accagaagtc actgttcctt cctcagggaa tagaattttc cacggaatag gtgattatcc
+     1441 caggtgcctg tgtccaggat ggtgtctggg ttctgtgctc ccttccccac cccaggtgtc
+     1501 ctgtccattc tcaagatggt cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa
+     1561 tgactgaatt ttctgactct tcccatcaga ccccccccaa gacacatgtg acccaccacc
+     1621 ccgtctctga ccatgaggcc accctgaggt gctgggccct gggcttctac cctgcggaga
+     1681 tcacactgac ctggcagcgg gatggagagg aacaaactga ggacacagag ctcgtggaga
+     1741 ccaggcctac aggggatgga accttccaga agtgggcggc tgtggtggtg ccttctggag
+     1801 aggagcagag atacacctgt catgtgcaac atgagggtct gcccaagccc ctcaccttga
+     1861 gatggagtaa agagggagat gggggtgtca tgtcttttag ggaaagccgg agcctctctg
+     1921 gagaccttta gcagggtcag gacccctcac cttaccctct tttcccagag ccgtcttccc
+     1981 agtccaccat ccccatcgtg ggcatcattg ctggcctggt tctgcttgga gctgtggtca
+     2041 ctggagctgt ggttgctgct gtgatgtgga ggaggaagag ctcaggtgag gaaggggtga
+     2101 ggagtggggt ctgggatttc ttgtctcact gagggtttca agccccagct agaagtgtac
+     2161 cctgtctggt tactgggaag caccatccac actcatgggc tgacccagcc tgggccctat
+     2221 gtgccagcac ctactctttt gtaaagcacc tgttacaatg aaggacagat ttatcacctt
+     2281 gattatggtg aagggacctg atcccagcac tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tgatttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctgt aggaccttat ggcactgact cctttctgat atctcacagg acattttctt
+     2521 ctcatagata gataaggcgg gagctactct caggctgcaa gtaagtagga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccgcatc tccagagggg tctgaccagg tcctattttt gttctactcc
+     2701 aggcagtgac agtgcccaag gttctgatgt gtctctcacg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtgtggg gtgttggggg gaacagtgga cacagttgtg ctgtggggtt
+     2821 tctttgactt ggatgtattg agcatgtgat gggctgtttg aagtgtcact cctcactgtg
+     2881 acggatgtga attttttcat gaatattttt tctatagtgt ga
+//
+LOCUS       NHP12051                2920 bp    DNA     linear   PRI 27-MAY-2022
+DEFINITION  Mamu-AG6*04:11:01:01, AG6 locus allele.
+ACCESSION   NHP12051
+VERSION     NHP12051
+DBLINK      INSDC: OW981881
+KEYWORDS    IPD-MHC; MHC class I; AG6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG6*04:11:01:01
+            IPD accession: NHP12051
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2920
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2920
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:11:01:01"
+     exon            1..73
+                     /gene="AG6"
+                     /number=1
+     exon            205..474
+                     /gene="AG6"
+                     /number=2
+     exon            718..993
+                     /gene="AG6"
+                     /number=3
+     exon            1590..1865
+                     /gene="AG6"
+                     /number=4
+     exon            1968..2084
+                     /gene="AG6"
+                     /number=5
+     exon            2527..2559
+                     /gene="AG6"
+                     /number=6
+     exon            2702..2748
+                     /gene="AG6"
+                     /number=7
+     exon            2916..2920
+                     /gene="AG6"
+                     /number=8
+     intron          74..204
+                     /gene="AG6"
+                     /number=1
+     intron          475..717
+                     /gene="AG6"
+                     /number=2
+     intron          994..1589
+                     /gene="AG6"
+                     /number=3
+     intron          1866..1967
+                     /gene="AG6"
+                     /number=4
+     intron          2085..2526
+                     /gene="AG6"
+                     /number=5
+     intron          2560..2701
+                     /gene="AG6"
+                     /number=6
+     intron          2749..2915
+                     /gene="AG6"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1590..1865,1968..2084,
+                     2527..2559,2702..2748,2916..2920)
+                     /gene="AG6"
+                     /allele="Mamu-AG6*04:11:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG6 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTAVSRPGRWEPR
+                     FIAVGYVDDTQFVQFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGSDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGGEQTEDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWKPSSQSTIPIVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcgcg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccctcc gggcgggggc gcaggacccg gggagccgcg cggggaggag agtcgggcgg
+      181 atctcagcct ctcctcgccc ccaggctccc actccatgag gtatttctac accgccgtgt
+      241 cccggcccgg ccgctgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcagtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg accggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gttacgaccc ctccccatcc cccacggacg gcccgggtgg
+      541 ccccgagtca atgggtccga gatccacccc gaagtcgcgg gacccgggga cccttgaccc
+      601 gggagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttggtcggg gcggggcgag gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccgt ccagaagatg tatggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtatgaaca gttcgcctat gacggcagtg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 ccgcggagca gcacagaacc tacctggagg gcgagtgcct ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatcgcctgt agatctcccg ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagagtccac cctgctctct gacacaatta aggataaaat
+     1201 ctctgaggga atgaagggaa gatgatccct cgaatactga tcaggggttc cctttgacac
+     1261 cggcagcagc cttgggcccc gtgacttttc ctctcaggcc ctgttctctg cttcacactc
+     1321 aatgtgtgtg ggggtctgag tccagctcct ctgagtccct cagcctccac tcaggtcagg
+     1381 accagaagtc actgttcctt cctcagggaa tagaattttc cacggaatag gtgattatcc
+     1441 caggtgcctg tgtccaggat ggtgtctggg ttctgtgctc ccttccccac cccaggtgtc
+     1501 ctgtccattc tcaagatggt cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa
+     1561 tgactgaatt ttctgactct tcccatcaga cccccctaag acacatgtga cccaccaccc
+     1621 cgtctctgac catgaggcca ccctgaggtg ctgggccctg ggcttctacc ctgcggagat
+     1681 cacactgacc tggcagcggg atggagggga acaaactgag gacacagagc tcgtggagac
+     1741 caggcctaca ggggatggaa ccttccagaa gtgggcggct gtggtggtgc cttctggaga
+     1801 ggagcagaga tacacctgtc atgtgcaaca tgagggtctg cccaagcccc tcaccttgag
+     1861 atggagtaaa gagggagatg ggggtgtcat gtcttttagg gaaagccgga gcctctctgg
+     1921 agacctttag cagggtcagg acccctcacc ttaccctctt ttcccagagc cgtcttccca
+     1981 gtccaccatc cccatcgtgg gcatcattgc tggcctggtt ctgcttggag ctgtggtcac
+     2041 tggagctgtg gttgctgctg tgatgtggag gaggaagagc tcaggtgagg aaggggtgag
+     2101 gagtggggtc tgggatttct tgtctcactg agggtttcaa gccccaggta gaagtgtacc
+     2161 ctgtctggtt actgggaagc accatccaca ctcatgggct gacccagcct gggccctgtg
+     2221 tgccagcacc tactcttttg taaagcacct gttacaatga aggacagatt tatcaccttg
+     2281 attatggtga tgggacctga tcccagcact cacaagtcac aagggaaggt ccctgctgag
+     2341 gacagacctc aggagggcaa ttggtccagg acccacacct gatttcttca tgtttcctga
+     2401 tcctgccctg ggtctgcaat cacacatttc tggaaacttc tctggggtcc aagactagga
+     2461 gattcctgta ggaccttatg gcactgactc ctttctgata tctcacagga cattttcttc
+     2521 tcatagatag ataaggcggg agctactctc aggctgcaag taagtaggaa ggaggctgat
+     2581 ccctgagatc cttgggatat tgtggttggg agcccatggg ggagctcact aaccccacag
+     2641 ttcctcctct agccgcatct ccagaggggt ctgaccaggt cctgtttttg ttctactcca
+     2701 ggcagtgaca gtgcccaagg ttctgatgtg tctctcacgg ctttaaaggt gagaccctgg
+     2761 ggggcctgat gtgtgggggg tgttggggga acagtggacg cagctgtgct gtggggtttc
+     2821 tttgacttgg atgtattgag catgtgatgg gctgtttaaa gtgtcactcc tcactgtgac
+     2881 ggatgtgaat tttttcatga atattttttc tatagtgtga
+//

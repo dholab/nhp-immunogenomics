@@ -1,0 +1,416 @@
+LOCUS       NHP11299                3667 bp    DNA     linear   PRI 29-JUL-2022
+DEFINITION  Mafa-B22*01:01:01:01N, B22 locus allele.
+ACCESSION   NHP11299
+VERSION     NHP11299
+DBLINK      INSDC: MW679611
+KEYWORDS    IPD-MHC; MHC class I; B22.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-B22*01:01:01:01N
+            IPD accession: NHP11299
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..3667
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3667
+                     /gene="B22"
+                     /allele="Mafa-B22*01:01:01:01N"
+     exon            1..64
+                     /gene="B22"
+                     /number=1
+     exon            194..463
+                     /gene="B22"
+                     /number=2
+     exon            709..984
+                     /gene="B22"
+                     /number=3
+     exon            1564..1839
+                     /gene="B22"
+                     /number=4
+     exon            1944..2060
+                     /gene="B22"
+                     /number=5
+     exon            3485..3517
+                     /gene="B22"
+                     /number=6
+     exon            3624..3667
+                     /gene="B22"
+                     /number=7
+     intron          65..193
+                     /gene="B22"
+                     /number=1
+     intron          464..708
+                     /gene="B22"
+                     /number=2
+     intron          985..1563
+                     /gene="B22"
+                     /number=3
+     intron          1840..1943
+                     /gene="B22"
+                     /number=4
+     intron          2061..3484
+                     /gene="B22"
+                     /number=5
+     intron          3518..3623
+                     /gene="B22"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1564..1839,1944..2060,
+                     3485..3517,3624..3667)
+                     /gene="B22"
+                     /allele="Mafa-B22*01:01:01:01N"
+                     /codon_start=1
+                     /product="MHC class I B22 antigen"
+                     /translation="MIPGTLLLLLSGALALTETWAGSHSWRYFSTSVSRPGRGEPRFIS
+                     VGYVNDTQFVRFDSDAASPRMEPRAPWVAQEGPEYWDPETRNAEGHAQTHX"
+ORIGIN
+        1 atgatacccg gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gaaggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctcctggagg tatttcagca cctccgtgtc tcggccgggc
+      241 cgcggggagc cccgcttcat ctccgtgggc tacgtgaacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgcaagtcc gaggatggag ccgcgggcgc cgtgggtggc gcaggagggg
+      361 ccggagtatt gggacccgga gacgcggaac gccgagggcc acgcacagac tcactgagag
+      421 aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagcg accctggagc
+      481 cgggcgcagg tcatgacccc tccccatccc ccacggacga cccgggtcgc cccgagtccc
+      541 tgggtccgag atccgccccg aggccgcggg acccgcccag acccttgacc ggagagagcc
+      601 ccaggcgcct ttacccgttt tttttttctg ttgaggccga agtcccagcg ggttggtcgg
+      661 ggcggggcgg ggctcggcgg gcggggctga ccgcgggggc ggggccaggg tctcacacca
+      721 tccagagggt gtttggctgc gacctggggc ccgacgggcg cctcctccgc ggatataacc
+      781 agcacgccta cgatggcaag gattacatcg ccctgaacga ggacctgcgc tcctggaccg
+      841 cagcggacac tgcggctcag aacacccagc gcaagtggga ggcggccggt gtggcggagg
+      901 agtggagcgt ctacctggag ggcgagtggg tggagtggct ccgcagatac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtaccc tgcaggggct gtggggagac ttcccggtct
+     1021 cctatagatc tccccggatg gcctcccatg aggaggggag gaaaatggga tcagcgctag
+     1081 aatgtcgccc tctcttgaat gaagaatggc atgagtttcc ctgatttcct ctgagggccc
+     1141 ctctgctctc taggacaatt aagggatgac gtctctgagg acatggaggg gaagacagtc
+     1201 cctggaatac tgatcagagg tcccctttga ctcctgcagc agccttgggc tttgtgactt
+     1261 tttcctctca ggccttgttc tctgcctcac actcaatgtg tctgaaggtc tgattccagc
+     1321 ttttctgagt cccttggcct ccactcgggt caggaccaga agtccctgta cctccttcag
+     1381 agactagaac tcttcaagga ataggagatt atcccaggtg cctgtgtcca ggctggtgtc
+     1441 tggcttctgt gctcccttcc ccaccccagg tgtcctgttc attctcaggg tggtcacatg
+     1501 ggtgctgctg gggtgtccca tgagagatgc aaagcccctg agttttctga ctcttcccat
+     1561 cagacccccc aaaaacacac gtgacccacc accccgtctc tgaccatgag gccaccctga
+     1621 ggtgctgggc cctgggcttc taccctgcgg agatcacact gatgtggcag cgggatgggg
+     1681 aggaccaaac tgaagacacc cagcttgtgg agaccaggcc agcaggggat ggaaccttcc
+     1741 agaagtgggc agctgtggtg gtgccttctg gagaacagca gagatacacg tgccatgtgc
+     1801 agcacgaggg gctgctggag cccctcaccc tgagatgggg taaggagtgg gatgaaggat
+     1861 cacgtctctc ctcagggaaa gtaggagccc ttctggagcc cttcagcagg gtcaggaccc
+     1921 ctcaccttcc cctcctttcc cagagccatc ttcccagtcc accatcccca tcgtgggcat
+     1981 cgttgctggc ctggctgtcc tagccttttt ggtcacagga gctgtggtca ctgctgtgtt
+     2041 gtggaagagg aagagctcag gtagggaagg ggtgaggggt ggagtctggg ttttcttgtc
+     2101 ccactggggg tttcaagccc caggtagaag tgtgccccgc ctcattagtg aaggggtggc
+     2161 ctgcccctcc acacctgtgg gcgtttctca ttaggtggaa ggagagactt gagaaaagaa
+     2221 atgtgacaca gagacaaagt atagagaaag aaaaagtggg cccaggggac cggcgctcag
+     2281 catacagagg acccacatcg gcaccggtct ctgagttccc ttggtattta ttgataatta
+     2341 tctttgccat cttaaagaaa aggaagtggc aggataatag gatcattgta gggagaaagt
+     2401 cagcagtaag acatgtgaat aaagttctct gtgacatgaa taagtttaag gaaaagtgct
+     2461 gtgccttgat atgcatatgt aaacatctcc ataaaccttt ttagtgcata aagagcagca
+     2521 ttgtgctagc aaatcccgcc tttcgcccta aggcggtttt ctcctttctc agtaaacaga
+     2581 acatatgatg ggattttata cccagatgtt ctattgccca gggacgggca ggagacagat
+     2641 gcttttctct atctcaactg ccaacaacca ccaagaggcc ttcttttctc ttgtactagt
+     2701 cctcctcagc acagaccctt cacgggtgtc aggctggggg acgatcaggt ctttcccttc
+     2761 ccacgaggcc atatttcaga ctatcacatg ggaagaaacc ttggacaata cctagctttc
+     2821 ctaggcagag gtccctgtga cctttggcag tgtacttgtc cctgggtact tgagattaag
+     2881 agaatgatga tgacttttaa ccagcaagct gccttcaggc acttgtttaa caaagcacac
+     2941 cctgcacagc ccaaaatcct ttaaaccttg agtcaccaca gcacatgtct cttgcaagga
+     3001 caaggttggg ggtagggtca cagattaaca gcatctcaaa tacagaacag aatggagtct
+     3061 cttatgtcta cttctttctg tatagacaca gtaacagtct gatctttctt tcttttcccc
+     3121 acaattattg ggaagcagca tccacacatg ggccatccca gcctggggcc ctgtgtgccg
+     3181 gcacttactc ttttgtgaag cacatgtgac aatgaaggac aatgtatcac cttgatggtt
+     3241 gtggtgttgg ggtccagatt ccagcattca tgagtcaggg gaaggtccct gctaaggaca
+     3301 ggcctttgga gggccgttgg tccagcaccc acccctgctt tcctggtatt tcctgattct
+     3361 gccctgggtc tgtagtcaca gttccgaaaa cttctctccg gtacaagact aggaggttcc
+     3421 ttcctctaag gtctcgtgtc cctgcctcct ccttgtcccc tcacagaaca ttttcttccc
+     3481 acaggtggaa aaggagggag ctactctcag gctgtgtgta agtggtgggg gtgggagtgt
+     3541 ggaggagctc acccacccca taattcctcc tgtcccacgt ttcctgcggg ctctgaccag
+     3601 atgctgtttt tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcag
+     3661 ggattgt
+//
+LOCUS       NHP12035                3668 bp    DNA     linear   PRI 24-MAY-2022
+DEFINITION  Mafa-B22*01:01:02:01N, B22 locus allele.
+ACCESSION   NHP12035
+VERSION     NHP12035
+DBLINK      INSDC: OW981809
+            INSDC: OR823516
+KEYWORDS    IPD-MHC; MHC class I; B22.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B22*01:01:02:01N
+            IPD accession: NHP12035
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..3668
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3668
+                     /gene="B22"
+                     /allele="Mafa-B22*01:01:02:01N"
+     exon            1..64
+                     /gene="B22"
+                     /number=1
+     exon            194..463
+                     /gene="B22"
+                     /number=2
+     exon            709..984
+                     /gene="B22"
+                     /number=3
+     exon            1564..1839
+                     /gene="B22"
+                     /number=4
+     exon            1944..2060
+                     /gene="B22"
+                     /number=5
+     exon            3485..3517
+                     /gene="B22"
+                     /number=6
+     exon            3624..3668
+                     /gene="B22"
+                     /number=7
+     intron          65..193
+                     /gene="B22"
+                     /number=1
+     intron          464..708
+                     /gene="B22"
+                     /number=2
+     intron          985..1563
+                     /gene="B22"
+                     /number=3
+     intron          1840..1943
+                     /gene="B22"
+                     /number=4
+     intron          2061..3484
+                     /gene="B22"
+                     /number=5
+     intron          3518..3623
+                     /gene="B22"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1564..1839,1944..2060,
+                     3485..3517,3624..3668)
+                     /gene="B22"
+                     /allele="Mafa-B22*01:01:02:01N"
+                     /codon_start=1
+                     /product="MHC class I B22 antigen"
+                     /translation="MIPGTLLLLLSGALALTETWAGSHSWRYFSTSVSRPGRGEPRFIS
+                     VGYVNDTQFVRFDSDAASPRMEPRAPWVAQEGPEYWDPETRNAEGHAQTHX"
+ORIGIN
+        1 atgatacccg gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gaaggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctcctggagg tatttcagca cctccgtgtc tcggccgggc
+      241 cgcggggagc cccgcttcat ctccgtgggc tacgtgaacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgcaagtcc gaggatggag ccgcgggcgc cgtgggtggc gcaggagggg
+      361 ccggagtatt gggacccgga gacgcggaac gccgagggcc acgcacagac tcactgagag
+      421 aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagcg accctggagc
+      481 cgggcgcagg tcatgacccc tccccatccc ccacggacga cccgggtcgc cccgagtccc
+      541 tgggtccgag atccgccccg aggccgcggg acccgcccag acccttgacc ggagagagcc
+      601 ccaggcgcct ttacccgttt tttttttctg ttgaggccga agtcccagcg ggttggtcgg
+      661 ggcggggcgg ggctcggcgg gcggggctga ccgcgggggc ggggccaggg tctcacacca
+      721 tccagagggt gtttggctgc gacctggggc ccgacgggcg cctcctccgc ggatataacc
+      781 agcacgccta cgatggcaag gattacatcg ccctgaacga ggacctgcgc tcctggaccg
+      841 cagcggacac tgcggctcag aacacccagc gcaagtggga ggcggccggt gtggcggagg
+      901 agtggagcgt ctacctggag ggcgagtgcg tggagtggct ccgcagatac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtaccc tgcaggggct gtggggagac ttcccggtct
+     1021 cctatagatc tccccggatg gcctcccatg aggaggggag gaaaatggga tcagcgctag
+     1081 aatgtcgccc tctcttgaat gaagaatggc atgagtttcc ctgatttcct ctgagggccc
+     1141 ctctgctctc taggacaatt aagggatgac gtctctgagg acatggaggg gaagacagtc
+     1201 cctggaatac tgatcagagg tcccctttga ctcctgcagc agccttgggc tttgtgactt
+     1261 tttcctctca ggccttgttc tctgcctcac actcaatgtg tctgaaggtc tgattccagc
+     1321 ttttctgagt cccttggcct ccactcgggt caggaccaga agtccctgta cctccttcag
+     1381 agactagaac tcttcaagga ataggagatt atcccaggtg cctgtgtcca ggctggtgtc
+     1441 tggcttctgt gctcccttcc ccaccccagg tgtcctgttc attctcaggg tggtcacatg
+     1501 ggtgctgctg gggtgtccca tgagagatgc aaagcccctg agttttctga ctcttcccat
+     1561 cagacccccc aaaaacacac gtgacccacc accccgtctc tgaccatgag gccaccctga
+     1621 ggtgctgggc cctgggcttc taccctgcgg agatcacact gatgtggcag cgggatgggg
+     1681 aggaccaaac tgaagacacc cagcttgtgg agaccaggcc agcaggggat ggaaccttcc
+     1741 agaagtgggc agctgtggtg gtgccttctg gagaacagca gagatacacg tgccatgtgc
+     1801 agcacgaggg gctgctggag cccctcaccc tgagatgggg taaggagtgg gatgaaggat
+     1861 cacgtctctc ctcagggaaa gtaggagccc ttctggagcc cttcagcagg gtcaggaccc
+     1921 ctcaccttcc cctcctttcc cagagccatc ttcccagtcc accatcccca tcgtgggcat
+     1981 cgttgctggc ctggctgtcc tagccttttt ggtcacagga gctgtggtca ctgctgtgtt
+     2041 gtggaagagg aagagctcag gtagggaagg ggtgaggggt ggagtctggg ttttcttgtc
+     2101 ccactggggg tttcaagccc caggtagaag tgtgccccgc ctcattagtg aaggggtggc
+     2161 ctgcccctcc acacctgtgg gcgtttctca ttaggtggaa ggagagactt gagaaaagaa
+     2221 atgtgacaca gagacaaagt atagagaaag aaaaagtggg cccaggggac cggcgctcag
+     2281 catacagagg acccacatcg gcaccggtct ctgagttccc ttggtattta ttgataatta
+     2341 tctttgccat cttaaagaaa aggaagtggc aggataatag gatcattgta gggagaaagt
+     2401 cagcagtaag acatgtgaat aaagttctct gtgacatgaa taagtttaag gaaaagtgct
+     2461 gtgccttgat atgcatatgt aaacatctcc ataaaccttt ttagtgcata aagagcagca
+     2521 ttgtgctagc aaatcccgcc tttcgcccta aggcggtttt ctcctttctc agtaaacaga
+     2581 acatatgatg ggattttata cccagatgtt ctattgccca gggacgggca ggagacagat
+     2641 gcttttctct atctcaactg ccaacaacca ccaagaggcc ttcttttctc ttgtactagt
+     2701 cctcctcagc acagaccctt cacgggtgtc aggctggggg acgatcaggt ctttcccttc
+     2761 ccacgaggcc atatttcaga ctatcacatg ggaagaaacc ttggacaata cctagctttc
+     2821 ctaggcagag gtccctgtga cctttggcag tgtacttgtc cctgggtact tgagattaag
+     2881 agaatgatga tgacttttaa ccagcaagct gccttcaggc acttgtttaa caaagcacac
+     2941 cctgcacagc ccaaaatcct ttaaaccttg agtcaccaca gcacatgtct cttgcaagga
+     3001 caaggttggg ggtagggtca cagattaaca gcatctcaaa tacagaacag aatggagtct
+     3061 cttatgtcta cttctttctg tatagacaca gtaacagtct gatctttctt tcttttcccc
+     3121 acaattattg ggaagcagca tccacacatg ggccatccca gcctggggcc ctgtgtgccg
+     3181 gcacttactc ttttgtgaag cacatgtgac aatgaaggac aatgtatcac cttgatggtt
+     3241 gtggtgttgg ggtccagatt ccagcattca tgagtcaggg gaaggtccct gctaaggaca
+     3301 ggcctttgga gggccgttgg tccagcaccc acccctgctt tcctggtatt tcctgattct
+     3361 gccctgggtc tgtagtcaca gttccgaaaa cttctctccg gtacaagact aggaggttcc
+     3421 ttcctctaag gtctcgtgtc cctgcctcct ccttgtcccc tcacagaaca ttttcttccc
+     3481 acaggtggaa aaggagggag ctactctcag gctgtgtgta agtggtgggg gtgggagtgt
+     3541 ggaggagctc acccacccca taattcctcc tgtcccacgt ttcctgcggg ctctgaccag
+     3601 atgctgtttt tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcag
+     3661 ggattgta
+//
+LOCUS       NHP12098                3669 bp    DNA     linear   PRI 10-JUN-2022
+DEFINITION  Mafa-B22*01:02:01:01, B22 locus allele.
+ACCESSION   NHP12098
+VERSION     NHP12098
+DBLINK      INSDC: OW981802
+            INSDC: OR823517
+KEYWORDS    IPD-MHC; MHC class I; B22.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B22*01:02:01:01
+            IPD accession: NHP12098
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..3669
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3669
+                     /gene="B22"
+                     /allele="Mafa-B22*01:02:01:01"
+     exon            1..64
+                     /gene="B22"
+                     /number=1
+     exon            194..463
+                     /gene="B22"
+                     /number=2
+     exon            709..984
+                     /gene="B22"
+                     /number=3
+     exon            1564..1839
+                     /gene="B22"
+                     /number=4
+     exon            1944..2060
+                     /gene="B22"
+                     /number=5
+     exon            3485..3517
+                     /gene="B22"
+                     /number=6
+     exon            3624..3669
+                     /gene="B22"
+                     /number=7
+     intron          65..193
+                     /gene="B22"
+                     /number=1
+     intron          464..708
+                     /gene="B22"
+                     /number=2
+     intron          985..1563
+                     /gene="B22"
+                     /number=3
+     intron          1840..1943
+                     /gene="B22"
+                     /number=4
+     intron          2061..3484
+                     /gene="B22"
+                     /number=5
+     intron          3518..3623
+                     /gene="B22"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1564..1839,1944..2060,
+                     3485..3517,3624..3669)
+                     /gene="B22"
+                     /allele="Mafa-B22*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B22 antigen"
+                     /translation="MIPGTLLLLLSGALALTETWAGSHSWRYFSTSVSRPGRGEPRFIS
+                     VGYVDDTQFVRFDSDAASPRMEPRAPWVEQEGPEYWDRETRNAEGHAQTHRENLRTLLR
+                     YYNQSEAGSHTIRRVFGCDLGPDGRLLRGYNQHAYNGKDYIALNEDLRSWTAADTAAQI
+                     TQRKWEAAGVAEEWSVYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTEDTQLVETRPAGDGTFQKWAAVVVPSGEEQRYTCH
+                     VQHKGLLEPLTLRWEPSSQSTIPIVGIVAGLAVLAFLVTGAVVASVLWKRKSSGGKGGS
+                     YSQAVSSDSAQGSDVSLRDC"
+ORIGIN
+        1 atgatacccg gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gaaggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctcctggagg tatttcagca cctccgtgtc ccggccgggc
+      241 cgcggggagc cccgcttcat ctccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc cgtgggtgga gcaggagggg
+      361 ccggagtatt gggaccggga gacgcggaac gccgagggcc acgcacagac tcaccgagag
+      421 aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagcg accctggagc
+      481 cgggcgcagg tcatgacccc tccccatccc ccacggacga cccgggtcgc cccgagtccc
+      541 tgggtccgag atccgccccg aggccgcggg acccgcccag acccttgacc ggagagagcc
+      601 ccaggcgcct ttacccgttt tttttttcag ttgaggccga agtcccagcg ggttggtcgg
+      661 ggcggggcgg ggctcggcgg gcggggctga ccgcgggggc ggggccaggg tctcacacca
+      721 tccggagggt gtttggctgc gacctggggc ccgacgggcg cctcctccgc ggatataacc
+      781 agcacgccta caatggcaag gattacatcg ccctgaacga ggacctgcgc tcctggaccg
+      841 cagcggacac tgcggctcag atcacccagc gcaagtggga ggcggccggt gtggcggagg
+      901 agtggagcgt ctacctggag ggcgagtgcg tggagtggct ccgcagatac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtaccc tgcaggggct gtggggagac ttcccggtct
+     1021 cctatagatc tccccggatg gcctcccatg aggaggggag gaaaatggga tcagcgctag
+     1081 aatgtcgccc tctcttgaat gaagaatggc atgagtttcc ctgatttcct ctgagggccc
+     1141 ctctgctctc taggacaatt aagggatgac gtctctgagg acatggaggg gaagacagtc
+     1201 cctagaatac tgatcagggg tcccctttga ctcctgcagc agccttgggc tttgtgactt
+     1261 tttcctctca ggccttgttc tctgcctcac actcaatgtg tctgaaggtc tgattccagc
+     1321 ttttctgagt cccttggcct ccactcgggt caggaccaga agtccctgtt cctccttcag
+     1381 agactagaac tcttcaagga ataggagatt ataccaggtg cctgtgtcca ggctggtgtc
+     1441 tggcttctgt gctcccttct ccaccccagg tgtcctgttc attctcagga tggtcacatt
+     1501 cgtgctgctg gggtgtccca tgagagatgc aaagcccctg agttttctga ctcttcccat
+     1561 cagatccccc aaagacacac gtgacccatc accccgtctc tgaccatgag gccaccctga
+     1621 ggtgctgggc cctgggcttc taccctgcgg agatcacact gacctggcag cgggatgggg
+     1681 aggaccaaac tgaagacacc cagcttgtgg agaccaggcc agcaggggat ggaaccttcc
+     1741 agaagtgggc agctgtggtg gtgccttctg gagaagagca gagatacacg tgccatgtgc
+     1801 agcacaaggg gctgctggag cccctcaccc tgagatgggg taaggagtgg gatgaaggat
+     1861 cacgtctctc ctcagggaaa gtaggagccc ttctggagcc cttcagcagg gtcaggaccc
+     1921 ctcaccttcc cctcctttcc cagagccatc ttcccagtcc accatcccca tcgtgggcat
+     1981 tgttgctggc ctggctgtcc tagccttttt ggtcacagga gctgtggtcg cttctgtgtt
+     2041 gtggaagagg aagagctcag gtagggaagg ggtgaggggt ggagtctggg ttttcttgtc
+     2101 ccactggggg tttcaagccc caggtagaag tgtgccccgc ctcattagtg aaggggtggc
+     2161 ctgcccctcc acacctgtgg gcgtttctca ttaggtggaa ggagagactt gagaaaagaa
+     2221 atgtgacaca gagacaaagt atagagaaag aaaaagtggg cccaggggac cggcgctcag
+     2281 catacagagg acccacatcg gcaccggtct ctgagttccc ttggtattta ttgataatta
+     2341 tctttgccat cttaaagaaa aggaagtggc aggataatag gatcattgta gggagaaagt
+     2401 cagcagtaag acatgtgaat aaagttctct gtgacatgaa taagtttaag gaaaagtgct
+     2461 gtgccttgat atgcatatgt aaacatctcc ataaaccttt ttagtgcata aagagcagca
+     2521 ttgtgctagc aaatcccgcc tttcgcccta aggcggtttt ctcctttctc agtaaacaga
+     2581 acatatgatg ggattttata cccagatgtt ctattgccca gggacgggca ggagacagat
+     2641 gcttttctct atctcaactg ccaacaacca ccaagaggcc ttcttttctc ttgtactagt
+     2701 cctcctcagc acagaccctt cacgggtgtc aggctggggg acgatcaggt ctttcccttc
+     2761 ccacgaggcc atatttcaga ctatcacatg ggaagaaacc ttggacaata cctagctttc
+     2821 ctaggcagag gtccctgtga cctttggcag tgtgcgtatc cctgggtact tgagattaag
+     2881 agaatggtga tgacttttaa ccagcaagct gccttcaggc acttgtttaa caaagcacac
+     2941 cctgcacagc ccaaaatcct ttaaaccttg aatcaccata gcacatgtct cttgcaagga
+     3001 caaggttggg ggtagggtca cagattaaca gcatctcaaa tacagaacag aatggagtct
+     3061 cttatgtcta cttctttctg tatagacaca gtaacagtct gatctttctt tcttttcccc
+     3121 acaattattg ggaagcagca tccacacatg ggccatccca gcctggggcc ctgtgtgcca
+     3181 gcacttactc ttttgtgaag tacatgtgac aatgaaggac aatgtatcac cttgatggtt
+     3241 gtggtgttgg ggtccagatt ccagcattca tgagtcaggg gaaggtccct gctaaggaca
+     3301 ggccttagga gggccgttgg tccagcaccc acccctgctt tcctggtatt tcctgattct
+     3361 gccctgggtc tgtagtcaca gttccgaaaa cttctctccg gtacaagact aggaggttcc
+     3421 ttcctctaag gtctcgtgtc cctgcctcct ccttgtcccc tcacagaaca ttttcttccc
+     3481 acaggtggaa aaggagggag ctactctcag gctgtgtgta agtggtgggg gtgggagtgt
+     3541 ggaggagctc acccacccca taattcctcc tgtcccatgt ctcctgcggg ctctgaccag
+     3601 atgctgtttt tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcag
+     3661 ggattgtaa
+//

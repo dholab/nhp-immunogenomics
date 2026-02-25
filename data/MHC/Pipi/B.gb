@@ -1,0 +1,82 @@
+LOCUS       NHP00913                1026 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Pipi-B*01, B locus allele.
+ACCESSION   NHP00913
+VERSION     NHP00913
+DBLINK      INSDC: U59654
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pithecia pithecia (White-faced Saki)
+  ORGANISM  Pithecia pithecia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Pitheciidae; Pitheciinae; Pithecia.
+REFERENCE   1
+  AUTHORS   Cadavid LF, Shufflebotham C, Ruiz FJ, Yeager M, Hughes AL, Watkins
+            DI.
+  TITLE     Evolutionary instability of the major histocompatibility complex
+            class I loci in New World primates.
+  JOURNAL   Proc Natl Acad Sci U S A 94:14536-14541 (1997)
+   PUBMED   9405648
+COMMENT     IPD-MHC allele: Pipi-B*01
+            IPD accession: NHP00913
+            Species prefix: Pipi
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1026
+                     /organism="Pithecia pithecia"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:43777"
+     gene            1..1026
+                     /gene="B"
+                     /allele="Pipi-B*01"
+     exon            1..49
+                     /gene="B"
+                     /number=1
+     exon            50..319
+                     /gene="B"
+                     /number=2
+     exon            320..595
+                     /gene="B"
+                     /number=3
+     exon            596..871
+                     /gene="B"
+                     /number=4
+     exon            872..987
+                     /gene="B"
+                     /number=5
+     exon            1019..1026
+                     /gene="B"
+                     /number=6
+     intron          988..1018
+                     /gene="B"
+                     /number=1
+     CDS             join(1..49,50..319,320..595,596..871,872..987,1019..1026)
+                     /gene="B"
+                     /allele="Pipi-B*01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="LLLLLSGTLALTETRTGSHSLRYFDTAVSRPGRGEPRIIIVGYVD
+                     DTQFVGFDSDAASPRMEPRAPWMEKEGPEYWEEETGRVKAAAQTYRVSLRTLLDYYNQS
+                     EAGSHTFQRMFGCDLGPDGRFLRGYNQFAYDGKDYIALNEDLRSWTAADTAAQITQRKW
+                     EADNEAERARAYLEGECMDWLRRYLENGKETLQRAEPPKTQVTRHAVSDHEATLRCWAL
+                     SFYPAEITLMWQRGGEDQTQDTELLETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHKG
+                     LAEPLTLRWEPSSQSTVPIMGIIAGLAVLGALVTGAVVAAVMWRRKSSLS"
+ORIGIN
+        1 ctcctcctgc tgctctcggg gaccctggcc ctgaccgaga ccaggacagg ctcccactcc
+       61 ctcaggtatt tcgacaccgc cgtgtcccgg cccggccgcg gggagcctcg catcatcatc
+      121 gtgggctacg tggacgacac gcagttcgtg gggttcgaca gcgacgccgc gagtccaagg
+      181 atggagccgc gggcgccgtg gatggagaag gaggggccgg agtactggga ggaggagacc
+      241 gggagagtca aggccgccgc acagacttac cgagtgagcc tgcggaccct gctcgactac
+      301 tacaaccaga gcgaggccgg gtctcacacc ttccagagga tgtttggctg cgacctgggg
+      361 ccggacgggc gcttcctccg cgggtataac cagttcgcct acgacggcaa ggactacatc
+      421 gccctgaacg aggacctgcg ctcctggacc gctgcggaca cggcggctca gatcacccag
+      481 cgcaagtggg aggcggacaa tgaggctgag agggcgagag cctacctgga gggcgagtgc
+      541 atggactggc tccgcagata cctggagaac gggaaggaga cgctacagcg cgcggaaccc
+      601 ccaaagacac aagtaacccg ccacgccgtc tctgaccatg aggccaccct gaggtgctgg
+      661 gccctgagct tctaccctgc ggagatcaca ctgatgtggc agcggggtgg ggaggaccaa
+      721 actcaggaca ctgagcttct ggagaccagg ccagcagggg atggaacctt ccagaagtgg
+      781 gcagctgtgg tggtgccttc tggagaagag cagagataca cgtgccatgt gcagcataag
+      841 ggactggcag agcccctcac cctgagatgg gagccatctt cccagtccac cgtccccatc
+      901 atgggcatca ttgctggcct ggctgtcctg ggagctctgg tcactggagc tgtggtcgct
+      961 gctgtgatgt ggaggaggaa gagctcaatc agcgacagtg cccagggctc tgatgtgtct
+     1021 ctcagg
+//

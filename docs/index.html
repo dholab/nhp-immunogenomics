@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse and download MHC and KIR allele data for non-human primates from IPD-MHC and IPD-NHKIR databases.">
+  <title>NHP Immunogenomics Database</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <h1 class="site-title">NHP Immunogenomics Database</h1>
+      <p class="site-subtitle">Consolidated MHC and KIR allele data for non-human primates</p>
+      <p class="site-meta" id="version-info" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+
+    <!-- Loading state -->
+    <div id="loading-state" class="state-message" role="status" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Loading allele database...</p>
+    </div>
+
+    <!-- Error state -->
+    <div id="error-state" class="state-message state-error" role="alert" hidden>
+      <p class="error-title">Failed to load allele data</p>
+      <p class="error-detail" id="error-detail"></p>
+      <button type="button" class="btn btn-primary" id="retry-btn">Retry</button>
+    </div>
+
+    <!-- App content (hidden until data loads) -->
+    <div id="app-content" hidden>
+
+      <!-- Usage hint -->
+      <div class="usage-bar">
+        <p>Filter by database, species, locus, or name to find alleles.
+          The search field also matches previous designations.
+          Select individual rows with checkboxes, or download all filtered results in
+          GenBank, FASTA, CDS FASTA, Protein FASTA, or CSV format.
+          <a href="#" id="usage-more-link">More&hellip;</a>
+        </p>
+        <div class="usage-detail" id="usage-detail" hidden>
+          <p>The <strong>MHC class</strong> filter applies only to IPD-MHC alleles; KIR alleles from IPD-NHKIR are not affected by this filter.</p>
+          <p><strong>GenBank</strong> files include full annotations (CDS, exon/intron features, references, and previous designations).
+            <strong>FASTA</strong> downloads the full nucleotide sequence.
+            <strong>CDS FASTA</strong> extracts the coding sequence from CDS join coordinates.
+            <strong>Protein FASTA</strong> extracts the translated protein from the CDS /translation qualifier.
+            <strong>Metadata CSV</strong> includes accession, name, species, locus, dates, and previous designations.</p>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <section class="filters-panel" aria-label="Filter alleles">
+        <h2 class="sr-only">Filters</h2>
+        <div class="filters-grid">
+
+          <div class="filter-group">
+            <label id="database-label" class="filter-label">Database</label>
+            <div class="toggle-group" role="radiogroup" aria-labelledby="database-label">
+              <button type="button" role="radio" aria-checked="true" class="toggle-btn active" data-value="All">All</button>
+              <button type="button" role="radio" aria-checked="false" class="toggle-btn" data-value="MHC">MHC</button>
+              <button type="button" role="radio" aria-checked="false" class="toggle-btn" data-value="NHKIR">NHKIR</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="species-select" class="filter-label">Species</label>
+            <select id="species-select" class="filter-select">
+              <option value="">All species</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="class-select" class="filter-label">MHC Class</label>
+            <select id="class-select" class="filter-select">
+              <option value="">All classes</option>
+              <option value="I">Class I</option>
+              <option value="II">Class II</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="locus-select" class="filter-label">Locus</label>
+            <select id="locus-select" class="filter-select">
+              <option value="">All loci</option>
+            </select>
+          </div>
+
+          <div class="filter-group filter-group-search">
+            <label for="name-search" class="filter-label">Search by name</label>
+            <input
+              type="search"
+              id="name-search"
+              class="filter-input"
+              placeholder="e.g. Mamu-A1*001 or Mamu-A*25"
+              autocomplete="off"
+            >
+          </div>
+
+          <div class="filter-group filter-group-clear">
+            <button type="button" class="btn btn-secondary" id="clear-filters-btn">
+              Clear all filters
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Results summary and download -->
+      <section class="results-bar" aria-label="Results summary">
+        <div class="results-summary">
+          <span id="results-count" aria-live="polite">Showing 0 results</span>
+        </div>
+        <div class="download-section" id="download-section">
+          <span class="download-label" id="download-label">Download filtered:</span>
+          <div class="download-buttons">
+            <button type="button" class="btn btn-download" data-format="genbank" aria-label="Download GenBank format">GenBank</button>
+            <button type="button" class="btn btn-download" data-format="fasta" aria-label="Download nucleotide FASTA">FASTA</button>
+            <button type="button" class="btn btn-download" data-format="coding" aria-label="Download coding sequence FASTA">CDS FASTA</button>
+            <button type="button" class="btn btn-download" data-format="protein" aria-label="Download protein FASTA">Protein FASTA</button>
+            <button type="button" class="btn btn-download" data-format="csv" aria-label="Download metadata CSV">Metadata CSV</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results table -->
+      <section class="results-table-wrapper" aria-label="Allele results">
+        <div class="table-scroll">
+          <table class="results-table" id="results-table">
+            <thead>
+              <tr>
+                <th scope="col" class="col-select">
+                  <input type="checkbox" id="select-all" aria-label="Select all on this page" title="Select all on page">
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="a" aria-label="Sort by Accession">
+                    Accession <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="n" aria-label="Sort by Name">
+                    Name <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="l" aria-label="Sort by Locus">
+                    Locus <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="c" aria-label="Sort by Class">
+                    Class <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="s" aria-label="Sort by Species">
+                    Species <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="p" aria-label="Sort by Project">
+                    Project <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="dm" aria-label="Sort by Date Modified">
+                    Date Modified <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="results-body">
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Empty state -->
+        <div id="empty-state" class="state-message" hidden>
+          <p>No alleles match the current filters.</p>
+        </div>
+
+        <!-- Pagination -->
+        <nav class="pagination" aria-label="Table pagination" id="pagination" hidden>
+          <button type="button" class="btn btn-page" id="prev-page" disabled aria-label="Previous page">Previous</button>
+          <span class="page-info" id="page-info" aria-live="polite"></span>
+          <button type="button" class="btn btn-page" id="next-page" aria-label="Next page">Next</button>
+        </nav>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>
+        <a href="https://dho.pathology.wisc.edu/" target="_blank" rel="noopener noreferrer">O'Connor Lab</a>
+        &middot;
+        Data from
+        <a href="https://www.ebi.ac.uk/ipd/mhc/" target="_blank" rel="noopener noreferrer">IPD-MHC</a>
+        and
+        <a href="https://www.ebi.ac.uk/ipd/nhkir/" target="_blank" rel="noopener noreferrer">IPD-NHKIR</a>
+        &middot;
+        <a href="https://github.com/dholab/nhp-immunogenomics" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </p>
+      <p class="footer-license">
+        Allele data redistributed under the
+        <a href="https://www.ebi.ac.uk/ipd/licence/" target="_blank" rel="noopener noreferrer">IPD licence</a>.
+      </p>
+      <p class="footer-funding">
+        Supported by NIH NIAID contract 75N93021C00006
+        (NHP MHC and KIR Allele Discovery and Typing Technology Development),
+        which also supported IPD NHP through 2025,
+        and by the Wisconsin National Primate Research Center base grant P51 OD011106.
+      </p>
+      <p class="footer-meta">
+        Data is checked weekly against the IPD API and updated automatically when new releases are available.
+        This site was built with the assistance of <a href="https://claude.ai/claude-code" target="_blank" rel="noopener noreferrer">Claude Code</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

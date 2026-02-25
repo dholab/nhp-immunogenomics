@@ -1,0 +1,45 @@
+LOCUS       NHP00848                 168 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQB2*01:03, DQB2 locus allele.
+ACCESSION   NHP00848
+VERSION     NHP00848
+DBLINK      INSDC: X57755
+KEYWORDS    IPD-MHC; MHC class II; DQB2.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gaur LK, Heise ER, Thurtle PS, Nepom GT.
+  TITLE     Conservation of the HLA-DQB2 locus in nonhuman primates.
+  JOURNAL   J Immunol 148:943-948 (1992)
+   PUBMED   1730881
+COMMENT     IPD-MHC allele: Patr-DQB2*01:03
+            IPD accession: NHP00848
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB2*0103
+FEATURES             Location/Qualifiers
+     source          1..168
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..168
+                     /gene="DQB2"
+                     /allele="Patr-DQB2*01:03"
+                     /note="previous designations: Patr-DQB2*0103"
+     exon            1..168
+                     /gene="DQB2"
+                     /number=1
+     CDS             1..168
+                     /gene="DQB2"
+                     /allele="Patr-DQB2*01:03"
+                     /codon_start=1
+                     /product="MHC class II DQB2 antigen"
+                     /translation="TERVRGVARYIYNREEYGRFDSDVGEFQAVTELGRSIEDWNNYKD
+                     FLEQERAAVD"
+ORIGIN
+        1 acagagcgcg tgcggggtgt ggccagatac atctataacc gcgaggagta cgggcgcttc
+       61 gacagcgacg ttggggagtt ccaggcggtg accgagctgg ggcggagcat cgaggactgg
+      121 aacaactata aggacttctt ggagcaggag cgggccgcgg tggacaag
+//

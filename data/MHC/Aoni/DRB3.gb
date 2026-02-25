@@ -1,0 +1,56 @@
+LOCUS       NHP01521                 255 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Aoni-DRB3*06:01, DRB3 locus allele.
+ACCESSION   NHP01521
+VERSION     NHP01521
+DBLINK      INSDC: AY563229
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Aotus nigriceps (Black-headed Night Monkey)
+  ORGANISM  Aotus nigriceps
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Aotidae; Aotus.
+REFERENCE   1
+  AUTHORS   Baquero JE, Miranda S, Murillo O, Mateus H, Trujillo E, Suarez C,
+            Patarroyo ME, Parra-LÃ³pez C.
+  TITLE     Reference strand conformational analysis (RSCA) is a valuable tool
+            in identifying MHC-DRB sequences in three species of Aotus monkeys.
+  JOURNAL   Immunogenetics 58:590-597 (2006)
+   PUBMED   16733718
+REFERENCE   2
+  AUTHORS   SuÃ¡rez CF, Patarroyo ME, Trujillo E, EstupiÃ±Ã¡n M, Baquero JE,
+            Parra C, Rodriguez R.
+  TITLE     Owl monkey MHC-DRB exon 2 reveals high similarity with several
+            HLA-DRB lineages.
+  JOURNAL   Immunogenetics 58:542-558 (2006)
+   PUBMED   16791623
+COMMENT     IPD-MHC allele: Aoni-DRB3*06:01
+            IPD accession: NHP01521
+            Species prefix: Aoni
+            MHC class: II
+            Previous designations: Aoni-DRB3*0601
+FEATURES             Location/Qualifiers
+     source          1..255
+                     /organism="Aotus nigriceps"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:57175"
+     gene            1..255
+                     /gene="DRB3"
+                     /allele="Aoni-DRB3*06:01"
+                     /note="previous designations: Aoni-DRB3*0601"
+     exon            1..255
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..255
+                     /gene="DRB3"
+                     /allele="Aoni-DRB3*06:01"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="RFLELVKHECHFFNGTERVRYLDRYLYNQKEYVRFDSDVGEYRAV
+                     TELGRPDAEYWNSQKDYVEQKRGQVDNYCRHNYGVVESF"
+ORIGIN
+        1 cgtttcttgg agctggttaa gcatgagtgt catttcttca acgggacgga gcgggtgcgg
+       61 tacctggaca gataccttta taaccagaag gagtatgtgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgacgccg agtactggaa cagccagaag
+      181 gactacgtgg agcagaagcg gggccaggtg gacaactact gcagacacaa ctacggggtt
+      241 gttgagagct tcaca
+//

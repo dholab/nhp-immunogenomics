@@ -1,0 +1,506 @@
+LOCUS       NHP12862                2940 bp    DNA     linear   PRI 24-OCT-2024
+DEFINITION  Paan-J*01:01:01:01, J locus allele.
+ACCESSION   NHP12862
+VERSION     NHP12862
+DBLINK      INSDC: OZ183151
+KEYWORDS    IPD-MHC; MHC class I; J.
+SOURCE      Papio anubis (Olive Baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     IPD-MHC allele: Paan-J*01:01:01:01
+            IPD accession: NHP12862
+            Species prefix: Paan
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2940
+                     /organism="Papio anubis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9555"
+     gene            1..2940
+                     /gene="J"
+                     /allele="Paan-J*01:01:01:01"
+     exon            1..72
+                     /gene="J"
+                     /number=1
+     exon            209..479
+                     /gene="J"
+                     /number=2
+     exon            729..996
+                     /gene="J"
+                     /number=3
+     exon            1592..1866
+                     /gene="J"
+                     /number=4
+     exon            1987..2103
+                     /gene="J"
+                     /number=5
+     exon            2545..2577
+                     /gene="J"
+                     /number=6
+     exon            2720..2767
+                     /gene="J"
+                     /number=7
+     exon            2936..2940
+                     /gene="J"
+                     /number=8
+     intron          73..208
+                     /gene="J"
+                     /number=1
+     intron          480..728
+                     /gene="J"
+                     /number=2
+     intron          997..1591
+                     /gene="J"
+                     /number=3
+     intron          1867..1986
+                     /gene="J"
+                     /number=4
+     intron          2104..2544
+                     /gene="J"
+                     /number=5
+     intron          2578..2719
+                     /gene="J"
+                     /number=6
+     intron          2768..2935
+                     /gene="J"
+                     /number=7
+     CDS             join(1..72,209..479,729..996,1592..1866,1987..2103,
+                     2545..2577,2720..2767,2936..2940)
+                     /gene="J"
+                     /allele="Paan-J*01:01:01:01"
+                     /codon_start=0
+                     /product="MHC class I J antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggggccccga accctcctcc tgctgctctc ggggaccttg gccctgaccg
+       61 agaccaaggc gggtgagtgc ggggtcagga gggaaaccgc ctctgcggga ggagagagga
+      121 gcaaggcgcc ctctgggcag gggcgcagga cctggggagc cgcgcggaga ggagggtcgg
+      181 gggggtctca gcctctccgc gcccccagac tcccatttct tgaggtattt cagcaccgcc
+      241 cttgtcccgg cccggccacg gggagccccg cttcgtcgcg gtgggctaca tggacgacac
+      301 gcagttcgtg cggttcgaca gtgatgccgc gagtcctagg atggagccgc gggagtggtg
+      361 ggtagagcag gaggggccgg agtattggga gctgcagacc ctgggcgcca aggcccaggc
+      421 acagcctggc tgagtgaacc tgaggaccct gctccgatac tacgacctga gcgaggccgg
+      481 tgagtgaccc ccgcccgggg cgcatatcac ttactccccg cttcatgcct cacagatggc
+      541 cctggtcccc ttgagtctcc gggcccaaga tcaaccccga ggctgcggga cctgcagaga
+      601 tcctcgaccc cggagagccc caggagcctt tacccggttt catcttcagt tgaggccaaa
+      661 atctctgcag gttgctaggg gccgggccgg ggctgggtgg gcggggctga ccgcgggaac
+      721 tgggccaggg tctcacaccc tctatgtaac gtttggctgc gacctggggc ccgacggatg
+      781 cctcctccgc tggtgtgaac agtatgccta cgacggcaag gattatatcg ccctgaacga
+      841 ggacctgagc tcctggacac gccgcggctc agaccaccct gcgcaagtgg gatgcggcca
+      901 atgtggctga gcaaaggaga gcctatctgg agggcacctg cgtggagtgg ctccgcaggc
+      961 acctgtagaa ggggaaggag acgctgcagt gcgcgggtac caggagccat ggggtgcctc
+     1021 ctagatctcc tgtagatctc ctgggctggc ctcgcacaag gaggggaaga aaatggcaac
+     1081 aataccagaa tatcgccctc cctccagtcc tgagggagag gaatcctcct gggtttccag
+     1141 atcctgtacc agagagtgac tctgagggtc cgccctgctc tctgggacag tcaaaggatg
+     1201 aagtctctga gggagtggaa gggaagacaa tccctggaat accgatcagg agttcccttt
+     1261 gaccccactg cagccttggg caccgggact tttcctctca agccttgttc tctgcctcac
+     1321 actcaatgtg tgtgggggtc tgactccagc tcctctgaat cccttggcct ccactcaggt
+     1381 caggaccaga agtccctgct cccccgctca gagactagaa ctttccaagg aatagattat
+     1441 cccaggtgcc tgtgtccagg ctagtgtccg ggttctgtgc tcccttcccc atcccaggtg
+     1501 tcttgtccat tctcaagatg gccacatggg tgctgctgga gtgtcccatg agagatgcaa
+     1561 agtgcctgag ttttctgact cttcctttca gaccccccaa gacacacgtg acccaccacc
+     1621 ctgtctttga ctatgaggcc accctgaggt gctgggccct gggcttctac cctgcggaga
+     1681 tcacactgac ctggcagtgg gacggggagg actggacata ggacatggag ctcgtggaga
+     1741 ccaggcctgc aggagatgga accttccaga agtgggtggc tgtggtggtg ccttctgcag
+     1801 aggagcagag gttcacatgc attgtgcagc atgagggtct gtccaagccc ctcaccctga
+     1861 gatggggtaa ggagggagat ggggggatca tatctcttag ggaaagcagg agcccctctg
+     1921 gagaccttta gcagggtcgg gtctggggcc tggggtcaga accctcacat tctcctcctt
+     1981 tcccagcgcc gtctctccag cccaccatcc ccatcgtggg catcatcgtt agcccggttg
+     2041 tccttgcagc tgtcatcact ggagctgtgg tcgctggtgt gctatggagg aagaagagct
+     2101 caggtgagga aggggtgacg ggtggggtct gagatttctt gtctcactga gggtttcaag
+     2161 ccccaggtag aagtgccctc ccggttactg ggaagcacca tccgcactca tgggccgacc
+     2221 cagcctgggc cctgtgcgcc agcacctact cttttgtaaa gcacctgtga cagtgaagga
+     2281 cagatttatc acattgatga ttgtagtgat gggaacctga tcccagcagt cacaggtcag
+     2341 gggaaggccc ctgctgagga cagaccttag gagggcagtt ggtcccagac ctacatctgc
+     2401 tttccttgtt tttcctgatc ctgcccttgg tctgcagtca cacatttctg gaaacttctc
+     2461 gagggtccaa gactaggagg ttcctctagg acctcatggc cctgccacct ttctggcctc
+     2521 tcacaggaca ttttcttccc acagatagaa aaggaaggag ctactctcag gctgcaagta
+     2581 agtatgaagg aggctgatcc ctgagatcct tgggatattg tggtcaggag cccatggggg
+     2641 agctcaccca gcccacagtt ccaactatag ccacatcttc tgtgggatct gaccaggttc
+     2701 tgtttctgtt ctaccccagg gagccaaagt gcccagggct ctcatatgtc tctcatggct
+     2761 tataaaggtg agaccctggg gggcctgatg tgtgtgggtt gttgggggta acagtggaca
+     2821 tagctgtgct atggagtttc tttgacttgg atgtattgag cacatgatgg gctgtttaaa
+     2881 gtgtgacccc tcactgtgac tgatacgaat ttgttcatga atattttttc tatagtgtga
+//
+LOCUS       NHP12863                2921 bp    DNA     linear   PRI 24-OCT-2024
+DEFINITION  Paan-J*02:01:01:01, J locus allele.
+ACCESSION   NHP12863
+VERSION     NHP12863
+DBLINK      INSDC: OZ183183
+KEYWORDS    IPD-MHC; MHC class I; J.
+SOURCE      Papio anubis (Olive Baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     IPD-MHC allele: Paan-J*02:01:01:01
+            IPD accession: NHP12863
+            Species prefix: Paan
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Papio anubis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9555"
+     gene            1..2921
+                     /gene="J"
+                     /allele="Paan-J*02:01:01:01"
+     exon            1..72
+                     /gene="J"
+                     /number=1
+     exon            209..471
+                     /gene="J"
+                     /number=2
+     exon            718..985
+                     /gene="J"
+                     /number=3
+     exon            1580..1856
+                     /gene="J"
+                     /number=4
+     exon            1968..2084
+                     /gene="J"
+                     /number=5
+     exon            2526..2558
+                     /gene="J"
+                     /number=6
+     exon            2701..2748
+                     /gene="J"
+                     /number=7
+     exon            2917..2921
+                     /gene="J"
+                     /number=8
+     intron          73..208
+                     /gene="J"
+                     /number=1
+     intron          472..717
+                     /gene="J"
+                     /number=2
+     intron          986..1579
+                     /gene="J"
+                     /number=3
+     intron          1857..1967
+                     /gene="J"
+                     /number=4
+     intron          2085..2525
+                     /gene="J"
+                     /number=5
+     intron          2559..2700
+                     /gene="J"
+                     /number=6
+     intron          2749..2916
+                     /gene="J"
+                     /number=7
+     CDS             join(1..72,209..471,718..985,1580..1856,1968..2084,
+                     2526..2558,2701..2748,2917..2921)
+                     /gene="J"
+                     /allele="Paan-J*02:01:01:01"
+                     /codon_start=0
+                     /product="MHC class I J antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccga accctcctcc tgctgctctc ggggaccttg gccctgaccg
+       61 agaccaaggc gggtgagtgc ggggtcagga gggaaaccgc ctctgcggga ggagagagga
+      121 gcaaggcgcc ctctgggcag gggcgcagga cctggggagc cgcgcaggca ggagggtcgg
+      181 gcgggtctca gcctctccgc gctcccaggc tcccactcct tgaggtattt cagcaccgcc
+      241 catgtcccgg cccggccacg gggagccccg cttcatcgcc gtgggctaca tgcagttcgt
+      301 gcggttcgac agtgacgccc cgagtccgag gatggagccg cgggagtggt gggtggagca
+      361 ggaggggcct ggagtattgg gagctgcaga cactgggcgc caaggcccag gcacagactg
+      421 gctgagtgaa cctgaggacc ctgctcggat actacaacca gagcgaggcc ggtgagtgac
+      481 ccccgcccgg ggcgcatatc acttactcct ggcttcatgc ctcacagacc ctggtcccct
+      541 tgagtctccg ggcccaagat caaccccgag gctgcgggac ctgcagagat tctcgaccct
+      601 ggagagcccc aggagccttt acccggtttc atcttcagtt gaggccaaaa tctctgcagg
+      661 ttgctagggg ccgggccggg gctgggtggg cggggctgac cgcgggaact gagccagggt
+      721 ctcacaccct ccaggtaatg tttggctgcg acctggggcc cgacggatgc ctcctccgct
+      781 ggtatgaaca gtatgcctac gacggcaagg attatatcac cctgaacgag gacctgagct
+      841 cctggacaca cagcggctca gaccaccctg cgcaagtggg aggcggccaa tgtggctgag
+      901 caaaggagag cctatctgga gggcaactgc gtagagtggc tccgcagaca cctgtaaaag
+      961 gggaaggaga cgctgcagcg cgcgggtacc aggggccatg gggtgcctcc tagatctcct
+     1021 gtagatctcc tgggctggcc tcgcacaagg aggggaagaa aatggcaaca ccaccagaat
+     1081 atcgccctcc ctccggtcct gagggagagg aatcctcctg ggtttccaga tccggtacca
+     1141 gagagtgact ctgagggccc gccctgctct ctgggacagt caagggatga agtctctgag
+     1201 ggagtggagg gaagacaatc cctggaatac tgatcaggag ttccctttga ccccacagca
+     1261 gccttgggca ccgggacttt tcccctcagg ccttgttctc tgcctcacac tcaatgtgtg
+     1321 tgggggtctg actccagctc ctctgaatcc cttggcctcc actcaggtca ggaccagaag
+     1381 tccctgctcc cccgctcaca gactagaact ttccaaggaa tagattatcc caggtgcctg
+     1441 tgtccaggct gctgtctggg ttctgtgctc ccttcctgac cccgggtgtc ctgtccattc
+     1501 tcaagatggc cacatgaatg ctgctggggt ttcccacgag agatgcaaag tgcctgagtt
+     1561 ttctgactct tcctttcaga gcccccacaa gacacatgtg acccaccacc ctgtctctga
+     1621 acacgaggcc accctgaggt gctgggccct gggcttgtat cctgtggaga tcacactgac
+     1681 ctggcagtgg gatggggagg accagaccca ggacatggag ctcggggaga ccaggcccgc
+     1741 aggggatgga accttccaga agtgggtggc tgtggtggtg ccttctgcag aggagcagag
+     1801 attcacatgc catgtgcagc atgagggtct gcccaagccc ctcaccctga gatggggtaa
+     1861 gtagggagat ggggggatag ggaaagcagg agcccctctg gagaccttta gcagggtcgg
+     1921 gtcttgggcc tgggggtcag aaccctcaca ttcccctctt ttcccagagc cgtctctcca
+     1981 gcccaccatc cccatcgtgg gcatcattgc tggcctggtt gtccttgcag ctgtcgtcac
+     2041 tggagctgtg gtcgctgctg tgctatggag gaagaagagc tcaggtgagg aaggggtgac
+     2101 aggtggggtc tgagatttct tgtctcactg agggttccaa gccccaggta gaaatgccct
+     2161 cccggttact gggaagcacc atccacactc atgggctgac ccagcctggg ccctgtgtgc
+     2221 cagcacttac tcttttgtaa agcacctgtg acagtgaagg acagatttat cacgttgatg
+     2281 attgtggtga tggggacctg atcccagcag tcacaggtca agggaaggtc cctgctgagg
+     2341 acagacctta ggagagcagt tggtcccaga cctacatctg ctttccttgt ttttcctgat
+     2401 cctgcccttg gtctgcagtc acatatttct ggaaacttct cgagggtcca agactaggag
+     2461 gttcctctag gacctcatgg ccctgccacc tttctggcca cttacaggac attttcttcc
+     2521 aacagataga aaaggaggaa gctactctca ggctgcaagt aagtatgaag gaggctgatc
+     2581 cctgaaatcc ttgggatatt gtggtcggga gcccatggag gagctcaccc agcccacagt
+     2641 ttcaactcta tccacatctc ctgtgggatc tgaccgggtt ctgtttttgt tctaccccag
+     2701 gtagtcaaag tgcccagggc tctcatatgt ctctcacggc ctataaaggt gagaccctgg
+     2761 ggggcctgat gtgtgtgggg tgttgggggg aacagtggac atagctgtgc tatggagttt
+     2821 ctttgacttg gatgtattga gcacatgatg ggctgtttaa agtgtgaccc ctcactgtga
+     2881 ctgatatgaa tttgttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP12865                2958 bp    DNA     linear   PRI 24-OCT-2024
+DEFINITION  Paan-J*03:01:01:01, J locus allele.
+ACCESSION   NHP12865
+VERSION     NHP12865
+DBLINK      INSDC: OZ183152
+KEYWORDS    IPD-MHC; MHC class I; J.
+SOURCE      Papio anubis (Olive Baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     IPD-MHC allele: Paan-J*03:01:01:01
+            IPD accession: NHP12865
+            Species prefix: Paan
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2958
+                     /organism="Papio anubis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9555"
+     gene            1..2958
+                     /gene="J"
+                     /allele="Paan-J*03:01:01:01"
+     exon            1..73
+                     /gene="J"
+                     /number=1
+     exon            210..479
+                     /gene="J"
+                     /number=2
+     exon            733..1008
+                     /gene="J"
+                     /number=3
+     exon            1606..1881
+                     /gene="J"
+                     /number=4
+     exon            2003..2119
+                     /gene="J"
+                     /number=5
+     exon            2563..2595
+                     /gene="J"
+                     /number=6
+     exon            2738..2785
+                     /gene="J"
+                     /number=7
+     exon            2954..2958
+                     /gene="J"
+                     /number=8
+     intron          74..209
+                     /gene="J"
+                     /number=1
+     intron          480..732
+                     /gene="J"
+                     /number=2
+     intron          1009..1605
+                     /gene="J"
+                     /number=3
+     intron          1882..2002
+                     /gene="J"
+                     /number=4
+     intron          2120..2562
+                     /gene="J"
+                     /number=5
+     intron          2596..2737
+                     /gene="J"
+                     /number=6
+     intron          2786..2953
+                     /gene="J"
+                     /number=7
+     CDS             join(1..73,210..479,733..1008,1606..1881,2003..2119,
+                     2563..2595,2738..2785,2954..2958)
+                     /gene="J"
+                     /allele="Paan-J*03:01:01:01"
+                     /codon_start=0
+                     /product="MHC class I J antigen"
+                     /translation="X"
+ORIGIN
+        1 cgatgggtca tggcgccccg aaccctcctc ctgctgctct cgggaacctt ggccctgacc
+       61 gagaccaagg cgggtgagtg cggggtcagg agggaaaccg cctctgcggg aggagagagg
+      121 agcaaggcgc cctctgggca ggggcgcagg acctggggag ccgtgcgggg aggagggtcg
+      181 ggcaggtctc agcctctccg cgcccccagg ctcgcactcc ttgaggtatt tcagcaccgc
+      241 cgtgtcccgg ccgggccacg gggagccccg cttcatcgcc gtgggctaca tggacgacac
+      301 gcagttcgtg cggttcgaca gcgacgccgc gagtccgagg atggagctgc gggagtggtg
+      361 gatggagcag gaggggccgg agtattggga gctgcagaca ctgggcgcca aggcccaggc
+      421 acagactggc tgagtgaacc tgaggaccct gctccgatac taccaccaga gcgaggccgg
+      481 tgagtgatcc ccgcccggag cacatatcac ttactcctgg cttcatgcct cacggacggc
+      541 cctggtcccc ctgagtctcc gggcccaaga tcaacccgag gctgcgggac ctgcagagat
+      601 cctcgaccct ggagagcccc aggagccttt acccggtttc atcttcagtt gaggccaaaa
+      661 tctctgcagg ttgctagggg cctgaccggg ccggggctgg gtgggcgggg ctgactgcgg
+      721 gaactgagcc agggtctcgc accctgcagg aaatgtttgg ctgcgacgtg gggcccgacg
+      781 ggcgcctcct ccgctggtat gaacagtatg ccttcgacgg caaggattac atcgccctga
+      841 accaggacct gcgctcctgg accgctgcgg acacggcggc tcagatcacc cagcgcaagt
+      901 gggaggcggc caatgtggct gagcaaagga gagcctatct ggagggcacc tgcgtggagt
+      961 ggctctgcag acacctggag accgggaagg agacgctgca gcgcgcgggt accaggggcc
+     1021 atagggtgcc tcctagatct cctgtagatc ttctgggctg gcctcgcaca aggaggggaa
+     1081 gaaaatggca acaacaccag aatatcgccc tccctccggt cctgagggag aggaatcctc
+     1141 ctgggtttcc agatcctgta ccagagagtg actctgaggg cccgccctgc tctctgggac
+     1201 aattaaggga tgaagtctct gagggagtgg aggggaagac aatccctgga atactgatca
+     1261 ggagttccct ttgaccccac tgcagtctta ggcaccagga cctttccctt caggccgtgt
+     1321 tctctgcctc acactcaatg tgtgtggggg tctgactcca gctcctctga atcccttggc
+     1381 ctccgctcag gtaagaccag aagtccctgc tcccccgctc agagactaga actttccaag
+     1441 gaataggaga ttatcccagg tgcctgtgtc caggctgctg tctgggttct gtgctccctt
+     1501 ccacaccccg ggtgtcctgt tcattctcaa gatggccaca tgagtgctgc tggggtgtcc
+     1561 catgagagat acaaagtgct cgagttttct gactcttcct ttcagactcc cccaaaacac
+     1621 acatgaccca ccaccctgtc tttgactatg aggccaccct gaggtgctgg gccctgggct
+     1681 tctacactgc ggagatcaca ctgacctggc agtgggatgg ggaggaccag acccaggaca
+     1741 tggagctcct ggagaccagg cccgcagggg atggaacctt ccagaagtgg gtggctgtgg
+     1801 tggtgccttc tggagaggag cagagattca catgccatgt gcagcatgag ggtctgccca
+     1861 agcctctcac cctgagatgg ggtaaggagg gagatggggg gatcatgtct cttagaagaa
+     1921 gcaggagccc ctctagagac ctttagcagg gtcgggtctg gggcctaggg gtcagaaccc
+     1981 tcacattccc ctcttttcgc agagccgtct ctccagccca ccagccccat cgtggttatc
+     2041 gttgctggcc tggttgtcct tgtagctgtc atcactggag ctgtcgttgc tgctgtgcta
+     2101 tggaggaaga agagctcagg tgaggaaggg gtgacaggtg gggtctgaga tttcttgtct
+     2161 cactgagggt tccaagcccc aggtagaagt gtgccctccc ggttactggg aagcaccatc
+     2221 cacactcatg ggccaaccca gcctgggccc tgtgtgccag cacctactct tttgtaaagc
+     2281 acctgtgaca gtgaaggaca gatttatcac gttgatgatt gtagtgatgg ggacctgatc
+     2341 ccagcagtca caggtcaggg gaaggtccct gctgaggaca gaccttagga gggcagttag
+     2401 tcccagacct acatctgctt tccttatttt tcctgatcct gcccttggtc tgcagtcaca
+     2461 catttctgga aacttctcga gggtccaaga ctaggaggtt tctctaggac ctcatggccc
+     2521 tgccaccttt ctggcctctc acaggacatt ttcttccaac agatagaaaa ggaggaagct
+     2581 actctcaggc tacaagtaag tatgaagggg gctgatccct gaaatccttg ggatattgtg
+     2641 gtcgggagcc catgggggag ctcacccagc ccacagttcc tcctctagcc gcatctcctg
+     2701 tgggctctga ccaggttctg tttttgttct accccaggta gccaaagtgc ccagggctct
+     2761 catatgtctg tcacagctta taaaggtgag accctggggg gcctgatgtg tgcggggtgt
+     2821 tgggggtaac agtggacaca gctgtgctat ggggtttctt tgacttggat gtattgagca
+     2881 cgtgatgggc tgtttaaagt gtgacccctc actgtgactg atatgaattt gttcatgaat
+     2941 attttttcta tagtgtga
+//
+LOCUS       NHP12866                2959 bp    DNA     linear   PRI 24-OCT-2024
+DEFINITION  Paan-J*03:02:01:01, J locus allele.
+ACCESSION   NHP12866
+VERSION     NHP12866
+DBLINK      INSDC: OZ183182
+KEYWORDS    IPD-MHC; MHC class I; J.
+SOURCE      Papio anubis (Olive Baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     IPD-MHC allele: Paan-J*03:02:01:01
+            IPD accession: NHP12866
+            Species prefix: Paan
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2959
+                     /organism="Papio anubis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9555"
+     gene            1..2959
+                     /gene="J"
+                     /allele="Paan-J*03:02:01:01"
+     exon            1..73
+                     /gene="J"
+                     /number=1
+     exon            210..479
+                     /gene="J"
+                     /number=2
+     exon            733..1008
+                     /gene="J"
+                     /number=3
+     exon            1607..1882
+                     /gene="J"
+                     /number=4
+     exon            2004..2120
+                     /gene="J"
+                     /number=5
+     exon            2564..2596
+                     /gene="J"
+                     /number=6
+     exon            2739..2786
+                     /gene="J"
+                     /number=7
+     exon            2955..2959
+                     /gene="J"
+                     /number=8
+     intron          74..209
+                     /gene="J"
+                     /number=1
+     intron          480..732
+                     /gene="J"
+                     /number=2
+     intron          1009..1606
+                     /gene="J"
+                     /number=3
+     intron          1883..2003
+                     /gene="J"
+                     /number=4
+     intron          2121..2563
+                     /gene="J"
+                     /number=5
+     intron          2597..2738
+                     /gene="J"
+                     /number=6
+     intron          2787..2954
+                     /gene="J"
+                     /number=7
+     CDS             join(1..73,210..479,733..1008,1607..1882,2004..2120,
+                     2564..2596,2739..2786,2955..2959)
+                     /gene="J"
+                     /allele="Paan-J*03:02:01:01"
+                     /codon_start=0
+                     /product="MHC class I J antigen"
+                     /translation="X"
+ORIGIN
+        1 cgatgggtca tggcgccccg aaccctcctc ctgctgctct cgggaacctt ggccctgacc
+       61 gagaccaagg cgggtgagtg cggggtcagg agggaaaccg cctctgcggg aggagagagg
+      121 agcaaggcgc cctctgggca ggggcgcagg acctggggag ccgcgcgggg aggagggtcg
+      181 ggcgggtctc agcctctccg cgcccccagg ctcgcactcc ttgaggtatt tcagcaccgc
+      241 cgtgtcccgg ccgggccacg gggagccccg cttcatcgcc gtgggctaca tggacgacac
+      301 gcagttcgtg cggttcgaca gcgacgccgc gagtccgagg atggagctgc gggagtggtg
+      361 gatggagcag gaggggccgg agtattggga gctgcagaca ctgggcgcca aggcccaggc
+      421 acagactggc tgagtgaacc tgaggaccct gctccgatac taccaccaga gcgaggccgg
+      481 tgagtgatcc ccgcccggag cacatatcac ttactcctgg cttcatgcct cacggacggc
+      541 cctggtcccc ctgagtctcc gggcccaaga tcaacccgag gctgcgggac ctgcagagat
+      601 cctcgaccct ggagagcccc aggagccttt acccggtttc atcttcagtt gaggccaaaa
+      661 tctctgcagg ttgctagggg cctgaccggg ccggggctgg gtgggcgggg ctgactgcgg
+      721 gaactgagcc agggtctcgc accctgcagg aaatgtttgg ctgcgacgtg gggcccgacg
+      781 ggcgcctcct ccgctggtat gaacagtatg ccttcgacgg caaggattac atcgccctga
+      841 accaggacct gcgctcctgg accgctgcgg acacggcggc tcagatcacc cagcgcaagt
+      901 gggaggcggc caatgtgggt gagcaaagga gagcctatct ggagggcacc tgcgtggagt
+      961 ggctctgcag acacctggag accgggaagg agacgctgca gcgcgcgggt accaggggcc
+     1021 atagggtgcc tcctagatct cctgtagatc ttctggcctg gcctcgcaca aggaggggaa
+     1081 gaaaatggca acaacaccag aatatcgccc tccctccggt cctgagggag aggaatcctc
+     1141 ctgggtttcc agatcctgta ccagagagtg actctgaggg cccgccctgc tctctgggac
+     1201 aattaaggga tgaagtctct gagggagtgg aggggaagac aatccctgga atactgatca
+     1261 ggagttccct ttgaccccac tgcagtctta ggcaccagga cctttccctt caggccgtgt
+     1321 tctctgcctc acactcaatg tgtgtggggg tctgactcca gctcctctga atcccttggc
+     1381 ctccactcag gtaaggacca gaagtccctg ctcccccgct cagagactag aactttccaa
+     1441 ggaataggag attatcccag gtgcccgtgt ccaggctgct gtctgggttc tgtgctccct
+     1501 tccacacccc gggtgtcctg ttcattctca agatggccac atgagtgctg ctggggtgtc
+     1561 ccatgagaga tacaaagtgc tcgagttttc tgactcttcc tttcagactc ccccaaaaca
+     1621 cacatgaccc accaccctgt ctttgactat gaggccaccc tgaggtgctg ggccctgggc
+     1681 ttctacactg cggagatcac actgacctgg cagtgggatg gggaggacca gacccaggac
+     1741 atggagctcc tggagaccag gcccgcaggg gatggaacct tccagaagtg ggtggctgtg
+     1801 gtggtgcctt ctggagagga gcagagattc acatgccatg tgcagcatga gggtctgccc
+     1861 aagcctctca ccctgagatg gggtaaggag ggagatgggg ggatcatgtc tcttagaaga
+     1921 agcaggagcc cctctagaga cctttagcag ggtcgggtct ggggcctagg ggtcagaacc
+     1981 ctcacattcc cctcttttcg cagagccgtc tctccagccc accagcccca tcgtggttat
+     2041 cgttgctggc ctggttgtcc ttgtagctgt catcactgga gctgtcgttg ctgctgtgct
+     2101 atggaggaag aagagctcag gtgaggaagg ggtgacaggt ggggtctgag atttcttgtc
+     2161 tcactgaggg ttccaagccc caggtagaag tgtgccctcc cggttactgg gaagcaccat
+     2221 ccacactcat gggccaaccc agcctgggcc ctgtgtgcca gcacctactc ttttgtaaag
+     2281 cacctgtgac agtgaaggac agatttatca cgttgatgat tgtagtgatg gggacctgat
+     2341 cccagcagtc acaggtcaga ggaaggtccc tgctgaggac agaccttagg agggcagtta
+     2401 gtcccagacc tacatctgct ttccttattt ttcctgatcc tgcccttggt ctgcagtcac
+     2461 acatttctgg aaacttctcg agggtccaag actaggaggt ttctctagga cctcatggcc
+     2521 ctgccacctt tctggcctct cacaggacat tttcttccaa cagatagaaa aggaggaagc
+     2581 tactctcagg ctacaagtaa gtatgaaggg ggctgatccc tgaaatcctt gggatattgt
+     2641 ggtcgggagc ccatggggga gctcacccag cccacagttc ctcctctagc cgcatctcct
+     2701 gtgggctctg accaggttct gtttttgttc taccccaggt agccaaagtg cccagggctc
+     2761 tcatatgtct gtcacagctt ataaaggtga gaccctgggg ggcctgatgt gtgcggggtg
+     2821 ttgggggtaa cagtggacac agctgtgcta tggggtttct ttgacttgga tgtattgagc
+     2881 acgtgatggg ctgtttaaag tgtgacccct cactgtgact gatatgaatt tgttcatgaa
+     2941 tattttttct atagtgtga
+//

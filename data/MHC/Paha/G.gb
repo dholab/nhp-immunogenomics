@@ -1,0 +1,252 @@
+LOCUS       NHP12798                2898 bp    DNA     linear   PRI 22-OCT-2024
+DEFINITION  Paha-G*02:01:01:01, G locus allele.
+ACCESSION   NHP12798
+VERSION     NHP12798
+DBLINK      INSDC: OZ183273
+KEYWORDS    IPD-MHC; MHC class I; G.
+SOURCE      Papio hamadryas (Hamadryas Baboon)
+  ORGANISM  Papio hamadryas
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     IPD-MHC allele: Paha-G*02:01:01:01
+            IPD accession: NHP12798
+            Species prefix: Paha
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2898
+                     /organism="Papio hamadryas"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9557"
+     gene            1..2898
+                     /gene="G"
+                     /allele="Paha-G*02:01:01:01"
+     exon            1..73
+                     /gene="G"
+                     /number=1
+     exon            203..471
+                     /gene="G"
+                     /number=2
+     exon            698..973
+                     /gene="G"
+                     /number=3
+     exon            1582..1857
+                     /gene="G"
+                     /number=4
+     exon            1979..2096
+                     /gene="G"
+                     /number=5
+     exon            2507..2539
+                     /gene="G"
+                     /number=6
+     exon            2682..2727
+                     /gene="G"
+                     /number=7
+     exon            2894..2898
+                     /gene="G"
+                     /number=8
+     intron          74..202
+                     /gene="G"
+                     /number=1
+     intron          472..697
+                     /gene="G"
+                     /number=2
+     intron          974..1581
+                     /gene="G"
+                     /number=3
+     intron          1858..1978
+                     /gene="G"
+                     /number=4
+     intron          2097..2506
+                     /gene="G"
+                     /number=5
+     intron          2540..2681
+                     /gene="G"
+                     /number=6
+     intron          2728..2893
+                     /gene="G"
+                     /number=7
+     CDS             join(1..73,203..471,698..973,1582..1857,1979..2096,
+                     2507..2539,2682..2727,2894..2898)
+                     /gene="G"
+                     /allele="Paha-G*02:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I G antigen"
+                     /translation="X"
+ORIGIN
+        1 atggtggtca tggcgccccg aaccctcctg ctgctgctct cggggtctct ggccctgaca
+       61 gagacctggg cgggtgagtg cggggtcggt gggagatggc ctctacgagg aggggccagg
+      121 ggtccgccca agggtggtgc aggacccggg tagccgagcg gggaggaggg tcgggcgggt
+      181 ctcagcccct cctcgccccc aggctcccac tccatgaggt acttcagcgc tgccgtgtcc
+      241 cggccaggcc gcggggagcc ccgcttcatg tccgtgggct atgtggacga cacgcagttc
+      301 gtgcggctcg atagcgactc tgcgagtccg aggatggagc cgcgggcgca ctgggtggag
+      361 caggagcagc ggagtattgg gaaggggaga cgcggatcgc caaggcccac gcacagactg
+      421 acagagtgaa cctgtggacc ctgcgcagct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgtcccccc acctccatgc cctacggacg accggggtac
+      541 tcccgagtct ccaggtctga gatccatccc gaggccgcgg gactcgccca gacactctac
+      601 ctgggagaag cgcaggcgcc tttaccaaaa tccctgcggg ttggtccggg agggggcgag
+      661 gctcggtggg cggggccaac cgagggggcg gggccagggt ctcacaccct ccagtggatg
+      721 attggttgcg acctggggcc cgacaggcgc ctcctctgca ggtgtgaaca gttcgcctac
+      781 gatggcaagg atgacctcgc cctgaacgag gacctgtgct cctgaaccgc agcggacact
+      841 gtggctcaga tctccaagcg caagtgtgag gtggccaaag cgactgaagg aaggagagcc
+      901 tacctggagg gcacgtgagt ggagtgtctc cacagatacc tggagaatgg gaaggagatg
+      961 ctgcagcgtg cgggtaccag gggccatggg gcgcctcccc gatctcctgt agacctccca
+     1021 ggctggctta gcacaaggag aggaggaaaa tgggagcaac actagaatac gccctccctc
+     1081 tggtcctgag ggagaggaat cctcctgggt ttccagatcc tgtaccagag agtgattcta
+     1141 agggcccgcc ctgctctctg ggacaattaa gggatgaagt ctctgaggga gtggagggga
+     1201 agacaatccc tggaatactg atcaggagtt ccctttgacc ccactgcagt cttaggcacc
+     1261 aggacttttc ccctcaggcc ttgttctctg cctcacacta aatgtctttg ggggtctgac
+     1321 tccagctcct ctgagccctt tggccttcac tcaggtcaga atcggaagtc cctgctcccc
+     1381 cgctgagaga ttagaacttt ccaaggatta ggagattatc ccaggtgccc gtgtccaggc
+     1441 tggtgtctga gttctgtgct ccctcccctc cccccacccc gccaggtatc tggttcattc
+     1501 ttaggacggt cacatactgg tgctgctgga gtgtcccacg agagatgcaa agtgcctgag
+     1561 ttttcggact cttcctttca gaccccccca attcacacgt gacccaccat cctgtctttg
+     1621 actatgaggc taccctgagg tgctgagccc tgggcttcta gcctgcggag atcagactga
+     1681 cctggcagcg ggagagggag gaccagaccc acgacgtgga gctcgtgggg accaggcctg
+     1741 caggggatgg aaccttccag aagtgggcag ctgtggtggt gccttctgga gagaagcaga
+     1801 gattcacgtg ctatgtgcag caccaggggc tgcctgagcc cctcatgctg agatggagta
+     1861 aggagggaga tggaggtatc atgtctatta gggaaagcag gagcccttct ggagaccttt
+     1921 aacatggtcg gtggtggggc ctggggtcag agaccctcac cttcccctcc tttcccagag
+     1981 cagtcttccc agcccactat ccgcatcatg ggcatcattg ctggacaggt tgtctttgca
+     2041 gctgttgtca ctgaagctgt ggtcactttt gtgctgtgga ggaagaagag ctctgagttt
+     2101 ttttgtccca ctgagggttc caagccccag gtagaaatgc cctgcctggt tactgggaag
+     2161 caccatctac actcatggat ggtgcctagg ccctgtgtgc cagcacttac tcttttgtaa
+     2221 agcacatgtg acaaagaagc acagatttat caccctgatg attgtagtga tggggacctg
+     2281 atcccagtaa tcacaggtca ggggaaggtc cctggctaag gacagacctt aggagggcag
+     2341 ttagtccagg acccacatct gctttccttg ttttccctta tcctgccctg ggtctgcagt
+     2401 cacacatttc tggacacttc tctggggtcc aagactagta gtttcctcta gggtctcatg
+     2461 gcgctgccat ctttctgacc tctcaaagga cattttcttc ccacagatag aaaaggagga
+     2521 agctactctc aggctgcaag taagtatgaa ggaggctgat ccctgagatc cttgggatct
+     2581 tgtggttggg agcccatggg ggagctcact caggcaatat tttctcctct ggccatatct
+     2641 cccgtgggat ctgagcaggt cctgtttttg ttgtacccca ggcagtgaca gtgtccaggg
+     2701 ctctgatgtc tctcacagct tgtaaatgtg agaccctggg ggcctgatgt gtgtgggttg
+     2761 ttggggggaa cagtggacac ggctgtgcca tgaggtttct ttgacttgga tgtattgagc
+     2821 atgtgctggg ctgtttcaag tgtcaccccg cactgtgaca gatatgaatt tgttcatgaa
+     2881 tgtttttctg cagtctga
+//
+LOCUS       NHP12799                2901 bp    DNA     linear   PRI 22-OCT-2024
+DEFINITION  Paha-G*02:02:01:01, G locus allele.
+ACCESSION   NHP12799
+VERSION     NHP12799
+DBLINK      INSDC: OZ183274
+KEYWORDS    IPD-MHC; MHC class I; G.
+SOURCE      Papio hamadryas (Hamadryas Baboon)
+  ORGANISM  Papio hamadryas
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     IPD-MHC allele: Paha-G*02:02:01:01
+            IPD accession: NHP12799
+            Species prefix: Paha
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2901
+                     /organism="Papio hamadryas"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9557"
+     gene            1..2901
+                     /gene="G"
+                     /allele="Paha-G*02:02:01:01"
+     exon            1..73
+                     /gene="G"
+                     /number=1
+     exon            200..469
+                     /gene="G"
+                     /number=2
+     exon            700..972
+                     /gene="G"
+                     /number=3
+     exon            1581..1856
+                     /gene="G"
+                     /number=4
+     exon            1978..2095
+                     /gene="G"
+                     /number=5
+     exon            2510..2542
+                     /gene="G"
+                     /number=6
+     exon            2685..2730
+                     /gene="G"
+                     /number=7
+     exon            2897..2901
+                     /gene="G"
+                     /number=8
+     intron          74..199
+                     /gene="G"
+                     /number=1
+     intron          470..699
+                     /gene="G"
+                     /number=2
+     intron          973..1580
+                     /gene="G"
+                     /number=3
+     intron          1857..1977
+                     /gene="G"
+                     /number=4
+     intron          2096..2509
+                     /gene="G"
+                     /number=5
+     intron          2543..2684
+                     /gene="G"
+                     /number=6
+     intron          2731..2896
+                     /gene="G"
+                     /number=7
+     CDS             join(1..73,200..469,700..972,1581..1856,1978..2095,
+                     2510..2542,2685..2730,2897..2901)
+                     /gene="G"
+                     /allele="Paha-G*02:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I G antigen"
+                     /translation="X"
+ORIGIN
+        1 atggtggtca tggcgccccg aaccctcctc ctgctgcttt cgggggctct ggccctgaca
+       61 gagacctggg cgggtgagtg ccggatcggg agatggcctc tgcggggagg ggccaggggt
+      121 ccatccgacg gtggtgcagg acccggggag ccgcgcgggg aggagggtcg ggcgggtctc
+      181 agcccctcct cgcccccagg ctcccactcc atgaggtact tcagcgctgc cgtgtcccgg
+      241 ccaggccgcg gggagccccg cttcatcccc gtaggctacg tggactacac gcagttcgtg
+      301 tggctcgata gctacgctgc gagtctgagg atggagccgc gggcgccgtg ggtggagcag
+      361 gagcagacgg agtattggga agaggagaca cggatcgcca aggcccacgc acagactgac
+      421 cgagtgaacc agcggaccct gcgcagctgc tacaaccaga gcgaggccgg tgagtgaccc
+      481 cggcccgggg cgcaggtcac gaccccccac ctacgaccgg ggtactcctg agtctccagg
+      541 tctgagatcc accccgaggc cgccggactc gcccagaccc tgtacctggg agaagcccac
+      601 gtgcctttac caaaatccct gcgggttggt ccgggagtgg gcgaggctca gtgggcgggg
+      661 ctgaccgagg ggcggggcca accgaggggg cggggccagg gtctcacaca ctccggtgga
+      721 tgattggttg cgacctgggg cccgacgggc gcctgttccg gtgtgaacag ttcgcctacg
+      781 atggcaagga ttacctcgcc ctgaacgagg acttgtgctc ctgaaccgca gcggacactg
+      841 tggctcacat ctccaagcgc aagtgtgagg tggccaaagt gactgaacga aggagagcct
+      901 acctggaggg cacgtgagtg gagtggctcc acagatacct ggagaatggg aaggagatgc
+      961 tgcagcgtgc gggtaccagg ggccatgggg cgcctccccg atctcctgta gacctcccag
+     1021 gctggcctag cacaaggaga ggaggaaaat ggaaccaaca ctagaatacg ccctccctct
+     1081 ggtcctgagg gagaggaatc ctcctgggtt tccagatcct gtaccagaga gtgactctga
+     1141 gggcccgccc tgctctctgg gacaattaag ggatgaagtc tctgagggag tggaggggaa
+     1201 gacaatccct ggaataccga tcaggagttc cctttgaccc cacagcagtc ttaggcacca
+     1261 ggacctttcc cctcaggcct tgttctctgc ctcacactca atgtgtgtgg gggtctgact
+     1321 ccagctcctc tgagtccttt ggccttcact caggtcagaa tcggaagtcc ctgctccccc
+     1381 gctgagagat tagaactttc caaggattag gagattatcc caggtgcccg tgtccaggct
+     1441 tgtgtctgag ttctgtgctc cctcccctcc ccccatcccg ccaggtatct ggttcattct
+     1501 taggacggtc acatactggt gctgctggag tgtcccacga gagatgcaaa gtgcctgagt
+     1561 tttcggactc ttcctttcag acccccccaa ttcacacgtg acccaccatc ctgtctttga
+     1621 ctatgatgcc accctgaggt gctgagccct gggcttctac cctgtggaga tcagactgac
+     1681 ctggcagcgg gagagtgagg accagaccca cgacgtggag ctcgtgggga ccaggcctgc
+     1741 aggggatgga accttccaga agtgggcatc tgtggtggtg ccttctggag aggagcagag
+     1801 attcacgtgc tatgtgcagc accaggggct gcctgagccc ctcatgctga gatggagtaa
+     1861 ggagggagat ggaggtatca tgtctcttag ggaaagcagg agcccctctg gagaccttta
+     1921 acagggtcgg tggtggggcc tggggtcaga gaccctcacc ttcccctcct ttcccagagc
+     1981 agtctttcca gcccaccatc cccatcatgg gcatcattgc tggactggtt gtctttgcag
+     2041 ctgttgtcac tgaagctgtg gtcacttttg tgctgtggag gaagaagagc tctgagtttt
+     2101 tttgtcccac tgagggttcc aagccccagg tagaaatgcc ctgcctggtt actgggaagc
+     2161 accatctaca ctcatgggcc gacccagcct acgccctgtg tgccagcact tactcttttg
+     2221 taaagcacat gtgacaaaga agcacagatt tatcaccttg atgattgtag tgatggggac
+     2281 ctgatcccag taatcacagg tcaggggaag gtccctggct aaggacagac cttagcaggg
+     2341 cagttagtcc aggacccaaa tctgctttcc ttgttttccc ttatcctgcc ctgggtctgc
+     2401 agtcacacat ttctggaaac ttctctgggg tccaagacta ggagtttcct ctagggcctc
+     2461 atggtgctgc cacctttctg acctctcaaa ggacattttc ttcccacaga tagaaaagga
+     2521 gggagctact gtcaggctgc aagtaagtat gaaggaggct gatccctgag atccttggga
+     2581 tcttgtggtt gggagcccat gggggagctc actcaggcaa tatttcctcc tctggccata
+     2641 tctcctgtgg gctctgacca ggtcctgttt ttgttgtacc ccaggcagtg acagtgtcca
+     2701 gggctctgat gtctctcaca gcttgtaaat gtgagaccct gggggcctga tgtgtgtggg
+     2761 ttgttgcagg gaacagtgga cacagctgtg ccatgaagtt tctttgactt ggatgtattg
+     2821 agcatgtgct gggctgtttc aagtgtcacc cctcactgtg acagatatga attttttcat
+     2881 gaatgttttt ctgcagtctg a
+//

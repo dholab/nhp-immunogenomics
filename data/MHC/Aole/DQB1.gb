@@ -1,0 +1,65 @@
+LOCUS       NHP10403                 772 bp    DNA     linear   PRI 28-JAN-2020
+DEFINITION  Aole-DQB1*23:01, DQB1 locus allele.
+ACCESSION   NHP10403
+VERSION     NHP10403
+DBLINK      INSDC: LR699079
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Aotus lemurinus (Gray-bellied Night Monkey)
+  ORGANISM  Aotus lemurinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Aotidae; Aotus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Full-length MHC class II alleles in three New World monkey species.
+  JOURNAL   HLA 95:163-165 (2020)
+   PUBMED   31705598
+COMMENT     IPD-MHC allele: Aole-DQB1*23:01
+            IPD accession: NHP10403
+            Species prefix: Aole
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..772
+                     /organism="Aotus lemurinus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:43147"
+     gene            1..772
+                     /gene="DQB1"
+                     /allele="Aole-DQB1*23:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     CDS             1..772
+                     /gene="DQB1"
+                     /allele="Aole-DQB1*23:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALWIPRGLRAAAVTLMLAMLSTPVTEGRDSPQDFVLQFKN
+                     FCYFTNGTERVRHLNKHVYNREEFVSFDSDVGEYRAVTPLGRHIAEYFNGQKDILERTR
+                     AVVDTVCRHNYQLELLTTLQRREKPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETAGIVSTPLIRNGDWTFQILVTLEMTPQRGDVYTCHVEHPSLQRPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLVIHHRSQK"
+ORIGIN
+        1 atgtcttgga agaaggcttt gtggatcccc agaggacttc gggcagcagc tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtaact gagggcagag actctcccca ggatttcgtg
+      121 ctccagttta agaatttctg ctacttcacc aacgggacag agcgcgtgcg tcatttgaac
+      181 aaacacgtct ataaccgaga ggagttcgtg agcttcgaca gcgacgtggg ggagtatcgg
+      241 gcggtgacgc cgctggggcg gcatatcgcc gagtacttca acggccagaa ggacatcctg
+      301 gagaggaccc gggcggtggt ggacacggtg tgcagacaca actaccagct ggagctcctc
+      361 acgaccttgc agcggcgaga gaagcctaca gtgaccatct ccccatccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtttgctcg gtgacagatt tctatccagg ccagatcaaa
+      481 gtccggtggt ttcggaatga ccaggaggag acagccggta ttgtgtccac tccccttatt
+      541 aggaatggtg actggacctt ccagatcctg gtgacgctgg aaatgacccc ccagcgtgga
+      601 gacgtgtaca cctgccacgt ggagcacccc agcctccagc gccccatcac tgtggagtgg
+      661 cgggctcagt ctgaatctgc ccagagcaag atgctgagtg gtgttggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttgtc atccatcaca ggagtcagaa ag
+//

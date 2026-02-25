@@ -1,0 +1,53 @@
+LOCUS       NHP00122                 270 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Camo-DRB11*01:01, DRB11 locus allele.
+ACCESSION   NHP00122
+VERSION     NHP00122
+DBLINK      INSDC: L12484
+KEYWORDS    IPD-MHC; MHC class II; DRB11.
+SOURCE      Callicebus moloch (Red-bellied Titi)
+  ORGANISM  Callicebus moloch
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Pitheciidae; Callicebinae; Plecturocebus.
+REFERENCE   1
+  AUTHORS   TrtkovÃ¡ K, Kupfermann H, Grahovac B, Mayer WE, O'hUigin C, Tichy H,
+            Bontrop R, Klein J.
+  TITLE     Mhc-DRB genes of platyrrhine primates.
+  JOURNAL   Immunogenetics 38:210-222 (1993)
+   PUBMED   8505064
+REFERENCE   2
+  AUTHORS   Trtkova K, Mayer WE, O'Huigin C, Klein J.
+  TITLE     Mhc-DRB genes and the origin of New World monkeys.
+  JOURNAL   Mol Phylogenet Evol 4:408-419 (1995)
+   PUBMED   8747297
+COMMENT     IPD-MHC allele: Camo-DRB11*01:01
+            IPD accession: NHP00122
+            Species prefix: Camo
+            MHC class: II
+            Previous designations: Camo-DRB11*0101
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Callicebus moloch"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9523"
+     gene            1..270
+                     /gene="DRB11"
+                     /allele="Camo-DRB11*01:01"
+                     /note="previous designations: Camo-DRB11*0101"
+     exon            1..270
+                     /gene="DRB11"
+                     /number=1
+     CDS             1..270
+                     /gene="DRB11"
+                     /allele="Camo-DRB11*01:01"
+                     /codon_start=3
+                     /product="MHC class II DRB11 antigen"
+                     /translation="RFLEHHKAECHHFNGTERVRLLERYIHNQEEFVRFDSDVGEYRAV
+                     TELGRPEREYWNSREDFLEQMRAAVDTVCRHNYEISERFLVPRR"
+ORIGIN
+        1 cacgtttctt ggagcaccat aaggctgagt gtcatcactt caacgggacg gagcgggtgc
+       61 ggctcctgga aagatacatc cacaaccagg aggagtttgt gcgcttcgac agcgacgtgg
+      121 gggagtaccg ggcggtgacg gagctggggc ggcctgagcg ggagtactgg aacagccggg
+      181 aggacttcct ggagcagatg cgggccgcgg tggacacggt gtgcagacac aactacgaga
+      241 tttcagagag gttcctagtg ccgcggagag
+//

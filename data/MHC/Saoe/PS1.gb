@@ -1,0 +1,70 @@
+LOCUS       NHP01051                 936 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Saoe-PS1*01, PS1 locus allele.
+ACCESSION   NHP01051
+VERSION     NHP01051
+DBLINK      INSDC: U52113
+KEYWORDS    IPD-MHC; MHC class I; PS1.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Cadavid LF, Hughes AL, Watkins DI.
+  TITLE     MHC class I-processed pseudogenes in New World primates provide
+            evidence for rapid turnover of MHC class I genes.
+  JOURNAL   J Immunol 157:2403-2409 (1996)
+   PUBMED   8805639
+COMMENT     IPD-MHC allele: Saoe-PS1*01
+            IPD accession: NHP01051
+            Species prefix: Saoe
+            MHC class: I
+            Previous designations: Saoe-PS1
+FEATURES             Location/Qualifiers
+     source          1..936
+                     /organism="Saguinus oedipus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9490"
+     gene            1..936
+                     /gene="PS1"
+                     /allele="Saoe-PS1*01"
+                     /note="previous designations: Saoe-PS1"
+     exon            1..48
+                     /gene="PS1"
+                     /number=1
+     exon            49..318
+                     /gene="PS1"
+                     /number=2
+     exon            319..594
+                     /gene="PS1"
+                     /number=3
+     exon            595..870
+                     /gene="PS1"
+                     /number=4
+     exon            871..936
+                     /gene="PS1"
+                     /number=5
+     CDS             1..936
+                     /gene="PS1"
+                     /allele="Saoe-PS1*01"
+                     /codon_start=3
+                     /product="MHC class I PS1 antigen"
+                     /translation="X"
+ORIGIN
+        1 tcctcctgct gctctcgggg gcccttgccc tgacccagac ccgggcgggc tcccactcct
+       61 tggggtattt tcacacctct gtgttccagc ccggccgcga gaagcccagc ttcatcaccg
+      121 tgggctacgt ggacgacacg cagttcgtgc ggttcgacag cgacgccgcg agtccgagag
+      181 aggagccgcg ggcgcagtgg gtggagcagg aggggccgga gtattgggac ccggagacgc
+      241 ggatctccaa ggcccacgca cagaatttcc gagtgaacct gcggaccctg cgcggctact
+      301 acaaccagag cgaggctggg tctcacacca gccagcggat gtctggctgc gacctggggc
+      361 cggacgggcg cctcctccgt gggtataacc agcaccccta ggacggcaag gactacatcg
+      421 ccctgaacga ggacctgcgc tcctggacgg ccgccgacgt ggcggttcag atcacccagt
+      481 gcaagtggga ggcggccaat gtggctgagg agtggagagc ctacctggag ggcaggtgcc
+      541 tggagtcact cctcagatac ctggagaacg ggaaggagac gctgcagcgc ctggtgcccc
+      601 ccaagacaca cgtgacccac caccccatct ctgacgatga ggccaccctg aggtgctggg
+      661 ccctgggctt ctaccctgcg gagatcacac tgacctggca gcgggatggg gaggaccaga
+      721 cccgggacat ggagcttgtg gagaccaggc ccacagggga tggaaaattc cagaagtggg
+      781 cggctgtggt gatgccttct ggagaggagc agagatacac atgccatgtg cagcacgagg
+      841 ggctggccga gcccctcacc ctgagatggg agccggcctc ttcccagccc accatcccca
+      901 ttgtgggcat tgttgctggc ctggctgtct ttggag
+//

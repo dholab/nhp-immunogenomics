@@ -1,0 +1,710 @@
+LOCUS       NHP04650                2917 bp    DNA     linear   PRI 17-MAR-2025
+DEFINITION  Poab-A*04:01:01:01, A locus allele.
+ACCESSION   NHP04650
+VERSION     NHP04650
+DBLINK      INSDC: HE801277
+            INSDC: OZ234871
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, van der Wiel MK, Blokhuis JH, Mulder A,
+            Guethlein LA, Doxiadis GG, Claas FH, Parham P, Bontrop RE.
+  TITLE     Complex MHC Class I Gene Transcription Profiles and Their Functional
+            Impact in Orangutans.
+  JOURNAL   J Immunol 196:750-758 (2016)
+   PUBMED   26685209
+COMMENT     IPD-MHC allele: Poab-A*04:01:01:01
+            IPD accession: NHP04650
+            Species prefix: Poab
+            MHC class: I
+            Previous designations: Poab-A*04:01
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2917
+                     /gene="A"
+                     /allele="Poab-A*04:01:01:01"
+                     /note="previous designations: Poab-A*04:01"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            715..990
+                     /gene="A"
+                     /number=3
+     exon            1585..1860
+                     /gene="A"
+                     /number=4
+     exon            1962..2078
+                     /gene="A"
+                     /number=5
+     exon            2522..2554
+                     /gene="A"
+                     /number=6
+     exon            2697..2744
+                     /gene="A"
+                     /number=7
+     exon            2913..2917
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..714
+                     /gene="A"
+                     /number=2
+     intron          991..1584
+                     /gene="A"
+                     /number=3
+     intron          1861..1961
+                     /gene="A"
+                     /number=4
+     intron          2079..2521
+                     /gene="A"
+                     /number=5
+     intron          2555..2696
+                     /gene="A"
+                     /number=6
+     intron          2745..2912
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,715..990,1585..1860,1962..2078,
+                     2522..2554,2697..2744,2913..2917)
+                     /gene="A"
+                     /allele="Poab-A*04:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLILLLSGALALTQTWAGSHSMRYFYTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRTPWIEQEGPEYWDRNTRNVKAHAQTGRVNLGT
+                     LRGYYNQSDGGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAAGAAEQRRAYLEGLCVESLRRYLENGKETLQRTDAPKTHMTHHRISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRY
+                     TCLVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLVLLGAVITGAVVAAVMWRRRSSDRK
+                     GGSYSQAASNDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcggtca tggcgcctcg aaccctcatc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cagagtcggg agggaaacgg cctctgcggg gaagagcgag
+      121 gggcccgcct ggcgagggcg caggaccggg ggagccgtgc agggaggagg gtcaggcgag
+      181 tctcagccac tcctcgcccc caggctccca ctccatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcggacgc cgtggataga
+      361 gcaggagggg ccggagtatt gggaccggaa tacacggaac gtgaaggccc acgcacagac
+      421 tggccgagtg aacctgggga cgctgcgcgg ctactacaac cagagcgacg gcggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca cggacgggcc gggtcgtccg
+      541 cagtctccgg gtccgagatc catcctgaag ccgcgggacc ccgagaccct tgacccggga
+      601 gaggcccagg cgcctttacc cggtttcatt ttcagtttag accaaaaatc cccgcgggtt
+      661 ggtcggggcg gggcgggact ccgggaactg ggctgaccgc gggggcgggg ccaggttctc
+      721 acaccatcca gataatgtat ggctgcgacg tggggcccga cgggcgcttc ctccgcgggt
+      781 accggcagga cgcctacgac ggcaaggatt acatcgccct aaacgaggac ctgcgctcct
+      841 ggaccgcggc ggacatggcg gctcagatca cccagcgcaa gtgggaggcg gccggtgcgg
+      901 cggagcagcg gagagcctac ctggagggcc tgtgcgtgga gtcgctccgc agatacctgg
+      961 agaacgggaa ggagactctg cagcgcacgg gtaccagggc cacggggcgc ctccctgata
+     1021 tcctgtagat ctcccgggct ggcctcccac aaggagggaa gacaaatggg accaatccta
+     1081 gaatatcgcc ctccctctgg tcctgaggga gaggaatgct cctgggtttc cagatcttgt
+     1141 accagagagt gactgaggtt ctgccccgct ctctgacaca attaagggat aaaatctctg
+     1201 aaggaatgac gggaagacga tccctcgaat actgatgagt ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgttac ttttcctctc agcccttgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagttcag cacttctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcgctgt tccctcctca gggactagaa ttttccacgg aataggagac tatcccaggt
+     1441 gcctgtgtcc gggctggtgt ctgggttctg tgctctcttc cccatcccgg gtgtcctgtc
+     1501 catcctcaag atggccacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gaattttctg actcttcccg tcagacgccc ccaagacaca tatgactcac caccgcatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccttgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggaccaga cccaggacac ggagctcgta gagaccaggc
+     1741 ctgcagggga tggaaccttc cagaagtggg cagctgtggt ggtgccttct ggaaaggagc
+     1801 agagatatac ctgccttgtg cagcatgagg gtctgcctga gcccctcacc ctgagatggg
+     1861 gtaagaaggg agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagacc
+     1921 tttagcagaa tcaggcccct caccttcacc tcttttccca gagccatctt cccagcccac
+     1981 catccccatc gtgggcatcg ttgctggcct ggttcttctt ggagctgtga tcactggagc
+     2041 tgtggtcgct gctgtgatgt ggaggaggag gagctcaggt ggggaacggg tgaagggtgg
+     2101 ggtctgagtt ttcttgtccc attgggagtt tcaagcccca ggtagaagtg tgccctgcct
+     2161 cgttactggg aagcaccatc cacactcatg ggcctaccca gcctgggccc tgtgtgcgag
+     2221 cacttaactc ttttgtaaag cacctgttaa aatgaaggac agatttatca ccttgattat
+     2281 ggcggtgatg ggacctgatc ccagcagtca caagtcacag gggaaggtcc ctgaggacag
+     2341 acctcaggag ggcggttggt ccaggaccca cacctgcttt cttcctgttt cctgatcccg
+     2401 ccctgggtct gcagtcacac atttctggaa acttctccgg ggtccaagac taggaggttc
+     2461 ctctaggacc ttaaggccct ggctcctttc tggtatctca caggacattt tcttcccaca
+     2521 gatagaaaag gagggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccccg
+     2581 aaatcattgg gatattgtgt ttgggagccc atgggggagc tcacccaccc cacagttcct
+     2641 cctctagcca catcttctgt gggatctgac caggttctgt ttttgttcta ccccaggcaa
+     2701 tgacagtgcc cagggctctg atgtgtctct cacagcttgt aaaggtgaga gcctggaggg
+     2761 cctgatgtgt gttgggtgtt ggggggaaca gtggacacag ctgtgctatg gggtttcttt
+     2821 gcattagata tattgagcat gcgatgggct gtttaaagtg tgacccctca ctgtgatgga
+     2881 tatgaatttg ttcatgaata ttttttctat agtgtga
+//
+LOCUS       NHP04652                2899 bp    DNA     linear   PRI 17-MAR-2025
+DEFINITION  Poab-A*03:01:01:01, A locus allele.
+ACCESSION   NHP04652
+VERSION     NHP04652
+DBLINK      INSDC: HE801279
+            INSDC: OZ234874
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, van der Wiel MK, Blokhuis JH, Mulder A,
+            Guethlein LA, Doxiadis GG, Claas FH, Parham P, Bontrop RE.
+  TITLE     Complex MHC Class I Gene Transcription Profiles and Their Functional
+            Impact in Orangutans.
+  JOURNAL   J Immunol 196:750-758 (2016)
+   PUBMED   26685209
+COMMENT     IPD-MHC allele: Poab-A*03:01:01:01
+            IPD accession: NHP04652
+            Species prefix: Poab
+            MHC class: I
+            Previous designations: Poab-A*03:01
+FEATURES             Location/Qualifiers
+     source          1..2899
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2899
+                     /gene="A"
+                     /allele="Poab-A*03:01:01:01"
+                     /note="previous designations: Poab-A*03:01"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            715..990
+                     /gene="A"
+                     /number=3
+     exon            1585..1860
+                     /gene="A"
+                     /number=4
+     exon            1962..2078
+                     /gene="A"
+                     /number=5
+     exon            2504..2536
+                     /gene="A"
+                     /number=6
+     exon            2679..2726
+                     /gene="A"
+                     /number=7
+     exon            2895..2899
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..714
+                     /gene="A"
+                     /number=2
+     intron          991..1584
+                     /gene="A"
+                     /number=3
+     intron          1861..1961
+                     /gene="A"
+                     /number=4
+     intron          2079..2503
+                     /gene="A"
+                     /number=5
+     intron          2537..2678
+                     /gene="A"
+                     /number=6
+     intron          2727..2894
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,715..990,1585..1860,1962..2078,
+                     2504..2536,2679..2726,2895..2899)
+                     /gene="A"
+                     /allele="Poab-A*03:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLLLLLSGALALTQTWAGSHSMRYFFTAVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETRSAKAHAQTDRVDLGT
+                     LRGYYNQSDGGSHTIQRMYGCDVGPDGRFLRGYWQYAYDGKDYIALNGDLRSWTAADMA
+                     AQITQRKWEAAGAAEQDRAYLEGECVEWLRRYLENGKETLQRTDAPKTHMTHHRISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRY
+                     TCLVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLVLLGAVITGAVVAAVMWRRRSSDRK
+                     GGSYSQAASNDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cagggtctgg agggaaacgg cctctgcggg gaggagcgag
+      121 gggcccgcct ggcgagggcg caggaccggg ggagccgtgc agggaggagg gtcgggcgag
+      181 tctcagccac tcctcgccgc caggctccca ctccatgagg tatttcttca ccgccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat caccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagccc gaggatggag ccgcgggcgc catggataga
+      361 gcaggagggg ccggagtatt gggaccggga gacacggagc gcgaaggccc acgcacagac
+      421 tgaccgagtg gacctgggga cgctgcgcgg ctactacaac cagagcgacg gcggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca cggacgggcc gggtcgtccg
+      541 cagtctccgg gtccgagatc catcctgaag ccgcgggacc ccgagaccct tgacccggga
+      601 gaggcccagg cgcctttacc cggtttcatt ttcagtttag accaaaactc cccgcgggtt
+      661 ggtcggggcg gggcgggact ccgggaactg ggctgaccgc gggggcgggg ccaggttctc
+      721 acaccatcca gaggatgtat ggctgcgacg tggggcccga cgggcgcttc ctccgcgggt
+      781 actggcagta cgcctacgac ggcaaggatt acatcgccct aaacggggac ctgcgctcct
+      841 ggaccgcggc ggacatggcg gctcagatca cccagcgcaa gtgggaggcg gccggtgcgg
+      901 cggagcagga cagagcctac ctggagggcg agtgcgtgga gtggctccgc agatacctgg
+      961 agaacgggaa ggagactctg cagcgcacgg gtaccagggc cacggggcgc ctccctgata
+     1021 tcctgtagat ctcccgggct ggcctcccac aaggagggga gacaaatggg accaatccta
+     1081 gaatatcgcc ctccctctgg tcctgaggga gaggaatgct cctgggtttc cagatcttgt
+     1141 accagagagt gactgagatt ctgccccgct ctctgacaca attaagggat aaaatctctg
+     1201 aaggaatgac gggaagacga tccctcgaat actgatgagt ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgttac ttttcctctc agcccttgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagttcag cacttctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcgctgt tccctcctca gggactagaa ttttccacgg aataggagat tatcccaggt
+     1441 gcctgtgtcc gggctggtgt ctgggttctg tgctctcttc cccatcccgg gtgtcctgtc
+     1501 catcctcaag atggccacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gaattttctg actcttcccg tcagatgccc ccaagacaca tatgactcac caccgcatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccttgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggaccaga cccaggacac ggagctcgtg gagaccaggc
+     1741 ctgcagggga tggaaccttc cagaagtggg cagctgtggt ggtgccttct ggaaaggagc
+     1801 agagatacac ctgccttgtg cagcatgagg gtctgcctga gcccctcacc ctgagatggg
+     1861 gtaagaaggg agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagacc
+     1921 tttagcagaa tcaggcccct caccttcccc tcttttccca gagccatctt cccagcccac
+     1981 catccccatc gtgggcatcg ttgctggcct ggttcttctt ggagctgtga tcactggagc
+     2041 tgtggtcgct gctgtgatgt ggaggaggag gagctcaggt ggggtctgag ttttcttgtc
+     2101 ccattgggag tttcaagccc caggtagaag tgtgccctgc ctcgttactg ggaagcacca
+     2161 tccacactca tgggcctacc cagcctgggc cctgtgtgcg agcacttaac tcttttgtaa
+     2221 agcacctgtt aaaatgaagg acagatttat caccttgatt atggcggtga tgggacctga
+     2281 tcccagcagt cacaagtcac aggggaaggt ccctgaggac agacctcagg agggcggttg
+     2341 gtccaggacc cacacctgct ttcttcctgt ttcctgatcc cgccctgggt ctgcagtcac
+     2401 acatttctgg aaacttctct ggggtccaag actaggaggt tcctctagga ccttaaggcc
+     2461 ctggctcctt tctggtatct cacaggacat tttcttccca cagatagaaa aggagggagc
+     2521 tactctcagg ctgcaagtaa gtatgaagga ggctgatccc cgaaatcatt gggatattgt
+     2581 gtttgggagc ccatggggga gctcacccac cccacagttc ctcctctagc cacatcttct
+     2641 gtgggatctg accaggttct gtttttgttc taccccaggc aatgacagtg cccagggctc
+     2701 tgatgtgtct ctcacagctt gtaaaggtga gaccctggag ggcctgatgt gtgttgggtg
+     2761 ttggggggaa cagtggacac agctgtgcta tggggtttct ttgcattgga tatgttgagc
+     2821 atgcgatggg ctgtttaaag tgtgacccct cactgtgatg gatatgaatt tgttcatgaa
+     2881 tattttttct atagtgtga
+//
+LOCUS       NHP04653                2917 bp    DNA     linear   PRI 17-MAR-2025
+DEFINITION  Poab-A*06:01:01:01, A locus allele.
+ACCESSION   NHP04653
+VERSION     NHP04653
+DBLINK      INSDC: HE801280
+            INSDC: OZ234872
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, van der Wiel MK, Blokhuis JH, Mulder A,
+            Guethlein LA, Doxiadis GG, Claas FH, Parham P, Bontrop RE.
+  TITLE     Complex MHC Class I Gene Transcription Profiles and Their Functional
+            Impact in Orangutans.
+  JOURNAL   J Immunol 196:750-758 (2016)
+   PUBMED   26685209
+COMMENT     IPD-MHC allele: Poab-A*06:01:01:01
+            IPD accession: NHP04653
+            Species prefix: Poab
+            MHC class: I
+            Previous designations: Poab-A*06:01
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2917
+                     /gene="A"
+                     /allele="Poab-A*06:01:01:01"
+                     /note="previous designations: Poab-A*06:01"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            715..990
+                     /gene="A"
+                     /number=3
+     exon            1585..1860
+                     /gene="A"
+                     /number=4
+     exon            1962..2078
+                     /gene="A"
+                     /number=5
+     exon            2522..2554
+                     /gene="A"
+                     /number=6
+     exon            2697..2744
+                     /gene="A"
+                     /number=7
+     exon            2913..2917
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..714
+                     /gene="A"
+                     /number=2
+     intron          991..1584
+                     /gene="A"
+                     /number=3
+     intron          1861..1961
+                     /gene="A"
+                     /number=4
+     intron          2079..2521
+                     /gene="A"
+                     /number=5
+     intron          2555..2696
+                     /gene="A"
+                     /number=6
+     intron          2745..2912
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,715..990,1585..1860,1962..2078,
+                     2522..2554,2697..2744,2913..2917)
+                     /gene="A"
+                     /allele="Poab-A*06:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLLLLLSGALALTQTWAGSHSMRYFYTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRTPWIEQEGPEYWDRNTRSAKAQAQTDRVDLGT
+                     LLGYYNQSDGGSHTIQAMYGCDVGPDGRFLRGYEQLAYDGKDYIALNGDLRSWTAADMA
+                     AQITQRKWEAAGEAEQWRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHRISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRY
+                     TCLVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLVLLGAVITGAVVAAVMWRRRSSDRK
+                     GGSYSQAASNDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cagggtctgg agggaaacgg cctctgcggg gaggagcgag
+      121 gggcccgcct ggcgagggcg caggaccggg ggagccgcgc agggaggagg gtcgggcgag
+      181 tctcagccac tcctcgcccc caggctccca ctctatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcggacgc cgtggataga
+      361 gcaggagggg ccggagtatt gggaccggaa tacacggagc gcgaaggccc aggcacagac
+      421 tgaccgagtg gacctgggga cgctgctcgg ctactacaac cagagcgacg gcggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca cggacgggcc gggtcgtcca
+      541 cagtctccgg gtctgagatc catcctgaag ccgcgggacc ccgagaccct tgacccggga
+      601 gaggcccagg cgtctttacc cggtttcatt ttcagtttag accaaaaatc cccgcgggtt
+      661 ggtcggggcg gggcgggact ccgggaactg ggctgaccgc gggggcgggg ccaggttctc
+      721 acaccatcca ggcgatgtat ggctgcgacg tggggcccga cgggcgcttc ctccgcgggt
+      781 atgaacagct tgcctacgac ggcaaggatt acatcgccct aaacggggac ctgcgctcct
+      841 ggaccgcggc ggacatggcg gctcagatca cccagcgcaa gtgggaggcg gccggtgagg
+      901 cggagcagtg gagagcctac ctggagggca cgtgcgtgga gtggctccgc agatacctgg
+      961 agaacgggaa ggagactctg cagcgcacgg gtaccagggc cacggggcgc ctccctgata
+     1021 tcctgtagat ctcccgggct ggcctcccac aaggagggga gacaaatggg accaatccta
+     1081 gaatatcgcc ctccctctgg tcctgaggga gaggaatgct cctgggtttc cagatcttgt
+     1141 accagagagt gactgaggtt ctgccccgct ctctgacaca attaagggat aaaatctctg
+     1201 aaggaatgac gggaagacga tccctcgaat accgatgagt ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgttac ttttcctctc agcccttgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagttcag cacttctgag tccctcagcc tccactcagg tcaggactag
+     1381 aagtcgctgt tccctcctca gggactagaa ttttccgcgg aataggagat tatcccacgt
+     1441 gcctgtgtcc gggctggtgt ctgggttctg tgctctcttc cccatcccgg gtgtcctgtc
+     1501 catcctcaag atggccacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gaattttctg actcttcccg tcagacgccc ccaagacaca tatgactcac caccgcatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccttgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggaccaga cccaggacac ggagctcgtg gagaccaggc
+     1741 ctgcagggga tggaaccttc cagaagtggg cagctgtggt ggtgccttct ggaaaggagc
+     1801 agagatacac ctgccttgtg cagcatgagg gtctgcctga gcccctcacc ctgagatggg
+     1861 gtaagaaggg agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagacc
+     1921 tttagcagaa tcaggcccct caccttcccc tcttttccca gagccatctt cccagcccac
+     1981 catccccatc gtgggcatcg ttgctggcct ggttcttctt ggagctgtga tcactggagc
+     2041 tgtggtcgct gctgtgatgt ggaggaggag gagctcaggt ggggaacggg tgaagggtgg
+     2101 ggtctgagtt ttcttgtccc attgggagtt tcaagcccca ggtagaagtg tgccctgcct
+     2161 cgttactggg aagcaccatc cacactcatg ggcctaccca gcctgggccc tgtgtgcgag
+     2221 cacttaactc ttttgtaaag cacctgttaa aatgaaggac agatttatca ccttgattat
+     2281 ggcggtgatg ggacctgatc ccagcagtca caagtcacag gggaaggtcc ctgaggacag
+     2341 acctcaggag ggcggttggt ccaggaccca cacctgcttt cttcctgttt cctgatcccg
+     2401 ccctgggtct gcagtcacac atttctggaa acttctctgg ggtccaagac taggaggttc
+     2461 ctctaggacc ttaaggccct ggctcctttc tggtatctca caggacattt tcttcccaca
+     2521 gatagaaaag gagggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccccg
+     2581 aaatcattgg gatattgtgt ttgggagccc atgggggagc tcacccaccc cacagttcct
+     2641 cctctagcca catcttctgt gggatctgac caggttctgt ttttgttcta ccccaggcaa
+     2701 tgacagtgcc cagggctctg atgtgtctct cacagcttgt aaaggtgaga ccctggaggg
+     2761 cctgatgtgt gttgggtgtt ggggggaaca gtggacacag ctgtgctatg gggtttcttt
+     2821 gcattggata tattgagcat gcgatgggct gtttaaagtg tgacccctca ctgtgatgga
+     2881 tatgaatttg ttcatgaata ttttttctat agtgtga
+//
+LOCUS       NHP05483                2917 bp    DNA     linear   PRI 17-MAR-2025
+DEFINITION  Poab-A*08:01:01:01, A locus allele.
+ACCESSION   NHP05483
+VERSION     NHP05483
+DBLINK      INSDC: HG970960
+            INSDC: OZ234875
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, van der Wiel MK, Blokhuis JH, Mulder A,
+            Guethlein LA, Doxiadis GG, Claas FH, Parham P, Bontrop RE.
+  TITLE     Complex MHC Class I Gene Transcription Profiles and Their Functional
+            Impact in Orangutans.
+  JOURNAL   J Immunol 196:750-758 (2016)
+   PUBMED   26685209
+COMMENT     IPD-MHC allele: Poab-A*08:01:01:01
+            IPD accession: NHP05483
+            Species prefix: Poab
+            MHC class: I
+            Previous designations: Poab-A*08:01
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2917
+                     /gene="A"
+                     /allele="Poab-A*08:01:01:01"
+                     /note="previous designations: Poab-A*08:01"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            715..990
+                     /gene="A"
+                     /number=3
+     exon            1585..1860
+                     /gene="A"
+                     /number=4
+     exon            1962..2078
+                     /gene="A"
+                     /number=5
+     exon            2522..2554
+                     /gene="A"
+                     /number=6
+     exon            2697..2744
+                     /gene="A"
+                     /number=7
+     exon            2913..2917
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..714
+                     /gene="A"
+                     /number=2
+     intron          991..1584
+                     /gene="A"
+                     /number=3
+     intron          1861..1961
+                     /gene="A"
+                     /number=4
+     intron          2079..2521
+                     /gene="A"
+                     /number=5
+     intron          2555..2696
+                     /gene="A"
+                     /number=6
+     intron          2745..2912
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,715..990,1585..1860,1962..2078,
+                     2522..2554,2697..2744,2913..2917)
+                     /gene="A"
+                     /allele="Poab-A*08:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLLLLLSGALALTQTWAGSHSMRYFYTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRTPWIEQEGPEYWDRNTRNMKAQAQTDRVDLGT
+                     LLGYYNQSDGGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAAGEAEQRRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHRISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRY
+                     TCLVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLVLLGAVITGAVVAAVMWRRRSSDRK
+                     GGSYSQAASNDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cagggtctgg agggaaacgg cctctgcggg gaggagcgag
+      121 gggcccgcct ggcgagggcg caggaccggg ggagccgcgc agggaggagg gtcgggcgag
+      181 tctcagccac tcctcgcccc caggctccca ctctatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcggacgc cgtggataga
+      361 gcaggagggg ccggagtatt gggaccggaa tacacggaac atgaaggccc aggcacagac
+      421 tgaccgagtg gacctgggga cgctgctcgg ctactacaac cagagcgacg gcggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca cggactggcc gggtcgtcca
+      541 cagtctctgg gtccgagatc catcctgaag ccgcgggacc ccgagaccct tgacccggga
+      601 gaggcccagg cgtctttacc cggtttcatt ttcagtttag accaaaaatc cccgcgggtt
+      661 ggtcggggcg gggcgggact ccgggaactg ggctgaccgc gggggcgggg ccaggttctc
+      721 acaccatcca gataatgtat ggctgcgacg tggggcccga cgggcgcttc ctccgcgggt
+      781 accggcagga cgcctacgac ggcaaggatt acatcgccct aaacgaggac ctgcgctcct
+      841 ggaccgcggc ggacatggcg gctcagatca cccagcgcaa gtgggaggcg gccggtgagg
+      901 cggagcagcg gagagcctac ctggagggca cgtgcgtgga gtggctccgc agatacctgg
+      961 agaacgggaa ggagactctg cagcgcacgg gtaccagggc cacggggcgc ctccctgata
+     1021 tcctgtagat ctcccgggct ggcctcccac aaggagggga gacaaatggg accaatccta
+     1081 gaatatcgcc ctccctctgg tcctgaggga gaggaatgct cctgggtttc cagatcttgt
+     1141 accagagagt gactgaggtt ctgccccgct ctctgacaca attaagggat aaaatctctg
+     1201 aaggaatgac gggaagacga tccctcgaat accgatgagt ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgttac ttttcctctc agcccttgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagttcag cacttctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcgctgt tccctcctca gggactagaa ttttccgcgg aataggagat tatcccaggt
+     1441 gcctgtgtcc gggctggtgt ctgggttctg tgctctcttc cccatcccgg gtttcctgtc
+     1501 catcctcaag atggccacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gaattttctg actcttcccg tcagacgccc ccaagacaca tatgactcac caccgcatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggaccaga cccaggacac ggagctcgtg gagaccaggc
+     1741 ctgcagggga tggaaccttc cagaagtggg cagctgtggt ggtgccttct ggaaaggagc
+     1801 agagatacac ctgccttgtg cagcatgagg gtctgcctga gcccctcacc ctgagatggg
+     1861 gtaagaaggg agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagacc
+     1921 tttagcagaa tcaggcccct caccttcccc tcttttccca gagccatctt cccagcccac
+     1981 catccccatc gtgggcatcg ttgctggcct ggttcttctt ggagctgtga tcactggagc
+     2041 tgtggtcgct gctgtgatgt ggaggaggag gagctcaggt ggggaacggg tgaagggtgg
+     2101 ggtctgagtt ttcttgtccc attgggagtt tcaagcccca ggtagaagtg tgccctgcct
+     2161 cgttactggg aagcaccatc cacactcatg ggcctaccca gcctgggccc tgtgtgcgag
+     2221 cacttaactc ttttgtaaag cacctgttaa aatgaaggac agatttatca ccttgattat
+     2281 ggcggtgatg ggacctgatc ccagcagtca caagtcacag gggaaggtcc ctgaggacag
+     2341 acctcaggag ggcggttggt ccaggaccca cacctgcttt cttcctgttt cctgatcccg
+     2401 ccctgggtct gcagtcacac atttctggaa acttctctgg ggtccaagac taggaggttc
+     2461 ctctaggacc ttaaggccct ggctcctttc tggtatctca caggacattt tcttcccaca
+     2521 gatagaaaag gagggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccccg
+     2581 aaatcattgg gatattgtgt ttgggagccc atgggggagc tcacccaccc cacagttcct
+     2641 cctctagcca catcttctgt gggatctgac caggttctgt ttttgttcta ccccaggcaa
+     2701 tgacagtgcc cagggctctg atgtgtctct cacagcttgt aaaggtgaga ccctggaggg
+     2761 cctgatgtgt gttgggtgtt ggggggaaca gtggacacag ctgtgctatg gggtttcttt
+     2821 gcattggata tattgagcat gcgatgggct gtttaaagtg tgacccctca ctgtgatgga
+     2881 tatgaatttg ttcatgaata ttttttctat agtgtga
+//
+LOCUS       NHP05488                2917 bp    DNA     linear   PRI 17-MAR-2025
+DEFINITION  Poab-A*09:01:01:01, A locus allele.
+ACCESSION   NHP05488
+VERSION     NHP05488
+DBLINK      INSDC: HG970956
+            INSDC: OZ234877
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, van der Wiel MK, Blokhuis JH, Mulder A,
+            Guethlein LA, Doxiadis GG, Claas FH, Parham P, Bontrop RE.
+  TITLE     Complex MHC Class I Gene Transcription Profiles and Their Functional
+            Impact in Orangutans.
+  JOURNAL   J Immunol 196:750-758 (2016)
+   PUBMED   26685209
+COMMENT     IPD-MHC allele: Poab-A*09:01:01:01
+            IPD accession: NHP05488
+            Species prefix: Poab
+            MHC class: I
+            Previous designations: Poab-A*09:01
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2917
+                     /gene="A"
+                     /allele="Poab-A*09:01:01:01"
+                     /note="previous designations: Poab-A*09:01"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            715..990
+                     /gene="A"
+                     /number=3
+     exon            1585..1860
+                     /gene="A"
+                     /number=4
+     exon            1962..2078
+                     /gene="A"
+                     /number=5
+     exon            2522..2554
+                     /gene="A"
+                     /number=6
+     exon            2697..2744
+                     /gene="A"
+                     /number=7
+     exon            2913..2917
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..714
+                     /gene="A"
+                     /number=2
+     intron          991..1584
+                     /gene="A"
+                     /number=3
+     intron          1861..1961
+                     /gene="A"
+                     /number=4
+     intron          2079..2521
+                     /gene="A"
+                     /number=5
+     intron          2555..2696
+                     /gene="A"
+                     /number=6
+     intron          2745..2912
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,715..990,1585..1860,1962..2078,
+                     2522..2554,2697..2744,2913..2917)
+                     /gene="A"
+                     /allele="Poab-A*09:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLILLLSGALALTQTWAGSHSMRYFSTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRTPWIEQEGPEYWDRETRSAKAHAQTNRVNLGT
+                     LLGYYNQSDGGSHTIQMMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAAGVAEQRRAYLEGECVEWLRRYLENGKETLQRTDAPKTHMTHHRISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRY
+                     TCLVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLVLLGAVITGAVVAAVMWRRRSSDRK
+                     GGSYSQAASNDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcatc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cagggtctgg agggaaacgg cctctgcggg gaggagcgag
+      121 gggcccgcct ggcgagggcg caggaccggg ggagccgcgc agggaggagg gtcgggcgag
+      181 tctcagccac tcctcgcccc caggctccca ctctatgagg tatttcagca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcggacgc cgtggataga
+      361 gcaggagggg ccggagtatt gggaccggga gacacggagc gcgaaggccc acgcacagac
+      421 taaccgagtg aacctgggga cgctgctcgg ctactacaac cagagcgacg gcggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca cggacgggcc gggtcgtcca
+      541 cagtctctgg gtccgagatc catcctgaag ccgcgggacc ccgagaccct tgacccggga
+      601 gaggcccagg cgcctttacc cggtttcatt ttcagtttag accaaaaatc cccgcgggtt
+      661 tgtcggggcg gggcgggact ccgggaactg ggctgaccgc gggggcgggg ccaggttctc
+      721 acaccatcca gatgatgtat ggctgcgacg tggggcccga cgggcgcttc ctccgcgggt
+      781 accggcagga cgcctacgac ggcaaggatt acatcgccct aaacgaggac ctgcgctcct
+      841 ggaccgcggc ggacatggcg gctcagatca cccagcgcaa gtgggaggcg gccggtgtgg
+      901 cggagcagcg gagagcctac ctggagggcg agtgcgtgga gtggctccgc agatacctgg
+      961 agaacgggaa ggagactctg cagcgcacgg gtaccagggc cacggggcgc ctccctgata
+     1021 tcctgtagat ctcccgggct ggcctcccac aaggagggga gacaaatggg accaatccta
+     1081 gaatatcgcc ctccctctgg tcctgaggga gaggaatgct cctgggtttc cagatcttgt
+     1141 accagagagt gactgaggtt ctgccccgct ctctgacaca attaagggat aaaatctctg
+     1201 aaggaatgac gggaagacga tccctcgaat accgatgagt ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgttac ttttcctctc agcccttgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagttcag cacttctgag tccctcagcc tccactcagg tcaggactag
+     1381 aagtcgctgt tccctcctca gggactagaa ttttccgcgg aataggagat tatcccacgt
+     1441 gcctgtgtcc gggctggtgt ctgggttctg tgctctcttc cccatcccgg gtgtcctgtc
+     1501 catcctcaag atggccacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gaattttctg actcttcccg tcagacgccc ccaagacaca tatgactcac caccgcatct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccttgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatggg gaggaccaga cccaggacac ggagctcgtg gagaccaggc
+     1741 ctgcagggga tggaaccttc cagaagtggg cagctgtggt ggtgccttct ggaaaggagc
+     1801 agagatacac ctgccttgtg cagcatgagg gtctgcctga gcccctcacc ctgagatggg
+     1861 gtaagaaggg agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagacc
+     1921 tttagcagaa tcaggcccct caccttcccc tcttttccca gagccatctt cccagcccac
+     1981 catccccatc gtgggcatcg ttgctggcct ggttcttctt ggagctgtga tcactggagc
+     2041 tgtggtcgct gctgtgatgt ggaggaggag gagctcaggt ggggaacggg tgaagggtgg
+     2101 ggtctgagtt ttcttgtccc attgggagtt tcaagcccca ggtagaagtg tgccctgcct
+     2161 cgttactggg aagcaccatc cacactcatg ggcctaccca gcctgggccc tgtgtgcgag
+     2221 cacttaactc ttttgtaaag cacctgttaa aatgaaggac agatttatca ccttgattat
+     2281 ggcggtgatg ggacctgatc ccagcagtca caagtcacag gggaaggtcc ctgaggacag
+     2341 acctcaggag ggcggttggt ccaggaccca cacctgcttt cttcctgttt cctgatcccg
+     2401 ccctgggtct gcagtcacac atttctggaa acttctctgg ggtccaagac taggaggttc
+     2461 ctctaggacc ttaaggccct ggctcctttc tggtatctca caggacattt tcttcccaca
+     2521 gatagaaaag gagggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccccg
+     2581 aaatcattgg gatattgtgt ttgggagccc atgggggagc tcacccaccc cacagttcct
+     2641 cctctagcca catcttctgt gggatctgac caggttctgt ttttgttcta ccccaggcaa
+     2701 tgacagtgcc cagggctctg atgtgtctct cacagcttgt aaaggtgaga ccctggaggg
+     2761 cctgatgtgt gttgggtgtt ggggggaaca gtggacacag ctgtgctatg gggtttcttt
+     2821 gcattggata tattgagcat gcgatgggct gtttaaagtg tgacccctca ctgtgatgga
+     2881 tatgaatttg ttcatgaata ttttttctat agtgtga
+//

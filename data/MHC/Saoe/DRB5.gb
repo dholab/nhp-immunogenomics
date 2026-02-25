@@ -1,0 +1,53 @@
+LOCUS       NHP01015                 268 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Saoe-DRB5*07:01, DRB5 locus allele.
+ACCESSION   NHP01015
+VERSION     NHP01015
+DBLINK      INSDC: L12514
+KEYWORDS    IPD-MHC; MHC class II; DRB5.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   TrtkovÃ¡ K, Kupfermann H, Grahovac B, Mayer WE, O'hUigin C, Tichy H,
+            Bontrop R, Klein J.
+  TITLE     Mhc-DRB genes of platyrrhine primates.
+  JOURNAL   Immunogenetics 38:210-222 (1993)
+   PUBMED   8505064
+REFERENCE   2
+  AUTHORS   Trtkova K, Mayer WE, O'Huigin C, Klein J.
+  TITLE     Mhc-DRB genes and the origin of New World monkeys.
+  JOURNAL   Mol Phylogenet Evol 4:408-419 (1995)
+   PUBMED   8747297
+COMMENT     IPD-MHC allele: Saoe-DRB5*07:01
+            IPD accession: NHP01015
+            Species prefix: Saoe
+            MHC class: II
+            Previous designations: Saoe-DRB5*0701
+FEATURES             Location/Qualifiers
+     source          1..268
+                     /organism="Saguinus oedipus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9490"
+     gene            1..268
+                     /gene="DRB5"
+                     /allele="Saoe-DRB5*07:01"
+                     /note="previous designations: Saoe-DRB5*0701"
+     exon            1..268
+                     /gene="DRB5"
+                     /number=1
+     CDS             1..268
+                     /gene="DRB5"
+                     /allele="Saoe-DRB5*07:01"
+                     /codon_start=3
+                     /product="MHC class II DRB5 antigen"
+                     /translation="RFLKQDKYECHFFNGTERVRFLHRGIYNQKEDVRFDSDVGEYRAV
+                     TELGRPIAEYWNSQKDLLERRRRRGHLLQTQLRGFRELHSAAA"
+ORIGIN
+        1 cacgtttctt gaagcaggat aagtatgagt gtcatttctt caacgggacg gagcgggtgc
+       61 ggttcctgca cagaggcatc tataaccaaa aggaggacgt gcgcttcgac agtgacgtgg
+      121 gggagtaccg ggcggtgacg gagctggggc ggcctatcgc cgagtactgg aacagccaga
+      181 aggacctcct ggagcggagg cgccgacgtg gacaccttct gcagacacaa ctacggggtt
+      241 ttagagagct tcacagtgca gcggcgag
+//

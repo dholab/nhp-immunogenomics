@@ -1,0 +1,252 @@
+LOCUS       NHP00976                 249 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Saoe-DPB1*01:01, DPB1 locus allele.
+ACCESSION   NHP00976
+VERSION     NHP00976
+DBLINK      INSDC: AF027966
+KEYWORDS    IPD-MHC; MHC class II; DPB1.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Bidwell JL, Lu P, Wang Y, Zhou K, Clay TM, Bontrop RE.
+  TITLE     DRB, DQA, DQB and DPB nucleotide sequences of Saguinus oedipus
+            B95-8.
+  JOURNAL   Eur J Immunogenet 21:67-77 (1994)
+   PUBMED   9098421
+COMMENT     IPD-MHC allele: Saoe-DPB1*01:01
+            IPD accession: NHP00976
+            Species prefix: Saoe
+            MHC class: II
+            Previous designations: Saoe-DPB1*0101
+FEATURES             Location/Qualifiers
+     source          1..249
+                     /organism="Saguinus oedipus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9490"
+     gene            1..249
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*01:01"
+                     /note="previous designations: Saoe-DPB1*0101"
+     exon            1..249
+                     /gene="DPB1"
+                     /number=1
+     CDS             1..249
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*01:01"
+                     /codon_start=1
+                     /product="MHC class II DPB1 antigen"
+                     /translation="VLLGRHNCYAFKGTQHLLERHIYNQEEFVRFDSDLGEYRAVTELG
+                     LPAAEHLNSQKDFMEQKRAEVDTVCRHNYELNEAVTL"
+ORIGIN
+        1 gtgctcctgg gacggcacaa ctgctacgcg tttaaaggga cacagcacct gctggagaga
+       61 cacatctaca accaggagga gttcgtgcgc ttcgacagcg acctggggga gtaccgagcg
+      121 gtgacggagc tgggactgcc tgctgccgag cacttgaaca gccagaagga cttcatggag
+      181 cagaagcggg ctgaggtgga cacggtgtgc agacacaact acgagctgaa tgaggctgtg
+      241 accctgcag
+//
+LOCUS       NHP10408                 777 bp    DNA     linear   PRI 28-JAN-2020
+DEFINITION  Saoe-DPB1*30:01:01, DPB1 locus allele.
+ACCESSION   NHP10408
+VERSION     NHP10408
+DBLINK      INSDC: LR699089
+KEYWORDS    IPD-MHC; MHC class II; DPB1.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Full-length MHC class II alleles in three New World monkey species.
+  JOURNAL   HLA 95:163-165 (2020)
+   PUBMED   31705598
+COMMENT     IPD-MHC allele: Saoe-DPB1*30:01:01
+            IPD accession: NHP10408
+            Species prefix: Saoe
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..777
+                     /organism="Saguinus oedipus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9490"
+     gene            1..777
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*30:01:01"
+     exon            1..100
+                     /gene="DPB1"
+                     /number=1
+     exon            101..364
+                     /gene="DPB1"
+                     /number=2
+     exon            365..646
+                     /gene="DPB1"
+                     /number=3
+     exon            647..757
+                     /gene="DPB1"
+                     /number=4
+     exon            758..777
+                     /gene="DPB1"
+                     /number=5
+     CDS             1..777
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*30:01:01"
+                     /codon_start=1
+                     /product="MHC class II DPB1 antigen"
+                     /translation="MMVLQVSAPPRTVTLTTLLMVLLTPVVQGRATPENYVLQVRHNCY
+                     AFKGTQHLLERHIYNQEEFVRFDSDLGEYRAVTELGLPAAEHLNSQKDFMEQKRAEVDT
+                     VCRHNYELNEAVTLQRRVQPKVNISPSKKGPLQHHNLLVCHVTDFYPGSIQVRWFLNGQ
+                     EETAGVVSTNLIRNGDWTFQILVMLEMMPQQGDVYTCQVEHPSLDSPVTVEWKAQSDSA
+                     RSKMLTGAGSFVLGLIICGVGIFMHRRSKKVQRGSA"
+ORIGIN
+        1 atgatggttc tgcaggtttc tgccccaccc cggacagtga ctctgacgac attactgatg
+       61 gtgctgctca cacctgtggt ccagggcagg gccactccag agaattacgt gctccaggta
+      121 cggcacaact gctacgcgtt taaagggaca cagcacctgc tggagagaca catctacaac
+      181 caggaggagt tcgtgcgctt cgacagcgac ctgggggagt accgagcggt gacggagctg
+      241 ggactgcctg ctgccgagca cttgaacagc cagaaggact tcatggagca gaagcgggct
+      301 gaggtggaca cggtgtgcag acacaactac gagctgaatg aggctgtgac cctgcagcgc
+      361 cgagtccagc ctaaggtgaa catctcccca tccaagaagg ggcccttgca gcaccacaac
+      421 ctgcttgtct gccacgtgac agatttctac ccaggcagca ttcaagtccg ctggttcctg
+      481 aatggacagg aggaaacagc tggggtcgtg tccaccaacc tgatccgtaa tggagactgg
+      541 accttccaga tcttggtgat gctagaaatg atgccccagc agggagacgt ctacacctgc
+      601 caagtggagc accccagtct ggacagtcct gtcaccgtgg agtggaaggc acagtctgat
+      661 tctgcccgga gtaagatgct gacaggagct gggagcttcg tgctggggct catcatctgt
+      721 ggagtgggca tatttatgca caggaggagc aaaaaagttc aacgaggatc tgcataa
+//
+LOCUS       NHP10409                 777 bp    DNA     linear   PRI 28-JAN-2020
+DEFINITION  Saoe-DPB1*30:01:02, DPB1 locus allele.
+ACCESSION   NHP10409
+VERSION     NHP10409
+DBLINK      INSDC: LR699090
+KEYWORDS    IPD-MHC; MHC class II; DPB1.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Full-length MHC class II alleles in three New World monkey species.
+  JOURNAL   HLA 95:163-165 (2020)
+   PUBMED   31705598
+COMMENT     IPD-MHC allele: Saoe-DPB1*30:01:02
+            IPD accession: NHP10409
+            Species prefix: Saoe
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..777
+                     /organism="Saguinus oedipus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9490"
+     gene            1..777
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*30:01:02"
+     exon            1..100
+                     /gene="DPB1"
+                     /number=1
+     exon            101..364
+                     /gene="DPB1"
+                     /number=2
+     exon            365..646
+                     /gene="DPB1"
+                     /number=3
+     exon            647..757
+                     /gene="DPB1"
+                     /number=4
+     exon            758..777
+                     /gene="DPB1"
+                     /number=5
+     CDS             1..777
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*30:01:02"
+                     /codon_start=1
+                     /product="MHC class II DPB1 antigen"
+                     /translation="MMVLQVSAPPRTVTLTTLLMVLLTPVVQGRATPENYVLQVRHNCY
+                     AFKGTQHLLERHIYNQEEFVRFDSDLGEYRAVTELGLPAAEHLNSQKDFMEQKRAEVDT
+                     VCRHNYELNEAVTLQRRVQPKVNISPSKKGPLQHHNLLVCHVTDFYPGSIQVRWFLNGQ
+                     EETAGVVSTNLIRNGDWTFQILVMLEMMPQQGDVYTCQVEHPSLDSPVTVEWKAQSDSA
+                     RSKMLTGAGSFVLGLIICGVGIFMHRRSKKVQRGSA"
+ORIGIN
+        1 atgatggttc tgcaggtttc tgccccaccc cggacagtga ctctgacgac attactgatg
+       61 gtgctgctca cacctgtggt ccagggcagg gccactccag agaattacgt gctccaggta
+      121 cggcacaact gctacgcgtt taaagggaca cagcacctgc tggagagaca catctacaac
+      181 caggaggagt tcgtgcgctt cgacagcgac ctgggggagt accgagcggt gacggagctg
+      241 ggactgcctg ctgccgagca cttgaacagc cagaaggact tcatggagca gaagcgggct
+      301 gaggtggaca cggtgtgcag acacaactac gagctgaatg aggctgtgac cctgcagcgc
+      361 cgagtccagc ctaaggtgaa catctcccca tccaagaagg ggcccttgca gcaccacaac
+      421 ctgcttgtct gccacgtgac agatttctac ccaggcagca ttcaagtccg ttggttcctg
+      481 aatggacagg aggaaacagc tggggtcgtg tccaccaacc tgatccgtaa tggagactgg
+      541 accttccaga tcttggtgat gctagaaatg atgccccagc agggagacgt ctacacctgc
+      601 caagtggagc accccagtct ggacagtcct gtcaccgtgg agtggaaggc acagtctgat
+      661 tctgcccgga gtaagatgct gacaggagct gggagcttcg tgctggggct catcatctgt
+      721 ggagtgggca tatttatgca caggaggagc aaaaaagttc aacgaggatc tgcataa
+//
+LOCUS       NHP10410                 777 bp    DNA     linear   PRI 28-JAN-2020
+DEFINITION  Saoe-DPB1*30:02, DPB1 locus allele.
+ACCESSION   NHP10410
+VERSION     NHP10410
+DBLINK      INSDC: LR699091
+KEYWORDS    IPD-MHC; MHC class II; DPB1.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Full-length MHC class II alleles in three New World monkey species.
+  JOURNAL   HLA 95:163-165 (2020)
+   PUBMED   31705598
+COMMENT     IPD-MHC allele: Saoe-DPB1*30:02
+            IPD accession: NHP10410
+            Species prefix: Saoe
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..777
+                     /organism="Saguinus oedipus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9490"
+     gene            1..777
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*30:02"
+     exon            1..100
+                     /gene="DPB1"
+                     /number=1
+     exon            101..364
+                     /gene="DPB1"
+                     /number=2
+     exon            365..646
+                     /gene="DPB1"
+                     /number=3
+     exon            647..757
+                     /gene="DPB1"
+                     /number=4
+     exon            758..777
+                     /gene="DPB1"
+                     /number=5
+     CDS             1..777
+                     /gene="DPB1"
+                     /allele="Saoe-DPB1*30:02"
+                     /codon_start=1
+                     /product="MHC class II DPB1 antigen"
+                     /translation="MMVLQVSAPPQTVTLTTLLMVLLTPVVQGRATPENYVLQVRHNCY
+                     AFKGTQHLLERHIYNQEEFVRFDSDLGEYRAVTELGLPAAEHWNSQKDFMEQKRAEVDT
+                     VCRHNYELNEAVTLQRRVQPKVNISPSKKGPLQHHNLLVCHVTDFYPGSIQVRWFLNGQ
+                     EETAGVVSTNLIRNGDWTFQILVMLEMMPQQGDVYTCQVEHPSLDSPVTVEWKAQSDSA
+                     RSKMLTGAGSFVLGLIICGVGIFMHRRSKKVQRGSA"
+ORIGIN
+        1 atgatggttc tgcaggtttc tgccccaccc cagacagtga ctctgacaac attactgatg
+       61 gtgctgctca cacctgtggt ccagggcagg gccactccag agaattacgt gctccaggta
+      121 cggcacaact gctacgcgtt taaagggaca cagcacctcc tggagagaca catctacaac
+      181 caggaggagt tcgtgcgctt cgacagcgac ctgggggagt accgagcggt gacggagctg
+      241 ggactgcctg ctgccgagca ctggaacagc cagaaggact tcatggagca gaagcgggct
+      301 gaggtggaca cggtgtgcag acacaactac gagctgaatg aggctgtgac cctgcagcgc
+      361 cgagtccagc ctaaggtgaa catctcccca tccaagaagg ggcccttgca gcaccacaac
+      421 ctgcttgtct gccacgtgac agatttctac ccaggcagca ttcaagtccg ctggttcctg
+      481 aatggacagg aggaaacagc tggggtcgtg tccaccaacc tgatccgtaa tggagactgg
+      541 accttccaga tcttggtgat gctagaaatg atgccccagc agggagacgt ctacacctgc
+      601 caagtggagc accccagtct ggacagtcct gtcaccgtgg agtggaaggc acagtctgat
+      661 tctgcccgga gtaagatgct gacaggagct gggagcttcg tgctggggct catcatctgt
+      721 ggagtgggca tatttatgca caggaggagc aaaaaagttc aacgaggatc tgcataa
+//

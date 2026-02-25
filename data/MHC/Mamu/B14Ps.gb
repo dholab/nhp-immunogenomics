@@ -1,0 +1,928 @@
+LOCUS       NHP11854                2686 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mamu-B14Ps*175:01:01:01, B14Ps locus allele.
+ACCESSION   NHP11854
+VERSION     NHP11854
+DBLINK      INSDC: LR990752
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:01:01:01
+            IPD accession: NHP11854
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2686
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2686
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:01:01:01"
+     exon            1..72
+                     /gene="B14Ps"
+                     /number=1
+     exon            202..471
+                     /gene="B14Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B14Ps"
+                     /number=3
+     exon            1566..1841
+                     /gene="B14Ps"
+                     /number=4
+     exon            1946..2062
+                     /gene="B14Ps"
+                     /number=5
+     exon            2504..2536
+                     /gene="B14Ps"
+                     /number=6
+     exon            2643..2686
+                     /gene="B14Ps"
+                     /number=7
+     intron          73..201
+                     /gene="B14Ps"
+                     /number=1
+     intron          472..716
+                     /gene="B14Ps"
+                     /number=2
+     intron          993..1565
+                     /gene="B14Ps"
+                     /number=3
+     intron          1842..1945
+                     /gene="B14Ps"
+                     /number=4
+     intron          2063..2503
+                     /gene="B14Ps"
+                     /number=5
+     intron          2537..2642
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..72,202..471,717..992,1566..1841,1946..2062,
+                     2504..2536,2643..2686)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgcggtcaa ggcgccccga accctcctcc tgctgctctc gggggccctg gccctgaccc
+       61 agacctgggc cggtgagtgc ggggtcggga gggaaatggc ctctgcgggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacccgggg agccgcgcgg ggaggagggt cgggggggtc
+      181 tcagcctctc ctcgccccca ggctcgcact ccttgaggta tttcagcgcc ggcacgtccc
+      241 ggcccggccg cggggagccc cgcttcatcg ccgtgggcta cgtggacgac acgcagttcg
+      301 tgcggttcga cagcgacgcc gcgagtccga ggatggagcc gcgggcgcgg tggttggagc
+      361 aggaggggcc ggagtattgg gaagagcaga cagggctagc caaggaccac gcacagactt
+      421 tccgagtggg cctgcggacc gcgctccgct actacaacca gagcgaggcg ggtgagtggc
+      481 cccggcccgg ggagcaggtc acgacccctc cccacccccg acggacggtc cgggtctccc
+      541 cgagtctccg ggtccgaaat ccaccccgag gccgcgggac ccgcccagac cctcgaccgg
+      601 ggagagcccc aggcgccttt acccggtttc attttcagtc gaggccaaag tccctgcggg
+      661 gtggtcgggc cggggcgggg cttggtgggc ggggatgacc gcgggggcgg ggccagggtt
+      721 tcacaccctc cagtggatgt acggctgcga cctggggccc gaagggcgcc tactcctagg
+      781 atatcaccgg ttcgcctacg atggcagtga ttacatcgcc ctgaacctgg acctgcgctc
+      841 ctggaccgcg gcagacacgg cggctcagaa cacccagcgc aagtgggagg cggcccgcga
+      901 ggcagagcag tggagagccc acctgcaggg gacgtgcgtg gagtggctcc gcagacacct
+      961 ggagaacggg aaggagacac tgcagcgtgc cggtaccagg ggcagtgggg agccttctcc
+     1021 atcacctcta gatcgcccgg gatggcctcc cacgaggagg ggaggaaaat gggatcagcg
+     1081 ctagaatgtc ccctcccttg aatggagaat ggcatgagtt ttcctgattt cctctgaggg
+     1141 cctctctgct ctctaggaca attaagggat gacgtctctg aggacatgga ggggaagaca
+     1201 gtccctggaa tactgatcag aggtcccctt tgacccctgc agcaactttg ggcaccgtga
+     1261 atttttctct caggccttgt tctctgccta acactcaatg tgtttgaagg tctgattcca
+     1321 gcttttctga gtccctcggc ctccactcag gtcaggacca gaagtccctg ttcctccctc
+     1381 agagtctaga actctccaag gaataggaga ttatcccaga tgcctgtgtc caggctggtg
+     1441 tctggcttct gtgctccttt ccccacccca ggtgtcctgt tcattctcag ggtggtcaca
+     1501 tgcgtgctgc tggggtgtcc catgagagat gcaaagcccc tgaattttct gactcttccc
+     1561 atcagatccc ccaaagacac acgtgaccca ccaccccgtc tctgaccatg aggccaccct
+     1621 gaggtgctgg gccctgggct tctaccctgt ggagatcaca ctgacctggc agcgggatgg
+     1681 ggaggagcaa actcaggaca ccgagcttgt ggagaccagg ccaggaggag atggaaccta
+     1741 ccagaagtag ggagctgtgg tggtgccttc tggagaagag cacagataca ggtgccatgt
+     1801 gcagcatgag gggctgccgg agcctgtcac cctgagatgg ggtaagaagg gggatgaggg
+     1861 gtcatgtctc ttctcagggg aagcaggagc ccttctggag cccttcagca gggtcagggc
+     1921 ccctcatttt cccctccttt cccagagcca tcttcccagt ccaccatccc catcgtgggc
+     1981 attgttgctg gcctggctgt cctagcagtt gtggtcaccg gagctgtgat cgctgctgtg
+     2041 atgtggagga ggaagagctc aggtagggaa ggggtgaggg gtggggtctg ggttttcttg
+     2101 tccctctggg ggtttcaaac ctcaggtaga agtgttcact gcctcattcc tgggaagcag
+     2161 catccacaca ggggctaacc cagcctgggg ccctgtgtgc cagcacttac tcttttgtgc
+     2221 agcacatgtg acaatgaagg acggatatat caccttgatg gttgtgctgt tggggtcctg
+     2281 attccagcat tcacgagtca ggggaaggtg tctgctaagg acagacctta ggagggcagt
+     2341 tggtccagga cacacacctg cttccctcct gttttctgat cctgccctgg gtctgtagtc
+     2401 atagttttgg aaatttcttt tgggtccaag actaggaggt tcctctaaga tctcatgacc
+     2461 ctgcttcctc ccagtcctct cacaggacat tttcttgcta caggtggaaa aggagggagc
+     2521 tactctcagg ctgcgtgtaa gtggtggggg tgggagtgtg gaggagatca ctcatcccat
+     2581 aattcctcct gtcccacgtc tcctgcgggc tctgaccagg tcctgttttt gttgtacccc
+     2641 agccagcgac agtgcccagg gctctgatgt gtgtctcacg gcttga
+//
+LOCUS       NHP11855                2678 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mamu-B14Ps*175:02:01:01, B14Ps locus allele.
+ACCESSION   NHP11855
+VERSION     NHP11855
+DBLINK      INSDC: LR990753
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:02:01:01
+            IPD accession: NHP11855
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2678
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2678
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:02:01:01"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1558..1833
+                     /gene="B14Ps"
+                     /number=4
+     exon            1938..2054
+                     /gene="B14Ps"
+                     /number=5
+     exon            2496..2528
+                     /gene="B14Ps"
+                     /number=6
+     exon            2635..2678
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1557
+                     /gene="B14Ps"
+                     /number=3
+     intron          1834..1937
+                     /gene="B14Ps"
+                     /number=4
+     intron          2055..2495
+                     /gene="B14Ps"
+                     /number=5
+     intron          2529..2634
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1558..1833,1938..2054,
+                     2496..2528,2635..2678)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggctc tggccctgac ccagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcggggggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat cttcgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggccc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggcta gccaaggacc acgcacagac tttccgagtg
+      421 ggcctgggga acctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccacccc cgacggacgg tccaggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ccaggcgcct ttacccggtt acattttcag ttgaggccaa agtccctgcg gggtggtcgg
+      661 gccggggcgg ggcttggtgg gcggggatga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccta ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc aaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggagac actgcagcgt gccggtacca ggggcagtgg agagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggcccctctg
+     1141 ctctctagga caattaaggg atgacgtctc tgaggacatg gaggggaaga cagtccctgg
+     1201 aatactgatc agaggtcccc tttgacccct gcagcagcct tgggcaccgt gaatttttct
+     1261 ctcaggcctt gttctctgcc tcacactcaa tgtgtttgaa ggtctgattc cagcttttct
+     1321 gagttcctcg gcctgcgctc aggtcaggac cagaagtccc tgttcctccc tcagagtcta
+     1381 gaactcttca aggaatagga gattatccca gatgcctgtg tccaggctgg tgtctggctt
+     1441 ctgtgctccc ttccccaccc caggtgtcct gttcattctc agggtggtca catgcgtgct
+     1501 gctggggtgt ctcatgagag atgcaaagcc cctgaatttt ctgactcttc ccatcagatc
+     1561 ccccaaagac acacgtgacc caccaccccg tctctgacca tgaggccacc ctgaggtgct
+     1621 gggccctggg cttctaccct gcggagatca cactgacctg gcagcgggat ggggaggagc
+     1681 aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc taccagaagt
+     1741 agggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat gtgcagcatg
+     1801 aggggctgct ggagcccctc accctgagat ggggtaagga gggggatgag gggtcatgtc
+     1861 tcttctcagg ggaagcagga gcccttctgg agcccttcag cagggtcagg gcccctcatt
+     1921 ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcgtgg gcattgttgc
+     1981 tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgctgctg tgatgtggag
+     2041 gaggaagagc tcaggtaggg aaggggtgag gagtgcggtc tgggttttct tgtccctctg
+     2101 ggggtttcaa acctcaggta gaagtgttcc ctgcctcatt actgggaagc agcatccaca
+     2161 caggggctaa cccagcctgg ggccctgtgt gccagcactt actcttttgt gcagcacatg
+     2221 tgacaatgaa ggacggatgt atcaccttga tggttttgct gttggggtcc tgattccagc
+     2281 attcacgagt caggggaagg tgtctgctaa ggacagacct taggagggca gttggtccag
+     2341 gacacacacc tgcttccctc ctgttttctg atcctgccct gggtctgcag tcatagtttt
+     2401 ggaaatttct tttgggtcca agactaggag gttcctctaa gatctcatga ccctgcttcc
+     2461 tcccagtcct ctcacaggac attttcttcc cacaggtgga aaaggaggga gctactctca
+     2521 ggctgtgtgt aagtggtggg ggtgggagtg tggaggagct caccaacccc ataattcctc
+     2581 ctgtcccacg tctcctgcgg gctctgacca gctcctgttt ttgttctacc ccagccagcg
+     2641 acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP11856                2679 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mamu-B14Ps*175:03:01:01, B14Ps locus allele.
+ACCESSION   NHP11856
+VERSION     NHP11856
+DBLINK      INSDC: LR990478
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:03:01:01
+            IPD accession: NHP11856
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2679
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:03:01:01"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B14Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B14Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B14Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B14Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B14Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B14Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctctgtgggc tacgtggacg acacgcagtt cgtgcggttt
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagga gacacggatc gccaaggacg tcgcacagac tttccgagtg
+      421 ggcctgcgga ccctgcgcag ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccctacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ctaggcgcct ttacccggct tcattttcag ttgaggccaa agtccccgcg gggtggtcgg
+      661 gccggggcgg ggctcggtgg gcggggatga ccgcgggggc ggggccaggg tttcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccgc ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggacac actgcagcgt gctggtacca ggggcagtgg ggagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggccccctct
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggagggaaag acagtccctg
+     1201 gaatactgat cagaggtccc ctttgacccc tgcagcaact ttgggcaccg tgaatttttc
+     1261 tctcaggcct tgttctctgc ctaacactca atgtgtttga aggtctgatt ccagcttttc
+     1321 tgagtccctc ggcctccgct caggtcagga ccagaagtcc ctgttcctcc ctcagagtct
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ttccccccgc ccaggtgtcc tgttcattct cagggtggtc acatgcgtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc ccctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc tcactgacct ggcagcggga tggggaggag
+     1681 caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac ctaccagaag
+     1741 tagggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcaacat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gggaagcagg agcccttctg gagcccttca gcagggtcag ggcccctcat
+     1921 tttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagag ctcaggtagg gaaggggtga ggggtggggt ctgggttttc ttgtccctct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tactgggaag cagcatccac
+     2161 acaggggcta acccagcctg gggccccgtg tgccagcact tactcttttg tgcagcacat
+     2221 gtgacaatga aggacagata tatcaccttg atggttttgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggggaag gtgtctgcta aggacagacc ttaggagggc agttggtcca
+     2341 ggacacacac ctgcttccct cctgttttct gatcctgccc tgggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcatg accctgcttc
+     2461 ctcccagtcc tctcacagga cattttcttc ccacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaga tcacccaccc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP11857                2679 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mamu-B14Ps*175:04:01:01, B14Ps locus allele.
+ACCESSION   NHP11857
+VERSION     NHP11857
+DBLINK      INSDC: LR989715
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:04:01:01
+            IPD accession: NHP11857
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2679
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:04:01:01"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B14Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B14Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B14Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B14Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B14Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B14Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctctgtgggc tacgtggacg acacgcagtt cgtgcggttt
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaggagca gacagggcta gccaaggacg tcgcacagac tttccgagtg
+      421 ggcctgcgga ccctgcgcag ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccctacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ctaggcgcct ttacccggct tcattttcag ttgaggccaa agtccccgcg gggtggtcgg
+      661 gccggggcgg ggctcggtgg gcggggatga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccgc ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggacac actgcagcgt gctggtacca ggggcagtgg ggagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggccccctct
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggagggaaag acagtccctg
+     1201 gaatactgat cagaggtccc ctttgacccc tgcagcaact ttgggcaccg tgaatttttc
+     1261 tctcaggcct tgttctctgc ctaacactca atgtgtttga aggtctgatt ccagcttttc
+     1321 tgagtccctc ggcctccgct caggtcagga ccagaagtcc ctgttcctcc ctcagagtct
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ttccccccgc ccaggtgtcc tgttcattct cagggtggtc acatgcgtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc ccctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc tcactgacct ggcagcggga tggggaggag
+     1681 caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac ctaccagaag
+     1741 tagggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcaacat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gggaagcagg agcccttctg gagcccttca gcagggtcag ggcccctcat
+     1921 tttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagag ctcaggtagg gaaggggtga ggggtggggt ctgggttttc ttgtccctct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tactgggaag cagcatccac
+     2161 acaggggcta acccagcctg gggccccgtg tgccagcact tactcttttg tgcagcacat
+     2221 gtgacaatga aggacagata tatcaccttg atggttttgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggggaag gtgtctgcta aggacagacc ttaggagggc agttggtcca
+     2341 ggacacacac ctgcttccct cctgttttct gatcctgccc tgggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcatg accctgcttc
+     2461 ctcccagtcc tctcacagga cattttcttc ccacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaga tcacccaccc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP11859                2679 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mamu-B14Ps*175:05:01:01, B14Ps locus allele.
+ACCESSION   NHP11859
+VERSION     NHP11859
+DBLINK      INSDC: LR989712
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:05:01:01
+            IPD accession: NHP11859
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2679
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:05:01:01"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B14Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B14Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B14Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B14Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B14Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B14Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctctgtgggc tacgtggacg acacgcagtt cgtgcggttt
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggcta gccaaggacg tcgcacagac tttccgagtg
+      421 ggcctgcgga ccctgcgcag ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccctacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ctaggcgcct ttacccggct tcattttcag ttgaggccaa agtccccgcg gggtggtcgg
+      661 gccggggcgg ggctcggtgg gcggggatga ccgcgggggc ggggccaggg tttcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccgc ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggacac actgcagcgt gctggtacca ggggcagtgg ggagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggccccctct
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggagggaaag acagtccctg
+     1201 gaatactgat cagaggtccc ctttgacccc tgcagcaact ttgggcaccg tgaatttttc
+     1261 tctcaggcct tgttctctgc ctaacactca atgtgtttga aggtctgatt ccagcttttc
+     1321 tgagtccctc ggcctccgct caggtcagga ccagaagtcc ctgttcctcc ctcagagtct
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ttccccccgc ccaggtgtcc tgttcattct cagggtggtc acatgcgtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc ccctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc tcactgacct ggcagcggga tggggaggag
+     1681 caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac ctaccagaag
+     1741 tagggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcaacat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gggaagcagg agcccttctg gagcccttca gcagggtcag ggcccctcat
+     1921 tttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagag ctcaggtagg gaaggggtga ggggtggggt ctgggttttc ttgtccctct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tactgggaag cagcatccac
+     2161 acaggggcta acccagcctg gggccccgtg tgccagcact tactcttttg tgcagcacat
+     2221 gtgacaatga aggacagata tatcaccttg atggttttgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggggaag gtgtctgcta aggacagacc ttaggagggc agttggtcca
+     2341 ggacacacac ctgcttccct cctgttttct gatcctgccc tgggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcatg accctgcttc
+     2461 ctcccagtcc tctcacagga cattttcttc ccacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaga tcacccaccc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP12086                2679 bp    DNA     linear   PRI 01-JUN-2022
+DEFINITION  Mamu-B14Ps*175:05:01:02, B14Ps locus allele.
+ACCESSION   NHP12086
+VERSION     NHP12086
+DBLINK      INSDC: OW995925
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:05:01:02
+            IPD accession: NHP12086
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2679
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:05:01:02"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B14Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B14Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B14Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B14Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B14Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B14Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:05:01:02"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctctgtgggc tacgtggacg acacgcagtt cgtgcggttt
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggcta gccaaggacg tcgcacagac tttccgagtg
+      421 ggcctgcgga ccctgcgcag ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccctacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ctaggcgcct ttacccggct tcattttcag ttgaggccaa agtccccgcg gggtggtcgg
+      661 gccggggcgg ggctcggtgg gcggggatga ccgcgggggc ggggccaggg tttcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccgc ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggacac actgcagcgt gctggtacca ggggcagtgg ggagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggccccctct
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggagggaaag acagtccctg
+     1201 gaatactgat cagaggtccc ctttgacccc tgcagcaact ttgggcaccg tgaatttttc
+     1261 tctcaggcct tgttctctgc ctcacactca atgtgtttga aggtctgatt ccagcttttc
+     1321 tgagtccctc ggcctccgct caggtcagga ccagaagtcc ctgttcctcc ctcagagtct
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ttccccccgc ccaggtgtcc tgttcattct cagggtggtc acatgcgtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc ccctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc tcactgacct ggcagcggga tggggaggag
+     1681 caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac ctaccagaag
+     1741 tagggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcaacat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gggaagcagg agcccttctg gagcccttca gcagggtcag ggcccctcat
+     1921 tttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagag ctcaggtagg gaaggggtga ggggtggggt ctgggttttc ttgtccctct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tactgggaag cagcatccac
+     2161 acaggggcta acccagcctg gggccccgtg tgccagcact tactcttttg tgcagcacat
+     2221 gtgacaatga aggacagata tatcaccttg atggttttgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggggaag gtgtctgcta aggacagacc ttaggagggc agttggtcca
+     2341 ggacacacac ctgcttccct cctgttttct gatcctgccc tgggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcatg accctgcttc
+     2461 ctcccagtcc tctcacagga cattttcttc ccacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaga tcacccaccc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP12657                2679 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mamu-B14Ps*175:06:01:01, B14Ps locus allele.
+ACCESSION   NHP12657
+VERSION     NHP12657
+DBLINK      INSDC: LR989713
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:06:01:01
+            IPD accession: NHP12657
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2679
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:06:01:01"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B14Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B14Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B14Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B14Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B14Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B14Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctctgtgggc tacgtggacg acacgcagtt cgtgcggttt
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggcta gccaaggacg tcgcacagac tttccgagtg
+      421 ggcctgcgga ccctgcgcag ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccctacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ctaggcgcct ttacccggct tcattttcag ttgaggccaa agtccccgcg gggtggtcgg
+      661 gccggggcgg ggctcggtgg gcggggatga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccgc ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggacac actgcagcgt gctggtacca ggggcagtgg ggagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggccccctct
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggagggaaag acagtccctg
+     1201 gaatactgat cagaggtccc ctttgacccc tgcagcaact ttgggcaccg tgaatttttc
+     1261 tctcaggcct tgttctctgc ctaacactca atgtgtttga aggtctgatt ccagcttttc
+     1321 tgagtccctc ggcctccgct caggtcagga ccagaagtcc ctgttcctcc ctcagagtct
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ttccccccgc ccaggtgtcc tgttcattct cagggtggtc acatgcgtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc ccctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc tcactgacct ggcagcggga tggggaggag
+     1681 caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac ctaccagaag
+     1741 tagggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcaacat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gggaagcagg agcccttctg gagcccttca gcagggtcag ggcccctcat
+     1921 tttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagag ctcaggtagg gaaggggtga ggggtggggt ctgggttttc ttgtccctct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tactgggaag cagcatccac
+     2161 acaggggcta acccagcctg gggccccgtg tgccagcact tactcttttg tgcagcacat
+     2221 gtgacaatga aggacagata tatcaccttg atggttttgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggggaag gtgtctgcta aggacagacc ttaggagggc agttggtcca
+     2341 ggacacacac ctgcttccct cctgttttct gatcctgccc tgggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcatg accctgcttc
+     2461 ctcccagtcc tctcacagga cattttcttc ccacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaga tcacccaccc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP12658                2679 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mamu-B14Ps*175:07:01:01, B14Ps locus allele.
+ACCESSION   NHP12658
+VERSION     NHP12658
+DBLINK      INSDC: LR991666
+KEYWORDS    IPD-MHC; MHC class I; B14Ps.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-B14Ps*175:07:01:01
+            IPD accession: NHP12658
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2679
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:07:01:01"
+     exon            1..64
+                     /gene="B14Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B14Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B14Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B14Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B14Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B14Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B14Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B14Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B14Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B14Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B14Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B14Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B14Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B14Ps"
+                     /allele="Mamu-B14Ps*175:07:01:01"
+                     /codon_start=1
+                     /product="MHC class I B14Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagcg ccggcacgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctctgtgggc tacgtggacg acacgcagtt cgtgcggttt
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggcta gccaaggacg tcgcacagac tttccgagtg
+      421 ggcctgcgga ccctgcgcag ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccctacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcggg acccgcccag accctcgacc ggggagagcc
+      601 ctaggcgcct ttacccggct tcattttcag ttgaggccaa agtccccgcg gggtggtcgg
+      661 gccggggcgg ggctcggtgg gcggggatga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggat gtacggctgc gacctggggc ccgacgggcg cctactccgc ggatatcacc
+      781 ggttcgccta cgacggcagg gattacatcg ccctgaaccc ggacctgcgc tcctggaccg
+      841 cggcagacac ggcggctcag aacacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctgcag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggacac actgcagcgt gctggtacca ggggcagtgg ggagccttct ccatcacctc
+     1021 tagatcgccc gggatggcct cccacgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 tcccctccct tgaatgaaga atggcatgag tttccctgat ttcctctgag ggccccctct
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggagggaaag acagtccctg
+     1201 gaatactgat cagaggtccc ctttgacccc tgcagcaact ttgggcaccg tgaatttttc
+     1261 tctcaggcct tgttctctgc ctaacactca atgtgtttga aggtctgatt ccagcttttc
+     1321 tgagtccctc ggcctccgct caggtcagga ccagaagtcc ctgttcctcc ctcagagtct
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ttccccccgc ccaggtgtcc tgttcattct cagggtggtc acatgcgtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc ccctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc tcactgacct ggcagcggga tggggaggag
+     1681 caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac ctaccagaag
+     1741 tagggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcaacat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gggaagcagg agcccttctg gagcccttca gcagggtcag ggcccctcat
+     1921 tttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagag ctcaggtagg gaaggggtga ggggtggggt ctgggttttc ttgtccctct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tactgggaag cagcatccac
+     2161 acaggggcta acccagcctg gggccccgtg tgccagcact tactcttttg tgcagcacat
+     2221 gtgacaatga aggacagata tatcaccttg atggttttgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggggaag gtgtctgcta aggacagacc ttaggagggc agttggtcca
+     2341 ggacacacac ctgcttccct cctgttttct gatcctgccc tgggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcatg accctgcttc
+     2461 ctcccagtcc tctcacagga cattttcttc ccacaggtgg aaaaggaggg agctactctc
+     2521 aggctgtgtg taagtggtgg gggtgggagt gtggaggagc tcacccaccc cgtaattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//

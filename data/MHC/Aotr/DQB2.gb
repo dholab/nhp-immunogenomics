@@ -1,0 +1,45 @@
+LOCUS       NHP00058                 168 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Aotr-DQB2*01:02, DQB2 locus allele.
+ACCESSION   NHP00058
+VERSION     NHP00058
+DBLINK      INSDC: X57758
+KEYWORDS    IPD-MHC; MHC class II; DQB2.
+SOURCE      Aotus trivirgatus (Three-striped Night Monkey)
+  ORGANISM  Aotus trivirgatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Aotidae; Aotus.
+REFERENCE   1
+  AUTHORS   Gaur LK, Heise ER, Thurtle PS, Nepom GT.
+  TITLE     Conservation of the HLA-DQB2 locus in nonhuman primates.
+  JOURNAL   J Immunol 148:943-948 (1992)
+   PUBMED   1730881
+COMMENT     IPD-MHC allele: Aotr-DQB2*01:02
+            IPD accession: NHP00058
+            Species prefix: Aotr
+            MHC class: II
+            Previous designations: Aotr-DQB2*0102
+FEATURES             Location/Qualifiers
+     source          1..168
+                     /organism="Aotus trivirgatus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9505"
+     gene            1..168
+                     /gene="DQB2"
+                     /allele="Aotr-DQB2*01:02"
+                     /note="previous designations: Aotr-DQB2*0102"
+     exon            1..168
+                     /gene="DQB2"
+                     /number=1
+     CDS             1..168
+                     /gene="DQB2"
+                     /allele="Aotr-DQB2*01:02"
+                     /codon_start=1
+                     /product="MHC class II DQB2 antigen"
+                     /translation="TERVRGVARYIYNREEYARFDSDVGEFRAVTELGRSTEDWNNYKD
+                     FLEQQRAAVY"
+ORIGIN
+        1 acggagcgcg tgcggggtgt ggccagatac atctataacc gcgaggagta cgcgcgcttc
+       61 gacagcgacg tgggggagtt ccgggcggtg accgagctgg ggcggagcac cgaggactgg
+      121 aacaactata aggacttctt ggagcagcag cgggccgcgg tgtacacg
+//

@@ -1,0 +1,48 @@
+LOCUS       NHP00700                 270 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-H*01, H locus allele.
+ACCESSION   NHP00700
+VERSION     NHP00700
+DBLINK      INSDC: AF022171
+KEYWORDS    IPD-MHC; MHC class I; H.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Grimsley C, Mather KA, Ober C.
+  TITLE     HLA-H: a pseudogene with increased variation due to balancing
+            selection at neighboring loci.
+  JOURNAL   Mol Biol Evol 15:1581-1588 (1998)
+   PUBMED   9866194
+COMMENT     IPD-MHC allele: Papa-H*01
+            IPD accession: NHP00700
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-H(Sha)
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..270
+                     /gene="H"
+                     /allele="Papa-H*01"
+                     /note="previous designations: Papa-H(Sha)"
+     exon            1..270
+                     /gene="H"
+                     /number=1
+     CDS             1..270
+                     /gene="H"
+                     /allele="Papa-H*01"
+                     /codon_start=3
+                     /product="MHC class I H antigen"
+                     /translation="SHSMRYFYTTMSRPGRGEPRFISVGYVDDTQFVRFDSDDASPREE
+                     PRAPWMEREGPEYWDRNTQICKAQAQTERENLRMALRYYNQSEG"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacca ccatgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc cgtcggctac gtggacgata cgcagttcgt gcggtttgac agcgacgacg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagcg ggaggggccg gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactga acgagagaac ctgcggatgg
+      241 cgctccgcta ctacaaccag agcgagggct
+//

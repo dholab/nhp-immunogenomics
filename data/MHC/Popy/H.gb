@@ -1,0 +1,48 @@
+LOCUS       NHP00965                 270 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Popy-H*01, H locus allele.
+ACCESSION   NHP00965
+VERSION     NHP00965
+DBLINK      INSDC: AF022174
+KEYWORDS    IPD-MHC; MHC class I; H.
+SOURCE      Pongo pygmaeus (Bornean Orangutan)
+  ORGANISM  Pongo pygmaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   Grimsley C, Mather KA, Ober C.
+  TITLE     HLA-H: a pseudogene with increased variation due to balancing
+            selection at neighboring loci.
+  JOURNAL   Mol Biol Evol 15:1581-1588 (1998)
+   PUBMED   9866194
+COMMENT     IPD-MHC allele: Popy-H*01
+            IPD accession: NHP00965
+            Species prefix: Popy
+            MHC class: I
+            Previous designations: Popy-H(Hat)
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Pongo pygmaeus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9600"
+     gene            1..270
+                     /gene="H"
+                     /allele="Popy-H*01"
+                     /note="previous designations: Popy-H(Hat)"
+     exon            1..270
+                     /gene="H"
+                     /number=1
+     CDS             1..270
+                     /gene="H"
+                     /allele="Popy-H*01"
+                     /codon_start=3
+                     /product="MHC class I H antigen"
+                     /translation="SHSMWCFDTSESRPGRGEPRFISVGYVDDMQFVQFDSDAASPREE
+                     PWAPWMEQEGPEYWDRNTQISKTQAQTDRVNMQTLLRYYNQSX"
+ORIGIN
+        1 gctcccactc catgtggtgt ttcgacacct ccgagtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc cgtgggctac gtggacgaca tgcagttcgt gcagttcgac agcgacgccg
+      121 cgagtccgag agaggagccg tgggcgccat ggatggagca ggaggggccg gagtattggg
+      181 accggaacac acagatctcc aagacccagg cacagactga ccgagtgaac atgcagaccc
+      241 tgctccgtta ctacaaccag agctagggcg
+//

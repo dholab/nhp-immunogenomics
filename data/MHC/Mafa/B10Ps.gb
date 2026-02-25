@@ -1,0 +1,1392 @@
+LOCUS       NHP11814                2679 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:01:01:01, B10Ps locus allele.
+ACCESSION   NHP11814
+VERSION     NHP11814
+DBLINK      INSDC: HG992835
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:01:01:01
+            IPD accession: NHP11814
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2679
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:01:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B10Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B10Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B10Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B10Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B10Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B10Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctacgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttctaca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc cctggataga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaagaaca tcacacagtc cttccgagtg
+      421 ggcctgggga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcgcg acccgcccag accctcgacc tgggagagcc
+      601 ccaggcgcct ttacccggtt ttattttcac ttgaggacaa agtcctcgcg ggttgggcgg
+      661 ggcggggcgg ggctcggtgg gcggggctga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgacgggcg cctcctccgc ggatataacc
+      781 agcaggccta ggacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctggag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 agaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ctatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atggcatcag cactagaatg
+     1081 tcccctccct tgaatggaga atggcatgag tttcactgat ttcctctgag ggtcccctcc
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag acagtcccta
+     1201 gaatactgat caggggtccc ctttgaccac cgcagcagcc ttgggcaccg tgaatttttc
+     1261 tctcaggcct tattctctgc ctcacactaa atgtgtttga aggtctgttt ccagcttttc
+     1321 tgagtccctc ggcctccact caggtcagga ccagaagtcg ctgttcctcc ctcagagact
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ctcccccacc ccagctgtcc tgttcattct cagggtggtc acatgggtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc acctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga tggggaggac
+     1681 caaactcagg acaccgagct tgtggagacc aggccagcag gagatggaac cttccagaag
+     1741 tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcagcat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gtgaaacagg agcccttctg gagcccttca gcagagtcag ggcccctcat
+     1921 cttcccctcc tttcccagag ccatcttccc agtccaccat acccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagaa ctcaggtagg gaaagggtgt ggggtggggt ctgggttttc ttgtcccgct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tattgggaag cagcatccac
+     2161 acaggggcta acccagcctg ggaccctgtg tgccagcacc tactcttttg tgcagcacat
+     2221 gtgacaatga aggacggatg tatcaccttg atggttgtgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggagaag gtccctgcta aggatggacc ttgggaggac agttggtcca
+     2341 ggacacacac ctgctttcct cctgtttgct gatccttccc tcggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcaag accctgcttc
+     2461 ctcccagtcc cctcacagga cattttcttg ctacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaac tcacccatcc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP11816                2679 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:02:01:01, B10Ps locus allele.
+ACCESSION   NHP11816
+VERSION     NHP11816
+DBLINK      INSDC: HG992474
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:02:01:01
+            IPD accession: NHP11816
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2679
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:02:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1559..1834
+                     /gene="B10Ps"
+                     /number=4
+     exon            1939..2055
+                     /gene="B10Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B10Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1558
+                     /gene="B10Ps"
+                     /number=3
+     intron          1835..1938
+                     /gene="B10Ps"
+                     /number=4
+     intron          2056..2496
+                     /gene="B10Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1559..1834,1939..2055,
+                     2497..2529,2636..2679)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctacgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttctaca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcgggcgc cctggataga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaaggaca tcacacagtc cttccgagtg
+      421 agcctgggga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccacccc cgacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcgcg acccgcccag accctcgacc tgggagagcc
+      601 ccaggcgcct ttacccggtt ttattttcac ttgaggacaa agtcctcgcg ggttgggcgg
+      661 ggcggggcgg ggctcggtgg gcggggctga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgacgggcg cctcctccgc ggatataacc
+      781 agcaggccta ggacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctggag gggacgtgcg tggagtggct ccgcagacac ctggagaacg
+      961 agaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ctatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atggcatcag cactagaatg
+     1081 tcccctccct tgaatggaga atggcatgag tttcactgat ttcctctgag ggtcccctcc
+     1141 gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag acagtcccta
+     1201 gaatactgat caggggtccc ctttgaccac cgcagcagcc ttgggcaccg tgaatttttc
+     1261 tctcaggcct tattctctgc ctcacactaa atgtgtttga aggtctgttt ccagcttttc
+     1321 tgagtccctc ggcctccact caggtcagga ccagaagtcg ctgttcctcc ctcagagact
+     1381 agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg gtgtctggct
+     1441 tctgtgctcc ctcccccacc ccagctgtcc tgttcattct cagggtggtc acatgggtgc
+     1501 tgctggggtg tcccatgaga gatgcaaagc acctgaattt tctgactctt cccatcagat
+     1561 cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac cctgaggtgc
+     1621 tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga tggggaggac
+     1681 caaactcagg acaccgagct tgtggagacc aggccagcag gagatggaac cttccagaag
+     1741 tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca tgtgcagcat
+     1801 gaggggctgc tggagcccct caccctgaga tggggtaaga agggggatga ggggtcatgt
+     1861 ctcttctcag gtgaaacagg agcccttctg gagcccttca gcagagtcag ggcccctcat
+     1921 cttcccctcc tttcccagag ccatcttccc agtccaccat acccatcgtg ggcattgttg
+     1981 ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgctgct gtgatgtgga
+     2041 ggaggaagaa ctcaggtagg gaaagggtgt ggggtggggt ctgggttttc ttgtcccgct
+     2101 gggggtttca aacctcaggt agaagtgttc cctgcctcat tattgggaag cagcatccac
+     2161 acaggggcta acccagcctg ggaccctgtg tgccagcacc tactcttttg tgcagcacat
+     2221 gtgacaatga aggacggatg tatcaccttg atggttgtgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggagaag gtccctgcta aggatggacc ttgggaggac agttggtcca
+     2341 ggacacacac ctgctttcct cctgtttgct gatccttccc tcggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcaag accctgcttc
+     2461 ctcccagtcc cctcacagga cattttcttg ctacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagtggtgg gggtgggagt gtggaggaac tcacccatcc cataattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP11817                2680 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:03:01:01, B10Ps locus allele.
+ACCESSION   NHP11817
+VERSION     NHP11817
+DBLINK      INSDC: HG992472
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:03:01:01
+            IPD accession: NHP11817
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2680
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2680
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:03:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2498..2530
+                     /gene="B10Ps"
+                     /number=6
+     exon            2637..2680
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2497
+                     /gene="B10Ps"
+                     /number=5
+     intron          2531..2636
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2498..2530,2637..2680)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctcattgagg tatttcagca ccgccatgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggacg acacgcagtt cctgcggttg
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaaggaca tcacacagtc cttccgagtg
+      421 aacctgcgga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgcccct aggccgcgcg acccgcccag accctcgacc ggggagagcc
+      601 ccaggcgcct ttacctggct tcattttcag ttgaggccaa agtcctcgcg ggttggtcgg
+      661 ggcggggcgg ggatcggtgg gcggggctga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgacgcgcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcctgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cctcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctggggt gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc cgtctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcggg atggggagga
+     1681 ccaaactcag gacaccgagg ttgtggagac caggccagca ggagatggaa ccttccagaa
+     1741 gtggggagct gtggtggtgc cttgtggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccagagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 ccttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gctggcctgg ctgtcctagc agttgtggtc accagagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttatcccac
+     2101 tgggggtttc aaaccccagg tagaagtgtt ccctgcctca ttcctgggaa gcagcatcca
+     2161 cacaggggct aacccagcct gggaccccgt gtgccagcac ctactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacggat gtatcacctt gatggttgtg ctgttggggt cctgattcca
+     2281 gcattcacga gtcaggagaa ggtccctgct aaggatggac cttaggagga cagtaggtcc
+     2341 aggatacaca cctgctttcc tcctttttgc tgatcctgcc ctcggtctgt agtcatagtt
+     2401 ttggaaattt cttttgggtc caagactagg aggttcctct aagatctcaa gaccttgctt
+     2461 cctcccagtc ccctcacagg acattttctt gctacaggtg gaaaaggagg gagctactct
+     2521 caggctgcgt gtaagcggtg ggggtgggag tgtggaggac ctcacccatc ccgtaattcc
+     2581 tcctgtccca cgtctcctgc gggctctgac caggtcctgt ttttgttcta ccccagccag
+     2641 cgacagtgcc cagggctctg atgtgtctct cacggcttga
+//
+LOCUS       NHP11819                2680 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:04:01:01, B10Ps locus allele.
+ACCESSION   NHP11819
+VERSION     NHP11819
+DBLINK      INSDC: HG992471
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:04:01:01
+            IPD accession: NHP11819
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2680
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2680
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:04:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2498..2530
+                     /gene="B10Ps"
+                     /number=6
+     exon            2637..2680
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2497
+                     /gene="B10Ps"
+                     /number=5
+     intron          2531..2636
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2498..2530,2637..2680)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctcattgagg tatttcagca ccgccatgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggacg acacgcagtt cctgcggttg
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaaggaca tcacacagtc cttccgagtg
+      421 aacctgcgga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgcccct aggccgcgcg acccgcccag accctcgacc ggggagagcc
+      601 ccaggcgcct ttacctggct tcattttcag ttgaggccaa agtcctcgcg ggttggtcgg
+      661 ggcggggcgg ggatcggtgg gcggggctga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgacgcgcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcctgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cctcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctggggt gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc cgtctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcggg atggggagga
+     1681 ccaaactcag gacaccgagg ttgtggagac caggccagca ggagatggaa cctaccagaa
+     1741 gtggggagct gtggtggtgc cttgtggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccagagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 ccttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gctggcctgg ctgtcctagc agttgtggtc accagagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttatcccac
+     2101 tgggggtttc aaaccccagg tagaagtgtt ccctgcctca ttcctgggaa gcagcatcca
+     2161 cacaggggct aacccagcct gggaccccgt gtgccagcac ctactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacggat gtatcacctt gatggttgtg ctgttggggt cctgattcca
+     2281 gcattcacga gtcaggagaa ggtccctgct aaggatggac cttaggagga cagttggtcc
+     2341 aggatacaca cctgctttcc tcctttttgc tgatcctgcc ctcggtctgt agtcatagtt
+     2401 ttggaaattt cttttgggtc caagactagg aggttcctct aagatctcaa gaccttgctt
+     2461 cctcccagtc ccctcacagg acattttctt gctacaggtg gaaaaggagg gagctactct
+     2521 caggctgcgt gtaagcggtg ggggtgggag tgtggaggac ctcacccatc ccgtaattcc
+     2581 tcctgtccca cgtctcctgc gggctctgac caggtcctgt ttttgttcta ccccagccag
+     2641 cgacagtgcc cagggctctg atgtgtctct cacggcttga
+//
+LOCUS       NHP11820                2680 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:05:01:01, B10Ps locus allele.
+ACCESSION   NHP11820
+VERSION     NHP11820
+DBLINK      INSDC: HG992473
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:05:01:01
+            IPD accession: NHP11820
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2680
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2680
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:05:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2498..2530
+                     /gene="B10Ps"
+                     /number=6
+     exon            2637..2680
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2497
+                     /gene="B10Ps"
+                     /number=5
+     intron          2531..2636
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2498..2530,2637..2680)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctcattgagg tatttcagca ccgccatgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggacg acacgcagtt cctgcggttg
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaaggaca tcacacagtc cttccgagtg
+      421 aacctgcgga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgag atccgcccct aggccgcgcg acccgcccag accctcgacc ggggagagcc
+      601 ccaggcgcct ttacctggct tcattttcag ttgaggccaa agtcctcgcg ggttggtcgg
+      661 ggcggggcgg ggatcggtgg gcggggctga ccgcgggggc ggggccaggg tctcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgacgcgcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcctgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cctcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctggggt gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc cgtctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcggg atggggagga
+     1681 ccaaactcag gacaccgagg ttgtggagac caggccagca ggagatggaa cctaccagaa
+     1741 gtggggagct gtggtggtgc cttgtggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccagagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 ccttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gttggcctgg ctgtcctagc agttgtggtc accagagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttatcccac
+     2101 tgggggtttc aaaccccagg tagaagtgtt ccctgcctca ttcctgggaa gcagcatcca
+     2161 cacaggggct aacccagcct gggaccccgt gtgccagcac ctactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacggat gtatcacctt gatggttgtg ctgttggggt cctgattcca
+     2281 gcattcacga gtcaggagaa ggtccctgct aaggatggac cttaggagga cagttggtcc
+     2341 aggatacaca cctgctttcc tcctttttgc tgatcctgcc ctcggtctgt agtcatagtt
+     2401 ttggaaattt cttttgggtc caagactagg aggttcctct aagatctcaa gaccttgctt
+     2461 cctcccagtc ccctcacagg acattttctt gctacaggtg gaaaaggagg gagctactct
+     2521 caggctgcgt gtaagcggtg ggggtgggag tgtggaggac ctcacccatc ccgtaattcc
+     2581 tcctgtccca cgtctcctgc gggctctgac caggtcctgt ttttgttcta ccccagccag
+     2641 cgacagtgcc cagggctctg atgtgtctct cacggcttga
+//
+LOCUS       NHP11821                2680 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:06:01:01, B10Ps locus allele.
+ACCESSION   NHP11821
+VERSION     NHP11821
+DBLINK      INSDC: HG992476
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:06:01:01
+            IPD accession: NHP11821
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2680
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2680
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:06:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2498..2530
+                     /gene="B10Ps"
+                     /number=6
+     exon            2637..2680
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2497
+                     /gene="B10Ps"
+                     /number=5
+     intron          2531..2636
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2498..2530,2637..2680)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac caagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggacg acacgcagtt cctgcggttc
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtagt gggaggagca gacagggccc gccaaggaca tcacacagtc tttccgagtg
+      421 aacctgggga acctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccctggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacga tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcgcg acccgcccag acgctcgacc ggggagagcc
+      601 ccaggcgcct ttacccggct tcattttcag ttgaggccaa agtcctcgcg ggttgggcag
+      661 ggcggggcgg ggctcggtgg gcggggctga ccgcggggac ggggccaggg tctcacacca
+      721 tccagtggtt gtctggcagc gacctgggac ccgacgcgcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcttggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cctcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctgggct gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc catctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcagg atggggagga
+     1681 ccaaactcag gacaccgagg ttgtggagac caggccagca ggagatggaa ccttccagaa
+     1741 gtggggagct gtggtggtgc cttctggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccggagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 tcttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gctggcctgg ctgtcctagc agttgtggtc accggagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttgtcccgc
+     2101 tgggggtttc aaaccccagg tagaagtgtt tcctgcctca ttactgggaa gcagcatcca
+     2161 cacagggtct aacccagcct ggggccctgt gtgccagcac ttactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacggat gtatcacctt gatggttgtg ctgttggggt cctgattcca
+     2281 gcattcacga gtcaggagaa ggtccctgct aaggatggac cttaggagga cagttggtcc
+     2341 aggacacaca cctgctttcc tcctgtttgc tgatcctgcc ctcggtctgt agtcatagtt
+     2401 ttagaaattt cttttgggtc caagactagg agtttcctct aagatctcaa gaccctgctt
+     2461 cctcccagtc ccctcacagg acattttctt gctacaggtg gaaaaggagg gagctactct
+     2521 caggctgcgt gtaagtggtg ggggtgggag tgtggaggag ctcacccatc ccgtaattcc
+     2581 tcctgtctca cgtctcctgc gggctctgac caggtcctgt ttttgttcta ccccagccag
+     2641 cgacagtgcc cagggctctg atgtgtctct cacggcttga
+//
+LOCUS       NHP11823                2679 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:07:01:01, B10Ps locus allele.
+ACCESSION   NHP11823
+VERSION     NHP11823
+DBLINK      INSDC: HG992451
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:07:01:01
+            IPD accession: NHP11823
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2679
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:07:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B10Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2496
+                     /gene="B10Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2497..2529,2636..2679)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:07:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcccccg gaaccctcct cctgctgctc tcggcggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaacg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggacg acacgcagtt cctgcggttg
+      301 gacagcgacg ccgagagtcc gaggatggag ccgctggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaaggaca tcacacagtc ctaccgagtg
+      421 aacctgcgga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgaa atccgcccct aggccgcgcg acccgcccag accctcgacc ggggagagcc
+      601 ccaggcgcct ttacccggct tcattttcag ttgaggccaa agtcctcgcg ggttggtcgg
+      661 ggcggggcgg ggatcggtgg gcggggctga ccgcgggggc ggggccagga actcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgacgggcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagatac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cttcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctggggt gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc catctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcggg atggggagga
+     1681 ccaaactcag gacaccaagg ttgtggagac caggccagca ggagatggaa cctaccagaa
+     1741 gtggggagct gtggtggtgc cttctggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccggagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 tcttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gctggcctgg ctggcctagc agttgtggtc accggagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttgtcccgc
+     2101 tgggggtttc aaaccccagg tagaagtgtt tcctgcctca ttcctgggaa gcagcatcca
+     2161 cacagggtct aacccagcct gggaccctgt gtgccagcac ttactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacgatg tatcaccttg atggttgtgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggagaag gtccctgcta aggatggacc ttaggaggac agttggtcca
+     2341 ggacacacac ctgctttcct cctttttgct gatcctgccc tcggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcaag accctgcttc
+     2461 ctcccagtcc cctcacagga cattttcttg ctacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagcggtgg gggtgggagt gtggaggacc tcacccatcc cgtaattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP11824                2679 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:08:01:01, B10Ps locus allele.
+ACCESSION   NHP11824
+VERSION     NHP11824
+DBLINK      INSDC: HG992469
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:08:01:01
+            IPD accession: NHP11824
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2679
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2679
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:08:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2497..2529
+                     /gene="B10Ps"
+                     /number=6
+     exon            2636..2679
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2496
+                     /gene="B10Ps"
+                     /number=5
+     intron          2530..2635
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2497..2529,2636..2679)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:08:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaacg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggact acacgcagtt cctgcggttg
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtatt gggaagagca gacagggctc gccaaggaca tcacacagtc ctaccgagtg
+      421 aacctgcgga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacgg tccgggtctc cccgagtctc
+      541 cgggtccgaa atccgcccct aggccgcgcg acccgcccag accctcgacc ggggagagcc
+      601 ccaggcgcct ttacccggct tcattttcag ttgaggccaa agtcctcgcg ggttggtcgg
+      661 ggcggggcgg ggatcggtgg gcggggctga ccgcgggggc ggggccagga actcacaccc
+      721 tccagtggtt gtctggctgc gacctgggac ccgaggcgcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcctggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagatac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cttcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctggggt gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc catctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcggg atggggagga
+     1681 ccaaactcag gacaccaagg ttgtggagac caggccagca ggagatggaa cctaccagaa
+     1741 gtggggagct gtggtggtgc cttctggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccggagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 tcttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gctggcctgg ctggcctagc agttgtggtc accggagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttgtcccgc
+     2101 tgggggtttc aaaccccagg tagaagtgtt tcctgcctca ttcctgggaa gcagcatcca
+     2161 cacagggtct aacccagcct gggaccctgt gtgccagcac ttactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacgatg tatcaccttg atggttgtgc tgttggggtc ctgattccag
+     2281 cattcacgag tcaggagaag gtccctgcta aggatggacc ttaggaggac agttggtcca
+     2341 ggacacacac ctgctttcct cctttttgct gatcctgccc tcggtctgta gtcatagttt
+     2401 tggaaatttc ttttgggtcc aagactagga ggttcctcta agatctcaag accctgcttc
+     2461 ctcccagtcc cctcacagga cattttcttg ctacaggtgg aaaaggaggg agctactctc
+     2521 aggctgcgtg taagcggtgg gggtgggagt gtggaggacc tcacccatcc cgtaattcct
+     2581 cctgtcccac gtctcctgcg ggctctgacc aggtcctgtt tttgttctac cccagccagc
+     2641 gacagtgccc agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP11825                2681 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:09:01:01, B10Ps locus allele.
+ACCESSION   NHP11825
+VERSION     NHP11825
+DBLINK      INSDC: HG992447
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:09:01:01
+            IPD accession: NHP11825
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2681
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2681
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:09:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            197..466
+                     /gene="B10Ps"
+                     /number=2
+     exon            712..985
+                     /gene="B10Ps"
+                     /number=3
+     exon            1561..1836
+                     /gene="B10Ps"
+                     /number=4
+     exon            1941..2057
+                     /gene="B10Ps"
+                     /number=5
+     exon            2499..2531
+                     /gene="B10Ps"
+                     /number=6
+     exon            2638..2681
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..196
+                     /gene="B10Ps"
+                     /number=1
+     intron          467..711
+                     /gene="B10Ps"
+                     /number=2
+     intron          986..1560
+                     /gene="B10Ps"
+                     /number=3
+     intron          1837..1940
+                     /gene="B10Ps"
+                     /number=4
+     intron          2058..2498
+                     /gene="B10Ps"
+                     /number=5
+     intron          2532..2637
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,197..466,712..985,1561..1836,1941..2057,
+                     2499..2531,2638..2681)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:09:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagcccggc tccggggagg agggtcgggc gggtctcagc
+      181 ccctcctcgc ccccaggctc gcactcattg aggtatttca gcaccaccgt gtcccggccc
+      241 ggccgcgggg agccccgctt catctccttg tgctacgtgg acgacacgca gttcctgcgg
+      301 ttggacagcg acgccgagag tccgaggatg gagccgcggg cgcggtggtt ggagcaggag
+      361 gggccggagt attgggagga gcagacaggg ctcgccaagg acatcacaca gtccttccga
+      421 gtgaacctgc ggaccctgcg cggctactac aaccagagcg aggccggtga gtggccccgg
+      481 cccggggcgc aggtcacgac ccctccccat cccccacgga cgacccgggt ctccccgagt
+      541 ctccgggtcc gagatccgcc ccgaggccgc gcgacccgcc cagaccctcg accggggaga
+      601 gccccaggcg cctttacccg gcttcatttt cagttgaggc caaagtcctc gcgggttggg
+      661 cggggcgggg cggggatcgg tgggcggggc tgaccgcggg ggcggggcca gggtctcaca
+      721 ccatccagac gatgtatggc tgcgacctgg gacccgacgc gcgcctcctc cgcggatata
+      781 accagcaggc ctacgacggc aaggattaca tcgccctgaa cggggacctg agctcctgga
+      841 ccagggcaga cacggcggct cagataaccc agcgcaagtg ggaggcggcc cgcgaggcag
+      901 agcagtggag agcccacctg gaggggacat gcgtggagtg gctccgcaga cacctggaga
+      961 acgggaagga gacgctgcag cgcgggtacc aggggcagtg gggagccttc cccatcacct
+     1021 ctagatcgcc cgggatggcc tcccatgagg aggggaggaa aatgggatca gcgctagaat
+     1081 gttgccctcc cttgaatgga gaatggcatg agtttcactg atttcctctg agggccccct
+     1141 ccgctctcta ggacaattaa gggatgacgt ctctgaggaa atggagggga agacagtccc
+     1201 tagaatactg atcaggggtc ccctttgacc accgcagcag ccttgggcac cgtgaatttt
+     1261 tctctcaggc cttgttctct gcctcacact caatgtgttt gaaggtctga ttccagcttt
+     1321 tctgagtccc tcggcctcca ctcaggtcag gaccagaagt ccctgttcct ccctcagaga
+     1381 ctagaactct ccaaggaata ggagattatc ccagatgcct gtgtccaggc tggtgtctgg
+     1441 cttctgtgct ccctccccca ccccaggtgt cctgttcatt ttcagggtgg tcacatgggt
+     1501 gctgctgggg tgtcccatga gagatgcaaa gcgcctgaat tttctgactc ttcccatcag
+     1561 atcccccaaa gacacacgtg acccaccacc ccgtctctga ccatgaggcc accctgaggt
+     1621 gctgggccct gggcttctac cctgcagaga tcacactgac ctggcagcgg gatggggagg
+     1681 accaaactca ggacaccgag cttgtggaga ccaggccagc aggagatgga acctaccaga
+     1741 agtggggagc tgtggtggtg ccttctggag aagagcagag atacacgtgc catgtgcagc
+     1801 ataaggggct gcgggagccc ctcaccctga gatggggtaa gaagggggat gaggggtcat
+     1861 gtctctcctc aggggaaaca ggagcccttc tggagccctt cagcagagtc agggcccctc
+     1921 atcttcccct cctttcccag agccatcttc ccagtccacc atccccatcg tgggcattgt
+     1981 tgctggcctg gctgtcctag cagttgtggt caccggagct gtggtcgctg ctgtgatgtg
+     2041 gaggaggaag agctcaggta gggaaggggt gtggggtggg gtctgggttt tcttgtcccg
+     2101 ctgggggttt caaacctcag gtagaagtgt ttcctgcctc attcctggga agcagcatcc
+     2161 acacaggggc taacccagcc tgggaccctg tgtgccagca cctactcttt tgtgcagcac
+     2221 atgtgataat gaaggacgga tgtatcacct tgatggttgt gctgttgggg ttctgattcc
+     2281 agcattcacg agtcaggaga aggtccctgc taaggatgga ccttaggagg acagttggtc
+     2341 caggatacac acctgctttc ctcctttttg ctgatcctgc cctcggtctg tagtcatagt
+     2401 tttggaaatt tcttttgggt ccaagactag gaggttcctc taagatctca agaccctgct
+     2461 tcctcccagt cccctcacag gacattttct tgctacaggt ggaaaaggag agagctactc
+     2521 tcaggctgca tgtaagcggt gggggtggga gtgtggagga gctcacccat cccgtaattc
+     2581 ctcctgtccc acgtctcctg cgggctctga ccaggtcctg tttttgttct accccagcca
+     2641 gcgacagtgc ccagggctct gatgtgtctc tcacggcttg a
+//
+LOCUS       NHP11826                2681 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:09:01:02, B10Ps locus allele.
+ACCESSION   NHP11826
+VERSION     NHP11826
+DBLINK      INSDC: HG992450
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:09:01:02
+            IPD accession: NHP11826
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2681
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2681
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:09:01:02"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            197..466
+                     /gene="B10Ps"
+                     /number=2
+     exon            712..985
+                     /gene="B10Ps"
+                     /number=3
+     exon            1561..1836
+                     /gene="B10Ps"
+                     /number=4
+     exon            1941..2057
+                     /gene="B10Ps"
+                     /number=5
+     exon            2499..2531
+                     /gene="B10Ps"
+                     /number=6
+     exon            2638..2681
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..196
+                     /gene="B10Ps"
+                     /number=1
+     intron          467..711
+                     /gene="B10Ps"
+                     /number=2
+     intron          986..1560
+                     /gene="B10Ps"
+                     /number=3
+     intron          1837..1940
+                     /gene="B10Ps"
+                     /number=4
+     intron          2058..2498
+                     /gene="B10Ps"
+                     /number=5
+     intron          2532..2637
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,197..466,712..985,1561..1836,1941..2057,
+                     2499..2531,2638..2681)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:09:01:02"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagcccggc tccggggagg agggtcgggc gggtctcagc
+      181 ccctcctcgc ccccaggctc gcactcattg aggtatttca gcaccaccgt gtcccggccc
+      241 ggccgcgggg agccccgctt catctccttg tgctacgtgg acgacacgca gttcctgcgg
+      301 ttggacagcg acgccgagag tccgaggatg gagccgcggg cgcggtggtt ggagcaggag
+      361 gggccggagt attgggagga gcagacaggg ctcgccaagg acatcacaca gtccttccga
+      421 gtgaacctgc ggaccctgcg cggctactac aaccagagcg aggccggtga gtggccccgg
+      481 cccggggcgc aggtcacgac ccctccccat cccccacgga cgacccgggt ctccccgagt
+      541 ctccgggtcc gagatccgcc ccgaggccgc gcgacccgcc cagaccctcg accggggaga
+      601 gccccaggcg cctttacccg gcttcatttt cagttgaggc caaagtcctc gcgggttggg
+      661 cggggcgggg cggggatcgg tgggcggggc tgaccgcggg ggcggggcca gggtctcaca
+      721 ccatccagac gatgtatggc tgcgacctgg gacccgacgc gcgcctcctc cgcggatata
+      781 accagcaggc ctacgacggc aaggattaca tcgccctgaa cggggacctg agctcctgga
+      841 ccagggcaga cacggcggct cagataaccc agcgcaagtg ggaggcggcc cgcgaggcag
+      901 agcagtggag agcccacctg gaggggacat gcgtggagtg gctccgcaga cacctggaga
+      961 acgggaagga gacgctgcag cgcgggtacc aggggcagtg gggagccttc cccatcacct
+     1021 ctagatcgcc cgggatggcc tcccatgagg aggggaggaa aatgggatca gcgctagaat
+     1081 gttgccctcc cttgaatgga gaatggcatg agtttcactg atttcctctg agggccccct
+     1141 ccgctctcta ggacaattaa gggatgacgt ctctgaggaa atggagggga agacagtccc
+     1201 tagaatactg atcaggggtc ccctttgacc accgcagcag ccttgggcac cgtgaatttt
+     1261 tctctcaggc cttgttctct gcctcacact caatgtgttt gaaggtctga ttccagcttt
+     1321 tctgagtccc tcggcctcca ctcaggtcag gaccagaagt ccctgttcct ccctcagaga
+     1381 ctagaactct ccaaggaata ggagattatc ccagatgcct gtgtccaggc tggtgtctgg
+     1441 cttctgtgct ccctccccca ccccaggtgt cctgttcatt ttcagggtgg tcacatgggt
+     1501 gctgctgggg tgtcccatga gagatgcaaa gcgcctgaat tttctgactc ttcccatcag
+     1561 atcccccaaa gacacacgtg acccaccacc ccgtctctga ccatgaggcc accctgaggt
+     1621 gctgggccct gggcttctac cctgcagaga tcacactgac ctggcagcgg gatggggagg
+     1681 accaaactca ggacaccgag cttgtggaga ccaggccagc aggagatgga acctaccaga
+     1741 agtggggagc tgtggtggtg ccttctggag aagagcagag atacacgtgc catgtgcagc
+     1801 ataaggggct gcgggagccc ctcaccctga gatggggtaa gaagggggat gaggggtcat
+     1861 gtctctcctc aggggaaaca ggagcccttc tggagccctt cagcagagtc agggcccctc
+     1921 atcttcccct cctttcccag agccatcttc ccagtccacc atccccatcg tgggcattgt
+     1981 tgctggcctg gctgtcctag cagttgtggt caccggagct gtggtcgctg ctgtgatgtg
+     2041 gaggaggaag agctcaggta gggaaggggt gtggggtggg gtctgggttt tcttgtcccg
+     2101 ctgggggttt caaacctcag gtagaagtgt ttcctgcctc attcctggga agcagcatcc
+     2161 acacaggggc taacccagcc tgggaccctg tgtgccagca cctactcttt tgtgcagcac
+     2221 atgtgataat gaaggacgga tgtatcacct tgatggttgt gctgttgggg ttctgattcc
+     2281 agcattcacg agtcaggaga aggtccctgc taaggatgga ccttaggagg acagttggtc
+     2341 caggatacac acctgctttc ctcctttttg ctgatcctgc cctcggtctg tagtcatagt
+     2401 tttggaaatt tcttttgggt ccaagactag gaggttcctc taagatctca agaccctgct
+     2461 tcctcccagt cccctcacag gacattttct tgctacaggt ggaaaaggag agagctactc
+     2521 tcaggctgca tgtaagcggt gggggtggga gtgtggagga cctcacccat cccgtaattc
+     2581 ctcctgtccc acgtctcctg cgggctctga ccaggtcctg tttttgttct accccagcca
+     2641 gcgacagtgc ccagggctct gatgtgtctc tcacggcttg a
+//
+LOCUS       NHP11828                2676 bp    DNA     linear   PRI 20-MAY-2021
+DEFINITION  Mafa-B10Ps*01:10:01:01, B10Ps locus allele.
+ACCESSION   NHP11828
+VERSION     NHP11828
+DBLINK      INSDC: HG992470
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:10:01:01
+            IPD accession: NHP11828
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2676
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2676
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:10:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            708..981
+                     /gene="B10Ps"
+                     /number=3
+     exon            1556..1831
+                     /gene="B10Ps"
+                     /number=4
+     exon            1936..2052
+                     /gene="B10Ps"
+                     /number=5
+     exon            2494..2526
+                     /gene="B10Ps"
+                     /number=6
+     exon            2633..2676
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..707
+                     /gene="B10Ps"
+                     /number=2
+     intron          982..1555
+                     /gene="B10Ps"
+                     /number=3
+     intron          1832..1935
+                     /gene="B10Ps"
+                     /number=4
+     intron          2053..2493
+                     /gene="B10Ps"
+                     /number=5
+     intron          2527..2632
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,708..981,1556..1831,1936..2052,
+                     2494..2526,2633..2676)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:10:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctcattgagg tatttcagca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggact acacgcagtt cctgcggttg
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtggttgga gcaggagggg
+      361 ccggagtatt gggaggagca gacagggctc gccaaggaca tcacacagtc cttccgagtg
+      421 aacctgcgga ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtctc cccgagtctc
+      541 cggatccgag atccgccccg aggccgcgcg acccgcccag accctcgccg gggagagccc
+      601 caggcgcctt tacccggctt cattttcagt tgaggccaaa gtcctcgcgg gttgggcggg
+      661 gcggggcggg gatcggtggg cggggctgac cgcgggggcg gggccagggt ctcacaccct
+      721 ccagtggttg tctggctgcg acctgggacc cgacgcgcgc ctcctccgcg gatataacca
+      781 gcaggcctac gacggcaagg attacatcgc cctgaacggg gacctgagct cctggaccgg
+      841 ggcagacacg gcggctcaga taacccagcg caagtgggag gcggcccgcg aggcagagca
+      901 gtggagagcc cacctggagg ggacatgcgt ggagtggctt cgcagacacc tggagaacgg
+      961 gaaggagacg ctgcagcgcg ggtaccaggg gcagtgggga gccttcccca tcacctctag
+     1021 atcgcccggg atggcctccc acgaggaggg gaggaaaatg ggatcagcgc tagaatgttg
+     1081 ccctcccttg aatggagaat ggcatgagtt tcactgattt cctctgaggg ccccctctgc
+     1141 tctctaggac aattaaggga tgacgtctct gaggaaatgg aggggaagac agtccctaga
+     1201 atactgatca ggggtcccct ttgaccaccg cagcagcctt gggcaccgtg aatttttctc
+     1261 tcagccttgt tctctgcctc acactcaatg tgtttgaagg tctgattcca gcttttctga
+     1321 gtccctcggc ctccactcag gtcaggacca gaagtccctg ttcctccctc agagactaga
+     1381 actctccaag gaataggaga ttatcccaga tgcctgtgtc caggctggtg tctgggttct
+     1441 gtgctccctc ccccacccca ggtgtcctgt tcattctcag ggtggtcaca tgggtgctgc
+     1501 tggggtgtcc catgagagat gcaaagcgcc tgaattttct gactcttccc atcagatccc
+     1561 ccaaagacac acgtgaccca ccaccccgtc tctgaccatg aggccaccct gaggtgctgg
+     1621 gccctgggct tctaccctgc ggagatcaca ctgacctggc agcgggatgg ggaggaccaa
+     1681 actcaggaca ccgaggttgt ggagaccagg ccaggaggag atggaaccta ccagaagtgg
+     1741 ggagctgtgg tggtgccttc tggagaagag cagagataca cgtgccatgt gcagcataag
+     1801 gggctgcggg agcccctcac cctgagatgg ggtaagaagg gggatgaggg gtcatgtctc
+     1861 tcctcagggg aaacaggagc ccttctggag cccttcagca gagtcagggc ccctcatctt
+     1921 cccctccttt cccagagcca tcttcccagt ccaccatccc catcgtgggc attgttgctg
+     1981 gcctggctgt cctagcagtt gtggtcaccg gagctgtggt cgctgctgtg atgtggagga
+     2041 ggaagagctc aggtagggaa ggggtgtggg gtggggtctg ggttttcttg tcccgctggg
+     2101 ggtttcaaac cccaggtaga agtgtttcct gcctcattac tgggaagcag catccacaca
+     2161 ggggctaacc cagcctggga ccctgtgtgc cagcacctac tcttttgtgt agcacatgtg
+     2221 acaatgaagg acggatgtat caccttgatg gttgtgctgt tggggtcctg attccagcat
+     2281 tcacgagtca ggagaaggtc cctgctaagg atggacctta ggaggacagt tggtccagga
+     2341 tacacacctg ctttcctcct ttttgctgat cctgccctcg gtctgtaggc atagttttgg
+     2401 aaatttcttt tgggtccaag actaggaggt tcctctaaga tctcaagacc ctgcttcctc
+     2461 ccagtcccct cacaggacat tttcttgcta caggtggaaa aggagggagc tactctcagg
+     2521 ctgtgtgtaa gtggtggggg tgggagtgtg gaggagctca cccatcccgt aattcctcct
+     2581 gtcccacgtc tcctgcgggc tctgaccatg tcctgttttt gttctacccc agccagcgac
+     2641 agtgcccagg gctctgatgt gtctctcacg gcttga
+//
+LOCUS       NHP12642                2680 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B10Ps*01:11:01:01, B10Ps locus allele.
+ACCESSION   NHP12642
+VERSION     NHP12642
+DBLINK      INSDC: HG992475
+KEYWORDS    IPD-MHC; MHC class I; B10Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B10Ps*01:11:01:01
+            IPD accession: NHP12642
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2680
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2680
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:11:01:01"
+     exon            1..64
+                     /gene="B10Ps"
+                     /number=1
+     exon            194..463
+                     /gene="B10Ps"
+                     /number=2
+     exon            709..984
+                     /gene="B10Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B10Ps"
+                     /number=4
+     exon            1940..2056
+                     /gene="B10Ps"
+                     /number=5
+     exon            2498..2530
+                     /gene="B10Ps"
+                     /number=6
+     exon            2637..2680
+                     /gene="B10Ps"
+                     /number=7
+     intron          65..193
+                     /gene="B10Ps"
+                     /number=1
+     intron          464..708
+                     /gene="B10Ps"
+                     /number=2
+     intron          985..1559
+                     /gene="B10Ps"
+                     /number=3
+     intron          1836..1939
+                     /gene="B10Ps"
+                     /number=4
+     intron          2057..2497
+                     /gene="B10Ps"
+                     /number=5
+     intron          2531..2636
+                     /gene="B10Ps"
+                     /number=6
+     CDS             join(1..64,194..463,709..984,1560..1835,1940..2056,
+                     2498..2530,2637..2680)
+                     /gene="B10Ps"
+                     /allele="Mafa-B10Ps*01:11:01:01"
+                     /codon_start=1
+                     /product="MHC class I B10Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc tcgggggccc tggccctgac caagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcccc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccttgtgc tacgtggacg acacgcagtt cctgcggttc
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc ggtggttgga gcaggagggg
+      361 ccggagtagt gggaggagca gacagggccc gccaaggaca tcacacaatc tttccgagtg
+      421 aacctgggga acctgcgcgg ctactacaac cagagcgagg ccggtgagtg gccctggccc
+      481 ggggcgcagg tcacgacccc tccccatccc ccacggacga tccgggtctc cccgagtctc
+      541 cgggtccgag atccgccccg aggccgcgcg acccgcccag acgctcgacc ggggagagcc
+      601 ccaggcgcct ttacccggct tcattttcag ttgaggccaa agtcctcgcg ggttgggcag
+      661 ggcggggcgg ggatcggtgg gcggggctga ccgcggggac ggggccaggg tctcacacca
+      721 tccagtggtt gtctggcagc gacctgggac ccgacgcgcg cctcctccgc ggatataacc
+      781 agcaggccta cgacggcaag gattacatcg ccctgaacgg ggacctgagc tcttggaccg
+      841 gggcagacac ggcggctcag ataacccagc gcaagtggga ggcggcccgc gaggcagagc
+      901 agtggagagc ccacctggag gggacatgcg tggagtggct ccgcagacac ctggagaacg
+      961 ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccttcc ccatcacctc
+     1021 tagatcgccc gggatggcct cccatgagga ggggaggaaa atgggatcag cgctagaatg
+     1081 ttgccctccc ttgaatggag aatggcatga gtttcactga tttcctctga gggccccctc
+     1141 cgctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa gacagtccct
+     1201 agaatactga tcaggggtcc cctttgacca ccgcagcagc cttgggcacc gtgaattttt
+     1261 ctctcaggcc ttgttctctg cctcacactc aatgtgtttg aaggtctgat tccagctttt
+     1321 ctgagtccct cggcctccac tcaggtcagg accagaagtc cctgttcctc cctcagagac
+     1381 tagaactctc caaggaatag gagattatcc cagatgcctg tgtccaggct ggtgtctggc
+     1441 ttctgtgctc cctcccccac cccaggtgtc ctgttcattc tcagggtggt cacatgggtg
+     1501 ctgctgggct gtcccatgag agatgcaaag cgcctgaatt ttctgactct tcccatcaga
+     1561 tcccccaaag acacacgtga cccaccaccc catctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttctacc ctgcggagat cacactgacc tggcagcagg atggggagga
+     1681 ccaaactcag gacaccgagg ttgtggagac caggccagca ggagatggaa ccttccagaa
+     1741 gtggggagct gtggtggtgc cttctggaga agagcagaga tacacgtgcc atgtgcagca
+     1801 taaggggctg ccggagcccc tcaccctgag atggggtaag aagggggatg aggggtcatg
+     1861 tctcttctca ggggaaacag gagcccttct ggagcccttc agcagagtca gggcccctca
+     1921 tcttcccctc ctttcccaga gccatcttcc cagtccacca tccccatcgt gggcattgtt
+     1981 gctggcctgg ctgtcctagc agttgtggtc accggagctg tggtcgctgc tgtgatgtgg
+     2041 aggaggaaga gctcaggtag ggaaggggtg tggggtgggg tctgggtttt cttgtcccgc
+     2101 tgggggtttc aaaccccagg tagaagtgtt tcctgcctca ttactgggaa gcagcatcca
+     2161 cacagggtct aacccagcct ggggccctgt gtgccagcac ttactctttt gtgcagcaca
+     2221 tgtgacaatg aaggacggat gtatcacctt gatggttgtg ctgttggggt cctgattcca
+     2281 gcattcacga gtcaggagaa ggtccctgct aaggatggac cttaggagga cagttggtcc
+     2341 aggacacaca cctgctttcc tcctgtttgc tgatcctgcc ctcggtctgt agtcatagtt
+     2401 ttagaaattt cttttgggtc caagactagg agtttcctct aagatctcaa gaccctgctt
+     2461 cctcccagtc ccctcacagg acattttctt gctacaggtg gaaaaggagg gagctactct
+     2521 caggctgcgt gtaagtggtg ggggtgggag tgtggaggag ctcacccatc ccgtaattcc
+     2581 tcctgtctca cgtctcctgc gggctctgac caggtcctgt ttttgttcta ccccagccag
+     2641 cgacagtgcc cagggctctg atgtgtctct cacggcttga
+//

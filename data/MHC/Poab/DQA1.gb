@@ -1,0 +1,630 @@
+LOCUS       NHP10053                5580 bp    DNA     linear   PRI 20-MAR-2025
+DEFINITION  Poab-DQA1*01:01:01:01, DQA1 locus allele.
+ACCESSION   NHP10053
+VERSION     NHP10053
+DBLINK      INSDC: LR025188
+            INSDC: OZ240653
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQA1*01:01:01:01
+            IPD accession: NHP10053
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQA1*01:01
+FEATURES             Location/Qualifiers
+     source          1..5580
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..5580
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*01:01:01:01"
+                     /note="previous designations: Poab-DQA1*01:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            4114..4362
+                     /gene="DQA1"
+                     /number=2
+     exon            4775..5056
+                     /gene="DQA1"
+                     /number=3
+     exon            5426..5580
+                     /gene="DQA1"
+                     /number=4
+     intron          83..4113
+                     /gene="DQA1"
+                     /number=1
+     intron          4363..4774
+                     /gene="DQA1"
+                     /number=2
+     intron          5057..5425
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,4114..4362,4775..5056,5426..5580)
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASCGVNWYQSYGLS
+                     GQYTHEFDGDEQFYVDLEKKETAWRWPELRNFGGFDPQGALRNLAVSKYNLNLMIKRYN
+                     STAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEVYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCA
+                     LGLSAGLVGIVVGTVFIIQGLRSFGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctcgccc tgaccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg gatgttctct ggagctggaa
+      121 gacaggacat tgaaggaaaa gaaagaaagc gatttgcaga gaaattgtag agatttccta
+      181 agagcccttt cagtattaag agaattaaaa attatagctg ttcctccttc aggaaaccag
+      241 aaccccaacc tactcttttt gttatctatg ctgttgtgtt cactaaggac actattctgt
+      301 ttatattata ttcagtgact acagcctgga ggtctccatg tcattccatc atgattgcct
+      361 caaaaattag tgaggtttcc atcagtggat aatttattat tattaaaaat gtatgaagtg
+      421 tcattctcaa atttccctga acaacttttg aagcttttca tatgtctcct gtagtagatc
+      481 ttggggtcgt tccatcaatt atatactcta tagacattaa aaaagttgcc tgtttcttcc
+      541 tctcatacat actcacattt ccacatggga actggcccgg gtggggagtg ggtaaaggag
+      601 tccagcaggc tgaatgcctt caacaatcat tttaccacat ggtcctcact tactctcagc
+      661 tgcctcatat gtgtcacctc acaaataatc aaataaaatg agcatgtagc taagtttgta
+      721 aatagtgaaa acatgaatgt caattttttt tacatatttc tattacaggt atagcttcac
+      781 gtttcttttc ttcagcaaaa taaggaatcc ttttatttta aaattgagaa gtagaaaaaa
+      841 ttggtaaatt aaatcatttt gttctcaaat tatcgaccca agttacctgt tcttcacctc
+      901 atctaatgaa gtcctataaa aagaaaagtg ggccagacat ggtggctcat gcctgtaatc
+      961 ccagcacttt gggaggccaa ggcaggagga tcatttgagc ccaggagttt gagaccagcc
+     1021 tgggcaacat agcaagacct catctctaca aaaaataaaa ataaaaatta gccaggtgtg
+     1081 gtggtgcatg cttgtggtgc cagcaactca gaaggctgca gtgggaggag cacttgagtc
+     1141 caggagcgga aactgcagtg agccatgatg gcaccactac actccagcca gggcaacaga
+     1201 gagagaccct gtctcaaaaa gaaagaagaa agaaagagag gaaggaagga aggaagaagg
+     1261 aaggaaagaa ggaaggagaa aggaggaagg aaggaaaagg aaagggaagg gaggaaggaa
+     1321 ggaaggaaaa aagaaagaca gaaaaaggaa ggaaggaagc acagattaat tatttggtct
+     1381 cttagtcccc tctgcctttg tcgtccatct cttcccacct ctcttcatgc attcctttct
+     1441 ccctcttccc tttcaggatc catctctggc tccctgctcc tttatagagg tggacagtgg
+     1501 gtttgtaaaa caaaagtggg tttgtaaaac aaaagatagt taaaagggga agtgaaccgg
+     1561 aatgtactct aaactttcat aaccttatta accatggctg ctcccattct gattttgttc
+     1621 ggcagtggaa gtttcacctg cttctccaga gcacttggct tctttgttcc aaattttctt
+     1681 tctccaacct cacaccagag ctccctggtc aggctgagct catccactag gcacaatgtg
+     1741 ggcagtgcag gggaccctcc atactgtaaa gccacatgag aaggttttaa ctcctttaaa
+     1801 aattagaaaa aaatgaaatt gtagagccta agaaaatgtt ttaactttca atacagccta
+     1861 tattgtcttt ataccatttc agtcctaaaa tacaattttc catattttta tggaggaagg
+     1921 ggaccacaca agcaaaagtg ctcagagctt acatgtcaga atgcagccct ggtcatggct
+     1981 gatcctggcc ttcatatggt tctgctacct gtgtgcctgt cagtcttccc caaaatctat
+     2041 gtggtcttcg aatataacaa ctgtcattca attcacatgt ttgagtacac agtgagctaa
+     2101 gttttaagga ttcaaagatg aaaagtcatg ctgtcttcac cgcagagggt gcttagacta
+     2161 gtgatggaaa cagtatgggg tgcaggaaag cagaaggcca ttgcagagca gggcagtgga
+     2221 ctcagcagag gctgaaacaa tacaagtgac ttgtttccag ctgggccagc aaggtgacgt
+     2281 cctccagcaa aattcgacac ccaagacaag taccggatga aaagaaggat tgcatgtatt
+     2341 ccacatatat ccatgtttga acaaggagtc aaggtttatg gcaaggataa ggaggctttg
+     2401 ttggtagcgt gttaagacca accaggccag tcacgctgga tagggaagaa ggtgagctgg
+     2461 aagagaaaca gacaaacgtg gacagccaga cgttgagatg gaggggttgg aggtcgtaac
+     2521 gtggtcaaaa acatgttgat gagaggactt agccacaaag ttgttaactt aagcagaaac
+     2581 ctcaggattg attttaggat ttctccagga agtcctgaaa gataatttca tttcagggag
+     2641 aaaaacaaca gaccactgca aagaccaggg aacatgaaag gataatgtag tttggtttgc
+     2701 ttggcagata cttgtgaagg atgttggact gtaaggttgt cgatatcttc ttcacagaac
+     2761 gtgctacagt acattgtatc tgctccctta cctacctgac tctcccacta ttcagtttgt
+     2821 tccttaatgg tagaccatgc ctgattggtg ttttacacat cccctgctat gtctgacact
+     2881 tgtggatgct cagaaggtgg gggaggatgg aaagatatga tgatggtaaa agacctacac
+     2941 atgtcttgac aagaatgtcc agtttggctc atttggctgg attcatactg catggctgcc
+     3001 attctgctct ggcatcctca gactgcccat tagaggaaaa agggtgaata taagtgttga
+     3061 gtcagaatgc tgtagacatt tagtaacctc cttcagagga aaaaaaaggc gaggggaatg
+     3121 acagaaatcc aaaaactagt acagcttcca cttttcattt cagaagaaat cagttgctgt
+     3181 cctctaagga ccgttaccat taacaaaaca gagaccttag aaggaggcat tgtttattta
+     3241 ttatgtattt tgtaatgtta ttaccgatct tgttatgctc tttcttatac cctaccattg
+     3301 ttagcagaaa ttattttaaa ttaataagct cctgcatgct tttccttttt aaaaaaaaaa
+     3361 aaaaagaaag aaagatctcc atgtagagtg tcttgttctg agctagtcct aagaggaaag
+     3421 gaagtataat caatttgtta ttaaccgatg aaagaattaa gtgaaagata aatctcagga
+     3481 agcagaggga agtaaaccta atctctgact aagagagcta actactatga taactcattc
+     3541 attccttctt ttgttcaatt acattattat tttttctttt ttttaattat actttaagtt
+     3601 ttagagtaca tgtgcacaac gtgcaggttt gttacatatg tatacatgtg ccatgttggt
+     3661 gtgctgcacc cattaactca tcatttaaca ttaggtatat cttctaatgc tatccctccc
+     3721 ccgtccccca cccgacaaca ggccccggtg tgtgatgttc cccttcctga gtccatgtgt
+     3781 tctcattgtt caattcccac cgatgagtga gaacatgtgg tgtttggttt tttgtccttg
+     3841 cgatagtttg ctgagaatga tgggaaatag tggaaattgg acgtgcgata tcctgccctt
+     3901 gtgtagcgca cactagagtg ggaaataaag tgcactttta accggacaac tacgaacacg
+     3961 aagaggggag gaagcagggg ctggaaatgt ccacggactg tgccaaagat gaagcccata
+     4021 atatttgaaa gtcagtttct tccatcattt tgtgtattaa ggttctttct tcccttgttc
+     4081 tccaccttcc tgcttgtcat cttcactcat cagctgacca cgttgcctct tgtggtgtaa
+     4141 actggtacca gtcttacggt ctgtctggcc agtacaccca tgaatttgat ggagacgagc
+     4201 agttctacgt ggacctggag aagaaggaga ctgcctggcg gtggcctgag ttacgcaatt
+     4261 ttggaggttt tgacccgcag ggcgcactga gaaacttggc tgtgtcaaaa tacaacttga
+     4321 acctcatgat taaacgctac aactctactg ctgctaccaa tggtatgtgt ccaccattct
+     4381 gcccctcttt actgatctat cccttcatac caagtttcat tattttcttt ccaagaggtc
+     4441 cccagatcgt ctcatggcaa ttgctgaaat tttatcatct cctacctcta aaatcacata
+     4501 ttcccatgta atacaagggt ctttccatta tgcattcatt aaatccttct aggagaggtc
+     4561 tcatcaacct cctactttat taaacatgcc cacagagaga agggcacagg aataaagcag
+     4621 aggcaatgtg tcgttgctcc caagcagaag ggaaataaga cctttttgac tatcaggtgg
+     4681 tgaaatgctg gtaggtgggc tcttccagga tgtaatgcag aagctcatgg cagagctatt
+     4741 cacacttcac atcagtgctg tttcctcacc acagaggttc ctgaggtcac agtgttttcc
+     4801 aagtctcccg tgacactggg tcagcccaac accctcatct gtcttgtgga caacatcttt
+     4861 cctcctgtgg tcaacatcac atggctgagc aatgggcact cagtcacaga aggtgtttcc
+     4921 gagaccagct tcctctccaa gagtgatcat tccttcttca agatcagtta cctcaccttc
+     4981 ctcccttctg ctgatgaggt ttatgactgc aaggtggagc actggggcct ggatgagcct
+     5041 cttctgaaac actggggtaa ggatgagttc caccactttt tgatgctttc ttgtctgtca
+     5101 agttcagaac ttcctgtctt ttactcctat atcccaaaac ttgttttcca cacttcatgg
+     5161 gtttcttttc tctctctctc tttttttttt ttctttttgt tggaagaata aagcaacaaa
+     5221 agcagagatt tattgaaaat gaaagtacac tccacaggat gggagcaggc ctgccatttc
+     5281 atggatttct aatgatagac ttcactctcc tccataagct gggggacttg agtctttgca
+     5341 gagccaaccc tccaccccat cccatcccac acacatgcac atgagcacac tctgcattct
+     5401 gacctcaaaa acttcacttc cacagagcct gagattccag cccctatgtc agagctcaca
+     5461 gagactgtgg tctgcgccct ggggttgtct gcgggcctcg tgggcattgt ggtgggcact
+     5521 gtcttcatca tccaaggcct gcgttcattt ggtgcttcca gacaccaagg gcccttgtga
+//
+LOCUS       NHP10054                5414 bp    DNA     linear   PRI 20-MAR-2025
+DEFINITION  Poab-DQA1*05:01:01:01, DQA1 locus allele.
+ACCESSION   NHP10054
+VERSION     NHP10054
+DBLINK      INSDC: LR025189
+            INSDC: OZ240654
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQA1*05:01:01:01
+            IPD accession: NHP10054
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQA1*05:01
+FEATURES             Location/Qualifiers
+     source          1..5414
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..5414
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*05:01:01:01"
+                     /note="previous designations: Poab-DQA1*05:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3955..4200
+                     /gene="DQA1"
+                     /number=2
+     exon            4613..4894
+                     /gene="DQA1"
+                     /number=3
+     exon            5260..5414
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3954
+                     /gene="DQA1"
+                     /number=1
+     intron          4201..4612
+                     /gene="DQA1"
+                     /number=2
+     intron          4895..5259
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3955..4200,4613..4894,5260..5414)
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*05:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHIASYGVNLYQSYGSF
+                     GQYTHEFDGDEQFYVDLGRKETVWWLPVLSQFSFDPQFALTNIAVGKHNLNFLIKRSNS
+                     TAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSFL
+                     SKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCAL
+                     GLSAGLVGIVVGTVFIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctcgccc tgaccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgaga gatgttctct ggagctggaa
+      121 gagaggaaat tgaagcaaaa gagagaaagc gatttgcaga gacattgtag agatttccta
+      181 agggcccctt cagtattaag agatttaaaa attatggctg ttcctccttc aggaaaccag
+      241 agtcccaacc tactcttttt attatctatg ctgttggcgt tcactaagga tgctattctg
+      301 tttatattgt attcagtgac tacagcctgg agatctctat gtcattccat catgattgcc
+      361 tcaaaaattg gtgaggtttc catcagttga taatttttta ttattaaaaa tttgtgaagt
+      421 atcagtctca aatttccctg aacaactttt gaagcttttt ggatgtctcc tgtagtagac
+      481 cttggggtaa atgattccat caattatata ctctatagat attaagaaag atgccctttt
+      541 ctttctctca gacttactca catttccacg tgggaactgg cacaggtggg gagtgggtaa
+      601 aggagtccag caggctgaat gccttcagca atcatttcac cacatggccc tcacttactc
+      661 tcagctgcct catatgtgtc acctcacaaa taatcaaata aaatgggcat gtagttaagc
+      721 tttgtaaata gtgaaaacat gaatgtcagt tttattttta catatttctc ttataggtat
+      781 agcttcacat ttctttagca aaataaggaa tccttttatt ttaaaattga gaatttatag
+      841 tagaaaaact tggtaaatta aatcattttg ttctccaatt atcaacccaa atcacccgtt
+      901 cttcacctca tctaatgaag tcctataata aaaagaaaag tgggccagac atggtggctc
+      961 atgcctgtaa tcccagcact ttgggaggct gaggcaggag gatcctttga gcccaggagt
+     1021 ttgagacacc ctgggcaaca tagcaagacc tcatctctac aaaaaataaa aataaaaatt
+     1081 agccaggtgt ggtggtgcat gcctgtggtg ccagctactc agaaggctac agtgggagga
+     1141 ccacttgagt ccaggagcgg aagctgcagt gagccatgat ggcaccacta cactccagcc
+     1201 aaggcaatag agacagaccc tgtctcaaaa aaaaagagga aagaaagaga gaaaggaagg
+     1261 aaagaaggaa ggaaggaagg aaagaaggaa ggaagggaga aggggaaggg aagggaaggg
+     1321 aaggaaggaa agcaaaggga agggaaggga aggaaggaaa gcaaagggaa gggaggaaag
+     1381 aaggaaggaa aaaagaaaaa gaaagaagaa agaacgaaag aaaaggaagg aaagaaagaa
+     1441 aaaggaagga aggaagcaca gattaattat taattatttg gtctcttagt ctcctctgtc
+     1501 tttgtcatcc atctcttccc acctctcttc atgcattcct ttctccctct tccctttcag
+     1561 gatccatctc tgacgccctg ctcctttata tggacagtgg gtttgtaaaa caaaagtttt
+     1621 acaaactttt gttttacaaa gttttacaaa aatcagatag ttaaaaggtg aagtgaactg
+     1681 gaaggtctaa acttccccaa ccttattaac catggctgct cccgttctga ttttgttcgg
+     1741 cagtggaagt ttcatctgct tctccagagc acttggcttc tttgttccaa atttcctttc
+     1801 ttcaacctca caccagagtg ccctggtcag gctcggctca tccattaggc acaacgtggg
+     1861 caaagcagag aaccctccat actgtaaagc cacatgagaa tgttttaact ccttttaaga
+     1921 ttagaaaaaa atgaaatttc agagcctaag aaaatgtttt aattcagcct agattgtatt
+     1981 gtctttaaac caattcagtc ataaaataca attttccata tttttatgga ggaaggggcc
+     2041 cacaacagca agagtgctca gggctcacat gtcagaacgc agccctggtc atggctgatc
+     2101 ctggccttcg tatggttctg ctagtgtgcc tgtccgtctt ccccaaaatc tgtgtggtcc
+     2161 tcaagtatag caactgtaat tcaaaacaca tttgagcaca cagtaagcta agttttaagg
+     2221 attcaaagat gaaaagtcat gctgtcttcc ctgcagtggg tgctcagact agtgatggaa
+     2281 acagtatggg atgcaggaaa gcagaaagcc attgctgagc agggcagtgg actcagcaga
+     2341 ggctgaaact atacaaacga cttggttcca gctgggccag cagggtgaca tcctccagca
+     2401 aaactcggca cccaagacaa gtcccagatg aaaaggattg ctttgtgttt gataaggagt
+     2461 caaggtttat tgcaaggata aggaggcttt gttggtggcc tgttaagacc atccagggca
+     2521 gtcatactgg ataaggaaga aggtgagctg gaagaggaac agacaaacag acagatattg
+     2581 agatggagga gctggaggtc ataacgtggt caaaaacatg ttgatgagag gacttagcta
+     2641 caaagttgtt aacttaagca taaacctcaa ggatgaattt taggatttct ccggaaaatc
+     2701 ctaaaagata atttcatttc agggagaaaa acaacaaacc actgcaaaga ccaggcaaca
+     2761 tgaaaggata atatagtttg gtttgcttgg cagatacttg tgaaggatgt tggactgtaa
+     2821 ggctgttgat atcctcctca cagaacttac tacagtacat tgtatttgct cgcttaccta
+     2881 cctgactctc ccactattca gtttgttcct taacggtaga ccatgcctga ttggtgtttt
+     2941 acacatcccc tgctatgtct gacacgtgtg gatgctcaga aagtggggaa ggaaggaaag
+     3001 atacaatggt agaaggctta cacatcttga caagaatgtc cagttcggct catttggctg
+     3061 gagttgtatt tgcatggctg ccattctgct ctggcatgct tagacaagca cactgcccat
+     3121 tagaggaaaa agggtttaat ttacctgagt cctcaagtga atataagtgt tgagtcagaa
+     3181 cactgtagac atttagtaac ctccttcaga ggaaaaaaaa ggtggggata aatgacagaa
+     3241 atccgaaaac tagtagagct tccactcttc atttcagaag aaatctgttg ctctgctcta
+     3301 aggaccatta ctattaacaa aacagagacc ttgaaggagg cattgtttat ttattatata
+     3361 ttttgtaatg ttattaccat tcttgttata ctctttctta taccctacaa ttgttagcag
+     3421 acattatttt aaattaataa gatcctgcat gcttttcctt ttttaaaaaa aagaaagatc
+     3481 tctgtgtaga gtgtgctgtt ctgaaccagt cctgagagga aaggaagtac aatcaatttg
+     3541 ttattaactg atgaaagaat taagtgaaag ataaatctta ggaagcaaag ggaagtaaac
+     3601 ctaatctctg actaggaaag ctaaatacta caataactca ttcattcctt cttttgttca
+     3661 attatagtat ttaatcataa gtccatgatg tgccaggcac tcaggaaata gtaaaaactg
+     3721 gacatgtgat attctgccct tgtgtagcac acattatagt gcgaaagaaa gcgcaatttt
+     3781 aaccggacaa ctaccaacac taagagcgga ggaagcaggg gctggaaatg tccacaggct
+     3841 gtgccaaaga tgaagcccgt aatatttgaa agtcagtttc ttccatcatt ttgtgtatta
+     3901 aggttctttc ttcccctgtt ctccaccttc ctgcttgtca tcttcactca tcagctgacc
+     3961 acatcgcctc ttatggtgta aacttgtacc agtcttacgg ttcctttggc cagtacaccc
+     4021 atgaatttga tggagacgag cagttctacg tggacctggg gaggaaggag actgtctggt
+     4081 ggttgcctgt tctcagccaa tttagttttg acccgcaatt tgcactgaca aacattgccg
+     4141 tgggaaaaca taacttgaac ttcctgatta aacgctccaa ctctactgct gctaccaatg
+     4201 gtatgtgtcc accattctgc ccctctttac tgatctatcc cttcatacca agtttcatta
+     4261 ttttctttcc aagagatccc cagatcttct catagtaatt gctgaaattt cattgtctcc
+     4321 catctctaaa atcacatatt cccatgtaat acaagggtct ttccattatc cattcattaa
+     4381 atccttctag gagaggtctc atcaacctcc tgctttatta aacatgccca cagagagaag
+     4441 ggcgcaggaa taaagcagag gcaatgtgtc gttgctccca agcagaaggt aaataagacc
+     4501 tctttgacta tcaggtggtg aaatgctggt aggagggctc ttccaggatg taatgcagaa
+     4561 gctcagggca gagctattca cacttcacat cagtgctgtt tcctcaccac agaggttcct
+     4621 gaggttacag tgttttccaa gtctcccgtg acgctgggtc agcccaacac cctcatctgt
+     4681 cttgtggaca acatctttcc tcctgtggtc aacatcacat ggctgagcaa tgggcactca
+     4741 gtcacagaag gtgtttccga gaccagcttc ctctccaaga gtgatcattc cttcttcaag
+     4801 atcagttacc tcaccttcct cccttctgct gatgagattt atgactgcaa ggtggagcac
+     4861 tggggcctgg accagcctct tctgaaacac tggggtaagg atgagtttca ccgttttttg
+     4921 atgctttctt gtctgtcaag ttcagaactt cctgcttttt actcctatat cccaaaactt
+     4981 gttttccaca cttcatggat ttcttttttt tttttttgaa agaataaagc aacaaaagca
+     5041 gagatttatt gaaaatgaaa gtacactcca cagagtggga gcgggcctga gcataggagc
+     5101 tcaagagcca cttcatgagt ttctaatgat agacttcact ctcctcccta agcctgggac
+     5161 cttgagtctt tgcagagcca accctccacc ccatcccatc ccacactctt gcacatgagc
+     5221 acactctgca ttctgacctc aacaacttca cttccacaga gcctgagatt ccagccccta
+     5281 tgtcagagct cacagagact gtggtctgcg ccctggggtt gtctgcaggc ctcgtgggca
+     5341 ttgtggtggg cactgtcttc atcatccgag gcctgcgttc agttggtgct tccagacacc
+     5401 aagggccctt gtga
+//
+LOCUS       NHP10055                5381 bp    DNA     linear   PRI 20-MAR-2025
+DEFINITION  Poab-DQA1*05:02:01:01, DQA1 locus allele.
+ACCESSION   NHP10055
+VERSION     NHP10055
+DBLINK      INSDC: LR025190
+            INSDC: OZ240623
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQA1*05:02:01:01
+            IPD accession: NHP10055
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQA1*05:02
+FEATURES             Location/Qualifiers
+     source          1..5381
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..5381
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*05:02:01:01"
+                     /note="previous designations: Poab-DQA1*05:02"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3921..4166
+                     /gene="DQA1"
+                     /number=2
+     exon            4576..4857
+                     /gene="DQA1"
+                     /number=3
+     exon            5227..5381
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3920
+                     /gene="DQA1"
+                     /number=1
+     intron          4167..4575
+                     /gene="DQA1"
+                     /number=2
+     intron          4858..5226
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3921..4166,4576..4857,5227..5381)
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*05:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALATVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEQFYVDLGRKETVWCLPVLRQFRFDPQFALTNIAVLKHNLNNLIKRSNS
+                     TAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGHTVTEGVSETSFL
+                     SKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDQPLLKHWEPEIPAPMSELTETVVCAL
+                     GLSVGLVGIVVGTVLIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct gatgctgggg gccctcgccc tggccaccgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg gatgttctct ggagctggag
+      121 gagaggaaat tgaaggaaaa gagagaaaac agtttgcaga gaaactgtag agatttccta
+      181 agggcccctt cagtattaag agattaaaaa attatggctg ttcctccttc aggaaaccag
+      241 agtcccaacc tactattttt gttatctatg ctgttggcgt tcactaagga tgctattctg
+      301 tttatgttgt attcagtgac tacagcctgg aggtcactat gtcattccat catgattgcc
+      361 tcaaaaattg gtgaggtttc catcagttga taatttttta ttattaaaaa tttgtgaagt
+      421 atcattctca aatttccctg aacaactttt gaagcttttc ggatgtctcc tgtagtaggg
+      481 cttggggtaa atgattccat caatttcata ctctatagat gttaagaaag atgccctttt
+      541 ctttctctca gacttactca catttccaca tgggaactgg cacagttggg gagtgggtaa
+      601 aggagtccag caggctgaat gccttcagca atcatttcac cacatggtcc tcacttactc
+      661 tcagctgcct catatgtgtc acctcacaaa taatcaaata aaatgggcat gtagctaagc
+      721 tttgtaaata gtgaaaatat gaatgtcaat tttattttta catatttctg ttataggtat
+      781 agcttcatat ttcttttctt tagcaaaata aggaatcctc ttattttaaa attgagaatt
+      841 tatagtagaa aaacttggta aattaaatca ttttgttctc aaattatcaa cccaaattac
+      901 ctgttcttta cctcatctaa tgaagtccta taaaaagaaa agtgggccag acatggtggc
+      961 tcatgcctgt aatcccagca ctttgggagg ccgaggcagg aggatccttt gagcccagga
+     1021 gtttgagacc agcctgggca acatagcaag acctcatctc tacaaaaaat aaaaattagc
+     1081 caggtgtggt ggtgcatgcc tgtggtgcca gctattcaga aggctgcagt gggaggactg
+     1141 cttgagtcca ggaggcggaa gctgcagtga gccatgatgg caccactaca ctccagccag
+     1201 ggcaacagag agagaccctg tctcaaaaag aaagaggaaa gaaagagaga aaggaaggaa
+     1261 agaaagaaag aaggaaggaa ggaaagagaa ggaaggaagg gagaaggtga agggaaggga
+     1321 aggaaggaag gaaaggaaag ggaagggagg aaagaaggaa ggaaaaaaga aaaagaaagt
+     1381 agaaaggaag aaagaagaaa gaaagaaaag aaggaagaaa aggaagaaaa aggaaggaag
+     1441 gaagcacaga ttaattatta attatttggt ctctcttagt ctcctctgtc tttgtcgccc
+     1501 atctcttcct acctctcttc atgcattcct ttcttccttt tccctttcag gatccatctc
+     1561 tgactctctg cttctttata tggacagtgg gtttgtaaaa caaaagttga aaaatcagat
+     1621 agttaaaagg tgaagtgaac tggaaggtct aaacttccac aaccttatta accatggctg
+     1681 ctcccattct gattttgttc ggcagtggaa ttttcacctg cttctccaga gcacttggct
+     1741 tctttgttcc aaatttcctt tcttcaacct cacaccagag tgccctggtc aggctcggct
+     1801 catccattag gcacaacgtg ggcaatgcag agaaccctcc atactgtaaa gccacatgag
+     1861 aatgttttag ctccttctaa gattagaaaa aaatgaaatt tcagagccta agaaaatgtt
+     1921 ttaattcagc ctagattgta ttgtctttat accaattcag tcataaaata caattttcca
+     1981 tatttttatg gaggaagggg cccacaaaag caagagtgct cagggctcac atgtcagaac
+     2041 gcagccctga tcatggctga tcctggcctt tgtatgattc tgctagtgtg cctgtccgtc
+     2101 ttccccaaaa tctatgtggt cctcaaatat agcaactgta attcaaaaca cgtttgagca
+     2161 cacagtaagc taagttttaa ggattcaaag acgaaaagtc atgctgtctt ccctgcagag
+     2221 ggtgctcaga ctagtgatgg aaacagtatg ggatgcagga aagcaaaagg ccattgctga
+     2281 gcagggcagt ggactcagca gagactgaaa ctatacaaat gacttggttc cagctgggcc
+     2341 agcagggtga catcctccag caaaactcgg cacccaagac aagtcccaga tgaaaagaag
+     2401 gattgctttg tgtttgataa ggagtcaagg tttattgcaa ggataaggag gctttgttgg
+     2461 tggcctgtta agacaatcca gggcagtcat actggataag gaagaaggtg agctggaaga
+     2521 ggaacagaca aacagccaga tattgagatg gaggagctgg aggtcataaa gtggtcaaaa
+     2581 gcatgttgat gagaggactt agctacaaag ttgttaactt aagcataaac tgcaaggatg
+     2641 aattttagga tttctccaga aagtcctaaa agataatttc atttcaggga gaaaaacaac
+     2701 aaaccactgc aaagaccagg aaacatggaa ggataatgta gttttgtttg cttggcagat
+     2761 acttatgaaa gatgttggac tgtaaggctg ttgatagcct cctcacagaa cgtgctacag
+     2821 tacattgtat ctgctccctt acctacctga ctcttccact gttcagtttg ttccttaatg
+     2881 gtagaccatg cctgattggt gttttacaca tcccctgcta tgtctgacac ttgtggatgc
+     2941 tcagaaagtg gggaaggaag gaaagataca acagtaaaag gcttacacat cttgacaaga
+     3001 atgtccagtt cagctcattt ggctggagcc atatcgcatg gctgccattc tgctctggca
+     3061 ttctcagaca agcacactgc ccattagagg aaaaagtgtt taatttagct gagtcctcaa
+     3121 gtgaatataa gtgttaagtc agaacgctgt agacatttag taacctcctt cagaggaaaa
+     3181 aaaaaaaggt gagggaaatg acagaaatcc acaaattagt agagcttcca ctcttcattt
+     3241 cagaagaaat cagttgctct cctctaagga tcattactat taacaaaaca gagatcttga
+     3301 aggaggcatt gtttatttat tatatatttt gtaacgttat taccattctt gttatactct
+     3361 ttcttatacc ctacaattgt tagcagacat tattttaaat taataagatc ctgcatgctt
+     3421 ttcctttttt taaaaaaaga aagacctctg tgtagagtgt cctgttctga gccagtcctg
+     3481 agaggaaaga aagtacaatc agtttgttat taactgatga aagaattaag tgaaagatga
+     3541 atcttaggaa gcagagggaa gtcaacctag tctctgacta agaaagctaa ataccataat
+     3601 aactcattca ttccttcttt tgttcaatta cagtatttaa tcctaagtcc acgatgtgcc
+     3661 aggcactcag gaaatagtaa aaactggaca tgtgatattc tgcccttgtg tagcgcacat
+     3721 tatagtggga aagaaagtgc aattttaacc ggacaactac caacactaag agcggaggaa
+     3781 gcaggggctg gaaatgtcca caggctgtgc caaagatgaa gcccataata tttgaaaatc
+     3841 agtttcttcc atcattttgt gtattaaggt tctttcttcc cctcttctcc accttcctac
+     3901 ttgtcatctt cactcatcag ctgatcacgt cgcctcttat ggtgtaaact tgtaccagtc
+     3961 ttacggtccc tctggccagt acacccatga atttgatgga gacgagcagt tctacgtgga
+     4021 cctggggagg aaggagactg tctggtgttt gcctgttctc agacaattta gatttgaccc
+     4081 gcaatttgca ctgacaaata tcgctgtgct aaaacataac ttgaacaacc tgattaaacg
+     4141 ctccaactct accgctgcta ccaatggtat gtgtccacaa ttctgcccct ctttactgat
+     4201 ctatcccttc ataccaagtt tcattatttt atttccaaga ggttcccaga tcttctcatg
+     4261 gcaattgctg aaattttatc acctcccatc tctaaaatca catattccca tgtaatacaa
+     4321 gggtctttcc attatgcatt cagtaaatcc ttctaggaga ggtctcatca acctcctact
+     4381 ttattaaaca tgcccacaga gaggacatag gaataaagca gaggcattgt gtcgttgctc
+     4441 ccaagcagaa ggtaaataag acctctttga ctatcaggtg atgaaatgct ggtaggaggg
+     4501 ctcttccagg atgtaatgca gaagatcagg gcagagctat tcacacctca catcagtgct
+     4561 gtttcctcac cacagaggtt cctgaggtca cagtgttctc caagtctccc gtgacgctgg
+     4621 gtcagcccaa caccctcatc tgtcttgtgg acaacatctt tcctcctgtg gtcaacatca
+     4681 catggctgag caatgggcac acagtcacag aaggtgtttc tgagaccagc ttcctctcca
+     4741 agagtgatca ttccttcttc aagatcagtt acctcacctt cctcccttct gctgatgaga
+     4801 tttatgactg caaggtggag cactggggcc tggaccagcc tcttctgaaa cactggggta
+     4861 aggatgaatt ctaccacttt ttgatgcttt cttgtctgtc aagttcagaa cttcctgcct
+     4921 tttactccta tatcccaaaa cttgttttcc acacttcatg ggtttctttc tttatttttt
+     4981 ttttgaaaga ataaagtaac aaaagcaaag atttattgaa aatgaaagta cactccacag
+     5041 ggtgggagcg ggcctgagca taggggctca agagccactc catgggtttc taatgataga
+     5101 cttcactctc ctccctaagc cgggggcttt gagtctttgc agagccaacc ctccacccca
+     5161 tcccatccca cacacatgca catgggcaca ctctgttttc tgacctcaac aacttcatat
+     5221 ccacagagcc tgagattccg gcccctatgt cagagctcac agagactgtg gtctgtgccc
+     5281 tggggttgtc tgtgggcctc gtgggcattg tggtggggac cgtcttgatc atccgaggcc
+     5341 tgcgttcagt tggtgcctcc agacaccaag ggcccttgtg a
+//
+LOCUS       NHP10056                5253 bp    DNA     linear   PRI 20-MAR-2025
+DEFINITION  Poab-DQA1*21:01:01:01, DQA1 locus allele.
+ACCESSION   NHP10056
+VERSION     NHP10056
+DBLINK      INSDC: LR025191
+            INSDC: OZ240651
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQA1*21:01:01:01
+            IPD accession: NHP10056
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQA1*21:01
+FEATURES             Location/Qualifiers
+     source          1..5253
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..5253
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*21:01:01:01"
+                     /note="previous designations: Poab-DQA1*21:01"
+     exon            1..82
+                     /gene="DQA1"
+                     /number=1
+     exon            3805..4053
+                     /gene="DQA1"
+                     /number=2
+     exon            4466..4747
+                     /gene="DQA1"
+                     /number=3
+     exon            5099..5253
+                     /gene="DQA1"
+                     /number=4
+     intron          83..3804
+                     /gene="DQA1"
+                     /number=1
+     intron          4054..4465
+                     /gene="DQA1"
+                     /number=2
+     intron          4748..5098
+                     /gene="DQA1"
+                     /number=3
+     CDS             join(1..82,3805..4053,4466..4747,5099..5253)
+                     /gene="DQA1"
+                     /allele="Poab-DQA1*21:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="MILNKALMLGALALTTVMSPCGGEDIVADHVASYGVNLYQSYGPS
+                     GQYTHEFDGDEEFYVDLERKETVWQLPLFIKFRRFDPQGALRNIIVGKHNLDILIKCSN
+                     STAATNEVPEVTVFSKSPVTLGQPNTLICLVDNIFPPVVNITWLSNGHSVTEGVSETSF
+                     LSKSDHSFFKISYLTFLPSADEIYDCKVEHWGLDEPLLKHWEPEIPAPMSELTETVVCA
+                     LGLTVGLVGIVVGTILIIRGLRSVGASRHQGPL"
+ORIGIN
+        1 atgatcctaa acaaagctct tatgctgggg gcccttgccc tgaccactgt gatgagcccc
+       61 tgtggaggtg aagacattgt gggtgagtgc atgagtgagg gatgttctct ggagctggaa
+      121 gagaggaaat tgaaggaaaa gagagaaaac aatttgcaga gaaactgtag agatttccta
+      181 agggcccctt cagtattaag agatttaaaa attatggctg ttccttcttc aggaaaccag
+      241 agtcccagcc tactcttttt gttatctatg ctgttggcgt tcactaagga tactattctg
+      301 tttatattat attcagtgac tacagcctgg agctctctat gtcattccat catgattgcc
+      361 tcaaaaattg gtgaggtttc catcagtcga taatttttta ttattgaaaa tttgtgaagt
+      421 atcattctca aatttccctg aacaactttt gaagcttttc agatgtctcc tgtagtagac
+      481 cttggggtaa atgattccat caattatata ctctatagat attaagaaag acttactcac
+      541 atttccacat gggaactggc acaggtgggg agtgggtaaa ggagtctagc agactgaacg
+      601 ccttcaacaa tcattttacc acatggtcct cacttactct cagctgcctc atatgtgtca
+      661 cctcacaaat aatcaaataa aatgggcatg tatctaagct ttgtaaacag cgaaaacatg
+      721 aatgtcaatt tttttccata tttctattac aggtatagct tcacatttct ttagcaaaat
+      781 aaggaatcct tttattttaa aattgagaat ttatagcaga aaaacttagt aaattaaatc
+      841 attttattct gaaattatca acccaaatta cctgttcttc acctcatcaa atgaagtcct
+      901 ataaaacgaa aagtggtcca gacatggtgg ctcatgcctg taatcccagc actttgggag
+      961 gccgaggcag gaggatcatt tgaacccacg agtttgagac tagcctgggc aacataacaa
+     1021 gacctcatct ctacaaaaaa gaaaaataaa aattagccag gcatgctggt gcatgcctgt
+     1081 tgtgccagct actcagaagg ctgcaatggg aggaccactt gaggccagga ggtggaagct
+     1141 gcagtgagcc atgatggcac cactacactt cagccagggc aagagagaga gaccctatct
+     1201 caaaaagaaa gaggaaagaa agagagaaag gaaggaaggg agggagggag gaaggaagga
+     1261 aggaaggaag aggaaaggga agggaggaag gaaaaaagaa agaaagaaaa agaaaggacg
+     1321 gaagcacaga ttaattattt ggtctcttag tctcctctgc ctttgttgtc catctctttc
+     1381 cacctctctt catgcattcc tttgtccctc ttccctttca ggatccatct ctgactccct
+     1441 gctcctttat agagatggac agtgggtttg taaaacaaaa gtttctgaaa agttggatag
+     1501 ttaaaagggg aagtgaactg gaaggtactc taaactttca caaccttatt aatcatggct
+     1561 gttcccattc tgattttgtt cagcagtgga agtttcacct gcttctccag agtacttggc
+     1621 ttctttgttc caaatttcct ttcttcaacc tcacaccaaa gtgccctggt ctggcttggc
+     1681 tcatccatta ggcacaatgt gggcagtaca ggggaccctc catactgtaa agccacataa
+     1741 gaatgtttta actccgttta aaattataaa aaaatgaaat tttggagcct aagaaaatgt
+     1801 tttaactttt aattcagcct agattatatt gtctttatac caattcagtc ataaaatata
+     1861 attttccata tttttatgga ggaaggggac cacaaaagca agagtgctcg gggctcacaa
+     1921 gtcagaacac agccctggtc atggctgatc ctggccttca tatggttctg ctacctgtgt
+     1981 gcctatccgt cttccccaaa atctatgtgg tcctcaaata tagcagctgt cattcaatac
+     2041 acatgtttga gcacacagtg agctaagttt taaggattca aagatggaaa gtcatggctg
+     2101 tctcccctgc agagggtgct cagactagtg atggaaacag tatggggtga aagaaggcag
+     2161 aaagccattg ctgagcaggc agtagactca gcagaggctg aaactataca agtgacttgg
+     2221 ttccagctgg gccagcaggg tgaccagatg aaaagaagga ttgcatatac tccatatata
+     2281 tttatgtttg aacaaagagt caaggtttat tgcaaggata aggaggcttt gttggtggcc
+     2341 tcttaagacc atccagggca gtcatacttg atagggaaga aagtgagctg gaagaggaac
+     2401 agacaaactt ggacggccag atgttgagat ggaggtgttg gaggtcacaa catggtcaaa
+     2461 aacatgttga tgagaggcct tagctacaaa tttgttaact taagcagaaa cctcaaggat
+     2521 ggattttagg atttctccag gaagtcatac aagataattt catttcaggg agaaaaacaa
+     2581 cagaccactg caaagaccag ggaacttgaa aggataatgt agtttggttt gcttggcaga
+     2641 tacttgggaa ggatgttgga ctgtaaggct gtcgatatcc tcctcacaga acttactaca
+     2701 gtacattgta tctgctcgct tacctacctg actctcccac tattcagttt gttccttaac
+     2761 ggtagaccat gcctgattgg tgttttacac atcccctgct atgtctgaca cgtgtggatg
+     2821 ctcagaaaat ggggaaggaa ggaaagatac aatggcaaaa ggcttacaca tgtcttgaca
+     2881 agaatgtcca gttcggctca tttggctgga gtcgtatttg catggctgcc attctgctct
+     2941 ggcatgctta gacaagcaca ctgcccatta gaggaaaaag ggtttaattt acctgagtcc
+     3001 tcaagtgaat ataaatgttg agtcagaata ctgtagacat ttagtaacct ccttcagagg
+     3061 aaaaaaaaat gtggggggaa tgacagaaat ccaaaaccta gtagagcttc cacttttcat
+     3121 ttcagaagaa atcagttgct ctcctctaag gaccattact attaacaaaa cagagacctt
+     3181 agaaggaaac attgtttatt tcttatatat tttgtaatgt tattaccatt cttgttacac
+     3241 tctttcttat accatacaat tgttagcaga aattatttta aattaataag atcctgcatg
+     3301 catttccttt ttttaaaaaa aagaaagatc tctgtgtaga gtgtcctgtt ctgagccagt
+     3361 cctgagagga aaggaagtat aatcaatttg ttattaactc atgaaagaat taagtgaaag
+     3421 ataaatctta ggaagcagag ggaagtaaac ctaatctatg actaagaaag ctaaatacta
+     3481 tgataactca ttcattcctt cttttgttca tttacattat ttaatcacaa gtccatgacg
+     3541 tgccaggcac tcaggaaata gtaaaaactg gacatgcaat attctgtcct tgcgtagccc
+     3601 acactagagt gggaaagaga gcacactttt aaccggacaa ctaccaacat gaagagggga
+     3661 ggaagcaggg gctggaaatg tccacagact gtgccaaaga cgaagcccat aatatgtgaa
+     3721 agtcagtttc ttccatcatc ttgtatatta acattctttc ttcccctgtt ctctgccttc
+     3781 ctgcttgtca tcttcactca tcagctgacc acgttgcctc ttacggtgta aacttgtacc
+     3841 agtcttacgg tccctctggc cagtacaccc atgaatttga tggagatgag gagttctatg
+     3901 tggacctgga gaggaaggag actgtctggc agttgcctct gttcatcaaa tttagaagat
+     3961 ttgacccaca aggtgcactg agaaacatca ttgtgggaaa acacaatttg gacatcctga
+     4021 ttaaatgctc caactctacc gctgctacca atggtatgtg tccacaattc tgcctctctt
+     4081 tactgatcta tcccttcata ccaagtttca ttattttctt tccaagaggt ccccagatct
+     4141 tctcatggca attgctgaaa ttttatcatt tcccatctct aaaatcacat attcccatgt
+     4201 aatacaagag tctttccatt atgcattcag taaatccttc taggagaggt cttatccacc
+     4261 tcctacgttg ttaaacatac ccacagtgag aagggcacag gaataaagca gaggcaatgt
+     4321 gtcgttgctc ccaaacagaa ggtagataag acctctttga ccagcaggag aggaaatgct
+     4381 ggttggaggg ctcttccagg atataatgca gaagctcatg gcagagctat tcacacttca
+     4441 catcagtgct gtttcctcac cacagaggtt cctgaggtca ctgtgttttc caagtctccc
+     4501 gtgacactgg gtcagcccaa caccctcatc tgtcttgtgg acaacatctt tcctcctgtg
+     4561 gtcaacatca catggttgag caatgggcac tcagtcacag aaggtgtttc tgagaccagc
+     4621 ttcctctcca agagtgatca ttccttcttc aagatcagtt acctcacctt cctcccttct
+     4681 gctgatgaga tttatgactg caaggtggag cactggggcc tggacgagcc tcttctgaaa
+     4741 cactggggta agtatgattt tcaccgtttt ttgatgcttt cttgtctgtc aagttcagaa
+     4801 cttcctgcct tttactgcta tatcccaaaa cttgttttcc acacttcatg agtttctttt
+     4861 atcttttttt ttttgaaaga ataaagcaac aaaagcagag atgtattaaa aatgaaagta
+     4921 cactccacag ggtgggagca ggcctgccac ttcacgggtt tctaataata gacttcactc
+     4981 tcctccctaa gccggggacc ttcagtcttt gcagagccaa ccctctaccc catcccctcc
+     5041 cacacacatg cacatgaaca tgctctgcat tctgacctca acaacgtcac ttccacagag
+     5101 cctgagattc cagcgcctat gtcagagctc acagagactg tggtctgtgc cctggggttg
+     5161 actgtgggcc tcgtgggcat tgtggtgggg accatcctga tcatccgagg cctgcgttca
+     5221 gttggtgcct ccagacacca agggcccttg tga
+//

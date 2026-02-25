@@ -1,0 +1,873 @@
+LOCUS       NHP01197                2789 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*001:01, KIRDP locus allele.
+ACCESSION   NHP01197
+VERSION     NHP01197
+DBLINK      INSDC: MZ436152
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Hu Q, Huang X, Jin Y, Zhang R, Zhao A, Wang Y, Zhou C, Liu W, Liu X,
+            Li C, Fan G, Zhuo M, Wang X, Ling F, Luo W.
+  TITLE     Long-read assembly of major histocompatibility complex and killer
+            cell immunoglobulin-like receptor genome regions in cynomolgus
+            macaque.
+  JOURNAL   Biol Direct 17:36 (2022)
+   PUBMED   36447238
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*001:01
+            IPD accession: NHP01197
+            Species prefix: Mafa
+            Previous designations: Mafa-KIRDP*001
+FEATURES             Location/Qualifiers
+     source          1..2789
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2789
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:01"
+                     /note="previous designations: Mafa-KIRDP*001"
+     exon            1..290
+                     /gene="KIRDP"
+                     /number=1
+     exon            2502..2789
+                     /gene="KIRDP"
+                     /number=2
+     intron          291..2501
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..290,2502..2789)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:01"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKPSLLALPGPLVKSGETVVLQCWSDTVFEHFLLHREGISEDP
+                     LCLVGELHDGGSKANVSMGPMTPALAGTYQCYGSFTHSPYEWSVPSDPLDIGLYRKCSL
+                     SAQPGPTVHAEENMTX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcgtcct gcagtgttgg tcagataccg tgtttgagca cttccttctg cacagagagg
+      121 ggatctctga ggacccctta tgcctcgttg gagagctcca tgatgggggc tccaaggcca
+      181 acgtctccat gggtcccatg acgcctgccc ttgcagggac ctaccaatgc tatggttctt
+      241 ttactcactc cccctatgaa tggtcagtcc ccagtgaccc cctggacatc gtgatcacag
+      301 gtgagagtgt ccagacattc ttctcattgt cactgggaca cagagtgaat gatccaggac
+      361 ttggaagccc cgggttgtca tgaggaagat gagtgtggga ttcttatgga gagagactga
+      421 cttggtgagg tctgtaccaa cagagacaga gaaacaggag acacaagtac agaccacatg
+      481 tcataacaga ggacagacac aggggccaca cagggaggta gaaaagagag aaagaagtaa
+      541 aggagacact cagacagaca gacacgtccc agagagaggt gcccttccgt gctgactttg
+      601 ttcagagacc tggcacaggt tagaagcttc atctctgtgt tacctccaca gagtgatctc
+      661 taccaggaga acccaagagc acccttattt ctcaccttag ttgggccttg ggacctcagg
+      721 ccttgtggca cctacagatg ccgtgttgat tctgacacct ctgcctcgtg ttcaggggag
+      781 ctgtaacctt ctcacgatat catggcccca gaacaacaac ccctgtgtgc tgtgtgtact
+      841 tggggtctcc agactggatt ctgaggctca tattccaaac aaccacacat atgataggat
+      901 tcctgacaga cacagagaga aatcagggac attaaaaagc aaaggcataa acacacagag
+      961 aatgagccag aggaaggaga ctgacaagct cacagccaca taaagacaga gaaacaatga
+     1021 tgatggtttc cagcttcatc cacgtccctg caaaggacgt gaactcatcc tttttatggc
+     1081 cgcatagtat tccatggtgt atatgtgcca cattttgtta atccagtctc tcgttgatgg
+     1141 acatttgggt tggttccaag tctttgctat tttgaatagt gccgacataa acatatgtgt
+     1201 gcatgtgtct ttattgtaga attatttata atcctttagg tatatcagaa aaccaaacac
+     1261 cgcatgttct cgctcataag tgggacttga agaatgacaa cacatggaca cagggagggg
+     1321 aacatcacat accagggcct gtcagggggt gaggggctag ggaatggata acagtaggag
+     1381 aaatacctaa tgtaggtgac ggtgacgggt tgttgggtga agcaaaccac cagtgcacat
+     1441 gtataccgat gtaacaaaac tgcacgttct gcacatgtaa cccagaactt aaagtataat
+     1501 ttttaaaaag agagagagag aaaagagggc agagaagtgg agagaatgag ggaagggagc
+     1561 tgagaaaagc cctaaaatca gagtcctgag ggagaggcac aaggagagag aaagatggag
+     1621 atgtggggga tgaattgcag atatttcaaa gacaacgaga cagactgaga ggcagagaaa
+     1681 gacaaggaga tggagacaga gagatgcaga tggatagata gatgataaat acgtagatga
+     1741 tagataatag ataggttata gatacataca tgatgattga ttggtagatg atacatagag
+     1801 atgataatga tgatgataaa tagacaaaga gatagataca tgatacatag agatagacag
+     1861 gcagacaggt aacagagaga gagagagagg atacatagat atagataata gctgattgat
+     1921 ggatacatag atagttaatt gatagagaga tgatacatat atatagatga tagatagata
+     1981 aataatttgt agatacacac caaatagtta aatagacgat agatagatag atagatagat
+     2041 agatagatag atagatagat agatagatag atagatagac agatagataa cggatacata
+     2101 gataatagaa atatgcagaa aattttgaac aagacagaaa gtgagagact cagaattaaa
+     2161 gaaaaaggaa gatcaagtca accaatccaa ggagggtcag agagaataaa atgatacaaa
+     2221 gaaaaaaaac atagctaggg atggggaagt gaggtcagag acctagggac atggagaagg
+     2281 tggaaggagg aaatagacat gaagggagac ggagtgaagg gtgagagaca gagagagaga
+     2341 gagaaggtga aaggagaaaa tagacatgaa gagacatggg gtggagggta agaaagagag
+     2401 cattaggtca ctagagcagg tgcagggagt tctcagctca ggtgtgaggg gagctgtgac
+     2461 aaggaagaac ctccctgagg aaactgcctc ttctccttcc gggtctatac aggaaatgtt
+     2521 ctctctcagc ccagccgggc cccactgttc atgcagaaga gaacatgacc tgatcctgca
+     2581 gctcccggag ctcctttgac atgtaccatc tatccaggga aggggaggcc catgaactga
+     2641 ggctccctgc agtgccgagg gtccatggaa cattccaggc cgacttccct ctggggcctg
+     2701 ccacccacgg agggacgttc agatgctttg gctctttccg tgactctccc tatgagtggt
+     2761 cagacccaag tgacccactg cccatttct
+//
+LOCUS       NHP01219                2770 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*002, KIRDP locus allele.
+ACCESSION   NHP01219
+VERSION     NHP01219
+DBLINK      INSDC: ON754992
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*002
+            IPD accession: NHP01219
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2770
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2770
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*002"
+     exon            1..289
+                     /gene="KIRDP"
+                     /number=1
+     exon            2483..2770
+                     /gene="KIRDP"
+                     /number=2
+     intron          290..2482
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..289,2483..2770)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*002"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKPSLLALPGPLVKSGETVVLQCWSDTVFEHFFLHREGISEDP
+                     YASLESSMMGAPRPTSPWVPX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcgtcct gcaatgttgg tcagataccg tgtttgagca cttctttctg cacagagagg
+      121 ggatctctga ggacccctat gcctcgttgg agagctccat gatgggggct ccaaggccaa
+      181 catctccatg ggtcccatga cgcctgccct tgcagggacc taccaatgtt atggttcttt
+      241 tactcactcc ccctatgaat ggtcagtccc cagtgacccc ctggacatcg tgatcacagg
+      301 taagagtgtc cagacattct tctcattgtc actgggacac agagtgaatg atccaggact
+      361 tggaagcccc aggttgtcat gaggaagatg agtgtgggat tcttatggag agagactgac
+      421 ttggcgaggt ctgtaccaac agagacagag aaataggaga cacaagtaca gaccaggtgt
+      481 cataacagag gacagacaca ggggccacac agggagttag aaaagagaga aagaagtaaa
+      541 ggagacactc agacagacag acacgtccca gagagaggcg tccttccgtg ctgactttgt
+      601 tcagagacct ggcacaggtt agaagcttca tctctgtgtt acctccacag agtgatctct
+      661 accaggagaa cccaagagca cccttatttc tcaccttagt tgggccttgg gaccccaggc
+      721 cttgtggcac ctacagatgc cgtgttgatt ctgacacctc tgcctcgtgt tcaggggagc
+      781 cgtaaccttc tcacgatatc atggccccag aacaacaacc cctgtgtgct gtgtgtactt
+      841 ggggtctcca gactggattc tgaggctcat attccaaaca accacacata tgataggatt
+      901 actgacagac acagagagaa atcagggaca ttaaaaagca aaggcataaa cacacagaga
+      961 atgagccaga ggaaggagac tgacaagctc acagccacat aaagacagag aaacaaggat
+     1021 gatggtttcc agcttcatcc acgtccctgc aaaggacgtg aactcatcct ttttatggcc
+     1081 gcatagtatt ccatggtgta tatgtgccac attttgttaa tccagtctct cgttgatgga
+     1141 catttgggtt ggttccaagt ctttgctatt ttgaatagtg ccgacataaa catatgtatg
+     1201 catgtgtctt tattgtagaa ttatttataa tcctttaggt atatcagaaa accaaacacc
+     1261 gcatgttctc gctcataagt gggacttgaa gaatgacaac acatggacac agggagggga
+     1321 acatcacata ccagggcctg tcagggggtg aggggctagg gaatggataa cagtaggaga
+     1381 aatacctaat gtaggtgacg gtgacgggtt gttgggtgaa gcaaaccacc agtgcgcatg
+     1441 tataccgatg taacaaaact gcacgttctg cacatgtaac ccagaactta aagtataatt
+     1501 tttaaaaaga gagagagaga aaagagggca gagaagtgga gagaatgatg gaagggagct
+     1561 gagaaaagcc ctaaaatcag agtcctgagg gagaggcaca aggagagaga aagatggaga
+     1621 tgtgggggat gaattgcaga tatttcaaag acaacgagac agactgagag gcagagaaag
+     1681 acaaggagat ggagacagag agatgcagat ggatagatag atgataaata cgtagatgat
+     1741 agataataga taggttatag atacatacat gatgattgat tggtagatga tacatagaga
+     1801 tgataatgat gatgataaat agacaaagag atagatacat gatacataga gatagacagg
+     1861 cagacaggta acagagagag agagatacat agatatagat aatagctgat tgatggatac
+     1921 atagatagtt aattgataga gagatgatac atatatatag atgatagata gataaataat
+     1981 ttgtagatac acaccaaata gttaaataga cgatagatag atagatagat agatagatag
+     2041 atagatgata gatagataga cagatagata atggatacat agataataga aatatgcaga
+     2101 aaattttgaa caagacagaa agtgagagac tcagaattaa agaaaaagga agatcaagtc
+     2161 aaccaatcca aggagggtca gagagaataa aatggtacaa agaaaaaaaa catagctagg
+     2221 gatggggaag tgaggtcaga gacctaggga catggagaag gtggaaggag gaaatagaca
+     2281 tgaagggaga cggagtgaag ggtgagagac agagagagag agagaaggtg aaaggagaaa
+     2341 atagacatga agagacatgg ggtggagggt aagaaagaga gcattaggtc actagagcag
+     2401 gtgcagggag ttctcagctc aggtgtgagg ggagctgtga caaggaagaa cctccctgag
+     2461 gaaactgcct cttctccttc cgggtctata caggaaatgt tctctctcag cccagccggg
+     2521 ccccactgtt catgcagaag agaacatgac ctgatcctgc agctcccgga gctcctttga
+     2581 catgtaccat ctatccaggg aaggggaggc ccatgaactg aggctccctg cagtgccgag
+     2641 ggtccatgga acattccagg ccgacttccc tctggggcct gccacccacg gagggacgtt
+     2701 cagatgcttt ggctctttcc gtgactctcc ctatgagtgg tcagacccga gtgacccact
+     2761 gcccatttct
+//
+LOCUS       NHP01275                2770 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*001:02:01, KIRDP locus allele.
+ACCESSION   NHP01275
+VERSION     NHP01275
+DBLINK      INSDC: OR341082
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*001:02:01
+            IPD accession: NHP01275
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2770
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2770
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:02:01"
+     exon            1..290
+                     /gene="KIRDP"
+                     /number=1
+     exon            2483..2770
+                     /gene="KIRDP"
+                     /number=2
+     intron          291..2482
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..290,2483..2770)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:02:01"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKPSLLALPGPLVKSGETVVLQCWSDTVFEHFLLHREGISEDP
+                     LCLVGELHDGGSKANVSMGPMTPALAGTYQCYGSFTHSPYEWSVPSDPLDIGLYRKCSL
+                     SAQPGPTVHAEENMTX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcgtcct gcaatgttgg tcagataccg tgtttgagca cttccttctg cacagagagg
+      121 ggatctctga ggacccctta tgcctcgttg gagagctcca tgatgggggc tccaaggcca
+      181 acgtctccat gggtcccatg acgcctgccc ttgcagggac ctaccaatgc tatggttctt
+      241 ttactcactc cccctatgaa tggtcagtcc ccagtgaccc cctggacatc gtgatcacag
+      301 gtaagagtgt ccagacattc ttctcattgt cactgggaca cagagtgaat gatccaggac
+      361 ttggaagccc caggtggtca tgaggaagat gagtgtggga ttcttatgga gagagactga
+      421 cttggggagg tctgtaccaa cagagacaga gaaacaggag acacaagtac agaccaggtg
+      481 tcataacaga ggacagacac aggggccaca cagggagtta gaaaagagag aaagaagtaa
+      541 aggagacact cagacagaca gacatgtccc agagagaggt gcccttccgt gctgactttg
+      601 ttcagagacc tggcacaggt tagaagcttc atctctgtgt tacctccaca gagtgatctc
+      661 taccaggaga acccaagagc acccttattt ctcaccttag ttgggccctg ggacctcagg
+      721 ccttgtggca cctacagatg ccgtgttgat tctgacacct ctgcctcgtg ttcaggggag
+      781 ccgtaacctt ctcacggtat catggcccca gaacaacaac ccctgtgtgc tgtgtgtact
+      841 tggggtctcc agactggatt ctgaggctca tattccaaac aaccacacat atgataggat
+      901 tcctgacaga cacagagaga aatcagggac attaaaaagc aaaggcataa acacacagag
+      961 aatgagccag aggaaggaga ctgacaagct cacagccaca taaagacaga gaaacgagga
+     1021 tgatggtttc cagcttcatc cacgtccctg caaaggacgt gaactcatcc tttttatggc
+     1081 cgcatagtat tccatggtgt atatgtgcca cattttgtta atccagtctc tcgttgatgg
+     1141 acatttgggt tggttccaag tctttgctat tttgaatagt gccgacataa acatatgtgt
+     1201 gcatgtgtct ttattgtaga atgatttata atcctttagg tatatcagaa aaccaaacac
+     1261 cgcatgttct cgctcataag tgggacttga agaatgacaa cacatggaca cagggagggg
+     1321 aacatcacat accagggcct gtcagggggt gaggggctag ggaatggata acagtaggag
+     1381 aaatacctaa tgtaggtgac ggtgacgggt tgttgggtga agcaaaccac cagtgcacat
+     1441 gtataccgat gtaacaaaac tgcacgttct gcacatgtaa cccagaactt aaagtataat
+     1501 ttttaaaaag agagagagag aaaagagggc agagaagtgg agagaatgat ggaagggagc
+     1561 tgagaaaagc cctaaaatca gagtcctgag ggagaggcac aaggagagag aaagatggag
+     1621 atgtggggga tgaattgcag atatttcaaa gacaacgaga cagactgaga ggcagagaaa
+     1681 gacaaggaga tggagacaga gagatgcaga tggatagata gatgataaat acgtagatga
+     1741 tagataatag ataggttata gatacatgat gattgattgg tagatgatac gtagagatga
+     1801 taatgatgat gataaataga caaagagata gatacatgat acatagagat agagaggcag
+     1861 acaggtaaga gagagagaga gaggatacat agatatagat aatagctgat tgatggatac
+     1921 atagatagtt aattgataga gagatgatac atatatatag atgatagata gataaataat
+     1981 ttgtagatac acaccaaata gttaaataga cgatagatag atagatagat agatagatag
+     2041 atagatagat agatgataga cagatagata acggatacat agataataga aatatgcaga
+     2101 aaattttgaa caagacagaa agtgagagac tcagaattaa agaaaaagga agatcaagtc
+     2161 aaccaatcca aggagggtca gagagaataa aatggtacaa agaaaaaaaa catagctagg
+     2221 gatggggaag tgaggtcaga gacctaggga catggagaag gtggaaggag gaaatagaca
+     2281 tgaagggaga cggagtgaag ggtgagagac agagagagag agagaaggtg aaaggagaaa
+     2341 atagacatga agagacatgg ggtggagggt aagaaagaga gcattaggtc actagagcag
+     2401 gtgcagggag ttctcagctc aggtgtgagg ggagctgtga caaggaagaa cctccctgag
+     2461 gaaactgcct cttctccttc tgggtctata caggaaatgt tctctctcag cccagccggg
+     2521 ccccactgtt catgcagaag agaacatgac ctgatcctgc agctcccgga gctcctttga
+     2581 catgtaccat ctatccaggg aaggggaggc ccatgaactg aggctccctg cagtgccgag
+     2641 ggtccatgga acattccagg ccgacttccc tctggggcct gccacccacg gagggacgtt
+     2701 cagatgcttt ggctctttcc gtgactctcc ttatgagtgg tcagacccga gtgacccact
+     2761 gcccatttct
+//
+LOCUS       NHP01276                2775 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*001:03:01, KIRDP locus allele.
+ACCESSION   NHP01276
+VERSION     NHP01276
+DBLINK      INSDC: OR341084
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*001:03:01
+            IPD accession: NHP01276
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2775
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2775
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:03:01"
+     exon            1..290
+                     /gene="KIRDP"
+                     /number=1
+     exon            2488..2775
+                     /gene="KIRDP"
+                     /number=2
+     intron          291..2487
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..290,2488..2775)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:03:01"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKPSLLALPGPLVKSGETVVLQCWSDTVFEHFLLHREGISEDP
+                     LCLVGELHDGGSKANVSMGPMTPALAGTYQCYGSFTHSPYEWSVPSDPLDIGLYRKCSL
+                     SAQPGPTVHAEENMTX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcgtcct gcaatgttgg tcagataccg tgtttgagca cttccttctg cacagagagg
+      121 ggatctctga ggacccctta tgcctcgttg gagagctcca tgatgggggc tccaaggcca
+      181 acgtctccat gggtcccatg acgcctgccc ttgcagggac ctaccaatgc tatggttctt
+      241 ttactcactc cccctatgaa tggtcagtcc ccagtgaccc cctggacatc gtgatcacag
+      301 gtgagagtgt ccagacattc ttctcattgt cactgggaca cagagtgaat gatccaggac
+      361 ttggaagccc caggttgtca tgaggaagat gagtgtggga ttcttatgga gagagactca
+      421 cttggggagg tctgtaccaa cagagacaga gaaacaggag acacaagtac agaccaggtg
+      481 tcataacaga ggacagacac aggggccaca cagggaggta gaaaagagag aaagagttaa
+      541 aggagacact cagacagaca gacacgtccc agagagaggc gtccttccgt gctgactttg
+      601 ttcagagacc tggcacaggt tagaagcttc atctctgtgt tacctccaca gagtgatctc
+      661 taccaggaga acccaagagc acccttattt ctcaccttag ttgggccctg ggacctcagg
+      721 ccttgtggca cctacagatg ccgtgttcat tctgacacct ctgcctcgtg ttcaggggag
+      781 ccgtaacctt ctcacgatat catggcccca gaacaccaac ccctgtgtgc tgtgtgtact
+      841 tggggtctcc agactggatt ctgaggctca tattccaaac aaccacacat atgataggat
+      901 tcctgacaga cacagagaga aatcagggac attaaaaagc aaaggcataa acacacagag
+      961 aatgagccag aggaaggaga ctgacaagct cacagccaca taaagacaga gaaacaagga
+     1021 tgatggtttc cagcttcatc cacgtccctg caaaggacgt gaactcatcc tttttatggc
+     1081 tgcatagtat tccatggtgt atatgtgcca cattttgtta atccagtctc tcgttgatgg
+     1141 acatttgggt tggttccaag tctttgctat tttgaatagt gctgacataa acatatgtgt
+     1201 gcatgtgtct ttattgtaga atgatttata atcctttagg tatatcagaa aaccaaacac
+     1261 cgcatgttct cgctcataag tgggacttga agaatgacaa cacatggaca cagggagggg
+     1321 aacatcacat accagggcct gtcagggggt gaggggctag ggaatggata acagtaggag
+     1381 aaatacctaa tgtaggtgac ggtgacgggt tgttgggtga agcaaaccac cagtgcacat
+     1441 gtataccgat gtaacaaaac tgcacgttcg gcacatgtaa cccagaactt aaagtataat
+     1501 ttttaaaaag agagagagag aaaagagggc agagaagtgg agagaatgat ggaaggaagc
+     1561 tgagaaaagc cctaaaatca gagtcctgag ggagaggcac aaggagagag aaagatggag
+     1621 atgtggggga tgaattgcag atatttcaaa gacaacgaga cagactgaga ggcagagaaa
+     1681 gacaaggaga tggagacaga gagatgcaga tggatagata gatgataaat acgtagatga
+     1741 tagataatag ataggttata gatacataca tgatgactga ttggtagatg atacatagag
+     1801 atgataatga tgatgataaa tagacaaaga gatagataca tgatacatag agatagagag
+     1861 gcagacatgt aacagaaata gagagagaga ggatacatag atatagataa tagctgattg
+     1921 atggatacat agatagttaa ttgatagaga gatgatacat atatatagat gatagataga
+     1981 taaataattt gtagatacac accaaatagt taaatagacg atagatagat agatagatag
+     2041 atagatagat agatagatag atagacagat agataacgga tacatagata atagaaatat
+     2101 gcagaaaatt ttgaacaaga cagaaagtga gagactcaga attaaagaaa aaggaagatc
+     2161 aagtcaacca atccaaggag ggtcagagag aataaaatgg tacaaagaaa aaaaacatag
+     2221 ctagggatgg ggaagtgagg tcagagacct agggacatgg agaaggtgga aggaggaaat
+     2281 agacatgaag ggagacggag tgaagggtga gagacagaga gagagagaga aggtgaaagg
+     2341 agaaaataga catgaagaga catggggtgg agggtaagaa agagagcatt aggtcactag
+     2401 agcaggtgca gggagttccc agctcaggtg tgaggggagc tgtgacaagg aagaacctcc
+     2461 ctgaggaaac tgcctcttct ccttccgggt ctatacagga aatgttctct ctcagcccag
+     2521 ccgggcccca ctgttcatgc agaagagaac atgacctgat cctgcagctc ccggagctcc
+     2581 tttgacatgt accatctatc cagggaaggg gaggcccatg tactgaggct ccctgcagtg
+     2641 ccgagggtcc atggaacatt ccaggccgac ttccctctgg agcctgccac ccacggaggg
+     2701 acgttcagat gctttggctc tttccgtgac tctccctatg agtggtcaga cccgagtgac
+     2761 ccactgccca tttct
+//
+LOCUS       NHP01277                2781 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*001:04:01, KIRDP locus allele.
+ACCESSION   NHP01277
+VERSION     NHP01277
+DBLINK      INSDC: OR341085
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*001:04:01
+            IPD accession: NHP01277
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2781
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2781
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:04:01"
+     exon            1..290
+                     /gene="KIRDP"
+                     /number=1
+     exon            2494..2781
+                     /gene="KIRDP"
+                     /number=2
+     intron          291..2493
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..290,2494..2781)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*001:04:01"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKPSLLALPGPLVKSGETVVLQCWSDTVFEHFLLHREGISEDP
+                     LCLVGELHDGGSKANVSMGPMTPALAGTYQCYGSFTHSPYEWSVPSDPLDIGLYRKCSL
+                     SAQPGPTVHAEENMTX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcgtcct gcaatgttgg tcagataccg tgtttgagca cttccttctg cacagagagg
+      121 ggatctctga ggacccctta tgcctcgttg gagagctcca tgatgggggc tccaaggcca
+      181 acgtctccat gggtcccatg acgcctgccc ttgcagggac ctaccaatgc tatggttctt
+      241 ttactcactc cccctatgaa tggtcagtcc ccagtgaccc cctggacatc gtgatcacag
+      301 gtgagagtgt ccagacattc ttctcattgt cactgggaca cagagtgaat gatccaggac
+      361 ttggaagccc caggtggtca tgaggaacat gagtgtggga ttcttatgga gagagactca
+      421 cttggcaagg tctgtaccaa cagagacaga gaaacaggag acacaagtac agaccaggtg
+      481 tcataacaga ggacagacac aggggccaca cagggaggta gaaaagagag aaagagttaa
+      541 aggagacacc cagacacaca gacatgtccc agagagaggc gtccttccgt gctgactttg
+      601 ttcagagacc tggcacaggt tagaagcttc atctctgtgt tacctccaca gagtgatctc
+      661 taccaggaga acccaagagc acccttattt ctcaccttag ttgggccctg ggacctcagg
+      721 ccttgtggca cctacagatg ccgtgttcat tctgacacct ctgcctcgtg ttcaggggag
+      781 ccgtaacctt ctcacgatat catggcccca gaacaacaac ccctgtgtgc tgtgtgtact
+      841 tggggtctcc agactggatt ctgaggctca tattccaaac aaccacacat atgataggat
+      901 tcctgacaga cacagagaga aatcagggac attaaaaagc aaaggcataa acacacagag
+      961 aatgagccag aggaaggaga ctgaccagct cacagccaca taaagacaga gaaacgagga
+     1021 tgatggtttc cagcttcatc cacgtccctg caaaggacgt gaactcatcc tttttatggc
+     1081 cgcatagtat tccatggtgt atatgtgcca cattttgtta atccagtctc tcgttgatgg
+     1141 acatttgggt tggttccaag tctttgctat tttgaatagt gccgacataa acatatgtgt
+     1201 gcatgtgtct ttattgtaga atgatttata atcctttagg tatatcagaa aaccaaacac
+     1261 cgcatgttct cgctcataag tgggacttga agaatgacaa cacatggaca cagggagggg
+     1321 aacatcacat accagggcct gtcagggggt gaggggctag ggaatggata acagtaggag
+     1381 aaatacctaa tgtaggtgac ggtgacgggt tgttgggtga agcaaaccac cagtgcacat
+     1441 gtataccgat gtaacaaaac tgcacgttct gcacatgtaa cccagaactt aaagtataat
+     1501 ttttaaaaag agagagagag aaaagagggc agagaagtgg agagaatgat ggaaggaagc
+     1561 tgagaaaagc cctaaaatca gagtcctgag ggagaggcac aaggagagag aaagatggag
+     1621 atgtggggga tgaattgcag atatttcaaa gacaacgaga cagactgaga ggcagagaaa
+     1681 gacaaggaga tggagacaga gagatgcaga tggatagata gatgataaat acgtagatga
+     1741 tagataatag ataggttata gatacataca tgatgattga ttggtagatg atacatagag
+     1801 atgataatga tgatgataaa tagacaaaga gatagataca tgatacatag agacagagag
+     1861 gcagacaggt aacagagaga gagagagagg atacatagat atagataata gctgattgat
+     1921 ggatacatag atagttaatt gatagagaga tgatacatat atatagatga tagatagata
+     1981 aataatttgt agatacacac caaatagtta aatagacgat agatagatag atagatagat
+     2041 agatagatag atagatagat agataaatag acagatagat aacggataca tagataatag
+     2101 aaatatgcag aaaattttga acaagacaga aagtgagaga ctcagaatta aagaaaaagg
+     2161 aagatcaagt caaccaatcc aaggagggtc agagagaata aaatggtaca aagaaaaaaa
+     2221 acatagctag ggatggggaa gtgaggtcag agacctaggg acatggagaa ggtggaagga
+     2281 ggaaatagac atgaagggag acggagtgaa gggtgagaga cagagagaga gagagaaggt
+     2341 gaaaggagaa aatagacatg aagagacatg gggtggaggg taagaaagag agcattaggt
+     2401 cactagagca ggtgcaggga gttctcagct caggtgtgag gggagctgtg acaaggaaga
+     2461 acctccctga ggaaactgcc tcttctcctt ccgggtctat acaggaaatg ttctctctca
+     2521 gcccagccgg gccccactgt tcatgcagaa gagaacatga cctgatcctg cagctcccgg
+     2581 agctcctttg acatgtacca tctatccagg gaaggggagg cccatgaact gaggctccct
+     2641 gcagtgccga gggtccatgg aacattccag gccgacttcc ctctggagcc tgccacccac
+     2701 ggagggacgt tcagatgctt tggctctttc cgtgactctc cctatgagtg gtcagacccg
+     2761 agtgacccac tgcccatttc t
+//
+LOCUS       NHP01278                2785 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*003:01:01, KIRDP locus allele.
+ACCESSION   NHP01278
+VERSION     NHP01278
+DBLINK      INSDC: OR341086
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*003:01:01
+            IPD accession: NHP01278
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2785
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2785
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*003:01:01"
+     exon            1..289
+                     /gene="KIRDP"
+                     /number=1
+     exon            2498..2785
+                     /gene="KIRDP"
+                     /number=2
+     intron          290..2497
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..289,2498..2785)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*003:01:01"
+                     /codon_start=2
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="SPQKTFPPGPPRSAGEIRRDGHPAMLVRYRVX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcatcct gcaatgttgg tcagataccg tgtttgagca cttctttctg cacagagagg
+      121 ggatctctga ggacccctat gcctcgttgg agagctccat gatgggggct ccaaggccaa
+      181 cgtctccatg ggtcccatga cgcctgccct tgcagggacc taccaatgct atggttcttt
+      241 tactcactcc ccctatgaat ggtcagtccc cagtgacccc ctggacatcg tgatcacagg
+      301 tgagagtgtc cagacattct tctcattgtc actgggacac agagtgaatg atccaggact
+      361 tggaagcccc gggtggtcat gaggaagatg agtgtgggat tcttatggag agagactgac
+      421 ttggcgaggt ctgtaccaac agagacagag aaacaggaga cacaagtaca gaccaggtgt
+      481 cataacagag gacagacaca ggggccacac agggaggtag aaaagagaga aagagttaaa
+      541 ggagacaccc agacacacag acatgtccca gagagaggcg tccttccgtg ctgactttgt
+      601 tcagagacct ggcacaggtt agaagcttca tctctgtgtt acctccacag agtgatctct
+      661 accaggagaa cccaagagca cccttatttc tcaccttagt tgggccctgg gacctcaggc
+      721 cttgtggcac ctacagatgc cgtgttgatt ctgacacctc tgcctcgtgt tcaggggagc
+      781 cgtaaccttc tcacgatatc atggccccag aacaacaacc cctgtgtgct gtgtgtactt
+      841 ggggtctcca gactggattc tgaggctcat attccaaaca accacacata tgataggatt
+      901 cctgacagac acagagagaa atcagggaca ttaaaaagca aaggcataaa cacacagaga
+      961 atgagccaga ggaaggagac tgaccagctc acagccacat aaagacagag aaacgaggat
+     1021 gatggtttcc agcttcatcc acgtccctgc aaaggacgtg aactcatcct ttttatggcc
+     1081 gcatagtatt ccatggtgta tatgtgccac attttgttaa tccagtctct cgttgatgga
+     1141 catttgggtt ggttccaagt ctttgctatt ttgaatagtg ccgacataaa catatgtgtg
+     1201 catgtgtctt tattgtagaa tgatttataa tcctttaggt atatcagaaa accaaacacc
+     1261 gcatgttctc gctcataagt gggacttgaa gaatgacaac acatggacac agggagggga
+     1321 acatcacata ccagggcctg tcagggggtg aggggctagg gaatggataa cagtaggaga
+     1381 aatacctaat gtaggtgacg gtgacgggtt gttgggtgaa gcaaaccacc agtgcacatg
+     1441 tataccgatg taacaaaact gcacgttctg cacatgtaac ccagaactta aagtataatt
+     1501 tttaaaaaga gagagagaga aaagagggca gagaagtgga gagaatgatg gaagggagct
+     1561 gagaaaagcc ctaaaatcag agtcctgagg gagaggcaca aggagagaga aagatggaga
+     1621 tgtgggggat gaattgcaga tatttcaaag acaacgagac agactgagag gcagagaaag
+     1681 acaaggagat ggagacagag agatgcagat ggatagatag atgataaata cgtagatgat
+     1741 agataataga taatagatag gttatagata catacatgat gattgattgg tagatgatac
+     1801 atagagatga taatgatgat gataaataga caaagagata gatacatgat acatagagat
+     1861 agagaggcag acaggtaaga gagagagaga gaggatacat agatatagat aatagctgat
+     1921 tgatggatac atagatagtt aattgataga gagatgatac atatatatag atgatagata
+     1981 gataaataat ttgtagatac acaccaaata gttaaataga cgatagatag atagatagat
+     2041 agatagatag atagatagat agatagataa atagacagat agataacgga tacatagata
+     2101 atagaaatat gcagaaaatt ttgaacaaga cagaaagtga gagactcaga attaaagaaa
+     2161 aaggaagatc aagtcaacca atccaaggag ggtcagagag aataaaatgg tacaaagaaa
+     2221 aaaaacatag ctagggatgg ggaagtgagg tcagagacct agggacatgg agaaggtgga
+     2281 aggaggaaat agacatgaag ggagacggag tgaagggtga gagacagaga gagagagaga
+     2341 aggtgaaagg agaaaataga catgaagaga catggggtgg agggtaagaa agagagcatt
+     2401 aggtcactag agcaggtgca gggagttctc agctcaggtg tgaggggagc tgtgacaagg
+     2461 aagaacctcc ctgaggaaac tgcctcttct ccttctgggt ctatacagga aatgttctct
+     2521 ctcagcccag ccgggcccca ctgttcatgc agaagagaac atgacctgat cctgcagctc
+     2581 ccggagctcc tttgacatgt accatctatc cagggaaggg gaggcccatg aactgaggct
+     2641 ccctgcagtg ccgagggtcc atggaacatt ccaggccgac ttccctctgg ggcctgccac
+     2701 ccacggaggg acgttcagat gctttggctc tttccgtgac tctccttatg agtggtcaga
+     2761 cccgagtgac ccactgccca tttct
+//
+LOCUS       NHP01279                2780 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*003:02:01, KIRDP locus allele.
+ACCESSION   NHP01279
+VERSION     NHP01279
+DBLINK      INSDC: OR341087
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*003:02:01
+            IPD accession: NHP01279
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2780
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2780
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*003:02:01"
+     exon            1..289
+                     /gene="KIRDP"
+                     /number=1
+     exon            2493..2780
+                     /gene="KIRDP"
+                     /number=2
+     intron          290..2492
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..289,2493..2780)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*003:02:01"
+                     /codon_start=2
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="SPQKTFPPGPPRSAGEIRRDGHPAMLVRYRVX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcatcct gcaatgttgg tcagataccg tgtttgagca cttctttctg cacagagagg
+      121 ggatctctga ggacccctat gcctcgttgg agagctccat gatgggggct ccaaggccaa
+      181 cgtctccatg ggtcccatga cgcctgccct tgcagggacc taccaatgct atggttcttt
+      241 tactcactcc ccctatgaat ggtcagtccc cagtgacccc ctggacatcg tgatcacagg
+      301 tgagagtgtc cagacattct tctcattgtc actgggacac agagtgaatg atccaggact
+      361 tggaagcccc gggtggtcat gaggaagatg agtgtgggat tcttatggag agagactgac
+      421 ttggcgagat ctgtaccaac agagacagag aatcaggaga cacaagtaca gaccaggtgt
+      481 cataacagag gacagacaca ggagccatac agggaggtag aaaagagaga aagagttaaa
+      541 ggagacaccc agacacacag acatgtccca gagagaggcg tccttccgtg ctgactttgt
+      601 tcagagacct ggcacaggtt agaagcttca tctctgtgtt acctccacag agtgatctct
+      661 accaggagaa cccaagagca cccttatttc tcaccttagt tgggccctgg gacctcaggc
+      721 cttgtggcac ctacagatgc cgtgttgatt ctgacacctc tgcctcgtgt tcaggggagc
+      781 cgtaaccttc tcacgatatc atggccccag aacaacaacc cctgtgtgct gtgtgtactt
+      841 ggggtctcca gactggattc tgaggctcat attccaaaca accacacata tgataggatt
+      901 cctgacagac acagagagaa atcagggaca ttaaaaagca aaggcataaa cacacagaga
+      961 atgagccaga ggaaggagac tgaccagctc acagccacat aaagacagag aaacgaggat
+     1021 gatggtttcc agcttcatcc acgtccctgc aaaggacgtg aactcatcct ttttatggcc
+     1081 gcatagtatt ccatggtgta tatgtgccac attttgttaa tccagtctct cgttgatgga
+     1141 catttgggtt ggttccaagt ctttgctatt ttgaatagtg ccgacataaa catatgtgtg
+     1201 catgtgtctt tattgtagaa tgatttataa tcctttaggt atatcagaaa accaaacacc
+     1261 gcatgttctc gctcataagt gggacttgaa gaatgacaac acatggacac agggagggga
+     1321 acatcacata ccagggcctg tcagggggtg aggggctagg gaatggataa cagtaggaga
+     1381 aatacctaat gtaggtgacg gtgacgggtt gttgggtgaa gcaaaccacc agtgcgcatg
+     1441 tataccgatg taacaaaact gcacgttctg cacatgtaac ccagaactta aagtataatt
+     1501 tttaaaaaga gagagagaga aaagagggca gagaagtgga gagaatgatg gaagggagct
+     1561 gagaaaagcc ctaaaatcag agtcctgagg gagaggcaca aggagagaga aagatggaga
+     1621 tgtgggggat gaactgcaga tatttcaaag acaacgagac agactgagag gcagagaaag
+     1681 acaaggagat ggagacagag agatgcagat ggatagatag atgataaata cgtagatgat
+     1741 agataataga taggttatag atacatacat gatgattgat tggtagatga tacatagaga
+     1801 tgataatgat gatgataaat agacaaagag atagatacat gatacataga gatagagagg
+     1861 cagacaggta acagagagag agagagagga tacatagata tagataatag ctgattgatg
+     1921 gatacataga tagttaattg atagagagat gatacatata tatagatgat agatagataa
+     1981 ataatttgta gatacacacc aaatagttaa atagacgata gatagataga tagatagata
+     2041 gatagataga tagatagata gatagataga cagatagata acggatacat agataataga
+     2101 aatatgcaga aaattttgaa caagacagaa agtgagagac tcagaattaa agaaaaagga
+     2161 agatcaagtc aaccaatcca aggagggtca gagagaataa aatggtacaa agaaaaaaaa
+     2221 catagctagg gatggggaag tgaggtcaga gacctagaga catggagaag gtggaaggag
+     2281 gaaatagaca tgaagggaga cggagtgaag ggtgagagac agagagagag agagaaggtg
+     2341 aaaggagaaa atagacatga agagacatgg ggtggagggt aagaaagaga gcattaggtc
+     2401 actagagcag gtgcagggag ttctcagctc aggtgtgagg ggagctgtga caaggaagaa
+     2461 cctccctgag gaaactgcct cttctccttc cgggtctata caggaaatgt tctctctcag
+     2521 cccagccggg ccccactgtt catgcagaag agaacatgac ctgatcctgc agctcccgga
+     2581 gctcctttga catgtaccat ctatccaggg aaggggaggc ccatgaactg aggctccctg
+     2641 cagtgccgag ggtccatgga acattccagg ccgacttccc tctggggcct gccacccacg
+     2701 gagggacgtt cagatgcttt gtctctttcc gtgactctcc ctatgagtgg tcagacccaa
+     2761 gtgacccaca gcccatttct
+//
+LOCUS       NHP01280                2789 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*003:01:02, KIRDP locus allele.
+ACCESSION   NHP01280
+VERSION     NHP01280
+DBLINK      INSDC: OR341088
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*003:01:02
+            IPD accession: NHP01280
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2789
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2789
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*003:01:02"
+     exon            1..289
+                     /gene="KIRDP"
+                     /number=1
+     exon            2502..2789
+                     /gene="KIRDP"
+                     /number=2
+     intron          290..2501
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..289,2502..2789)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*003:01:02"
+                     /codon_start=2
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="SPQKTFPPGPPRSAGEIRRDGHPAMLVRYRVX"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcatcct gcaatgttgg tcagataccg tgtttgagca cttctttctg cacagagagg
+      121 ggatctctga ggacccctat gcctcgttgg agagctccat gatgggggct ccaaggccaa
+      181 cgtctccatg ggtcccatga cgcctgccct tgcagggacc taccaatgct atggttcttt
+      241 tactcactcc ccctatgaat ggtcagtccc cagtgacccc ctggacatcg tgatcacagg
+      301 tgagagtgtc cagacattct tctcattgtc actgggacac agagtgaatg atccaggact
+      361 tggaagcccc gggtggtcat gaggaagatg agtgtgggat tcttatggag agagactgac
+      421 ttggcgaggt ctgtaccaac agagacagag aaacaggaga cacaagtaca gaccaggtgt
+      481 cataacagag gacagacaca ggggccacac agggaggtag aaaagagaga aagagttaaa
+      541 ggagacaccc agacacacag acatgtccca gagagaggcg tccttccgtg ctgactttgt
+      601 tcagagacct ggcacaggtt agaagcttca tctctgtgtt acctccacag agtgatctct
+      661 accaggagaa cccaagagca cccttatttc tcaccttagt tgggccctgg gacctcaggc
+      721 cttgtggcac ctacagatgc cgtgttgatt ctgacacctc tgcctcgtgt tcaggggagc
+      781 cgtaaccttc tcacgatatc atggccccag aacaacaacc cctgtgtgct gtgtgtactt
+      841 ggggtctcca gactggattc tgaggctcat attccaaaca accacacata tgataggatt
+      901 cctgacagac acagagagaa atcagggaca ttaaaaagca aaggcataaa cacacagaga
+      961 atgagccaga ggaaggagac tgaccagctc acagccacat aaagacagag aaacgaggat
+     1021 gatggtttcc agcttcatcc acgtccctgc aaaggacgtg aactcatcct ttttatggcc
+     1081 gcatagtatt ccatggtgta tatgtgccac attttgttaa tccagtctct cgttgatgga
+     1141 catttgggtt ggttccaagt ctttgctatt ttgaatagtg ccgacataaa catatgtgtg
+     1201 catgtgtctt tattgtagaa tgatttataa tcctttaggt atatcagaaa accaaacacc
+     1261 gcatgttctc gctcataagt gggacttgaa gaatgacaac acatggacac agggagggga
+     1321 acatcacata ccagggcctg tcagggggtg aggggctagg gaatggataa cagtaggaga
+     1381 aatacctaat gtaggtgacg gtgacgggtt gttgggtgaa gcaaaccacc agtgcacatg
+     1441 tataccgatg taacaaaact gcacgttctg cacatgtaac ccagaactta aagtataatt
+     1501 tttaaaaaga gagagagaga aaagagggca gagaagtgga gagaatgatg gaagggagct
+     1561 gagaaaagcc ctaaaatcag agtcctgagg gagaggcaca aggagagaga aagatggaga
+     1621 tgtgggggat gaattgcaga tatttcaaag acaacgagac agactgagag gcagagaaag
+     1681 acaaggagat ggagacagag agatgcagat ggatagatag atgataaata cgtagatgat
+     1741 agataataga taatagatag gttatagata catacatgat gattgattgg tagatgatac
+     1801 atagagatga taatgatgat gataaataga caaagagata gatacatgat acatagagat
+     1861 agagaggcag acaggtaaga gagagagaga gaggatacat agatatagat aatagctgat
+     1921 tgatggatac atagatagtt aattgataga gagatgatac atatatatag atgatagata
+     1981 gataaataat ttgtagatac acaccaaata gttaaataga cgatagatag atagatagat
+     2041 agatagatag atagatagat agatagatag ataaatagac agatagataa cggatacata
+     2101 gataatagaa atatgcagaa aattttgaac aagacagaaa gtgagagact cagaattaaa
+     2161 gaaaaaggaa gatcaagtca accaatccaa ggagggtcag agagaataaa atggtacaaa
+     2221 gaaaaaaaac atagctaggg atggggaagt gaggtcagag acctagggac atggagaagg
+     2281 tggaaggagg aaatagacat gaagggagac ggagtgaagg gtgagagaca gagagagaga
+     2341 gagaaggtga aaggagaaaa tagacatgaa gagacatggg gtggagggta agaaagagag
+     2401 cattaggtca ctagagcagg tgcagggagt tctcagctca ggtgtgaggg gagctgtgac
+     2461 aaggaagaac ctccctgagg aaactgcctc ttctccttct gggtctatac aggaaatgtt
+     2521 ctctctcagc ccagccgggc cccactgttc atgcagaaga gaacatgacc tgatcctgca
+     2581 gctcccggag ctcctttgac atgtaccatc tatccaggga aggggaggcc catgaactga
+     2641 ggctccctgc agtgccgagg gtccatggaa cattccaggc cgacttccct ctggggcctg
+     2701 ccacccacgg agggacgttc agatgctttg gctctttccg tgactctcct tatgagtggt
+     2761 cagacccgag tgacccactg cccatttct
+//
+LOCUS       NHP01281                2785 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*004:01:01, KIRDP locus allele.
+ACCESSION   NHP01281
+VERSION     NHP01281
+DBLINK      INSDC: OR341094
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*004:01:01
+            IPD accession: NHP01281
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2785
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2785
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*004:01:01"
+     exon            1..290
+                     /gene="KIRDP"
+                     /number=1
+     exon            2498..2785
+                     /gene="KIRDP"
+                     /number=2
+     intron          291..2497
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..290,2498..2785)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*004:01:01"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKTSLLALPGPLVKSGETVTLQCSSDTVFEHFLLHREGISEDP
+                     LCLVGELHDGGSKANVSMGPMTPALAGTYQCYGSFTHSPYEWSVPSDPLDIGLYRKCSL
+                     SAQPGPTVHAEENMTX"
+ORIGIN
+        1 gagtccacag aaaaacttcc ctcctggccc tcccaggtcc gctggtgaaa tcaggagaga
+       61 cggtcaccct acaatgttcc tcagataccg tgtttgagca cttccttctg cacagagagg
+      121 ggatctctga ggacccctta tgcctcgttg gagagctcca tgatgggggc tccaaggcca
+      181 acgtctccat gggtcccatg acgcctgccc ttgcagggac ctaccaatgc tatggttctt
+      241 ttactcactc cccctatgaa tggtcagtcc ccagtgaccc cctggacatc gtgatcacag
+      301 gtgagagtgt ccagacattc ttctcattgt cactgggaca cagagtgaat gatccaggac
+      361 ttggaagccc caggtggtca tgaggaacat gagtgtggga ttcttatgga gagagactga
+      421 cttggcgagg tctgtaccaa cagagacaga gaaacaggag acgcaagtac agaccaggtg
+      481 tcataacaga ggacagatac aggggccaca cagggaggta gaaaagagag aaagagttaa
+      541 aggagacacc cagacacaca gacatgtccc agagagaggc gtccttccgt gctgactttg
+      601 ttcagagacc tggcacaggt tagaagcttc atctctgtgt tacctccaca gagtgatctc
+      661 taccaggaga acccaagagc acccttattt ctcaccttag ttgggccctg ggacctcagg
+      721 ccttgtggca cctacagatg ccgtgttcat tctgacacct ctgcctcgtg ttcaggggag
+      781 ccgtaacctt ctcacgatat catggcccca gaacaacaac ccctgtgtgc tgtgtgtact
+      841 tggggtctcc agactggatt ctgaggctca tattccaaac aaccacacat atgataggat
+      901 tcctgacaga cacagagaga aatcagggac attaaaaagc aaaggcataa acacacagag
+      961 aatgagccag aggaaggaga ctgaccagct cacagccaca taaagacaga gaaacgagga
+     1021 tgatggtttc cagcttcatc cacgtccctg caaaggacgt gaactcatcc tttttatggc
+     1081 cgcatagtat tccatggtgt atatgtgcca cattttgtta atccagtctc tcgttgatgg
+     1141 acatttgggt tggttccaag tctttgctat tttgaatagt gccgacataa acatatgtgt
+     1201 gcatgtgtct ttattgtaga attatttata atcctttagg tatatcagaa aaccaaacac
+     1261 cgcatgttct cgctcataag tgggacttga agaatgacaa cacatggaca cagggtgggg
+     1321 aacatcacat accagggcct gtcagggggt gaggggctag ggaatggata acagtaggag
+     1381 aaatacctaa tgtaggtgac ggtgacgggt tgttgggtga agcaaaccac cagtgcgcat
+     1441 gtataccgat gtaacaaaac tgcacgttcg gcacatgtaa cccagaactt aaagtataat
+     1501 ttttaaaaag agagagagag aaaagagggc agagaagtgg agagaatgat ggaagggagc
+     1561 tgagaaaagc cctaaaatca gagtcctgag ggagaggcac aaggagagag aaagatggag
+     1621 atgtggggga tgaattgcag atatttcaaa gacaacgaga cagactgaga ggcagagaaa
+     1681 gacaaggaga tggagacaga gagatgcaga tggatagata gatgataaat acgtagatga
+     1741 tagataatag ataatagata ggttatagat acatacatga tgattgattg gtagatgata
+     1801 catagagatg ataatgatga tgataaatag acaaagagat agatacatga tacatagaga
+     1861 tagagaggca gacaggtaag agagagagag agaggataca tagatataga taatagctga
+     1921 ttgatggata catagatagt taattgatag agagatgata catatatata gatgatagat
+     1981 agataaataa tttgtagata cacaccaaat agttaaatag acgatagata gatagataga
+     2041 tagatagata gatagataga tagatagatg atagacagat agataacgga tacatagata
+     2101 atagaaatat gcagaaaatt ttgaacaaga cagaaagtga gagactcaga attaaagaaa
+     2161 aaggaagatc aagtcaacca atccaaggag ggtcagagag aataaaatgg tacaaagaaa
+     2221 aaaaacatag ctagggatgg ggaagtgagg tcagagacct agggacatgg agaaggtgga
+     2281 aggaggaaat agacatgaag ggagacggag tgaagggtga gagacagaga gagagagaga
+     2341 aggtgaaagg agaaaataga catgaagaga catggggtgg agggtaagaa agagagcatt
+     2401 aggtcactag agcaggtgca gggagttctc agctcaggtg tgaggggagc tgtgacaagg
+     2461 aagaacctcc ctgaggaaac tgcctcttct ccttctgggt ctatacagga aatgttctct
+     2521 ctcagcccag ccgggcccca ctgttcatgc agaagagaac atgacctgat cctgcagctc
+     2581 ccggagctcc tttgacatgt accatctatc cagggaaggg gaggcccatg aactgaggct
+     2641 ccctgcagtg ccgagggtcc atggaacatt ccaggccgac ttccctctgg ggcctgccac
+     2701 ccacggaggg acgttcagat gctttggctc tttccgtgac tctccttatg agtggtcaga
+     2761 cccgagtgac ccactgccca tttct
+//
+LOCUS       NHP01282                2108 bp    DNA     linear   PRI 18-AUG-2023
+DEFINITION  Mafa-KIRDP*005:01:01, KIRDP locus allele.
+ACCESSION   NHP01282
+VERSION     NHP01282
+DBLINK      INSDC: OR341095
+KEYWORDS    IPD-NHKIR; KIRDP.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-NHKIR allele: Mafa-KIRDP*005:01:01
+            IPD accession: NHP01282
+            Species prefix: Mafa
+FEATURES             Location/Qualifiers
+     source          1..2108
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2108
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*005:01:01"
+     exon            1..290
+                     /gene="KIRDP"
+                     /number=1
+     exon            1828..2108
+                     /gene="KIRDP"
+                     /number=2
+     intron          291..1827
+                     /gene="KIRDP"
+                     /number=1
+     CDS             join(1..290,1828..2108)
+                     /gene="KIRDP"
+                     /allele="Mafa-KIRDP*005:01:01"
+                     /codon_start=3
+                     /product="killer cell immunoglobulin-like receptor KIRDP"
+                     /translation="VHRKPSLLALPSPLVKSEETVILQCWSDIKFEHFLLHRVGKFEEP
+                     LHLIGELHDGGSKANVSISPVTPALAGTYQCYGSVTHSPYVLSAPSDPLDIGKYEKPSL
+                     SAQPGPMVQAGENVTLSCSSWRSFDMYHLSREGETHELRLPAVPSVHGTFQADFPLGPM
+                     EGPTDASVLSVPHPSSGQTRVTHCPF"
+ORIGIN
+        1 gagtccacag aaaaccttcc ctcctggccc tcccaagtcc cctggtgaaa tcagaagaga
+       61 cggtcatcct gcagtgctgg tcagatatca agtttgagca cttccttctg caccgagtgg
+      121 ggaagtttga ggagcccttg catctcatcg gagagctcca tgatgggggc tccaaggcca
+      181 atgtctccat cagtccagtg acacctgccc tggcagggac ctaccaatgc tacggttctg
+      241 tcactcactc cccctatgtg ttgtcagctc ccagtgaccc cctggacatc gtgatcacag
+      301 gtgagagtga ccggacattc ttctcattgt cactgggaca cagagtgaat gatcctggac
+      361 ttggaggccc aggtggttgt aaggaaaatg tgcatgagat tcttatggag agagactgac
+      421 ttggcgaggt ctgtaccaac agagacagag aaacaggaga cacaagcaca gaccaggtgt
+      481 cataacagag gacagacaca ggggccaaac agggaggtag aaaagagaga aagagttaaa
+      541 ggagacaccc agacagacag acatgtccca gagtgaggcg tccttccatg ttgactttgt
+      601 tcagagacct ggcacaggtt agaagtttca tttctgtttt acctccacaa agtgttctct
+      661 accaggagaa ccgaaagaca cccacatttc tgacctgagt cagcccctgt ggcctcaggc
+      721 cttgtggcac ctacagatgc cgtgttgatt ctgacacctc tgccttgtgt gcaggggaca
+      781 gtcatcattc caggatatca tggccccaga acaccaaccc ctgtgtgccg tgtgaacttg
+      841 gggtccccag actggattct gaggctcata ttccacataa ccacacatat gataggattc
+      901 ctgagagaca cagagagaaa tcaggggcat caaaagcaaa ggtataaaca cacagagaat
+      961 gaaccagaag aaggggattg agagactcac agacacataa agagaaaaga gggcagataa
+     1021 gtggagagaa tgatggaagg gagcagagaa aagctccaaa attagagtcc tgagggagag
+     1081 gcccaaggac agagaaaggg agatgtgcgg atgaattaca gagattccaa agagaactag
+     1141 agagaccaag aggcagagaa aaacagatga tagatggata gatagatata gagagatgat
+     1201 aaatagttag gtgatagata atagataggt tatggataca taaatgatga ttgcttgttt
+     1261 cattgattaa tcgatgatac atagagatga cgatgatgaa gataaataaa tagatgatac
+     1321 atggagagag atagagaggc aaacagagag agaaatcaga gagagagaga gatgatacat
+     1381 agatatagat aatagatgat tgacggatag atagacaatt gatagagaga taaatagatg
+     1441 atacatagat atagatgaca gataatttat agatagacac tgaatagatc aatagataac
+     1501 atatagaaat atgcagaaag ttatgaacag gacacaaagt gagaaactta gaattaataa
+     1561 aaagtaacat caagtcaaca aatccaagga gggtcagaga gaagaaaaca atacaaaaag
+     1621 ggaaaacgca cctcgggctg gggaagtgag gtcagagacc tagagagaca gagaaggtgg
+     1681 aaggaggaaa cagacatgaa gagagacggg gtggagggtg acagagagca ttaggtcata
+     1741 gagcagggga gtgagttctc agctcagatg tgacgggagc tgtgacaggg aagaacctcc
+     1801 ctgaggaaac tgcctcttct ccttccaggt aaatatgaga aaccttctct ctcagcccag
+     1861 ccaggcccca tggttcaggc aggagagaac gtgaccttgt cctgcagctc ctggcgctcc
+     1921 tttgacatgt accatctatc cagggagggg gagacccatg aacttaggct ccctgcagtg
+     1981 cccagtgtcc atggaacgtt ccaggccgac ttccctctgg gacccatgga gggacctaca
+     2041 gatgcttcgg ttctttccgt gccccaccct tcgagtggtc agacccgagt gacccactgc
+     2101 ccgtttct
+//

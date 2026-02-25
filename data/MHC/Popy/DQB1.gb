@@ -1,0 +1,409 @@
+LOCUS       NHP00955                5724 bp    DNA     linear   PRI 20-MAR-2025
+DEFINITION  Popy-DQB1*06:03, DQB1 locus allele.
+ACCESSION   NHP00955
+VERSION     NHP00955
+DBLINK      INSDC: M81271
+            INSDC: LR025111
+            INSDC: OZ240649
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo pygmaeus (Bornean Orangutan)
+  ORGANISM  Pongo pygmaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Popy-DQB1*06:03
+            IPD accession: NHP00955
+            Species prefix: Popy
+            MHC class: II
+            Previous designations: Popy-DQB1*0603
+FEATURES             Location/Qualifiers
+     source          1..5724
+                     /organism="Pongo pygmaeus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9600"
+     gene            1..5724
+                     /gene="DQB1"
+                     /allele="Popy-DQB1*06:03"
+                     /note="previous designations: Popy-DQB1*0603"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1563..1832
+                     /gene="DQB1"
+                     /number=2
+     exon            4319..4600
+                     /gene="DQB1"
+                     /number=3
+     exon            5112..5222
+                     /gene="DQB1"
+                     /number=4
+     exon            5687..5710
+                     /gene="DQB1"
+                     /number=5
+     exon            5711..5724
+                     /gene="DQB1"
+                     /number=6
+     intron          110..1562
+                     /gene="DQB1"
+                     /number=1
+     intron          1833..4318
+                     /gene="DQB1"
+                     /number=2
+     intron          4601..5111
+                     /gene="DQB1"
+                     /number=3
+     intron          5223..5686
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1563..1832,4319..4600,5112..5222,5687..5710,
+                     5711..5724)
+                     /gene="DQB1"
+                     /allele="Popy-DQB1*06:03"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLWAATVTLMLAMLSTPRAEGRDSPEDFVYQFKG
+                     LCYFTNGTERVRLVTRYIYNREEYARFDSNVGVYRAVTPQGRPDAEYWNSQKEVLERTR
+                     AELDTVCIHNYEVAYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQVKVRW
+                     FRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCHVEHPSLQRPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcggatcccc ggaggccttt gggcagcaac tgtcaccttg
+       61 atgctggcaa tgctgagcac cccacgggct gagggcagag actctcccgg taagtgcagt
+      121 gcagctgctc tccaaagcca ccactctggg aaaggctttc cttgggctag gctagaggga
+      181 tggtgatctc catcatctcg gacacagtct tttatcaaca tttcctgtct ttgggaaaga
+      241 gaacgatgtt gcattcccat ttatgtttta gtgatgaggt gagcacagtc cgatccccat
+      301 cctacagctt aagcctggaa gaggaagaga gaggagagga aagaggagac aaagtgtaca
+      361 tttactacca gtgataggac aaagtgagca tggggttatt tttgaagata cgaatttctc
+      421 caaagacaca gcaggatttg tcatttaggc gtgccccaag actttgcctg gactacatat
+      481 tatgagatcc tgcactggga aatgtaaggc agcaacgatg tctgtagact ccgtatttgc
+      541 ggaaaagtag tctgtattcc cgactgactg gagcgtttgt ggaggcaaaa tcttggtatt
+      601 gagggaagct gactggctga ccacagacag ggagtcttca ggtttcactg atttatgggt
+      661 aaatggtgac ttgagtggga ttcagagacc cgagttgatg gtggactaaa tttagtagaa
+      721 aggaggatgt aaagaaggga aataacacat attatgaaag cactcactca gacacagaac
+      781 aatattttac ataaattctc tcactccttc taacatcctg tgtgtagata tcataatttt
+      841 cttttacaca attgtacttg tgatatggat attctgtcca atatggatat acataacctg
+      901 cccaagcggg taactgccac agtttaactg gaatctagtt gatcaaattc aaaagcttgt
+      961 gctctttcca tgaataaatg tttctgtcta ggattcagag gtgtaggtcc tttccaacat
+     1021 agaagggagt gaacctcaac gggtcttcgg agggtaaatc caggcatggg aaggaaggta
+     1081 ttttacccag ggaccaagag aatatgcgta tcagaacgag gccaggctta attcctggac
+     1141 ctgtctcatc atccccttga actctcaggt ttatgtggat aactttatct ctgaggtatc
+     1201 caggagctcc atgaaaaatg ggatttcatg cgagaacgcc ctgatccctc taagtgcaga
+     1261 ggtccatgta aaatcagccc gactgcctct tcgctgggtt cacaggctca gggagggaca
+     1321 gggctttccg ccctttcctg cctgtaggaa ggcggattcc cgaagacccc agagagggcg
+     1381 ggcagggcta ggcagagccg ccggggggat cccaggtctg gagcgccagg caccagcggg
+     1441 cgggaactgg aggtcgcgcg ggcggttcca cagctccgga ccgggtcagg gcggcggctg
+     1501 cggggggcag ccgggctagg gccaggctgg gacctgactg accggccggt gattccccgc
+     1561 agaggatttc gtgtaccagt ttaagggcct gtgctacttc accaacggga cggagcgcgt
+     1621 gcgtcttgtg accagataca tctataaccg agaggagtac gcgcgtttcg acagcaatgt
+     1681 gggggtgtac cgggcggtga cgccgcaggg gcggcctgac gcagagtact ggaacagcca
+     1741 gaaggaagtc ctggagagga cccgggcgga gttggacacg gtgtgcatac acaactacga
+     1801 ggtggcgtac cgcgggatct tgcagcggag aggtgagcgt cgtcgcccct ccgtgaggcc
+     1861 cacccttggc cgggacctcg agtctctgtg ctgggagggg cgacggggtt gcggcctctg
+     1921 aaatctgagt cctgttcatt ccaccccagg ggacgggagt tggcggcgtg agtggtgggg
+     1981 gaagtgcatc agatgggcgg ggacctaggg cagagcaggg ggacaagcag agttggccag
+     2041 gctgcctagt gtccccccag ggtcctcgtc cgtcggcctc gtcctctgct ctgcacgttt
+     2101 ctcgcctcgt gccttatgcg tttgcctcct cttgccttac ctttgctaag cagttctctc
+     2161 tgccccgatt gcccaccctc ttcccctgcc tgcctgcccc gctagcactg ccccacccag
+     2221 caaggcccat gtgcgcagct cgcgccgcag gaagcttcag gcttggcctg gtgagttagg
+     2281 gctgccccac aactgcgcgc agggcatcga gcaattacaa ttgcgaaata agatattttg
+     2341 gcttcaaatc attattcatc gtaattctgt tttcctaaat ggctatcact aatggcggag
+     2401 atctttgagg tgggagactg tttaaattat tgcatgcctg gtacctgaca cattgactgg
+     2461 tatgtggtat gagctcaatg atcttctgtt aaattcatga ataaatgtac tcagctgcca
+     2521 acccatttag gttcaagaaa aaacagaggc ttacaaatgg actttattaa ttattttcta
+     2581 tcattttgct taatgcttta aagtaaactc ttattgactt ggatcttaat agaatttgtg
+     2641 aattcaaagt ctgaggaaaa aagtgtttgc taaaaatgaa aacaatgctt gattgatgtt
+     2701 gtaaggcaga gttttaattt cttagaaaag ctgaacaaat ggcacaatgc aaagagcaga
+     2761 agtttgggaa taaataggtt gaagccatta aattattgga taaaaatagt ttcaggttgc
+     2821 ttttggccta ggttctcccc tccccccatc actatccact tcaggaataa acattctgaa
+     2881 agtcaatttt acccattcag gtagcattta tttctagaca gttgccttat caaataccat
+     2941 atatgttatg ccatttaatc tcgcagctac ctgtgcatta gagattagca tcatcacttt
+     3001 atatatccta atattggtac atgataaaca ctttaagtaa tcagcccaca attactcacc
+     3061 aagaccttaa gcctcccaaa gtatacatgt tcctcactgc acatctatag agtccaaggg
+     3121 acataaggcc ttgttaaagc cagttttgac cagaagcagc aatgagccta ttcctgtttg
+     3181 ttcttcatgt taatggggca ttgaaaattc actgattaat caatccctag tctgacccca
+     3241 gtgttatcta tgcaggttca caaaactttt agtttacttt acactccctt gccttctttt
+     3301 gactcacatt ctaatgccag caagtactta tatttttgct atttcagttc tatttccata
+     3361 aaatttattt tatcatcttt tctcataaaa ttgtgccttc tatttttact cccagtctgt
+     3421 tgaagatgaa caaatcttat aaggccacat agctgactgt gatttcagtt ggactccagg
+     3481 aaggagaatc taaagaaaag ttcaagtcca agcagaaacc atgattcctt ccggatgatg
+     3541 gctcaagagt gccgtttaat tggggtgcca cctgctgacc tcagcaaatc ccagttatat
+     3601 gtatatgttc acattacagg ctcattaacc caggccgagc tctgcatgga tctcagaata
+     3661 ttttctatgg agaacataca tgataatgtc tgatttcaga acaagaaagt aattctcaat
+     3721 agcaaggaaa tggagtaggg tagacagata gtaattaaac tcacttgtgc gttaaaaaga
+     3781 aattaaggaa aaaaagaaaa tgagagaaca tattactaaa gaaagcacac attaaatatt
+     3841 tgctatagtt tcacactaag agaataaaag aaatgcgata aagtggtcta aaaggtgaag
+     3901 gatgagatgt gtaaaagagg cagggaaaga tgtgtcattt tttttactat gagcagcaat
+     3961 ctgagaagat aaaggaattg agttgtgggc aaacatgatg tttgatcagt gttatttgtt
+     4021 ttgaaggcct gcctactttt ttttcaaata ttacaaactt ttgaaataac attctttttg
+     4081 ttttttgttg tctgttacta gattgcacat tctataaatg cagggaccat ggtatgtgtt
+     4141 tatctttgga ttctcagtga tagtcaaatt tatatttgtt gaatgaacct taatccaaga
+     4201 cttggactcc aggtatcttt ccacgctggt tgcaaggagg gatccttcct catgacagac
+     4261 gtgctatgtg gtctcacatc tcactcgtat gtcttttcct gtctgttact gccctcagtg
+     4321 gagcccacag tgaccatctc cccatccagg acagaggccc tcaaccacca caacctgctg
+     4381 gtctgctcgg tgacagattt ctatccaggc caggtcaaag tccggtggtt tcggaatgat
+     4441 caggaggaga cagccggcgt tgtgtccacc ccacttatta ggaacggtga ctggactttc
+     4501 cagatcctgg tgatgctgga aatgactccc cagcgtggag atgtctacac ttgccacgtg
+     4561 gagcacccca gcctccagag acccatcacc gtggagtggc gtaaggggat attgagtttc
+     4621 tgttactatg ggccccacaa gacaaagagc tccttctgac cctttccttc ccatctctta
+     4681 tccctgatgt tactactgag ctgggaatca cagcagacta gagcacctct tgctccatgg
+     4741 caagtgcatc agaagaatcc tgatctcatc acctttccag atgctaggga aattattcta
+     4801 catactgttg ctctggatcc cagtcctgat agctctgagg gactgattat tagggctggt
+     4861 gattgggatc ttagagtcta aggttatgga tgagttcctg aggagcagag atttgcttcc
+     4921 ccactctctc acctactcac tgtatctaag gacctattgg ctggtctttc ccctgcttag
+     4981 gagtggtctg aatggagaac taggttcctt tgatgccttc acctcctgca cctcagactg
+     5041 gacttcaact cctcagcagg gatgctatgg ggtgtgggga ccaacactga cactcaggtt
+     5101 ctgctcttta ggggctcagt ctgaatctgc ccagagcaag atgctgagtg gtgttggagg
+     5161 cttcgtgctg gggctgatct tccttgggct gggccttatc atccgtcaaa ggagtcagaa
+     5221 aggtaaggaa ccccagggga aaaggggaag atgggctgtg acccagaccc tctgttcaga
+     5281 gaggtcctgt ccgtagatta gctctttcct cctaaccctg agaggaagtg cgaggagaga
+     5341 ggacaagatt ggaggaggca ttggaatctg attttactgg ttgaaaggta gccctgtcat
+     5401 ggagctgact gatagagctt attccagggc atccttacca ttcatcattg tctcactgac
+     5461 tcctttccaa aagcttcctc cattaagagg gtcagagcct cagcctcctt tctttctagt
+     5521 gacaatttcc tttgttttag gggattttaa attagggtgc tgaaggcctg gaagaacatg
+     5581 ggtgggaaga gaatgtaact ctaagtcatg tgtgtcattt tcctttggga tgagagagtg
+     5641 gctgtttgtg taatgagacc tttctctgca taacttcctt ttataggacc tcaagggcct
+     5701 ccaccagcag ggctcctgca ctga
+//
+LOCUS       NHP00957                2032 bp    DNA     linear   PRI 28-MAY-2025
+DEFINITION  Popy-DQB1*16:01:01:01, DQB1 locus allele.
+ACCESSION   NHP00957
+VERSION     NHP00957
+DBLINK      INSDC: M81273
+            INSDC: LR025109
+            INSDC: OZ240621
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo pygmaeus (Bornean Orangutan)
+  ORGANISM  Pongo pygmaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Popy-DQB1*16:01:01:01
+            IPD accession: NHP00957
+            Species prefix: Popy
+            MHC class: II
+            Previous designations: Popy-DQB1*1601; Popy-DQB1*16:01
+FEATURES             Location/Qualifiers
+     source          1..2032
+                     /organism="Pongo pygmaeus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9600"
+     gene            1..2032
+                     /gene="DQB1"
+                     /allele="Popy-DQB1*16:01:01:01"
+                     /note="previous designations: Popy-DQB1*1601;
+                     Popy-DQB1*16:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            380..649
+                     /gene="DQB1"
+                     /number=2
+     exon            932..1213
+                     /gene="DQB1"
+                     /number=3
+     exon            1325..1435
+                     /gene="DQB1"
+                     /number=4
+     exon            1995..2018
+                     /gene="DQB1"
+                     /number=5
+     exon            2019..2032
+                     /gene="DQB1"
+                     /number=6
+     intron          110..379
+                     /gene="DQB1"
+                     /number=1
+     intron          650..931
+                     /gene="DQB1"
+                     /number=2
+     intron          1214..1324
+                     /gene="DQB1"
+                     /number=3
+     intron          1436..1994
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,380..649,932..1213,1325..1435,1995..2018,
+                     2019..2032)
+                     /gene="DQB1"
+                     /allele="Popy-DQB1*16:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLMLAMLSTPVAEGRGSPEDFVVQFKG
+                     MCYFTNGTERVRLVARHVYNREEYARFDSDVGVYRAVTPLGQSSVEYWNSQKEVLETKR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPAQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEITPQHGDVYTCHVEHPSLQSPITVEWRA
+                     QSESAQSKMVSGIGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcggataccc ggaggccttc gggcagcaac tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtggct gagggcagag ggtctcctga ggatttcgtg
+      121 gtccagttta agggcatgtg ctacttcacc aacgggacag agcgcgtgcg gttggtagcc
+      181 agacacgtct ataaccgcga agagtacgcg cgcttcgaca gcgacgtggg ggtgtaccgg
+      241 gcggtgacgc ctctgggaca gtctagcgtc gagtactgga acagccagaa ggaagtcctg
+      301 gagacgaaac gggcggagct ggacacggtg tgcagacaca actaccagtt ggaactccgc
+      361 acgaccttgc agcggcgaga ggatttcgtg gtccagttta agggcatgtg ctacttcacc
+      421 aacgggacag agcgcgtgcg gttggtagcc agacacgtct ataaccgcga agagtacgcg
+      481 cgcttcgaca gcgacgtggg ggtgtaccgg gcggtgacgc ctctgggaca gtctagcgtc
+      541 gagtactgga acagccagaa ggaagtcctg gagacgaaac gggcggagct ggacacggtg
+      601 tgcagacaca actaccagtt ggaactccgc acgaccttgc agcggcgagt ggagcccaca
+      661 gtgaccatct ccccatccag gacagaggcc ctcaaccacc acaacctgct ggtctgctca
+      721 gtgacagatt tctatccagc ccagatcaaa gtccggtggt ttcggaatga ccaggaggag
+      781 acaactggcg ttgtgtccac cccccttatt aggaacggtg actggacctt ccagatcctg
+      841 gtgatgctgg aaataactcc ccagcatgga gacgtctaca cctgccacgt ggagcacccc
+      901 agcctccaga gccccattac cgtggagtgg ctggagccca cagtgaccat ctccccatcc
+      961 aggacagagg ccctcaacca ccacaacctg ctggtctgct cagtgacaga tttctatcca
+     1021 gcccagatca aagtccggtg gtttcggaat gaccaggagg agacaactgg cgttgtgtcc
+     1081 acccccctta ttaggaacgg tgactggacc ttccagatcc tggtgatgct ggaaataact
+     1141 ccccagcatg gagacgtcta cacctgccac gtggagcacc ccagcctcca gagccccatt
+     1201 accgtggagt ggcgggctca atctgaatct gcccagagca agatggtgag tggcattgga
+     1261 ggcttcgtgc tggggctgat cttcctcggg ctgggcctta tcatccatca caggagtcag
+     1321 aaaggggctc aatctgaatc tgcccagagc aagatggtga gtggcattgg aggcttcgtg
+     1381 ctggggctga tcttcctcgg gctgggcctt atcatccatc acaggagtca gaaaggtgag
+     1441 gaaccccagg agaaaagggg aagatgggct gtgacacgga ccctctgttc agagaggtcc
+     1501 tgtctctaga tgtagctctt tcctcctgac cccgagagga agaaagctga gctggaggtg
+     1561 ggaggagaca ggacaagatt ggaggaagca ttggaatctg attttactag ttgaaggaca
+     1621 gccctgtcac agagctgact gacagagctt attccaggac gtccttaccg ttcatcattg
+     1681 tctcactggc tcctttccaa aagcctcctc cattaagagg gtcagagcct cggcctcctt
+     1741 gccttctagt gacaatttcc tttattttag gggaaaactt cctccattaa gagggtcaga
+     1801 gcctcggcct ccttgccttc tagtggcaat ttcctttatt ttaggggatt ttaaattagg
+     1861 gtgcttaagg ccttgaagaa catgggtggg aagagaatat aactttaatt aagtcacatg
+     1921 tgtcattttc ttttggggtg agagagtggc tgtttgtgta atgagacctt tctctgcata
+     1981 acttcctttt gtaagacctc aagggcctcc accagcaggg ctcctgcact ga
+//
+LOCUS       NHP10035                1937 bp    DNA     linear   PRI 28-MAY-2025
+DEFINITION  Popy-DQB1*06:05:01:01, DQB1 locus allele.
+ACCESSION   NHP10035
+VERSION     NHP10035
+DBLINK      INSDC: LR025110
+            INSDC: OZ240647
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo pygmaeus (Bornean Orangutan)
+  ORGANISM  Pongo pygmaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Popy-DQB1*06:05:01:01
+            IPD accession: NHP10035
+            Species prefix: Popy
+            MHC class: II
+            Previous designations: Popy-DQB1*06:05
+FEATURES             Location/Qualifiers
+     source          1..1937
+                     /organism="Pongo pygmaeus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9600"
+     gene            1..1937
+                     /gene="DQB1"
+                     /allele="Popy-DQB1*06:05:01:01"
+                     /note="previous designations: Popy-DQB1*06:05"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            380..649
+                     /gene="DQB1"
+                     /number=2
+     exon            932..1213
+                     /gene="DQB1"
+                     /number=3
+     exon            1325..1435
+                     /gene="DQB1"
+                     /number=4
+     exon            1900..1923
+                     /gene="DQB1"
+                     /number=5
+     exon            1924..1937
+                     /gene="DQB1"
+                     /number=6
+     intron          110..379
+                     /gene="DQB1"
+                     /number=1
+     intron          650..931
+                     /gene="DQB1"
+                     /number=2
+     intron          1214..1324
+                     /gene="DQB1"
+                     /number=3
+     intron          1436..1899
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,380..649,932..1213,1325..1435,1900..1923,
+                     1924..1937)
+                     /gene="DQB1"
+                     /allele="Popy-DQB1*06:05:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLWAATVTLMLAMLSTPRAEGRDSPEDFVYQFKG
+                     LCYFTNGTERVRGVTRYIYNREEYVRFDSDVGVYRAVTPQGRPDAEYWNSQKDILERTR
+                     AELDTVCIHNYEVAYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQVKVRW
+                     FRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYICHVEHPSLQRPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcggatcccc ggaggccttt gggcagcaac tgtcaccttg
+       61 atgctggcga tgctgagcac cccacgggct gagggcagag actctcccga ggatttcgtg
+      121 taccagttta agggcctgtg ctacttcacc aacgggacgg agcgcgtgcg gggtgtgacc
+      181 agatacatct ataaccgaga ggagtacgtg cgcttcgaca gcgatgtggg ggtgtaccgg
+      241 gcggtgacgc cgcaggggcg gcctgacgca gagtactgga acagccagaa ggacatcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcatacaca actacgaggt ggcgtaccgc
+      361 gggatcttgc agaggagaga ggatttcgtg taccagttta agggcctgtg ctacttcacc
+      421 aacgggacgg agcgcgtgcg gggtgtgacc agatacatct ataaccgaga ggagtacgtg
+      481 cgcttcgaca gcgatgtggg ggtgtaccgg gcggtgacgc cgcaggggcg gcctgacgca
+      541 gagtactgga acagccagaa ggacatcctg gagaggaccc gggcggagtt ggacacggtg
+      601 tgcatacaca actacgaggt ggcgtaccgc gggatcttgc agaggagagt ggagcccaca
+      661 gtgaccatct ccccatccag gacagaggcc ctcaaccacc acaacctgct ggtctgctcg
+      721 gtgacagatt tctatccagg ccaggtcaaa gtccggtggt ttcggaatga tcaggaggag
+      781 acagccggcg ttgtgtccac cccacttatt aggaacggtg actggacttt ccagatcctg
+      841 gtgatgctgg aaatgactcc ccagcgtgga gatgtctaca tttgccacgt ggagcacccc
+      901 agcctccaga gacccatcac cgtggagtgg ctggagccca cagtgaccat ctccccatcc
+      961 aggacagagg ccctcaacca ccacaacctg ctggtctgct cggtgacaga tttctatcca
+     1021 ggccaggtca aagtccggtg gtttcggaat gatcaggagg agacagccgg cgttgtgtcc
+     1081 accccactta ttaggaacgg tgactggact ttccagatcc tggtgatgct ggaaatgact
+     1141 ccccagcgtg gagatgtcta catttgccac gtggagcacc ccagcctcca gagacccatc
+     1201 accgtggagt ggcgggctca gtctgaatct gcccagagca agatgctgag tggcgttgga
+     1261 ggcttcgtgc tggggctgat cttccttggg ctgggcctta tcatccgtca aaggagtcag
+     1321 aaaggggctc agtctgaatc tgcccagagc aagatgctga gtggcgttgg aggcttcgtg
+     1381 ctggggctga tcttccttgg gctgggcctt atcatccgtc aaaggagtca gaaaggtgag
+     1441 gaaccccagg ggaaaagggg aagatgggct gtgacccaga ccctctgttc agagaggtcc
+     1501 tgtccgtaga ttagctcttt cctcctaacc ctgagaggaa gtgcgaggag agaggacaag
+     1561 attggaggag gcattggaat ctgattttac tggttgaaag gtagccctgt catggagctg
+     1621 actgatagag cttattccag ggcatcctta ccattcatca ttgtctcact gactcctttc
+     1681 caaaagcttc ctccattaag agggtcagag cctcagcctc ctttctttct agtgacaatt
+     1741 tcctttgttt taggggattt taaattaggg tgctgaaggc ctggaagaac atgggtggga
+     1801 agagaatgta actctaagtc atgtgtgtca ttttcctttg ggatgagaga gtggctgttt
+     1861 gtgtaatgag acctttctct gcataacttc cttttatagg acctcaaggg cctccaccag
+     1921 cagggctcct gcactga
+//

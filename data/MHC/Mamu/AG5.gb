@@ -1,0 +1,3036 @@
+LOCUS       NHP11142                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:01:01:01, AG5 locus allele.
+ACCESSION   NHP11142
+VERSION     NHP11142
+DBLINK      INSDC: LR989631
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:01:01:01
+            IPD accession: NHP11142
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:01:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1584..1859,1962..2078,
+                     2521..2553,2696..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLVLTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNGDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHMTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggtcctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccccatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgggg acctgcgctc
+      841 ctggaccgcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 agcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tccacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcctat cagacccccc caagacacat atgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cggagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 tgtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg tacactgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct tttgtaaagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgaagggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcagttggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 tctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta ggaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggcttgta aaggtgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacggat
+     2881 gtgaattttt taatgaatat gttttctata gtgtga
+//
+LOCUS       NHP11147                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:03:01:01, AG5 locus allele.
+ACCESSION   NHP11147
+VERSION     NHP11147
+DBLINK      INSDC: LR989702
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:03:01:01
+            IPD accession: NHP11147
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:03:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1584..1859,1962..2078,
+                     2521..2553,2696..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLHKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc ccggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tccacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcctat cagacccccc caagacacat gtgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcacaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cagagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 tgtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg taccctgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct ttcgtatagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgatgggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcagttggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 cctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta ggaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggcttgta aaggtgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctcac tgtgacggat
+     2881 gtgaattttt tcatgaatat gttttctata gtgtga
+//
+LOCUS       NHP11148                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:04:01:01, AG5 locus allele.
+ACCESSION   NHP11148
+VERSION     NHP11148
+DBLINK      INSDC: LR989703
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:04:01:01
+            IPD accession: NHP11148
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:04:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1584..1859,1962..2078,
+                     2521..2553,2696..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tccacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcctat cagacccccc caagacacat gtgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg ggatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc agcatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cggagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 tgtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagctcca ggtagaagtg taccctgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct ttcgtatagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgaagggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcagttggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 cctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta ggaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggcttgta aaggtgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac cgtgacggat
+     2881 gtgaattttt tcatgaatat gttttctata gtgtga
+//
+LOCUS       NHP11149                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:02:01:01, AG5 locus allele.
+ACCESSION   NHP11149
+VERSION     NHP11149
+DBLINK      INSDC: LR990416
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:02:01:01
+            IPD accession: NHP11149
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:02:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1584..1859,1962..2078,
+                     2521..2553,2696..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLVLTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRA
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNGDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHMTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggtcctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 gggcccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg gccctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccccatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgggg acctgcgctc
+      841 ctggaccgcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 agcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tccacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcctat cagacccccc caagacacat atgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cggagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 tgtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg tacactgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct tttgtaaagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgaagggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcagttggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 tctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta ggaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggcttgta aaggtgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacggat
+     2881 gtgaattttt taatgaatat gttttctata gtgtga
+//
+LOCUS       NHP11200                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:05:01:01, AG5 locus allele.
+ACCESSION   NHP11200
+VERSION     NHP11200
+DBLINK      INSDC: LR989638
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:05:01:01
+            IPD accession: NHP11200
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:05:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGLEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gctggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 cagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctgggttctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag tacctgttac aatgaaggac agatagatca ccttgattat
+     2281 ggtgaaggga cctgatccta gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt ctgcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11201                2917 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:06:01:01, AG5 locus allele.
+ACCESSION   NHP11201
+VERSION     NHP11201
+DBLINK      INSDC: LR989633
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:06:01:01
+            IPD accession: NHP11201
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2917
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:06:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            718..993
+                     /gene="AG5"
+                     /number=3
+     exon            1586..1861
+                     /gene="AG5"
+                     /number=4
+     exon            1964..2080
+                     /gene="AG5"
+                     /number=5
+     exon            2523..2555
+                     /gene="AG5"
+                     /number=6
+     exon            2698..2744
+                     /gene="AG5"
+                     /number=7
+     exon            2913..2917
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..717
+                     /gene="AG5"
+                     /number=2
+     intron          994..1585
+                     /gene="AG5"
+                     /number=3
+     intron          1862..1963
+                     /gene="AG5"
+                     /number=4
+     intron          2081..2522
+                     /gene="AG5"
+                     /number=5
+     intron          2556..2697
+                     /gene="AG5"
+                     /number=6
+     intron          2745..2912
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1586..1861,1964..2080,
+                     2523..2555,2698..2744,2913..2917)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLPYYNQSEAGSHTVQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTNVTHHPVSDYE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc cctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctcggtgga ctgggctgac cgcgggggcg cggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc cgcctccgcg
+      781 ggtatgaaca gttcgcctac gatggcaggg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcagaggatg
+      901 tggcagagca gcacagaacc tacctggagg gcgagtgcct ggagtcgctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatctcctgt ggatctccct ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagggtccgc cctgctctct gacacaagga taaaatctct
+     1201 gagggaatga ctggaagacg atccctcgaa tactgatcag gggttccctt tgacaccggc
+     1261 agcagccttg ggccccgtga cttttcctct caggccctgt tctctgcttc acactcaatg
+     1321 tgtgtggggg tctgagtcca gctcctctga gtccctcagc ctccactcag gtcaggacca
+     1381 gaagtcactg ttccttcctc agggaataga attttccacg gaataggaga ttctcacagg
+     1441 tgcctgtgtc caggatggtg tctgggttct gtgctccctt ccccacccca ggtgtcctgt
+     1501 ccattctcaa gatggtcaca tgtgtgctgg tggagtgtcc catgacagat gcaaaatgcc
+     1561 tgcattttct gactcttccc atcagacccc cccaagacaa atgtgaccca ccaccccgtc
+     1621 tctgactacg aggccaccct gaggtgttgg gccctcggct tctaccctgc ggggatcaca
+     1681 ctgacctggc agcgggatgg agaggaacaa actcaggaca cggagctcgt ggagaccagg
+     1741 cctacagggg atggaacctt ccagaagtgg gcggctgtgg tggtgccttc tggagaggag
+     1801 cagagataca cctgtcatgt gcaacatgag ggtctgccca agcccctcac cttgagatgg
+     1861 ggtaaaaagg gaggtggggg tgtcatgtct tttagggaaa gccggagcct ctctggagac
+     1921 cttcagcagg atcaggaccc ctcaccttcc cctcttttcc cagagccgtc ttccgagtcc
+     1981 accatcccca tcgtgggcat cattgctggc ctggttctgc ttggaactgt ggtcactgga
+     2041 gcggtggttg ctgctgtgat gtggaggagg aagagctcag gtgaggaagg ggtgaggagt
+     2101 ggggtctggg atttcttgtc tcactgaggg tttcaagccc caggtagaag tgtacactgt
+     2161 ctggttactg ggaagcacca tcgacactca tgggctgacc cagcctgggc cctgtgtgcc
+     2221 agcacctact cttttgtaaa gcacctgtta caatgaagga cagatttatc accttgatta
+     2281 tggtgaaggg acctgatccc agcagtcaca agtcacaagg gaaggtccct gctgaggaca
+     2341 gacctcagga gggcaattag tccaggaccc acacctgctt tcttcatgtt tcctgatcct
+     2401 gccctgggtc tgcaatcaca catttctgga aacttctctg gggtccaaga ctaggagatt
+     2461 cctataggac cttatggccc tgactccttt ctgatatctc acaggacatt ttcttcccat
+     2521 agatagataa ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatccct
+     2581 gagatccttg ggatattgtg gttgggagcc catgggggag ctcactaacc ccacagttcc
+     2641 tcctctagcc acatcttcag agggatctga ccaggtcctg tttttgttct actccaggca
+     2701 gtgacagtgc ccaaggttct gatgtgtctc tcacggcttt aaaggcgaga ccctgggggg
+     2761 cctgatgtgt gtggggtgtt ggggggaaca gtggacgcag ctgtgctgtg gggtttgttt
+     2821 gacttggatg tattgagcat gtgatgggct gtttaaagtg tcactcctaa ctgtgacaga
+     2881 tgtgaatttt ttcatgaata tgttttctat agagtga
+//
+LOCUS       NHP11202                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:07:01:01, AG5 locus allele.
+ACCESSION   NHP11202
+VERSION     NHP11202
+DBLINK      INSDC: LR990465
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:07:01:01
+            IPD accession: NHP11202
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:07:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:07:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDPQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQFTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacccgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcccctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagtt cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atcgcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccacc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt ttcttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctgggttctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg cagcatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat ccacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatagatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11203                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:08:01:01, AG5 locus allele.
+ACCESSION   NHP11203
+VERSION     NHP11203
+DBLINK      INSDC: LR989700
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:08:01:01
+            IPD accession: NHP11203
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:08:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:08:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDPQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacccgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcccctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atcgcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccacc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt ttcttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctgggttctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg cagcatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat ccacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatagatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11204                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:09:01:01, AG5 locus allele.
+ACCESSION   NHP11204
+VERSION     NHP11204
+DBLINK      INSDC: LR990424
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:09:01:01
+            IPD accession: NHP11204
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:09:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:09:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLLLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETRNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctgttgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcgctt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacggaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctattacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatttc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctggattctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat atgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatat attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11205                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:10:01:01, AG5 locus allele.
+ACCESSION   NHP11205
+VERSION     NHP11205
+DBLINK      INSDC: LR990425
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:10:01:01
+            IPD accession: NHP11205
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:10:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:10:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPL
+                     FIAVGYVDDTQFVRFDSDAGSPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWVAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag cccctcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgggagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gcccgggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctggattctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat atgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg tggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccatct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaaggccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatat attgagcatg tgatgggctg tttaaagtgt cactcctcac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11206                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:10:01:02, AG5 locus allele.
+ACCESSION   NHP11206
+VERSION     NHP11206
+DBLINK      INSDC: LR989642
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:10:01:02
+            IPD accession: NHP11206
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:10:01:02"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:10:01:02"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPL
+                     FIAVGYVDDTQFVRFDSDAGSPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWVAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag cccctcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgggagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gcccgggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctggattctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat atgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg tggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccatct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaaggccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatat attgagcatg tgatgggctg tttaaagtgt cactcctcac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11207                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:11:01:01, AG5 locus allele.
+ACCESSION   NHP11207
+VERSION     NHP11207
+DBLINK      INSDC: LR990423
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:11:01:01
+            IPD accession: NHP11207
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:11:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:11:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaaccg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atcgcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctggattctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat atgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 ctgtggtcgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatat attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11208                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:12:01:01, AG5 locus allele.
+ACCESSION   NHP11208
+VERSION     NHP11208
+DBLINK      INSDC: LR989635
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:12:01:01
+            IPD accession: NHP11208
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:12:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:12:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDREPQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agccacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atcgcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagatga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctggattctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat atgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac agagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 ctgtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggttcaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatat attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11209                2918 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:06:02:01, AG5 locus allele.
+ACCESSION   NHP11209
+VERSION     NHP11209
+DBLINK      INSDC: LR990417
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:06:02:01
+            IPD accession: NHP11209
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2918
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2918
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:06:02:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            718..993
+                     /gene="AG5"
+                     /number=3
+     exon            1586..1861
+                     /gene="AG5"
+                     /number=4
+     exon            1964..2080
+                     /gene="AG5"
+                     /number=5
+     exon            2523..2555
+                     /gene="AG5"
+                     /number=6
+     exon            2698..2745
+                     /gene="AG5"
+                     /number=7
+     exon            2914..2918
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..717
+                     /gene="AG5"
+                     /number=2
+     intron          994..1585
+                     /gene="AG5"
+                     /number=3
+     intron          1862..1963
+                     /gene="AG5"
+                     /number=4
+     intron          2081..2522
+                     /gene="AG5"
+                     /number=5
+     intron          2556..2697
+                     /gene="AG5"
+                     /number=6
+     intron          2746..2913
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1586..1861,1964..2080,
+                     2523..2555,2698..2745,2914..2918)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:06:02:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLPYYNQSEAGSHTVQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTNVTHHPVSDYE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc cctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctcggtgga ctgggctgac cgcgggggcg cggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc cgcctccgcg
+      781 ggtatgaaca gttcgcctac gatggcaggg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcagaggatg
+      901 tggcagagca gcacagaacc tacctggagg gcgagtgcct ggagtcgctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatctcctgt ggatctccct ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagggtccgc cctgctctct gacacaagga taaaatctct
+     1201 gagggaatga ctggaagacg atccctcgaa tactgatcag gggttccctt tgacaccggc
+     1261 agcagccttg ggccccgtga cttttcctct caggccctgt tctctgcttc acactcaatg
+     1321 tgtgtggggg tctgagtcca gctcctctga gtccctcagc ctccactcag gtcaggacca
+     1381 gaagtcactg ttccttcctc agggaataga attttccacg gaataggaga ttctcacagg
+     1441 tgcctgtgtc caggatggtg tctgggttct gtgctccctt ccccacccca ggtgtcctgt
+     1501 ccattctcaa gatggtcaca tgtgtgctgg tggagtgtcc catgacagat gcaaaatgcc
+     1561 tgcattttct gactcttccc atcagacccc cccaagacaa atgtgaccca ccaccccgtc
+     1621 tctgactacg aggccaccct gaggtgttgg gccctcggct tctaccctgc ggggatcaca
+     1681 ctgacctggc agcgggatgg agaggaacaa actcaggaca cggagctcgt ggagaccagg
+     1741 cctacagggg atggaacctt ccagaagtgg gcggctgtgg tggtgccttc tggagaggag
+     1801 cagagataca cctgtcatgt gcaacatgag ggtctgccca agcccctcac cttgagatgg
+     1861 ggtaaaaagg gaggtggggg tgtcatgtct tttagggaaa gccggagcct ctctggagac
+     1921 cttcagcagg atcaggaccc ctcaccttcc cctcttttcc cagagccgtc ttccgagtcc
+     1981 accatcccca tcgtgggcat cattgctggc ctggttctgc ttggaactgt ggtcactgga
+     2041 gcggtggttg ctgctgtgat gtggaggagg aagagctcag gtgaggaagg ggtgaggagt
+     2101 ggggtctggg atttcttgtc tcactgaggg tttcaagccc caggtagaag tgtacactgt
+     2161 ctggttactg ggaagcacca tcgacactca tgggctgacc cagcctgggc cctgtgtgcc
+     2221 agcacctact cttttgtaaa gcacctgtta caatgaagga cagatttatc accttgatta
+     2281 tggtgaaggg acctgatccc agcagtcaca agtcacaagg gaaggtccct gctgaggaca
+     2341 gacctcagga gggcaattag tccaggaccc acacctgctt tcttcatgtt tcctgatcct
+     2401 gccctgggtc tgcaatcaca catttctgga aacttctctg gggtccaaga ctaggagatt
+     2461 cctataggac cttatggccc tgactccttt ctgatatctc acaggacatt ttcttcccat
+     2521 agatagataa ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatccct
+     2581 gagatccttg ggatattgtg gttgggagcc catgggggag ctcactaacc ccacagttcc
+     2641 tcctctagcc acatcttcag agggatctga ccaggtcctg tttttgttct actccaggca
+     2701 gtgacagtgc ccagggctct gatgtgtctc tcacggcttg taaaggtgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttgtt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactccta actgtgacag
+     2881 atgtgaattt tttcatgaat atgttttcta tagagtga
+//
+LOCUS       NHP11210                2917 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:13:01:01, AG5 locus allele.
+ACCESSION   NHP11210
+VERSION     NHP11210
+DBLINK      INSDC: LR990419
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:13:01:01
+            IPD accession: NHP11210
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2917
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:13:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            718..993
+                     /gene="AG5"
+                     /number=3
+     exon            1586..1861
+                     /gene="AG5"
+                     /number=4
+     exon            1964..2080
+                     /gene="AG5"
+                     /number=5
+     exon            2523..2555
+                     /gene="AG5"
+                     /number=6
+     exon            2698..2744
+                     /gene="AG5"
+                     /number=7
+     exon            2913..2917
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..717
+                     /gene="AG5"
+                     /number=2
+     intron          994..1585
+                     /gene="AG5"
+                     /number=3
+     intron          1862..1963
+                     /gene="AG5"
+                     /number=4
+     intron          2081..2522
+                     /gene="AG5"
+                     /number=5
+     intron          2556..2697
+                     /gene="AG5"
+                     /number=6
+     intron          2745..2912
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1586..1861,1964..2080,
+                     2523..2555,2698..2744,2913..2917)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:13:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLPYYNQSEAGSHTVQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAARAAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTNVTHHPVSDYE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc cctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctcggtgga ctgggctgac cgcgggggcg cggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc cgcctccgcg
+      781 ggtatgaaca gttcgcctac gatggcaggg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcggcccgtg
+      901 cggcggagca gcacagaacc tacctggagg gcgagtgcct ggagtcgctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatctcctgt ggatctccct ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagggtccgc cctgctctct gacacaagga taaaatctct
+     1201 gagggaatga ctggaagacg atccctcgaa tactgatcag gggttccctt tgacaccggc
+     1261 agcagccttg ggccccgtga cttttcctct caggccctgt tctctgcttc acactcaatg
+     1321 tgtgtggggg tctgagtcca gctcctctga gtccctcagc ctccactcag gtcaggacca
+     1381 gaagtcactg ttccttcctc agggaataga attttccacg gaataggaga ttctcacagg
+     1441 tgcctgtgtc caggatggtg tctgggttct gtgctccctt ccccacccca ggtgtcctgt
+     1501 ccattctcaa gatggtcaca tgtgtgctgg tggagtgtcc catgacagat gcaaaatgcc
+     1561 tgcattttct gactcttccc atcagacccc cccaagacaa atgtgaccca ccaccccgtc
+     1621 tctgactacg aggccaccct gaggtgttgg gccctcggct tctaccctgc ggggatcaca
+     1681 ctgacctggc agcgggatgg agaggaacaa actcaggaca cggagctcgt ggagaccagg
+     1741 cctacagggg atggaacctt ccagaagtgg gcggctgtgg tggtgccttc tggagaggag
+     1801 cagagataca cctgtcatgt gcaacatgag ggtctgccca agcccctcac cttgagatgg
+     1861 ggtaaaaagg gaggtggggg tgtcatgtct tttagggaaa gccggagcct ctctggagac
+     1921 cttcagcagg atcaggaccc ctcaccttcc cctcttttcc cagagccgtc ttccgagtcc
+     1981 accatcccca tcgtgggcat cattgctggc ctggttctgc ttggaactgt ggtcactgga
+     2041 gcggtggttg ctgctgtgat gtggaggagg aagagctcag gtgaggaagg ggtgaggagt
+     2101 ggggtctggg atttcttgtc tcactgaggg tttcaagccc caggtagaag tgtacactgt
+     2161 ctggttactg ggaagcacca tcgacactca tgggctgacc cagcctgggc cctgtgtgcc
+     2221 agcacctact cttttgtaaa gcacctgtta caatgaagga cagatttatc accttgatta
+     2281 tggtgaaggg acctgatccc agcagtcaca agtcacaagg gaaggtccct gctgaggaca
+     2341 gacctcagga gggcaattag tccaggaccc acacctgctt tcttcatgtt tcctgatcct
+     2401 gccctgggtc tgcaatcaca catttctgga aacttctctg gggtccaaga ctaggagatt
+     2461 cctataggac cttatggccc tgactccttt ctgatatctc acaggacatt ttcttcccat
+     2521 agatagataa ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatccct
+     2581 gagatccttg ggatattgtg gttgggagcc catgggggag ctcactaacc ccacagttcc
+     2641 tcctctagcc acatcttcag agggatctga ccaggtcctg tttttgttct actccaggca
+     2701 gtgacagtgc ccaaggttct gatgtgtctc tcacggcttt aaaggcgaga ccctgggggg
+     2761 cctgatgtgt gtggggtgtt ggggggaaca gtggacgcag ctgtgctgtg gggtttgttt
+     2821 gacttggatg tattgagcat gtgatgggct gtttaaagtg tcactcctaa ctgtgacaga
+     2881 tgtgaatttt ttcatgaata tgttttctat agagtga
+//
+LOCUS       NHP11211                2917 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:14:01:01, AG5 locus allele.
+ACCESSION   NHP11211
+VERSION     NHP11211
+DBLINK      INSDC: LR990418
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:14:01:01
+            IPD accession: NHP11211
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2917
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:14:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            718..993
+                     /gene="AG5"
+                     /number=3
+     exon            1586..1861
+                     /gene="AG5"
+                     /number=4
+     exon            1964..2080
+                     /gene="AG5"
+                     /number=5
+     exon            2523..2555
+                     /gene="AG5"
+                     /number=6
+     exon            2698..2744
+                     /gene="AG5"
+                     /number=7
+     exon            2913..2917
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..717
+                     /gene="AG5"
+                     /number=2
+     intron          994..1585
+                     /gene="AG5"
+                     /number=3
+     intron          1862..1963
+                     /gene="AG5"
+                     /number=4
+     intron          2081..2522
+                     /gene="AG5"
+                     /number=5
+     intron          2556..2697
+                     /gene="AG5"
+                     /number=6
+     intron          2745..2912
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1586..1861,1964..2080,
+                     2523..2555,2698..2744,2913..2917)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:14:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEGGSHTVQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTNVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtact ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc caaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gggggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctcggtgga ctgggctgac cgcgggggcg cggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc cgcctccgcg
+      781 ggtatgaaca gttcgcctac gatggcaggg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcagaggatg
+      901 tggcagagca gcacagaacc tacctggagg gcgagtgcct ggagtcgctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatctcctgt ggatctccct ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagggtccgc cctgctctct gacacaagga taaaatctct
+     1201 gagggaatga ctggaagacg atccctcgaa tactgatcag gggttccctt tgacaccggc
+     1261 agcagccttg ggccccgtga cttttcctct caggccctgt tctctgcttc acactcaatg
+     1321 tgtgtggggg tctgagtcca gctcctctga gtccctcagc ctccactcag gtcaggacca
+     1381 gaagtcactg ttccttcctc agggaataga attttccacg gaataggaga ttctcacagg
+     1441 tgcctgtgtc caggatggtg tctgggttct gtgctccctt ccccacccca ggtgtcctgt
+     1501 ccattctcaa gatggtcaca tgtgtgctgg tggagtgtcc catgacagat gcaaaatgcc
+     1561 tgcattttct gactcttccc atcagacccc cccaagacaa atgtgaccca ccaccccgtc
+     1621 tctgaccatg aggccaccct gaggtgctgg gccctgggct tctaccctgc ggggatcaca
+     1681 ctgacctggc agcgggatgg agaggaacaa actcaggaca cggagctcgt ggagaccagg
+     1741 cctacagggg atggaacctt ccagaagtgg gcggctgtgg tggtgccttc tggagaggag
+     1801 cagagataca cctgccatgt gcaacatgag ggtctgccca agcccctcac cttgagatgg
+     1861 ggtaaaaagg gaggtggggg tgtcatgtct tttagggaaa gccggagcct ctctggagac
+     1921 cttcagcagg atcaggaccc ctcaccttcc cctcttttcc cagagccgtc ttccgagtcc
+     1981 accatcccca tcgtgggcat cattgctggc ctggttctgc ttggaactgt ggtcactgga
+     2041 gcggtggttg ctgctgtgat gtggaggagg aagagctcag gtgaggaagg ggtgaggagt
+     2101 ggggtctggg atttcttgtc tcactgaggg tttcaagccc caggtagaag tgtacactgt
+     2161 ctggttactg ggaagcacca tcgacactca tgggctgacc cagcctgggc cctgtgtgcc
+     2221 agcacctact cttttgtaaa gcacctgtta caatgaagga cagatttatc accttgatta
+     2281 tggtgaaggg acctgatccc agcagtcaca agtcacaagg gaaggtccct gctgaggaca
+     2341 gacctcagga gggcaattag tccaggaccc acacctgctt tcttcatgtt tcctgatcct
+     2401 gccctgggtc tgcaatcaca catttctgga aacttctctg gggtccaaga ctaggagatt
+     2461 cctataggac cttatggccc tgactccttt ctgatatctc acaggacatt ttcttcccat
+     2521 agatagataa ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatccct
+     2581 gagatccttg ggatattgtg gttgggagcc catgggggag ctcactaacc ccacagttcc
+     2641 tcctctagcc acatcttcag agggatctga ccaggtcctg tttttgttct actccaggca
+     2701 gtgacagtgc ccaaggttct gatgtgtctc tcacggcttt aaaggcgaga ccctgggggg
+     2761 cctgatgtgt gtggggtgtt ggggggaaca gtggacgcag ctgtgctgtg gggtttcttt
+     2821 gacttggatg tattgagcat gtgatgggct gtttaaagtg tcactcctaa ctgtgacaga
+     2881 tgtgaatttt ttcatgaata tgttttctat agagtga
+//
+LOCUS       NHP11212                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:15:01:01, AG5 locus allele.
+ACCESSION   NHP11212
+VERSION     NHP11212
+DBLINK      INSDC: LR989641
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:15:01:01
+            IPD accession: NHP11212
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:15:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:15:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRALWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEGGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacctgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ctgtgggtgg
+      361 agcaggaggg accggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gggggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccccatcc cccacggacg gcccgggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gacccgggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcagagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgac tggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctgggttctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtgacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gggatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac ggagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tcccagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 cggtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtacactgtc
+     2161 tggttactgg gaagcaccat cgacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcatgag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggtccaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcgggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctgggggac
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gtgtga
+//
+LOCUS       NHP11213                2916 bp    DNA     linear   PRI 19-MAY-2021
+DEFINITION  Mamu-AG5*07:16:01:01, AG5 locus allele.
+ACCESSION   NHP11213
+VERSION     NHP11213
+DBLINK      INSDC: LR989639
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:16:01:01
+            IPD accession: NHP11213
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:16:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1585..1860
+                     /gene="AG5"
+                     /number=4
+     exon            1963..2079
+                     /gene="AG5"
+                     /number=5
+     exon            2522..2554
+                     /gene="AG5"
+                     /number=6
+     exon            2697..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1584
+                     /gene="AG5"
+                     /number=3
+     intron          1861..1962
+                     /gene="AG5"
+                     /number=4
+     intron          2080..2521
+                     /gene="AG5"
+                     /number=5
+     intron          2555..2696
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1585..1860,1963..2079,
+                     2522..2554,2697..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:16:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggct caggacccgg ggagccgcgc gggaaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgac tggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgggggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tctcacaggt
+     1441 gcctgtgtcc aggatggtgt ctgggttctg tgctcccttc cccaccccag gtgtcctgtc
+     1501 cattctcaag atggtcacat gtgtgctggt ggagtgtccc atgacagatg caaaatgcct
+     1561 gcattttctg actcttccca tcagaccccc ccaagacaca tgtaacccac caccccgtct
+     1621 ctgaccatga ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac
+     1681 tgacctggca gcgggatgga gaggaacaaa ctcaggacac ggagctcgtg gagaccaggc
+     1741 ctacagggga tggaaccttc cagaagtggg cggctgtggt ggtgccttct ggagaggagc
+     1801 agagatacac ctgtcatgtg caacatgagg gtctgcccaa gcccctcacc ttgagatggg
+     1861 gtaaaaaggg aggtgggggt gtcatgtctt ttagggaaag ccggagcctc tctggagacc
+     1921 ttcagcaggg tcaggacccc tcaccttccc ctcttttccc agagccgtct tccgagtcca
+     1981 ccatccccat cgtgggcatc attgctggcc tggttctgct tggaactgtg gtcactggag
+     2041 ctgtggttgc tgctgtgatg tggaggagga agagctcagg tgaggaaggg gtgaggagtg
+     2101 gggtctggga tttcttgtct cactgagggt ttcaagcccc aggtagaagt gtaccctgtc
+     2161 tggttactgg gaagcaccat ccacactcat gggctgaccc agcctgggcc ctgtgtgcca
+     2221 gcacctactc ttttgtaaag cacctgttac aatgaaggac agatttatca ccttgattat
+     2281 ggtgaaggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg ctgaggacag
+     2341 acctcaggag ggcaattggt ccaggaccca cacctgcttt cttcatgttt cctgatcctg
+     2401 ccctgggtct gcaatcacac atttctggaa acttctctgg ggtccaagac taggagattc
+     2461 ctataggacc ttatggccct gactcctttc tgatatctca caggacattt tcttctcata
+     2521 gatagataag gcagaagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg
+     2581 agatccttgg gatattgtgg ttgggagccc atgggggagc tcactaaccc cacagttcct
+     2641 cctctagcca catctccaga gggatctgac caggtcctgt ttttgttcta ctccaggcag
+     2701 tgacagtgcc caaggttctg atgtgtctct cacggcttta aaggcgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctcac tgtgacagat
+     2881 gtgaattttt tcatgaatat gttttctata gagtga
+//
+LOCUS       NHP11803                2915 bp    DNA     linear   PRI 28-MAY-2021
+DEFINITION  Mamu-AG5*07:15:01:02, AG5 locus allele.
+ACCESSION   NHP11803
+VERSION     NHP11803
+DBLINK      INSDC: LR989636
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:15:01:02
+            IPD accession: NHP11803
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2915
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2915
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:15:01:02"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            204..473
+                     /gene="AG5"
+                     /number=2
+     exon            716..991
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2742
+                     /gene="AG5"
+                     /number=7
+     exon            2911..2915
+                     /gene="AG5"
+                     /number=8
+     intron          74..203
+                     /gene="AG5"
+                     /number=1
+     intron          474..715
+                     /gene="AG5"
+                     /number=2
+     intron          992..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2743..2910
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,204..473,716..991,1584..1859,1962..2078,
+                     2521..2553,2696..2742,2911..2915)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:15:01:02"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRALWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEGGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aaggctctca ctccttgagg tatttctaca cctccatgtc
+      241 ccggcccggc cgcgggcagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc tgtgggtgga
+      361 gcaggaggga ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagcgagg ggggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtctc tgggtcccag atccaccccg aagccgcggg acccggggac ccttgaaccg
+      601 agagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctccggggac gggctgaccg cgggggcggg gccagggtct
+      721 cacaccatcc agaagatgta cggctgcgac ctggggcccg acgggcgccg cctccgcggg
+      781 tatgaacagt tcgcctacga tggcagggat tacatcgccc tgaacgagga cctgcgctcc
+      841 tggaccgccg cggacatggc ggctcagaac acccagcgca agtgggaggc agaggatgtg
+      901 gcagagcagc acagaaccta cctggagggc gagtgcctgg agtcgctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg ctggcctccc acaaggaggg gagacaaatg ggaccaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccgccc tgctctctga cacaaggata aaatctctga
+     1201 gggaatgact ggaagacgat ccctcgaata ctgatcaggg gttccctttg acaccggcag
+     1261 cagccttggg ccccgtgact tttcctctca ggccctgttc tctgcttcac actcaatgtg
+     1321 tgtgggggtc tgagtccagc tcctctgagt ccctcagcct ccactcaggt caggaccaga
+     1381 agtcactgtt ccttcctcag ggaatagaat tttccacgga ataggagatt ctcacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcccat cagacccccc caagacacat gtgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg ggatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc ggctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaaaaggga ggtgggggtg tcatgtcttt tagggaaagc cggagcctct ctggagacct
+     1921 tcagcagggt caggacccct caccttcccc tcttttccca gagccgtctt cccagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 ggtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg tacactgtct
+     2161 ggttactggg aagcaccatc gacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct tttgtaaagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgaagggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcatgagg gcaattggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 cctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta tgaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggctttaa aggcgagacc ctgggggacc
+     2761 tgatgtgtgt ggggtgttgg ggggaacagt ggacgcagct gtgctgtggg gtttctttga
+     2821 cttggatgta ttgagcatgt gatgggctgt ttaaagtgtc actcctaact gtgacagatg
+     2881 tgaatttttt catgaatatg ttttctatag tgtga
+//
+LOCUS       NHP12094                2917 bp    DNA     linear   PRI 08-JUN-2022
+DEFINITION  Mamu-AG5*07:06:03:01, AG5 locus allele.
+ACCESSION   NHP12094
+VERSION     NHP12094
+DBLINK      INSDC: OW995934
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:06:03:01
+            IPD accession: NHP12094
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2917
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2917
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:06:03:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            718..993
+                     /gene="AG5"
+                     /number=3
+     exon            1586..1861
+                     /gene="AG5"
+                     /number=4
+     exon            1964..2080
+                     /gene="AG5"
+                     /number=5
+     exon            2523..2555
+                     /gene="AG5"
+                     /number=6
+     exon            2698..2744
+                     /gene="AG5"
+                     /number=7
+     exon            2913..2917
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..717
+                     /gene="AG5"
+                     /number=2
+     intron          994..1585
+                     /gene="AG5"
+                     /number=3
+     intron          1862..1963
+                     /gene="AG5"
+                     /number=4
+     intron          2081..2522
+                     /gene="AG5"
+                     /number=5
+     intron          2556..2697
+                     /gene="AG5"
+                     /number=6
+     intron          2745..2912
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,718..993,1586..1861,1964..2080,
+                     2523..2555,2698..2744,2913..2917)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:06:03:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRREPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLPYYNQSEAGSHTVQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTNVTHHPVSDYE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagtcgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 ctcggcccgg ccgtcgggag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg gccggagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc cctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctgggtccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc caggcgcctt tacccgattt cctttttagt ttgggccaaa atccccgtgg
+      661 gttggtgggg gcggggcggg gctcggtgga ctgggctgac cgcgggggcg cggccagggt
+      721 ctcacaccgt ccagaagatg tacggctgcg acctggggcc cgacgggcgc cgcctccgcg
+      781 ggtatgaaca gttcgcctac gatggcaggg attacatcgc cctgaacgag gacctgcgct
+      841 cctggacggc cgcggacatg gcggctcaga acacccagcg caagtgggag gcagaggatg
+      901 tggcagagca gcacagaacc tacctggagg gcgagtgcct ggagtcgctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggccacggg gcgcctccct
+     1021 gatctcctgt ggatctccct ggctggcctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actagaatat cgccctccct ctggtcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gagggtccgc cctgctctct gacacaagga taaaatctct
+     1201 gagggaatga ctggaagacg atccctcgaa tactgatcag gggttccctt tgacaccggc
+     1261 agcagccttg ggccccgtga cttttcctct caggccctgt tctctgcttc acactcaatg
+     1321 tgtgtggggg tctgagtcca gctcctctga gtccctcagc ctccactcag gtcaggacca
+     1381 gaagtcactg ttccttcctc agggaataga attttccacg gaataggaga ttctcacagg
+     1441 tgcctgtgtc caggatggtg tctgggttct gtgctccctt ccccacccca ggtgtcctgt
+     1501 ccattctcaa gatggtcaca tgtgtgctgg tggagtgtcc catgacagat gcaaaatgcc
+     1561 tgcattttct gactcttccc atcagacccc cccaagacaa atgtgaccca ccaccccgtc
+     1621 tctgactacg aggccaccct gaggtgttgg gccctgggct tctaccctgc ggggatcaca
+     1681 ctgacctggc agcgggatgg agaggaacaa actcaggaca cggagctcgt ggagaccagg
+     1741 cctacagggg atggaacctt ccagaagtgg gcggctgtgg tggtgccttc tggagaggag
+     1801 cagagataca cctgtcatgt gcaacatgag ggtctgccca agcccctcac cttgagatgg
+     1861 ggtaaaaagg gaggtggggg tgtcatgtct tttagggaaa gccggagcct ctctggagac
+     1921 cttcagcagg atcaggaccc ctcaccttcc cctcttttcc cagagccgtc ttccgagtcc
+     1981 accatcccca tcgtgggcat cattgctggc ctggttctgc ttggaactgt ggtcactgga
+     2041 gcggtggttg ctgctgtgat gtggaggagg aagagctcag gtgaggaagg ggtgaggagt
+     2101 ggggtctggg atttcttgtc tcactgaggg tttcaagccc caggtagaag tgtacactgt
+     2161 ctggttactg ggaagcacca tcgacactca tgggctgacc cagcctgggc cctgtgtgcc
+     2221 agcacctact cttttgtaaa gcacctgtta caatgaagga cagatttatc accttgatta
+     2281 tggtgaaggg acctgatccc agcagtcaca agtcacaagg gaaggtccct gctgaggaca
+     2341 gacctcagga gggcaattag tccaggaccc acacctgctt tcttcatgtt tcctgatcct
+     2401 gccctgggtc tgcaatcaca catttctgga aacttctctg gggtccaaga ctaggagatt
+     2461 cctataggac cttatggccc tgactccttt ctgatatctc acaggacatt ttcttcccat
+     2521 agatagataa ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatccct
+     2581 gagatccttg ggatattgtg gttgggagcc catgggggag ctcactaacc ccacagttcc
+     2641 tcctctagcc acatcttcag agggatctga ccaggtcctg tttttgttct actccaggca
+     2701 gtgacagtgc ccaaggttct gatgtgtctc tcacggcttt aaaggcgaga ccctgggggg
+     2761 cctgatgtgt gtggggtgtt ggggggaaca gtggacgcag ctgtgctgtg gggtttgttt
+     2821 gacttggatg tattgagcat gtgatgggct gtttaaagtg tcactcctaa ctgtgacaga
+     2881 tgtgaatttt ttcatgaata tgttttctat agagtga
+//
+LOCUS       NHP12530                2916 bp    DNA     linear   PRI 26-MAR-2024
+DEFINITION  Mamu-AG5*07:16:02:01, AG5 locus allele.
+ACCESSION   NHP12530
+VERSION     NHP12530
+DBLINK      INSDC: OZ023659
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:16:02:01
+            IPD accession: NHP12530
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:16:02:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1584..1859,1962..2078,
+                     2521..2553,2696..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:16:02:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc ccggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tccacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcctat cagacccccc caagacacat gtgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cagagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 tgtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg taccctgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct ttcgtatagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgatgggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcagttggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 cctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta ggaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggcttgta aaggtgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctaac tgtgacggat
+     2881 gtgaattttt tcatgaatat gttttctata gtgtga
+//
+LOCUS       NHP12531                2916 bp    DNA     linear   PRI 26-MAR-2024
+DEFINITION  Mamu-AG5*07:16:03:01, AG5 locus allele.
+ACCESSION   NHP12531
+VERSION     NHP12531
+DBLINK      INSDC: OZ023660
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*07:16:03:01
+            IPD accession: NHP12531
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2916
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:16:03:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            205..474
+                     /gene="AG5"
+                     /number=2
+     exon            717..992
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2743
+                     /gene="AG5"
+                     /number=7
+     exon            2912..2916
+                     /gene="AG5"
+                     /number=8
+     intron          74..204
+                     /gene="AG5"
+                     /number=1
+     intron          475..716
+                     /gene="AG5"
+                     /number=2
+     intron          993..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2744..2911
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,205..474,717..992,1584..1859,1962..2078,
+                     2521..2553,2696..2743,2912..2916)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*07:16:03:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSLRYFYTSMSRPGRGQPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSEAGSHTIQKMYGCDLGPDGRRLRGYEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgccgg gagcagcgag
+      121 ggccccgccc agcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caaggctctc actccttgag gtatttctac acctccatgt
+      241 cccggcccgg ccgcgggcag ccccgcttca tcgccgtggg ctacgtggac gacacgcagt
+      301 tcgtgcggtt cgacagcgac gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg
+      361 agcaggaggg tccagagtat tgggaccggg agacacagaa catgaagacc gcgacacaga
+      421 cctaccgagt gaacctgcgg accctgctcc gctactacaa ccagagcgag gccggtgagt
+      481 gaccccggcc cggggcgcag gtcacgaccc ctccacatcc cccacggacg gccctggtgg
+      541 ccccgagtct ctggatccca gatccacccc gaagccgcgg gaccagggga cccttgaacc
+      601 gagagagccc ccggcgcctt tacccgattt cctttttagt ttgggccaaa gtgcccgcgg
+      661 gttggtcggg gcggggcggg gctccgggga cgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccatc cagaagatgt acggctgcga cctggggccc gacgggcgcc gcctccgcgg
+      781 gtatgaacag ttcgcctacg atggcaggga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ctggacggcc gcggacatgg cggctcagaa cacccagcgc aagtgggagg cagaggatgt
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtcgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gccctcgctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccgcc ctgctctctg acacaaggat aaaatctctg
+     1201 agggaatgaa gggaagacga tccctcgaat actgatcagg ggttcccttt gacaccggca
+     1261 gcagccttgg gccccgtgac ttttcctctc aggccctgtt ctctgcttca cactcaatgt
+     1321 gtgtgggggt ctgagtccag ctcctctgag tccctcagcc tccactcagg tcaggaccag
+     1381 aagtcactgt tccttcctca gggaatagaa ttttccacgg aataggagat tccacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcctat tagacccccc caagacacat gtgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg agatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cagagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 tgtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg taccctgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 cacctactct ttcgtatagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgatgggac ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcagttggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 cctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta ggaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggcttgta aaggtgagac cctggggggc
+     2761 ctgatgtgtg tggggtgttg gggggaacag tggacgcagc tgtgctgtgg ggtttctttg
+     2821 acttggatgt attgagcatg tgatgggctg tttaaagtgt cactcctcac tgtgacggat
+     2881 gtgaatttgt tcatgaatat tttttctata gtgtga
+//
+LOCUS       NHP12535                2915 bp    DNA     linear   PRI 03-APR-2024
+DEFINITION  Mamu-AG5*06:01:01:01, AG5 locus allele.
+ACCESSION   NHP12535
+VERSION     NHP12535
+DBLINK      INSDC: OZ023619
+KEYWORDS    IPD-MHC; MHC class I; AG5.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-AG5*06:01:01:01
+            IPD accession: NHP12535
+            Species prefix: Mamu
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2915
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..2915
+                     /gene="AG5"
+                     /allele="Mamu-AG5*06:01:01:01"
+     exon            1..73
+                     /gene="AG5"
+                     /number=1
+     exon            204..473
+                     /gene="AG5"
+                     /number=2
+     exon            716..991
+                     /gene="AG5"
+                     /number=3
+     exon            1584..1859
+                     /gene="AG5"
+                     /number=4
+     exon            1962..2078
+                     /gene="AG5"
+                     /number=5
+     exon            2521..2553
+                     /gene="AG5"
+                     /number=6
+     exon            2696..2742
+                     /gene="AG5"
+                     /number=7
+     exon            2911..2915
+                     /gene="AG5"
+                     /number=8
+     intron          74..203
+                     /gene="AG5"
+                     /number=1
+     intron          474..715
+                     /gene="AG5"
+                     /number=2
+     intron          992..1583
+                     /gene="AG5"
+                     /number=3
+     intron          1860..1961
+                     /gene="AG5"
+                     /number=4
+     intron          2079..2520
+                     /gene="AG5"
+                     /number=5
+     intron          2554..2695
+                     /gene="AG5"
+                     /number=6
+     intron          2743..2910
+                     /gene="AG5"
+                     /number=7
+     CDS             join(1..73,204..473,716..991,1584..1859,1962..2078,
+                     2521..2553,2696..2742,2911..2915)
+                     /gene="AG5"
+                     /allele="Mamu-AG5*06:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG5 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTQTRAGSHSMRYFYTSMSRPGRWEPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKTATQTYRVNLRT
+                     LLRYYNQSQGGSHTIQKMYGCDLGPDGRLLRGHEQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAEDVAEQHRTYLEGECLESLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAGITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSESTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cagacccggg cgggtgagtg cggggtcggg agggaaacgg cctctgcggg gaggagggga
+      121 gggcccgccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctccca ctccatgagg tatttctaca cctccatgtc
+      241 ccggcccggc cgctgggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaccg cgacacagac
+      421 ctaccgagtg aacctgcgga ccctgctccg ctactacaac cagagccagg gcggtgagtg
+      481 accccgaccc ggggcgcagg tcacgacctc tccacatccc ccacggacgg ccctggtggc
+      541 cccgagtctc tgggtcccag atccaccccg aagccgcggg accaggggac ccttgaaccg
+      601 agagagcccc aggcgccttt acccgatttc ctttttagtt tgggctaaaa tgcccgcggg
+      661 ttggtcgggg cggggcgggg ctccggggac gggctgaccg cgggggcggg gccagggtct
+      721 cacaccatcc agaagatgta cggctgcgac ctggggcccg acgggcgcct cctccgcggg
+      781 catgaacagt tcgcctacga tggcagggat tacatcgccc tgaacgagga cctgcgctcc
+      841 tggacggccg cggacatggc ggctcagaac acccagcgca agtgggaggc ggaggatgtg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtcgctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg ctggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg cccttgctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccgccc tcctctctga cacaaggata aaatctctga
+     1201 gggaatgaag ggaagacgat ccctcgaata ctgatcaggg gttccctttg acaccggcag
+     1261 cagccttggg ccccgtgact tttcctctca ggccctgttc tctgcttcac actcaatgtg
+     1321 tgtgggggtc tgagtccagc tcctctgagt ccctcagcct ccactcaggt caggaccaga
+     1381 agtcactgtt ccttcctcag ggaatagaat tttccacgga ataggagatt ctcacaggtg
+     1441 cctgtgtcca ggatggtgtc tgggttctgt gctcccttcc ccaccccagg tgtcctgtcc
+     1501 attctcaaga tggtcacatg tgtgctggtg gagtgtccca tgacagatgc aaaatgcctg
+     1561 cattttctga ctcttcccat cagacccccc caagacacat gtgacccacc accccgtctc
+     1621 tgaccatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg ggatcacact
+     1681 gacctggcag cgggatggag aggaacaaac tcaggacacg gagctcgtgg agaccaggcc
+     1741 tacaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg gagaggagca
+     1801 gagatacacc tgtcatgtgc aacatgaggg tctgcccaag cccctcacct tgagatgggg
+     1861 taaagaggga ggtgggggtg tcatgtcttt tagggaaagc cggagcctct ctggagacat
+     1921 ttagcagggt caggacccct caccttcccc tcttttccca gagccgtctt ccgagtccac
+     1981 catccccatc gtgggcatca ttgctggcct ggttctgctt ggaactgtgg tcactggagc
+     2041 ggtggttgct gctgtgatgt ggaggaggaa gagctcaggt gaggaagggg tgaggagtgg
+     2101 ggtctgggat ttcttgtctc actgagggtt tcaagcccca ggtagaagtg tacactgtct
+     2161 ggttactggg aagcaccatc cacactcatg ggctgaccca gcctgggccc tgtgtgccag
+     2221 caccgactct tttgtaaagc acctgttaca atgaaggaca gatttatcac cttgattatg
+     2281 gtgaagggat ctgatcccag cagtcacaag tcacaaggga aggtccctgc tgaggacaga
+     2341 cctcaggagg gcaattggtc caggacccac acctgctttc ttcatgtttc ctgatcctgc
+     2401 cctgggtctg caatcacaca tttctggaaa cttctctggg gtccaagact aggagattcc
+     2461 tataggacct tatggccctg actcctttct gatatctcac aggacatttt cttctcatag
+     2521 atagataagg cgggagctac tctcaggctg caagtaagta tgaaggaggc tgatccctga
+     2581 gatccttggg atattgtggt tgggagccca tgggggagct cactaacccc acagttcctc
+     2641 ctctagccac atctccagag ggatctgacc aggtcctgtt tttgttctac tccaggcagt
+     2701 gacagtgccc aaggttctga tgtgtctctc acggctttaa aggcgagacc ctggggggcc
+     2761 tgatgtgtgt ggggtgttgg ggggaacagt ggacgcagct gtgctgtggg gtttctttga
+     2821 cttggatgta ttgagcatgt gatgggctgt ttaaagtgtc actcctcact gtgacggatg
+     2881 tgaatttttt catgaatatg ttttctatag tgtga
+//

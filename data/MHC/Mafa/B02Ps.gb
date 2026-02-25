@@ -1,0 +1,2158 @@
+LOCUS       NHP03967                2698 bp    DNA     linear   PRI 15-MAR-2021
+DEFINITION  Mafa-B02Ps*01:01:01:01, B02Ps locus allele.
+ACCESSION   NHP03967
+VERSION     NHP03967
+DBLINK      INSDC: HQ110972
+            INSDC: LR732713
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:01:01:01
+            IPD accession: NHP03967
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-B20*01:01; Mafa-B20*01:01:01:01N
+FEATURES             Location/Qualifiers
+     source          1..2698
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2698
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:01:01:01"
+                     /note="previous designations: Mafa-B20*01:01;
+                     Mafa-B20*01:01:01:01N"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2516..2548
+                     /gene="B02Ps"
+                     /number=6
+     exon            2655..2698
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2515
+                     /gene="B02Ps"
+                     /number=5
+     intron          2549..2654
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2516..2548,2655..2698)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 cagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggcccgcg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccttgaggt atttcggcac ctccgtgtcc
+      241 cggcccggcc gctgggagcc ccgcttcatc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggaatattg ggaagaggag acacggagag ccaaggagac cgcacagtct
+      421 ttccgagtga gcctggggaa ccggcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccgcggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacacact ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 ggtattacca gtccgcctac gacggcaagg attacatcgc cctgaacgag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcagagca gcggagagcc tacctggagg gcaactgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag gggaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc ctttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga cggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtgc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtctattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg gcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcac gaggggctgc cagagcccct caccctgaga tggggtaaga agggggatga
+     1861 gggatcatgt ctctcctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcat cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcgtg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcagaatg ttccctcatt
+     2161 cctgggaagc agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt
+     2221 actcttttgt gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt
+     2281 attggggtcc tgattccagc attcatgagt cagggtaagg ttcctgctaa ggacaaacct
+     2341 taggaggaca gtttgcccaa gacacacagc tgctttcctc ctgtttcctg atcctgccct
+     2401 gggtctgcag tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa
+     2461 gatcttatgg ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga
+     2521 aaaggaggga gctactctca ggctgcgtgt aagtggtggg ggtgggagtg tggaggagct
+     2581 cacccatcct gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt
+     2641 ttgttctact ccagccagcg acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP03969                 822 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-B02Ps*01:02, B02Ps locus allele.
+ACCESSION   NHP03969
+VERSION     NHP03969
+DBLINK      INSDC: HQ110974
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:02
+            IPD accession: NHP03969
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-B20*01:02
+FEATURES             Location/Qualifiers
+     source          1..822
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..822
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:02"
+                     /note="previous designations: Mafa-B20*01:02"
+     exon            1..270
+                     /gene="B02Ps"
+                     /number=1
+     exon            271..546
+                     /gene="B02Ps"
+                     /number=2
+     exon            547..822
+                     /gene="B02Ps"
+                     /number=3
+     CDS             1..822
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:02"
+                     /codon_start=3
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 gctcgcactc catgaggtat ttctacaccg ccgtgtcccg gcccggccgc ggggatcccc
+       61 gcttcatcta cgtgggctac gtggacgaca cgcagttcgt gcggttcgac agcgacgccg
+      121 agagtccgag gatggagccg cgggcgccgt ggatggagca ggaggggccg gagtattggg
+      181 aagaggagat acggatcgcc aaggagaccg cacagacttt ccgagtgagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagagg atgtacggct
+      301 gcgacctggg accctacggg cgcctcctcc gcggatatta ccagttcgcc tacgacggca
+      361 aggattacat cgccctgaac caggacctgc gctcctggac cgctgcggat gaggcggctc
+      421 agaacaccca gcgcaagtgg gaggcggccg gtgtggcgga gcagcggaga gcctgcctgg
+      481 agggcaagtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgccgatcc cccaaagaca cacgtgaccc accaccccgt ctctgaccat gaggccaccc
+      601 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+      661 gggaggagca aactcaggac accgagcttg tggagaccag gccaggagga gatggaacct
+      721 tccagaagtg gggagctgtg gtggtgcctt ctggagaaga gcagagatac acgtgccatg
+      781 tgcagcatga ggggctgccg gagcccctca ccctgagatg gg
+//
+LOCUS       NHP11199                2687 bp    DNA     linear   PRI 28-MAY-2021
+DEFINITION  Mafa-B02Ps*01:03:01:01, B02Ps locus allele.
+ACCESSION   NHP11199
+VERSION     NHP11199
+DBLINK      INSDC: MW679603
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:03:01:01
+            IPD accession: NHP11199
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:03:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac cgccgtgtcc
+      241 cggcccggcc gcggggatcc ccgcttcatc tacgtgggct acgtggacga cacggagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag atacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 gatattacca gttcgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tgcctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatctccct ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca caagggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attgggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttttggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//
+LOCUS       NHP11940                2687 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:04:01:01, B02Ps locus allele.
+ACCESSION   NHP11940
+VERSION     NHP11940
+DBLINK      INSDC: JN032100
+            INSDC: LR738808
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:04:01:01
+            IPD accession: NHP11940
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:04:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggcccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggatcg ccaaggagac cgcacagtct
+      421 ttctgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgtga cctgggaccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcggagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgccccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccaccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggag gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//
+LOCUS       NHP11942                2692 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:05:01:01, B02Ps locus allele.
+ACCESSION   NHP11942
+VERSION     NHP11942
+DBLINK      INSDC: JN032109
+            INSDC: LR991873
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:05:01:01
+            IPD accession: NHP11942
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2692
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2692
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:05:01:01"
+     exon            1..77
+                     /gene="B02Ps"
+                     /number=1
+     exon            207..476
+                     /gene="B02Ps"
+                     /number=2
+     exon            722..997
+                     /gene="B02Ps"
+                     /number=3
+     exon            1573..1848
+                     /gene="B02Ps"
+                     /number=4
+     exon            1953..2069
+                     /gene="B02Ps"
+                     /number=5
+     exon            2510..2542
+                     /gene="B02Ps"
+                     /number=6
+     exon            2649..2692
+                     /gene="B02Ps"
+                     /number=7
+     intron          78..206
+                     /gene="B02Ps"
+                     /number=1
+     intron          477..721
+                     /gene="B02Ps"
+                     /number=2
+     intron          998..1572
+                     /gene="B02Ps"
+                     /number=3
+     intron          1849..1952
+                     /gene="B02Ps"
+                     /number=4
+     intron          2070..2509
+                     /gene="B02Ps"
+                     /number=5
+     intron          2543..2648
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..77,207..476,722..997,1573..1848,1953..2069,
+                     2510..2542,2649..2692)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgcttg ctctcggggg ccctggccct
+       61 gaccgagacc tgggccggtg agtgcggggt ctggagggaa atggcctctg cggggaggag
+      121 cgaggggacc gcaggcgggg acgcagggcc cggggagccg ggcggggagg agggtcgggc
+      181 gagtctcagc ctctcctcgc ccgcaggctc gcactccatg aggtatttct acaccaccgt
+      241 gtcccggccc ggccgcgggg agccccgctt catctccgtg ggctacgtgg atgacacgca
+      301 gttcgtgcgg ttcgacagcg acgccgagag tccgaggatg gagccgcggg cgccgtggat
+      361 ggagcaggag gggccggagt attgggaaga gcagacacgg atcgccaagg agaccgcaca
+      421 gtctttccga gtgagcctgg ggaacctgcg cggctactac aaccagagcg aggctggtga
+      481 gtggccccgg cccggggcgc aggtcacgac ccctccccac ccccgacgga cggcccgggt
+      541 ctccccgact ctcagggtcc gacatccgcc ccgaggccgt gggaccggcc cagaccctcg
+      601 accggagaga gccccaggcg cctttacctg gcttcatttt cagttgaggc caaagtccct
+      661 gcgggttggt cggggcgggg cggggctcgg tgggcggggc tgaccgcggg ggcggggcca
+      721 gggtctcaca ccctccagag gatgtctggc tgcgacctgg gacccgacgg gcgcctcctg
+      781 cgcgggtatt accaggacgc ctacgacggc aaggattaca tcgccctgaa cgaggacctg
+      841 cgctcctgga ccgctgcaga tgaggcggct cagaacaccc agcgcaagtg ggaggcggcc
+      901 ggtgtggcag agcagcggag agcctacctg gagggcaagt gcgtggagtg gctccgcaga
+      961 tacctggaga acggcaagga gacgctgcag cgcgcgggta ccaggggcac tggggagcct
+     1021 tccctatcac ctctagatcg cccgggatgg cctcccatga ggaggggagg aaaatgggat
+     1081 cagcgctaga atgtcgccct cccttgaatg gagaatggca tgaatttccc tgatttcctc
+     1141 tgagggcccc ctctgttctc taggacaatt aagggatgac gtctctgagg aaatggaggg
+     1201 gaagacagtc cctggaatac agatcagggg tcccctttga ctcctgcagc agccttgggc
+     1261 accgtgaatt tttctctcag gccttgttct ctgcctcaca ctaaatacgt ctgaaggtct
+     1321 gattccagct tttctgagtc cctcggcctc cactcaggtc aggaccagaa gtccctgttc
+     1381 ctcactcaga gactagaact ctccaaggaa taggagatta tcccagatgc ctgtgtccag
+     1441 gctggtgtct ggcttctgtg ctcccttccc caccccaagt gtcctgtcca ttctcagggt
+     1501 ggtcacatgg gtgctgctgg agtgtcccat gagagatgca aagcgcctga attttctgac
+     1561 tcttcccatc agatccccca aagacacacg tgacccacca ccccgtctct gaccatgagg
+     1621 ccaccctgag gtgctgggcc ctgggcttct accctgcgga gatcacactg acctggcagc
+     1681 gggatgggga ggaccaaact caggacaccg agcttgtgga gaccaggcca ggaggagatg
+     1741 gaaccttcca gaagtgggga gctgtggtgg tgccttctgg agaagagcag agatacacgt
+     1801 gccatgtgca gcacgagggg ctgccagagc ccctcaccct gagatggggt aagaaggggg
+     1861 atgagggatc atgtctctcc tcagggaaag caggagccct tctggagccc ttcagcaggg
+     1921 tcagggcccc tcatcttccc ctcctttccc agagccatct tcccagtcca ccatccccat
+     1981 catgggcatt gttgctggcc tggctgtcct agcagttgtg gtcaccggag ctgtggtcgc
+     2041 agctgtgatg tggaggagga agagctcagg tagggaaggg gtgaggggtg ggagcttgct
+     2101 tttcttgtcc tctgggggtt tcaagcccaa ggtagaaatg ttcactgcct cattcctggg
+     2161 aagcagcatc cacacagggg ctaacccagc ctgggacctt gtgtgccagc acttactctt
+     2221 ttgtgtagca catgtgacaa tgaaggacgg atgtatcacc ttgatgatta tggtattggg
+     2281 gtcctgattc cagcattcat gagtcagggt aaggtccctg ctaaggacaa accataggag
+     2341 gacagtttgc ccaagacaca cagctgcttt cctcctgttt cctgatcctg ccctgggtct
+     2401 gcagtcatag ttctggaaat ttctcttggg tccaagacta ggaggttccg ctaagatctt
+     2461 atggccctac ttcctcccag tcccctcaca ggatattttc ttcccacagg tggaaaacga
+     2521 gggagctact ctcaggctgc gtgtaagtgg tgggggtggg agtgtggagg agctcaccca
+     2581 tcctgtaatt ccacctgtcc catgtctcct gcgggctctg accagctcct gtttttgttc
+     2641 tactccagcc agcgacagtg cccagggctc tgatgtgtct ctcacggctt ga
+//
+LOCUS       NHP11946                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:06:01:01, B02Ps locus allele.
+ACCESSION   NHP11946
+VERSION     NHP11946
+DBLINK      INSDC: HG992769
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:06:01:01
+            IPD accession: NHP11946
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:06:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaagagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttcggcac cgccgtgtcc
+      241 cggcccggcc gcggggaggc ccgcttcctc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag acacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgagtctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 agtattacca ggacgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tacctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag gggaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgtcctctgc ctcacactca atgtgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgcaggagtg tcccatgaga gatgcaaagc acctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cagagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggaggaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttatgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccacg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cagcttga
+//
+LOCUS       NHP11947                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:07:01:01, B02Ps locus allele.
+ACCESSION   NHP11947
+VERSION     NHP11947
+DBLINK      INSDC: HG992768
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:07:01:01
+            IPD accession: NHP11947
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:07:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:07:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gaaacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg ggaaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttcagcac taccgtgtcc
+      241 cggcccggcc gcgggaagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag acacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccaggtt
+      721 ctcacaccat ccagaggatg tacggctgcg acctggggcc cgacgggcgc ctcctccgcg
+      781 ggtattacca ggacgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tacctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctggct tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggttgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa ctcagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggaggaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttatgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP11949                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:08:01:01, B02Ps locus allele.
+ACCESSION   NHP11949
+VERSION     NHP11949
+DBLINK      INSDC: HG992766
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:08:01:01
+            IPD accession: NHP11949
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:08:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:08:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccgtcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttcagcac ctccgtgtcc
+      241 tggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgaggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgactggcgc ctcctccgcg
+      781 ggtattacca ggacgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tacctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tgcagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag gggaggaaaa tggaatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgtcctctgc ctcacactca atgtgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaaa
+     1741 cttccagaag tgggcagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaagg agggggatga
+     1861 ggggtcatgt ctcttctcag gggaaacagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca caggggctaa cccagcctgg gaccctgtgt gccggcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacagatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggaggaca
+     2341 gtttgcccaa gacacatagc tgctttcctc ctgtttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggccca agactaggag gttccgctaa gatcttgtgg
+     2461 ccctgcttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca ggctgcgtgt aagtggtggg ggtgggagtg tggaggaact cacccatcct
+     2581 gtaattcctc ctgtcccacg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagca acagtgccca gggctctgat gtgtctctca cagcttga
+//
+LOCUS       NHP11950                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:09:01:01, B02Ps locus allele.
+ACCESSION   NHP11950
+VERSION     NHP11950
+DBLINK      INSDC: HG992770
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:09:01:01
+            IPD accession: NHP11950
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:09:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:09:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttcagcac cgccgtgtcc
+      241 cggcccggcc gcggggatcc ccgcttcatc tacgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cgaagtattg ggaagaggag atacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 gatattacca gttcgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tgcctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgggctcc ctcccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatggaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaaa
+     1741 cttccagaag tgggcagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcat cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggaggaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttttgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cagcttga
+//
+LOCUS       NHP11951                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:10:01:01, B02Ps locus allele.
+ACCESSION   NHP11951
+VERSION     NHP11951
+DBLINK      INSDC: HG992844
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:10:01:01
+            IPD accession: NHP11951
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:10:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:10:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccttgaggt atttctacac cgccgtgtcc
+      241 cggcccggcc gcggggatcc ccgcttcatc tacgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag atacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 gatattacca gttcgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tgcctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggatgaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttttgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP11952                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:11:01:01, B02Ps locus allele.
+ACCESSION   NHP11952
+VERSION     NHP11952
+DBLINK      INSDC: HG992767
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:11:01:01
+            IPD accession: NHP11952
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:11:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:11:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac cgccgtgtcc
+      241 cggcccggcc gcggggatcc ccgcttcatc tacgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag atacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtacgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 gatattacca gttcgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tgcctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggatgaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttttgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP11953                2688 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:12:01:01, B02Ps locus allele.
+ACCESSION   NHP11953
+VERSION     NHP11953
+DBLINK      INSDC: HG992775
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:12:01:01
+            IPD accession: NHP11953
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:12:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:12:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac cgccgtgtcc
+      241 cggcccggcc gcggggatcc ccgcttcatc tacgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag atacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtacgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 gatattacca gttcgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tgcctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacgtctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcagggtcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggatgaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttttgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacagctgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP11954                2687 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:13:01:01, B02Ps locus allele.
+ACCESSION   NHP11954
+VERSION     NHP11954
+DBLINK      INSDC: HG992845
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:13:01:01
+            IPD accession: NHP11954
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:13:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:13:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct gaccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggagag ccaaggaggc cgcacagtct
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt caagacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcgaagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggc aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgctccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccaccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggag gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagcctgcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//
+LOCUS       NHP11955                2687 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:14:01:01, B02Ps locus allele.
+ACCESSION   NHP11955
+VERSION     NHP11955
+DBLINK      INSDC: HG992850
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:14:01:01
+            IPD accession: NHP11955
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:14:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:14:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggcccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggagag ccaaggaggc cgcacagtct
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcggagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggc aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgctccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccaccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggag gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//
+LOCUS       NHP11956                2687 bp    DNA     linear   PRI 26-MAY-2021
+DEFINITION  Mafa-B02Ps*01:14:01:02, B02Ps locus allele.
+ACCESSION   NHP11956
+VERSION     NHP11956
+DBLINK      INSDC: HG992772
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:14:01:02
+            IPD accession: NHP11956
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:14:01:02"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:14:01:02"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggtccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggagag ccaaggaggc cgcacagtct
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcggagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggc aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgctccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccaccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg aggccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggag gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 ttttcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//
+LOCUS       NHP12507                2691 bp    DNA     linear   PRI 25-MAR-2024
+DEFINITION  Mafa-B02Ps*01:15:01:01, B02Ps locus allele.
+ACCESSION   NHP12507
+VERSION     NHP12507
+DBLINK      INSDC: OZ023698
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:15:01:01
+            IPD accession: NHP12507
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2691
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2691
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:15:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2691
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2691)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:15:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggcccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggagag ccaaggaggc cgcacagtct
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgcga cctgggaccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcggagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggc aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgctccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccgccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggag gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttgaaaa g
+//
+LOCUS       NHP12639                2688 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B02Ps*01:16:01:01, B02Ps locus allele.
+ACCESSION   NHP12639
+VERSION     NHP12639
+DBLINK      INSDC: OW981794
+            INSDC: OR823487
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:16:01:01
+            IPD accession: NHP12639
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2688
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:16:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            718..993
+                     /gene="B02Ps"
+                     /number=3
+     exon            1569..1844
+                     /gene="B02Ps"
+                     /number=4
+     exon            1949..2065
+                     /gene="B02Ps"
+                     /number=5
+     exon            2506..2538
+                     /gene="B02Ps"
+                     /number=6
+     exon            2645..2688
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..717
+                     /gene="B02Ps"
+                     /number=2
+     intron          994..1568
+                     /gene="B02Ps"
+                     /number=3
+     intron          1845..1948
+                     /gene="B02Ps"
+                     /number=4
+     intron          2066..2505
+                     /gene="B02Ps"
+                     /number=5
+     intron          2539..2644
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1569..1844,1949..2065,
+                     2506..2538,2645..2688)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:16:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtctgg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac cgccgtgtcc
+      241 cggcccggcc gcggggatcc ccgcttcatc tacgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagaggag atacggatcg ccaaggagac cgcacagact
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcggtggg cggggctgac cgcgggggcg gggccagggt
+      721 ctcacaccct ccagaggatg tacggctgcg acctgggacc cgacgggcgc ctcctccgcg
+      781 gatattacca gttcgcctac gacggcaagg attacatcgc cctgaaccag gacctgcgct
+      841 cctggaccgc tgcggatgag gcggctcaga acacccagcg caagtgggag gcggccggtg
+      901 tggcggagca gcggagagcc tgcctggagg gcaagtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg ccggtaccag gggcagtggg gagccttccc
+     1021 catcacctct agatcgcccg ggatggcctc ccatgaggag ggaaggaaaa tgggatcagc
+     1081 gctagaatgt cgccctccct tgaatggaga atggcatgaa tttccctgat ttcctctgag
+     1141 ggccccctct gctctctagg acaattaagg gatgacgtct ctgaggacat ggaggggaag
+     1201 acagtccctg gaatacagat caggggtccc atttgactcc tgcagcagcc ttgggcaccg
+     1261 tgaatttttc tctcaggcct tgttctctgc ctcacactaa atacttctga aggtctgatt
+     1321 ccagcttttc tgagtccctc ggcctccact caggtcagga ccagaagtcc ctgttcctcc
+     1381 ctcagagact agaactctcc aaggaatagg agattatccc agatgcctgt gtccaggctg
+     1441 gtgtctgggt tctgtgctcc cttccccacc ccaagtgtcc tgtccattct cagggtggtc
+     1501 acatgcgtgc tgctggagtg tcccatgaga gatgcaaagc gcctgaattt tctgactctt
+     1561 cccatcagat cccccaaaga cacacgtgac ccaccacccc gtctctgacc atgaggccac
+     1621 cctgaggtgc tgggccctgg gcttctaccc tgcggagatc acactgacct ggcagcggga
+     1681 tggggaggag caaactcagg acaccgagct tgtggagacc aggccaggag gagatggaac
+     1741 cttccagaag tggggagctg tggtggtgcc ttctggagaa gagcagagat acacgtgcca
+     1801 tgtgcagcat gaggggctgc cggagcccct caccctgaga tggggtaaga agggggatga
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttctg gagcccttca gcaggatcag
+     1921 ggcccctcac cttcccctcc tttcccagag ccatcttccc agtccaccat ccccatcatg
+     1981 ggcattgttg ctggcctggc tgtcctagca gttgtggtca ccggagctgt ggtcgcagct
+     2041 gtgatgtgga ggaggaagag ctcaggtagg gaaggggtga ggagtgggat cttgcttttc
+     2101 ttgtcctctg ggggtttcaa gcccaaggta gaaatgttca ctgcctcatt cctgggaagc
+     2161 agcatccaca cagaggctaa cccagcctgg gaccctgtgt gccagcactt actcttttgt
+     2221 gtagcacatg tgacaatgaa ggacggatgt atcaccttga tgattatggt attggggtcc
+     2281 tgattccagc attcatgagt cagggtaagg tccctgctaa ggacaaacct taggaggaca
+     2341 gtttgcccaa gacacacagc tgctttcctc ctatttcctg atcctgccct gggtctgcag
+     2401 tcatagttct ggaaatttct cttgggtcca agactaggag gttccgctaa gatcttttgg
+     2461 ccctacttcc tcccagtccc ctcacaggat attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca gactgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccatcct
+     2581 gtaattcctc ctgtcccatg tctcctgcgg gctctgacca gctcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cggcttga
+//
+LOCUS       NHP12640                2687 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B02Ps*01:17:01:01, B02Ps locus allele.
+ACCESSION   NHP12640
+VERSION     NHP12640
+DBLINK      INSDC: HG992773
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:17:01:01
+            IPD accession: NHP12640
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:17:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:17:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggcccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggagag ccaaggaggc cgcacagtct
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgcga cctggggccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcagagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggc aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgctccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccaccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggcg gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//
+LOCUS       NHP12641                2687 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B02Ps*01:18:01:01, B02Ps locus allele.
+ACCESSION   NHP12641
+VERSION     NHP12641
+DBLINK      INSDC: HG992771
+KEYWORDS    IPD-MHC; MHC class I; B02Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B02Ps*01:18:01:01
+            IPD accession: NHP12641
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2687
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:18:01:01"
+     exon            1..73
+                     /gene="B02Ps"
+                     /number=1
+     exon            203..472
+                     /gene="B02Ps"
+                     /number=2
+     exon            717..992
+                     /gene="B02Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B02Ps"
+                     /number=4
+     exon            1948..2064
+                     /gene="B02Ps"
+                     /number=5
+     exon            2505..2537
+                     /gene="B02Ps"
+                     /number=6
+     exon            2644..2687
+                     /gene="B02Ps"
+                     /number=7
+     intron          74..202
+                     /gene="B02Ps"
+                     /number=1
+     intron          473..716
+                     /gene="B02Ps"
+                     /number=2
+     intron          993..1567
+                     /gene="B02Ps"
+                     /number=3
+     intron          1844..1947
+                     /gene="B02Ps"
+                     /number=4
+     intron          2065..2504
+                     /gene="B02Ps"
+                     /number=5
+     intron          2538..2643
+                     /gene="B02Ps"
+                     /number=6
+     CDS             join(1..73,203..472,717..992,1568..1843,1948..2064,
+                     2505..2537,2644..2687)
+                     /gene="B02Ps"
+                     /allele="Mafa-B02Ps*01:18:01:01"
+                     /codon_start=1
+                     /product="MHC class I B02Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgccggtca tggcgccccg aaccctcctc ctgctgctct cgggggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcggggacgc agggcccggg gagccgcgcg gggaggaggg tcgggcgagt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttccacac cgccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtccg aggatggagc cgcgggcgcc gtggatggag
+      361 caggaggggc cggagtattg ggaagagcag acacggagag ccaaggaggc cgcacagtct
+      421 ttccgagtga gcctggggaa cctgcgcggc tactacaacc agagcgaggc cggtgagtgg
+      481 ccccggcccg gggcgcaggt cacgacccct ccccaccccc gacggacggc ccgggtctcc
+      541 ccgactctca gggtccgaga tccgccccga ggccgcggga ccggcccaga ccctcgaccg
+      601 gagagagccc caggcgcctt tacctggctt cattttcagt tgaggccaaa gtccctgcgg
+      661 gttggtctgg gcggggcggg gctcgggggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt acggctgcga cctgggaccc gacgggcgcc tcctccgcgg
+      781 gtattaccag gacgcctacg acggcaagga ttacatcgcc ctgaaccagg acctgcgctc
+      841 ctggaccgct gcggatgagg cggctcagaa cacccagcgc aagtgggagg cggccggtgt
+      901 ggcggagcag cggagagcct acctggaggg caagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggc aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atcacctcta gatcgcccgg gatggcctcc catgaggagg gaaggaaaat gggatcagcg
+     1081 ctagaatgtc gccctccctt gaatggagaa tggcatgaat ttccctgatt tcctctgagg
+     1141 gccccctctg ctctctagga caattaagga atgacgtctc tgaggacatg gaggggaaga
+     1201 cagtccctgg aatacagatc aggggtccca tttgactcct gcagcagcct tgggcactgt
+     1261 gaatttttct ctcaggcctt gttctctgcc tcacactaaa tacgtctgaa ggtctgattc
+     1321 cagcttttct gagtccctcg gcctccactc aggtcaggac cagaagtccc tgttcctccc
+     1381 tcagagacta gaactctcca aggaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgctccc ttccccaccc caagtgtcct gtccattctc agggtggtca
+     1501 catgcgtgct gctggagtgt cccatgagag atgcaaagcg cctgaatttt ctgacttttc
+     1561 ccatcagatc ccccaaagac acacgtgacc caccaccccc tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagtgggat
+     1681 ggggaggagc aaactcagga caccgagctt gtggagacca ggccaggagg agatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagaag agcagagata cacgtgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagaa gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcagg
+     1921 gcccctcacc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcatgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgcagctg
+     2041 tgatgtggag gaggaagagc tcaggtaggg aaggggtgag gagtgggatc ttgcttttct
+     2101 tgtcctctgg gggtttcaag cccaaggtag aaatgttcac tgcctcattc ctgggaagca
+     2161 gcatccacac aggggctaac ccagcctggg accctgtgtg ccagcactta ctcttttgtg
+     2221 tagcacatgt gacaatgaag gacggatgta tcaccttgat gattatggta ttggggtcct
+     2281 gattccagca ttcatgagtc agggtaaggt ccctgctaag gacaaacctt aggaggacag
+     2341 tttgcccaag acacacagct gctttcctcc tatttcctga tcctgccctg ggtctgcagt
+     2401 catagttctg gaaatttctc ttgggtccaa gactaggagg ttccgctaag atcttatggc
+     2461 cctacttcct cccagtcccc tcacaggata ttttcttccc acaggtggaa aaggagggag
+     2521 ctactctcag actgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccatcctg
+     2581 taattcctcc tgtcccatgt ctcctgcggg ctctgaccag ctcctgtttt tgttctaccc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac ggcttga
+//

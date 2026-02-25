@@ -1,0 +1,1971 @@
+LOCUS       NHP00865               11448 bp    DNA     linear   PRI 28-APR-2020
+DEFINITION  Patr-DRB3*01:02:01:01, DRB3 locus allele.
+ACCESSION   NHP00865
+VERSION     NHP00865
+DBLINK      INSDC: M94943
+            INSDC: M96093
+            INSDC: FN424208
+            INSDC: AM910426
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+REFERENCE   5
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB3*01:02:01:01
+            IPD accession: NHP00865
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*01:02; Patr-DRB3*0102
+FEATURES             Location/Qualifiers
+     source          1..11448
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..11448
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*01:02:01:01"
+                     /note="previous designations: Patr-DRB3*01:02;
+                     Patr-DRB3*0102"
+     exon            1..100
+                     /gene="DRB3"
+                     /number=1
+     exon            7781..8050
+                     /gene="DRB3"
+                     /number=2
+     exon            10335..10616
+                     /gene="DRB3"
+                     /number=3
+     exon            11300..11410
+                     /gene="DRB3"
+                     /number=4
+     exon            11411..11434
+                     /gene="DRB3"
+                     /number=5
+     exon            11435..11448
+                     /gene="DRB3"
+                     /number=6
+     intron          101..7780
+                     /gene="DRB3"
+                     /number=1
+     intron          8051..10334
+                     /gene="DRB3"
+                     /number=2
+     intron          10617..11299
+                     /gene="DRB3"
+                     /number=3
+     CDS             join(1..100,7781..8050,10335..10616,11300..11410,
+                     11411..11434,11435..11448)
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELHKSECH
+                     FFNGTERVRYLDRYFHNQEEFLRFDSDVGEYRAVTELGRPVAESWNSQKDYVEQKRGQV
+                     DNYCRHNYRVGESFTVQRRVLPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFQN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc agcttggcag cgttgacagt gacactgatg
+       61 gtgctgagct cccgcctggc tttcgctggg gacacccgac gtaagtgcac attgtgggtg
+      121 ctgagctact atggggtggg ggaaaatagg gagttgtgtt aacattgtgc ccaggtcatg
+      181 tcccttaaga aactgtgtgg ttttcttcag agattgctca tctttatcaa gggatcgcaa
+      241 attatttcct ccacaaaagg aacttggcta cttgccctct ccatgagact tgtgtaaggg
+      301 gcctttgtac aggccatttc ttctcaaatc tccaccaata aaacctttgc atcacatgtc
+      361 ctcagggtct ttagaggatt tggaaatatg gatgctaaaa taaattcccc atacagcact
+      421 tccctttatt atgttgactt atgtcagaca aaaggaggtt tttactgaaa attttgtggg
+      481 agtcaaggga attcaaaggg tctctcctag acgatcctgg gttatgtcct ccacaggacc
+      541 tgtggtgttg gcccctcttc ctcatatgtg aggatggacc cagtggcctc cctagtatct
+      601 cctttctttt ctttctgaac tccaatgttt ataaagcctg tatccctgta gcgtatgtag
+      661 gttgtctgac agaagttata cttagtgctc tttctttctt atggggaaaa atccctggaa
+      721 ctgaagctga gatcattagt acttggaatc accttacaga tacagagcac ttatgaggta
+      781 ttctttggtg cctaaagaac ttaaggcatc ctctgaaaaa ctggcccagc ttcgtgttta
+      841 ttatgaatct ttttaacctt tctatacttg tttctcctac atctcctaca tgctctaact
+      901 agacatgaca gaacagattt aactaacgta gtataaatta tatgaaattc tatttttgta
+      961 agtcaaaaat aatcaaatat cagaaattta ataatgttca aactatatac tgtgtgggat
+     1021 taccgagaca atgtggacat tgttcacatc tcatagggct gaaagtcaat gggcaagtcc
+     1081 tggaaactca ttgacttact gcggtcttgt cctaaatttc ataggttcac ccatcatgcc
+     1141 ctcagctttc cttaattagc catgtctgct tacctcttcc tcccatttct ctctattttc
+     1201 cccaactatg ttgtcatcat ttccagaaat ctctaaagct tgcacagatc cttagcacta
+     1261 tgagatccac tgaaacagat aatatttttc tctttgagat agggcctgcc tgtgtcaccc
+     1321 aggctgtagc tcagtggtgt gatcgaggct cactgcaacc tctgcctccc atgctcaagc
+     1381 aatcctccct cctcagcctc cagagtagct gggaatacag gcaggtaacc acgcccagct
+     1441 aatttttgca attttggtag agagaagatt ttgccatatt gcccaggctg gtcttaaact
+     1501 gctgaactca agcaatcctc ctgccttagc ctcccaacat gctaggatta tagatgtgag
+     1561 ccactgtgcc caggcaaaag agatgactct taataaaaag atttcctttt tcttaaatca
+     1621 ctgtttcttt atccgtgaat tcttcttcca actagaagaa ggagaaagaa gtttgcctgt
+     1681 atttctcacc gggaggagaa ggggtctagt gtgacatcaa aatgaaagag tgctggaact
+     1741 tgagcccctt cttgctttcc aggatcccca cagtgatcag ttcccatacc ctggtttatt
+     1801 tgtgtaaacc acacttattt ttctcagcag ctactgtgta ctgggctcca ttctaggttc
+     1861 aaatcattct atttgattaa gatagagagg gtcccgactc tcaaggaagt tacaagagta
+     1921 gaggagacag acactaaccc aataagcatt taacaaagaa gataatgtta gagagtcata
+     1981 gtgcactgaa gaaaagacat cagatgtgtg ttgaaagaga gaaatggatt catctacttt
+     2041 agtttgtatg tttagggagc tctacctgag aaagtgatat tcagctgaga caacaaaata
+     2101 agtagacagt catgaagatc taacggacga aagtttcagg gagaccgaat cgagggaaat
+     2161 cctggtgtgg gaaattatgt ggagggagag aaagaaggct agaagggctg tcgtatataa
+     2221 agcaaggaaa tggagaggca gaagatgagg tagaacacag agaggaagtc aggagcctca
+     2281 tcattatagg ctctgatgtc cacggtaaaa aatttgaatt ttattttatt tttatttatt
+     2341 tttaaatttt atttatttat ttattttgag atggagtttc attcttgttg cccaggctgg
+     2401 agtgccatgg cgcaatctcc actcactgca acctccacct cccgggttca agtgattctc
+     2461 ctgcctcagc ttcccaagta actgggatta caggcaccca ccaccatacc tggctaattt
+     2521 ttttgtattt tgagtgtaga tggggtatca ccatgttgac caggctggtc ttgaactcct
+     2581 gacctcagat aatctgtctg ccttggcctc ccaaagtgct gggattacag gcgtgagcca
+     2641 ccacgcccgg actgaatttt atttaaatag atatgagaag ctgctgtatg gttacaagga
+     2701 gagtcaattt atattcaact tgtgtgtgtg tgtgtgatgg agtctcactc tgttgcccag
+     2761 gctagattgc agtggcacaa tctcggctca ctccaacctc cgcctcccgg gttcaagaaa
+     2821 ttatcctgcc tcagcctcct gagtagctgg gaccacaggt gcatgccacc acagtcggct
+     2881 actttttgta tttttagtag ggatggggtt tcaccgtgtt agccaagatg gtctcgatct
+     2941 cctgaccttg tgatccgccc gcctcggcct cccaaagtgc tgggattaca ggcatgagcc
+     3001 actgcgccca gcttaaattc aattattaca attaattcta gctactttgt ggggattgga
+     3061 ttgttggggt tcacaagtgg ttaggaggac tatttgggag cacagcaggg aattctccag
+     3121 ggaaaacagg cttgtggctt catggagtgc attagtgata aagacggtga aaaagataaa
+     3181 gtggacagac ttggcatgta tttttgctta gcttgttaat gaattactgt aaagggggtg
+     3241 gaacaatcaa gtttattcct gaggattttg ttttgacaaa taagtgggtg gtagttttgt
+     3301 ttattgagat agaaaaaact atgggaggaa atgatttgaa gtgggtggtt ggaaataaaa
+     3361 gttttgttta aattagagat gatttattga catttatgta gagcaatcag aaggtcagtg
+     3421 gcatttaaga gactcatggt gaggctaggg cttcagatat ttatgttggc ggcatcaata
+     3481 cgtgtagtgt gttaaattct agggcgtgga agaggataca tagagagatg gattgtgtgg
+     3541 agaaaaaaga agagggcaca ggccagcaaa gggggctgag acagagccca gggatgttgg
+     3601 agaaaaacca agagaacata atgcgtgtaa gtcaaggaaa atatattttt ttcagggaga
+     3661 agggagaggc caattgtggt gagtaccact aagcggaggg ggaagtgaga acttgacaga
+     3721 gaagcaagtg ctgggtttgg tggagttgat atttgcagtc aatggagtat ccagggagga
+     3781 aactggattg gaccatttga agagcaagca gaagggagga tgaggttaag gttgactgtt
+     3841 ttgagtagaa cttcgggaag gactgcgctc tgggttcagg gagcccgctg aatctaaagg
+     3901 aaaaggctaa agaagctgaa gagacagagg aggacctgtg aacaagagat gctcagtcat
+     3961 tagcaaggaa atactgtaga gcccctgttg tgcagtggtg actactcatg caaaaggtca
+     4021 cacagccagt atttaacaca gccagtattt cacacagcca atatttatta gtgacataga
+     4081 atataccagt tattactcta ggtcatgaga atggtgataa ataaaatgaa tccgctcgcc
+     4141 atcagtatat gccatgtaac agtttgcagt gactgtgtac caggcctgtg aatttcagta
+     4201 tgcaatttca ataatgatcc tgctgtatct gtggtattta aaaacatata catctctgga
+     4261 atctaaaatt gagaggttat aagtaaaacc cagtattaga aatttagtgc tggaaatcag
+     4321 attgcagttt aaatctgagc atatagaaag tccctttctt ctatgtcagc agatgccttt
+     4381 tatgtgaggt ttaggtatac tacattatta gacataaacc agtgtttctg ccctatgttt
+     4441 tcagaatgac aattctttat gaaactcata gaagaacaga agacaactgc aaaatcatga
+     4501 agatactaac tgctttagaa ttaaggaata caaaaaataa tgtgagctac agttataggg
+     4561 atcataaaag ttaaaatggg aatgtatttg agtgtttatt atgtgatcag tgctaagaag
+     4621 agtcatcatt taatttgaca cttaacagta atcctgtgag gattatgcta ttattaaatg
+     4681 catttgatat attacataaa ggcttatagt tggtaaaaat tgacccaagt agaagaggtc
+     4741 atctttttat tcagattttc tgattgtagg gtttgagagt ttttccatca ttagtgagta
+     4801 gtgactatat tgtgtctgaa ttattgacag aatttctgat attcatgtat accatgttgt
+     4861 ttcttcgagt ggggacagag atacaagggc tgctaattcc aatgtatagg agaaactttc
+     4921 aatcattttg catttatcat tttaaaagtt cagtatgtct ataatggtca tgcattgaca
+     4981 aacacaagga agtattaaat cactccttct tctgaggttt gactagcaaa ttgggcaaga
+     5041 gttaccaaat aaaatacatg ttcctagtta aatctgaatt tcagatacac gaccataatt
+     5101 tattggaaat ccaaatttaa ttgggcaccc tctggtttta tttgccaaat ctgtcaaccc
+     5161 taagtgggac acatggacat ggattacagt gctacccatg caagccacag tgacagcaac
+     5221 tttacacatg tttacatttt aactttctct ctgtaagaaa gtgcttagat aatttaggga
+     5281 taaaaagata gccattgttt gatccagggt ggacacctct ctgccattgt ttctaaaggg
+     5341 caaagggaga tttctgcagg tcttgctcac agtctgggga cctgctcatg ttttgaaact
+     5401 ttctgtatca gaatgtcatt ttcttggttt ctccctttct gaggggactt gactacaaaa
+     5461 ccaagagttc tgcctctggc caaggctgga aatatgatgc ctgctagcat tgttgggagt
+     5521 gggagactga gagaaatgag ttagttgggg catttaatgg gaataaaata gctgtggttg
+     5581 tgattcatta ctacagataa ttagtggacc agtggcggag aaattaagaa aaaagatgat
+     5641 gtgaacgata aatgatatga ttagtgactg cttggtaaga caaggaaatc attaaatctt
+     5701 ggttctcatc aagttcattt tctgaaaaga tagcactgta ttgggaccag aattctacag
+     5761 aacattcttt ttacctagga ccaagatttt caagaaatat ttttcaatac aattctcagc
+     5821 tgctccataa ctaatagtag cttgttcaac acagattttt tcagatggtt cacacctgta
+     5881 gttcttaccc agggatagtt caccacccct cccttccctc ccatcatcct tggggaacag
+     5941 tgacaatgtt tggaacaatt tttggttgtc acaacagggg tttcttctga tatttaatga
+     6001 gtagaagcca ggaacactgc tagagaacct acaatgttca gaacagcctc cgccatcaac
+     6061 aaagaattat ctggtccaaa atgtcaatag tgctgaggct gagagcactg gttcacgctg
+     6121 tgctcttttt gaaaattcta cactcacatc tgttatacac tcaccacaca gttcagattt
+     6181 ttatagttta tttttgcttg ttccattata aaaaaattag acagttgcat aaattcaacc
+     6241 actttcttgt tgaatccact tagtcaatgc aagcttaata ttttcatatt tagtttttgc
+     6301 cttatgcaat atttttcaac attttcgtga gttgttggtc atcaccatct ctattaactt
+     6361 tcaacaactt gctcttgtaa gtcacaaata gtgatgctgc tgaaattatt tctcactaac
+     6421 atgcctcagg tttctgtagt gattctacat tttatattat tcacaatgta aaatgcttct
+     6481 atgtactcat ttcactttta cccaaggatt atttttaagt tatttttgtc gttttcacac
+     6541 ttcaaacata aagacaaaaa catcaaaaat atatactgtg ttttacatat gtgtctattt
+     6601 tcacacatat atgtatgtat gtttatatgt atggaaacta cagaagcaca tgtcgccaat
+     6661 aagagctctg agacaccttt gaccacttac ccttatcaga tgagatttgc caaatgagtt
+     6721 gtggaaacaa gttttttaaa ctgaatttct gagctttgtg aatttagaaa tgcaaaggaa
+     6781 agtttgtgga catttacagg gatcatggtt ttattgtcct ttaaactctt cgatacttta
+     6841 ccattgtctt actataaatc caaaatccta acgccaccca cgaggctttc aatacctggc
+     6901 ttcttgtgat ttctccaggc taatctttta ccctccttcc cctcagcctc tctgctttag
+     6961 tgaactttct cctagttttt tgaagaagtt catcaattca agcttttgta catgggattt
+     7021 cctaaacctg aaatgtgcct cccgttttgt ccaaacagac acacaggctc cactctgccc
+     7081 cctggctcac acctgcttaa cctgtcaagt cacacctgaa ctgtcactct tcagagggtc
+     7141 cttctctggc accctaatgt aattgagatc atcctattat tctctgctct agaacttccc
+     7201 acttccgaga tttctcattc ctgtctaacc tcttgtgtgt ttggtttttg gccatcgctt
+     7261 tcactgctct ttaagctccc cagcggagtg gagaggtctg ttttcccttg tttggattcc
+     7321 tagaggcagc ccaggccagg cacaaggtca tcactaagaa agtgttcaca ggatgaacgc
+     7381 ggtgggtgct gtttaaggaa ccggtaaacg tgtgggatga gagaaggagc agagagtgtt
+     7441 tttggggtgg aggctcctag gaggaggcgg ggcgggctgc ggtgctgggc ggatcctcct
+     7501 ccagctcctg cttggaggtc tccagaacag gctggaggca gggagggggt cccaaaagcc
+     7561 tggggatgag aaggggtttt cccgcatagt cccccaggtc cccgttcgcc tcaggaaaac
+     7621 ggaagatgag ctcctgggct gctggtggtg ggcgttgcgg ttggggccgg ttaaggttcc
+     7681 cagtgcccgc accccgccca gggagccccg gatggcggcg tcgctgtcag tgtcttctca
+     7741 ggaggccgcc cgtgtgaccg gatccttcgt gtacccgcag cacgtttctt ggagctgcat
+     7801 aagtctgagt gtcatttctt caatgggacg gagcgggtgc ggtacctgga cagatacttc
+     7861 cataaccagg aggagttctt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+     7921 gagctggggc ggcctgtcgc cgagtcctgg aacagccaga aggactacgt ggagcagaag
+     7981 cggggccagg tggacaatta ctgcagacac aactacaggg ttggtgagag cttcacagtg
+     8041 cagcggcgag gtgagcatgg cggggggcgg ggcctgggtc cctgtgagct ggaaatctga
+     8101 gagtgtgtgt gtgtgtatgt gtgtgtgtgt gagagagaga aagagagaga gagaggaaga
+     8161 gagagacaga gagagggagc gcgccatctg tgagcattta gaatcctctc aatcccgagc
+     8221 aagcagttct gaaggtacag gtgtgtgtgt agagtgtgga tttgtctgtg tctgtgtgcc
+     8281 tgttgtggga ggggaagcag gagggggctg cttcttatcc ttggagactt ctgtggagag
+     8341 gtgacaaggg aggtgggtgc gggcggctgg agagagagga gaccttgatt gtcctgggtc
+     8401 cttagagatg cagggaagga aagtgtaagg tgtgtgtggg tggggtgaag gtttagggga
+     8461 ggagagctga ggggtaagga aggtttggga taatgtgagg aggccggttc cagactgtcc
+     8521 ctggcacaca ccctttatgt aatctctgaa ataaaagtgc gtgctgtttg cttgcaaaag
+     8581 caatagatta agttctaggg gaattgagta gacctctaag gcacctctga aacttcttta
+     8641 ggtataaatt tcttgctagt tttttgtttt tctagtgtgt atatttttac atagtagaaa
+     8701 tgacagtgaa actaactttt gaattaaagt tttaacacag ttactgtatt attataatgc
+     8761 taatagtttt ctagtagtta catattattc ttttatatat aatagttgtg acacaactta
+     8821 gggatcactt tcccttttgt tgacctttat tatgacattc accaaaagtt gaaaatgtat
+     8881 gtttctggtt aatttttaat ttacgttttt tcatttgaaa aaatgtagag aggtctgttt
+     8941 ttcattcaaa agagttcttt tgaattattt tgactgattt attggtcaat tttaataact
+     9001 gctctaagaa ttccctattt tatttggtag gtaatggaca atgatctact gcctaatatc
+     9061 tctagggctt agtatttttc tcagtgactt tgtgggttct ttgtactgta agattattaa
+     9121 cactttattg atatttgatt cagcatttgc tccagtttgt ggtttgtatg ttgattttga
+     9181 aaattctttt ccatgttaag aatttgaaca tttttattta ataaaatgta ttgcaaaaat
+     9241 tttattaatg atttacaatc catcttaaat ctgccatttt gtggtatttt tgtctctagg
+     9301 tttctcctta cttctaaaaa cattgtattt attgagagta tgctaatgtc ggggattttc
+     9361 ctgggcataa gcaccacaag taatgagttc cagaccctgc cataatccaa atgtgattct
+     9421 ggaaagaaaa atcattttac aattggcctg ataataattc tgcttgtgtt gcacggggga
+     9481 tacattgagc agctgaatga aaatataaga actttcaaaa ctaaaatgac gctcctaaat
+     9541 ccttctgtct gctttaggac tcatgctttt ctaggaacgt aaaaatttgg agaatcattt
+     9601 ctgtctgtcc caccttccca ggggcagaac catttctgtg gtgttctaag gtgtgagtgc
+     9661 atggcagtag tattcctaaa aattcatact cggttttctc atgtacccaa ctctgtccct
+     9721 ttgtctatgt acattgcttt aaatcatatt tttctgtcac ggtgtacaag gatgataaat
+     9781 aggtgccaag tggagcaccc aagtgtgatg agccccctta cggtggaatg gagtgagaag
+     9841 ctttctgatc tcataaattg aaggctatct tcagtcatta tgtattttat gtaaattaat
+     9901 cctcatataa ccccaagagg taaattagta taattatcct tcattggggg tgacaaagtt
+     9961 gagacacaga agaatcaact cttccaggat caatcagtaa aaggcagacc ttggatttga
+    10021 accatgcaac ctggctcaga tatcagtttt aattactaca ctctgtactt tcaaaaattt
+    10081 gtaaacactt tgacaatgca tgccaatttc aagttatgaa gaagcaaacg caatttttca
+    10141 catctctcaa atctaatggg tcctcactat caagattaaa ttccaggctg atgacactgt
+    10201 aaggccacat ggccagctgt gctggaggcc tggtcaaggt cagagcctgg gtttgcagag
+    10261 aagcagacaa acagccaaac caggagaatt actctgtctt cctgactcat tccctctacc
+    10321 tttttttcta ctagtccttc ctaaggtgac tgtgtatcct gcaaagaccc agcccctgca
+    10381 gcaccacaac ctcctggtct gctctgtgag tggtttctat ccaggcagca ttgaagtcag
+    10441 gtggttccag aacggccagg aagagaagac tggggtggtg tccacgggcc tgatccagaa
+    10501 tggagactgg accttccaga ccctggtgat gctagaaaca gttcctcgga gtggagaggt
+    10561 ttacacctgc caagtggagc acccaagcgt aacgagccct ctcacagtgg aatggagtga
+    10621 gcagcttact gatttcatac atttctcacc caccaagaag gggactgtgc taatccctga
+    10681 gtgtcagatt tctcctctcc cacgtcctat tttcatttgc tccatgttct catctccatc
+    10741 agcacaggtc actggggata gccctgtaac agtgtgtaga aacacctgta ccccctgtgg
+    10801 aatcagtcat gctttttttt ttttgaacct ccccatgatg tcacaggtca aggtcacccg
+    10861 ctctccccaa gctccaggcc ctgcttctgg gtctgagact gagtttctgg tgctgctgct
+    10921 ctgagttact tgttttgatc tgggaagagg ggaagcacag gggcctacct gacatgaggg
+    10981 gagtccaatc tcagctctac cttttattag ctctgtcact ccagacaaac taattagctt
+    11041 cattgagtct caggctttct gttgatcaga tgttgaacgc ttgccttaca tcaatgctgt
+    11101 aatatttgaa tgagtttgat gtctgaacct tgtaactgtt cagtgtgatt tgaaatcctt
+    11161 tttttctccc gaaatggcta gttattttag ttcttgtggg gcagccttct tccccatttt
+    11221 caaagctctg aatcttagag tctcaattaa agaggttcaa tttggaataa acatcactaa
+    11281 acctggcttc ctctctcagg agcacggtct gaatctgcac agagcaagat gctgagtgga
+    11341 gtcgggggct ttgtgctggg cctgctcttc cttggggccg ggctgttcat ctacttcagg
+    11401 aatcagaaag gacactctgg acttcagcca acaggattcc tgagctga
+//
+LOCUS       NHP00866                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:01, DRB3 locus allele.
+ACCESSION   NHP00866
+VERSION     NHP00866
+DBLINK      INSDC: M96075
+            INSDC: FN424210
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB3*02:01
+            IPD accession: NHP00866
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0201
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:01"
+                     /note="previous designations: Patr-DRB3*0201"
+     exon            1..100
+                     /gene="DRB3"
+                     /number=1
+     exon            101..370
+                     /gene="DRB3"
+                     /number=2
+     exon            371..652
+                     /gene="DRB3"
+                     /number=3
+     exon            653..763
+                     /gene="DRB3"
+                     /number=4
+     exon            764..787
+                     /gene="DRB3"
+                     /number=5
+     exon            788..801
+                     /gene="DRB3"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:01"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALSGDTRPRFLELVKSECH
+                     FFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAVTEPGRPVAESWNSQKDLLEQKRGQV
+                     DNYCRHNYGAVESFTVQRRVHPQVTVYPAKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVMSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTEFLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tggaggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttgtctggg gacacccgac cacgtttctt ggagctggtt
+      121 aagtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga gagatacttc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagccggggc ggcctgtcgc cgagtcctgg aacagccaga aggacctcct ggagcagaag
+      301 cggggccagg tggacaatta ctgcagacac aactacgggg ctgtggagag cttcacagtg
+      361 cagcggcgag tccatcctca ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga ggtcaggtgg
+      481 ttccggaacg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgcta gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggaacaccc aagtgtgatg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacagaat tcctgagctg a
+//
+LOCUS       NHP00867                 270 bp    DNA     linear   PRI 22-APR-2020
+DEFINITION  Patr-DRB3*02:07:01, DRB3 locus allele.
+ACCESSION   NHP00867
+VERSION     NHP00867
+DBLINK      INSDC: M96124
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:07:01
+            IPD accession: NHP00867
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*02:07; Patr-DRB3*0207
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..270
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:07:01"
+                     /note="previous designations: Patr-DRB3*02:07;
+                     Patr-DRB3*0207"
+     exon            1..270
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..270
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:07:01"
+                     /codon_start=3
+                     /product="MHC class II DRB3 antigen"
+                     /translation="RFLELVKSECHFFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAV
+                     TELGRPVAESWNSQKDLLEQKRGQVDNYCRHNYGAVESFTVQRR"
+ORIGIN
+        1 cacgtttctt ggagctggtt aagtctgagt gtcatttctt caatgggacg gagcgggtgc
+       61 ggtttctgga gagatacttc tataaccagg aggagtacgt gcgcttcgac agcgacgtgg
+      121 gggagtaccg ggcggtgacg gagctggggc ggcctgtcgc cgagtcctgg aacagccaga
+      181 aggacctcct ggagcagaag cggggccagg tggacaatta ctgcagacac aactacgggg
+      241 ctgtggagag cttcacagtg cagcggcgag
+//
+LOCUS       NHP00868               11379 bp    DNA     linear   PRI 28-APR-2020
+DEFINITION  Patr-DRB3*02:07:02:01N, DRB3 locus allele.
+ACCESSION   NHP00868
+VERSION     NHP00868
+DBLINK      INSDC: M94944
+            INSDC: M96102
+            INSDC: AM910428
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Gyllensten U, Sundvall M, Ezcurra I, Erlich HA.
+  TITLE     Genetic diversity at class II DRB loci of the primate MHC.
+  JOURNAL   J Immunol 146:4368-4376 (1991)
+   PUBMED   2040804
+REFERENCE   4
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   5
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+COMMENT     IPD-MHC allele: Patr-DRB3*02:07:02:01N
+            IPD accession: NHP00868
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*02:08; Patr-DRB3*0208
+FEATURES             Location/Qualifiers
+     source          1..11379
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..11379
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:07:02:01N"
+                     /note="previous designations: Patr-DRB3*02:08;
+                     Patr-DRB3*0208"
+     exon            1..41
+                     /gene="DRB3"
+                     /number=1
+     exon            7724..7993
+                     /gene="DRB3"
+                     /number=2
+     exon            10302..10583
+                     /gene="DRB3"
+                     /number=3
+     exon            11269..11379
+                     /gene="DRB3"
+                     /number=4
+     intron          42..7723
+                     /gene="DRB3"
+                     /number=1
+     intron          7994..10301
+                     /gene="DRB3"
+                     /number=2
+     intron          10584..11268
+                     /gene="DRB3"
+                     /number=3
+     CDS             join(1..41,7724..7993,10302..10583,11269..11379)
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:07:02:01N"
+                     /codon_start=2
+                     /product="MHC class II DRB3 antigen"
+                     /translation="VLSSRLAFAGDTRPRFLELVKSECHFFNGTERVRFLERYFYNQEE
+                     YVRFDSDVGEYRAVTELGRPVAESWNSQKDLLEQKRGQVDNYCRHNYGAVESFTVQRRV
+                     HPQVTVYPAKTQPLQHHNLLVCSVNGFYPGSIEVRX"
+ORIGIN
+        1 ggtgctgagc tcccgcctgg ctttcgctgg ggacacccga cgtaagtgca cattgtgggt
+       61 gctgagctac tatggggtgg gggaaaatag ggagttgtgt taacattgtg cccaggtcat
+      121 gtcccttaag aaactgtgtg gttttcttca gagattgctc atctttatca agggatcgca
+      181 aattatttcc tccacaaaag gaacttggct acttgccctc tccatgagac ttgtgtaagg
+      241 ggcctttgta caggccattt cttctcaaat ctccaccaat aaaacctttg catcacatgt
+      301 cctcagggtc tttagaggat ttggaaatat ggatgctaaa ataaattccc catacagcac
+      361 ttccctttat tatgttgact tatgtcagac aaaaggaggt ttttactgaa aattttgtgg
+      421 gagtcaaggg aattcaaagg gtctctccta gacgatcctg ggttatgtcc tccacaggac
+      481 ctgtggtgtt ggcccctctt cctcatatgt gaggatggac ccagtggcct ccctagtatc
+      541 tcctttcttt tctttctgaa ctccaatgtt tataaagcct gtatccctgt agcgtatgta
+      601 ggttgtctga cagaagttat acttagtgct ctttctttct tatggggaaa aatccctgga
+      661 actgaagctg agatcattag tacttggaat caccttacag atacagagca cttatgaggt
+      721 attctttggt gcctaaagaa cttaaggcat cctctgaaaa actggcccag cttcgtgttt
+      781 attatgaatc tttttaacct ttctatactt gtttctccta catctcctac atgctctaac
+      841 tagacatgac agaacagatt taactaacgt agtataaatt atatgaaatt ctatttttgt
+      901 aagtcaaaaa taatcaaata tcagaaattt aataatgttc aaactatata ctgtgtggga
+      961 ttaccgagac aatgtggaca ttgttcacat ctcatagggc tgaaagtcaa tgggcaagtc
+     1021 ctggaaactc attgacttac tgcggtcttg tcctaaattt cataggttca cccatcatgc
+     1081 cctcagcttt ccttaattag ccatgtctgc ttacctcttc ctcccatttc tctctatttt
+     1141 ccccaactat gttgtcatca tttccagaaa tctctaaagc ttgcacagat ccttagcact
+     1201 atgagatcca ctgaaacaga taatattttt ctctttgaga tagggcctgc ctgtgtcacc
+     1261 caggctgtag ctcagtggtg tgatcgaggc tcactgcaac ctctgcctcc catgctcaag
+     1321 caatcctccc tcctcagcct ccagagtagc tgggaataca ggcaggtaac cacgcccagc
+     1381 taatttttgc aattttggta gagagaagat tttgccatat tgcccaggct ggtcttaaac
+     1441 tgctgaactc aagcaatcct cctgccttag cctcccaaca tgctaggatt atagatgtga
+     1501 gccactgtgc ccaggcaaaa gagatgactc ttaataaaaa gatttccttt ttcttaaatc
+     1561 actgtttctt tatccgtgaa ttcttcttcc aactagaaga aggagaaaga agtttgcctg
+     1621 tatttctcac cgggaggaga aggggtctag tgtgacatca aaatgaaaga gtgctggaac
+     1681 ttgagcccct tcttgctttc caggatcccc acagtgatca gttcccatac cctggtttat
+     1741 ttgtgtaaac cacacttatt tttctcagca gctactgtgt actgggctcc attctaggtt
+     1801 caaatcattc tatttgatta agatagagag ggtcccgact ctcaaggaag ttacaagagt
+     1861 agaggagaca gacactaacc caataagcat ttaacaaaga agataatgtt agagagtcat
+     1921 agtgcactga agaaaagaca tcagatgtgt gttgaaagag agaaatggat tcatctactt
+     1981 tagtttgtat gtttagggag ctctacctga gaaagtgata ttcagctgag acaacaaaat
+     2041 aagtagacag tcatgaagat ctaacggacg aaagtttcag ggagaccgaa tcgagggaaa
+     2101 tcctggtgtg ggaaattatg tggagggaga gaaagaaggc tagaagggct gacgtataga
+     2161 aagcaaggaa atggagaggc agaagatgag gtagaacaca gagaggaagt caggagcctc
+     2221 atcattatag gctctgatgt ccacggtaaa aaatttgaat tttattttat ttttatttat
+     2281 ttttaaattt tatttattta tttattttga gatggagttt cattcttgtt gcccaggctg
+     2341 gagtgccatg gcgcaatctc cactcactgc aacctccacc tcccgggttc aagtgattct
+     2401 cctgcctcag cttcccaagt aactgggatt acaggcaccc accaccatac ctggctaatt
+     2461 tttttgtatt ttgagtgtag atggggtatc accatgttga ccaggctggt cttgaactcc
+     2521 tgacctcaga taatctgtct gccttggcct cccaaagtgc tgggattaca ggcgtgagcc
+     2581 accacgcccg gactgaattt tatttaaata gatatgagaa gctgctgtat ggttacaagg
+     2641 agagtcaatt tatattcaac ttgtgtgtgt gtgtgtgatg gagtctcact ctgttgccca
+     2701 ggctagattg cagtggcaca atctcggctc actccaacct ccgcctcccg ggttcaagaa
+     2761 attatcctgc ctcagcctcc tgagtagctg ggaccacagg tgcatgccac cacagtcggc
+     2821 tactttttgt atttttagta gggatggggt ttcaccgtgt tagccaagat ggtctcgatc
+     2881 tcctgacctt gtgatccgcc cgcctcggcc tcccaaagtg ctgggattac aggcatgagc
+     2941 cactgcgccc agcttaaatt caattattac aattaattct agctactttg tggggattgg
+     3001 attgttgggg ttcacaagtg gttaggagga ctatttggga gcacagcagg gaattctcca
+     3061 gggaaaacag gcttgtggct tcatggagtg cattagtgat aaagacggtg aaaaagataa
+     3121 agtggacaga cttggcatgt atttttgctt agcttgttaa tgaattactg taaagggggt
+     3181 ggaacaatca agtttattcc tgaggatttt gttttgacaa ataagtgggt ggtagttttg
+     3241 tttattgaga tagaaaaaac tatgggagga aatgatttga agtgggtggt tggaaataaa
+     3301 agttttgttt aaattagaga tgatttattg acatttatgt agagcaatca gaaggtcagt
+     3361 ggcatttaag agactcatgg tgaggctagg gcttcagata tttatgttgg cggcatcaat
+     3421 acgtgtagtg tgttaaattc tagggcgtgg aagaggatac atagagagat ggattgtgtg
+     3481 gagaaaaaag aagagggcac aggccagcaa agggggctga gacagagccc agggatgttg
+     3541 gagaaaaacc aagagaacat aatgcgtgta agtcaaggaa aatatatttt tttcagggag
+     3601 aagggagagg ccaattgtgg tgagtaccac taagcggagg gggaagtgag aacttgacag
+     3661 agaagcaagt gctgggtttg gtggagttga tatttgcagt caatggagta tccagggagg
+     3721 aaactggatt ggaccatttg aagagcaagc agaagggagg atgaggttaa ggttgactgt
+     3781 tttgagtaga acttcgggaa ggactgcgct ctgggttcag ggagcccgct gaatctaaag
+     3841 gaaaaggcta aagaagctga agagacagag gaggacctgt gaacaagaga tgctcagtca
+     3901 ttagcaagga aatactggag agcccctgtt gtgcagtggt gactactcat gcaaaaggtc
+     3961 acacagccag tatttaacac agccagtatt tcacacagcc aatatttatt agtgacatag
+     4021 aatataccag ttattactct aggtcatgag aatggtgata aataaaatga atccgctcgc
+     4081 catcagtata tgccatgtaa cagtttgcag tgactgtgta ccaggcctgt gaatttcagt
+     4141 atgcaatttc aataatgatc ctgctgtatc tgtggtattt aaaaacatat acatctctgg
+     4201 aatctaaaat tgagaggtta taagtaaaac ccagtattag aaatttagtg ctggaaatca
+     4261 gattgcagtt taaatctgag catatagaaa gtccctttct tctatgtcag cagatgcctt
+     4321 ttatgtgagg tttaggtata ctacattatt agacataaac cagtgtttct gccctatgtt
+     4381 ttcagaatga caattcttta tgaaactcat agaagaacag aagacaactg caaaatcatg
+     4441 aagatactaa ctgctttaga attaaggaat acaaaaaata atgtgagcta cagttatagg
+     4501 gatcataaaa gttaaaatgg gaatgtattt gagtgtttat tatgtgatca gtgctaagaa
+     4561 gagtcatcat ttaatttgac acttaacagt aatcctgtga ggattatgct attattaaat
+     4621 gcatttgata tattacataa aggcttatag ttggtaaaaa ttgacccaag tagaagaggt
+     4681 catcttttta ttcagatttt ctgattgtag ggtttgagag tttttccatc attagtgagt
+     4741 agtgactata ttgtgtctga attattgaca gaatttctga tattcatgta taccaggttg
+     4801 tttcttcgag tggggacaga gatacaaggg ctgctaattc caatgtatag gagaaacttt
+     4861 caatcatttt gcatgtatca ttttaaaagt tcagtatgtc tataatggtc atgcattgac
+     4921 aaacacaagg aagtattaaa tcactccttc ttctgaggtt tgactagcaa attgggcaag
+     4981 agttaccaaa taaaatacat gttcctagtt aaatctgaat ttcagataca cgaccataat
+     5041 ttattggaaa tccaaattta attgggcacc ctctggtttt atttgccaaa tctgtcaacc
+     5101 ctaagtggga cacatggaca tggattacag tgctacccat gcaagccaca gtgacagcaa
+     5161 ctttacacat gtttacattt taactttctc tctgtaagaa agtgcttaga taatttaggg
+     5221 ataaaaagat agccattgtt tgatccaggg tggacacctc tctgccattg tttctaaagg
+     5281 gcaaagggag atttctgcag gtcttgctca cagtctgggg acctgctcat gttttgaaac
+     5341 tttctgtatc agaatgtcat tttcttggtt tctccctttc tgaggggact tgactacaaa
+     5401 accaagagtt ctgcctctgg ccaaggctgg aaatatgatg cctgctagca ttgttgggag
+     5461 tgggagactg agagaaatga gttagttggg gcatttaatg ggaataaaat agctgtggtt
+     5521 gtgattcatt actacagata attagtggac cagtggcgga gaaattaaga aaaaagatga
+     5581 tgtgaacgat aaatgatatg attagtgact gcttggtaag gcaaggaaat cattaaatct
+     5641 tggttctcat caagttcatt ttctgaaaag atagcactgt attgggacca gaattctaca
+     5701 gaacattctt tttacctagg accaagattt tcaagaaata tttttcaata caattctcag
+     5761 ctgctccata actaatagta gcttgttcaa cacagatttt ttcagatggt tcacacctgt
+     5821 agttcttacc cagggatagt tcaccacccc tcccttccct cccatcatcc ttggggaaca
+     5881 gtgacaatgt ttggaacaat ttttggttgc cacaacaggg gtttcttctg atatttaatg
+     5941 agtagaagcc aggaacactg ctagagaacc tacaatgttc agaacagcct ccgccatcaa
+     6001 caaagaatta tctggtccaa aatgtcaata gtgctgaggc tgagagcact ggttcacgct
+     6061 gtgctctttt tgaaaattct acactcacat ctgttataca ctcaccacac agttcagatt
+     6121 tttatagttt atttttgctt gttccattat aaaaaaatta gacagttgca taaattcaac
+     6181 cactttcttg ttgaatccac ttagtcaatg caagcttaat attttcatat ttagtttttg
+     6241 ccttatgcaa tatttttcaa cattttcgtg agttgttggt catcaccatc tctattaact
+     6301 ttcaacaact tgctcttgta agtcacaaat agtgatgctg ctgaaattat ttctcactaa
+     6361 catgcctcag gtttctgtag tgattctaca ttttatatta ttcacaatgt aaaatgcttc
+     6421 tatgtactca tttcactttt acccaaggat tatttttaag ttatttttgt cgttttcaca
+     6481 cttcaaacat aaagacaaaa acatcaaaaa tatatactgt gttttacata tgtgtctatt
+     6541 ttcacacata tatgtatgta tgtttatatg tatggaaact acagaagcac atgtcgccaa
+     6601 taagagctct gagacacctt tgaccactta cccttatcag atgagatttg ccaaatgagt
+     6661 tgtggaaaca agttttttaa actgaatttc tgagctttgt gaatttagaa atgcaaagga
+     6721 aagtttgtgg acatttacag ggatcatggt tttattgtcc tttaaactct tcgatacttt
+     6781 accattgtct tactataaat ccaaaatcct aacgccaccc acgaggcttt caatacctgg
+     6841 cttcttgtga tttctccagg ctaatctttt accctccttc ccctcagcct ctctgcttta
+     6901 gtgaactttc tcctagtttt ttgaagaagt tcatcaattc aagcttttgt acatgggatt
+     6961 tcctaaacct gaaatgtgcc tcccgttttg tccaaacaga cacaggctcc actctgcccc
+     7021 ctggctcaca cctgcttaac ccgtgaagtc acatctgaac tgtcactctt cagagggtcc
+     7081 ttctctggca ccctaatgta attgagatca tcctattatt ctctgctcta gaactccaca
+     7141 cttccgacat ttctcattcc tgtctaacct cttgtgtgtt tggtttttgg ccatcgcttt
+     7201 cactgctctt taagctcccc cagcggagtg gagaggtctg ttttcccttg tttggattcc
+     7261 tagaggcagc gcaggccagg cacaaggtca tcgctaagaa agtgttcaca ggatgaacgc
+     7321 ggtgggtgct gtttaaggaa ccggtaaaca tgtgggatga gagaaggagc agagagtgtt
+     7381 tttggggtgg aggctcccag gaggaggcgg ggcgggctgc ggtgctgggc ggatcctcct
+     7441 ccagctcctg cttggaggtc tccagaacaa gctggaggca gggatggggg ggtcccaaaa
+     7501 gcctggggat gagaaggggt tttcccgcat agtcccccag gtccccgttc ccctcaggaa
+     7561 gacggaggat gagctcctgg gctgctggtg gtgggcgttg cgggtggggc cggttaaggt
+     7621 tcccagtgcc cgcacccggc ccagggggcc ccggatggcg gcgtcgctgt cagtgtcttc
+     7681 tcaggaggcc tcctgtgtga ccggagcatt cgtgtcccca cagcacgttt cttggagctg
+     7741 gttaagtctg agtgtcattt cttcaatggg acggagcggg tgcggttcct ggagagatac
+     7801 ttctataacc aggaggagta cgtgcgcttc gacagcgacg tgggggagta ccgggcggtg
+     7861 acggagctgg ggcggcctgt cgccgagtcc tggaacagcc agaaggacct cctggagcag
+     7921 aagcggggcc aggtggacaa ttactgcaga cacaactacg gggctgtgga gagcttcaca
+     7981 gtgcagcggc gaggtgagca tggcgggggg cggggcctgg gtccctgtga gctggaaatc
+     8041 tgagagagag agagagagtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg
+     8101 agagagagag agagagagag gggaagagag agacagagag aaggagcgcg ccatctgtga
+     8161 gcatttagaa tcctctcaat cccgagcaag cagttctgaa ggcacaggtg tgtgtgtaga
+     8221 gtgtggattt gtctgtgtct gtgtgcctgt tgtgggaggg gaagcaggag ggggctgctt
+     8281 cttatccttg gagacttctg tggagaggtg acaagggagg tgggtgcggg cggctggaga
+     8341 gagaggagac cttgattgtc ctgggtcctt agagatgcag ggaaggaaag tgtaaggtgt
+     8401 gtgtgggtgg ggtgaaggtt taggggagga gagctgaggg gtatggaagg tttgggataa
+     8461 tatgaggagg ccggttccag actgtccctg gcacacaccc ttcatgtaat ctctgaaata
+     8521 aaagtgcgtg ctgtttgttt gtaaaagcat tagattaagt tctaggggaa ttgagtagac
+     8581 ctctaaggca cctctgaaac ttctttaggt ataaatttct tgctagtttt ttgttttttt
+     8641 agtgtgtata tttttacata gtagaaatga cagtgaaact aacttttgaa ttaaaatttt
+     8701 aacacagtta ctgtattatt ataatgctaa tagttttcta gtagttacat attattcttt
+     8761 tatatataat agttgtgaca caacttaggg atcactttcc cctttgttga cctttattat
+     8821 gacattcacc aaaagttgaa aatgtatgtt tctggttaat ttttaattta tattttttca
+     8881 tttgaaaaaa tgtggagagg tctgtttttc attcaaaaga gttcttttga attattttga
+     8941 acgatttatt ggtcaatttt aataactgct ctaagaattc cctattttat ttggtaggta
+     9001 atggacaatg atctactgcc taatatctct agggcttagt atttttctca gtgactttgt
+     9061 gggttctttg tactgtaaga ttattaacac tttattgata tttgattcag catttgctcc
+     9121 agtttgtggt ttgtatgttg attttgaaaa ttattttcca tgttaagaat ttgaacattt
+     9181 ttatttaata aaatgtattg caaaaatttt attaatgatt tacaatccat cttaaatctg
+     9241 ccattttgtg gtatttttgt ctctaggttt ctccttactt ctaaaaacat tgtatttatt
+     9301 gagagtatgc taatgtcggg gattttcctg ggcataagca ccacaagtaa tgagttccag
+     9361 accctgcctt aatccaaatg tgattctgga aagaaaaatc attttacaat tggcctgata
+     9421 ataattctgc ttgtgttgca cgggggatac attgagcagc tgaatgaaaa tataagaact
+     9481 ttcaaaacta aaatgatgct cctaaatcct tctgtctgct ttaggactca tgcttttcta
+     9541 ggaacataaa aatttggaga atcatttctg tctgtcccac cttcccaggg gcagaaccat
+     9601 ttctgtggtg ttctaaggtg tgagtgcatg gcagtagtat tcctaaaaat tcatactcgg
+     9661 ttttctcaat tacccaactc tgtccctttg tctatgtaca ttgctttaaa tcatattttt
+     9721 ctgtcacggt gtacaaggat gataaatagg tgccaagtgg agcacccaag tgtgatgagc
+     9781 cccctcacag tggaatggag tgagaagctt tctgacctca taaattgaag gctatcttca
+     9841 gtcattatgt attttacgta aattaatcct catataaccc caagaggtaa attaatataa
+     9901 ttatccttca ttgggggtga caaagttgag acacagaaga atcaactctt ccaggatcaa
+     9961 ccagtaaaag gcagaccttg gatttgaacc atgcaacctg gctcagatat cagttttaat
+    10021 tactacactc tgtactttca aaaatttgta aacactttga caatgcatga caatttcaag
+    10081 ctatgaagaa gcaaacgtaa tttttcacat ctctcaaatc taatgggtcc tcactatcaa
+    10141 gattaaattc caggctgatg acactgtaag gccacatggc cagctgtgct ggaggcctgg
+    10201 tcaaggtcag agcctgggtt tgcagagaag cagacaaaca gccaacccag gagaattact
+    10261 ctgtcttcct gactcattcc ctctaccttt tttcctacta gtccatcctc aggtgactgt
+    10321 gtatcctgca aagacccagc ccctgcagca ccacaacctc ctggtctgct ctgtgaatgg
+    10381 tttctatcca ggcagcattg aggtcaggtg attccggaac ggccaggaag agaaggctgg
+    10441 ggtggtgtcc acaggcctga tccagaatgg agactggacc ttccagaccc tggtgatgct
+    10501 agaaacagtt cctcggagtg gagaggttta cacctgccaa gtggaacacc caagtgtgat
+    10561 gagccctctc acagtggaat ggagtgagca gctttctgat ttcatacatt tctcacccac
+    10621 caagaagggg actgtgctaa tccctgagtg tcaggtttct cctctcccac gtcctatttt
+    10681 catttgctcc atgttctcat ctccatcagc acaggtcact ggggatagcc ctgtaacagt
+    10741 gtgtagaaac acctgtaccc cctgcggaat cagtcatgct tttttttttt tttgaacctc
+    10801 cccatgatgt cacaggtcag ggtcacccac tctccccaag ctccaggccc tgcttctggg
+    10861 tctgagactg agtttctggt gctgctgctc tgagttactt gttttgatct gggaagaggg
+    10921 gaagcatagg ggcctacctg acatgagggg agtccaatct cagctctacc ttttattagc
+    10981 tctgtcactc tagacaaact acttagcttc attgagtctc aggctttctg ttgatcagat
+    11041 gttgaacgct tgccttacat caatgctgta atatttgaat gagtatgatg tcggaacctt
+    11101 gtaactgttc agtgtgattt gaaatccttt ttttctcccg aaatggctag ttattttagt
+    11161 tcttgtgggg cagccttctt ccccattttc aaagctctga atcttagagt ctcaattaaa
+    11221 gaggttcaat ttggaataaa catcactaaa cctggcttcc tctctcagga gcacggtctg
+    11281 aatctgcaca gagcaagatg ctgagtggag tcgggggctt tgtgctgggc ctgctcttcc
+    11341 ttggggccgg gctgttcatc tacttcagga atcagaaag
+//
+LOCUS       NHP00869                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:09, DRB3 locus allele.
+ACCESSION   NHP00869
+VERSION     NHP00869
+DBLINK      INSDC: M96094
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:09
+            IPD accession: NHP00869
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0209
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:09"
+                     /note="previous designations: Patr-DRB3*0209"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:09"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LELVKSECHFFNGTERVRFLERHFYNQEEYVRFDSDVGEYRAVTE
+                     LGRPVAESWNSQKDLLEQKRGQVDNYCRHNYRAVES"
+ORIGIN
+        1 ttggagctgg ttaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagacact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gccgagtcct ggaacagcca gaaggacctc
+      181 ctggagcaga agcggggcca ggtggacaat tactgcagac acaactacag ggctgtggag
+      241 agcttc
+//
+LOCUS       NHP00870                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:10, DRB3 locus allele.
+ACCESSION   NHP00870
+VERSION     NHP00870
+DBLINK      INSDC: M96095
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:10
+            IPD accession: NHP00870
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0210
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:10"
+                     /note="previous designations: Patr-DRB3*0210"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:10"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LELVKSECHFFNGTERVRFLERYFYNQEEYFRFDSDVGEYRAVTE
+                     LGRPVAESWNSQKDLLEQKRAKVDNYCRHNYGAVES"
+ORIGIN
+        1 ttggagctgg ttaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagatact tctataacca ggaggagtac tttcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gccgagtcct ggaacagcca gaaggacctc
+      181 ctggagcaga agcgggccaa ggtggacaat tactgcagac acaactacgg ggctgtggag
+      241 agcttc
+//
+LOCUS       NHP00871                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:11, DRB3 locus allele.
+ACCESSION   NHP00871
+VERSION     NHP00871
+DBLINK      INSDC: M96096
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:11
+            IPD accession: NHP00871
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0211
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:11"
+                     /note="previous designations: Patr-DRB3*0211"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:11"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LEPVKSECHFFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAVTE
+                     LGRPVAESWNSQKDLLEQKRAKVDNYCRHNYGAVES"
+ORIGIN
+        1 ttggagccgg ttaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gccgagtcct ggaacagcca gaaggacctc
+      181 ctggagcaga agcgggccaa ggtggacaat tactgcagac acaactacgg ggctgtggag
+      241 agcttc
+//
+LOCUS       NHP00872                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:12, DRB3 locus allele.
+ACCESSION   NHP00872
+VERSION     NHP00872
+DBLINK      INSDC: M96097
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:12
+            IPD accession: NHP00872
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0212
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:12"
+                     /note="previous designations: Patr-DRB3*0212"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:12"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LELVKSECHFFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAVTE
+                     LGRPVAESWNSQKDLLEQKRARVDNYCRHNYGAVES"
+ORIGIN
+        1 ttggagctgg ttaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gccgagtcct ggaacagcca gaaggacctc
+      181 ctggagcaga agcgggccag ggtggacaat tactgcagac acaactacgg ggctgtggag
+      241 agcttc
+//
+LOCUS       NHP00873                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:13, DRB3 locus allele.
+ACCESSION   NHP00873
+VERSION     NHP00873
+DBLINK      INSDC: M96098
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:13
+            IPD accession: NHP00873
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0213
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:13"
+                     /note="previous designations: Patr-DRB3*0213"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:13"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LELVKSECHFFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAVTE
+                     LGRPVAESWNSQKDLLEQKRAKVDNYCRHNYGAVES"
+ORIGIN
+        1 ttggagctgg ttaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gccgagtcct ggaacagcca gaaggacctc
+      181 ctggagcaga agcgggccaa ggtggacaat tactgcagac acaactacgg ggctgtggag
+      241 agcttc
+//
+LOCUS       NHP00874                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:14, DRB3 locus allele.
+ACCESSION   NHP00874
+VERSION     NHP00874
+DBLINK      INSDC: M96100
+            INSDC: FN424211
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB3*02:14
+            IPD accession: NHP00874
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0214
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:14"
+                     /note="previous designations: Patr-DRB3*0214"
+     exon            1..100
+                     /gene="DRB3"
+                     /number=1
+     exon            101..370
+                     /gene="DRB3"
+                     /number=2
+     exon            371..652
+                     /gene="DRB3"
+                     /number=3
+     exon            653..763
+                     /gene="DRB3"
+                     /number=4
+     exon            764..787
+                     /gene="DRB3"
+                     /number=5
+     exon            788..801
+                     /gene="DRB3"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:14"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALSGDTRPRFLELVKSECH
+                     FFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAVTELGRPSAEYWNSQKDYVEQKRGQV
+                     DNYCRHNYRVGESFTVQRRVLPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFQN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tggaggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttgtctggg gacacccgac cacgtttctt ggagctggtt
+      121 aagtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga gagatacttc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctagcgc cgagtactgg aacagccaga aggactacgt ggagcagaag
+      301 cggggccagg tggacaatta ctgcagacac aactacaggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccttcctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccagaacg gccaggaaga gaagactggg gtggtgtcca cgggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgcta gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtaacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00875                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*02:15, DRB3 locus allele.
+ACCESSION   NHP00875
+VERSION     NHP00875
+DBLINK      INSDC: M96101
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*02:15
+            IPD accession: NHP00875
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0215
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:15"
+                     /note="previous designations: Patr-DRB3*0215"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*02:15"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LELVKSECHFFNGTERVRFLERYFYNQEEYVRFDSDVGEYRAVTE
+                     LGRPSAEYWNSQKDYVEQKRAKVDNYCRHNYRVGES"
+ORIGIN
+        1 ttggagctgg ttaagtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctagc gccgagtact ggaacagcca gaaggactac
+      181 gtggagcaga agcgggccaa ggtggacaat tactgcagac acaactacag ggttggtgag
+      241 agcttc
+//
+LOCUS       NHP00906                 270 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*07:03, DRB3 locus allele.
+ACCESSION   NHP00906
+VERSION     NHP00906
+DBLINK      INSDC: M94954
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+COMMENT     IPD-MHC allele: Patr-DRB3*07:03
+            IPD accession: NHP00906
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0703
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..270
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:03"
+                     /note="previous designations: Patr-DRB3*0703"
+     exon            1..270
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..270
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:03"
+                     /codon_start=3
+                     /product="MHC class II DRB3 antigen"
+                     /translation="RFLEQAKAECHFFNGTERVRFLERYFYNQEEYVRFDSDVGEFRAV
+                     TELGRPDAEYWNSQKDLLEQKRGQVDNYCRHNYGVVESFTVQRR"
+ORIGIN
+        1 cacgtttctt ggagcaggct aaggctgagt gtcatttctt caatgggacg gagcgggtgc
+       61 ggttcctgga gagatacttc tataaccagg aggagtacgt gcgcttcgac agcgacgtgg
+      121 gggagttccg ggcggtgacg gagctggggc ggcctgatgc cgagtactgg aacagccaga
+      181 aggacctcct ggagcagaag cggggccagg tggacaatta ctgcagacac aactacgggg
+      241 ttgtggagag cttcacagtg cagcggcgag
+//
+LOCUS       NHP00907                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*07:04, DRB3 locus allele.
+ACCESSION   NHP00907
+VERSION     NHP00907
+DBLINK      INSDC: M96099
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*07:04
+            IPD accession: NHP00907
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0704
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:04"
+                     /note="previous designations: Patr-DRB3*0704"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:04"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LEQAKAELHFFNGTERVRFLERYFYNQEEYVRFDSDVGEFRAVTE
+                     LGRPDAEYWNSQKDLLEQKRAKVDNYCRHNYGVGES"
+ORIGIN
+        1 ttggagcagg ctaaggctga gttgcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagttc
+      121 cgggcggtga cggagctggg gcggcctgat gccgagtact ggaacagcca gaaggacctc
+      181 ctggagcaga agcgggccaa ggtggacaat tactgcagac acaactacgg ggttggtgag
+      241 agcttc
+//
+LOCUS       NHP00908                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*07:05, DRB3 locus allele.
+ACCESSION   NHP00908
+VERSION     NHP00908
+DBLINK      INSDC: M96123
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB3*07:05
+            IPD accession: NHP00908
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0705
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:05"
+                     /note="previous designations: Patr-DRB3*0705"
+     exon            1..246
+                     /gene="DRB3"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:05"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="LEQAKAECHFFNETERVQYLKRYFHNQEEFVRFDSDVGEFRAVTE
+                     LGRPDAEYWNSQKDLLEQKRGQVDNYCRHNYGVVES"
+ORIGIN
+        1 ttggagcagg ctaaggctga gtgtcatttc ttcaatgaga cggagcgggt gcagtacctg
+       61 aagagatact tccataacca ggaggagttc gtgcgcttcg acagcgacgt gggggagttc
+      121 cgggcggtga cggagctggg gcggcctgat gccgagtact ggaacagcca gaaggacctc
+      181 ctggagcaga agcggggcca ggtggacaat tactgcagac acaactacgg ggttgtggag
+      241 agcttc
+//
+LOCUS       NHP02919                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*07:01, DRB3 locus allele.
+ACCESSION   NHP02919
+VERSION     NHP02919
+DBLINK      INSDC: M96091
+            INSDC: FN424191
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB3*07:01
+            IPD accession: NHP02919
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0701
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:01"
+                     /note="previous designations: Patr-DRB3*0701"
+     exon            1..100
+                     /gene="DRB3"
+                     /number=1
+     exon            101..370
+                     /gene="DRB3"
+                     /number=2
+     exon            371..652
+                     /gene="DRB3"
+                     /number=3
+     exon            653..763
+                     /gene="DRB3"
+                     /number=4
+     exon            764..787
+                     /gene="DRB3"
+                     /number=5
+     exon            788..801
+                     /gene="DRB3"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:01"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLEQAKAECH
+                     FFNGTERVRFLERYFYNQEEYVRFDSDVGEFRAVTELGRPSAEYWNSQKDLLEQKRGQV
+                     DNYCRHNYGVVESFTVQRRVHPQVTVYPAKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc agcttggcag cgttgacagt gacactgatg
+       61 gtgctgagct cccgcctggc tttcgctggg gacacccgac cacgtttctt ggagcaggct
+      121 aaggctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga gagatacttc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctagcgc cgagtactgg aacagccaga aggacctcct ggagcagaag
+      301 cggggccagg tggacaatta ctgcagacac aactacgggg ttgtggagag cttcacagtg
+      361 cagcggcgag tccatcctca ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gccaggaaga gaaggctggg gtggtgtcca cgggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgcta gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtaacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP02920               11413 bp    DNA     linear   PRI 11-MAY-2020
+DEFINITION  Patr-DRB3*07:02:01:01, DRB3 locus allele.
+ACCESSION   NHP02920
+VERSION     NHP02920
+DBLINK      INSDC: M94953
+            INSDC: M96092
+            INSDC: FN424192
+            INSDC: AM910424
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+REFERENCE   5
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB3*07:02:01:01
+            IPD accession: NHP02920
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*07:02; Patr-DRB3*0702
+FEATURES             Location/Qualifiers
+     source          1..11413
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..11413
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:02:01:01"
+                     /note="previous designations: Patr-DRB3*07:02;
+                     Patr-DRB3*0702"
+     exon            1..100
+                     /gene="DRB3"
+                     /number=1
+     exon            7776..8045
+                     /gene="DRB3"
+                     /number=2
+     exon            10299..10580
+                     /gene="DRB3"
+                     /number=3
+     exon            11265..11375
+                     /gene="DRB3"
+                     /number=4
+     exon            11376..11399
+                     /gene="DRB3"
+                     /number=5
+     exon            11400..11413
+                     /gene="DRB3"
+                     /number=6
+     intron          101..7775
+                     /gene="DRB3"
+                     /number=1
+     intron          8046..10298
+                     /gene="DRB3"
+                     /number=2
+     intron          10581..11264
+                     /gene="DRB3"
+                     /number=3
+     CDS             join(1..100,7776..8045,10299..10580,11265..11375,
+                     11376..11399,11400..11413)
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*07:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALSGDTRPRFLEQAKAECH
+                     FFNETERVQYLKRYFYNQEEYVRFDSDVGEFRAVTELGRPSAEYWNSQKDLLEQKRGQV
+                     DNYCRHNYRVGESFTVQRRVHPQVTVYPAKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttgtctggg gacacccgac gtaagtgcac attgtgtgtg
+      121 ctgagctact atggggtggg gtaaataggg agttttgtta atatcgtgcc caggccatgt
+      181 ctcttacgaa attgtgacat tttcttcaga gattgcccat ctttatcatt ggattccaaa
+      241 ttatttccac cacaaaaaga gcttggctac ttgccctctc catgagaccg tgtaaggggc
+      301 ctccatacag gtcatttctt tttcaaatct ccaccaataa aacctttgca tcacatgtcc
+      361 tcaaggtctt tagaggattt agaaataagg atgctaaaat aaattcccca tacagcactt
+      421 ccctctatta tgtcgactta tgtcagacaa aaggaagttt ttactgaaaa ttttgtggga
+      481 gtcaaaggaa ttcaaagggt gtctcctaga cgatccttta ttatgtccgc cacaggacct
+      541 gtggtgttgg cccctcttcc tcatacgtga ggatggaccc agtggtctcc gcattatctc
+      601 ctttcttttc tttctgaact ccaatgttta taaagcctgt atccctgtag tgtatgtagg
+      661 ttctctggca gaagttatac ttagtgctct ttctttctta cggggaaaaa atccctggaa
+      721 ctgaagctga gatcgttagt acttggagtc accttacagg tacagagcac ttatgaggta
+      781 ttctttggtg cctaaagaac ttaaggcatc ctctgaaaaa ctggcccagg ttcgtattta
+      841 ttatgaatct ttttaacctt tctatacttg tttctcctac atctcctaca tgctctaact
+      901 agacatgaca gaagagattt aactaacata gtataaatta tatgaaattc tatttttgta
+      961 aatcaaaaat aatcaaatat cagaaattta ataatgttca aactatatac tctgtgtggg
+     1021 gttaccgaga caatgtgaac attgttcacg tctcataggg ctgaaagtca atgagcaagt
+     1081 cctgggaact cattgtctta ctggggtctt gtcctaaatt tcataggttc acctgtcatg
+     1141 ccctcagctt tccttaatta gccatgtctg cttacctcta cctccagttt ctctctattt
+     1201 ttccccagct atgtcatcat ttccagaaat ctctaargct tgcacagatc cttagcacta
+     1261 tgagatccat tgaaagagat aatatttttc tttttgagat agggcctggc tctgtcaccc
+     1321 aggctgtagc tcagtggtgc gaacgaggct cactgcaacc tctgcctccc atgctcaagc
+     1381 aatcctccct cctcaggctc cagagtagct gggaatacag gcaggcaacc acacccagct
+     1441 aatttttgta attttggtag agatgagatt ttgccatatt gcccaggctg gtcttaaact
+     1501 gctggactca agcaatcctc ctgccttagc cttccaacat gctaggatta tagatgtgag
+     1561 ccactgtgcc caggcaaaag agatgactct taataaaaag atttcctttt tcttaaatca
+     1621 ctgtttcttt atctgtgaat tcttcttcca actagaagga ggagaaagaa gaagtttgcc
+     1681 tgtatttctc actggtagga gaaggggtct agtgtgacat caaaatgaaa gagtgctgga
+     1741 acctgagccc cttcttgctt tccaggatcc ccacagtgat cagttcccgt accctggttt
+     1801 atttgtgtaa acgacactta tttttctcag cagctactgt gtactgggct ccattctagg
+     1861 ttcaaatctt tctatttgat taagatagag agggtcccga ctctcaagga agttacacaa
+     1921 gagtagagga gatagacact aacccaataa gcatttaaca aagaagaaaa tgttagagag
+     1981 tcatagtgca ctgaagaaaa gacatcaggt gtgtgttgaa agagagaaat ggattcacct
+     2041 actttagttt gtatgtttac ggagctgtac ctgagaaagt gatattcagc tgagacaaca
+     2101 aaataagtag acagtcgtga agatcgaacg gacgaaagtt tcagggagac tgaattgagg
+     2161 gaaagcactg atgtgggaaa ttatgtggag ggagagaaag aaggctagag gggctgacat
+     2221 atagaaagca aggaaatgga gaggcagaag attaggtagg atacagagag gaaatcagga
+     2281 tcctcatcat tataggctct gatgtccatg gtaaaaaatt tgaatcttat tttattttta
+     2341 tttattttta aattttattt atttatttat tttgagatgg agtttcattc ttgttgccca
+     2401 ggctggagtg ccatggcgca atctcggctc actgcaacct ccacctcccg ggttcaagtg
+     2461 attctcctgc ctcagcttcc caagtaactg ggattacagg cacccacaac catacctggc
+     2521 taattttttt gtatttttag tatagatggg gtatcaccat gttgaccagg ctggtcttga
+     2581 actcctgacc tcagataatc tgtctgcctt ggcctcccaa agtgctggga ttacaggcgt
+     2641 gagccaccac gcccggactg aattttattt aaatagatat gagaagctgc tgtatggtta
+     2701 caaggggagt caatttatat taaacttttg tgtgtgtgtg tgatggagtc tcactctgtt
+     2761 gcccaggcta gattgcagtg gcccaatctc ggctcactgc aacctccgcc tcccgggttc
+     2821 aagaaattat cctgcctcag cctcctgagt agctgggacc acaggtgcat gccaccacag
+     2881 ttggctactt tttgtatttt tagtagggat ggggtttcac cgtgttagcc aggatggtct
+     2941 cgatctcctg accttgtgat ccacccgcct cggcctccca aagtgctggg attacaggca
+     3001 cgagccactg cgcccagctt atattcaatt attaaaatta attctagcta ctctgtgggg
+     3061 attggattgt tggggttcac cagtggttag gaatactatt taggagcaca gcagggaatt
+     3121 cttcagggaa aacaggcttg tggcttcatg gagtgcatta gtgataaaga cggtgaaaaa
+     3181 gatcaagtgg acagacttgg catgtatttt tgcttagctt gttaatgaat tactgtaaag
+     3241 ggggtggaac aatcaagttt attcctgagg attttgtttt gacaaataag tgggtggtag
+     3301 ttttgtttat tgagatagga aaaactatgg gaggaaatga tttgaagtgg gtggttggaa
+     3361 ataaaagttt tgtttaaatt tgagatgatt tattgacatt tatgtagagc aatcagaagg
+     3421 tcagtggcat ttaagagact catggtgagg tgaggctagg gcttcagata tttatgttgg
+     3481 cagcatcaat atgtgtagtg tgttaaattc tagggagtgg aagaggatac atagggagat
+     3541 ggattgtgtg gagaaaaaag aagagggcac aggccagcaa agggggctga gacagagccc
+     3601 agggatgttg gagaaaaacc aagagaacat aatgcgtgta agtcaaggaa aatatatttt
+     3661 cttcaaggag aagggagagg ccaattgtgg tgagtaccac taagcggagg gggaagtgag
+     3721 aacttgacag agaagcaagt gctaggtttg ctggagttga tatttgcagt caatggagta
+     3781 tccagggagc aaactggatt ggaccatttg aagagcaaac agaagggagg acgaggttaa
+     3841 ggttgactgt tttgagtaga acttcgggaa ggactgtgct ctgggttcag ggagcccgct
+     3901 gaatctaaag gaaaaggcta aagaagctga agagacagag gaggacctgt gaacaagaga
+     3961 tgctcagtca ttagcaagga aatactggag agcccctgtt gtgcagtggt gactactcat
+     4021 gcaaaaggtc acacagccaa tatttaacac agccagtatt tcacacagcc aatatttatt
+     4081 agtgacatag aatataccag ttattactct aggtcatgag aatggtgata aataaaatga
+     4141 atccgctcgc catcagtata tgccatgtaa cagtttgcag tgactgtgta ccaggcctgt
+     4201 gaatttctgt atgcaatttc aataatgatc ctactgtatc tgtggtattt aaaaacatat
+     4261 acatctctgg aatctaaaat tgagggatta taagtaaaac ccagtattag aaatttagtg
+     4321 ctggaaatca gattgcagtt taaatctgag catatagaaa gtccctttct tgtatgtcag
+     4381 cagatgcctt ttatgtgagg tttaggtata ctacattatt agacataaac cagtgtttct
+     4441 gccctatgtt ttcagaatga caattcttta tgaaactcat agaagaacag aagacaattg
+     4501 caaaatcatg atgaagatac caattgcttt agaattaagg aatacaaaaa ataatgtgag
+     4561 ctacagttat agggatcata aaagttaaaa tgggaatgta tttgagtgtt tattatgtga
+     4621 tcagtgctaa gaagagtcat catttaattt gacacttaac agtaatcctg tgaggattat
+     4681 gcaattatta aatgcatttg atacattaca aaaaggctta tggttggtaa aaattgaccc
+     4741 aaggtcacct ttttattcag attttctgat tgtagagttt gagagttttt ccatcattag
+     4801 tgagtagtga ctatattgtg tctgaattat tgacagaatt tctgatattc atatgtacca
+     4861 ggttgtttct tcgagtgggg acagagatgc aagggctgct agttccaatg tataggagaa
+     4921 actttcaatc attttgcatt tatcatttta aaagttcagt atgtctataa tggtcatgtg
+     4981 ttgacaaaca caaggaagta ttaaatcact ccttcttctg aggtttgact agcaaattgg
+     5041 gcaagagtta ccaaataaaa tacatgttcc tagttaaatc tgaatttcag atacacgacc
+     5101 ataatttatt ggaaatccaa atttaattgg gcaccctctg gttttatttg ccaaatctgt
+     5161 caaccctaag tgagacacat ggacatggat tacagtgcta cccatgcaag ccacagtgac
+     5221 agcaacttca cacatgttta cattttaact ttctctctgt aagaaagtgc ttagataatt
+     5281 tagggataaa aagatagcca ttatttgatc cagggtggac acctctctgc catcgtttct
+     5341 aaagggcaaa gggagatttc tgcaggtctt gctcacagtc tggggacctg ctcatgtttt
+     5401 gaaactgtct gtatcagaat gtcattttct tggtttctcc ctttctgagg ggacttgact
+     5461 acaaaaccaa gagttctgcc tctggccaag gctggaaatg tgatgcctgc tagtattgtt
+     5521 gggagtggga gactgagaga aatgagttag ttggggcatt taacgggaat aaaatagctg
+     5581 tagttgtgat tcattactat agataattag tggaccagtg gtggagaaat taagaaaaaa
+     5641 gatgatgtga atgataactg atatgattag tgactgcttg gtaaggcaag gaaatcatta
+     5701 aatcttggtt ctcatcaagt tcattttctg aaaagatagc actgcattgg gaccagaatt
+     5761 ctacaaaaca ttctttttac gtaggaccaa gattttcaag aaatattttt caatacaatt
+     5821 ctcagctgct ccataactaa tagtagcttg ttcaacacag attttttcag atggttcaca
+     5881 cctgtagttc ttacccaagg atagttcacc acccctccct tccctgccat catccttggg
+     5941 gaacagtgac aatgtttgga acaatttttg gttgtcacaa caggggtttc ttctgatatt
+     6001 taatgagtag aagccaggaa cactgctaga gaacctacaa tgttcagaac agcctccgcc
+     6061 atcaacaaag aattatctgg tccaaaatgt caatagtgct gaggctgaga gcactggttc
+     6121 acgctgtact ctttctgaaa attctaggct cacatctgtt atacactcac cacgcagttc
+     6181 agtttttgta gtttattttt gcttgttcca ttataaaaaa ttagacagtt gcataaattc
+     6241 aaccactttc ttgttgaatc catttagtca atgcaagctc aatattttcc tagtttttgc
+     6301 cttatgcaat atttttcaac attttcatga gttgttggtc atcaccatct ctattaactt
+     6361 tcaacaactt gctcttgtaa gtcacaaata gtgatgctgc tgaaattatt tctcactaac
+     6421 atgcctcaga tttctgtagt gattctacat tttatattat tcacaatgta aaatgcttct
+     6481 atgtactcat ttcactttta cccaaggatt atttttaagt tatttttgtc attttcacac
+     6541 ttcaaacata aagacaaaaa catcaaaata tatactgtgt tttacatatg tgtctatttt
+     6601 cacacatata tgtatgtatg tttgtatgta tggaaactac agaagcacat gtcgccaata
+     6661 agagctctga gacacctttg accacttacc cttatcagat gagatttgcc aaatgagttg
+     6721 tggaaacaag ttttttaaac tgaatttctg agctttgtga atttagaaat gcaaaggaaa
+     6781 gtttgtggac atttacaggg atcatggttt tattgtcctt taaactcttc gatactttac
+     6841 cattgtctta atataaatcc aaaatcctaa cgccacccac gaggctttca atacctggct
+     6901 tgtgatttct ccaggctaat gttttaccct ccttcccctc agcctctctg ctttagtgaa
+     6961 ctttctccta gttttttgaa gaagttcatc aattcaatct tttgtaaatg ggatttccta
+     7021 aacctgaaat gtgcctcccg ttttgtccaa acagacacag gctccactct gccccctggc
+     7081 tcacacctgc ttaacccgtg aagtcacatc tgaactgtca ctcttcagag ggtccttctc
+     7141 tggcacccta atgtaattga gatcatccta ttattctctg ctctagaact tcccatttcc
+     7201 gagatttctc attcctgtct aacctcttgt gtgtttggtt tttggccatc gctttcactg
+     7261 ctctttaagc tcccccagcg gagtggagag gtctgttttc ccttgtttag gttcctagag
+     7321 gcagcgcagg ccaggcacaa ggtcatcact aaggaagtgt tcacagggtg aacgcggtgg
+     7381 gtgctgttga aggtaccggt aaagcgtgtg ggatgagaga aggagcagag agtgtttttg
+     7441 cggtggaggc tcccaggagg aggcggggcg ggctgcggtg ctgggcggat cctcctccag
+     7501 ctcctgcttg gagttctcca gaacaggctg gaggcaggga gggggtccca aaagcctggg
+     7561 gatgagaagg ggttttcccg catagtcccc cacgcccccg ttcgcctcag gaaaacggag
+     7621 gatgagctcc tgggctgctg gtggtgggcg ttgcgggtgg acgggttaag gttcccagtg
+     7681 cccgcacccg gcccaggggg ccccggatgg cggcgtcgct gtcagtgtct tctcaggagg
+     7741 cctcctgtgt gaccggagca ttcgtgtccc cacagcacgt ttcttggagc aggctaaggc
+     7801 tgagtgtcat ttcttcaatg agacggagcg ggtgcagtac ctgaagagat acttctataa
+     7861 ccaggaggag tacgtgcgct tcgacagcga cgtgggggag ttccgggcgg tgacggagct
+     7921 ggggcggcct agcgccgagt actggaacag ccagaaggac ctcctggagc agaagcgggg
+     7981 ccaggtggac aattactgca gacacaacta cagggttggt gagagcttca cagtgcagcg
+     8041 gcgaggtgag catggcgggg ggcggggcct gagtccctgt gagctggaaa tctgagagag
+     8101 tgtgtgtgtg tgtatgtgtg tgtgtgtgtg tgtgtgagag agagagagag agagagcaag
+     8161 agagagacag agagagggag cgcgccctct gtgagcattt agaatcctct caatcccgag
+     8221 caagcagttc taaaggcaca ggtgtgtgtg tagagggtgg atttgtctgt gtctgtgtgc
+     8281 ctgttgtggg cggggaagca ggagggggct gcttcttatc cttggagact tctgtggaga
+     8341 ggtgacaagg gaggtgggtg cgggcagctg gagagagagg agaccttgat tgtcctgggt
+     8401 ccttagagat tcagggaagg aaagtgtaag gtgtgtgtgg ttggggtgaa ggtttagggg
+     8461 aggagagctg aggggtatgg aaggtttggg ataatgtgag gaggccagtt ccagactgtc
+     8521 cctggcacag acccttcatg taatctctga aataaaagtg tgtagtgttt gtttgcaaaa
+     8581 gcattagatt aatttctagg ggaattgagg agacctctga ggcacctctg aaacttcttt
+     8641 aggtataaat ttcttgctag ttttttgttt tttaaggtgt atatttttac atagtagaaa
+     8701 tgacagtgaa actaactttt gaattaaagt tttaacacag ttactgtatt attataatgc
+     8761 taatagtttt ctagtagtta catattattc ttttatatat aatagttgtg acacaactta
+     8821 cctcactttc ccctttgttg acctttatta tgacattcac caacagttga aaatgtatgt
+     8881 ttccggttaa ttttaattta tatttttttc atttgtaact cttttgaatt attttgaccg
+     8941 atttattggc caattttaat aactgctcta agaattccct attttatttg gtaggtaatg
+     9001 gacaatgatc tactgcctaa tatctctagg gcttagtatt tttctcagtg actttgtggg
+     9061 ttctttgtac tgtaagatta ttaacacttt attgatattt gattcagcat ttgctccagt
+     9121 ttgtggtttg tatgttgatt ttgaaaatta ttttccatgt taagaatttg aacattttta
+     9181 tttaataaaa tgtattgcaa aaattttatt aatgatttac aatccatctt aaatctgcca
+     9241 ttttgtggta tttttgtctc taggtttctc cttacttcta aaaacattgt atttattgag
+     9301 agtatgctaa tgtcggggat tttcctgggc ataagcacca caagtaatga gttccagacc
+     9361 ctgccttaat ccaaatgtga ttctggaaag aaaaatcatt ttacaattgg cctgataata
+     9421 attctgcttg tgttgcacgg gggatacatt gagcagctga atgaaaatat aagaactttc
+     9481 aaaactaaaa tgacgctcct aaatccttct gtctgcttta ggactcatgc ttttctagga
+     9541 acataaaaat ttggagaatc atttctgtct gtcccacctt cccaggggca gaaccatttc
+     9601 tgtggtgttc taaggtggga gtgcatggca gtagtattcc taaaaattca tactcggttt
+     9661 tctcatgtac ccaactctgt ccctttgtct atgtacattg ctttaaatca tatttttctg
+     9721 tcacggtgta caaggatgat aaataggtgc caagtggagc acccaagtgt gatgagcccc
+     9781 ctcacagtgg aatggagtga gaagctttct gacctcataa attgaaggct atcttcagtc
+     9841 attatgtatt ttacgtaaat taatcctcat ataaccccaa gaggtaaatt agtataatta
+     9901 tccttcattg ggggtgacaa agttgagaca cagaagaatc aactcttcca ggatcaacca
+     9961 gtaaaaggca gaccttggat ttgaaccatg caacctggct cagatatcag ttttaattac
+    10021 tacactctgt actttcaaaa atttgtaaac actttgacaa tgcatgccaa tttcaagcta
+    10081 tgaagaagca aacgcaattt ttcacatctc tcaaatctaa tgggtcctca ctatcaagat
+    10141 taaattccag gctgatgaca ctgtcaggtc acatggccag ctgtgctgga ggcctggtca
+    10201 aggtcagagc ctgggtttgc agagaagcag acaaacagcc aaaccaggag aattactctg
+    10261 tcttcctgac tcattccctc tacctttttt tctcctagtc catcctcagg tgactgtgta
+    10321 tcctgcaaag acccagcccc tgcagcacca caacctcctg gtctgctctg tgaatggttt
+    10381 ctatccaggc agcattgaag tcaggtggtt ccggaatggc caggaagaga aggctggggt
+    10441 ggtgtccacg ggcctgatcc agaatggaga ctggaccttc cagaccctgg tgatgctaga
+    10501 aacagttcct cggagtggag aggtttacac ctgccaagtg gagcacccaa gcgtaacgag
+    10561 ccctctcaca gtggaatgga gtgagcagct ttctgatttc atacatttct cacccaccaa
+    10621 gaaggggact gtgctaatcc ctgagtgtca ggtttctcct ctcccacgtc ctattttcat
+    10681 ttgctccatg ttctcatctc catcagcaca ggtcactggg gatagccctg taacagtgtg
+    10741 tagaaacacc tgtaccccct gcggaatcag tcatgcttta ttttttttga acctccccat
+    10801 gatgtcacag gtcagggtca cccgctctcc ccaagctcca ggccctgctt ctgggtctga
+    10861 gactgagttt ctggtgctgc tgctctgagt tacttgtttt gatctgggaa gaggggaagc
+    10921 ataggggcct acctgacatg aggggagtcc aatctcagct ctacctttta ttagctctgt
+    10981 cactctagac aaactactta gcttcattga gtctcaggct ttctgttgat cagaatgttg
+    11041 aacgcttgcc ttacatcaat gctgtaatat ttaaatgagt ttgatgtcgg aaccttgtaa
+    11101 ctgttcagtg tgatttgaaa tccttttttt ctcccgaaat ggctagttat tttagttctt
+    11161 gtggggcagc cttcttcccc attttcaaag ctctgaatct tagagtctca attaaagagg
+    11221 ttcaatttgg aataaacatc actaaacctg gcttcctctc tcaggagcac ggtctgaatc
+    11281 tgcacagagc aagatgctga gtggagtcgg gggctttgtg ctgggcctgc tcttccttgg
+    11341 ggccgggctg ttcatctact tcaggaatca gaaaggacac tctggacttc agccaacagg
+    11401 attcctgagc tga
+//
+LOCUS       NHP02923                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB3*01:03, DRB3 locus allele.
+ACCESSION   NHP02923
+VERSION     NHP02923
+DBLINK      INSDC: FN424209
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB3*01:03
+            IPD accession: NHP02923
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB3*0103
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*01:03"
+                     /note="previous designations: Patr-DRB3*0103"
+     exon            1..100
+                     /gene="DRB3"
+                     /number=1
+     exon            101..370
+                     /gene="DRB3"
+                     /number=2
+     exon            371..652
+                     /gene="DRB3"
+                     /number=3
+     exon            653..763
+                     /gene="DRB3"
+                     /number=4
+     exon            764..787
+                     /gene="DRB3"
+                     /number=5
+     exon            788..801
+                     /gene="DRB3"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*01:03"
+                     /codon_start=1
+                     /product="MHC class II DRB3 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALSGDTRPRFLELVKSECH
+                     FFNGTERVRFLERYFHNQEEFLRFDSDVGEYRAVTELGRPVAESWNSQKDYVEQKRGQV
+                     DNYCRHNYRVGESFTVQRRVHPQVTVYPAKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVMSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tggaggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttgtctggg gacacccgac cacgtttctt ggagctggtt
+      121 aagtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga gagatacttc
+      181 cataaccagg aggagttctt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtcctgg aacagccaga aggactacgt ggagcagaag
+      301 cggggccagg tggacaatta ctgcagacac aactacaggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccatcctca ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga ggtcaggtgg
+      481 ttccggaacg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgcta gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggaacaccc aagtgtgatg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP10714               11353 bp    DNA     linear   PRI 02-JUN-2020
+DEFINITION  Patr-DRB3*01:02:01:02, DRB3 locus allele.
+ACCESSION   NHP10714
+VERSION     NHP10714
+DBLINK      INSDC: AM910427
+KEYWORDS    IPD-MHC; MHC class II; DRB3.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+COMMENT     IPD-MHC allele: Patr-DRB3*01:02:01:02
+            IPD accession: NHP10714
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..11353
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..11353
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*01:02:01:02"
+     exon            1..36
+                     /gene="DRB3"
+                     /number=1
+     exon            7724..7993
+                     /gene="DRB3"
+                     /number=2
+     exon            10278..10559
+                     /gene="DRB3"
+                     /number=3
+     exon            11243..11353
+                     /gene="DRB3"
+                     /number=4
+     intron          37..7723
+                     /gene="DRB3"
+                     /number=1
+     intron          7994..10277
+                     /gene="DRB3"
+                     /number=2
+     intron          10560..11242
+                     /gene="DRB3"
+                     /number=3
+     CDS             join(1..36,7724..7993,10278..10559,11243..11353)
+                     /gene="DRB3"
+                     /allele="Patr-DRB3*01:02:01:02"
+                     /codon_start=3
+                     /product="MHC class II DRB3 antigen"
+                     /translation="SSRLAFAGDTRPRFLELHKSECHFFNGTERVRYLDRYFHNQEEFL
+                     RFDSDVGEYRAVTELGRPVAESWNSQKDYVEQKRGQVDNYCRHNYRVGESFTVQRRVLP
+                     KVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFQNGQEEKTGVVSTGLIQNGDWTFQ
+                     TLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSESAQSKMLSGVGGFVLGLLFLGA
+                     GLFIYFRNQK"
+ORIGIN
+        1 tgagctcccg cctggctttc gctggggaca cccgacgtaa gtgcacattg tgggtgctga
+       61 gctactatgg ggtgggggaa aatagggagt tgtgttaaca ttgtgcccag gtcatgtccc
+      121 ttaagaaact gtgtggtttt cttcagagat tgctcatctt tatcaaggga tcgcaaatta
+      181 tttcctccac aaaaggaact tggctacttg ccctctccat gagacttgtg taaggggcct
+      241 ttgtacaggc catttcttct caaatctcca ccaataaaac ctttgcatca catgtcctca
+      301 gggtctttag aggatttgga aatatggatg ctaaaataaa ttccccatac agcacttccc
+      361 tttattatgt tgacttatgt cagacaaaag gaggttttta ctgaaaattt tgtgggagtc
+      421 aagggaattc aaagggtctc tcctagacga tcctgggtta tgtcctccac aggacctgtg
+      481 gtgttggccc ctcttcctca tatgtgagga tggacccagt ggcctcccta gtatctcctt
+      541 tcttttcttt ctgaactcca atgtttataa agcctgtatc cctgtagcgt atgtaggttg
+      601 tctgacagaa gttatactta gtgctctttc tttcttatgg ggaaaaatcc ctggaactga
+      661 agctgagatc attagtactt ggaatcacct tacagataca gagcacttat gaggtattct
+      721 ttggtgccta aagaacttaa ggcatcctct gaaaaactgg cccagcttcg tgtttattat
+      781 gaatcttttt aacctttcta tacttgtttc tcctacatct cctacatgct ctaactagac
+      841 atgacagaac agatttaact aacgtagtat aaattatatg aaattctatt tttgtaagtc
+      901 aaaaataatc aaatatcaga aatttaataa tgttcaaact atatactgtg tgggattacc
+      961 gagacaatgt ggacattgtt cacatctcat agggctgaaa gtcaatgggc aagtcctgga
+     1021 aactcattga cttactgcgg tcttgtccta aatttcatag gttcacccat catgccctca
+     1081 gctttcctta attagccatg tctgcttacc tcttcctccc atttctctct attttcccca
+     1141 actatgttgt catcatttcc agaaatctct aaagcttgca cagatcctta gcactatgag
+     1201 atccactgaa acagataata tttttctctt tgagataggg cctgcctgtg tcacccaggc
+     1261 tgtagctcag tggtgtgatc gaggctcact gcaacctctg cctcccatgc tcaagcaatc
+     1321 ctccctcctc agcctccaga gtagctggga atacaggcag gtaaccacgc ccagctaatt
+     1381 tttgcaattt tggtagagag aagattttgc catattgccc aggctggtct taaactgctg
+     1441 aactcaagca atcctcctgc cttagcctcc caacatgcta ggattataga tgtgagccac
+     1501 tgtgcccagg caaaagagat gactcttaat aaaaagattt cctttttctt aaatcactgt
+     1561 ttctttatcc gtgaattctt cttccaacta gaagaaggag aaagaagttt gcctgtattt
+     1621 ctcaccggga ggagaagggg tctagtgtga catcaaaatg aaagagtgct ggaacttgag
+     1681 ccccttcttg ctttccagga tccccacagt gatcagttcc cataccctgg tttatttgtg
+     1741 taaaccacac ttatttttct cagcagctac tgtgtactgg gctccattct aggttcaaat
+     1801 cattctattt gattaagata gagagggtcc cgactctcaa ggaagttaca agagtagagg
+     1861 agacagacac taacccaata agcatttaac aaagaagata atgttagaga gtcatagtgc
+     1921 actgaagaaa agacatcaga tgtgtgttga aagagagaaa tggattcatc tactttagtt
+     1981 tgtatgttta gggagctcta cctgagaaag tgatattcag ctgagacaac aaaataagta
+     2041 gacagtcatg aagatctaac ggacgaaagt ttcagggaga ccgaatcgag ggaaatcctg
+     2101 gtgtgggaaa ttatgtggag ggagagaaag aaggctagaa gggctgtcgt atagaaagca
+     2161 aggaaatgga gaggcagaag atgaggtaga acacagagag gaagtcagga gcctcatcat
+     2221 tataggctct gatgtccacg gtaaaaaatt tgaattttat tttattttta tttattttta
+     2281 aattttattt atttatttat tttgagatgg agtttcattc ttgttgccca ggctggagtg
+     2341 ccatggcgca atctccactc actgcaacct ccacctcccg ggttcaagtg attctcctgc
+     2401 ctcagcttcc caagtaactg ggattacagg cacccaccac catacctggc taattttttt
+     2461 gtattttgag tgtagatggg gtatcacact ccagcctgtt gaccaggctg gtcttgaact
+     2521 cctgacctca gataatctgt ctgccttggc ctcccaaagt gctgggatta caggcgtgag
+     2581 ccaccacgcc cggactgaat tttatttaaa tagatatgag aagctgctgt atggttacaa
+     2641 ggagagtcaa tttatattca acttgtgtgt gtgtgtgtga tggagtctca ctctgttgcc
+     2701 caggctagat tgcagtggca caatctcggc tcactccaac ctccgcctcc cgggttcaag
+     2761 aaattatcct gcctcagcct cctgagtagc tgggaccaca ggtgcatgcc accacagtcg
+     2821 gctacttttt gtatttttag tagggatggg gtttcaccgt gttagccaag atggtctcga
+     2881 tctcctgacc ttgtgatccg cccgcctcgg cctcccaaag tgctgggatt acaggcatga
+     2941 gccactgcgc ccagcttaaa ttcaattatt acaattaatt ctagctactt tgtggggatt
+     3001 ggattgttgg ggttcacaag tggttaggag gactatttgg gagcacagca gggaattctc
+     3061 cagggaaaac aggcttgtgg cttcatggag tgcattagtg ataaagacgg tgaaaaagat
+     3121 aaagtggaca gacttggcat gtatttttgc ttagcttgtt aatgaattac tgtaaagggg
+     3181 gtggaacaat caagtttatt cctgaggatt ttgttttgac aaataagtgg gtggtagttt
+     3241 tgtttattga gatagaaaaa actatgggag gaaatgattt gaagtgggtg gttggaaata
+     3301 aaagttttgt ttaaattaga gatgatttat tgacatttat gtagagcaat cagaaggtca
+     3361 gtggcattta agagactcat ggtgaggcta gggcttcaga tatttatgtt ggcggcatca
+     3421 atacgtgtag tgtgttaaat tctagggcgt ggaagaggat acatagagag atggattgtg
+     3481 tggagaaaaa agaagagggc acaggccagc aaagggggct gagacagagc ccagggatgt
+     3541 tggagaaaaa ccaagagaac ataatgcgtg taagtcaagg aaaatatatt tttttcaggg
+     3601 agaagggaga ggccaattgt ggtgagtacc actaagcgga gggggaagtg agaacttgac
+     3661 agagaagcaa gtgctgggtt tggtggagtt gatatttgca gtcaatggag tatccaggga
+     3721 ggaaactgga ttggaccatt tgaagagcaa gcagaaggga ggatgaggtt aaggttgact
+     3781 gttttgagta gaacttcggg aaggactgcg ctctgggttc agggagcccg ctgaatctaa
+     3841 aggaaaaggc taaagaagct gaagagacag aggaggacct gtgaacaaga gatgctcagt
+     3901 cattagcaag gaaatactgt agagcccctg ttgtgcagtg gtgactactc atgcaaaagg
+     3961 tcacacagcc agtatttaac acagccagta tttcacacag ccaatattta ttagtgacat
+     4021 agaatatacc agttattact ctaggtcatg agaatggtga taaataaaat gaatccgctc
+     4081 gccatcagta tatgccatgt aacagtttgc agtgactgtg taccaggcct gtgaatttca
+     4141 gtatgcaatt tcaataatga tcctgctgta tctgtggtat ttaaaaacat atacatctct
+     4201 ggaatctaaa attgagaggt tataagtaaa acccagtatt agaaatttag tgctggaaat
+     4261 cagattgcag tttaaatctg agcatataga aagtcccttt cttctatgtc agcagatgcc
+     4321 ttttatgtga ggtttaggta tactacatta ttagacataa accagtgttt ctgccctatg
+     4381 ttttcagaat gacaattctt tatgaaactc atagaagaac agaagacaac tgcaaaatca
+     4441 tgaagatact aactgcttta gaattaagga atacaaaaaa taatgtgagc tacagttata
+     4501 gggatcataa aagttaaaat gggaatgtat ttgagtgttt attatgtgat cagtgctaag
+     4561 aagagtcatc atttaatttg acacttaaca gtaatcctgt gaggattatg ctattattaa
+     4621 atgcatttga tatattacat aaaggcttat agttggtaaa aattgaccca agtagaagag
+     4681 gtcatctttt tattcagatt ttctgattgt agggtttgag agtttttcca tcattagtga
+     4741 gtagtgacta tattgtgtct gaattattga cagaatttct gatattcatg tataccatgt
+     4801 tgtttcttcg agtggggaca gagatacaag ggctgctaat tccaatgtat aggagaaact
+     4861 ttcaatcatt ttgcatttat cattttaaaa gttcagtatg tctataatgg tcatgcattg
+     4921 acaaacacaa ggaagtatta aatcactcct tcttctgagg tttgactagc aaattgggca
+     4981 agagttacca aataaaatac atgttcctag ttaaatctga atttcagata cacgaccata
+     5041 atttattgga aatccaaatt taattgggca ccctctggtt ttatttgcca aatctgtcaa
+     5101 ccctaagtgg gacacatgga catggattac agtgctaccc atgcaagcca cagtgacagc
+     5161 aactttacac atgtttacat tttaactttc tctctgtaag aaagtgctta gataatttag
+     5221 ggataaaaag atagccattg tttgatccag ggtggacacc tctctgccat tgtttctaaa
+     5281 gggcaaaggg agatttctgc aggtcttgct cacagtctgg ggacctgctc atgttttgaa
+     5341 actttctgta tcagaatgtc attttcttgg tttctccctt tctgagggga cttgactaca
+     5401 aaaccaagag ttctgcctct ggccaaggct ggaaatatga tgcctgctag cattgttggg
+     5461 agtgggagac tgagagaaat gagttagttg gggcatttaa tgggaataaa atagctgtgg
+     5521 ttgtgattca ttactacaga taattagtgg accagtggcg gagaaattaa gaaaaaagat
+     5581 gatgtgaacg ataaatgata tgattagtga ctgcttggta agacaaggaa atcattaaat
+     5641 cttggttctc atcaagttca ttttctgaaa agatagcact gtattgggac cagaattcta
+     5701 cagaacattc tttttaccta ggaccaagat tttcaagaaa tatttttcaa tacaattctc
+     5761 agctgctcca taactaatag tagcttgttc aacacagatt ttttcagatg gttcacacct
+     5821 gtagttctta cccagggata gttcaccacc cctcccttcc ctcccatcat ccttggggaa
+     5881 cagtgacaat gtttggaaca atttttggtt gccacaacag gggtttcttc tgatatttaa
+     5941 tgagtagaag ccaggaacac tgctagagaa cctacaatgt tcagaacagc ctccgccatc
+     6001 aacaaagaat tatctggtcc aaaatgtcaa tagtgctgag gctgagagca ctggttcacg
+     6061 ctgtgctctt tttgaaaatt ctacactcac atctgttata cactcaccac acagttcaga
+     6121 tttttatagt ttatttttgc ttgttccatt ataaaaaaat tagacagttg cataaattca
+     6181 accactttct tgttgaatcc acttagtcaa tgcaagctta atattttcat atttagtttt
+     6241 tgccttatgc aatatttttc aacattttcg tgagttgttg gtcatcacca tctctattaa
+     6301 ctttcaacaa cttgctcttg taagtcacaa atagtgatgc tgctgaaatt atttctcact
+     6361 aacatgcctc aggtttctgt agtgattcta cattttatat tattcacaat gtaaaatgct
+     6421 tctatgtact catttcactt ttacccaagg attattttta agttattttt gtcgttttca
+     6481 cacttcaaac ataaagacaa aaacatcaaa aatatatact gtgttttaca tatgtgtcta
+     6541 ttttcacaca tatatgtatg tatgtttata tgtatggaaa ctacagaagc acatgtcgcc
+     6601 aataagagct ctgagacacc tttgaccact tacccttatc agatgagatt tgccaaatga
+     6661 gttgtggaaa caagtttttt aaactgaatt tctgagcttt gtgaatttag aaatgcaaag
+     6721 gaaagtttgt ggacatttac agggatcatg gttttattgt cctttaaact cttcgatact
+     6781 ttaccattgt cttactataa atccaaaatc ctaacgccac ccacgaggct ttcaatacct
+     6841 ggcttcttgt gatttctcca ggctaatctt ttaccctcct tcccctcagc ctctctgctt
+     6901 tagtgaactt tctcctagtt ttttgaagaa gttcatcaat tcaagctttt gtacatggga
+     6961 tttcctaaac ctgaaatgtg cctcccgttt tgtccaaaca gacacacagg ctccactctg
+     7021 ccccctggct cacacctgct taacctgtca agtcacacct gaactgtcac tcttcagagg
+     7081 gtccttctct ggcaccctaa tgtaattgag atcatcctat tattctctgc tctagaactt
+     7141 cccacttccg agatttctca ttcctgtcta acctcttgtg tgtttggttt ttggccatcg
+     7201 ctttcactgc tctttaagct ccccagcgga gtggagaggt ctgttttccc ttgtttggat
+     7261 tcctagaggc agcccaggcc aggcacaagg tcatcactaa gaaagtgttc acaggatgaa
+     7321 cgcggtgggt gctgtttaag gaaccggtaa acgtgtggga tgagagaagg agcagagagt
+     7381 gtttttgggg tggaggctcc taggaggagg cggggcgggc tgcggtgctg ggcggatcct
+     7441 cctccagctc ctgcttggag gtctccagaa caggctggag gcagggaggg ggtcccaaaa
+     7501 gcctggggat gagaaggggt tttcccgcat agtcccccag gtccccgttc gcctcaggaa
+     7561 aacggaagat gagctcctgg gctgctggtg gtgggcgttg cggttggggc cggttaaggt
+     7621 tcccagtgcc cgcacccggc ccagggggcc ccggatggcg gcgtcgctgt cagtgtcttc
+     7681 tcaggaggcc gcccgtgtga ccggatcctt cgtgtacccg cagcacgttt cttggagctg
+     7741 cataagtctg agtgtcattt cttcaatggg acggagcggg tgcggtacct ggacagatac
+     7801 ttccataacc aggaggagtt cttgcgcttc gacagcgacg tgggggagta ccgggcggtg
+     7861 acggagctgg ggcggcctgt cgccgagtcc tggaacagcc agaaggacta cgtggagcag
+     7921 aagcggggcc aggtggacaa ttactgcaga cacaactaca gggttggtga gagcttcaca
+     7981 gtgcagcggc gaggtgagca tggcgggggg cggggcctgg gtccctgtga gctggaaatc
+     8041 tgagagtgtg tgtgtgtgta tgtgtgtgtg tgtgagagag agaaagagag agagagagga
+     8101 agagagagac agagagaggg agcgcgccat ctgtgagcat ttagaatcct ctcaatcccg
+     8161 agcaagcagt tctgaaggta caggtgtgtg tgtagagtgt ggatttgtct gtgtctgtgt
+     8221 gcctgttgtg ggaggggaag caggaggggg ctgcttctta tccttggaga cttctgtgga
+     8281 gaggtgacaa gggaggtggg tgcgggcggc tggagagaga ggagaccttg attgtcctgg
+     8341 gtccttagag atgcagggaa ggaaagtgta aggtgtgtgt gggtggggtg aaggtttagg
+     8401 ggaggagagc tgaggggtaa ggaaggtttg ggataatgtg aggaggccgg ttccagactg
+     8461 tccctggcac acacccttta tgtaatctct gaaataaaag tgcgtgctgt ttgcttgcaa
+     8521 aagcaataga ttaagttcta ggggaattga gtagacctct aaggcacctc tgaaacttct
+     8581 ttaggtataa atttcttgct agttttttgt ttttctagtg tgtatatttt tacatagtag
+     8641 aaatgacagt gaaactaact tttgaattaa agttttaaca cagttactgt attattataa
+     8701 tgctaatagt tttctagtag ttacatatta ttcttttata tataatagtt gtgacacaac
+     8761 ttagggatca ctttcccttt tgttgacctt tattatgaca ttcaccaaaa gttgaaaatg
+     8821 tatgtttctg gttaattttt aatttacgtt ttttcatttg aaaaaatgta gagaggtctg
+     8881 tttttcattc aaaagagttc ttttgaatta ttttgactga tttattggtc aattttaata
+     8941 actgctctaa gaattcccta ttttatttgg taggtaatgg acaatgatct actgcctaat
+     9001 atctctaggg cttagtattt ttctcagtga ctttgtgggt tctttgtact gtaagattat
+     9061 taacacttta ttgatatttg attcagcatt tgctccagtt tgtggtttgt atgttgattt
+     9121 tgaaaattct tttccatgtt aagaatttga acatttttat ttaataaaat gtattgcaaa
+     9181 aattttatta atgatttaca atccatctta aatctgccat tttgtggtat ttttgtctct
+     9241 aggtttctcc ttacttctaa aaacattgta tttattgaga gtatgctaat gtcggggatt
+     9301 ttcctgggca taagcaccac aagtaatgag ttccagaccc tgccataatc caaatgtgat
+     9361 tctggaaaga aaaatcattt tacaattggc ctgataataa ttctgcttgt gttgcacggg
+     9421 ggatacattg agcagctgaa tgaaaatata agaactttca aaactaaaat gacgctccta
+     9481 aatccttctg tctgctttag gactcatgct tttctaggaa cgtaaaaatt tggagaatca
+     9541 tttctgtctg tcccaccttc ccaggggcag aaccatttct gtggtgttct aaggtgtgag
+     9601 tgcatggcag tagtattcct aaaaattcat actcggtttt ctcatgtacc caactctgtc
+     9661 cctttgtcta tgtacattgc tttaaatcat atttttctgt cacggtgtac aaggatgata
+     9721 aataggtgcc aagtggagca cccaagtgtg atgagccccc ttacggtgga atggagtgag
+     9781 aagctttctg atctcataaa ttgaaggcta tcttcagtca ttatgtattt tatgtaaatt
+     9841 aatcctcata taaccccaag aggtaaatta gtataattat ccttcattgg gggtgacaaa
+     9901 gttgagacac agaagaatca actcttccag gatcaatcag taaaaggcag accttggatt
+     9961 tgaaccatgc aacctggctc agatatcagt tttaattact acactctgta ctttcaaaaa
+    10021 tttgtaaaca ctttgacaat gcatgccaat ttcaagttat gaagaagcaa acgcaatttt
+    10081 tcacatctct caaatctaat gggtcctcac tatcaagatt aaattccagg ctgatgacac
+    10141 tgtaaggcca catggccagc tgtgctggag gcctggtcaa ggtcagagcc tgggtttgca
+    10201 gagaagcaga caaacagcca aaccaggaga attactctgt cttcctgact cattccctct
+    10261 accttttttt ctactagtcc ttcctaaggt gactgtgtat cctgcaaaga cccagcccct
+    10321 gcagcaccac aacctcctgg tctgctctgt gagtggtttc tatccaggca gcattgaagt
+    10381 caggtggttc cagaacggcc aggaagagaa gactggggtg gtgtccacgg gcctgatcca
+    10441 gaatggagac tggaccttcc agaccctggt gatgctagaa acagttcctc ggagtggaga
+    10501 ggtttacacc tgccaagtgg agcacccaag cgtaacgagc cctctcacag tggaatggag
+    10561 tgagcagctt actgatttca tacatttctc acccaccaag aaggggactg tgctaatccc
+    10621 tgagtgtcag atttctcctc tcccacgtcc tattttcatt tgctccatgt tctcatctcc
+    10681 atcagcacag gtcactgggg atagccctgt aacagtgtgt agaaacacct gtaccccctg
+    10741 tggaatcagt catgcttttt tttttttgaa cctccccatg atgtcacagg tcaaggtcac
+    10801 ccgctctccc caagctccag gccctgcttc tgggtctgag actgagtttc tggtgctgct
+    10861 gctctgagtt acttgttttg atctgggaag aggggaagca taggggccta cctgacatga
+    10921 ggggagtcca atctcagctc taccttttat tagctctgtc actccagaca aactaattag
+    10981 cttcattgag tctcaggctt tctgttgatc agatgttgaa cgcttgcctt acatcaatgc
+    11041 tgtaatattt gaatgagttt gatgtctgaa ccttgtaact gttcagtgtg atttgaaatc
+    11101 ctttttttct cccgaaatgg ctagttattt tagttcttgt ggggcagcct tcttccccat
+    11161 tttcaaagct ctgaatctta gagtctcaat taaagaggtt caatttggaa taaacatcac
+    11221 taaacctggc ttcctctctc aggagcacgg tctgaatctg cacagagcaa gatgctgagt
+    11281 ggagtcgggg gctttgtgct gggcctgctc ttccttgggg ccgggctgtt catctacttc
+    11341 aggaatcaga aag
+//

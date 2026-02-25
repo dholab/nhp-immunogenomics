@@ -1,0 +1,1145 @@
+LOCUS       NHP00319                3784 bp    DNA     linear   PRI 20-DEC-2022
+DEFINITION  Mafa-DRB4*01:01:01:01, DRB4 locus allele.
+ACCESSION   NHP00319
+VERSION     NHP00319
+DBLINK      INSDC: AY340697
+            INSDC: AF492304
+            INSDC: AF492347
+            INSDC: EF208834
+            INSDC: FR717382
+            INSDC: OX376680
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Leuchte N, Berry N, KÃ¶hler B, Almond N, LeGrand R, Thorstensson R,
+            Titti F, Sauermann U.
+  TITLE     MhcDRB-sequences from cynomolgus macaques (Macaca fascicularis) of
+            different origin.
+  JOURNAL   Tissue Antigens 63:529-537 (2004)
+   PUBMED   15140028
+REFERENCE   2
+  AUTHORS   Blancher A, Tisseyre P, Dutaur M, Apoil PA, Maurer C, Quesniaux V,
+            Raulf F, Bigaud M, Abbal M.
+  TITLE     Study of Cynomolgus monkey (Macaca fascicularis) MhcDRB (Mafa-DRB)
+            polymorphism in two populations.
+  JOURNAL   Immunogenetics 58:269-282 (2006)
+   PUBMED   16572321
+REFERENCE   3
+  AUTHORS   O'Connor SL, Blasky AJ, Pendley CJ, Becker EA, Wiseman RW, Karl JA,
+            Hughes AL, O'Connor DH.
+  TITLE     Comprehensive characterization of MHC class II haplotypes in
+            Mauritian cynomolgus macaques.
+  JOURNAL   Immunogenetics 59:449-462 (2007)
+   PUBMED   17384942
+REFERENCE   4
+  AUTHORS   Doxiadis GG, de Vos-Rouweler AJ, de Groot N, Otting N, Bontrop RE.
+  TITLE     DR haplotype diversity of the cynomolgus macaque as defined by its
+            transcriptome.
+  JOURNAL   Immunogenetics 64:31-37 (2012)
+   PUBMED   21805219
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:01:01:01
+            IPD accession: NHP00319
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0101; Mafa-DRB4*01:01
+FEATURES             Location/Qualifiers
+     source          1..3784
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3784
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:01:01:01"
+                     /note="previous designations: Mafa-DRB4*0101;
+                     Mafa-DRB4*01:01"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            2653..2934
+                     /gene="DRB4"
+                     /number=3
+     exon            3636..3746
+                     /gene="DRB4"
+                     /number=4
+     exon            3747..3770
+                     /gene="DRB4"
+                     /number=5
+     exon            3771..3784
+                     /gene="DRB4"
+                     /number=6
+     intron          371..2652
+                     /gene="DRB4"
+                     /number=1
+     intron          2935..3635
+                     /gene="DRB4"
+                     /number=2
+     CDS             join(1..100,101..370,2653..2934,3636..3746,3747..3770,
+                     3771..3784)
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTMTLMVLSSPLALARDTRARFLWQGKAECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVTELGRPDAEYWNSQKDLLERRRAEV
+                     DTYCRYNYGVGESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctagg gacacccgag cacgtttctt gtggcagggt
+      121 aaggctgagt gtcacttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccagg aggagaacgc gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgacgc cgagtactgg aacagccaga aggacctcct ggagcggagg
+      301 cgggccgagg tggacaccta ctgcagatac aactacgggg ttggtgagag cttcacggtg
+      361 cagcggcgag gtgagcacgg cgggggcggg gcctgggtcc ctgtgagctg ggaatctgtg
+      421 tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtggaga gagagagaga
+      481 gagagacaga gagacagaga gacagagaga cagagagaga gacagagaca gagagagagc
+      541 gccatctgtg agcatttaga atcttctcta tcctgaccaa ggagttgtga ggacacaggt
+      601 gtgtgtgtag agtgtggatt tgtctgtgtg gctgttgtgg gaggggaggc aggagggggc
+      661 tgcttcttat ccttggaggt ctctgtgggg aggtgacatg ggaggtgggt gcaggggact
+      721 ggagagagag gagaccttga ttgtcctggg tccttagaga tgcagggaag ggaaatgtaa
+      781 ggtgtatgtg gttggggtga aggtttaggg gaggagagct gaggggtctg gaaggtttgg
+      841 gataatgtga ggaggccagt tctagactgt ccctggcaca caccattcat gtaatctctg
+      901 acataaaagt gtgtggtgtt catttgcaaa agcattagat taatttctag cggaattgag
+      961 gagacctctg aggcaccttg aagtttcttt aggtctaaat ttcttgctag tttttttttt
+     1021 ttttcagtgt gtacaggttt acacagtaga aatgactgtg aaactaactt cttgaattaa
+     1081 agttttaaca cagttactat tttgttataa tgctaatagt tttctagtag ttacatatta
+     1141 ttctttcata tgtaatagtt gtgacacaac tcaactcact ttcccctttg ttgaccttta
+     1201 ttatgacatt ctccaaaagt tgaaaatgta tttttctggt taatttttaa tttatatttt
+     1261 ttatttgtaa ttcctttgaa tttctttgac ctatttattg gccagttata attactgccc
+     1321 taagaattcc ctatcgtatt aggcaggtaa tggacaacga tccactgtct aatatctcga
+     1381 gggcttagta tttttctcag tgactttgtg ggttctttgt actgtaagat tattaacact
+     1441 ttattgatat ttgattcagc atttgctcca gtttgtggta tgctgatttt gaaaattctt
+     1501 ttccatgtta agaatttgaa catttttatt taataaaata tattgcaaaa ttttgattaa
+     1561 tgatttacaa tccatcttaa actaccattt tgtggtactg tctctaggtt tctccttact
+     1621 taaaaaaaat tattgcattt attgagagta tgctagtgtc agggattttc ctgggcataa
+     1681 gcacccaagt aacaagtccc agaccctgcc ttgacccaaa tgtcattctg gaaagaaaaa
+     1741 tcatttcaca atgataggcc taataataat tatgcttgtg ttgcacagga gatgcattga
+     1801 tcagctaaat gtaaatataa gaactttcaa aactaatatg acattcctta atccttctct
+     1861 ctgcttcagg actcatgctt ttctaggaac gtaaacattt ggagaatcat ttctgtctgt
+     1921 cccaccttcc caggggcaga accatttccg tggtgttcta aggtgtcagt gcatggcggt
+     1981 agtattccta aaacttcata ctcggtttcc tcatgtaccc aactctgtcc ctttaactat
+     2041 ccacattgct ttaaatcata cttttctgtc aaggtgtaca aggatgataa ataggtgcca
+     2101 agtggagcac ccaagtgtga tgagccctct cacaggggaa tggagggaga agcttctgac
+     2161 ctcataaatt gaaggctatc ctcagtcatt gttttataca ttttacatgc attaatcctc
+     2221 atataacccg aagaggtaaa ttagtataat tgtccttcat tgtaggtgac aaagttgaga
+     2281 cacagaagaa tcgaaaaact ctttcaggat caaccagtaa aaggcagacc ttggatttga
+     2341 accaggcaac ctggctcaga tatcattttt aattactata ctctgtactt tcaaagattt
+     2401 gtaaacagtt tgacaatgca tgccagtttc aagctatgaa gaaacaaata taatttttta
+     2461 caacatctct caaatctaat gggtcctcac tatcaagatt aaattccagg ctgacactct
+     2521 aaggccactt ggccagctgt gctggaggcc tggtcaaggc cagagcctgg gtttacagag
+     2581 aagtagaaaa ataaccaaac aaggagacac tctgtcttcc tgactcattc ccactatgtt
+     2641 ttcttctcct agtccaacct aaggtgactg tgtatcctga aaagacccag cccctgcaac
+     2701 atcacaccct cctggtctgc tctgtgagtg gtttctatcc aggcagcatt gaagtcaggt
+     2761 ggttccggaa cggccaggaa gagaaggctg gggtggtgtc cacaggcctg atccagaatg
+     2821 gagactggac cttccagacc ctggtgatgc tggaaacagt tcctcggagt ggagaggttt
+     2881 acacctgcca agtggagcac ccaagcgtga ccagccctct cacagtgcaa tggagtgagc
+     2941 agctttctga cttcatacat ttctcaccca ccaagaaggg gactgtacta atccctgagt
+     3001 gtcaggtttc tcctctccca catcctattt tcatttgctc catgttctca tcgcctttag
+     3061 cataggtcac tgggggtagc cctgtaatag tttctagaaa cacctgtacc tcctggagaa
+     3121 gcagtctagc ctgccaggca ggagaggctg tccctctttt gaacctcccc gtgatgtcac
+     3181 aggtcagggt cacccgctct ccccaggctc caggccctgt ctctgggttt gagactgagt
+     3241 ttctggtgct gttgatctga gttatttgtg gtgatctggg aagaggagaa gtgtagggcc
+     3301 ctacctgaca taagggaagt ctgatctcag ctctgtcttt tattagctcc gtcactctag
+     3361 acaaactact tagcctcatg gagtctcagg ctttctgtgg atcagatgtt gaactcgtgc
+     3421 cttacatcaa ggctgtaata tttgaatgag tttgatgtct gaaccctgta actgttcagt
+     3481 gtgatttgaa atcctacttt tctccagaaa tggctggtta ttttagttct tgtggggcag
+     3541 ccttcttccc cattttcaaa gctctgaatc ttagggtctc aattaaagag gttcagtttg
+     3601 gaatacacat cactaaacct ggcttcctct ctcaggagca cggtctgaat ctgcacagag
+     3661 caagatgctg agtggagtcg ggggctttgt gctgggcctg ctcttccttg gggccgggct
+     3721 gttcatctac ttcaggaatc agaaaggaca ctctggactt cagccaacag gactcctgag
+     3781 ctga
+//
+LOCUS       NHP00320                8035 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB4*01:02:01:01, DRB4 locus allele.
+ACCESSION   NHP00320
+VERSION     NHP00320
+DBLINK      INSDC: AY340686
+            INSDC: AF492348
+            INSDC: FR717363
+            INSDC: OR823565
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Leuchte N, Berry N, KÃ¶hler B, Almond N, LeGrand R, Thorstensson R,
+            Titti F, Sauermann U.
+  TITLE     MhcDRB-sequences from cynomolgus macaques (Macaca fascicularis) of
+            different origin.
+  JOURNAL   Tissue Antigens 63:529-537 (2004)
+   PUBMED   15140028
+REFERENCE   2
+  AUTHORS   Blancher A, Tisseyre P, Dutaur M, Apoil PA, Maurer C, Quesniaux V,
+            Raulf F, Bigaud M, Abbal M.
+  TITLE     Study of Cynomolgus monkey (Macaca fascicularis) MhcDRB (Mafa-DRB)
+            polymorphism in two populations.
+  JOURNAL   Immunogenetics 58:269-282 (2006)
+   PUBMED   16572321
+REFERENCE   3
+  AUTHORS   Doxiadis GG, de Vos-Rouweler AJ, de Groot N, Otting N, Bontrop RE.
+  TITLE     DR haplotype diversity of the cynomolgus macaque as defined by its
+            transcriptome.
+  JOURNAL   Immunogenetics 64:31-37 (2012)
+   PUBMED   21805219
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:02:01:01
+            IPD accession: NHP00320
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0102; Mafa-DRB4*01:02
+FEATURES             Location/Qualifiers
+     source          1..8035
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..8035
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:02:01:01"
+                     /note="previous designations: Mafa-DRB4*0102;
+                     Mafa-DRB4*01:02"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            3094..3363
+                     /gene="DRB4"
+                     /number=2
+     exon            5622..5903
+                     /gene="DRB4"
+                     /number=3
+     exon            6605..6715
+                     /gene="DRB4"
+                     /number=4
+     exon            7193..7216
+                     /gene="DRB4"
+                     /number=5
+     exon            8022..8035
+                     /gene="DRB4"
+                     /number=6
+     intron          101..3093
+                     /gene="DRB4"
+                     /number=1
+     intron          3364..5621
+                     /gene="DRB4"
+                     /number=2
+     intron          5904..6604
+                     /gene="DRB4"
+                     /number=3
+     intron          6716..7192
+                     /gene="DRB4"
+                     /number=4
+     intron          7217..8021
+                     /gene="DRB4"
+                     /number=5
+     CDS             join(1..100,3094..3363,5622..5903,6605..6715,7193..7216,
+                     8022..8035)
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTMTLMVLSSPLALARDTRARFLWQGKAECH
+                     FFNGTERVRYLIRYIYNQEEYVRFDSDVGEYRAVTELGRPDAEYLNSQKDLLERRRAQV
+                     DTYCRYNYGVGESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctagg gacacccgag gtaagtgcac attgtgggtg
+      121 ctgagctact atggagtggg gaaaataggg cgttttgtta acattgtgcc caggccatgt
+      181 cccttaaaaa attgtgacat ttttcagaga ttgcccatct ttgtcattgg atcccaaatt
+      241 atttccacca caaaaggagc ttggctactt gccgtctcca tgagacttgt gtaaggggcc
+      301 tccgtacagg ttgtttcttt ttcaaatcta taccaataaa acctttgcat cacatgtcct
+      361 cagggtcttt agaggattta gaaataagga tgctaaaata aattccccat acagcacttc
+      421 cctttattat gttgacttat gtcagacaaa aggaggtttt tactgaaaat tttgtgggaa
+      481 tcaagggaat tcaaagtgtc tctcctagac gatcctgggt tatgtcctcc caatgtgcca
+      541 ggattaaaga tgtaagccac tgtgcccagg ccaaaagaga taactcttaa taaaaagatt
+      601 tcctttttct taaatcactg tttctttatc tgtgaattct tcttccaact agaaggagga
+      661 gaaagaagaa gtttgcctgt atttctcaac gggagaaggg gtctagtgtg acatcaaaat
+      721 gaaagagtgc tggagcttaa gccccctctt gctttccagg atccccgcag tgatcagttc
+      781 ccatgccctg ctttattcat gtaaaccacg cttctttttc tcagcagctg ctgtggcctg
+      841 ggctccattc taggttcaaa tcattctgtt tgattaagat agagagggtc cctactctca
+      901 cggaagttac acaagtgtag aagagacaga cactaaccca ataagcattt aacaaagaag
+      961 aaaatgttag agagacatcg tgcactgaag aaaagatatc aggtttgtga aaagagagaa
+     1021 atggattcac ctactttagt tcgtatgttt agggagctgt acctgagaaa gtgatattca
+     1081 gctgagacaa caaaataagt agacagttgt gaagatctaa tggatgaaag ttccagggag
+     1141 accaaattgg gggaaaaccc tggtgtggga aattgtgtgg agggagagaa agaaggctag
+     1201 aggtgctgac gtatagaaag caaggaaatg gagaggcgga agatgaggta agacacagag
+     1261 aggaagtcag gagcctcgtc attataggct ctgatgtcca tggtaaaaaa tttgaatttt
+     1321 attttatttt tatttatttt taaatttaat ttagttgtat ttttttgaga cgaagtttca
+     1381 tttctgttgt ccaggctgga gtgcagtggt gcaatctcgg ctcactgtaa cctctgcttc
+     1441 tcgggttcaa gtgattctcc tgcttcagct tcccaagtag ctgggattac aggcacccac
+     1501 caccatactg gctacttttt ttgcattttt agtagagatg gggtatcacc atattgacca
+     1561 ggctggtctt gacctcctga cctcagataa tctgtctgcc ttgacctccc aaagtgctgg
+     1621 gattacaggc atgaggcacc atgcccggac tgaattttat ttaaatagat atgagaagtt
+     1681 actgtatggt tacaaggaga gtcaatttat attcaacttt tttttttttt tttttttttt
+     1741 ttgtgatgga gtcttgctct gttgcccagg ctagattgca gtggtacaat ctcggctcac
+     1801 tgcaacctcc acctcctggg ttcaagcaat tctcctgcct cagcctaccg agtagctggg
+     1861 accacaggcg catgccacca cacatggcta attttttgta tttttagtag ggatggggtt
+     1921 tcaccatgtt agccaggatg gtctcgatct cctgacctca gatgatccac cgacctcaac
+     1981 ctcccaaagt gctgggatta caggcatgag ccactgtgcc ctgcctatat tcaattatta
+     2041 aaattaattc tagctactct gtggggattg gattgttggg gttcacaagt ggtcaggaag
+     2101 actatttacc agcacagcag ggaattctcc agggaaaaca agcttgtggc ttcatggagt
+     2161 gcattagtga taaagacagt gaaaaggata aagtggacag actcagcatg tatttttgct
+     2221 tagcttgtta atgaattact gtaaaggagg tggaacaatc aaacttattc ctaaggattt
+     2281 cgttttgaca aataagtggg tggtggtggt gtttattgac acaggaaaaa ctatgggagg
+     2341 aaatgacttg aagtgggtgg gtggaaataa aagtgttgtt taaatttcag atgatttatt
+     2401 gacattcatg tagaaaaatc agaaggtcag tggcatttaa gagagtcatg gtgaggctag
+     2461 ggtttcagat atttatgttg gcggcatcaa tacgtgtact gtgttaaatt ccagggagtg
+     2521 gaagaggata catagggaga tggattgtgc ggagaaaaaa gaagagggca caggccagca
+     2581 aagggggcta agaaagagcc cagggatgtt ggagaaaaaa cgagagaaca taatgagtgt
+     2641 aagtcaagga aaacagattt ttttttcaag gagaagggag aggccaattg tggtgagtac
+     2701 cactaagagg agggggagtg agaacgtgac agagaagcaa gcgctgggtt tggtggagtt
+     2761 gatatttgca gtcaatcgag tacacaggga ggaaactgga ttggaccatt tgaagagcga
+     2821 gtagaagtga ggatgaggtt aaggttgact ggaggcaggg aggggatccc caaagcctgg
+     2881 agatcagaaa gggttttccc gcatggttcc ccaggccccc gttcgcctca ggaagacgga
+     2941 ggatgagccc ctgggctgct ggtgggcggt gcgggtgggt ccggttaagg ttcccagtgc
+     3001 ccgcaccccg cccaggagcc ccggatggcg gcgtcgctgt cagtgtcttc tcaggaggcc
+     3061 gcccgtgtga ccggatcctt cgtgtcccca cagcacgttt cttgtggcag ggtaaggctg
+     3121 agtgtcactt cttcaacggg acggagcggg tgcggtacct gatcagatac atctataacc
+     3181 aggaggagta cgtgcgcttc gacagcgacg tgggggagta ccgggcggtg acggagctgg
+     3241 ggcggcctga cgccgagtac ttgaacagcc agaaggacct cctggagcgg aggcgggccc
+     3301 aggtggacac ctactgcaga tacaactacg gggttggtga gagcttcaca gtgcagcggc
+     3361 gaggtgagca cggcgggggc ggggcctggg tccctgtgag ctgggaatct gtgtgtgtgt
+     3421 gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtga gagagagaga
+     3481 gagagagaga cagagacaga gagagagcgc catctgtgag catttagaat cttctctatc
+     3541 ctgagcaagg agttctgagg acacaggtgt gtgtgtagag tgtggatttg tctgtgtggc
+     3601 tgttgtggga ggggaggcag gagggggctg cttcttatcc ttggaggtct ctgtggggag
+     3661 gtgacatggg aggtgggtgc aggggactgg agagagagga gaccttgatt gtcctgggtc
+     3721 cttagagatg cagggaaggg aaatgtaagg tgtatgtggt tggggtgaag gtttagggga
+     3781 ggagagctga ggggtctgga aggtttggga taatatgagg aggccagttc tagactgtcc
+     3841 ctggcacaca cccttcatgt aatctctgac ataaaagtgt gtgctgttca tttgcaaaag
+     3901 cattagatta atttctagcg gaattgagga gacctctgag gcaccttgaa gtttctttag
+     3961 gtctaaattt cttgctagtt tttttttttt tttcagtgtg tacaggttta cacagtagaa
+     4021 atgactgtga aactaacttc ttgaattaaa gttttaacac agttactatt ttgttataat
+     4081 gctaatagtt ttctagtagt tacatattat tctttcatat gtaatagttg tgacacaact
+     4141 caactcactt tcccctttgt tgacctttat tatgacattc tccaaaagtt gaaaatgtat
+     4201 ttttctggtt aatttttaat ttatattttt tatttgtaat tcctttgaat ttctttgacc
+     4261 tattcattgg ccagttataa ttactgccct aagaattccc tatcgtatta ggcaggtaat
+     4321 ggacaacgat ccactgtcta atatctcgag ggcttagtat ttttctcagt gactttgtgg
+     4381 gttctttgta ctgtaagatt attaacactt tattgatatt tgattcagca tttgctccag
+     4441 tttgtggtat gctgattttg aaaattcttt tccatgttaa gaatttgaac atttttattt
+     4501 aataaaatat attgcaaaat tttgattaat gatttacaat ccatcttaaa ctaccatttt
+     4561 gtggtactgt ctctaggttt ctccttactt aaaaaaaatt attgcattta ttgagagtat
+     4621 gctagtgtca gggattttcc tgggcataag cacccaagta acaagtccca gaccctgcct
+     4681 tgacccaaat gtcattctgg aaagaaaaat catttcacaa tgataggcct aataataatt
+     4741 atgcttgtgt tgcacaggag atgcattgat cagctaaatg taaatataag aactttcaaa
+     4801 actaatatga cattccttaa tccttctctc tgcttcagga ctcatgcttt tctaggaacg
+     4861 taaacatttg gagaatcatt tctgtctgtc ccaccttccc aggggcagaa ccatttccgt
+     4921 ggtgttctaa ggtgtcagtg catggcggta gtattcctaa aacttcatac tcggtttcct
+     4981 catgtaccca actctgtccc tttaactatc cacattgctt taaatcatac ttttctgtca
+     5041 aggtgtacaa ggatgataaa taggtgccaa gtggagcacc caagtgtgat gagccctctc
+     5101 acaggggaat ggagggagaa gcttctgacc tcataaattg aaggctatcc tcagtcattg
+     5161 ttttatacat tttacatgca ttaatcctca tataacccga agaggtaaat tagtataatt
+     5221 gtccttcatt gtaggtgaca aagttgagac acagaagaat cgaaaaactc tttcaggatc
+     5281 aaccagtaaa aggcagacct tggatttgaa ccaggcaacc tggctcagat atcattttta
+     5341 attactatac tctgtacttt caaagatttg taaacagttt gacaatgcat gccagtttca
+     5401 agctatgaag aaacaaatat aattttttac aacatctctc aaatctaatg ggtcctcact
+     5461 atcaagatta aattccaggc tgacactcta aggccacttg gccagctgtg ctggaggcct
+     5521 ggtcaaggcc agagcctggg tttacagaga agtagaaaaa taaccaaaca aggagacact
+     5581 ctgtcttcct gactcattcc cactatgttt tcttctccta gtccaaccta aggtgactgt
+     5641 gtatcctgaa aagacccagc ccctgcaaca tcacaccctc ctggtctgct ctgtgagtgg
+     5701 tttctatcca ggcagcattg aagtcaggtg gttccggaac ggccaggaag agaaggctgg
+     5761 ggtggtgtcc acaggcctga tccagaatgg agactggacc ttccagaccc tggtgatgct
+     5821 ggaaacagtt cctcggagtg gagaggttta cacctgccaa gtggagcacc caagcgtgac
+     5881 cagccctctc acagtgcaat ggagtgagca gctttctgac ttcatacatt tctcacccac
+     5941 caagaagggg actgtactaa tccctgagtg tcaggtttct cctctcccac atcctatttt
+     6001 catttgctcc atgttctcat cgcctttagc ataggtcact gggggtagcc ctgtaatagt
+     6061 ttctagaaac acctgtacct cctggagaag cagtctagcc tgccaggcag gagaggctgt
+     6121 ccctcttttg aacctccccg tgatgtcaca ggtcagggtc acccgctctc cccaggctcc
+     6181 aggccctgtc tctgggtttg agactgagtt tctggtgctg ttgatctgag ttatttgtgg
+     6241 tgatctggga agaggagaag tgtagggccc tacctgacat aagggaagtc tgatctcagc
+     6301 tctgtctttt attagctccg tcactctaga caaactactt agcctcatgg agtctcaggc
+     6361 tttctgtgga tcagatgttg aactcgtgcc ttacatcaag gctgtaatat ttgaatgagt
+     6421 ttgatgtctg aaccctgtaa ctgttcagtg tgatttgaaa tcctactttt ctccagaaat
+     6481 ggctggttat tttagttctt gtggggcagc cttcttcccc attttcaaag ctctgaatct
+     6541 tagggtctca attaaagagg ttcagtttgg aatacacatc actaaacctg gctccctctc
+     6601 tcaggagcac ggtctgaatc tgcacagagc aagatgctga gtggagtcgg gggctttgtg
+     6661 ctgggcctgc tcttccttgg ggccgggctg ttcatctact tcaggaatca gaaaggtgag
+     6721 gagcctttgg tagctggctc tctgtccata ggcttttctg gaggaggaac tatggctttg
+     6781 ctgaggttag ttctcagtat atgagtggcc ctgaacaaag cttttctttc cccaaacggc
+     6841 tccaatgtcc tgctaatcca gaaatcatca gtgcatggtt actatgtcag aacataatag
+     6901 cttgtggcct gcagagacaa gaggaaggtt aacaagcagg ggtcctgtgg tttgagatcc
+     6961 tggagcaaat tacagaagaa ccactaaggc taatgcaatt acactggatc ctgtgacaga
+     7021 cacgtcacgc ttcatgggtc acatggtctg tttctgctcc tctctgccct ggttggtgtg
+     7081 ggttgtggtg ttagagaaat gtcaagtggg agacctagcg ctgggacatt gtgttggagg
+     7141 gcagacttgc ctcaatatgt ttaagtgtat atcttttcct actttttccc aggacactct
+     7201 ggacttcagc caacaggtaa tactttttaa tcctctttta gaaacagata tggtttccct
+     7261 agtgagaggt gaagccagct ggactgctgg gttgggaggg gacttggaga acctttctgt
+     7321 ctcacaagag gtttgtaaaa tgcaccaatc agcgctgtgt aaaaacacac caattagtgc
+     7381 tctgtgggta gctagctatt tgtaatatgg accaatccac actctgtaaa atggaccaat
+     7441 ccgcactctg taaaatggac caatccacac tctgtaaaat ggaccaagca gcattcttta
+     7501 aaacggacca atcagcagga catgggcagg gacaaataag ggaataaatg ctgaggggac
+     7561 cccagcaacc ccctcaggtc cccttccatg ctgtggaagc tttgttcttt ctctcttcac
+     7621 aataaatctt gctgctgctc actctttggg tcggtgccac ctttaaagag ctgtaatact
+     7681 caccacgaag gtccgtggct tcattcttga agtcagtgag accccaaacc caccagaagg
+     7741 aacaaactcg ggacacacta gagtgatggc agaggtgatg aggcatgaga cagaaataac
+     7801 aggaaagact ttggatccaa atttccgatc aggcaattta caccaaaact cctcctctcc
+     7861 acttagaaaa ggcctatgat ctgcaggaag gttggctctg ggagactcag gaacttgttt
+     7921 ttcttcttcc tgcagtgccc tcatctgagt ccttgaagga ggggaaaaga aactgttagt
+     7981 agagccaggt tgaaaacaac actttcctct gtcttttgca ggactcctga gctga
+//
+LOCUS       NHP01126                 245 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:05, DRB4 locus allele.
+ACCESSION   NHP01126
+VERSION     NHP01126
+DBLINK      INSDC: DQ363281
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:05
+            IPD accession: NHP01126
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0105
+FEATURES             Location/Qualifiers
+     source          1..245
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..245
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:05"
+                     /note="previous designations: Mafa-DRB4*0105"
+     exon            1..245
+                     /gene="DRB4"
+                     /number=1
+     CDS             1..245
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:05"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="FLWQGKAECHFFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVS
+                     ELGRPDAEYWNSQKDLLERRRAQVDTYCRHNYGVVE"
+ORIGIN
+        1 ttcttgtggc agggtaaggc tgagtgtcac ttcttcaacg ggacggagcg ggtgcggtac
+       61 ctgatcagat acatctataa ccaagaggag aacgcgcgct tcgacagcga cgtgggggag
+      121 taccgggcgg tgtcggagct ggggcggcct gacgccgagt actggaacag ccagaaggac
+      181 ctcctggagc ggaggcgggc ccaggtggac acctactgca gacacaacta cggggttgtg
+      241 gagag
+//
+LOCUS       NHP01127                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:06, DRB4 locus allele.
+ACCESSION   NHP01127
+VERSION     NHP01127
+DBLINK      INSDC: DQ363280
+            INSDC: JQ579593
+            INSDC: LT707669
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:06
+            IPD accession: NHP01127
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0106
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:06"
+                     /note="previous designations: Mafa-DRB4*0106"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            371..652
+                     /gene="DRB4"
+                     /number=3
+     exon            653..763
+                     /gene="DRB4"
+                     /number=4
+     exon            764..787
+                     /gene="DRB4"
+                     /number=5
+     exon            788..801
+                     /gene="DRB4"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:06"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLRLPGGSCMAALTMTLMVLSSPLALAGDTRARFLWQGKAECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVSELGRPDAEYWNSQKDLLERRRAQV
+                     DNYCRHNYGVVESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaggctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccgag cacgtttctt gtggcagggt
+      121 aaggctgagt gtcacttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccaag aggagaacgc gcgcttcgac agcgacgtgg gggagtaccg ggcggtgtcg
+      241 gagctggggc ggcctgacgc cgagtactgg aacagccaga aggacctcct ggagcggagg
+      301 cgggcccagg tggacaacta ctgcagacac aactacgggg ttgtggagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgaaa agacccagcc cctgcagcac
+      421 cacaccctcc tggtctgctc tgtgaacggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacc agccctctca cagtgcaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggac tcctgagctg a
+//
+LOCUS       NHP01144                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:04, DRB4 locus allele.
+ACCESSION   NHP01144
+VERSION     NHP01144
+DBLINK      INSDC: DQ363262
+            INSDC: HQ148693
+            INSDC: LT707668
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Ling F, Zhuo M, Ni C, Zhang GQ, Wang T, Li W, Wei LQ, Du HL, Wang
+            JF, Wang XN.
+  TITLE     Comprehensive identification of high-frequency and co-occurring
+            Mafa-B, Mafa-DQB1, and Mafa-DRB alleles in cynomolgus macaques of
+            Vietnamese origin.
+  JOURNAL   Hum Immunol 73:547-553 (2012)
+   PUBMED   22365968
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:04
+            IPD accession: NHP01144
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0104
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:04"
+                     /note="previous designations: Mafa-DRB4*0104"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            371..652
+                     /gene="DRB4"
+                     /number=3
+     exon            653..763
+                     /gene="DRB4"
+                     /number=4
+     exon            764..787
+                     /gene="DRB4"
+                     /number=5
+     exon            788..801
+                     /gene="DRB4"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:04"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTITLMVLSSPLALAGDTRARFLEQAKSECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVTELGRPDAEYWNGQKDLLERRRAEV
+                     DTVCRHNYGVGESFTVQRRVQPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPQSGELYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFKNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacaat aacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccgag cacgtttctt ggagcaggct
+      121 aagtctgagt gtcatttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccaag aggagaacgc gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgacgc cgagtactgg aacggccaga aggacctcct ggagcggagg
+      301 cgggccgagg tggacacagt gtgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaacggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gtcaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcagagtgg agagctttac
+      601 acctgccaag tggagcaccc aagcgtgacc agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aagaatcaga aaggacactc tggacttcag
+      781 ccaacaggac tcttgagctg a
+//
+LOCUS       NHP01153                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:08, DRB4 locus allele.
+ACCESSION   NHP01153
+VERSION     NHP01153
+DBLINK      INSDC: EF175124
+            INSDC: JQ579594
+            INSDC: LR131213
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Shortreed CG, Wiseman RW, Karl JA, Bussan HE, Baker DA, Prall TM,
+            Haj AK, Moreno GK, Penedo MCT, O'Connor DH.
+  TITLE     Characterization of 100 extended major histocompatibility complex
+            haplotypes in Indonesian cynomolgus macaques.
+  JOURNAL   Immunogenetics 72:225-239 (2020)
+   PUBMED   32112172
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:08
+            IPD accession: NHP01153
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0108
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:08"
+                     /note="previous designations: Mafa-DRB4*0108"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            371..652
+                     /gene="DRB4"
+                     /number=3
+     exon            653..763
+                     /gene="DRB4"
+                     /number=4
+     exon            764..787
+                     /gene="DRB4"
+                     /number=5
+     exon            788..801
+                     /gene="DRB4"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:08"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTMTLMVLSSPLALARDTRARFLWQAKSECH
+                     FFNGTERVRYLIRYFYNQEEFARFDSDVGEYRPVTELGRPDAEYWNGQKDLLERRRAQV
+                     DTYCRYNYGVVESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctagg gacacccgag cacgtttctt gtggcaggct
+      121 aagtctgagt gtcacttctt caatgggacg gagcgggtgc ggtacctgat cagatacttc
+      181 tataaccaag aggagttcgc gcgcttcgac agcgacgtgg gggagtaccg gccggtgacg
+      241 gagctggggc ggcctgacgc cgagtactgg aacggccaga aggacctcct ggagcggagg
+      301 cgggcccagg tggacaccta ctgcagatac aactacgggg ttgtggagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgaaa agacccagcc cctgcagcac
+      421 cacaccctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gtcaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacc agccctctca cagtgcaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggac tcctgagctg a
+//
+LOCUS       NHP01154                 245 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:09, DRB4 locus allele.
+ACCESSION   NHP01154
+VERSION     NHP01154
+DBLINK      INSDC: EF175123
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:09
+            IPD accession: NHP01154
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0109
+FEATURES             Location/Qualifiers
+     source          1..245
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..245
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:09"
+                     /note="previous designations: Mafa-DRB4*0109"
+     exon            1..245
+                     /gene="DRB4"
+                     /number=1
+     CDS             1..245
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:09"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="FLWQAKSECHFFNGTERVRYLIRYFYNQEEFARFDSDVGEYRPVT
+                     ELGRPDAEYWNGQKDLLERRRAQVDNYCRYNYGVVE"
+ORIGIN
+        1 ttcttgtggc aggctaagtc tgagtgtcac ttcttcaatg ggacggagcg ggtgcggtac
+       61 ctgatcagat acttctataa ccaagaggag ttcgcgcgct tcgacagcga cgtgggggag
+      121 taccggccgg tgacggagct ggggcggcct gacgccgagt actggaacgg ccagaaggac
+      181 ctcctggagc ggaggcgggc ccaggtggac aactactgca gatacaacta cggggttgtg
+      241 gagag
+//
+LOCUS       NHP01197                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:03, DRB4 locus allele.
+ACCESSION   NHP01197
+VERSION     NHP01197
+DBLINK      INSDC: AM086034
+            INSDC: FR717414
+            INSDC: EZ933320
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, Rouweler AJ, de Groot NG, Louwerse A, Otting N,
+            Verschoor EJ, Bontrop RE.
+  TITLE     Extensive sharing of MHC class II alleles between rhesus and
+            cynomolgus macaques.
+  JOURNAL   Immunogenetics 58:259-268 (2006)
+   PUBMED   16470376
+REFERENCE   2
+  AUTHORS   Aarnink A, Apoil PA, Takahashi I, Osada N, Blancher A.
+  TITLE     Characterization of MHC class I transcripts of a Malaysian
+            cynomolgus macaque by high-throughput pyrosequencing and EST
+            libraries.
+  JOURNAL   Immunogenetics 63:703-713 (2011)
+   PUBMED   21710345
+REFERENCE   3
+  AUTHORS   Doxiadis GG, de Vos-Rouweler AJ, de Groot N, Otting N, Bontrop RE.
+  TITLE     DR haplotype diversity of the cynomolgus macaque as defined by its
+            transcriptome.
+  JOURNAL   Immunogenetics 64:31-37 (2012)
+   PUBMED   21805219
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:03
+            IPD accession: NHP01197
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0103
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:03"
+                     /note="previous designations: Mafa-DRB4*0103"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            371..652
+                     /gene="DRB4"
+                     /number=3
+     exon            653..763
+                     /gene="DRB4"
+                     /number=4
+     exon            764..787
+                     /gene="DRB4"
+                     /number=5
+     exon            788..801
+                     /gene="DRB4"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:03"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLRLPGGSCMAALTMTLMVLSSPLALAGDTRARFLWQGKAECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVSELGRPDAEYWNSQKDLLERRRAQV
+                     DTYCRYNYGVVESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaggctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccgag cacgtttctt gtggcagggt
+      121 aaggctgagt gtcacttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccaag aggagaacgc gcgcttcgac agcgacgtgg gggagtaccg ggcggtgtcg
+      241 gagctggggc ggcctgacgc cgagtactgg aacagccaga aggacctcct ggagcggagg
+      301 cgggcccagg tggacaccta ctgcagatac aactacgggg ttgtggagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgaaa agacccagcc cctgcagcac
+      421 cacaccctcc tggtctgctc tgtgaacggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacc agccctctca cagtgcaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggac tcctgagctg a
+//
+LOCUS       NHP02950                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:10, DRB4 locus allele.
+ACCESSION   NHP02950
+VERSION     NHP02950
+DBLINK      INSDC: FN433734
+            INSDC: LR131214
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+REFERENCE   2
+  AUTHORS   Shortreed CG, Wiseman RW, Karl JA, Bussan HE, Baker DA, Prall TM,
+            Haj AK, Moreno GK, Penedo MCT, O'Connor DH.
+  TITLE     Characterization of 100 extended major histocompatibility complex
+            haplotypes in Indonesian cynomolgus macaques.
+  JOURNAL   Immunogenetics 72:225-239 (2020)
+   PUBMED   32112172
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:10
+            IPD accession: NHP02950
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB4*0110
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:10"
+                     /note="previous designations: Mafa-DRB4*0110"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            101..370
+                     /gene="DRB4"
+                     /number=2
+     exon            371..652
+                     /gene="DRB4"
+                     /number=3
+     exon            653..763
+                     /gene="DRB4"
+                     /number=4
+     exon            764..787
+                     /gene="DRB4"
+                     /number=5
+     exon            788..801
+                     /gene="DRB4"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:10"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEQAKSECH
+                     FFNGTERVRYLIRYIYNQEEYVRFDSDVGEYRAVTELGRPDAEYWNGQKDLLERRRAEV
+                     DTVCRHNYGVGESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag ctctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccgac cacgtttctt ggagcaggct
+      121 aagtctgagt gtcatttctt caacgggacg gagcgggtgc ggtacctgat cagatacatc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgacgc cgagtactgg aacggccaga aggacctcct ggagcggagg
+      301 cgggccgagg tggacacagt gtgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaacggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gccaagaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggac tcctgagctg a
+//
+LOCUS       NHP09454                 768 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB4*01:11, DRB4 locus allele.
+ACCESSION   NHP09454
+VERSION     NHP09454
+DBLINK      INSDC: KY937704
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:11
+            IPD accession: NHP09454
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..768
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..768
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:11"
+     exon            1..67
+                     /gene="DRB4"
+                     /number=1
+     exon            68..337
+                     /gene="DRB4"
+                     /number=2
+     exon            338..619
+                     /gene="DRB4"
+                     /number=3
+     exon            620..730
+                     /gene="DRB4"
+                     /number=4
+     exon            731..754
+                     /gene="DRB4"
+                     /number=5
+     exon            755..768
+                     /gene="DRB4"
+                     /number=6
+     CDS             1..768
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:11"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MAALTITLMVLSSPLALAGDTRARFLWQAKHECHFFNGTERVRFL
+                     IRYIYNQEEFARFDSDVGEYRPVTELGRPDAEYWNSQKDILERRRAQVDTYCRYNYGVV
+                     ESFTVQRRVQPKVTVYPAKTQPLQHHTLLVCSVNGFYPGSIEVRWFRNGQEEKAGVVST
+                     GLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSESAQSKMLSGVG
+                     GFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggcagcgc tgacaataac actgatggtg ctgagctccc cactggcttt agctggggac
+       61 acccgagcac gtttcttgtg gcaggctaaa catgagtgtc acttcttcaa tgggacggag
+      121 cgtgtgcggt tcctgatcag atacatctat aaccaagagg agttcgcgcg cttcgacagc
+      181 gacgtggggg agtaccggcc ggtgacggag ctggggcggc ctgacgccga gtactggaac
+      241 agccagaagg acatcctgga gcggaggcgg gcccaggtgg acacctactg cagatacaac
+      301 tacggggttg tggagagctt cacagtgcag cggcgagtcc aacctaaggt gactgtgtat
+      361 cctgcaaaga cccagcccct gcagcaccac accctcctgg tctgctctgt gaacggtttc
+      421 tatccaggca gcattgaagt caggtggttc cggaacggcc aggaagagaa ggctggggtg
+      481 gtgtccacag gcctgatcca gaatggagac tggaccttcc agaccctggt gatgctggaa
+      541 acagttcctc ggagtggaga ggtttacacc tgccaagtgg agcacccaag tgtgaccagc
+      601 cctctcacag tggaatggag agcacggtct gaatctgcac agagcaagat gctgagtgga
+      661 gttgggggct ttgtgctggg cctgctcttc cttggggctg ggctgttcat ctacttcagg
+      721 aatcagaaag gacactctgg acttcagcca acaggactcc tgagctga
+//
+LOCUS       NHP12197                8062 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB4*01:01:01:02, DRB4 locus allele.
+ACCESSION   NHP12197
+VERSION     NHP12197
+DBLINK      INSDC: OR823564
+KEYWORDS    IPD-MHC; MHC class II; DRB4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB4*01:01:01:02
+            IPD accession: NHP12197
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..8062
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..8062
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:01:01:02"
+     exon            1..100
+                     /gene="DRB4"
+                     /number=1
+     exon            3094..3363
+                     /gene="DRB4"
+                     /number=2
+     exon            5649..5930
+                     /gene="DRB4"
+                     /number=3
+     exon            6632..6742
+                     /gene="DRB4"
+                     /number=4
+     exon            7220..7243
+                     /gene="DRB4"
+                     /number=5
+     exon            8049..8062
+                     /gene="DRB4"
+                     /number=6
+     intron          101..3093
+                     /gene="DRB4"
+                     /number=1
+     intron          3364..5648
+                     /gene="DRB4"
+                     /number=2
+     intron          5931..6631
+                     /gene="DRB4"
+                     /number=3
+     intron          6743..7219
+                     /gene="DRB4"
+                     /number=4
+     intron          7244..8048
+                     /gene="DRB4"
+                     /number=5
+     CDS             join(1..100,3094..3363,5649..5930,6632..6742,7220..7243,
+                     8049..8062)
+                     /gene="DRB4"
+                     /allele="Mafa-DRB4*01:01:01:02"
+                     /codon_start=1
+                     /product="MHC class II DRB4 antigen"
+                     /translation="MVCLKLPGGSCMAALTMTLMVLSSPLALARDTRARFLWQGKAECH
+                     FFNGTERVRYLIRYIYNQEENARFDSDVGEYRAVTELGRPDAEYWNSQKDLLERRRAEV
+                     DTYCRYNYGVGESFTVQRRVQPKVTVYPEKTQPLQHHTLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacaat gacactgatg
+       61 gtgctgagct ccccactggc tttggctagg gacacccgag gtaagtgcac attgtgggtg
+      121 ctgagctact atggagtggg gaaaataggg cgttttgtta acattgtgcc caggccatgt
+      181 cccttaaaaa attgtgacat ttttcagaga ttgcccatct ttgtcattgg atcccaaatt
+      241 atttccacca caaaaggagc ttggctactt gccgtctcca tgagacttgt gtaaggggcc
+      301 tccgtacagg ttgtttcttt ttcaaatcta taccaataaa acctttgcat cacatgtcct
+      361 cagggtcttt agaggattta gaaataagga tgctaaaata aattccccat acagcacttc
+      421 cctttattat gttgacttat gtcagacaaa aggaggtttt tactgaaaat tttgtgggaa
+      481 tcaagggaat tcaaagtgtc tctcctagac gatcctgggt tatgtcctcc caatgtgcca
+      541 ggattaaaga tgtaagccac tgtgcccagg ccaaaagaga taactcttaa taaaaagatt
+      601 tcctttttct taaatcactg tttctttatc tgtgaattct tcttccaact agaaggagga
+      661 gaaagaagaa gtttgcctgt atttctcaac gggagaaggg gtctagtgtg acatcaaaat
+      721 gaaagagtgc tggagcttaa gccccctctt gctttccagg atccccgcag tgatcagttc
+      781 ccatgccctg ctttattcat gtaaaccacg cttctttttc tcagcagctg ctgtggcctg
+      841 ggctccattc taggttcaaa tcattctgtt tgattaagat agagagggtc cctactctca
+      901 cggaagttac acaagtgtag aagagacaga cactaaccca ataagcattt aacaaagaag
+      961 aaaatgttag agagacatcg tgcactgaag aaaagacatc aggtttgtgg aaagagagaa
+     1021 atggattcac ctactttagt tcgtatgttt agggagctgt acctgagaaa gtgatattca
+     1081 gctgagacaa caaaataagt agacagttgt gaagatctaa tggatgaaag ttccagggag
+     1141 accaaattgg gggaaaaccc tggtgtggga aattgtgtgg agggagagaa agaaggctag
+     1201 aggtgctgac gtatagaaag caaggaaatg gagaggcaga agatgaggta agacacagag
+     1261 aggaagtcag gagcctcgtc attataggct ctgatgtcca tggtaaaaaa tttgaatttt
+     1321 attttatttt tatttatttt taaatttaat ttagttgtat ttttttgaga cgaagtttca
+     1381 tttctgttgt ccaggctgga gtgcagtggt gcaatctcgg ctcactgtaa cctctgcttc
+     1441 tcgggttcaa gtgattctcc tgcttcagct tcccaagtag ctgggattac aggcacccac
+     1501 caccatactg gctacttttt ttgcattttt agtagagatg gggtatcacc atattgacca
+     1561 ggctggtctt gacctcctga cctcagataa tctgtctgcc ttgacctccc aaagtgctgg
+     1621 gattacaggc atgaggcacc atgcccggac tgaattttat ttaaatagat atgagaagtt
+     1681 actgtatggt tacaaggaga gtcaatttat attcaacttt tttttttttt tttttttttt
+     1741 ttgtgatgga gtcttgctct gttgcccagg ctagattgca gtggtacaat ctcggctcac
+     1801 tgcaacctcc acctcccggg ttcaagcaat tctcctgcct cagcctaccg agtagctggg
+     1861 accacaggcg catgccacca cacatggcta attttttgta tttttagtag ggatggggtt
+     1921 tcaccatgtt agccaggatg gtctcgatct cctgacctca gatgatccac cgacctcaac
+     1981 ctcccaaagt gctgggatta caggcatgag ccactgtgcc ctgcctatat tcaattatta
+     2041 aaattaattc tagctactct gtggggattg gattgttggg gttcacaagt ggtcaggaag
+     2101 actatttacc agcacagcag ggaattctcc agggaaaaca agcttgtggc ttcatggagt
+     2161 gcattagtga taaagacagt gaaaaggata aagtggacag actcagcatg tatttttgct
+     2221 tagcttgtta atgaattact gtaaaggagg tggaacaatc aaacttattc ctaaggattt
+     2281 cgttttgaca aataagtggg tggtggtggt gtttattgac acaggaaaaa ctatgggagg
+     2341 aaatgacttg aagtgggtgg gtggaaataa aagtgttgtt taaatttcag atgatttatt
+     2401 gacattcatg tagaaaaatc agaaggtcag tggcatttaa gagagtcatg gtgaggctag
+     2461 ggtttcagat atttatgttg gcggcatcaa tacgtgtact gtgttaaatt ccagggagtg
+     2521 gaagaggata catagggaga tggattgtgc ggagaaaaaa gaagagggca caggccagca
+     2581 aagggggcta agaaagagcc cagggatgtt ggagaaaaaa cgagagaaca taatgagtgt
+     2641 aagtcaagga aaacagattt ttttttcaag gagaagggag aggccaattg tggtgagtac
+     2701 cactaagagg agggggagtg agaacgtgac agagaagcaa gcgctgggtt tggtggagtt
+     2761 gatatttgca gtcaatcgag tacacaggga ggaaactgga ttggaccatt tgaagagcga
+     2821 gtagaagtga ggatgaggtt aaggttgact ggaggcaggg agggggtccc caaagcctgg
+     2881 ggatcagaaa gggttttccc gcatggttcc ccaggccccc gttcgcctca ggaagacgga
+     2941 ggatgagccc ctgggctgct ggtgggcggt gcgggtgggt ccggttaagg ttcccagtgc
+     3001 ccgcaccccg cccaggagcc ccggatggcg gcgtcgctgt cagtgtcttc tcaggaggcc
+     3061 gcccgtgtga ccggatcctt cgtgtcccca cagcacgttt cttgtggcag ggtaaggctg
+     3121 agtgtcactt cttcaacggg acggagcggg tgcggtacct gatcagatac atctataacc
+     3181 aggaggagaa cgcgcgcttc gacagcgacg tgggggagta ccgggcggtg acggagctgg
+     3241 ggcggcctga cgccgagtac tggaacagcc agaaggacct cctggagcgg aggcgggccg
+     3301 aggtggacac ctactgcaga tacaactacg gggttggtga gagcttcacg gtgcagcggc
+     3361 gaggtgagca cggcgggggc ggggcctggg tccctgtgag ctgggaatct gtgtgtgtgt
+     3421 gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gagagagaga gagagagaga
+     3481 gacagagaga cagagagaca gagagacaga gagagagaca gagacagaga gagagcgcca
+     3541 tctgtgagca tttagaatct tctctatcct gaccaaggag ttgtgaggac acaggtgtgt
+     3601 gtgtagagtg tggatttgtc tgtgtggctg ttgtgggagg ggaggcagga gggggctgct
+     3661 tcttatcctt ggaggtctct gtggggaggt gacatgggag gtgggtgcag gggactggag
+     3721 agagaggaga ccttgattgt cctgggtcct tagagatgca gggaagggaa atgtaaggtg
+     3781 tatgtggttg gggtgaaggt ttaggggagg agagctgagg ggtctggaag gtttgggata
+     3841 atgtgaggag gccagttcta gactgtccct ggcacacacc attcatgtaa tctctgacat
+     3901 aaaagtgtgt ggtgttcatt tgcaaaagca ttagattaat ttctagcgga attgaggaga
+     3961 cctctgaggc accttgaagt ttctttaggt ctaaatttct tgctagtttt tttttttttt
+     4021 cagtgtgtac aggtttacac agtagaaatg actgtgaaac taacttcttg aattaaagtt
+     4081 ttaacacagt tactattttg ttataatgct aatagttttc tagtagttac atattattct
+     4141 ttcatatgta atagttgtga cacaactcaa ctcactttcc cctttgttga cctttattat
+     4201 gacattctcc aaaagttgaa aatgtatttt tctggttaat ttttaattta tattttttat
+     4261 ttgtaattcc tttgaatttc tttgacctat ttattggcca gttataatta ctgccctaag
+     4321 aattccctat cgtattaggc aggtaatgga caacgatcca ctgtctaata tctcgagggc
+     4381 ttagtatttt tctcagtgac tttgtgggtt ctttgtactg taagattatt aacactttat
+     4441 tgatatttga ttcagcattt gctccagttt gtggtatgct gattttgaaa attcttttcc
+     4501 atgttaagaa tttgaacatt tttatttaat aaaatatatt gcaaaatttt gattaatgat
+     4561 ttacaatcca tcttaaacta ccattttgtg gtactgtctc taggtttctc cttacttaaa
+     4621 aaaaattatt gcatttattg agagtatgct agtgtcaggg attttcctgg gcataagcac
+     4681 ccaagtaaca agtcccagac cctgccttga cccaaatgtc attctggaaa gaaaaatcat
+     4741 ttcacaatga taggcctaat aataattatg cttgtgttgc acaggagatg cattgatcag
+     4801 ctaaatgtaa atataagaac tttcaaaact aatatgacat tccttaatcc ttctctctgc
+     4861 ttcaggactc atgcttttct aggaacgtaa acatttggag aatcatttct gtctgtccca
+     4921 ccttcccagg ggcagaacca tttccgtggt gttctaaggt gtcagtgcat ggcggtagta
+     4981 ttcctaaaac ttcatactcg gtttcctcat gtacccaact ctgtcccttt aactatccac
+     5041 attgctttaa atcatacttt tctgtcaagg tgtacaagga tgataaatag gtgccaagtg
+     5101 gagcacccaa gtgtgatgag ccctctcaca ggggaatgga gggagaagct tctgacctca
+     5161 taaattgaag gctatcctca gtcattgttt tatacatttt acatgcatta atcctcatat
+     5221 aacccgaaga ggtaaattag tataattgtc cttcattgta ggtgacaaag ttgagacaca
+     5281 gaagaatcga aaaactcttt caggatcaac cagtaaaagg cagaccttgg atttgaacca
+     5341 ggcaacctgg ctcagatatc atttttaatt actatactct gtactttcaa agatttgtaa
+     5401 acagtttgac aatgcatgcc agtttcaagc tatgaagaaa caaatataat tttttacaac
+     5461 atctctcaaa tctaatgggt cctcactatc aagattaaat tccaggctga cactctaagg
+     5521 ccacttggcc agctgtgctg gaggcctggt caaggccaga gcctgggttt acagagaagt
+     5581 agaaaaataa ccaaacaagg agacactctg tcttcctgac tcattcccac tatgttttct
+     5641 tctcctagtc caacctaagg tgactgtgta tcctgaaaag acccagcccc tgcaacatca
+     5701 caccctcctg gtctgctctg tgagtggttt ctatccaggc agcattgaag tcaggtggtt
+     5761 ccggaacggc caggaagaga aggctggggt ggtgtccaca ggcctgatcc agaatggaga
+     5821 ctggaccttc cagaccctgg tgatgctgga aacagttcct cggagtggag aggtttacac
+     5881 ctgccaagtg gagcacccaa gcgtgaccag ccctctcaca gtgcaatgga gtgagcagct
+     5941 ttctgacttc atacatttct cacccaccaa gaaggggact gtactaatcc ctgagtgtca
+     6001 ggtttctcct ctcccacatc ctattttcat ttgctccatg ttctcatcgc ctttagcata
+     6061 ggtcactggg ggtagccctg taatagtttc tagaaacacc tgtacctcct ggagaagcag
+     6121 tctagcctgc caggcaggag aggctgtccc tcttttgaac ctccccgtga tgtcacaggt
+     6181 cagggtcacc cgctctcccc aggctccagg ccctgtctct gggtttgaga ctgagtttct
+     6241 ggtgctgttg atctgagtta tttgtggtga tctgggaaga ggagaagtgt agggccctac
+     6301 ctgacataag ggaagtctga tctcagctct gtcttttatt agctccgtca ctctagacaa
+     6361 actacttagc ctcatggagt ctcaggcttt ctgtggatca gatgttgaac tcgtgcctta
+     6421 catcaaggct gtaatatttg aatgagtttg atgtctgaac cctgtaactg ttcagtgtga
+     6481 tttgaaatcc tacttttctc cagaaatggc tggttatttt agttcttgtg gggcagcctt
+     6541 cttccccatt ttcaaagctc tgaatcttag ggtctcaatt aaagaggttc agtttggaat
+     6601 acacatcact aaacctggct tcctctctca ggagcacggt ctgaatctgc acagagcaag
+     6661 atgctgagtg gagtcggggg ctttgtgctg ggcctgctct tccttggggc cgggctgttc
+     6721 atctacttca ggaatcagaa aggtgaggag cctttggtag ctggctctct gtccataggc
+     6781 ttttctggag gaggaactat ggctttgctg aggttagttc tcagtatatg agtggccctg
+     6841 aacaaagctt ttctttcccc aaacggctcc aatgtcctgc taatccagaa atcatcagtg
+     6901 catggttact atgtcagaac ataatagctt gtggcctgca gagacaagag gaaggttaac
+     6961 aagcaggggt cctgtggttt gagatcctgg agcaaattac agaagaacca ctaaggctaa
+     7021 tgcaattaca ctggatcctg tgacagacac gtcacgcttc atgggtcaca tggtctgttt
+     7081 ctgctcctct ctgccctggt tggtgtgggt tgtggtgtta gagaaatgtc aagtgggaga
+     7141 cctagcgctg ggacattgtg ttggagggca gacttgcctc aatatgttta agtgtatatc
+     7201 ttttcctact ttttcccagg acactctgga cttcagccaa caggtaatac tttttaatcc
+     7261 tcttttagaa acagatatgg tttccctagt gagaggtgaa gccagctgga ctgctgggtt
+     7321 gggaggggac ttggagaacc tttctgtctc acaagaggtt tgtaaaatgc accaatcagc
+     7381 gctgtgtaaa aacacaccaa ttagtgctct gtgggtagct agctatttgt aatatggacc
+     7441 aatccacact ctgtaaaatg gaccaatccg cactctgtaa aatggaccaa tccacactct
+     7501 gtaaaatgga ccaagcagca ttctttaaaa cggaccaatc agcaggacat gggcagggac
+     7561 aaataaggga ataaatgctg aggggacccc agcaaccccc tcaggtcccc ttccatgctg
+     7621 tggaagcttt gttctttctc tcttcacaat aaatcttgct gctgctcact ctttgggtcg
+     7681 gtgccacctt taaagagctg taatactcac cacgaaggtc cgtggcttca ttcttgaagt
+     7741 cagtgagacc ccaaacccac cagaaggaac aaactcggga cacactagag tgatggtaga
+     7801 ggtgatgagg catgagacag aaataacagg aaagactttg gatccaaatt tccgatcagg
+     7861 caatttacac caaaactcct cctctccact tagaaaaggc ctatgatctg caggaaggtt
+     7921 ggctctggga gactcaggaa cttgtttttc ttcttcctgc agtgccctca tctgagtcct
+     7981 tgaaggaggg gaaaagaaac tgttagtaga gccaggttga aaacaacact ttcctctgtc
+     8041 ttttgcagga ctcctgagct ga
+//

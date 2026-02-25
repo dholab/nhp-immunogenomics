@@ -1,0 +1,1271 @@
+LOCUS       NHP01734                2919 bp    DNA     linear   PRI 23-OCT-2019
+DEFINITION  Mafa-A5*30:01:01:01, A5 locus allele.
+ACCESSION   NHP01734
+VERSION     NHP01734
+DBLINK      INSDC: AY958106
+            INSDC: AM295882
+            INSDC: LR732110
+            INSDC: OR823440
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Krebs KC, Jin Z, Rudersdorf R, Hughes AL, O'Connor DH.
+  TITLE     Unusually high frequency MHC class I alleles in Mauritian origin
+            cynomolgus macaques.
+  JOURNAL   J Immunol 175:5230-5239 (2005)
+   PUBMED   16210628
+REFERENCE   2
+  AUTHORS   Otting N, de Vos-Rouweler AJ, Heijmans CM, de Groot NG, Doxiadis GG,
+            Bontrop RE.
+  TITLE     MHC class I A region diversity and polymorphism in macaque species.
+  JOURNAL   Immunogenetics 59:367-375 (2007)
+   PUBMED   17334754
+COMMENT     IPD-MHC allele: Mafa-A5*30:01:01:01
+            IPD accession: NHP01734
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-A5*30:01; Mafa-A5*3001
+FEATURES             Location/Qualifiers
+     source          1..2919
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2919
+                     /gene="A5"
+                     /allele="Mafa-A5*30:01:01:01"
+                     /note="previous designations: Mafa-A5*30:01; Mafa-A5*3001"
+     exon            1..73
+                     /gene="A5"
+                     /number=1
+     exon            202..471
+                     /gene="A5"
+                     /number=2
+     exon            714..989
+                     /gene="A5"
+                     /number=3
+     exon            1586..1861
+                     /gene="A5"
+                     /number=4
+     exon            1964..2080
+                     /gene="A5"
+                     /number=5
+     exon            2525..2557
+                     /gene="A5"
+                     /number=6
+     exon            2699..2746
+                     /gene="A5"
+                     /number=7
+     exon            2915..2919
+                     /gene="A5"
+                     /number=8
+     intron          74..201
+                     /gene="A5"
+                     /number=1
+     intron          472..713
+                     /gene="A5"
+                     /number=2
+     intron          990..1585
+                     /gene="A5"
+                     /number=3
+     intron          1862..1963
+                     /gene="A5"
+                     /number=4
+     intron          2081..2524
+                     /gene="A5"
+                     /number=5
+     intron          2558..2698
+                     /gene="A5"
+                     /number=6
+     intron          2747..2914
+                     /gene="A5"
+                     /number=7
+     CDS             join(1..73,202..471,714..989,1586..1861,1964..2080,
+                     2525..2557,2699..2746,2915..2919)
+                     /gene="A5"
+                     /allele="Mafa-A5*30:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="IAVMAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRT
+                     LLRYYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 attgcggtca tggcgccccg aaccctcctc ctggtgctct caggggccct ggccctgacc
+       61 cagacctggg ccggtgagtg cggggtcggg agggaaaggg cctctgcggg caggagcgag
+      121 gggaccgcag gcgggggcgc aggaccgggg agccgcgcgg ggaggagggt cgggcgggtc
+      181 tcagcctctc ctcgccccca ggctcccact ccatgaggta tttctacacc gccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatcg ccgtgggcta cgtggacgac acgcagttcg
+      301 tgcggttcga cagcgacgcc gagagtccga ggatggagcc gcgggcgccg tgggtggagc
+      361 gggaggggcc ggagtattgg gaagaggaga cacggatcat gaaggccgag acacaggatg
+      421 ccccagtgga cctgcggacc ctgctccgct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggaccgg ggcgcaggtc acgacccctc cacatccccc acggacggcc cgcgtctccc
+      541 cgagtctccg ggtcccagat acaccccgaa gccgcggaac cccgagaccc ttgacccggg
+      601 agagccccag gcgcctttac ccggtttcat tttcagttga ggccaaaatc cccgcgggtt
+      661 agtcggggcg gggcggggct ccggggacgg gctgaccgcg ggggcggggc cagggtctca
+      721 caccttccag gtaatgtacg gctgcgacct ggggcccgac gggcgcctcc tccgcgggta
+      781 tggccagttc gcctacgacg gcagggatta catcgccctg aacgaggacc tgcgctcctg
+      841 gaccgcggcg gacatggcgg ctcagaacac ccagcggaag tgggaggcgt ccggtcgggc
+      901 agagctgcac agagcatacc tggagggcga gtgcctggag tggctccgca gatacctgga
+      961 gaacgggaag gagacgctgc agcgcgcggg taccaggggc cacggggcgc ctccctgatc
+     1021 gcctgtagat ctcccgggct ggcctcccac aaggagggga gacaactggg accaacacta
+     1081 gaatatcgcc ctccctctgg tcctgaggga gaggaatcct cctgggtttc cagatcctgt
+     1141 accagagggt gactctgagg gtccgccctg ctctctgaca caattaagga taaaatctct
+     1201 gagggaatga agggaagatg atccctcgaa tactgatcag gggttccctt tgacaccggc
+     1261 agcagccttg ggccccgtga cttttcctct caggccctgt tctctgcttc acactcaatg
+     1321 tgtggggggg tctgagtcca gctcctctga gtccctcagc ctccactcag gtcaggacca
+     1381 gaagtcactg ttccctcctc agggaacaga attttccacg gaataggaga ttctcccagg
+     1441 tgcctgtgtc caggatggtg tctgggttct gtgctctctt ccccacccca ggtgtcctgt
+     1501 ccattctcaa gatggccaca tgcgtgctgg tggagtgtcc catgacagat acaaaatgcc
+     1561 tgaattttct gactcttccc atcagacctc cccaagacac atgtgaccca ccaccccgtc
+     1621 tctgactacg aggccaccct gaggtgctgg gccctgggct tctaccctgc ggagatcaca
+     1681 ctgacctggc agcgggatgg ggaggaccaa actcaggaca cggagctcgt ggagactagg
+     1741 cctgcaggag atggaacctt ccagaagtgg gcggctgtgg tggtgccttc tggaaaggag
+     1801 cagagataca cctgtcatgt gcagcatgag ggtctgcctg agcccctcac cctgagatgg
+     1861 ggtaaagaag gagatggggg tgtcatgtct cttagggaaa gccggaacct ctctggagac
+     1921 ctttcgcagg gtcaggaccc ctcagcttcc cctcttttcc cagagccttc ttcccagtcc
+     1981 accatcccca tcgtgggcat cattgctggc ctggttctgc ttggaactgt ggtcactgga
+     2041 gctgtggtcg ctgctgtgat gtggaggagg aagagctcag gtaaagaagg ggtgaggagt
+     2101 ggagtctgag atttcttgtc tcactgaggg tttcaagctc caggtagaag tgtgccctgc
+     2161 ctggttactg ggaagcacca tccacactca tgggccgacc cagcctgggc cctgtgtgcc
+     2221 agcacctact cttttgtaaa gcacctgtta caatgaagga cagatagatc acctcgatta
+     2281 cggtggtgat gggacctgtt cccagcggtc aaaagtcaca tggaaggtcc ctgctgagga
+     2341 cagacctcag gaggggagtt ggtccaggat ccacacctgc tttcttcatg tttcctgatc
+     2401 ccgccctggg tctgcagtca cacatttctg gaaacttctc tggggtccaa gactaggaga
+     2461 ttcctctagg accttatggc cctggtccct ttctgatatc tcacaggaca ttttcttccc
+     2521 acagatagaa aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
+     2581 ccgagatcct tgggatattg tggttggggg cccaggggga gctcacccag cccacagttc
+     2641 ctcctctagt cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
+     2701 agtgacagtg cccagggctc tgatgtgtct ctcacggctt gtaaaggtga gatcctggga
+     2761 ggcctgatgt gtggggggtg ttcaggggaa cagtggacgc agccgtgctg tggggtttct
+     2821 ttgacttgga tgtattgagc atgtgatggg ctgtttaaag tgtcactcct cactgtgacg
+     2881 gatgtgaatt ttttcacgaa tattttttct atagtgtga
+//
+LOCUS       NHP01800                1065 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:02, A5 locus allele.
+ACCESSION   NHP01800
+VERSION     NHP01800
+DBLINK      INSDC: AM295883
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Vos-Rouweler AJ, Heijmans CM, de Groot NG, Doxiadis GG,
+            Bontrop RE.
+  TITLE     MHC class I A region diversity and polymorphism in macaque species.
+  JOURNAL   Immunogenetics 59:367-375 (2007)
+   PUBMED   17334754
+COMMENT     IPD-MHC allele: Mafa-A5*30:02
+            IPD accession: NHP01800
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-A5*3002
+FEATURES             Location/Qualifiers
+     source          1..1065
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..1065
+                     /gene="A5"
+                     /allele="Mafa-A5*30:02"
+                     /note="previous designations: Mafa-A5*3002"
+     exon            1..40
+                     /gene="A5"
+                     /number=1
+     exon            41..310
+                     /gene="A5"
+                     /number=2
+     exon            311..586
+                     /gene="A5"
+                     /number=3
+     exon            587..862
+                     /gene="A5"
+                     /number=4
+     exon            863..979
+                     /gene="A5"
+                     /number=5
+     exon            980..1012
+                     /gene="A5"
+                     /number=6
+     exon            1013..1060
+                     /gene="A5"
+                     /number=7
+     exon            1061..1065
+                     /gene="A5"
+                     /number=8
+     CDS             1..1065
+                     /gene="A5"
+                     /allele="Mafa-A5*30:02"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="VLSGALALTQTWAGSHSMRYFYTAVSRPGRGQPRFFAVGYVDDTQ
+                     FVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLRYYNQSEAG
+                     SHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAS
+                     GRAELHRAYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFY
+                     PAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCHVQHEGLPE
+                     PLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGSYSQAASSD
+                     SAQGSDVSLTACKV"
+ORIGIN
+        1 gtgctctcag gggccctggc cctgacccag acctgggccg gctcccactc catgaggtat
+       61 ttctacaccg ccgtgtcccg gcccggccgc gggcagcccc gcttcttcgc cgtgggctac
+      121 gtggacgaca cgcagttcgt gcggttcgac agcgacgccg agagtccgag gatggagccg
+      181 cgggcgccgt gggtggagcg ggagggaccg gagtattggg aagaggagac acggatcatg
+      241 aaggccgaga cacaggatgc cccagtggac ctgcggaccc tgctccgcta ctacaaccag
+      301 agcgaggccg ggtctcacac cttccaggta atgtacggct gcgacctggg gcccgacggg
+      361 cgcctcctcc gcgggtatgg ccagttcgcc tacgacggca gggattacat cgccctgaac
+      421 gaggacctgc gctcctggac cgcggcggac atggcggctc agaacaccca gcggaagtgg
+      481 gaggcgtccg gtcgggcaga gctgcacaga gcatacctgg agggcgagtg cctggagtgg
+      541 ctccgcagat acctggagaa cgggaaggag acgctgcagc gcgcggaccc ccccaagaca
+      601 catgtgaccc accaccccgt ctctgaccat gaggccaccc tgaggtgctg ggccctgggc
+      661 ttctaccctg cggagatcac actgacctgg cagcgggatg gggaggacca aactcaggac
+      721 acggagctcg tggagactag gcctgcagga gatggaacct tccagaagtg ggcggctgtg
+      781 gtggtgcctt ctggaaagga gcagagatac acctgtcatg tgcagcatga gggtctgccc
+      841 gagcccctca ccctgagatg ggagccttct tcccagtcca ccatccccat cgtgggcatc
+      901 attgctggcc tggttctgct tggaactgtg gtcactggag ctgtggtcgc tgctgtgatg
+      961 tggaggagga agagctcaga tagaaaagga gggagctact ctcaggctgc aagcagtgac
+     1021 agtgcccagg gctctgatgt gtctctcacg gcttgtaaag tgtga
+//
+LOCUS       NHP02377                1089 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:03:01, A5 locus allele.
+ACCESSION   NHP02377
+VERSION     NHP02377
+DBLINK      INSDC: AB447590
+            INSDC: LT559157
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Kita YF, Hosomichi K, Kohara S, Itoh Y, Ogasawara K, Tsuchiya H,
+            Torii R, Inoko H, Blancher A, Kulski JK, Shiina T.
+  TITLE     MHC class I A loci polymorphism and diversity in three Southeast
+            Asian populations of cynomolgus macaque.
+  JOURNAL   Immunogenetics 61:635-648 (2009)
+   PUBMED   19649628
+COMMENT     IPD-MHC allele: Mafa-A5*30:03:01
+            IPD accession: NHP02377
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-A5*30:03; Mafa-A5*3003
+FEATURES             Location/Qualifiers
+     source          1..1089
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..1089
+                     /gene="A5"
+                     /allele="Mafa-A5*30:03:01"
+                     /note="previous designations: Mafa-A5*30:03; Mafa-A5*3003"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            65..334
+                     /gene="A5"
+                     /number=2
+     exon            335..610
+                     /gene="A5"
+                     /number=3
+     exon            611..886
+                     /gene="A5"
+                     /number=4
+     exon            887..1003
+                     /gene="A5"
+                     /number=5
+     exon            1004..1036
+                     /gene="A5"
+                     /number=6
+     exon            1037..1084
+                     /gene="A5"
+                     /number=7
+     exon            1085..1089
+                     /gene="A5"
+                     /number=8
+     CDS             1..1089
+                     /gene="A5"
+                     /allele="Mafa-A5*30:03:01"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGQPRFIS
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggctccc actccatgag gtatttctac accgccgtgt cccggcccgg ccgcgggcag
+      121 ccccgcttca tctccgtggg ctacgtggac gacacgcagt tcgtgcggtt cgacagcgac
+      181 gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg agcgggaggg gccggagtat
+      241 tgggaagagg agacacggat catgaaggcc gagacacagg atgccccagt ggacctgcgg
+      301 accctgctcc gctactacaa ccagagcgag gccgggtctc acaccttcca ggtaatgtac
+      361 ggctgcgacc tggggcccga cgggcgcctc ctccgcgggt atggccagtt cgcctacgac
+      421 ggcagggatt acatcgccct gaacgaggac ctgcgctcct ggaccgcggc ggacatggcg
+      481 gctcagaaca cccagcggaa gtgggaggcg tccggtcggg cagagctgca cagagcatac
+      541 ctggagggcg agtgcctgga gtggctccgc agatacctgg agaacgggaa ggagacgctg
+      601 cagcgcgcgg acctccccaa gacacatgtg acccaccacc ccgtctctga ccatgaggcc
+      661 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg
+      721 gatggggagg accaaactca ggacacggag ctcgtggaga ctaggcctgc aggagatgga
+      781 accttccaga agtgggcggc tgtggtggtg ccttctggaa aggagcagag atacacctgt
+      841 catgtgcagc atgagggtct gcctgagccc ctcaccctga gatgggagcc ttcttcccag
+      901 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggaac tgtggtcact
+      961 ggagctgtgg tcgctgctgt gatgtggagg aggaagagct cagatagaaa aggagggagc
+     1021 tactctcagg ctgcaagcag tgacagtgcc cagggctctg atgtgtctct cacggcttgt
+     1081 aaagtgtga
+//
+LOCUS       NHP02918                1065 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:04, A5 locus allele.
+ACCESSION   NHP02918
+VERSION     NHP02918
+DBLINK      INSDC: FN423784
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, Doxiadis GG, Bontrop RE.
+  TITLE     Definition of Mafa-A and -B haplotypes in pedigreed cynomolgus
+            macaques (Macaca fascicularis).
+  JOURNAL   Immunogenetics 61:745-753 (2009)
+   PUBMED   19937015
+COMMENT     IPD-MHC allele: Mafa-A5*30:04
+            IPD accession: NHP02918
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-A5*3004
+FEATURES             Location/Qualifiers
+     source          1..1065
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..1065
+                     /gene="A5"
+                     /allele="Mafa-A5*30:04"
+                     /note="previous designations: Mafa-A5*3004"
+     exon            1..40
+                     /gene="A5"
+                     /number=1
+     exon            41..310
+                     /gene="A5"
+                     /number=2
+     exon            311..586
+                     /gene="A5"
+                     /number=3
+     exon            587..862
+                     /gene="A5"
+                     /number=4
+     exon            863..979
+                     /gene="A5"
+                     /number=5
+     exon            980..1012
+                     /gene="A5"
+                     /number=6
+     exon            1013..1060
+                     /gene="A5"
+                     /number=7
+     exon            1061..1065
+                     /gene="A5"
+                     /number=8
+     CDS             1..1065
+                     /gene="A5"
+                     /allele="Mafa-A5*30:04"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="VLSGALALTQTWAGSHSMRYFYTSVSRPGRGQPRFFAVGYVDDTQ
+                     FVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLRYYNQSEAG
+                     SHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEAS
+                     GRAELHRAYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFY
+                     PAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCHVQHEGLPE
+                     PLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGSYSQAASSD
+                     SAQGSDVSLTACKV"
+ORIGIN
+        1 gtgctctcag gggccctggc cctgacccag acctgggccg gctcccactc catgaggtat
+       61 ttctacacct ccgtgtcccg gcccggccgc gggcagcccc gcttcttcgc cgtgggctac
+      121 gtggacgaca cgcagttcgt gcggttcgac agcgacgccg agagtccgag gatggagccg
+      181 cgggcgccgt gggtggagcg ggagggaccg gagtattggg aagaggagac acggatcatg
+      241 aaggccgaga cacaggatgc cccagtggac ctgcggaccc tgctccgcta ctacaaccag
+      301 agcgaggccg ggtctcacac cttccaggta atgtacggct gcgacctggg gcccgacggg
+      361 cgcctcctcc gcgggtatgg ccagttcgcc tacgacggca gggattacat cgccctgaac
+      421 gaggacctgc gctcctggac cgcggcggac atggcggctc agaacaccca gcggaagtgg
+      481 gaggcgtccg gtcgggcaga gctgcacaga gcatacctgg agggcgagtg cctggagtgg
+      541 ctccgcagat acctggagaa cgggaaggag acgctgcagc gcgcggaccc ccccaagaca
+      601 catgtgaccc accaccccgt ctctgaccat gaggccaccc tgaggtgctg ggccctgggc
+      661 ttctaccctg cggagatcac actgacctgg cagcgggatg gggaggacca aactcaggac
+      721 acggagctcg tggagactag gcctgcagga gatggaacct tccagaagtg ggcggctgtg
+      781 gtggtgcctt ctggaaagga gcagagatac acctgtcatg tgcagcatga gggtctgccc
+      841 gagcccctca ccctgagatg ggagccttct tcccagtcca ccatccccat cgtgggcatc
+      901 attgctggcc tggttctgct tggaactgtg gtcactggag ctgtggtcgc tgctgtgatg
+      961 tggaggagga agagctcaga tagaaaagga gggagctact ctcaggctgc aagcagtgac
+     1021 agtgcccagg gctctgatgt gtctctcacg gcttgtaaag tgtga
+//
+LOCUS       NHP04422                 787 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:05, A5 locus allele.
+ACCESSION   NHP04422
+VERSION     NHP04422
+DBLINK      INSDC: JN974409
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-A5*30:05
+            IPD accession: NHP04422
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..787
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..787
+                     /gene="A5"
+                     /allele="Mafa-A5*30:05"
+     exon            1..270
+                     /gene="A5"
+                     /number=1
+     exon            512..787
+                     /gene="A5"
+                     /number=2
+     intron          271..511
+                     /gene="A5"
+                     /number=1
+     CDS             join(1..270,512..787)
+                     /gene="A5"
+                     /allele="Mafa-A5*30:05"
+                     /codon_start=3
+                     /product="MHC class I A5 antigen"
+                     /translation="SHSMRYFYTAVSRPGRGEPRFFAVGYVDDTQFVRFDSDAESPRME
+                     PRAPWMEQEGPEYWEEKTRIMKAETQDAPVDLRTLLHYYNQSEAGSHTFQVMYGCDLGP
+                     DGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQNTQRKWEASGRAELHRAYLEGEC
+                     LEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcttcgc cgtgggctac gtggacgaca cgcagttcgt gcggttcgac agcgacgccg
+      121 agagtccgag gatggagccg cgggcgccgt ggatggagca ggaggggccg gagtattggg
+      181 aagagaagac acggatcatg aaggccgaga cacaggatgc cccagtggac ctgcggaccc
+      241 tgctccacta ctacaaccag agcgaggccg gtgagtgacc ccggaccggg gcgcaggtca
+      301 cgaccctcca catcccccac ggacggcccg cgtctccccg agtctccggg tcccagatac
+      361 accccgaagc cgcggaaccc cgagaccctt gacccgggag agccccaggc gcctttaccc
+      421 ggtttcattt tcagttgagg ctaaaatccc cgccggttag tcggggcggg gcggggctcc
+      481 ggggacgggc tgaccgcggg ggcggggcca gggtctcaca ccttccaggt aatgtacggc
+      541 tgcgacctgg ggcccgacgg gcgcctcctc cgcgggtatg gccagttcgc ctacgacggc
+      601 agggattaca tcgccctgaa cgaggacctg cgctcctgga ccgcggcgga catggcggct
+      661 cagaacaccc agcggaagtg ggaggcgtcc ggtcgggcag agctgcacag agcatacctg
+      721 gagggcgagt gcctggagtg gctccgcaga tacctggaga acgggaagga gacgctgcag
+      781 cgcgcgg
+//
+LOCUS       NHP06747                2911 bp    DNA     linear   PRI 23-OCT-2019
+DEFINITION  Mafa-A5*30:06:01:01, A5 locus allele.
+ACCESSION   NHP06747
+VERSION     NHP06747
+DBLINK      INSDC: KP307871
+            INSDC: LR732111
+            INSDC: MW809291
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Westbrook CJ, Karl JA, Wiseman RW, Mate S, Koroleva G, Garcia K,
+            Sanchez-Lockhart M, O'Connor DH, Palacios G.
+  TITLE     No assembly required: Full-length MHC class I allele discovery by
+            PacBio circular consensus sequencing.
+  JOURNAL   Hum Immunol 76:891-896 (2015)
+   PUBMED   26028281
+REFERENCE   2
+  AUTHORS   Hu Q, Huang X, Jin Y, Zhang R, Zhao A, Wang Y, Zhou C, Liu W, Liu X,
+            Li C, Fan G, Zhuo M, Wang X, Ling F, Luo W.
+  TITLE     Long-read assembly of major histocompatibility complex and killer
+            cell immunoglobulin-like receptor genome regions in cynomolgus
+            macaque.
+  JOURNAL   Biol Direct 17:36 (2022)
+   PUBMED   36447238
+COMMENT     IPD-MHC allele: Mafa-A5*30:06:01:01
+            IPD accession: NHP06747
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-A5*30:06
+FEATURES             Location/Qualifiers
+     source          1..2911
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2911
+                     /gene="A5"
+                     /allele="Mafa-A5*30:06:01:01"
+                     /note="previous designations: Mafa-A5*30:06"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            194..463
+                     /gene="A5"
+                     /number=2
+     exon            706..981
+                     /gene="A5"
+                     /number=3
+     exon            1578..1853
+                     /gene="A5"
+                     /number=4
+     exon            1956..2072
+                     /gene="A5"
+                     /number=5
+     exon            2517..2549
+                     /gene="A5"
+                     /number=6
+     exon            2691..2738
+                     /gene="A5"
+                     /number=7
+     exon            2907..2911
+                     /gene="A5"
+                     /number=8
+     intron          65..193
+                     /gene="A5"
+                     /number=1
+     intron          464..705
+                     /gene="A5"
+                     /number=2
+     intron          982..1577
+                     /gene="A5"
+                     /number=3
+     intron          1854..1955
+                     /gene="A5"
+                     /number=4
+     intron          2073..2516
+                     /gene="A5"
+                     /number=5
+     intron          2550..2690
+                     /gene="A5"
+                     /number=6
+     intron          2739..2906
+                     /gene="A5"
+                     /number=7
+     CDS             join(1..64,194..463,706..981,1578..1853,1956..2072,
+                     2517..2549,2691..2738,2907..2911)
+                     /gene="A5"
+                     /allele="Mafa-A5*30:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGEPRFIA
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaagg gcctctgcgg gcaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga gcgggagggg
+      361 ccggagtatt gggaagagga gacacggatc atgaaggccg agacacagga tgccccagtg
+      421 gacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg accccggacc
+      481 ggggcgcagg tcacgacccc tccacatccc ccacggacgg cccgcgtctc cccgagtctc
+      541 cgggtcccag atacaccccg aagccgcgga accccgagac ccttgacccg ggagagcccc
+      601 aggcgccttt acccggtttc attttcagtt gaggccaaaa tccccgccgg ttagtcgggg
+      661 cggggcgggg ctccggggac cggctgaccg cgggggcggg gccagggtct cacaccttcc
+      721 aggtaatgta cggctgcgac ctggggcccg acgggcgcct cctccgcggg tatggccagt
+      781 tcgcctacga cggcagggat tacatcgccc tgaacgagga cctgcgctcc tggaccgcgg
+      841 cggacatggc ggctcagaac acccagcgga agtgggaggc gtccggtcgg gcagagctgc
+      901 acagagcata cctggagggc gagtgcctgg agtggctccg cagatacctg gagaacggga
+      961 aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga tcgcctgtag
+     1021 atctcccggg ctggcctccc acaaggaggg gagacaactg ggaccaacac tagaatatcg
+     1081 ccctccctct ggtcctgagg gaaaggaatc ctcctgggtt tccagatcct gtaccagagg
+     1141 gtgactctga gggtccgccc tgctctctga cacaattaag gataaaatct ctgagggaat
+     1201 gaagggaaga tgatccctcg aatactgatc aggggttccc tttgacaccg gcagcagcct
+     1261 tgggccctgt gacttttcct ctcaggccct gttctctgct tcacactcaa tgtgtggggg
+     1321 ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggac cagaagtcac
+     1381 tgttccctcc tcagggaaca gaattttcca cggaatagga gattctccca ggtgcctgtg
+     1441 tccaggatgg tgtctgggtt ctgtgctctc ttccccaccc caggtgtcct gtccattctc
+     1501 aagatggcca catgcgtgct ggtggagtgt cccatgacag atacaaaatg cctgaatttt
+     1561 ctgactcttc ccatcagacc tccccaagac acatgtgacc caccaccccg tctctgacca
+     1621 tgaggccacc ctgaggtgct gggccctcgg cttctaccct gcggagatca cactgacctg
+     1681 gcagcgggat ggggaggacc aaactcagga cacggagctc gtggagacta ggcctgcagg
+     1741 agatggaacc ttccagaagt gggcggctgt ggtggtgcct tctggaaagg agcagagata
+     1801 cacctgtcat gtgcagcatg agggtctgcc tgagcccctc accctgagat ggggtaaaga
+     1861 aggagatggg ggtgtcatgt ctcttaggga aagccggaac ctctctggag acctttcgca
+     1921 gggtcaggac ccctcagctt cccctctttt cccagagcct tcttcccagt ccaccatccc
+     1981 catcgtgggc atcattgctg gcctggttct gcttggaact gtggtcactg gagctgtggt
+     2041 cgctgctgtg atgtggagga ggaagagctc aggtaaagaa ggggtgagga gtggagtctg
+     2101 agatttcttg tctcactgag ggtttcaagc tccaggtaga agtgtgccct gcctggttac
+     2161 tgggaagcac catccacact catgggccga cccagcctgg gccctgtgtg ccagcaccta
+     2221 ctcttttgta aagcacctgt tacaatgaag gacagataga tcacctcgat tacggtggtg
+     2281 atgggacctg ttcccagcgg tcaaaagtca catggaaggt ccctgctgag gacagacctc
+     2341 aggaggggag ttggtccagg atccacacct gctttcttca tgtttcctga tcccgccctg
+     2401 ggtctgcagt cacacatttc tggaaacttc tctggggtcc aagactagga gattcctcta
+     2461 ggaccttatg gccctggtcc ctttctgata tctcacagga cattttcttc ccacagatag
+     2521 aaaaggaggg agctactctc aggctgcaag taagtatgaa ggaggctgat ccccgagatc
+     2581 cttgggatat tgtggttggg ggcccagggg gagctcaccc agcccacagt tcctcctcta
+     2641 gtcacatctc cagagggatc tgaccaggtc ctgtttttgt tctactccag gcagtgacag
+     2701 tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagatcctgg gaggcctgat
+     2761 gtgtgggggg tgttcagggg aacagtggac gcagccgtgc tgtggggttt ctttgacttg
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtgaa
+     2881 ttttttcacg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP09950                1084 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:07, A5 locus allele.
+ACCESSION   NHP09950
+VERSION     NHP09950
+DBLINK      INSDC: LT964890
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Shortreed CG, Wiseman RW, Karl JA, Bussan HE, Baker DA, Prall TM,
+            Haj AK, Moreno GK, Penedo MCT, O'Connor DH.
+  TITLE     Characterization of 100 extended major histocompatibility complex
+            haplotypes in Indonesian cynomolgus macaques.
+  JOURNAL   Immunogenetics 72:225-239 (2020)
+   PUBMED   32112172
+COMMENT     IPD-MHC allele: Mafa-A5*30:07
+            IPD accession: NHP09950
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1084
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..1084
+                     /gene="A5"
+                     /allele="Mafa-A5*30:07"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            65..334
+                     /gene="A5"
+                     /number=2
+     exon            335..610
+                     /gene="A5"
+                     /number=3
+     exon            611..886
+                     /gene="A5"
+                     /number=4
+     exon            887..1003
+                     /gene="A5"
+                     /number=5
+     exon            1004..1036
+                     /gene="A5"
+                     /number=6
+     exon            1037..1084
+                     /gene="A5"
+                     /number=7
+     CDS             1..1084
+                     /gene="A5"
+                     /allele="Mafa-A5*30:07"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRWEPRFIA
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTIQKMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRTYLEGECLEWLRRYLENGKETLQRSDLPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACK"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggctccc actccatgag gtatttctac accgccgtgt cccggcccgg ccgctgggag
+      121 ccccgcttca tcgccgtggg ctacgtggac gacacgcagt tcgtgcggtt cgacagcgac
+      181 gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg agcaggaggg gccggagtat
+      241 tgggaagagg agacacggat catgaaggcc gagacacagg atgccccagt ggacctgcgg
+      301 accctgctcc gctactacaa ccagagcgag gccgggtctc acaccatcca gaagatgtac
+      361 ggctgcgacc tggggcccga cgggcgcctc ctccgcgggt atggccagtt cgcctacgac
+      421 ggcagggatt acatcgccct gaacgaggac ctgcgctcct ggaccgcggc ggacatggcg
+      481 gctcagaaca cccagcggaa gtgggaggcg tccggtcggg cagagctgca cagaacctac
+      541 ctggagggcg agtgcctgga gtggctccgc agatacctgg agaacgggaa ggagacgctg
+      601 cagcgctcgg acctccccaa gacacatgtg acccaccacc ccgtctctga ccatgaggcc
+      661 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg
+      721 gatggggagg accaaactca ggacacggag ctcgtggaga ctaggcctgc aggagatgga
+      781 accttccaga agtgggcggc tgtggtggtg ccttctggaa aggagcagag atacacctgt
+      841 catgtgcagc atgagggtct gcccgagccc ctcaccctga gatgggagcc ttcttcccag
+      901 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggaac tgtggtcact
+      961 ggagctgtgg tcgctgctgt gatgtggagg aggaagagct cagatagaaa aggagggagc
+     1021 tactctcagg ctgcaagcag tgacagtgcc cagggctctg atgtgtctct cacggcttgt
+     1081 aaag
+//
+LOCUS       NHP09966                1084 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:03:02, A5 locus allele.
+ACCESSION   NHP09966
+VERSION     NHP09966
+DBLINK      INSDC: LT966326
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Shortreed CG, Wiseman RW, Karl JA, Bussan HE, Baker DA, Prall TM,
+            Haj AK, Moreno GK, Penedo MCT, O'Connor DH.
+  TITLE     Characterization of 100 extended major histocompatibility complex
+            haplotypes in Indonesian cynomolgus macaques.
+  JOURNAL   Immunogenetics 72:225-239 (2020)
+   PUBMED   32112172
+COMMENT     IPD-MHC allele: Mafa-A5*30:03:02
+            IPD accession: NHP09966
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1084
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..1084
+                     /gene="A5"
+                     /allele="Mafa-A5*30:03:02"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            65..334
+                     /gene="A5"
+                     /number=2
+     exon            335..610
+                     /gene="A5"
+                     /number=3
+     exon            611..886
+                     /gene="A5"
+                     /number=4
+     exon            887..1003
+                     /gene="A5"
+                     /number=5
+     exon            1004..1036
+                     /gene="A5"
+                     /number=6
+     exon            1037..1084
+                     /gene="A5"
+                     /number=7
+     CDS             1..1084
+                     /gene="A5"
+                     /allele="Mafa-A5*30:03:02"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGQPRFIS
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACK"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggctccc actccatgag gtatttctac accgccgtgt cccggcccgg ccgcgggcag
+      121 ccccgcttca tctccgtggg ctacgtggac gacacgcagt tcgtgcggtt cgacagcgac
+      181 gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg agcgggaggg gccggagtat
+      241 tgggaagagg agacacggat catgaaggcc gagacacagg atgccccagt ggacctgcgg
+      301 accctgctcc gctactacaa ccagagcgag gccgggtctc acaccttcca ggtaatgtac
+      361 ggctgcgacc tggggcccga cgggcgcctc ctccgcgggt atggccagtt cgcctacgac
+      421 ggcagggatt acatcgccct gaacgaggac ctgcgctcct ggaccgcggc ggacatggcg
+      481 gctcagaaca cccagcggaa gtgggaggcg tccggtcggg cagagctgca cagagcatac
+      541 ctggagggcg agtgcctgga gtggctccgc agatacctgg agaacgggaa ggagacgctg
+      601 cagcgcgcgg acctccccaa gacacatgtg acccaccacc ccgtctctga ccatgaggcc
+      661 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac atggcagcgg
+      721 gatggggagg accaaactca ggacacggag ctcgtggaga ctaggcctgc aggagatgga
+      781 accttccaga agtgggcggc tgtggtggtg ccttctggaa aggagcagag atacacctgt
+      841 catgtgcagc atgagggtct gcctgagccc ctcaccctga gatgggagcc ttcttcccag
+      901 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggaac tgtggtcact
+      961 ggagctgtgg tcgctgctgt gatgtggagg aggaagagct cagatagaaa aggagggagc
+     1021 tactctcagg ctgcaagcag tgacagtgcc cagggctctg atgtgtctct cacggcttgt
+     1081 aaag
+//
+LOCUS       NHP10063                1089 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-A5*30:08, A5 locus allele.
+ACCESSION   NHP10063
+VERSION     NHP10063
+DBLINK      INSDC: LR131176
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Shortreed CG, Wiseman RW, Karl JA, Bussan HE, Baker DA, Prall TM,
+            Haj AK, Moreno GK, Penedo MCT, O'Connor DH.
+  TITLE     Characterization of 100 extended major histocompatibility complex
+            haplotypes in Indonesian cynomolgus macaques.
+  JOURNAL   Immunogenetics 72:225-239 (2020)
+   PUBMED   32112172
+COMMENT     IPD-MHC allele: Mafa-A5*30:08
+            IPD accession: NHP10063
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1089
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..1089
+                     /gene="A5"
+                     /allele="Mafa-A5*30:08"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            65..334
+                     /gene="A5"
+                     /number=2
+     exon            335..610
+                     /gene="A5"
+                     /number=3
+     exon            611..886
+                     /gene="A5"
+                     /number=4
+     exon            887..1003
+                     /gene="A5"
+                     /number=5
+     exon            1004..1036
+                     /gene="A5"
+                     /number=6
+     exon            1037..1084
+                     /gene="A5"
+                     /number=7
+     exon            1085..1089
+                     /gene="A5"
+                     /number=8
+     CDS             1..1089
+                     /gene="A5"
+                     /allele="Mafa-A5*30:08"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGEPRFIA
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYEQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDYEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggctccc actccatgag gtatttctac accgccgtgt cccggcccgg ccgcggggag
+      121 ccccgcttca tcgccgtggg ctacgtggac gacacgcagt tcgtgcggtt cgacagcgac
+      181 gccgagagtc cgaggatgga gccgcgggcg ccgtgggtgg agcgggaggg gccggagtat
+      241 tgggaagagg agacacggat catgaaggcc gagacacagg atgccccagt ggacctgcgg
+      301 accctgctcc gctactacaa ccagagcgag gccgggtctc acaccttcca ggtaatgtac
+      361 ggctgcgacc tggggcccga cgggcgcctc ctccgcgggt atgaacagtt cgcctacgac
+      421 ggcagggatt acatcgccct gaacgaggac ctgcgctcct ggaccgcggc ggacatggcg
+      481 gctcagaaca cccagcggaa gtgggaggcg tccggtcggg cagagctgca cagagcatac
+      541 ctggagggcg agtgcctgga gtggctccgc agatacctgg agaacgggaa ggagacgctg
+      601 cagcgcgcgg acctccccaa gacacatgtg acccaccacc ccgtctctga ctacgaggcc
+      661 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg
+      721 gatggggagg accaaactca ggacacggag ctcgtggaga ctaggcctgc aggagatgga
+      781 accttccaga agtgggcggc tgtggtggtg ccttctggaa aggagcagag atacacctgt
+      841 catgtgcagc atgagggtct gcctgagccc ctcaccctga gatgggagcc ttcttcccag
+      901 tccaccatcc ccatcgtggg catcattgct ggcctggttc tgcttggaac tgtggtcact
+      961 ggagctgtgg tcgctgctgt gatgtggagg aggaagagct cagatagaaa aggagggagc
+     1021 tactctcagg ctgcaagcag tgacagtgcc cagggctctg atgtgtctct cacggcttgt
+     1081 aaagtgtga
+//
+LOCUS       NHP10511                2911 bp    DNA     linear   PRI 29-OCT-2019
+DEFINITION  Mafa-A5*30:06:01:02, A5 locus allele.
+ACCESSION   NHP10511
+VERSION     NHP10511
+DBLINK      INSDC: LR732113
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-A5*30:06:01:02
+            IPD accession: NHP10511
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2911
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2911
+                     /gene="A5"
+                     /allele="Mafa-A5*30:06:01:02"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            194..463
+                     /gene="A5"
+                     /number=2
+     exon            706..981
+                     /gene="A5"
+                     /number=3
+     exon            1578..1853
+                     /gene="A5"
+                     /number=4
+     exon            1956..2072
+                     /gene="A5"
+                     /number=5
+     exon            2517..2549
+                     /gene="A5"
+                     /number=6
+     exon            2691..2738
+                     /gene="A5"
+                     /number=7
+     exon            2907..2911
+                     /gene="A5"
+                     /number=8
+     intron          65..193
+                     /gene="A5"
+                     /number=1
+     intron          464..705
+                     /gene="A5"
+                     /number=2
+     intron          982..1577
+                     /gene="A5"
+                     /number=3
+     intron          1854..1955
+                     /gene="A5"
+                     /number=4
+     intron          2073..2516
+                     /gene="A5"
+                     /number=5
+     intron          2550..2690
+                     /gene="A5"
+                     /number=6
+     intron          2739..2906
+                     /gene="A5"
+                     /number=7
+     CDS             join(1..64,194..463,706..981,1578..1853,1956..2072,
+                     2517..2549,2691..2738,2907..2911)
+                     /gene="A5"
+                     /allele="Mafa-A5*30:06:01:02"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGEPRFIA
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaagg gcctctgcgg gcaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga gcgggagggg
+      361 ccggagtatt gggaagagga gacacggatc atgaaggccg agacacagga tgccccagtg
+      421 gacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg accccggacc
+      481 ggggcgcagg tcacgacccc tccacatccc ccacggacgg cccgcgtctc cccgagtctc
+      541 cgggtcccag atacaccccg aagccgcgga accccgagac ccttgacccg ggagagcccc
+      601 aggcgccttt acccggtttc attttcagtt gaggccaaaa tccccgccgg ttagtcgggg
+      661 cggggcgggg ctccggggac cggctgaccg cgggggcggg gccagggtct cacaccttcc
+      721 aggtaatgta cggctgcgac ctggggcccg acgggcgcct cctccgcggg tatggccagt
+      781 tcgcctacga cggcagggat tacatcgccc tgaacgagga cctgcgctcc tggaccgcgg
+      841 cggacatggc ggctcagaac acccagcgga agtgggaggc gtccggtcgg gcagagctgc
+      901 acagagcata cctggagggc gagtgcctgg agtggctccg cagatacctg gagaacggga
+      961 aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga tcgcctgtag
+     1021 atctcccggg ctggcctccc acaaggaggg gagacaactg ggaccaacac tagaatatcg
+     1081 ccctccctct ggtcctgagg gaaaggaatc ctcctgggtt tccagatcct gtaccagagg
+     1141 gtgactctga gggtccgccc tgctctctga cacaattaag gataaaatct ctgagggaat
+     1201 gaagggaaga tgatccctcg aatactgatc aggggttccc tttgacaccg gcagcagcct
+     1261 tgggccctgt gacttttcct ctcaggccct gttctctgct tcacactcaa tgtgtggggg
+     1321 ggtctgagtc cagctcctct gagtccctca gcctccattc aggtcaggac cagaagtcac
+     1381 tgttccctcc tcagggaaca gaattttcca cggaatagga gattctccca ggtgcctgtg
+     1441 tccaggatgg tgtctgggtt ctgtgctctc ttccccaccc caggtgtcct gtccattctc
+     1501 aagatggcca catgcgtgct ggtggagtgt cccatgacag atacaaaatg cctgaatttt
+     1561 ctgactcttc ccatcagacc tccccaagac acatgtgacc caccaccccg tctctgacca
+     1621 tgaggccacc ctgaggtgct gggccctcgg cttctaccct gcggagatca cactgacctg
+     1681 gcagcgggat ggggaggacc aaactcagga cacggagctc gtggagacta ggcctgcagg
+     1741 agatggaacc ttccagaagt gggcggctgt ggtggtgcct tctggaaagg agcagagata
+     1801 cacctgtcat gtgcagcatg agggtctgcc tgagcccctc accctgagat ggggtaaaga
+     1861 aggagatggg ggtgtcatgt ctcttaggga aagccggaac ctctctggag acctttcgca
+     1921 gggtcaggac ccctcagctt cccctctttt cccagagcct tcttcccagt ccaccatccc
+     1981 catcgtgggc atcattgctg gcctggttct gcttggaact gtggtcactg gagctgtggt
+     2041 cgctgctgtg atgtggagga ggaagagctc aggtaaagaa ggggtgagga gtggagtctg
+     2101 agatttcttg tctcactgag ggtttcaagc tccaggtaga agtgtgccct gcctggttac
+     2161 tgggaagcac catccacact catgggccga cccagcctgg gccctgtgtg ccagcaccta
+     2221 ctcttttgta aagcacctgt tacaatgaag gacagataga tcacctcgat tacggtggtg
+     2281 atgggacctg ttcccagcgg tcaaaagtca catggaaggt ccctgctgag gacagacctc
+     2341 aggaggggag ttggtccagg atccacacct gctttcttca tgtttcctga tcccgccctg
+     2401 ggtctgcagt cacacatttc tggaaacttc tctggggtcc aagactagga gattcctcta
+     2461 ggaccttatg gccctggtcc ctttctgata tctcacagga cattttcttc ccacagatag
+     2521 aaaaggaggg agctactctc aggctgcaag taagtatgaa ggaggctgat ccccgagatc
+     2581 cttgggatat tgtggttggg ggcccagggg gagctcaccc agcccacagt tcctcctcta
+     2641 gtcacatctc cagagggatc tgaccaggtc ctgtttttgt tctactccag gcagtgacag
+     2701 tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagatcctgg gaggcctgat
+     2761 gtgtgggggg tgttcagggg aacagtggac gcagccgtgc tgtggggttt ctttgacttg
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtgaa
+     2881 ttttttcacg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP10531                2870 bp    DNA     linear   PRI 20-NOV-2019
+DEFINITION  Mafa-A5*30:06:01:03, A5 locus allele.
+ACCESSION   NHP10531
+VERSION     NHP10531
+DBLINK      INSDC: LR738749
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-A5*30:06:01:03
+            IPD accession: NHP10531
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2870
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2870
+                     /gene="A5"
+                     /allele="Mafa-A5*30:06:01:03"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            194..463
+                     /gene="A5"
+                     /number=2
+     exon            706..981
+                     /gene="A5"
+                     /number=3
+     exon            1578..1853
+                     /gene="A5"
+                     /number=4
+     exon            1956..2072
+                     /gene="A5"
+                     /number=5
+     exon            2517..2549
+                     /gene="A5"
+                     /number=6
+     exon            2691..2738
+                     /gene="A5"
+                     /number=7
+     exon            2866..2870
+                     /gene="A5"
+                     /number=8
+     intron          65..193
+                     /gene="A5"
+                     /number=1
+     intron          464..705
+                     /gene="A5"
+                     /number=2
+     intron          982..1577
+                     /gene="A5"
+                     /number=3
+     intron          1854..1955
+                     /gene="A5"
+                     /number=4
+     intron          2073..2516
+                     /gene="A5"
+                     /number=5
+     intron          2550..2690
+                     /gene="A5"
+                     /number=6
+     intron          2739..2865
+                     /gene="A5"
+                     /number=7
+     CDS             join(1..64,194..463,706..981,1578..1853,1956..2072,
+                     2517..2549,2691..2738,2866..2870)
+                     /gene="A5"
+                     /allele="Mafa-A5*30:06:01:03"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGEPRFIA
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaagg gcctctgcgg gcaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga gcgggagggg
+      361 ccggagtatt gggaagagga gacacggatc atgaaggccg agacacagga tgccccagtg
+      421 gacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg accccggacc
+      481 ggggcgcagg tcacgacccc tccacatccc ccacggacgg cccgcgtctc cccgagtctc
+      541 cgggtcccag atacaccccg aagccgcgga accccgagac ccttgacccg ggagagcccc
+      601 aggcgccttt acccggtttc attttcagtt gaggccaaaa tccccgccgg ttagtcgggg
+      661 cggggcgggg ctccggggac gggctgaccg cgggggcggg gccagggtct cacaccttcc
+      721 aggtaatgta cggctgcgac ctggggcccg acgggcgcct cctccgcggg tatggccagt
+      781 tcgcctacga cggcagggat tacatcgccc tgaacgagga cctgcgctcc tggaccgcgg
+      841 cggacatggc ggctcagaac acccagcgga agtgggaggc gtccggtcgg gcagagctgc
+      901 acagagcata cctggagggc gagtgcctgg agtggctccg cagatacctg gagaacggga
+      961 aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga tcgcctgtag
+     1021 atctcccggg ctggcctccc acaaggaggg gagacaactg ggaccaacac tagaatatcg
+     1081 ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct gtaccagagg
+     1141 gtgactctga gggtccgccc tgctctctga cacaattaag gataaaatct ctgagggaat
+     1201 gaagggaaga tgatccctcg aatactgatc aggggttccc tttgacaccg gcagcagcct
+     1261 tgggccctgt gacttttcct ctcaggccct gttctctgct tcacactcaa tgtgtggggg
+     1321 ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggac cagaagtcac
+     1381 tgttccctcc tcagggaaca gaattttcca cggaatagga gattctccca ggtgcctgtg
+     1441 tccaggatgg tgtctgggtt ctgtgctctc ttccccaccc caggtgtcct gtccattctc
+     1501 aagatggcca catgcgtgct ggtggagtgt cccatgacag atacaaaatg cctgaatttt
+     1561 ctgactcttc ccatcagacc tccccaagac acatgtgacc caccaccccg tctctgacca
+     1621 tgaggccacc ctgaggtgct gggccctcgg cttctaccct gcggagatca cactgacctg
+     1681 gcagcgggat ggggaggacc aaactcagga cacggagctc gtggagacta ggcctgcagg
+     1741 agatggaacc ttccagaagt gggcggctgt ggtggtgcct tctggaaagg agcagagata
+     1801 cacctgtcat gtgcagcatg agggtctgcc tgagcccctc accctgagat ggggtaaaga
+     1861 aggagatggg ggtgtcatgt ctcttaggga aagccggaac ctctctggag acctttcgca
+     1921 gggtcaggac ccctcagctt cccctctttt cccagagcct tcttcccagt ccaccatccc
+     1981 catcgtgggc atcattgctg gcctggttct gcttggaact gtggtcactg gagctgtggt
+     2041 cgctgctgtg atgtggagga ggaagagctc aggtaaagaa ggggtgagga gtggagtctg
+     2101 agatttcttg tctcactgag ggtttcaagc tccaggtaga agtgtgccct gcctggttac
+     2161 tgggaagcac catccacact catgggccga cccagcctgg gccctgtgtg ccagcaccta
+     2221 ctcttttgta aagcacctgt tacaatgaag gacagataga tcacctcgat tacggtggtg
+     2281 atgggacctg ttcccagcgg tcaaaagtca catggaaggt ccctgctgag gacagacctc
+     2341 aggaggggag ttggtccagg atccacacct gctttcttca tgtttcctga tcccgccctg
+     2401 ggtctgcagt cacacatttc tggaaacttc tctggggtcc aagactagga gattcctcta
+     2461 ggaccttatg gccctggtcc ctttctgata tctcacagga cattttcttc ccacagatag
+     2521 aaaaggaggg agctactctc aggctgcaag taagtatgaa ggaggctgat ccccgagatc
+     2581 cttgggatat tgtggttggg ggcccagggg gagctcaccc agcccacagt tcctcctcta
+     2641 gtcacatctc cagagggatc tgaccaggtc ctgtttttgt tctactccag gcagtgacag
+     2701 tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagatcctgg gaggcctgat
+     2761 gtgtgggggg tgttcagggg aacagtggac gcagccgtgc tgtggggttt ctttgacttg
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+//
+LOCUS       NHP12388                2911 bp    DNA     linear   PRI 09-JAN-2024
+DEFINITION  Mafa-A5*30:01:01:02, A5 locus allele.
+ACCESSION   NHP12388
+VERSION     NHP12388
+DBLINK      INSDC: OR823441
+KEYWORDS    IPD-MHC; MHC class I; A5.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-A5*30:01:01:02
+            IPD accession: NHP12388
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2911
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2911
+                     /gene="A5"
+                     /allele="Mafa-A5*30:01:01:02"
+     exon            1..64
+                     /gene="A5"
+                     /number=1
+     exon            194..463
+                     /gene="A5"
+                     /number=2
+     exon            706..981
+                     /gene="A5"
+                     /number=3
+     exon            1578..1853
+                     /gene="A5"
+                     /number=4
+     exon            1956..2072
+                     /gene="A5"
+                     /number=5
+     exon            2517..2549
+                     /gene="A5"
+                     /number=6
+     exon            2691..2738
+                     /gene="A5"
+                     /number=7
+     exon            2907..2911
+                     /gene="A5"
+                     /number=8
+     intron          65..193
+                     /gene="A5"
+                     /number=1
+     intron          464..705
+                     /gene="A5"
+                     /number=2
+     intron          982..1577
+                     /gene="A5"
+                     /number=3
+     intron          1854..1955
+                     /gene="A5"
+                     /number=4
+     intron          2073..2516
+                     /gene="A5"
+                     /number=5
+     intron          2550..2690
+                     /gene="A5"
+                     /number=6
+     intron          2739..2906
+                     /gene="A5"
+                     /number=7
+     CDS             join(1..64,194..463,706..981,1578..1853,1956..2072,
+                     2517..2549,2691..2738,2907..2911)
+                     /gene="A5"
+                     /allele="Mafa-A5*30:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I A5 antigen"
+                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTAVSRPGRGEPRFIA
+                     VGYVDDTQFVRFDSDAESPRMEPRAPWVEREGPEYWEEETRIMKAETQDAPVDLRTLLR
+                     YYNQSEAGSHTFQVMYGCDLGPDGRLLRGYGQFAYDGRDYIALNEDLRSWTAADMAAQN
+                     TQRKWEASGRAELHRAYLEGECLEWLRRYLENGKETLQRADLPKTHVTHHPVSDYEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGKEQRYTCH
+                     VQHEGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRKGGS
+                     YSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac ccagacctgg
+       61 gccggtgagt gcggggtcgg gagggaaagg gcctctgcgg gcaggagcga ggggaccgca
+      121 ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctccca ctccatgagg tatttctaca ccgccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt cgtgcggttc
+      301 gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga gcgggagggg
+      361 ccggagtatt gggaagagga gacacggatc atgaaggccg agacacagga tgccccagtg
+      421 gacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg accccggacc
+      481 ggggcgcagg tcacgacccc tccacatccc ccacggacgg cccgcgtctc cccgagtctc
+      541 cgggtcccag atacaccccg aagccgcgga accccgagac ccttgacccg ggagagcccc
+      601 aggcgccttt acccggtttc attttcagtt gaggccaaaa tccccgcggg ttagtcgggg
+      661 cggggcgggg ctccggggac gggctgaccg cgggggcggg gccagggtct cacaccttcc
+      721 aggtaatgta cggctgcgac ctggggcccg acgggcgcct cctccgcggg tatggccagt
+      781 tcgcctacga cggcagggat tacatcgccc tgaacgagga cctgcgctcc tggaccgcgg
+      841 cggacatggc ggctcagaac acccagcgga agtgggaggc gtccggtcgg gcagagctgc
+      901 acagagcata cctggagggc gagtgcctgg agtggctccg cagatacctg gagaacggga
+      961 aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga tcgcctgtag
+     1021 atctcccggg ctggcctccc acaaggaggg gagacaactg ggaccaacac tagaatatcg
+     1081 ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct gtaccagagg
+     1141 gtgactctga gggtccgccc tgctctctga cacaattaag gataaaatct ctgagggaat
+     1201 gaagggaaga tgatccctcg aatactgatc aggggttccc tttgacaccg gcagcagcct
+     1261 tgggccccgt gacttttcct ctcaggccct gttctctgct tcacactcaa tgtgtggggg
+     1321 ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggac cagaagtcac
+     1381 tgttccctcc tcagggaaca gaattttcca cggaatagga gattctccca ggtgcctgtg
+     1441 tccaggatgg tgtctgggtt ctgtgctctc ttccccaccc caggtgtcct gtccattctc
+     1501 aagatggcca catgcgtgct ggtggagtgt cccatgacag atacaaaatg cctgaatttt
+     1561 ctgactcttc ccatcagacc tccccaagac acatgtgacc caccaccccg tctctgacta
+     1621 cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg
+     1681 gcagcgggat ggggaggacc aaactcagga cacggagctc gtggagacta ggcctgcagg
+     1741 agatggaacc ttccagaagt gggcggctgt ggtggtgcct tctggaaagg agcagagata
+     1801 cacctgtcat gtgcagcatg agggtctgcc tgagcccctc accctgagat ggggtaaaga
+     1861 aggagatggg ggtgtcatgt ctcttaggga aagccggaac ctctctggag acctttcgca
+     1921 gggtcaggac ccctcagctt cccctctttt cccagagcct tcttcccagt ccaccatccc
+     1981 catcgtgggc atcattgctg gcctggttct gcttggaact gtggtcactg gagctgtggt
+     2041 cgctgctgtg atgtggagga ggaagagctc aggtaaagaa ggggtgagga gtggagtctg
+     2101 agatttcttg tctcactgag ggtttcaagc tccaggtaga agtgtgccct gcctggttac
+     2161 tgggaagcac catccacact catgggccga cccagcctgg gccctgtgtg ccagcaccta
+     2221 ctcttttgta aagcacctgt tacaatgaag gacagataga tcacctcgat tacggtggtg
+     2281 atgggacctg ttcccagcgg tcaaaagtca catggaaggt ccctgctgag gacagacctc
+     2341 aggaggggag ttggtccagg atccacacct gctttcttca tgtttcctga tcccgccctg
+     2401 ggtctgcagt cacacatttc tggaaacttc tctggggtcc aagactagga gattcctcta
+     2461 ggaccttatg gccctggtcc ctttctgata tctcacagga cattttcttc ccacagatag
+     2521 aaaaggaggg agctactctc aggctgcaag taagtatgaa ggaggctgat ccccgagatc
+     2581 cttgggatat tgtggttggg ggcccagggg gagctcaccc agcccacagt tcctcctcta
+     2641 gtcacatctc cagagggatc tgaccaggtc ctgtttttgt tctactccag gcagtgacag
+     2701 tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagatcctgg gaggcctgat
+     2761 gtgtgggggg tgttcagggg aacagtggac gcagccgtgc tgtggggttt ctttgacttg
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtgaa
+     2881 ttttttcacg aatatttttt ctatagtgtg a
+//

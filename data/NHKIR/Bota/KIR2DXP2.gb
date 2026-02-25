@@ -1,0 +1,103 @@
+LOCUS       BOTA00244               2803 bp    DNA     linear   PRI 01-OCT-2019
+DEFINITION  Bota-KIR2DXP2*001, KIR2DXP2 locus allele.
+ACCESSION   BOTA00244
+VERSION     BOTA00244
+DBLINK      INSDC: JX848332
+KEYWORDS    IPD-NHKIR; KIR2DXP2.
+SOURCE      Bos sp. (Cattle)
+  ORGANISM  Bos sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     IPD-NHKIR allele: Bota-KIR2DXP2*001
+            IPD accession: BOTA00244
+            Species prefix: Bota
+            Previous designations: BoLA-KIR2DXP2*001
+FEATURES             Location/Qualifiers
+     source          1..2803
+                     /organism="Bos sp."
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:29061"
+     gene            1..2803
+                     /gene="KIR2DXP2"
+                     /allele="Bota-KIR2DXP2*001"
+                     /note="previous designations: BoLA-KIR2DXP2*001"
+     exon            1..34
+                     /gene="KIR2DXP2"
+                     /number=1
+     exon            171..206
+                     /gene="KIR2DXP2"
+                     /number=2
+     exon            1345..1611
+                     /gene="KIR2DXP2"
+                     /number=3
+     exon            2504..2803
+                     /gene="KIR2DXP2"
+                     /number=4
+     intron          35..170
+                     /gene="KIR2DXP2"
+                     /number=1
+     intron          207..1344
+                     /gene="KIR2DXP2"
+                     /number=2
+     intron          1612..2503
+                     /gene="KIR2DXP2"
+                     /number=3
+     CDS             join(1..34,171..206,1345..1611,2504..2803)
+                     /gene="KIR2DXP2"
+                     /allele="Bota-KIR2DXP2*001"
+                     /codon_start=1
+                     /product="killer cell immunoglobulin-like receptor
+                     KIR2DXP2"
+                     /translation="MCPTLLSLLSLVLGFCVRIWAAVGKYEKLSLSSWPSPVVPLGQTV
+                     TLQCHSHSPLKRFRLFKTDGKRCLPEFQGHHFNNFTLGPVTREHAGSYTCSETYWSAPS
+                     X"
+ORIGIN
+        1 atgtgcccca cactcctcag cctcctgagt ctcggtgaat ccagaaagac acagtaggag
+       61 agggttattg tggaaaccag agggtcttca caccactaac cagaatccct ggatgaaggt
+      121 gcaaggagtg tggggtccat caggacaagc cttctctgac atgctttacc ttctaggatt
+      181 ctgtgtgagg atctgggcag ctgtgggtga gtcctcccca tcccttattt ctctgttgag
+      241 caacacagtt ggggctgatg cagattacac tgagggctgg ggtgagaccc cctgtcagta
+      301 cagcgacagc catctaccct gtggatcccc ggtcctccta ttggcaatga tactcatctt
+      361 cactctcccc agaggttacc ccagctctag actctggacc tgaaggcaca gtgtgaagtc
+      421 tgggagctgg gagctaggcc cactgagtgc catttctatc atgagtgggg agcaagaggc
+      481 tgcagcccac agaccctccc ctacaagctg gctcctggca tctccaactg gcccttaaca
+      541 acaggatctg caggactgcc cactagacct gaccccaggg aagggtctgg tcatcaggca
+      601 gggccacttg gaccttgtca cacatttgat ctaggttagc taacaaagga gcgaggttca
+      661 aggtttactt ccttcttttt aatcaagtgg ctttttcact gcttagttgt ggtagtgtta
+      721 gtgggtcgtg tccgactcct ttcaactcca tggactgtag ctcaccaggc tcctctgtcc
+      781 atgggattct ccaggcaaga atatggaggt ggttgccatt tccttaacca ggggatcttg
+      841 ccatctcagg gactgaaccc tggtctcctg ccttgcagga agattcttta ccattttgag
+      901 ctacaacaaa tgcaaccggg aagtcctttt gcttcttctc catagatcaa tttttctgtg
+      961 gggttttatt ttgccttcat cgtgcagctt gcgggatctt agatccctga tcagggtttc
+     1021 aactcgggcc cttggcagag aaagtgccaa gttctaacca ctggactgcc cagaaatccc
+     1081 aaattttttg tgttttgaga gataggtttt cattattttg tcaacccaag aagtgattca
+     1141 tgtcctgaga gtttccatga tgtctctcct ggattgactg tgtctctgtc tgtccccaag
+     1201 ccccaggtgt ccttgagcat cagggtgatg cacattaggg gagaagagtt cgaagaatta
+     1261 aaggggaagc ccacccacga gggctgtggg gagagctgag tgttcccatt ttctactcaa
+     1321 agcctgtgtc tccttctctc ctaggtaaat atgagaagct gtctttgtcc tcctggccaa
+     1381 gccccgtggt tcccttagga cagactgtga ctcttcagtg tcactcccat tccccactta
+     1441 agagattcag actgttcaaa acagatggga aaaggtgttt gcctgagttc caaggacatc
+     1501 atttcaataa cttcaccctt ggcccggtga ccagagaaca tgccgggtcc tacacatgtt
+     1561 ctgaaaccta ctggtctgca cccagttgac cccctgcaga ttgtggtctc aggtaggagg
+     1621 ggtccagccc agcccagtac agccgtgcct gcaggcaacc cttccctagg tccatgtccc
+     1681 agtgcagccc aagacttcct caggattccc aggcaccact gaaccaggga aagagaaccc
+     1741 actctgagcg tttaaactca gggtgttgaa tagagggatg gggtgcccca gtgcaggaag
+     1801 gaggagcctc cctaggcatg agttagacag gatgctgcca ctgcctaccc gcagggagga
+     1861 tggggcagga ccctgatcca gcacctgcca cccgttaggg agctataatc ccatttgaac
+     1921 gagttggagc cccagggagg agtctcagga atgtctcaga ggcatgaggt ggggtaacag
+     1981 gtgggaaatg ttcccttttc tccacctcca tcccaacgtc ctgcagtcat cacccacatt
+     2041 ctagatgaat gtgaagggag ccagggtatg catccataga cccaccccag cccccaccac
+     2101 acatattagg gatgggatga agctgagagc atggcaaccc actccagtat tctcaactgg
+     2161 agaatcccat gggcagagga gcctggctga ctacagtcca tggagttgca cagactcaac
+     2221 tgaagtgact gagtaagtat gcatgaaccc cagagcaggt ccaacagcta aagagcttag
+     2281 aatgaggaca gaggaggctg gagatcttga gcaaagagaa acatgagcca gaaggaaaaa
+     2341 catgagccag agcctgagta caaggctaaa gagaatgcaa caaaacacac aggaagggta
+     2401 actggctcct ctggcaaatg gggaggagtt ttacaccttc agatgtcagg ggaatggcca
+     2461 aggtggggtg actcactgaa gctcacaagc tctttgctcc taggtgtgtt cacaaaaccc
+     2521 tccatctcag cccacccacg gcccctcatg gaggtgggag agaatgtgac cctccgctgt
+     2581 cactcaccgc tgttgtttga caagtttacc ctgcaccagg aaagcagcac agggcatttc
+     2641 cagagacctg gagagatgct cactcgtggg catgccccag ctgacttctc cattggcccc
+     2701 atgactttgg caagaccggg cacctacaga tgctctggct ctctcagcca gtccccctat
+     2761 gagtggtcag ctcccagcga ccctgtggac atcatcatca cag
+//

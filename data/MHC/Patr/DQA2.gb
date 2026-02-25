@@ -1,0 +1,47 @@
+LOCUS       NHP00838                 188 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQA2*01:01, DQA2 locus allele.
+ACCESSION   NHP00838
+VERSION     NHP00838
+DBLINK      INSDC: M76192
+KEYWORDS    IPD-MHC; MHC class II; DQA2.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Leunissen J, Jonker M, Bontrop RE.
+  TITLE     Evolutionary relationships among the primate Mhc-DQA1 and DQA2
+            alleles.
+  JOURNAL   Immunogenetics 36:71-78 (1992)
+   PUBMED   1612647
+COMMENT     IPD-MHC allele: Patr-DQA2*01:01
+            IPD accession: NHP00838
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQA2*0101
+FEATURES             Location/Qualifiers
+     source          1..188
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..188
+                     /gene="DQA2"
+                     /allele="Patr-DQA2*01:01"
+                     /note="previous designations: Patr-DQA2*0101"
+     exon            1..188
+                     /gene="DQA2"
+                     /number=1
+     CDS             1..188
+                     /gene="DQA2"
+                     /allele="Patr-DQA2*01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA2 antigen"
+                     /translation="SHGPSGQYTHEFDGDEEFYVDLETKETVWQLPMFSKFISFDPQSA
+                     LRNMAVGKHTLEFMIKQ"
+ORIGIN
+        1 tctcacggtc cctctggcca gtacacccat gaatttgatg gagacgagga gttctacgtg
+       61 gacctggaga cgaaagagac tgtctggcag ttgcctatgt ttagcaaatt tataagtttt
+      121 gacccgcaga gtgcactgag aaatatggct gtgggaaaac acaccttgga attcatgatt
+      181 aaacagtc
+//

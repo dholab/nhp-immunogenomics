@@ -1,0 +1,112 @@
+LOCUS       NHP05249                2241 bp    DNA     linear   PRI 24-JUN-2020
+DEFINITION  Caja-G5Ps*01, G5Ps locus allele.
+ACCESSION   NHP05249
+VERSION     NHP05249
+DBLINK      INSDC: AB845725
+KEYWORDS    IPD-MHC; MHC class I; G5Ps.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Kono A, Brameier M, Roos C, Suzuki S, Shigenari A, Kametani Y,
+            Kitaura K, Matsutani T, Suzuki R, Inoko H, Walter L, Shiina T.
+  TITLE     Genomic sequence analysis of the MHC class I G/F segment in common
+            marmoset (Callithrix jacchus).
+  JOURNAL   J Immunol 192:3239-3246 (2014)
+   PUBMED   24600031
+COMMENT     IPD-MHC allele: Caja-G5Ps*01
+            IPD accession: NHP05249
+            Species prefix: Caja
+            MHC class: I
+            Previous designations: Caja-G5Ps
+FEATURES             Location/Qualifiers
+     source          1..2241
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..2241
+                     /gene="G5Ps"
+                     /allele="Caja-G5Ps*01"
+                     /note="previous designations: Caja-G5Ps"
+     exon            1..276
+                     /gene="G5Ps"
+                     /number=1
+     exon            873..1148
+                     /gene="G5Ps"
+                     /number=2
+     exon            1268..1399
+                     /gene="G5Ps"
+                     /number=3
+     exon            1852..1884
+                     /gene="G5Ps"
+                     /number=4
+     exon            2027..2074
+                     /gene="G5Ps"
+                     /number=5
+     exon            2237..2241
+                     /gene="G5Ps"
+                     /number=6
+     intron          277..872
+                     /gene="G5Ps"
+                     /number=1
+     intron          1149..1267
+                     /gene="G5Ps"
+                     /number=2
+     intron          1400..1851
+                     /gene="G5Ps"
+                     /number=3
+     intron          1885..2026
+                     /gene="G5Ps"
+                     /number=4
+     intron          2075..2236
+                     /gene="G5Ps"
+                     /number=5
+     CDS             join(1..276,873..1148,1268..1399,1852..1884,2027..2074,
+                     2237..2241)
+                     /gene="G5Ps"
+                     /allele="Caja-G5Ps*01"
+                     /codon_start=3
+                     /product="MHC class I G5Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 ggtctcacag cttccagaag atgtatggct gcgacctggg gccggacggt cgcctcctcc
+       61 gcgggtataa ccagttcgcc tacgacggca aggactacct cgccctgaac gaggacctgc
+      121 gctcctggac ggccgcagac gtggcggctc agatcaccca gcacaagtgg gaggcagcca
+      181 atgatactga gaggttgaaa gcctacctgg agggcaggtg cctggagtcg ctcctcagat
+      241 acctggagaa caggaaggag acgctgcagc tctcgggtac cagaagccag gggggcacct
+      301 ccctgatctc ctttagacgt cccagcctgg ccttgcagaa ggaggagagg aaaatgggac
+      361 caacactaga gtatcaccct ccctccggtc ctgagggaga ggaatcctcc tgggtttcca
+      421 gatcctgtac cagagagtga ctgagggcct gccctgctct ctgatacaat taagggttgc
+      481 agtatctaag ggaaatgagg ggaagtcaat tcctggaata ctgatcaggc attccctgtg
+      541 acaccacagc agcgttgggc accaggattt tttctctcct gtcttgtttt ctgcctcaca
+      601 ctcaatgtgt gcgggggtct gactccagct cctctgagtc ccttggcctc cactcagatc
+      661 agaaccagaa gcccctattc cccactcaga gactagaact ttcaaaggaa taggagatta
+      721 tcccaggtgc ctgtgtccag actggtgtat gcgttctgtg ctcccttccc caccccaggt
+      781 gtcctgtcta ttctcacaat ggccacatgg gtgctgcagt ggtgtcccat gatagatgca
+      841 agatgtctga attttctgac tcttcccttc agagcccccc aagacacagg tgacccatta
+      901 ccccgtctct gaccatgagg ccaccctgag gtactgggcc ctgggcttct accatgagga
+      961 gatcacactg acctggtagc gaaatgggga ggaacagacc caaaacatgg tgcttgtgga
+     1021 gaccagtccc acaggggatg ggaacttcca gaagtgggtg gctgtggtgg tgccttctgg
+     1081 agaggagcag agatacacat gccatgtgcg gcatgagggg ctgcccgagc ccctcaccct
+     1141 gagatagggt aaggagggga tggggtgtca tgtctgttag gaaagcagga gccactgtgc
+     1201 aacctttcag cagggttggg gctgggtcct gggagtctgg gaccctcacc ttcccctcct
+     1261 ttcccagagc cgtcttccca gcccaccatc cctgttgtgg gcatcattgt tggcctggct
+     1321 gtctttggag ctgtcgtcac tggagctgta gtcactggag ctgtggtcgc ggctgtgatg
+     1381 tggaggaaga agagctcagg tgaggaaggg gttaggagtg gggtctgaga tttcttgtcc
+     1441 cactgagggt tccaagcccc aggttgaagt gtgtcctgcc tggttactgg gaagcttcat
+     1501 ccacactcat gagccaaccc agcctgggcc ctgtgtaagc cgacacagca cttactcttg
+     1561 tgtaaagcac ctgtgacaat gaaggacaga tgtatcacct tgatgactgt ggtgatgggg
+     1621 acctgatccc agcagtcaca agtcacaagg gaacgtccct gctgaggata gtccttagga
+     1681 gggcagttgg tcgaggaccc acacctgctt ttcttgtttt tcctgatcct tccctgagtc
+     1741 tgcagtcaca tatttctgga aacttctctg gggtccaaga ctgggagagt ctctaagacc
+     1801 tcatggccct gccacctttc tgacccttca caggatattt tcttcccaca gataaaaatg
+     1861 gagaaagcta ctctcaggct gcaagtaagt atgaaggagg ctgatccctg agatcactgg
+     1921 gatattgtga tcgggagccc atgggggagc tcacccagcc cacaattcct cctctagtgg
+     1981 cgtttcctgt aggctctgac cagattctgt ttttgttcta ccccaggcag caacagtccc
+     2041 caggactctg atgtgtctct catggcttgt aaaggtgaga tcctggggca ggaggctgat
+     2101 gtgtgtaagt tgttgaggga gaacagtggg cacagctgtg ttatggggtt tctttgactt
+     2161 ggatgtattg agctggtgat gggttgttta aagtgtgact gacatcaatt tgttaatgta
+     2221 ttttttcttt taatagcgtg a
+//

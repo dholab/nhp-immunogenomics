@@ -1,0 +1,401 @@
+LOCUS       NHP10036                2096 bp    DNA     linear   PRI 30-MAY-2025
+DEFINITION  Poab-DQB1*03:01:01:01, DQB1 locus allele.
+ACCESSION   NHP10036
+VERSION     NHP10036
+DBLINK      INSDC: LR025112
+            INSDC: OZ240629
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQB1*03:01:01:01
+            IPD accession: NHP10036
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQB1*03:01
+FEATURES             Location/Qualifiers
+     source          1..2096
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2096
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*03:01:01:01"
+                     /note="previous designations: Poab-DQB1*03:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            380..649
+                     /gene="DQB1"
+                     /number=2
+     exon            932..1213
+                     /gene="DQB1"
+                     /number=3
+     exon            1325..1435
+                     /gene="DQB1"
+                     /number=4
+     exon            2059..2082
+                     /gene="DQB1"
+                     /number=5
+     exon            2083..2096
+                     /gene="DQB1"
+                     /number=6
+     intron          110..379
+                     /gene="DQB1"
+                     /number=1
+     intron          650..931
+                     /gene="DQB1"
+                     /number=2
+     intron          1214..1324
+                     /gene="DQB1"
+                     /number=3
+     intron          1436..2058
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,380..649,932..1213,1325..1435,2059..2082,
+                     2083..2096)
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*03:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLMLAMLSTPVAEGRGSPEDFVYQFKA
+                     MCYFTNGTERVRYVTRYIYNREEYARFDSDVEVYRAVTPLGPPDAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQVKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYICHVEHPSLQSPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gcggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtggct gagggcagag gctctcccga ggatttcgtg
+      121 taccagttta aggccatgtg ctacttcacc aacgggacgg agcgcgtgcg ttacgtgacc
+      181 agatacatct ataaccgaga ggagtacgcg cgcttcgaca gcgacgtgga ggtgtaccgg
+      241 gcggtgacgc cgctggggcc gcctgacgcc gagtactgga acagccagaa ggaagtcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcagacaca actaccagtt agagctccgc
+      361 acgaccttgc agcggcgaga ggatttcgtg taccagttta aggccatgtg ctacttcacc
+      421 aacgggacgg agcgcgtgcg ttacgtgacc agatacatct ataaccgaga ggagtacgcg
+      481 cgcttcgaca gcgacgtgga ggtgtaccgg gcggtgacgc cgctggggcc gcctgacgcc
+      541 gagtactgga acagccagaa ggaagtcctg gagaggaccc gggcggagtt ggacacggtg
+      601 tgcagacaca actaccagtt agagctccgc acgaccttgc agcggcgagt ggagcccaca
+      661 gtgaccatct ccccatccag gacagaggcc ctcaatcacc acaacctgct ggtctgctca
+      721 gtgacagatt tctatccagg ccaggtcaaa gtccggtggt ttcggaatga ccaggaggag
+      781 acaaccggcg ttgtgtccac cccccttatt aggaacggtg actggacatt ccagatcctg
+      841 gtgatgctgg aaatgactcc ccagcgtgga gacgtctaca tctgccacgt ggagcacccc
+      901 agcctccaga gccccatcac tgtggagtgg ctggagccca cagtgaccat ctccccatcc
+      961 aggacagagg ccctcaatca ccacaacctg ctggtctgct cagtgacaga tttctatcca
+     1021 ggccaggtca aagtccggtg gtttcggaat gaccaggagg agacaaccgg cgttgtgtcc
+     1081 acccccctta ttaggaacgg tgactggaca ttccagatcc tggtgatgct ggaaatgact
+     1141 ccccagcgtg gagacgtcta catctgccac gtggagcacc ccagcctcca gagccccatc
+     1201 actgtggagt ggcgggctca gtctgaatct gcccagagta agatgctgag tggcgttgga
+     1261 ggcttcgtgc tggggctgat cttcctcggg ctgggcctta ttatccatca caggagtcag
+     1321 aaaggggctc agtctgaatc tgcccagagt aagatgctga gtggcgttgg aggcttcgtg
+     1381 ctggggctga tcttcctcgg gctgggcctt attatccatc acaggagtca gaaaggtgag
+     1441 gaaccccaag ggaaacgggg aagatgggct gtgacccaga ccctcttttc agggaggtcc
+     1501 tgtctctaga tgtgcctctt tcctcctgac cccgagagga agaaagctga gctggaggtg
+     1561 ggaggagaca ggacaagatt ggaggaggca ttggaatctg attttactag ttgaaaggta
+     1621 gccctgtcac acagctcact gatagagctt attgcaggat gtccttaccg ttcatcattg
+     1681 tctcattgga gctggaggtg ggaggagaca ggacaagatt ggaggaggca ttggaatctg
+     1741 attttactag ttgaaaggta gccctgtcac acagctcact gatagagctt attgcaggat
+     1801 gtccttaccg ttcatcattg tctcattggc tcttttccaa aagcttcctc cattaagagg
+     1861 gtcagagcct cggcctcctt gccttctagt gacaatttcc tttgttttag ggaattttaa
+     1921 attagggtgc ttaaggcctt gaaggacata ggtgggaaga gaatataact ctaattaagt
+     1981 cacgtgtcat tttcctttgg ggtgagagag tggctgtttg tgtaatgaga cctttctctg
+     2041 cataaattcc ttttgtaaga cctcaagggc ctccaccagc agggctcctg cactga
+//
+LOCUS       NHP10037                1937 bp    DNA     linear   PRI 30-MAY-2025
+DEFINITION  Poab-DQB1*06:01:01:01, DQB1 locus allele.
+ACCESSION   NHP10037
+VERSION     NHP10037
+DBLINK      INSDC: LR025113
+            INSDC: OZ240628
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQB1*06:01:01:01
+            IPD accession: NHP10037
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQB1*06:01
+FEATURES             Location/Qualifiers
+     source          1..1937
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..1937
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*06:01:01:01"
+                     /note="previous designations: Poab-DQB1*06:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            380..649
+                     /gene="DQB1"
+                     /number=2
+     exon            932..1213
+                     /gene="DQB1"
+                     /number=3
+     exon            1325..1435
+                     /gene="DQB1"
+                     /number=4
+     exon            1900..1923
+                     /gene="DQB1"
+                     /number=5
+     exon            1924..1937
+                     /gene="DQB1"
+                     /number=6
+     intron          110..379
+                     /gene="DQB1"
+                     /number=1
+     intron          650..931
+                     /gene="DQB1"
+                     /number=2
+     intron          1214..1324
+                     /gene="DQB1"
+                     /number=3
+     intron          1436..1899
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,380..649,932..1213,1325..1435,1900..1923,
+                     1924..1937)
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*06:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRVPGGLWAATVTLMLAMLSTPGAEGRDSPEDFVYQFKG
+                     LCYFTNGTERVRLVTRYIYNREEFVRFDSNVGVYRAVTPQGRPSAEYWNSQKEVLERTR
+                     AELDTVCIHNYEVAYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQVKVRW
+                     FRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCHVEHPSLQRPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcgggtcccc ggaggccttt gggcagcaac tgtcaccttg
+       61 atgctggcga tgctgagcac cccaggggct gagggcagag actctcccga ggatttcgtg
+      121 taccagttta agggcctgtg ctacttcacc aacgggacgg agcgcgtgcg tcttgtgacc
+      181 agatacatct ataaccgaga ggagttcgtg cgtttcgaca gcaatgtggg ggtgtaccgg
+      241 gcggtgacgc cgcaggggcg gcctagcgca gagtactgga acagccagaa ggaagtcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcatacaca actacgaggt ggcgtaccgc
+      361 gggatcttgc agcggagaga ggatttcgtg taccagttta agggcctgtg ctacttcacc
+      421 aacgggacgg agcgcgtgcg tcttgtgacc agatacatct ataaccgaga ggagttcgtg
+      481 cgtttcgaca gcaatgtggg ggtgtaccgg gcggtgacgc cgcaggggcg gcctagcgca
+      541 gagtactgga acagccagaa ggaagtcctg gagaggaccc gggcggagtt ggacacggtg
+      601 tgcatacaca actacgaggt ggcgtaccgc gggatcttgc agcggagagt ggagcccaca
+      661 gtgaccatct ccccatccag gacagaggcc ctcaaccacc acaacctgct ggtctgctcg
+      721 gtgacagatt tctatccagg ccaggtcaaa gtccggtggt ttcggaatga tcaggaggag
+      781 acagccggcg ttgtgtccac cccacttatt aggaacggtg actggacttt ccagatcctg
+      841 gtgatgctgg aaatgactcc ccagcgtgga gatgtctaca cttgccacgt ggagcacccc
+      901 agcctccaga gacccatcac cgtggagtgg ctggagccca cagtgaccat ctccccatcc
+      961 aggacagagg ccctcaacca ccacaacctg ctggtctgct cggtgacaga tttctatcca
+     1021 ggccaggtca aagtccggtg gtttcggaat gatcaggagg agacagccgg cgttgtgtcc
+     1081 accccactta ttaggaacgg tgactggact ttccagatcc tggtgatgct ggaaatgact
+     1141 ccccagcgtg gagatgtcta cacttgccac gtggagcacc ccagcctcca gagacccatc
+     1201 accgtggagt ggcgggctca gtctgaatct gcccagagca agatgctgag tggcgttgga
+     1261 ggcttcgtgc tggggctgat cttccttggg ctgggcctta tcatccgtca aaggagtcag
+     1321 aaaggggctc agtctgaatc tgcccagagc aagatgctga gtggcgttgg aggcttcgtg
+     1381 ctggggctga tcttccttgg gctgggcctt atcatccgtc aaaggagtca gaaaggtaag
+     1441 gaaccccagg ggaaaagggg aagatgggct gtgacccaga ccctctgttc agagaggtcc
+     1501 tgtccgtaga ttagctcttt cctcctaacc ctgagaggaa gtgcgaggag agaggacaag
+     1561 attggaggag gcattggaat ctgattttac tggttgaaag gtagccctgt catggagctg
+     1621 actgatagag cttattccag ggcatcctta ccattcatca ttgtctcact gactcctttc
+     1681 caaaagcttc ctccattaag agggtcagag cctcagcctc ctttctttct agtgacaatt
+     1741 tcctttgttt taggggattt taaattaggg tgctgaaggc ctggaagaac atgggtggga
+     1801 agagaatgta actctaagtc atgtgtgtca ttttcctttg ggatgagaga gtggctgttt
+     1861 gtgtaatgag acctttctct gcataacttc cttttatagg acctcaaggg cctccaccag
+     1921 cagggctcct gcactga
+//
+LOCUS       NHP10038                2032 bp    DNA     linear   PRI 30-MAY-2025
+DEFINITION  Poab-DQB1*16:01:01:01, DQB1 locus allele.
+ACCESSION   NHP10038
+VERSION     NHP10038
+DBLINK      INSDC: LR025114
+            INSDC: OZ240632
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQB1*16:01:01:01
+            IPD accession: NHP10038
+            Species prefix: Poab
+            MHC class: II
+            Previous designations: Poab-DQB1*16:01
+FEATURES             Location/Qualifiers
+     source          1..2032
+                     /organism="Pongo abelii"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9601"
+     gene            1..2032
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*16:01:01:01"
+                     /note="previous designations: Poab-DQB1*16:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            380..649
+                     /gene="DQB1"
+                     /number=2
+     exon            932..1213
+                     /gene="DQB1"
+                     /number=3
+     exon            1325..1435
+                     /gene="DQB1"
+                     /number=4
+     exon            1995..2018
+                     /gene="DQB1"
+                     /number=5
+     exon            2019..2032
+                     /gene="DQB1"
+                     /number=6
+     intron          110..379
+                     /gene="DQB1"
+                     /number=1
+     intron          650..931
+                     /gene="DQB1"
+                     /number=2
+     intron          1214..1324
+                     /gene="DQB1"
+                     /number=3
+     intron          1436..1994
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,380..649,932..1213,1325..1435,1995..2018,
+                     2019..2032)
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*16:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLMLAMLSTPVAEGRGSPEDFVVQFKG
+                     MCYFTNGTERVRLVARHVYNREEYARFDSDVGVYRAVTPLGQSSVEYWNSQKEVLETKR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTNFYPAQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEITPQRGDVYTCHVEHPSLQSPITVEWRA
+                     QSESAQSKMVSGIGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcggataccc ggaggccttc gggcagcaac tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtggct gagggcagag ggtctcctga ggatttcgtg
+      121 gtccagttta agggcatgtg ctacttcacc aacgggacag agcgcgtgcg gttggtagcc
+      181 agacacgtct ataaccgcga agagtacgcg cgcttcgaca gcgacgtggg ggtgtaccgg
+      241 gcggtgacgc ctctgggaca gtctagcgtc gagtactgga acagccagaa ggaagtcctg
+      301 gagacgaaac gggcggagct ggacacggtg tgcagacaca actaccagtt ggaactccgc
+      361 acgaccttgc agcggcgaga ggatttcgtg gtccagttta agggcatgtg ctacttcacc
+      421 aacgggacag agcgcgtgcg gttggtagcc agacacgtct ataaccgcga agagtacgcg
+      481 cgcttcgaca gcgacgtggg ggtgtaccgg gcggtgacgc ctctgggaca gtctagcgtc
+      541 gagtactgga acagccagaa ggaagtcctg gagacgaaac gggcggagct ggacacggtg
+      601 tgcagacaca actaccagtt ggaactccgc acgaccttgc agcggcgagt ggagcccaca
+      661 gtgaccatct ccccatccag gacagaggcc ctcaaccacc acaacctgct ggtctgctca
+      721 gtgacaaatt tctatccagc ccagatcaaa gtccggtggt ttcggaatga ccaggaggag
+      781 acaactggcg ttgtgtccac cccccttatt aggaacggtg actggacctt ccagatcctg
+      841 gtgatgctgg aaataactcc ccagcgtgga gacgtctaca cctgccacgt ggagcacccc
+      901 agcctccaga gccccattac cgtggagtgg ctggagccca cagtgaccat ctccccatcc
+      961 aggacagagg ccctcaacca ccacaacctg ctggtctgct cagtgacaaa tttctatcca
+     1021 gcccagatca aagtccggtg gtttcggaat gaccaggagg agacaactgg cgttgtgtcc
+     1081 acccccctta ttaggaacgg tgactggacc ttccagatcc tggtgatgct ggaaataact
+     1141 ccccagcgtg gagacgtcta cacctgccac gtggagcacc ccagcctcca gagccccatt
+     1201 accgtggagt ggcgggctca atctgaatct gcccagagca agatggtgag tggcattgga
+     1261 ggcttcgtgc tggggctgat cttcctcggg ctgggcctta tcatccatca caggagtcag
+     1321 aaaggggctc aatctgaatc tgcccagagc aagatggtga gtggcattgg aggcttcgtg
+     1381 ctggggctga tcttcctcgg gctgggcctt atcatccatc acaggagtca gaaaggtgag
+     1441 gaaccccagg agaaaagggg aagatgggct gtgacacgga ccctctgttc agagaggtcc
+     1501 tgtctctaga tgtagctctt tcctcctgac cccgagagga agaaagctga gctggaggtg
+     1561 ggaggagaca ggacaagatt ggaggaagca ttggaatctg attttactag ttgaaggaca
+     1621 gccctgtcac agagctgact gacagagctt attccaggac gtccttaccg ttcatcattg
+     1681 tctcactggc tcctttccaa aagcctcctc cattaagagg gtcagagcct cggcctcctt
+     1741 gccttctagt gacaatttcc tttattttag gggaaaactt cctccattaa gagggtcaga
+     1801 gcctcggcct ccttgccttc tagtggcaat ttcctttatt ttaggggatt ttaaattagg
+     1861 gtgcttaagg ccttgaagaa catgggtggg aagagaatat aactttaatt aagtcacatg
+     1921 tgtcattttc ttttggggtg agagagtggc tgtttgtgta atgagacctt tctctgcata
+     1981 acttcctttt gtaagacctc aagggcctcc accagcaggg ctcctgcact ga
+//
+LOCUS       NHP10039                 772 bp    DNA     linear   PRI 28-JAN-2020
+DEFINITION  Poab-DQB1*16:02, DQB1 locus allele.
+ACCESSION   NHP10039
+VERSION     NHP10039
+DBLINK      INSDC: LR025115
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pongo abelii (Sumatran Orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1
+  AUTHORS   de Groot NG, Otting N, Maccari G, Robinson J, Hammond JA, Blancher
+            A, Lafont BAP, Guethlein LA, Wroblewski EE, Marsh SGE, Shiina T,
+            Walter L, Vigilant L, Parham P, O'Connor DH, Bontrop RE.
+  TITLE     Nomenclature report 2019: major histocompatibility complex genes and
+            alleles of Great and Small Ape and Old and New World monkey species.
+  JOURNAL   Immunogenetics 72:25-36 (2020)
+   PUBMED   31624862
+COMMENT     IPD-MHC allele: Poab-DQB1*16:02
+            IPD accession: NHP10039
+            Species prefix: Poab
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..772
+                     /organism="Pongo abelii"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9601"
+     gene            1..772
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*16:02"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     CDS             1..772
+                     /gene="DQB1"
+                     /allele="Poab-DQB1*16:02"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLMLAMLSTPVAEGRGSPEDFVYQFKG
+                     MCYFTNGTERVRLVARHVYNREEYARFDSDVGVYRAVTPLGQSSVEYWNSQKEVLETKR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPAQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEITPQRGDVYTCHVEHPSLQSPITVEWRA
+                     QSESAQSKMVSGIGGFVLGLIFLGLGLIIHHRSQK"
+ORIGIN
+        1 atgtcttgga agaaggctct gcggatacct ggaggccttc gggcagcaac tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtggct gagggcagag ggtctcctga ggatttcgtg
+      121 taccagttta agggcatgtg ctacttcacc aacgggacag agcgcgtgcg gttggtagcc
+      181 agacacgtct ataaccgcga agagtacgcg cgcttcgaca gcgacgtggg ggtgtaccgg
+      241 gcggtgacgc ctctgggaca gtctagcgtc gagtactgga acagccagaa ggaagtcctg
+      301 gagacgaaac gggcggagct ggacacggtg tgcagacaca actaccagtt ggaactccgc
+      361 acgaccttgc agcggcgagt ggagcccaca gtgaccatct ccccatccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctca gtgacagatt tctatccagc ccagatcaaa
+      481 gtccggtggt ttcggaatga ccaggaggag acaactggcg ttgtgtccac cccccttatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaataactcc ccagcgtgga
+      601 gacgtctaca cctgccacgt ggagcacccc agcctccaga gccccattac cgtggagtgg
+      661 cgggctcaat ctgaatctgc ccagagcaag atggtgagtg gcattggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatc atccatcaca ggagtcagaa ag
+//

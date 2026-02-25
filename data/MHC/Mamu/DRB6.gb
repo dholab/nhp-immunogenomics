@@ -1,0 +1,2262 @@
+LOCUS       NHP00505                4285 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:01:01:01N, DRB6 locus allele.
+ACCESSION   NHP00505
+VERSION     NHP00505
+DBLINK      INSDC: Z26164
+            INSDC: OX377290
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, van Noort JT, Bakas RM, Otting N, Jonker M, Bontrop
+            RE.
+  TITLE     Evolutionary stability of transspecies major histocompatibility
+            complex class II DRB lineages in humans and rhesus monkeys.
+  JOURNAL   Hum Immunol 35:29-39 (1992)
+   PUBMED   1478892
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:01:01:01N
+            IPD accession: NHP00505
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0101N; Mamu-DRB6*01:01N
+FEATURES             Location/Qualifiers
+     source          1..4285
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4285
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:01:01:01N"
+                     /note="previous designations: Mamu-DRB6*0101N;
+                     Mamu-DRB6*01:01N"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     exon            3203..3475
+                     /gene="DRB6"
+                     /number=2
+     exon            4175..4285
+                     /gene="DRB6"
+                     /number=3
+     intron          271..3202
+                     /gene="DRB6"
+                     /number=1
+     intron          3476..4174
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..270,3203..3475,4175..4285)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:01:01:01N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQAKSECHIFNGTERVRYLNRNIHKWEENLRFHSDVREFQAV
+                     TELERPVAENWNSQKGILEEKPDX"
+ORIGIN
+        1 cacgtttctt ggagcaggct aagtctgagt gtcatatctt caatgggact gagcgggtgc
+       61 ggtacctgaa cagaaacatc cataaatggg aggagaacct gcgcttccac agcgacgtgc
+      121 gagagttcca ggcggtgacg gaactggagc ggcctgtcgc ggagaactgg aacagccaga
+      181 agggcatcct ggaggagaag ccggactagg tggacatcta ctgcagatac aattaggggg
+      241 ttcttgagag cttcacagag cagcgatgag gtgagagcgg cagggggcgg ggcctgagtc
+      301 cctgtgagct gggagtctgc gagagagaga gagagagaga gagagagaga gagagagaga
+      361 gagagagaga gagcgctatc tgtgagcatt tagaatcctc tcaatcccga gcaagcagtt
+      421 ctgagagcac agctgtgtgt agagtgtgga tttgtctgtg tgtctgttgt gggaggggag
+      481 gcaggagggg gctgcttctt atccttggag gcctctgtgg ggaggtgaca tgggaggtgg
+      541 gagcaggtgg ctggacagag aggagacctt gattgtcctg gatccttaga gatgcaggga
+      601 agggaagtgt aaagtgtatg tggttggggt gaaggtttag gggaggagaa ctgaggggta
+      661 tgaaaggttc cggataacat gaggggccag ttccagactg tccctggcac acacccttca
+      721 tgtaatctct gaaataaaag tgcatgatgt ttgtttgtaa aagcattaga ttaactacca
+      781 ggggaactga ggggaactga ggagacctct gaggcaattc tgaagcttct ttaggtctaa
+      841 atttcttttt ttgtttgttt tcttagtgtg tatattttta catagctgaa atgattgtga
+      901 aactaacttc ttgaattaaa gttttaacac attgttatta ttttattata atgctaaaag
+      961 ttttctagta cttattattc ttttatatgt aatagttgtg acacaactta cctcactttg
+     1021 ttttttgttg acctttgttg tgacattctc caaaagctga aaatgtatgt ttctggttaa
+     1081 tttttaattt atattttttg atttataatt cttttaaata attttgatct atttgtgaac
+     1141 cagttataat tactgctcta agaattccct gttgtattag gcaggtaatg gacaatgatc
+     1201 tactgtctat tatctctagg gcttagtatt tttctcagtg actttgtgga ttctttgtat
+     1261 tgtaagatta ttaacacttt cttgatattt tattcagcat tttctccagt ttgtggtttg
+     1321 tatgttgatt ttgaaaattg ttttcctttg gatttttttt tttttttttt ttgagacaga
+     1381 gtcttactct gttacccagg ctggagtgca gtggtgcgat ctcagctcac tgcaacctcc
+     1441 acctcccaga ttaaagcaat tctcctgcct ctgcctcctg agtagctggg attgcagaca
+     1501 cgtaccacca cgctcgacta atttttctat ttttagtaga gatggggttt caccatgttg
+     1561 gtcatgctgt tctcaaactc ccgacctgcg cctcccaaag tgctgggatt acaggcttga
+     1621 gccactgcac ccggcctgaa cgtttttatt taaaaaaata tattgtaaat ttttattaat
+     1681 gatttacaat ctatcttaaa tctaccatgt tgtggtattg ttgtctccag gtttctcctt
+     1741 ccttctcaca aaaaattgta tcattgagag tctgctagtg tcagggattt tcctgggcat
+     1801 aagcacccca agtaatgagt cccagaccct gccttgatcc aaacgtcctt ctggaaaaaa
+     1861 aatcatttta caatgatagg tctgataata gttatgtttg ttttgcacgg gagatgcatt
+     1921 gatcggctaa atgtaaatat aagaactttc aaaattaaag tggctttcct taatccttct
+     1981 cgctgcttta ggactcatgc ctttctagga gcttaaagat ttggagaatc gcccaggctc
+     2041 tgtggctgac gcctgtaatc ccagcacttt gggaggccaa ggcgggcgaa tgacgaggtc
+     2101 agaagatgga gactatcctg tctaatacca tgaaacgcca tctctactaa aaatacaaag
+     2161 aattagccgg gcatgattgc acgtgcctgt agttccagct actggggagg ccgcagcagg
+     2221 agaatcactt gaatctggga ggcggaggtt gcaatgagcc aagatggcac cactgcattc
+     2281 cagcctgggt gacggagcaa gactccatct caaaaaaaaa aaaaaaaaaa aaaagatttg
+     2341 gagaatcatt gctgcttgtt ttgcacagga catgcattga ttacctaaat gtaaatataa
+     2401 gaactttcga aactaaaatg acgttcctta attcctaaat ctcaggattt tctaggaaca
+     2461 taaagatttg gagaatcatt tctgtctgag tcagaaccat ttctgtggtg ttctaaggtg
+     2521 tgagtgcatg gcggcagtat tcctaaaaat tcatgctcgg tttcctcatg taccctactc
+     2581 tgtcccttta cctatccaca ttgttttaaa acatactctt ctctcaaggt gtaagaggat
+     2641 gataaatagg tgccaagtgg tgcacccaag tgtgatgagc ccttttacag tggaaaggag
+     2701 tgagaagctt tctgacctca caattgacgg ctatcttcag tcattgtttt atatgtttta
+     2761 cgtaaattaa tcctcatata accccaagag gtaaattagt ataattaacc tacattatac
+     2821 gtgggaaaga tgagacacag aagaatcaaa taactcttcc aggatcaacc agtaaaaggc
+     2881 agaccttgga tttgaaccag gcaactgggc tcagaaatca attttagtta ctacacgctg
+     2941 tactttcaaa gatttgtaaa cactttgaca atgcatgcca atttcaagct atgaagaaac
+     3001 aaatataatt tttacaacat ctctcaaatc taatgggtcc aactatcaag attaaattcc
+     3061 agaccgatga cgctgtaagg ccacatggcc agctgtgctg gaggcctggt caaggtcaga
+     3121 gcgtggattt acagagaagc aaacagccga acaaggagac gctaacttcc tgattcattc
+     3181 tctctacctt cttttctcct agtccaactt caggtgactg tgtatcctgc aaagatccag
+     3241 cccctgcagc accacaatct cctgatctgc tctgtgagtg gtttctatcc aggcagcatt
+     3301 gaagtcaggt ggttctggaa cggccaggaa gagaaggctg gggtggtgtc cacaggcctg
+     3361 atccagaatg gagactggac cttccagacc ctggtgatgc tggaaacagt tcctcagagt
+     3421 ggaacctgcc aactggagca tccaagcatg acaagccctc tcacagtgca atggagtgag
+     3481 cagttttctg acttcataca tttctcaccc accaagaagg ggaccttgct aatccctgag
+     3541 tatcaggttt ctcctctccc acatcctatt ttcatttgct ccatgttctc atctccatca
+     3601 gcatggttca ctgggggtag ccctgtaata gtttctagaa acactggtac ctcctggaga
+     3661 agcagtcacg cctgccaggc aggagaggct gtccctcttt tgaacctccc catgatggca
+     3721 caggtcaagg tcacccggtc tccctgggct ccaggccctg ccctcggtct gagactgtgt
+     3781 ttctggtgct gttgatctga gttgtttgtt gtgatctgag aagcgaactg taggggcctt
+     3841 cctgacatga ggggagtcca atctcagctc tgccttttat tagctctgtc actctagaca
+     3901 aactacttaa cctcattgag tctcaggctt tctgttgatc agattttgaa gttgtgcctt
+     3961 acatcaaggc tgtaatattt gaatgagttt gatgcctgga ccttgtaact gttcagtgtg
+     4021 atttgaaaac tgttttttct ctccagaaat ggctagttat tttagttctt acagggcagt
+     4081 cttcttcccc attttgaaag ctctgaatct tagggtctca attaaagagg ttcaatttgg
+     4141 aatacatatc actaaacctg gcttcctctc tcaggagcac ggtctgaatc tgcacagagc
+     4201 aagacgctga gtggagtcgg gggctttgtg ctgggtctgc tcttccttgg ggccgggctg
+     4261 ttcatctact tcaggaatca gaaag
+//
+LOCUS       NHP00506                 184 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:02N, DRB6 locus allele.
+ACCESSION   NHP00506
+VERSION     NHP00506
+DBLINK      INSDC: Z26183
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:02N
+            IPD accession: NHP00506
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0102N
+FEATURES             Location/Qualifiers
+     source          1..184
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:02N"
+                     /note="previous designations: Mamu-DRB6*0102N"
+     exon            1..184
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:02N"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGSERVQYLNRNIHKWEENLRFHSDVGEFQEVRE
+                     LGRPVTELQLRGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatatc ttcaatgggt ctgagcgggt gcagtacctg
+       61 aacagaaaca tccataaatg ggaggagaac ctgcgcttcc acagcgatgt gggggagttc
+      121 caggaggtga gggaactggg gcggcctgtc acagaattac aattacgggg tttttgagag
+      181 cttc
+//
+LOCUS       NHP00507                4279 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:03:01:01N, DRB6 locus allele.
+ACCESSION   NHP00507
+VERSION     NHP00507
+DBLINK      INSDC: Z26236
+            INSDC: OX377342
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:03:01:01N
+            IPD accession: NHP00507
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0103N; Mamu-DRB6*01:03N
+FEATURES             Location/Qualifiers
+     source          1..4279
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4279
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:03:01:01N"
+                     /note="previous designations: Mamu-DRB6*0103N;
+                     Mamu-DRB6*01:03N"
+     exon            1..281
+                     /gene="DRB6"
+                     /number=1
+     exon            3198..3470
+                     /gene="DRB6"
+                     /number=2
+     exon            4169..4279
+                     /gene="DRB6"
+                     /number=3
+     intron          282..3197
+                     /gene="DRB6"
+                     /number=1
+     intron          3471..4168
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..281,3198..3470,4169..4279)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:03:01:01N"
+                     /codon_start=2
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLGAGX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 agtacctgaa cagaaacatc cataaacggg gggagaacct ggtcttccac agcgacgtgg
+      121 gggagttcca ggcggtgacg caactggggc ggcctgtcac agagttacaa ttaccgggtt
+      181 tttgagagct tcacggtgca gtgatgaggt gagagcggcg gggggcaggg cctgagtccc
+      241 tgtgagctgg gaatctgaga gtgtgtgtgt gtgtctgtgt gtgtgtgtat gtgagagaga
+      301 gagagagaga gagagagaga gagaaagcgc gccatctgtg agcatttaga gtcctctcta
+      361 tcctgaggaa gcagttctga gagcacaggt gtgtgtagag tgtggatttg tctgtgtgtc
+      421 tgttgtggga ggggaagcag gagggggctt cttctaatcc ttggaggcct ctgtggggag
+      481 gtgacatggg aggtgggagc aggtggctgg agagagagga gaccttgatt gtcctggatc
+      541 cttaaagatg cagggaaggg aagtgtaagg tgtatgtggt tggggtgaaa gtttagggga
+      601 ggagagctga ggggtatgga agcttcggga taacgtgagg gggccagttc cagactgtcc
+      661 ctggcacaca cccttcatgt aatctctgaa ataaaagtgc atggtgtttg tttgcgaaag
+      721 cattagatta acttctaagg gaactgagga gacctctgag gcaattctga agcttcttta
+      781 ggtctaaatt tctttttttg ttgttttctt agtgtgtata tttttacata gctgaaatga
+      841 ttgtgaaact aacttcttga attaaagttt tagcacattg ttattatttt attataatgc
+      901 taatagtttt ctagtagtta tgtattatta tttcatatgt aatagttgtg acacaactta
+      961 cctcactttc tcttttgttg acctttatta tgacattctc caaaagctga aaatgtatgt
+     1021 ttctggttaa tttttaattt atattttttg atttgtaatt cttttcaata attttgacct
+     1081 atttgtgtgc cggttataat tactgctcta agaattccct gttgtatttg gtaggtaatg
+     1141 gacaataatc tattgtctgt tatctctagg gcttagtatt tttctcagtg attttgtgga
+     1201 ttctttgtac tgtaagatta ttaacacttt cttgatattt tattcagcat tttctcaagt
+     1261 ttgtggtttg tatgttgatt ttgaaaattc ttttccatgt taaggattta aacgtttttt
+     1321 gtttgtttgt ttgttttcgg gctttttttt tttttttgag acagagtctt actctgttgc
+     1381 ccaggctgga atgcagtggt gcggtctcgg ctcactgcaa cctccacctc ccaggttcaa
+     1441 gcgattctcc tgcctctgcc tcctgagtag ctgggattac agacacgtac caccgcgctc
+     1501 gactaatttt tctattttta gtagagatgg ggtttcacca cgttggtcag gctgttctca
+     1561 aactcctgac ctcggcctcc caaagtgctg ggattacagg cttgagccac agcacctcgc
+     1621 ctgaacgttt ttacttatta aaatatattg caaattttta ttaatgattt acaatctatc
+     1681 ttaaatctac catttcgtgg tattgttgtc tccaggtttc tccttccttc ttacaaaaat
+     1741 tgtattgttg agagtctgct agtgtcaggg attttcctgg gcataagcac cccaagtaac
+     1801 gagtcccaga ccctgccttg atccaaacgt ccttctggaa aaaaatcagt ttacaatgat
+     1861 aggtctgata atagttatgt ttgttttgca cgggagatgc attgatcagc taaatgtaaa
+     1921 tataagaact ttcaaaatta aagtggcttt ccttaatcct tcttgctgct ttaggactca
+     1981 tgcttttcta ggagaaagag ttggagaatc gactgggcgc tgtggctcac acctgtaatc
+     2041 ccagcacttt gggaggccga ggagggcgaa tgacgaggtc agaagatgga gactatcctg
+     2101 tctaataccg tgaaacccca tctctactaa aaatacaaaa aattagctgg gcatggttgc
+     2161 atgtgcctgt agttccagct actggggagg ccgcagcagg agaatcactt gaaatcggga
+     2221 ggtggaggtt gcaacgagcc aagatggcac cactgcattc cagcctgggt gatggagcaa
+     2281 gactccatct caaaaaaaaa aaaaaaaaaa agatttggag aatcattgct gcttgttttg
+     2341 cacaggacat tcattgatca cctaaatgta aatatcagaa ttttcaaaac taaaatgacg
+     2401 ttccttaatt cctaaatctc aggattttct aggaacataa agatttggag aatcatttct
+     2461 gtctgtccca cgttcccggg tcagaaccat ttctgtggtg ttctaaggtg tgagcacaca
+     2521 gcagtagtat tcctaaaact tcatactcag tttcctcatg taccctactc tgtcccttta
+     2581 tctatccaca ttgtattaaa acatactctt ctctcaaggt gtaagaggat gataataggt
+     2641 gccaagtgga gcacccaagt gtgatgagcc cttttacagt gaaatggagt gagaagcttt
+     2701 ctgacctcac aaattgacag ctatcttcag tcattgtttt atatgtttta cataaattaa
+     2761 tcctcatata accccaagag gtaaattagt ataattaacc tacattatac gtgggaaaga
+     2821 tgagacataa aagaatcaaa aaactcttcc aggatcaacc agtaaaaggc agaccttgga
+     2881 tttgaatcag gcaaccgggc tcagaaatca attttaatta ctacacgctg tactttcaaa
+     2941 aatttgtaaa cactttaaca atgcatgcca atttcaagct atgaagaaac aaatacaatt
+     3001 tttataacat ctctcaaatc aaataggtcc acactatcaa gattaaattc cagactgatg
+     3061 acactgtgag gccacatggc cagctgtgct ggaggcctgg tcaaggtcag agcctgggtt
+     3121 tacagagaag cagacaaaca gtcaaacaag gagactctaa cttcctgatt cattctctct
+     3181 accttttttt ctcctagtcc aacctaaggt gactgtgtat cctgcaaaga ctgagcctct
+     3241 gcagcaccac aatctcctgg tctgctctgt gaacggtttc tattcaggca gcattgaagt
+     3301 caggtggttc cggaacggcc aggaagagaa ggccggggtg gtgtccacag gcctgatcca
+     3361 gaatggagac tggaccttcc agaccctggt gatgctggaa acagttcctc agagtggaac
+     3421 ctgccaactg gagcatccaa gcgtgatgag ccctctcaca gtggaatgga gtgagcagct
+     3481 ttctgacttc atgaatttct cacccaccaa aaagggtact ttgctaatcc ctgagtatca
+     3541 ggtgtctcct ctcccacatc ctatgttcat ttgctccatg ttctcatctc catcagcatg
+     3601 gttcactggg ggtagccctg taatagtttc tagaaacacc tgtaccccgg gaaagcagtc
+     3661 acgcctgcca ggcaggagag gctgtccctc ttttgaacct ccccatgatg gcacaggtca
+     3721 gggtcaccca gtctccctgg gctccaggac ctgccttggg tctgagactg agtttctggt
+     3781 gctgttgatc tgagttgttt gttgtgatct gggaagagga gaagtgtagg ggccttcctg
+     3841 acataagggg agtccaatct cagctctgcc ttttattagc tctgtcactc tagacaaact
+     3901 acttaacctc attgagactc aggctttctg ttgatcagat tttgaagtcg tgccttacat
+     3961 caaggctgta atatttgaat gagtttgatg cctgaacctt gtaactgttc agtgtgattt
+     4021 gaaaaccgtt tattccccca gaaatggcta gttattttag ttcttagggc agccttcttc
+     4081 cccattttga aagctctgaa tcttagggtc tcaatttaaa gaggttcaat ttggaataaa
+     4141 catcactaaa cctggcttcc tctctcagga gcacggtctg aatctgcaca gagcaagatg
+     4201 ctgagtggag tcgggggctt tgtgctgggc ctgctcttcc ttggggccgg gctgttcatc
+     4261 tacttcagga atcagaaag
+//
+LOCUS       NHP00508                 184 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:05N, DRB6 locus allele.
+ACCESSION   NHP00508
+VERSION     NHP00508
+DBLINK      INSDC: Z26240
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:05N
+            IPD accession: NHP00508
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0105N
+FEATURES             Location/Qualifiers
+     source          1..184
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:05N"
+                     /note="previous designations: Mamu-DRB6*0105N"
+     exon            1..184
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:05N"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGTERVQYLNRYIHKREENLRFHSDLGEFQAVTE
+                     LGWPVTELQLRGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgcga gtgtcatatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc acagagttac aattacgggg tttttgagac
+      181 cttc
+//
+LOCUS       NHP00509                 184 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:06N, DRB6 locus allele.
+ACCESSION   NHP00509
+VERSION     NHP00509
+DBLINK      INSDC: Z26241
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:06N
+            IPD accession: NHP00509
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0106N
+FEATURES             Location/Qualifiers
+     source          1..184
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:06N"
+                     /note="previous designations: Mamu-DRB6*0106N"
+     exon            1..184
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:06N"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTERVQYLNRNIHKREENLRFHSDVGEFQAVME
+                     LGRPVTELQLWGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagaaaca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga tggaactggg gcgacctgtc acagagttac aattgtgggg tttttgagag
+      181 cttc
+//
+LOCUS       NHP00510                4256 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:07:01:01N, DRB6 locus allele.
+ACCESSION   NHP00510
+VERSION     NHP00510
+DBLINK      INSDC: AF031253
+            INSDC: OX377238
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:07:01:01N
+            IPD accession: NHP00510
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0107N; Mamu-DRB6*01:07N
+FEATURES             Location/Qualifiers
+     source          1..4256
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4256
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:07:01:01N"
+                     /note="previous designations: Mamu-DRB6*0107N;
+                     Mamu-DRB6*01:07N"
+     exon            1..208
+                     /gene="DRB6"
+                     /number=1
+     exon            3175..3447
+                     /gene="DRB6"
+                     /number=2
+     exon            4146..4256
+                     /gene="DRB6"
+                     /number=3
+     intron          209..3174
+                     /gene="DRB6"
+                     /number=1
+     intron          3448..4145
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..208,3175..3447,4146..4256)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:07:01:01N"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="QVSWSRLSVSVISSMGLSRCSTX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggtct gagcaggtgc
+       61 agtacctgaa cagaaacatc cataaacggg gggagaacct gggcttccac agcgacgtgg
+      121 gggagttcca ggcggtgacg caactggggc ggcctgtcac agagttacaa ttaccgggtt
+      181 tttgagagct tcacagtgca gcgatgaggt gagagcggcg gggggcaggg cctgagtccc
+      241 tgtgagctgg gaatctgaga gtgtgtgtgt gtatctgtgt gtgtgtgtat gtgagagaga
+      301 gagagagagc gccatctgtg agcatttaga gtcctctcta tcctgaggaa gcagttctga
+      361 gagcacaggt gtgtgtagag tgtggatttg tctgtgtgtc tgttgtggga ggggaagcag
+      421 gagggggctt cttctaatcc ttggaggcct ctgtggggag gtgacatggg aggtgggagc
+      481 aggtggctgg agagagagga gaccttgatt gtcctggatc cttaaagatg cagggaaggg
+      541 aagtgtaagg tgtatgtggt tggggtgaaa gtttagggga ggagagctga ggggtatgga
+      601 agcttcggga taacgtgagg gggccagttc cagactgtcc ctggcacaca cccttcatgt
+      661 aatctctgaa ataaaagtgc atggtgtttg tctgcgaaag cattagatta acttctaagg
+      721 gaactgagga gacctctgag gcaattctga agcttcttta ggtctaaatt tctttttttg
+      781 ttgttttctt agtgtgtata tttttacata gctgaaatga ttgtgaaact aacttcttga
+      841 attaaagttt tagcacattg ttattatttt attataatgc taataatttt ctagtagtta
+      901 tgtattatta tttcatatgt aatagttgtg acacaactta cctcactttc tcttttgttg
+      961 acctttatta tgacattctc caaaagctga aaatgtatgt ttctggttaa tttttaattt
+     1021 atattttttg atttgtaatt cttttcaata attttgacct atttatgtgc cggttataat
+     1081 tactgctcta agaattccct gttgtatttg gtaggtaatg gacaataatc tattgtctgt
+     1141 tatctctagg gcttagtatt tttctcagtg attttgtgga ttctttgtac tgtaagatta
+     1201 ttaacacttt cttgatattt tattcagcat tttctcaagt ttgtggtttg tatgttgatt
+     1261 ttgaaaattc ttttccatgt taaggattta aacgtttttt gtttgtttgt ttgttttcgg
+     1321 gctttttttt ttttttgaga cagagtctta ctctgtcgcc caggctggaa tgcagtggtg
+     1381 cggtctcggc tcactgcaac ctccacctcc caggttcaag cgattctcct gcctctgcct
+     1441 cctgagtagc tgggattaca gacatgcacc accgcgctcg actaattttt ctatttttag
+     1501 tagagacggg gtttcaccac gttggtcagg ctgttctcaa actcctgacc tcggcctccc
+     1561 aaagtgctgg gattacaggc ttgagccaca gcacctcgcc tgaacgtttt tacttattaa
+     1621 aatatattgc aaatttttat taatgattta caatctatct taaatctacc atttcgtggt
+     1681 attgttgtct ccaggtttct ccttccttct tacaaaaatt gtattgttga gagtctgcta
+     1741 gtgtcaggga ttttcctggg cataagcacc ccaagtaacg agtcccagac cctgccttga
+     1801 tccaaacgtc cttctggaaa aaaatcagtt tacaatgata ggtctgataa tagttatgtt
+     1861 tgttttgcac gggagatgca ttgatcagct aaatgtaaat ataagaactt tcaaaattaa
+     1921 agtggctttc cttaatcctt cttgctgctt taggactcat gcttttctag gagaaagagt
+     1981 tggagaatcg actgggcgct gtggctcaca cctgtaatcc cagcactttg ggaggccgag
+     2041 gagggcgaat gacgaggtca gaagatggag actatcctgt ctaataccgt gaaaccccat
+     2101 ctctactaaa aatacaaaaa attagctggg catggttgca tgtgcctgta gttccagcta
+     2161 ctggggaggc cgcagcagga gaatcacttg aaatcgggag gtggaggttg caacgagcca
+     2221 agatggcacc actgcattcc agcctgggtg atggagcaag actccatctc aaaaaaaaaa
+     2281 aaaaaaaaga tttggagaat cattgctgct tgttttgcac aggacattca ttgatcacct
+     2341 aaatgtaaat ataagaattt tcaaaactaa aatgacgttc cttaattcct aaatctcagg
+     2401 attttctagg aacataaaga tttggagaat catttctgtc tgtcccacgt tcccgggtca
+     2461 gaaccatttc tgtggtgttc taaggtgtga gcacacagca gtagtattcc taaaacttca
+     2521 tactcagttt cctcatgtac cctactctgt ccctttatct atccacattg tattaaaaca
+     2581 tactcttctc tcaaggtgta agaggatgat aataggtgcc aagtggagca cccaagtgtg
+     2641 atgagccctt ttacagtgaa atggagtgag aagctttctg acctcacaaa ttgacagcta
+     2701 tcttcagtca ttgttttata tgttttacat aaattaatcc tcatataacc ccaagaggta
+     2761 aattagtata attaacctac attatacgtg ggaaagatga gacataaaag aatcaaaaaa
+     2821 ctcttccagg atcaaccagt aaaaggcaga ccttggattt gaatcaggca accgggctca
+     2881 gaaatcaatt ttaattacta cacgctgtac tttcaaaaat ttgtaaacac tttaacaatg
+     2941 catgccaatt tcaagctatg aagaaacaaa tacaattttt ataacatctc tcaaatcaaa
+     3001 taggtccaca ctatcaagat taaattccag actgatgaca ctgtgaggcc acatggccag
+     3061 ctgtgctgga ggcctggtca aggtcagagc ctgggtttac agagaagcag acaaacagtc
+     3121 aaacaaggag actctaactt cctgattcat tctctctacc tttttttctc ctagtccaac
+     3181 ctaaggtgac tgtgtatcct gcaaagactg agcctctgca gcaccacaat ctcctggtct
+     3241 gctctgtgaa cggtttctat tcaggcagca ttgaagtcag gtggttccgg aacggtcagg
+     3301 aagagaaggc cggggtggtg tccacaggcc tgatccagaa tggagactgg accttccaga
+     3361 ccctggtgat gctggaaaca gttcctcaga gtggaacctg ccaactggag catccaagcg
+     3421 tgatgagccc tctcacagtg gaatggagtg agcagctttc tgacttcatg aatttctcac
+     3481 ccaccaaaaa gggtactttg ctaatccctg agtatcaggt gtctcctctc ccacatccta
+     3541 tgttcatttg ctccatgttc tcatctccat cagcatggtt cactgggggt agccctgtaa
+     3601 tagtttctag aaacacctgt accccgggaa agcagtcacg cctgccaggc aggagaggct
+     3661 gtccctcttt tgaacctccc catgatggca caggtcaggg tcacccagtc tccctgggct
+     3721 ccaggacctg ccttgggtct gagactgagt ttctggtgct gttgatctga gttgtttgtt
+     3781 gtgatctggg aagaggagaa gtgtaggggc cttcctgaca taaggggagt ccaatctcag
+     3841 ctctgccttt tattagctct gtcactctag acaaactact taacctcatt gagactcagg
+     3901 ctttctgttg atcagatttt gaagtcgtgc cttacatcaa ggctgtaata tttgaatgag
+     3961 tttgatgcct ggaccttgta actgttcagt gtgatttgaa aaccgtttat tcccccagaa
+     4021 atggctagtt attttagttc ttagggcagc cttcttcccc attttgaaag ctctgaatct
+     4081 tagggtctca atttaaagag gttcaatttg gaataaacat cactaaacct ggcttcctct
+     4141 ctcaggagca cggtctgaat ctgcacagag caagatgctg agtggagtcg ggggctttgt
+     4201 gctgggcctg ctcttccttg gggccgggct gttcatctac ttcaggaatc agaaag
+//
+LOCUS       NHP00511                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:08, DRB6 locus allele.
+ACCESSION   NHP00511
+VERSION     NHP00511
+DBLINK      INSDC: AF031254
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:08
+            IPD accession: NHP00511
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0108
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:08"
+                     /note="previous designations: Mamu-DRB6*0108"
+     exon            1..246
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:08"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQGKSECQIFNGREPVRYLNRYIHKREENLRFHSDVGEFQAVTE
+                     LERPVAQNWNSQKGILEEKRDKVDTYCRYNYRVFES"
+ORIGIN
+        1 ttggagcagg gtaagtctga gtgtcaaatc ttcaacggga gggagccggt gcggtacctg
+       61 aacagataca ttcataaacg ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga cggaactgga gcggcctgtc gcgcagaact ggaacagcca gaaaggcatc
+      181 ctggaggaga agcgggacaa ggtggacacc tactgcagat acaattaccg ggtttttgag
+      241 agcttc
+//
+LOCUS       NHP00512                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:09N, DRB6 locus allele.
+ACCESSION   NHP00512
+VERSION     NHP00512
+DBLINK      INSDC: AF031255
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:09N
+            IPD accession: NHP00512
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0109N
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:09N"
+                     /note="previous designations: Mamu-DRB6*0109N"
+     exon            1..246
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:09N"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERMQYLNRYIHKREENLRFHSDVGEFQAVTQ
+                     LGRPVAENWNSQKGILEEKRDX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcggat gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt gggggagttt
+      121 caggcggtga cgcaactggg gcggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacta ggtggacacc tactgcagat acaattacgg ggtttttgag
+      241 agcttc
+//
+LOCUS       NHP00513                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:10, DRB6 locus allele.
+ACCESSION   NHP00513
+VERSION     NHP00513
+DBLINK      INSDC: AF031256
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:10
+            IPD accession: NHP00513
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0110
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:10"
+                     /note="previous designations: Mamu-DRB6*0110"
+     exon            1..246
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:10"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTERVQYLNRYIHKREENLRFHSDLGEFQAVME
+                     LGRPVAENWNSQKGILEEKRDKVDTYCRYNYRVFES"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gcggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacaa ggtggacacc tactgcagat acaattacag ggtttttgag
+      241 agcttc
+//
+LOCUS       NHP00514                4354 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:11:01:01N, DRB6 locus allele.
+ACCESSION   NHP00514
+VERSION     NHP00514
+DBLINK      INSDC: AF031257
+            INSDC: OX377326
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:11:01:01N
+            IPD accession: NHP00514
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0111; Mamu-DRB6*01:11
+FEATURES             Location/Qualifiers
+     source          1..4354
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4354
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:11:01:01N"
+                     /note="previous designations: Mamu-DRB6*0111;
+                     Mamu-DRB6*01:11"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     exon            3281..3556
+                     /gene="DRB6"
+                     /number=2
+     exon            4244..4354
+                     /gene="DRB6"
+                     /number=3
+     intron          271..3280
+                     /gene="DRB6"
+                     /number=1
+     intron          3557..4243
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..270,3281..3556,4244..4354)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:11:01:01N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQGKSECQIFNGREPVRYLNRYIHKREENLRFHSDVGEFQAV
+                     TELERPVAQNWNSQKGILEEKRDKVDTYCRYNYRVFESFTVQRX"
+ORIGIN
+        1 cacgtttctt ggagcagggt aagtctgagt gtcaaatctt caacgggagg gagccggtgc
+       61 ggtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacgtgg
+      121 gggagttcca ggcggtgacg gaactggagc ggcctgtcgc gcagaactgg aacagccaga
+      181 aaggcatcct ggaggagaag cgggacaagg tggacaccta ctgcagatac aattaccggg
+      241 tttttgagag cttcacagtg cagcgatgag gtgagcgcgg cgtggggcgg ggcctgagtc
+      301 ccagtgagct ggaaatctga gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtatgagaga
+      361 gagagagcgc catctgtgag catttagaat cctctcaatc ccgagcaagc agttctgaga
+      421 gcacaggtgt gtgtgtagaa tgtagatttg tctgtgtctg tgtgtctgtt gtgggagggg
+      481 aggcaggagg gggctgcctc ttatccttgg aggcctctgt ggggaggtga catgggaggt
+      541 gggtgcaggg ggctggagag agaggagacc ttgattgtct caggtcctta cagatgcagg
+      601 gaagggaaat gtaaggggtg tgtggttggg gtgaaggttt aggggaagag agcggagggg
+      661 tatggaaagt ttgggataat gtgaggaggc cagttccagg ctgtccctgg cacacaccct
+      721 tcatgtaatc tctgaaataa aagtgtgtgg tgtatgtttg caaaagcatt agattaactt
+      781 ctaggggaac tgaggagacc tctgaggcac ctctgaagct tctttagatc taaatttctt
+      841 gccatttttt gttttcttag tgtgtatatt tttacttagc tgaatgattg tgaaactcac
+      901 ttcttgaatt aaagttttaa cacattgtta ttattttatt ataatgctaa tagttttcta
+      961 gtagttacat attattcttt tatatgtaat agttgtgaca caacgtacct cactttccct
+     1021 ttccttgacc ttttttatga cattctccaa aagctgaaaa tgtatgtttc tggttaattt
+     1081 ttaacttata ttttttgatt tgtaattctt ttgaattatt ttgacctatt tattggcgag
+     1141 ttataattac tgttctaaga attccctatc gtatttggta ggtaatggac aataatctat
+     1201 tggctattat ctctagggct tagtattttt ctcagtgatt ttgtgggttc tttgtactgt
+     1261 aagattatta acactttctt gatatttcat tcagcatttt ctccagtttg tggtttgtat
+     1321 gttgattttt gaaaactttt ttccatgtta aggatttgaa cgttttttgt tcgtttgttt
+     1381 ttggtttgtt tttttttgag acagagtctc cctctgttgc ccaggctgga gtgcagtggt
+     1441 gcgatctcgg ctccctgcaa cctctgcgtc cctggttcaa gcgattctcc tgcctctgcc
+     1501 tcctgagtag ttgggattac agccatgtac cacaacactc ggctaatttt tgtattttta
+     1561 gtaaagacgg tttcaccatg ttagtcaggg tgttctcaaa ctcctgacct cggcctccca
+     1621 aagtgctggg attacaggct tgagcctctg cacccggcct gaacattttt atttaataaa
+     1681 atatattgca aaattttatt aatgttttac aatcaatata caaactataa ctttgtggta
+     1741 ttgttgtctc caggtctctc cttccttctc acacacaaaa aaaattgtat tattgagagt
+     1801 atgctagtat tagggatttt ccgaggcata agcaccccaa ctaatgagtc ccagaccctg
+     1861 cctggatcca aatgtcattt tggaaaaaaa aaaaaatcat tttacaatga tagatctaat
+     1921 aatagctatg tttgttttgc atgggagatg cattcatcag ctaaatgtaa atataagaac
+     1981 tttcaaattt aaagttctta tttgaaagtt caaatttaaa ctttcaaaat taaaatgact
+     2041 ttcctgaatc cttctcactg ctttaggact catgcgtttc taggagctta aagatttgga
+     2101 gaatcggcca ggtgtggtgg ctcacacctg taatcccagc accaaggcgg gggatcatga
+     2161 ggtcaggaga tggagaccat cttgtctaac acggtgaaac cccatctcta ctaaaaatac
+     2221 aaaaaattag ccgtgcatgg tggcacgtgc ctgtagtcca agacactcag gatgctgagg
+     2281 caggagaatc acttgaatct gggaggtgga ggttgcagtg aaccaagatg gtgtcactgc
+     2341 attccagcct ggaagacaga gcaagactca tctcaaaaaa aaaaaaaaaa aagaattgga
+     2401 gaatcatttc tgcttgtttt tcatcagcta aatgtgaata taagaacttt caaaactaaa
+     2461 atgacgttcc ctaattccta aatctctgct ttaggactca ggcttttcta ggaacataaa
+     2521 aatttctgtc atttctgtct gtcctacctt cccaggagca gaaccatttc tgtgccgttc
+     2581 taaggtgtga gtgcatggcg gcagtattcc taaaaattca ttctcggttt cctcatgtac
+     2641 cctatctgtc cctttatcta tctacattgt tttaaatcat attcttctct caaggtgtaa
+     2701 gaggatgata aataggtgcc aagtggagcg cccaagtgtg atgagccctc tcacagtgga
+     2761 atggagtgag aagcttctga cctcataatt tgaaggctct cttcagtctt ttgttttata
+     2821 tgttttacct aaatgaatcc tcatataacc ccaaaaggta aattagtata actaacctac
+     2881 attatatgtg agaaaggtaa gacaaaaaag aatcaaaaaa ctcttccagg atcaaccagt
+     2941 aaaaggcaga ccttggattt gaaccaggca acctggctca gacatcagtt ttaattacta
+     3001 cactctttac tttccaagat ttgtaaacac ttcaacaatg catgacaaaa tcgagctatg
+     3061 aagaaacaaa ttaaattttt gcaacatctc tcaaatctaa tgggtccaca ctatcacaat
+     3121 taaattccag gctgatgaca ctataagggc atataggcag ctgtgctgga gacctgtcca
+     3181 aggccagagc ctgggtttac agagaagcaa acaaacagct gaacaaggag actctaactt
+     3241 cctgattcat tccctctacc tttttttctc ctactccaat ctaaggggac tgtgtgtcct
+     3301 gcaaagaccc agcccctgca gcaccacacc ctcctggtct gctctgtgag tggtttctat
+     3361 ccaggcagcg ttgaagtcag gtggttccgg aacggtcagg aagagaaggc tggggtggtg
+     3421 tccacgggcc tgatccagaa tggagactgg accttccaga ccctggtaat gctggaaaca
+     3481 gttcctcaga gtggagaggt ttacacctgc caagtggagc atccaagcat gaccagccct
+     3541 ctcacagtgg aatggagtga gcagctttct gacttcatac atttctcacc caccaagaag
+     3601 tgaactttgc taatccctga gtgtcaggtt tctcctctcc cacatcctat tttcgtttgc
+     3661 tccatgttct catctccatc agcataggtc agtgggggta gccctgtaat cgtttctaga
+     3721 aacacctgta cctcctggag aagcagtcat gcctgccagg caggagaggc tgttcctctt
+     3781 ttgaacctcc ccgtgatgtc acaggtcagg gtcacccagt ctccctgggc tccaggccct
+     3841 gtctctgggt ctgagactga gtttctggtg ctgtttatct gagttgttgt gatctgagaa
+     3901 gaggagaact gtaggggcct tcctgacgtg aggggagtcc aatctcaggt ctgcctttta
+     3961 ttagctctgt cactctagac aaagctagag tctcaggctt tctgtggatc agatgttgaa
+     4021 ctcgtgcctt acatcaaggc tgtaatatta gaatgaattt gatccctgaa tcttgtaact
+     4081 gttcagtgtg atttgaaaac ctttttttcc tccagaaatg gctagttatt ttagttctta
+     4141 cagggcagcc ttcttcccca ttttaaaatc tctgaatctc agggtctcaa ttaaagaggt
+     4201 tcaatctgga ataaacatcg ctaaagctgg cttcctctct caggagcacg gtctgaatct
+     4261 gcacagagca agatgctgag tggagtcgga ggctttgggc tgggcctgct cttccttggg
+     4321 gccgggctgt tcatttactt caggaatcag aaag
+//
+LOCUS       NHP00515                4377 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:12:01:01N, DRB6 locus allele.
+ACCESSION   NHP00515
+VERSION     NHP00515
+DBLINK      INSDC: L41140
+            INSDC: OX377328
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Paz-Artal E, Corell A, Varela P, Martinez-Laso J, Gomez-Casado E,
+            Fernandez-Soria VM, Moreno MA, Arnaiz-Villena A.
+  TITLE     Primate DRB6 gene expression and evolution: a study in Macaca
+            mulatta and Cercopithecus aethiops.
+  JOURNAL   Tissue Antigens 47:222-227 (1996)
+   PUBMED   8740772
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:12:01:01N
+            IPD accession: NHP00515
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0112; Mamu-DRB6*01:12:01
+FEATURES             Location/Qualifiers
+     source          1..4377
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4377
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:12:01:01N"
+                     /note="previous designations: Mamu-DRB6*0112;
+                     Mamu-DRB6*01:12:01"
+     exon            1..267
+                     /gene="DRB6"
+                     /number=1
+     exon            3275..3550
+                     /gene="DRB6"
+                     /number=2
+     exon            4267..4377
+                     /gene="DRB6"
+                     /number=3
+     intron          268..3274
+                     /gene="DRB6"
+                     /number=1
+     intron          3551..4266
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..267,3275..3550,4267..4377)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:12:01:01N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAV
+                     SELEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 cacgtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 ggtacctgaa cagatacatc cataaacgag aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgtcg gaactggagt ggcctgtcgc agagaactgg aacagccgga
+      181 tgggcatcct agagaagcgg gacaaggtgg acatctactg cagatacaat tatagggttt
+      241 ttgagagctt cacagagcag cgatgaggtg agagtggtag gtggggggcc ctgagtccca
+      301 gtgagctgga aatctgagtg tgtgtgtgtg tgtgtgtgtg tgtgagagag agagagagag
+      361 acagagagac agagagagag agagagacag agagagagag ccatctgtga ccatttagag
+      421 tcctctcaat ctccagcaag cagttctgag ggcacaggtg tgtgtataga gtgtggattt
+      481 gtctgtgtgg ctgttgtggg acgggaggca ggagtgggct tcttcttatc gttggaggtc
+      541 tctgtgggga ggtgacatgg gaggtgggag caggtggctg gacagagagg agaccttgat
+      601 tgtcctggat ccttagagat gcagggaagg gaagtgtaag gtgtatgtgg ttggggtgaa
+      661 ggtttagggg aggagagctg aggggtatat aaggttcgag ataatgtgag ggggccagtt
+      721 ccagactgtc cctggcacac acccttcatg taatctctga aataaaagtg catggtgttt
+      781 gtttgcaaaa gcattagatt aacatccagg ggaacggagg agaactctga ggcaattctg
+      841 aagcttattt acgtctaaat ttcttttttt gtttgttttc ttagtgtgta tatttttaca
+      901 tagctgaaat gattgtgaaa caaacttctt gaattaaagt tttaacacat tgttattatt
+      961 ttattataat gctaaaagtt ttctagtagt tacgtattat tcttttatat ataatagttg
+     1021 tgacacagct tacctcactt tctcttttgt tgacctttat tatgacattc tccaaaagct
+     1081 gaaaatgtat gtttctggtt aatttttaat ttatattttt tgatttgtaa ttcttttaaa
+     1141 taattttgac ctatttgtgt gccggttata attactgctc taagaattcc ctattgtatt
+     1201 tggtaggtaa tggacaataa tctattgtct cttatatcta gggcttagta tttttctcag
+     1261 tgactttgtg gattctttgt actgtaagat tattaacact ttcttgatat tttattcagc
+     1321 attttctcca gtttgtggtt tgtatgttga ttctgaaaat tcttttccat gttaaggatt
+     1381 tgaacgtttt ttgtttgttt gtttttgggt tttgtttttt gtttttttga gacagaatct
+     1441 tactctgttg cccaggctgg agtgcagtgg cacgatctcg gctcactgca acctccacct
+     1501 cccgggttca agcgattctc ctgcctctgc ctcctgtgta gctgagatta cagacacgca
+     1561 ccaccgcgct cgactaattt ttctgttttt agtagagacg gggtttcacc atgttggtca
+     1621 ggctgttctc agaccaaact cctgaccttg gcctcccaaa gtgctgggat tacaggcttg
+     1681 agccactgca cccggcctga acgtttttat ttaataaaat atattgcaaa attttattaa
+     1741 tgatttacaa tctatcttaa atctaccatg ttgcggtatt gttgtctcca ggtttctcct
+     1801 ttcttctcac aaaaaattgt atcgttgaga gtctgctagt gtcagggatt ttcctgggca
+     1861 taagcaccca aagtaatgag tcccagaccc tgcctcgatc caaacgtcct tctggaacaa
+     1921 aaatcgtttt acaatgatag gtctgataat agttatgttt gttttgcacg ggagatgcat
+     1981 tgatcagcta atgtaaatat aagaactttc aaaattagag tgactttcct taatccttct
+     2041 cgctgcttta ggactcatgc ctttctaaga gaaagatttg gagaatcagc cgggcgtggt
+     2101 ggctcacgcc tgtaatccca gcactttggg aggccgaaga gggtggacga cgaggtcagg
+     2161 agatggagac tatcctgtct aacacggtga aacaccatct ctactaaaaa tacaaaaaat
+     2221 tagccaggca tggtggcatg cgcctgtagt tccagctact ccggaggccg cagcaggaga
+     2281 atcacttgaa tccgggaggc ggaggttgca gtgagccaag atggcgtcac tgcactccaa
+     2341 cctgggcaac agagcaagac tctatctcaa aaaaaaaaaa aaaaaaaaag aattggagaa
+     2401 tcatttctgc ttgttttgca caggagatgc attgatcacc taaatgtaaa tataagaact
+     2461 ttcaaaactc aaatgacgtt ccttaattcc taaatctcag gattttctag gaatataaag
+     2521 atttggtgaa tcatttctgt ctgtcccacg ttcccgggtc agaaccattt ctgtggtgtt
+     2581 ttaaggtgtg agtgcatggc gccagtattc ctaaaaattc atactcggtt tcctcatgta
+     2641 ccctactctg tccctttatc tatccacatt gttttaaaac atattcttct ctcaaggtgt
+     2701 aagagtatga taaataggtg ccaagtcgag cacccaagtg tgatgagccc tctcacaggg
+     2761 gaatggagtg agaagcttct gacctcataa attgacggct atcttcagtc attgttttat
+     2821 atattttatg taaattatcc tcatataacc ccaagaggta aattagtata attaacctac
+     2881 attatatgtg ggaaaagatg agacacaaaa gaatcaaaac actcttccag gatcaaccag
+     2941 taaaaggcag accttggatt tgaaccaggc gacctggctc agaaatcaat tttaattact
+     3001 acacactgta ctttcaaaga tttgtaaaca cgttgacaat gcatgccaat ttcaagctag
+     3061 aagaaacaaa tacaattttt acaacatctc tcaaatctaa tgggtcctca ctatcaagat
+     3121 taaattccag actggtgatg ctgtaaggcc acatgaccag ctgtgctgga ggcctggtca
+     3181 aggtctgggt ttacagagaa gcagacaaac agtcaaacaa ggagactcta acttcctgat
+     3241 tcattctctc tacctttttt tctcctagtc caagctaagg tgactgtgta tcctgcaaag
+     3301 acccagcccc tgcagcacca caccctcctg gtctgctctg tgaacggttt ctatccaggc
+     3361 agcattgaag tcaggtggtt ccggaacggc caggaagaga aggctggggt ggtgtccaca
+     3421 ggcctgatcc agaatggaga ctggaccttc cagcccctgg tgatgctgga aacagttcct
+     3481 cggagtggag aggtttacac ctgccaagtg gagcacccaa gtgtgaccag ccctctcaca
+     3541 gtggaatgga gtgagcagct ttctgacttc atgaatttct cacccaccaa gaaggggact
+     3601 atgctaatct ctgagtgtca ggtttctcct ctcccacatc ctattttcat ttgctccatg
+     3661 ttttcatctc catcagcatg gttcactggt ggtagccctg taatagtttc tagaaacact
+     3721 ggtacctcct ggagaagcag tcacgcctgc caggcaggag aggctgtccc tcttttgaac
+     3781 ctccccatga tggcacaggt cagggtcacc tggtctccct gggctccagg ccctgccctg
+     3841 ggtctgagat tgtgtttctg gtgctgtcga tctgagttgt ttgttgtgat ctcagaagag
+     3901 gagatcacaa caagagaaaa gtgtaggggc cttccagaca tgaggggagt ccaatctcag
+     3961 ctctgccttt tattagctct gtcactctag acaaactgct taacctcatt gagactcagg
+     4021 gtttctgtgg atcagatttt gaagtcgtgc cttacatcaa ggctgtaata tttgaatgag
+     4081 tttgatgcct ggaccttgta actgttcagt gtgatttgaa aaccattttt ccccccagaa
+     4141 acggccagtt atttcagttc ttacagggca gccttcttct ccattttgaa agctctgaat
+     4201 cttagagtct caattaaaga gcttcagttt ggaataaaca tcactaacgc tggcttcctc
+     4261 tctcaggagc atggtctgaa tctgcacaga gcaagacgct gagtggagtc gggggctttg
+     4321 tgctgggcct gctcttcctt ggggccgggc tgttcgtcta cttcaggaat cagaaag
+//
+LOCUS       NHP00516                 243 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:13, DRB6 locus allele.
+ACCESSION   NHP00516
+VERSION     NHP00516
+DBLINK      INSDC: U57959
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Knapp LA, Cadavid LF, Eberle ME, Knechtle SJ, Bontrop RE, Watkins
+            DI.
+  TITLE     Identification of new mamu-DRB alleles using DGGE and direct
+            sequencing.
+  JOURNAL   Immunogenetics 45:171-179 (1997)
+   PUBMED   8995183
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:13
+            IPD accession: NHP00516
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0113
+FEATURES             Location/Qualifiers
+     source          1..243
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..243
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:13"
+                     /note="previous designations: Mamu-DRB6*0113"
+     exon            1..243
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..243
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:13"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGTERVLYLNRYIHQREENLRFDSDLGDFQAVSE
+                     LEWPVAENWNSRMGILEKRDKVDIYCRYNYRFVES"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gctctacctg
+       61 aacagataca tccatcaacg agaggagaac ctgcgcttcg acagcgacct gggggacttc
+      121 caggcggtgt cggaactgga gtggcctgtc gcggagaact ggaacagccg gatgggcatc
+      181 ctagagaagc gggacaaggt ggacatctac tgcagataca attataggtt tgttgagagc
+      241 ttc
+//
+LOCUS       NHP00517                 249 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:14, DRB6 locus allele.
+ACCESSION   NHP00517
+VERSION     NHP00517
+DBLINK      INSDC: AF163279
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:14
+            IPD accession: NHP00517
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0114
+FEATURES             Location/Qualifiers
+     source          1..249
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..249
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:14"
+                     /note="previous designations: Mamu-DRB6*0114"
+     exon            1..249
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..249
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:14"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKYECHIFNGTERVQYLNRNIHKGEKNLRFQSDVGEFQAVTE
+                     PEWPPVAENWNSQKGILEEKQDKVDTYCRNNYGVFES"
+ORIGIN
+        1 ttggagcagg ctaaatatga gtgtcatatc ttcaatggga ctgagcgggt gcagtaccta
+       61 aacagaaaca tccataaagg ggagaagaac ctgcgcttcc agagcgacgt cggggagttc
+      121 caggcggtga ctgaaccgga gtggccgcct gtcgcggaga actggaacag ccagaagggc
+      181 atcctggagg agaagcagga caaggtggac acctactgca gaaacaatta cggggttttt
+      241 gagagcttc
+//
+LOCUS       NHP00518                 184 bp    DNA     linear   PRI 24-JUN-2020
+DEFINITION  Mamu-DRB6*01:15, DRB6 locus allele.
+ACCESSION   NHP00518
+VERSION     NHP00518
+DBLINK      INSDC: AF175320
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Khazand M, Peiberg C, Nagy M, Sauermann U.
+  TITLE     Mhc-DQ-DRB haplotype analysis in the rhesus macaque: evidence for a
+            number of different haplotypes displaying a low allelic
+            polymorphism.
+  JOURNAL   Tissue Antigens 54:615-624 (1999)
+   PUBMED   10674977
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:15
+            IPD accession: NHP00518
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0115
+FEATURES             Location/Qualifiers
+     source          1..184
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:15"
+                     /note="previous designations: Mamu-DRB6*0115"
+     exon            1..184
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..184
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:15"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="EVGX"
+ORIGIN
+        1 ttgaagtagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagaaaca tccataaaca ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc acagagttac aattgtgggg tttttgagag
+      181 cttc
+//
+LOCUS       NHP00519                4263 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:16:01:01N, DRB6 locus allele.
+ACCESSION   NHP00519
+VERSION     NHP00519
+DBLINK      INSDC: AF213019
+            INSDC: OX377254
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:16:01:01N
+            IPD accession: NHP00519
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0116; Mamu-DRB6*01:16
+FEATURES             Location/Qualifiers
+     source          1..4263
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4263
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:16:01:01N"
+                     /note="previous designations: Mamu-DRB6*0116;
+                     Mamu-DRB6*01:16"
+     exon            1..271
+                     /gene="DRB6"
+                     /number=1
+     exon            3181..3450
+                     /gene="DRB6"
+                     /number=2
+     exon            4153..4263
+                     /gene="DRB6"
+                     /number=3
+     intron          272..3180
+                     /gene="DRB6"
+                     /number=1
+     intron          3451..4152
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..271,3181..3450,4153..4263)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:16:01:01N"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="QVSWSRLSVSVISSMGLSGCSTX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtaagt gtcatatctt caatgggact gagcgggtgc
+       61 agtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacgtcg
+      121 gggagttcca ggaggtgacg gaactggggc ggcctgtcac agagttacaa ttacggggtt
+      181 tttgagagct tcacagtgca gcgatgaggt gagagcggcg gggggcaggg cctgagtccc
+      241 tgtgagctgg gaatctgaga gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtatgtgaga
+      301 gagagagaga gagagagaga gagagagagc gccatctgtg agcatttaga gtcctctcaa
+      361 tcctgagcaa gcagttctga gggcacaggt gtgtgtgtag agtgtggatt tgtctgtgtg
+      421 gctgttgtgg gaggggaagc aggagggggc ttcttctaat ccttggaggc ctctgtgggg
+      481 aggtgacatg ggagatggga gcaggtggct ggagagagag gagaccttga ttgtcctgga
+      541 tccttaaaga tgcagggaag ggaagtgtaa ggtgtatgtg gttggggtga aagtttaggg
+      601 gaggagagct gagggtattg gaagcttcgg gataacgtga gggggccagt tccagactgt
+      661 ccctggcaca cacccttcat gtaatctctg aaataaaagt gcatggtgtt ggtttgcgaa
+      721 agcattagat taacttctag gggaactgag gagacctctg aggcaattct gaagcttctt
+      781 taggtctaaa tttctttttt tgttgttttc ttagtgtgta tatttttaca tagctgaaat
+      841 gattgtgaaa ctaacttctt gaattaaagt tttaacacat tgttattatt ttattataat
+      901 gctaatagtt ttctagtagt tacgtattat tatttcatat gtaatagttg tgacacaact
+      961 tacctcactt tctcttttgt tgacctttat tatgacattc tccaaaagct gaaaatgtat
+     1021 gtttctggtt aatttttaat ttatattttt tgatttgtaa ttcttttcaa taattttgac
+     1081 ctacttgtgt gccagttata attactgctc taagaattcc ctattgtatt tggtaggtaa
+     1141 tggacaataa tctattgtct gttatctcta ggtcttagta tttttctcag tgactttgtg
+     1201 gattctttgt actgtaagat tattaacact ttcttgatat tttattcagc attttctcaa
+     1261 gtttgtggtt tgtatgttga ttttgaaaat tcttttccat gttaaagatt tgaatgtttt
+     1321 ttatttgttt gtttgttttc gggctttttt tttttttttt tttttgagac agagtcttac
+     1381 tctgttgccc aggctggaat gcagtggtgc ggtctcggct cactgcaacc tccacctccc
+     1441 aggttcaagc gattctcctg cctctgcctc ctgagtagct gggattacag acacgcacca
+     1501 ccgcgctcga ctaatttttc tatttttagt agagatgggt tttcaccacg ttggtcaggc
+     1561 tgttctcaaa ctcctgacct cggcctccca aagtgctggg attacaggct tgagccactg
+     1621 cacctcgcct gaacgttttt atttattaaa atatattgca aatttttatt aatgatttac
+     1681 aatctatctt aaatctacca tttcgtggta ttgttgtctc caggtttctc cttccttctc
+     1741 acaaaaattg tattgttgag agtctgctag tgtcagggat tttcctgggc atacgcaccc
+     1801 caagtaatga gtcccagacc ctgccttgat ccaaacgtcc ttctggaaaa aaatcagttt
+     1861 acaatgatag gtctgataat agttacgttt gttttgcacg ggagatgcat tgatcagcta
+     1921 aatgtaaata taagaacttt caaaattaaa gtggctttcc ttaatccttc ttgctgcttt
+     1981 aggactcatg cttttctagg agaaagagtt ggagaatcga ctgggcgctg tggctcacac
+     2041 ctgtaatccc agcactttgg gaggccgagg agggcgaatg atgaggtcag aagatggaga
+     2101 ctatcctgtc taataccgtg aaaccccatc tctactaaaa atacaaaaaa ttagctgggc
+     2161 atggttgcat gtgcctgtag ctccagctac tggggaggct gcagcaggag aatcacttga
+     2221 aatcgggagg cggaggttgc aatgagccaa gatggcacca ctgcattcca gcctgggcga
+     2281 tggagcaaga ctccatctca aaaaaaaaaa gatttggaga atcattgctg cttgttttgc
+     2341 acaggacatg cattgatcac ctaaatctaa atataagaat tttcaaaact aaaatgacgt
+     2401 tccttaattc ctaaatctca ggattttcta ggaacataaa gatttggaga atcatttctg
+     2461 tctgtctcat gttcccaggt cagaatcatt tctgtggtgt tctaaggtgt gagtgcatgt
+     2521 agtagtattc ctaaaaattc atgctcggtt tcctcatgta ccctactctg tccctttacc
+     2581 tatccacatt gtattaaaac atattcttct ctcaaggtgt aagaggatga taaataggtg
+     2641 ccaagtggag cacccaagtg tgatgagccc ttttacagtg aaatggagtg agaagctttc
+     2701 tgacctcaca aattgatggc tatcttcagt cattgtttta tatattttaa gtaaattaat
+     2761 cctcatataa ccccgagagg taaattagta taattaacct acattatacg tgggaaagat
+     2821 gagacccaaa agaatcaaaa aacccttcca ggatcaacca gtaaaaggca aaccttggat
+     2881 ttgaatcagg caactgggct cagaaatcaa ttttagttac tacacgctgt actttcaaag
+     2941 atttgtaaac actttgataa tgcatgccaa tttcaagcta tgaagaaaca aatacaattt
+     3001 ttataacatc tctcaaatct aatgggtcca cactatcaag attaaattcc agactgatga
+     3061 cgctgtgagg ccacatggcc aactgtgctg gaggcctggt caaggtcaga gaagcaaaca
+     3121 gctgaacaag gagacgctaa cttcctgatt cattctctct accttctttt ctcctagtcc
+     3181 agcttaaggt gactgtgtat cctgcaaaga cccagcgcct gcagcaccac aacctcctgg
+     3241 tctgctctgt gaatggtttc tatccaggca gcattgaagt caggtggttc cagaacggcc
+     3301 aggaagagaa ggctggggtg gtgtccacag gcctgatcca gaatggagac tggaccttcc
+     3361 agaccctggt gatgctggaa acagttcctc ggagtggaac ctgctaactg gagcatccaa
+     3421 gcatgacgag ccctctcaca atgcaatgga gtgagcagct ttctgacttc atgaatttct
+     3481 cacccaccaa aaaggggact ttgctaatcc ctgagtatca ggtttctcct ctcccacatc
+     3541 ctattttcat ttgctccatg ttctcatctc catcagcatg gttcactgag ggtagccctg
+     3601 taatagtttc tagaaacact ggtacctcct ggagaagcag tcacgcctgc caggcaggag
+     3661 aggctgtccc tcttttgaac ctccccatga tggcacaggt ctgggtcacc cggtctcccg
+     3721 gggcttcagg ccctgccctc cgtctgagac tgtgtttctg gtgttgttga tctgagttgt
+     3781 ttgttgtgat cggggaagag gagaacagta ggggccttcc cgacatgagg ggagtccaat
+     3841 ctcagctctg cgttttatta gctctgtcac tctagacaaa ctacttaacc tcattgagtg
+     3901 tcaggctttc tgttgatcag atgttgaagt cgtgccttac atcaaggctg taatatatga
+     3961 atgagtttga tgcttggacc ttgtaactgt tccatgtgat ttgaaaaccg ttttttcccc
+     4021 ccagaaatgg ctggttattt tagttcttac agggcagcct tcttccccat tttgaaagct
+     4081 ctgaatctta gagtctcaat taaagaggtt cagtttggaa taaacatcac taacgctggc
+     4141 ttcctctctc aggagcacgg tctgaatctg cacagagcaa gatgctgagt ggagttgggg
+     4201 gctttgtgct gggcctgctc ttccttgggg ccgggttgtt catctacttc aggaatcaga
+     4261 aag
+//
+LOCUS       NHP00520                 150 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:17, DRB6 locus allele.
+ACCESSION   NHP00520
+VERSION     NHP00520
+DBLINK      INSDC: AF213020
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:17
+            IPD accession: NHP00520
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0117
+FEATURES             Location/Qualifiers
+     source          1..150
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..150
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:17"
+                     /note="previous designations: Mamu-DRB6*0117"
+     exon            1..135
+                     /gene="DRB6"
+                     /number=1
+     exon            136..150
+                     /gene="DRB6"
+                     /number=2
+     CDS             1..150
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:17"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECRIFNGTEQVQYPNRNIHKREENLRFHSDLGEFQAVME
+                     LGWP"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcgtatc ttcaatggga ctgagcaggt gcagtacccg
+       61 aacagaaata tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gtggcctgtc
+//
+LOCUS       NHP00521                 157 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:18, DRB6 locus allele.
+ACCESSION   NHP00521
+VERSION     NHP00521
+DBLINK      INSDC: AF213021
+            INSDC: Z26239
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Otting N, van Besouw N, Jonker M, Bontrop RE.
+  TITLE     Expansion and contraction of rhesus macaque DRB regions by
+            duplication and deletion.
+  JOURNAL   J Immunol 152:2298-2307 (1994)
+   PUBMED   8133043
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:18
+            IPD accession: NHP00521
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0118
+FEATURES             Location/Qualifiers
+     source          1..157
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..157
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:18"
+                     /note="previous designations: Mamu-DRB6*0118"
+     exon            1..157
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..157
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:18"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCDCHIFNGTERVRYLNRYIHKREENLRYNSDLGEFQAVTE
+                     LGWPVTE"
+ORIGIN
+        1 ttggagcagg ctaagtgtga ctgtcatatc tttaatggga ctgagcgggt gcggtacctg
+       61 aacagataca tccataaaag ggaggagaac ctgcgctaca acagcgacct gggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc acagagt
+//
+LOCUS       NHP00522                 155 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:19, DRB6 locus allele.
+ACCESSION   NHP00522
+VERSION     NHP00522
+DBLINK      INSDC: AF213022
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Noort MC, Doxiadis GG, Bontrop RE.
+  TITLE     Allelic diversity of Mhc-DRB alleles in rhesus macaques.
+  JOURNAL   Tissue Antigens 56:58-68 (2000)
+   PUBMED   10958357
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:19
+            IPD accession: NHP00522
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0119
+FEATURES             Location/Qualifiers
+     source          1..155
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..155
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:19"
+                     /note="previous designations: Mamu-DRB6*0119"
+     exon            1..155
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..155
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:19"
+                     /codon_start=2
+                     /product="MHC class II DRB6 antigen"
+                     /translation="FNGTERVQYLNRYIHKREENLRFHSDVGEFQEVTELGRPVTELQL
+                     RGFX"
+ORIGIN
+        1 cttcaatggg actgagcggg tgcagtacct gaacagatac atccataaac gggaggagaa
+       61 cctgcgcttc cacagcgacg tgggggagtt ccaggaggtg acggaactgg ggcggcctgt
+      121 cacagagtta caattacggg gtttttgaga gcttc
+//
+LOCUS       NHP00523                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*05:01, DRB6 locus allele.
+ACCESSION   NHP00523
+VERSION     NHP00523
+DBLINK      INSDC: U57960
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Knapp LA, Cadavid LF, Eberle ME, Knechtle SJ, Bontrop RE, Watkins
+            DI.
+  TITLE     Identification of new mamu-DRB alleles using DGGE and direct
+            sequencing.
+  JOURNAL   Immunogenetics 45:171-179 (1997)
+   PUBMED   8995183
+COMMENT     IPD-MHC allele: Mamu-DRB6*05:01
+            IPD accession: NHP00523
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*0501
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*05:01"
+                     /note="previous designations: Mamu-DRB6*0501"
+     exon            1..246
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*05:01"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKSECHFFNGTERVQFLKRYFYNQEDYLRFDSDVGEYRAVTE
+                     LGRPVAEYWNSQKGFLEEKRDKVDTYCRYNYRVVES"
+ORIGIN
+        1 ttggagcagg ctaagtctga gtgtcatttc ttcaatggga cggagcgggt gcagttcctg
+       61 aagagatact tctataacca ggaggactac ctgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gcggagtact ggaacagcca gaagggcttc
+      181 ctggaggaga agcgggacaa ggtggacacc tactgcagat acaattaccg ggttgttgag
+      241 agcttc
+//
+LOCUS       NHP03482                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:21, DRB6 locus allele.
+ACCESSION   NHP03482
+VERSION     NHP03482
+DBLINK      INSDC: GQ266313
+            INSDC: AM490201
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Claas FH, Doxiadis II, van Rood JJ, Bontrop
+            RE.
+  TITLE     A highly divergent microsatellite facilitating fast and accurate DRB
+            haplotyping in humans and rhesus macaques.
+  JOURNAL   Proc Natl Acad Sci U S A 104:8907-8912 (2007)
+   PUBMED   17502594
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:21
+            IPD accession: NHP03482
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:21"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:21"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQGKSECQIFNGRERVRYLNRYIHKREENLRFDSDVGEFQAVTE
+                     LGRPVAENWNSQKGILEEKRDKVDTYCRYNX"
+ORIGIN
+        1 ttggagcagg gtaagtctga gtgtcaaatc ttcaacggga gggagcgggt gcggtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcg acagcgacgt gggggagttc
+      121 caggcggtga cggaactggg gcggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacaa ggtggacacc tactgcagat acaattaacg ggtttttgag
+      241 agcttcacag tgcagcgatg ag
+//
+LOCUS       NHP03979                 229 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:26, DRB6 locus allele.
+ACCESSION   NHP03979
+VERSION     NHP03979
+DBLINK      INSDC: HQ110984
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:26
+            IPD accession: NHP03979
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..229
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..229
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:26"
+     exon            1..229
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..229
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:26"
+                     /codon_start=2
+                     /product="MHC class II DRB6 antigen"
+                     /translation="KCECHFFNGTERVQYLNRNIHKREENLRFHSDLGEFQAVTELEWP
+                     PVAENWNSQKGILEEKRDKGDTYCINNYGV"
+ORIGIN
+        1 taagtgtgag tgtcatttct tcaatgggac tgagcgggtg cagtacctaa acagaaacat
+       61 ccataaacgg gaggagaacc tgcgcttcca cagcgacctg ggggagttcc aggcggtgac
+      121 ggaactggag tggccgcctg tcgcggagaa ctggaacagc cagaaaggca tcctggagga
+      181 gaagcgggac aagggggaca cctactgcat aaacaattac ggggttttt
+//
+LOCUS       NHP03981                 226 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:27, DRB6 locus allele.
+ACCESSION   NHP03981
+VERSION     NHP03981
+DBLINK      INSDC: HQ110986
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:27
+            IPD accession: NHP03981
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..226
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..226
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:27"
+     exon            1..226
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..226
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:27"
+                     /codon_start=2
+                     /product="MHC class II DRB6 antigen"
+                     /translation="KCECHIFNGTERVQYLNRNIHKREENLRFHSDLGEFQAVTELGRP
+                     VAENWNSRMGILEEKRDKVDIYCRYNYGV"
+ORIGIN
+        1 taagtgtgag tgtcatatct tcaatgggac tgagcgggtg cagtacctga acagaaacat
+       61 ccataaacgg gaggagaacc tgcgcttcca cagcgacctg ggggagttcc aggcggtgac
+      121 ggaactgggg cggcctgtcg cggagaactg gaacagccgg atgggcatcc tggaggagaa
+      181 gcgggacaag gtggacatct actgcagata caattacggg gttttt
+//
+LOCUS       NHP04223                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:20, DRB6 locus allele.
+ACCESSION   NHP04223
+VERSION     NHP04223
+DBLINK      INSDC: AM490200
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Claas FH, Doxiadis II, van Rood JJ, Bontrop
+            RE.
+  TITLE     A highly divergent microsatellite facilitating fast and accurate DRB
+            haplotyping in humans and rhesus macaques.
+  JOURNAL   Proc Natl Acad Sci U S A 104:8907-8912 (2007)
+   PUBMED   17502594
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:20
+            IPD accession: NHP04223
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:20"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:20"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCVCHIFNGTERVQYLNRNTHKREENLRFHSDLGEFQAVTE
+                     LGRPVAESWNSQKGILEEKRDKVDSYCRYNYGVFDSFIEQRX"
+ORIGIN
+        1 ttggagcagg ctaaatgtgt gtgtcatatc ttcaatggga ctgagcgggt gcagtaccta
+       61 aacagaaaca cccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga cggaactggg gcggcctgtc gcggagagct ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacaa ggtggactcc tactgcagat acaattacgg agtttttgat
+      241 agcttcatag agcagcgatg ag
+//
+LOCUS       NHP04224                4388 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:22:01:01N, DRB6 locus allele.
+ACCESSION   NHP04224
+VERSION     NHP04224
+DBLINK      INSDC: AM490202
+            INSDC: OX377327
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Claas FH, Doxiadis II, van Rood JJ, Bontrop
+            RE.
+  TITLE     A highly divergent microsatellite facilitating fast and accurate DRB
+            haplotyping in humans and rhesus macaques.
+  JOURNAL   Proc Natl Acad Sci U S A 104:8907-8912 (2007)
+   PUBMED   17502594
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:22:01:01N
+            IPD accession: NHP04224
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*01:22
+FEATURES             Location/Qualifiers
+     source          1..4388
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4388
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:22:01:01N"
+                     /note="previous designations: Mamu-DRB6*01:22"
+     exon            1..267
+                     /gene="DRB6"
+                     /number=1
+     exon            3301..3576
+                     /gene="DRB6"
+                     /number=2
+     exon            4278..4388
+                     /gene="DRB6"
+                     /number=3
+     intron          268..3300
+                     /gene="DRB6"
+                     /number=1
+     intron          3577..4277
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..267,3301..3576,4278..4388)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:22:01:01N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAV
+                     SELEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 ggtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgtcg gaactggagt ggcctgtcgc agagaactgg aacagccgga
+      181 tgggcatcct ggagaagcgg gacaaggtgg acatctactg cagatacaat tatagggttt
+      241 ttgagagctt cacagagcag cgatgaggtg agagtggtag gtggggggcc ctgagtccca
+      301 gtgagctgga aatctgagtg tgtgtgtgtg tgtgtgtgtg agagagagag acagagagag
+      361 agagagagag acagagagag agagagagag agagagagag agagacagag agagagagcc
+      421 atctgtgacc atttagagtc ctctcaatct ccagcaagca gttctgaggg cacaggtgtg
+      481 tgtatagagt gtggatttgt ctgtgtggct gttgtgggac gggaggcagg agtgggcttc
+      541 ttcttatcgt tggaggtctc tgtggggagg tgacatggga ggtgggagca ggtggctgga
+      601 cagagaggag accttgattg tcctggatcc ttagagatgc agggaaggga agtgtaaggt
+      661 gtatgtggtt ggggtgaagg tttaggggag gagagctgag gggtatataa ggttcgagat
+      721 aatgtgaggg ggccagttcc agactgtccc tggcacacac ccttcatgta atctctgaaa
+      781 taaaagtgca tggtgtttgt ttgcaaaagc attagattaa catccagggg aacggaggag
+      841 aactctgagg caattctgaa gcttatttac gtctaaattt ctttttttgt ttgttttctt
+      901 agtgtgtata tttttacata gctgaaatga ttgtgaaaca aacttcttga attaaagttt
+      961 taacacattg ttattatttt attataatgc taaaagtttt ctagtagtta cgtattattc
+     1021 ttttatatat aatagttgtg acacagctta cctcactttc tcttttgttg acctttatta
+     1081 tgacattctc caaaagctga aaatgtatgt ttctggttaa tttttaattt atattttttg
+     1141 atttgtaatt cttttaaata attttgacct atttgtgtgc cggttataat tactgctcta
+     1201 agaattccct attgtatttg gtaggtaatg gacaataatc tattgtctct tatatctagg
+     1261 gcttagtatt tttctcagtg actttgtgga ttctttgtac tgtaagatta ttaacacttt
+     1321 cttgatattt tattcagcat tttctccagt ttgtggtttg tatgttgatt ctgaaaattc
+     1381 ttttccatgt taaggatttg aacgtttttt gtttgtttgt ttgtttttgg gttttgtttt
+     1441 ttgttttttt gagacagaat cttactctgt tgcccaggct ggagtgcagt ggtgcgatct
+     1501 cggctcactg caacctccac cctcccgggt tcaagcgatt ctcctgcctc tgcctcctgt
+     1561 gtagctggga ttacagacac gcaccaccac gctcgactaa tttttctatt tttagtagat
+     1621 atggggcttc accatgttgg tcaggctgtt ctcagaccaa actcctgacc ttggcctccc
+     1681 aaagtgctgg gattacaggc ttgagccact gcacccggcc tgaacgtttt tatttaataa
+     1741 aatatattgc aaaattttat taatgattta caatctatct taaatctacc atgttgcggt
+     1801 attgttgtct ccaggtttct cctttcttct cacaaaaaat tgtatcgttg agagtctgct
+     1861 agtgtcaggg attttcctgg gcataagcac ccaaagtaat gagtcccaga ccctgcctcg
+     1921 atccaaacgt ccttctggaa caaaaatcgt tttacaatga taggtctgat aatagttatg
+     1981 tttgttttgc acgggagatg cactgatcag ctaatgtaaa tataagaact ttcaaaatta
+     2041 gagtgacttt ccttaatcct tctcgctgct ttaggactca tgcctttcta agagaaagat
+     2101 ttggagaatc agccgggcgt ggtggctcac gcctgtaatc ccagcacttt gaggggccga
+     2161 ggagggtgga cgatgaggtc aggagatgga gactatcctg tctaacacgg tgaaacccca
+     2221 tctctactaa aaatacaaaa aattagccag gcatggtggc acgcgcctgt agttccagct
+     2281 actccggagg ccgcagcagg agaatcactt gaatcaggag gcggaggttg cagtgagcca
+     2341 agatggcgcc actgcattcc agcctgggcg acaggaaaga ctccatctca aaaaaaaaaa
+     2401 aaaaaaaaga attggagaat catttctgct tgtttggcac agaagatgca ttgatcacct
+     2461 aaatgtaaat ataagaactt tcaaaactaa aatgacgttc cttaattcct aaatctcagg
+     2521 attttctagg aacataaaga tttggtgaat catttctgtc tgtcccacgt tcccgggtca
+     2581 gaaccatttc tgtggtgttc taaggtgtga gtgcatggcg gtagtattcc taaaaattca
+     2641 tactcggttt cctcatgtac cctactctgt ccctttatct atctacattg ttttaaaaca
+     2701 tattcttctc tcaaggtgta agaggatgat aaataggtgc caagtggaac acccaagtgt
+     2761 gatgagccct ctcacagtgg aatggagtga gaaacttctg acctcataaa tcgatggcta
+     2821 tcttcagtca ttgttttata tattttatgt aaattaatcc tcatataacc ccaagaggta
+     2881 aattagtata attaacctac attatacgtg ggaaagatga gacacaaaag aatcaaaaca
+     2941 ctcttccagg atcaaccagt aaaaggcaga ctttggattt gaaccaggca acctggctca
+     3001 gaaatcaatt ttaattacta catgctatac tttcaaagat ttgtaaacac tttgacaatg
+     3061 catgccaatt tcaagctatg aagaaacaaa tacaattttt acaacatctc tcaaatctaa
+     3121 tgggtcctca ctatcaagat taaattccag actggtgatg ctgtaaggcc acatggctag
+     3181 ctgtgctgga ggcctggtca aggtcagaat ctggatttac agagaagcaa ataaacagtc
+     3241 aaacaaggag actctaactt cctgattcat tctctctacc tttttttctc ctagtccaag
+     3301 ctaaggtgac tgtgtatcct gcaaaaaccc agtccctgca gcaccacaac ctcctggtcc
+     3361 actctgtgag tggtttctat ccaggcagca ttgaagtcag gtggttccgg aacggtcagg
+     3421 aagagaaggc tggggtggtg tccacaggcc tgatccagaa tggagactgg accttccaga
+     3481 ccctggtgat gctggaaaca gttcctcaga gtggagaggt ttacacctgc caagtggagc
+     3541 acccaagcgt gaccagccct ctcacagtgc aatggagtga gcagctttct gacttcatac
+     3601 gtttctcacc caccaagaag gggactgtgc taatccctga gtgtcaggtt tctcctctcc
+     3661 cacatcctat tttcatttgc tccatgttct catctccatc agcatggttc actgggggta
+     3721 gccctgtaat agtttctaga aacactggta cctcctggag aagcagtcat gcctgccagg
+     3781 caggagaggt tgtccctctt ttgaacctcc ccatgatggc acaggtcagg gtcacctggt
+     3841 ctccctgggc tccaggccct gccctgggtc tgagactgtg tttctggtgc tgtcgatctg
+     3901 agttgtttgt tgtgatctca gaagaggaga actgtagtgg ccttccagac atgaggggag
+     3961 tccaatctca gctctgcctt ttattagctc tgtcactcta gacaaactgc ttaacctcat
+     4021 tgagactcag gctttctgtt gatcagattt tgaagtcgtg ccttacatca aggctgtaat
+     4081 atttgaatga gtttgatgcc tggaccttgt aactgttcag tgtgatttga aaaccatttt
+     4141 tcccctcaga aatggccagt tattttagtt cttacagggc agccttcttc tccattttga
+     4201 aagctctgaa tcttagagtc tcaattaaag aggttcagtt tggaataaac atcactaacg
+     4261 ctggcttcct ctctcaggag cacggtctga atctgcacag agcaagatgc tgagtggagt
+     4321 cgggggcttt gtgctgggcc tgctctttct tgaggccggg ctgttcattt acttcaggaa
+     4381 tcagaaag
+//
+LOCUS       NHP04225                 265 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:23, DRB6 locus allele.
+ACCESSION   NHP04225
+VERSION     NHP04225
+DBLINK      INSDC: AM490203
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Claas FH, Doxiadis II, van Rood JJ, Bontrop
+            RE.
+  TITLE     A highly divergent microsatellite facilitating fast and accurate DRB
+            haplotyping in humans and rhesus macaques.
+  JOURNAL   Proc Natl Acad Sci U S A 104:8907-8912 (2007)
+   PUBMED   17502594
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:23
+            IPD accession: NHP04225
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..265
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..265
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:23"
+     exon            1..265
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..265
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:23"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERVQYLNRYIHKREENLRFHSDVGEFQAVTE
+                     LEWPPVAENWNSQKGILEEKRDKGDTYCINNYGVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcgggt gcagtaccta
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt cggggagttc
+      121 caggcggtga cggaactgga gtggccgcct gtcgcggaga actggaacag ccagaagggc
+      181 atcctggagg agaagcggga caagggggac acctactgca taaacaatta cggggttttt
+      241 gagagcttca cagagcagcg atgag
+//
+LOCUS       NHP04226                 200 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:24, DRB6 locus allele.
+ACCESSION   NHP04226
+VERSION     NHP04226
+DBLINK      INSDC: AM490204
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Claas FH, Doxiadis II, van Rood JJ, Bontrop
+            RE.
+  TITLE     A highly divergent microsatellite facilitating fast and accurate DRB
+            haplotyping in humans and rhesus macaques.
+  JOURNAL   Proc Natl Acad Sci U S A 104:8907-8912 (2007)
+   PUBMED   17502594
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:24
+            IPD accession: NHP04226
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:24"
+     exon            1..182
+                     /gene="DRB6"
+                     /number=1
+     exon            183..200
+                     /gene="DRB6"
+                     /number=2
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:24"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEPAKCECRIFNGTERVQYPNRNIHKREENLRFHGDLGEFQAVME
+                     LGWPVTELQLPGFX"
+ORIGIN
+        1 ttggagccgg ctaagtgtga gtgtcgtatc ttcaatggga ctgagcgggt gcagtatccg
+       61 aacagaaaca tccataaacg ggaggagaac ctgcgcttcc acggcgacct gggggagttc
+      121 caggcggtga tggaactggg gtggcctgtc acagagttac aattaccggg tttttgagag
+      181 cttcacagtg cagcgatgag
+//
+LOCUS       NHP05057                 200 bp    DNA     linear   PRI 20-JAN-2024
+DEFINITION  Mamu-DRB6*01:28, DRB6 locus allele.
+ACCESSION   NHP05057
+VERSION     NHP05057
+DBLINK      INSDC: KC835252
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Otting N, de Vos-Rouweler AJ, Bolijn MJ,
+            Heijmans CM, de Groot NG, van der Wiel MK, Remarque EJ, Vangenot C,
+            Nunes JM, Sanchez-Mazas A, Bontrop RE.
+  TITLE     Haplotype diversity generated by ancient recombination-like events
+            in the MHC of Indian rhesus macaques.
+  JOURNAL   Immunogenetics 65:569-584 (2013)
+   PUBMED   23715823
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:28
+            IPD accession: NHP05057
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:28"
+     exon            1..182
+                     /gene="DRB6"
+                     /number=1
+     exon            183..200
+                     /gene="DRB6"
+                     /number=2
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:28"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEX"
+ORIGIN
+        1 ttggagtagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagaaaca tccataaaca ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc acagagttac aattgtgggg tttttgagag
+      181 cttcacagtg cagcgatgag
+//
+LOCUS       NHP05061                 261 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mamu-DRB6*01:29, DRB6 locus allele.
+ACCESSION   NHP05061
+VERSION     NHP05061
+DBLINK      INSDC: KC835253
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Otting N, de Vos-Rouweler AJ, Bolijn MJ,
+            Heijmans CM, de Groot NG, van der Wiel MK, Remarque EJ, Vangenot C,
+            Nunes JM, Sanchez-Mazas A, Bontrop RE.
+  TITLE     Haplotype diversity generated by ancient recombination-like events
+            in the MHC of Indian rhesus macaques.
+  JOURNAL   Immunogenetics 65:569-584 (2013)
+   PUBMED   23715823
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:29
+            IPD accession: NHP05061
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9544"
+     gene            1..261
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:29"
+     exon            1..261
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..261
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:29"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQVKCKCRIFNGTERVQYLNRNIHKREENLRFHSNLGEFQAVTE
+                     WGGLSRRTGTARRASWRRSRTRWTPTADTITGFLRASQSSD"
+ORIGIN
+        1 ttggagcagg ttaagtgtaa gtgtcgtatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagaaaca tccataaacg ggaggagaac ctgcgcttcc acagcaacct gggggagttc
+      121 caggcggtga cggaatgggg cggcctgtcg cggagaactg gaacagccag aagggcatcc
+      181 tggaggagaa gccggacaag gtggacacct actgcagata caattacggg gtttttgaga
+      241 gcttcacaga gcagcgatga g
+//
+LOCUS       NHP05062                4346 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:12:02:01N, DRB6 locus allele.
+ACCESSION   NHP05062
+VERSION     NHP05062
+DBLINK      INSDC: KC835254
+            INSDC: OX377276
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, Otting N, de Vos-Rouweler AJ, Bolijn MJ,
+            Heijmans CM, de Groot NG, van der Wiel MK, Remarque EJ, Vangenot C,
+            Nunes JM, Sanchez-Mazas A, Bontrop RE.
+  TITLE     Haplotype diversity generated by ancient recombination-like events
+            in the MHC of Indian rhesus macaques.
+  JOURNAL   Immunogenetics 65:569-584 (2013)
+   PUBMED   23715823
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:12:02:01N
+            IPD accession: NHP05062
+            Species prefix: Mamu
+            MHC class: II
+            Previous designations: Mamu-DRB6*01:12:02
+FEATURES             Location/Qualifiers
+     source          1..4346
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4346
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:12:02:01N"
+                     /note="previous designations: Mamu-DRB6*01:12:02"
+     exon            1..267
+                     /gene="DRB6"
+                     /number=1
+     exon            3259..3534
+                     /gene="DRB6"
+                     /number=2
+     exon            4236..4346
+                     /gene="DRB6"
+                     /number=3
+     intron          268..3258
+                     /gene="DRB6"
+                     /number=1
+     intron          3535..4235
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..267,3259..3534,4236..4346)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:12:02:01N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAV
+                     SELEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 cacgtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 ggtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgtcg gaactggagt ggcctgtcgc agagaactgg aacagccgga
+      181 tgggcatcct agagaagcgg gacaaggtgg acatctactg cagatacaat tatagggttt
+      241 ttgagagctt cacagagcag cgatgaggtg agagtggtag gtgggggtcc ctgagtccca
+      301 gtgagctgga aatctgagtg tgtgtgtgtg tgtgtgtgtg tgtgtgagag agagagagag
+      361 agagagagag agagccatct gtgaccattt agagtcctct caatctccag caagcagttc
+      421 tgagggcaca ggtgtgtgta tagagtgtgg atttgtctgt gtggctgttg tgggagggga
+      481 ggcaggagtg ggcttcttct tatcattgga ggtctctgtg gggaggtgac atgggaggtg
+      541 ggagcaggtg gctggacaga gaggagacct tgattgtcct ggatccttag agatgcaggg
+      601 aagggaagtg taaggtgtat gtggttgggg tgaaggttta ggggaggaga gctgagggat
+      661 atataaggtt cgagataatg tgagggggcc agttccagac tgtccctggc acacaccctt
+      721 catgtaatct ctgaaataaa agtgcatggt gtttgtttgc aaaagcatta gattaacatc
+      781 caggggaacg gaggagaact cggaggcaat tctgaagctt atttacgtct aaatttcttt
+      841 ttttgtttgt tttcttagtg tgtatatttt tacatagctg aaatgattgt gaaacaaact
+      901 tcttgaatta aagttttaac acattgttat tattttatta taatgctaaa agttttctag
+      961 tagttacgta ttattctttt atatataata gttgtgacac agcttacctc actttctctt
+     1021 ttgttgacct ttattatgac attctccaaa agctgaaaat gtatgtttct ggttaatttt
+     1081 taatttatat tttttgattt gtaattcttt taaataattt tgacctattt gtgtgccagt
+     1141 tataattact gctctaagaa ttccctattg tatttggtag gtaatggaca ataatctatt
+     1201 gtctcttata tctagggctt agtatttttc tcagtgactt tgtggattct ttgtactgta
+     1261 agattattaa cactttcttg atattttatt cagtattttc tccagtttgt ggtttgtatg
+     1321 ttgattctga aaattctttt ccatgttaag gatttgaacg ttttttgttt gtttgtttgt
+     1381 ttttgggttt tgttttttgt ttttttgaga cagaatctta ctctgttgcc ccggctggag
+     1441 tgcagtggcg cgatcgcggc tcacggcaac ctccacctcc tgggttcaag cgattctcct
+     1501 gcctctgcct cctgtgtagc tgggattaca gacacgcacc accgcgctcc actaattttt
+     1561 ctatttttag tagatatggg gcttcaccat gttggtcaag ctgttctcag accaaactcc
+     1621 tgacctcggc ctcccaaagt gctgggatta caggcttgag ccactgcacc cggcctgaac
+     1681 gtttttattt aataaaatat attgcaaaat tttattaatg atttacaatc tatcttaaat
+     1741 ctaccatgtt gcggtattgt tgtctccagg tttctccttt cttctcacaa aaaattgtat
+     1801 cgttgagagt ctgctagtgt cagggatttt cctgggcata agcacccaaa gtaatgagtc
+     1861 ccagaccctg cctcgatcca aacgtccttc tggaacaaaa atcgttttac aatgataggt
+     1921 ctgataatag ttatgtttgt tttgcacggg agatgcattg atcagctaat gtaaatataa
+     1981 gaactttcaa aattagagtg actttcctta atccttctcg ctgctttagg actcatgcct
+     2041 ttctaagaga aagatttgga gaatcagccg ggcgtggtgg ctcacgcctg taatcccagc
+     2101 actttgggag gccgaagagg gtggacgacg aggtcaggag atggagacta tcctgtctaa
+     2161 cacggtgaaa caccatctct actaaaaata caaaaaatta gccaggcatg gtggcatgcg
+     2221 cctgtagttc cagctactcc ggaggccgca gcaggagaat cacttgaatc cgggaggcgg
+     2281 aggttgcagt gagccaagat ggcgtcactg cactccaacc tgggcaacag agcaagactc
+     2341 tatctcaaaa aaaaaaaaaa aaaaaaaaaa aaaagaattg gagaatcatt tctgcttgtt
+     2401 ttgcacagga gatgcattga tcacctaaat ataaatataa gaactttcaa aactaaaatg
+     2461 acgttcctta attcctaaat ctcaggattt tctaggaata taaagatttg gtgaatcatt
+     2521 tctgtctgtc ccatgttccc gggtcagaac catttctgtg gtgttttaag gtgtgagtgc
+     2581 atggcgccag tattcctaaa aattcatact cggtttcctc atgtacccta ctctgtccct
+     2641 ttatctatcc acattgtttt aaaacatatt cttctctcaa ggtgtaagag tatgataaat
+     2701 aggtgccaag tcgagcaccc aagtgtgatg agccctctca caggggaatg gagtgagaag
+     2761 cttctgacct cataaattga cggctatctt cagtcattgt tttatatatt ttatgtaaat
+     2821 tatcctcata taaccccaag aggtaaatta gtatatttaa cctacattat atgtgggaaa
+     2881 agatgagaca caaaagaatc aaaacactct tccaggatca accagtaaaa ggcagacctt
+     2941 ggatttgaac caggcgacct ggctcagaaa tcaattttaa ttactacaca ctgtactttc
+     3001 aaagatttat aaacacgttg acaatgcatg ccaatttcaa gctagaagaa acaaatacaa
+     3061 tttttacaac atctctcaaa tctaatgggt cctcactatc aagattaaat tccagactgg
+     3121 tgatgctgta aggccacatg gccagctgtg ctggaggcct ggtcaaggtc tgggtttaca
+     3181 gagaagcaga caaacagtca aacaaggaga ctctaacttc ctgattcatt ctctctacct
+     3241 tttttctcct agtccaagct aaggtgactg tgtatcctgc aaagacccag cctctgcagc
+     3301 accacaccct cctggtctgc tctgtgagtg gtttttatcc aggcagcatt gaagtcaggt
+     3361 ggttccggaa cggccaggaa gagaaggctg gcgtggtgtc cacaggcctg atccagaatg
+     3421 gagactggac cttccagacc ctggtgatgc tggaaacagt tcctcggagt ggagaggttt
+     3481 acacctgcca agtggagaac tcaagcatga cgagccctct cacagtggaa tggagtgagc
+     3541 agctttctga cttcatgaat ttctcaccca ccaagaaggg gactatgcta atctctgagt
+     3601 gtcaggtttc tcctctccca catcctattt tcatttgctc catgttttca tctccatcag
+     3661 cacgggtcac tggtggtagc cctgtaatag tttctagaaa cacttgtacc tcctggagaa
+     3721 gcagtcacgc ctgccaggca ggagaggctg tccctctttt gaacctcccc atgatggcac
+     3781 aggtcagggt cacctggtct ccctgggctc caggccctgc cctgggtctg agattgtgtt
+     3841 tctggtgctg tcgatctgag ttgtttgttg tgatctgaga agaggagaag cgtaggggcc
+     3901 ttccagacat gaggggagtc caatctcagc tctgcctttt attagctctg tcactctaga
+     3961 caaactgctt aacctcattg agactcaggg tttctgtgga tcagattttg aagtcgtgcc
+     4021 ttacatcaag gctgtaatat ttgaatgagt ttgatgcctg gaccttgtaa ctgttcagtg
+     4081 tgatttgaaa accatttttc cccccagaaa cggccagtta tttcagttct tacagggcag
+     4141 ccttcttctc cattttgaaa gctctgaatc ttagagtctc aattaaagag gttcagtttg
+     4201 gaataaacat cactaacgct ggcttcctct ctcaggagca cggtctgaat ctgcacagag
+     4261 caagacgctg agtggagtca ggggctttgt gctgggcctg ctcttccttg gggccgggct
+     4321 gttcgtctac ttcaggaatc agaaag
+//
+LOCUS       NHP12170                4390 bp    DNA     linear   PRI 21-DEC-2022
+DEFINITION  Mamu-DRB6*01:22:01:02N, DRB6 locus allele.
+ACCESSION   NHP12170
+VERSION     NHP12170
+DBLINK      INSDC: OX377316
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:22:01:02N
+            IPD accession: NHP12170
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..4390
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4390
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:22:01:02N"
+     exon            1..267
+                     /gene="DRB6"
+                     /number=1
+     exon            3303..3578
+                     /gene="DRB6"
+                     /number=2
+     exon            4280..4390
+                     /gene="DRB6"
+                     /number=3
+     intron          268..3302
+                     /gene="DRB6"
+                     /number=1
+     intron          3579..4279
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..267,3303..3578,4280..4390)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:22:01:02N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAV
+                     SELEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 ggtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgtcg gaactggagt ggcctgtcgc agagaactgg aacagccgga
+      181 tgggcatcct ggagaagcgg gacaaggtgg acatctactg cagatacaat tatagggttt
+      241 ttgagagctt cacagagcag cgatgaggtg agagtggtag gtggggggcc ctgagtccca
+      301 gtgagctgga aatctgagtg tgtgtgtgtg tgtgtgtgtg agagagagag acagagagag
+      361 agagagagag acagagagag agagagagag agagagagag agagagacag agagagagag
+      421 ccatctgtga ccatttagag tcctctcaat ctccagcaag cagttctgag ggcacaggtg
+      481 tgtgtataga gtgtggattt gtctgtgtgg ctgttgtggg acgggaggca ggagtgggct
+      541 tcttcttatc gttggaggtc tctgtgggga ggtgacatgg gaggtgggag caggtggctg
+      601 gacagagagg agaccttgat tgtcctggat ccttagagat gcagggaagg gaagtgtaag
+      661 gtgtatgtgg ttggggtgaa ggtttagggg aggagagctg aggggtatat aaggttcgag
+      721 ataatgtgag ggggccagtt ccagactgtc cctggcacac acccttcatg taatctctga
+      781 aataaaagtg catggtgttt gtttgcaaaa gcattagatt aacatccagg ggaacggagg
+      841 agaactctga ggcaattctg aagcttattt acgtctaaat ttcttttttt gtttgttttc
+      901 ttagtgtgta tatttttaca tagctgaaat gattgtgaaa caaacttctt gaattaaagt
+      961 tttaacacat tgttattatt ttattataat gctaaaagtt ttctagtagt tacgtattat
+     1021 tcttttatat ataatagttg tgacacagct tacctcactt tctcttttgt tgacctttat
+     1081 tatgacattc tccaaaagct gaaaatgtat gtttctggtt aatttttaat ttatattttt
+     1141 tgatttgtaa ttcttttaaa taattttgac ctatttgtgt gccggttata attactgctc
+     1201 taagaattcc ctattgtatt tggtaggtaa tggacaataa tctattgtct cttatatcta
+     1261 gggcttagta tttttctcag tgactttgtg gattctttgt actgtaagat tattaacact
+     1321 ttcttgatat tttattcagc attttctcca gtttgtggtt tgtatgttga ttctgaaaat
+     1381 tcttttccat gttaaggatt tgaacgtttt ttgtttgttt gtttgttttt gggttttgtt
+     1441 ttttgttttt ttgagacaga atcttactct gttgcccagg ctggagtgca gtggtgcgat
+     1501 ctcggctcac tgcaacctcc accctcccgg gttcaagcga ttctcctgcc tctgcctcct
+     1561 gtgtagctgg gattacagac acgcaccacc acgctcgact aatttttcta tttttagtag
+     1621 atatggggct tcaccatgtt ggtcaggctg ttctcagacc aaactcctga ccttggcctc
+     1681 ccaaagtgct gggattacag gcttgagcca ctgcacccgg cctgaacgtt tttatttaat
+     1741 aaaatatatt gcaaaatttt attaatgatt tacaatctat cttaaatcta ccatgttgcg
+     1801 gtattgttgt ctccaggttt ctcctttctt ctcacaaaaa attgtatcgt tgagagtctg
+     1861 ctagtgtcag ggattttcct gggcataagc acccaaagta atgagtccca gaccctgcct
+     1921 cgatccaaac gtccttctgg aacaaaaatc gttttacaat gataggtctg ataatagtta
+     1981 tgtttgtttt gcacgggaga tgcactgatc agctaatgta aatataagaa ctttcaaaat
+     2041 tagagtgact ttccttaatc cttctcgctg ctttaggact catgcctttc taagagaaag
+     2101 atttggagaa tcagccgggc gtggtggctc acgcctgtaa tcccagcact ttgaggggcc
+     2161 gaggagggtg gacgatgagg tcaggagatg gagactatcc tgtctaacac ggtgaaaccc
+     2221 catctctact aaaaatacaa aaaattagcc aggcatggtg gcacgcgcct gtagttccag
+     2281 ctactccgga ggccgcagca ggagaatcac ttgaatcagg aggcggaggt tgcagtgagc
+     2341 caagatggcg ccactgcatt ccagcctggg cgacaggaaa gactccatct caaaaaaaaa
+     2401 aaaaaaaaaa gaattggaga atcatttctg cttgtttggc acagaagatg cattgatcac
+     2461 ctaaatgtaa atataagaac tttcaaaact aaaatgacgt tccttaattc ctaaatctca
+     2521 ggattttcta ggaacataaa gatttggtga atcatttctg tctgtcccac gttcccgggt
+     2581 cagaaccatt tctgtggtgt tctaaggtgt gagtgcatgg cggtagtatt cctaaaaatt
+     2641 catactcggt ttcctcatgt accctactct gtccctttat ctatctacat tgttttaaaa
+     2701 catattcttc tctcaaggtg taagaggatg ataaataggt gccaagtgga acacccaagt
+     2761 gtgatgagcc ctctcacagt ggaatggagt gagaaacttc tgacctcata aatcgatggc
+     2821 tatcttcagt cattgtttta tatattttat gtaaattaat cctcatataa ccccaagagg
+     2881 taaattagta taattaacct acattatacg tgggaaagat gagacacaaa agaatcaaaa
+     2941 cactcttcca ggatcaacca gtaaaaggca gactttggat ttgaaccagg caacctggct
+     3001 cagaaatcaa ttttaattac tacatgctat actttcaaag atttgtaaac actttgacaa
+     3061 tgcatgccaa tttcaagcta tgaagaaaca aatacaattt ttacaacatc tctcaaatct
+     3121 aatgggtcct cactatcaag attaaattcc agactggtga tgctgtaagg ccacatggct
+     3181 agctgtgctg gaggcctggt caaggtcaga atctgggttt acagagaagc aaataaacag
+     3241 tcaaacaagg agactctaac ttcctgattc attctctcta cctttttttc tcctagtcca
+     3301 agctaaggtg actgtgtatc ctgcaaaaac ccagtccctg cagcaccaca acctcctggt
+     3361 ccactctgtg agtggtttct atccaggcag cattgaagtc aggtggttcc ggaacggtca
+     3421 ggaagagaag gctggggtgg tgtccacagg cctgatccag aatggagact ggaccttcca
+     3481 gaccctggtg atgctggaaa cagttcctca gagtggagag gtttacacct gccaagtgga
+     3541 gcacccaagc gtgaccagcc ctctcacagt gcaatggagt gagcagcttt ctgacttcat
+     3601 acgtttctca cccaccaaga aggggactgt gctaatccct gagtgtcagg tttctcctct
+     3661 cccacatcct attttcattt gctccatgtt ctcatctcca tcagcatggt tcactggggg
+     3721 tagccctgta atagtttcta gaaacactgg tacctcctgg agaagcagtc atgcctgcca
+     3781 ggcaggagag gttgtccctc ttttgaacct ccccatgatg gcacaggtca gggtcacctg
+     3841 gtctccctgg gctccaggcc ctgccctggg tctgagactg tgtttctggt gctgtcgatc
+     3901 tgagttgttt gttgtgatct cagaagagga gaactgtagt ggccttccag acatgagggg
+     3961 agtccaatct cagctctgcc ttttattagc tctgtcactc tagacaaact gcttaacctc
+     4021 attgagactc aggctttctg ttgatcagat tttgaagtcg tgccttacat caaggctgta
+     4081 atatttgaat gagtttgatg cctggacctt gtaactgttc agtgtgattt gaaaaccatt
+     4141 tttcccctca gaaatggcca gttattttag ttcttacagg gcagccttct tctccatttt
+     4201 gaaagctctg aatcttagag tctcaattaa agaggttcag tttggaataa acatcactaa
+     4261 cgctggcttc ctctctcagg agcacggtct gaatctgcac agagcaagat gctgagtgga
+     4321 gtcgggggct ttgtgctggg cctgctcttt cttgaggccg ggctgttcat ttacttcagg
+     4381 aatcagaaag
+//
+LOCUS       NHP12176                4254 bp    DNA     linear   PRI 22-DEC-2022
+DEFINITION  Mamu-DRB6*01:30:01:01N, DRB6 locus allele.
+ACCESSION   NHP12176
+VERSION     NHP12176
+DBLINK      INSDC: OX377341
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca mulatta (rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mamu-DRB6*01:30:01:01N
+            IPD accession: NHP12176
+            Species prefix: Mamu
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..4254
+                     /organism="Macaca mulatta"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9544"
+     gene            1..4254
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:30:01:01N"
+     exon            1..212
+                     /gene="DRB6"
+                     /number=1
+     exon            3172..3444
+                     /gene="DRB6"
+                     /number=2
+     exon            4144..4254
+                     /gene="DRB6"
+                     /number=3
+     intron          213..3171
+                     /gene="DRB6"
+                     /number=1
+     intron          3445..4143
+                     /gene="DRB6"
+                     /number=2
+     CDS             join(1..212,3172..3444,4144..4254)
+                     /gene="DRB6"
+                     /allele="Mamu-DRB6*01:30:01:01N"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECHIFNGSERVQYLNRNIHKWEGGEPALPQRCGGVPG
+                     GEGTGAACHRITITGFLRASQCSDESSLRX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggtct gagcgggtgc
+       61 agtacctgaa cagaaacatc cataaatggg agggaggaga acctgcgctt ccacagcgat
+      121 gtgggggagt tccaggaggt gagggaactg gggcggcctg tcacagaatt acaattacgg
+      181 ggtttttgag agcttcacag tgcagcgatg aggtgagagt ggcggggggc agggcctgag
+      241 tccctgtgag ctgggaatct gagagtgtgt gtgtgtgtgt gtgtgagaga gagagagcgc
+      301 catctgagca tttagagtcc tctcaatcct gagcaagcag ttctgagggc acaggtgtgt
+      361 gtgtagagtg tggatttatc tgtgtgtctg ttgtgggagg ggaggcagga gggggattct
+      421 tctaatcctt ggaggcctct gtggggaggt gacatgggag gtgggagcag gtggctggag
+      481 agagaggaga ccttgattgt cctggatcct taaagatgca ggtaagggaa gtgtaaggtg
+      541 tatgtggttg gggtgaaggt ttaggggagg agagctgagg gtattggaag cttccggata
+      601 acgtgagggg gccagttcca gactgtcctt ggcacacacc cttcttgtaa tctctgaaat
+      661 aaaagtgcac ggtgtttgtt tgcgaaagca ttagattaac ttctagggga actgaggaga
+      721 cctctgaggc aattctgaag cttctttagg tctaaatttc tttttttgtt gttttcttag
+      781 tgtgtatatt tttacatagc tgaaatgatt gtgaaactaa cttcttgaat taaagtttta
+      841 acacattgtt attattttat tataatgcta atagttttct agtagttatg tattattatt
+      901 tcatatgtaa tagttgtgac acaacttacc tcactttctc ttttgttgac ctttattatg
+      961 acattctcca aaagctgaaa atgtatgttt ctggttaatt tttaatttat attgttttat
+     1021 ttgtaattgt tttaaataat tttgacctat ttgtgtgccg gttataatta ctgctctaag
+     1081 aattccctat tgtatttggt aggtaatgga caataatcta ttgtctgtta tctctagggt
+     1141 ttagtatttt tctcagtgat tttgtggatt ctttgtactg taagattatt aacactttct
+     1201 tgatatttta ttcagtattt tctccagttt gtggtttgta tgttgattct gaaaattctt
+     1261 ttccatgtta aggatttgaa cgttttttgt ttgtttgttt gtttttgggc ttttcttttt
+     1321 tttttttttg agacagagtc ttactctgtt gcccaggctg gaatgcagtg gtgcggtctt
+     1381 ggctcactgc aacctccacc tcccgggttc aagcgattct cctgcctctg cctcctgagt
+     1441 agctgggatt acagacatgc accaccacgc tcgactaatt tttctatttt tagtagagat
+     1501 ggggtttcac cacgttggtc aggctgttct caaactcctg tcctcggcct cccaaagtgc
+     1561 tgggattacg ggcttgagcc actgcacctc gcctgaacgt ttttatttat taaaatatat
+     1621 tgcaaatttt tattaatgat ttacaatcta ccttaaatct atcatttcgt ggtattgttg
+     1681 tctccaggtt tcttcttcct tctcacaaaa attgtattgt tgagagtctg ctagtgtcag
+     1741 ggattttcct gggcataagc accccaagta atgagtccca gaccctgcct tgatccaaat
+     1801 gtccttctgg aaaaaaatca gtttacaatg ataggtctga taatagttat gtttgttttg
+     1861 cacaggagat gcattgatca gctaaatgta aatataagaa ctttcaaaat taaagtggct
+     1921 ttccttaatc cttctcactg ctttaggact tatgcttttc taggagaaag agttggagaa
+     1981 tcgactgggc gctgtggctc acacctgtaa tcccagcact ttgggaggcc gaggagggcg
+     2041 aatgacgagg tcagaagatg gagactaacc tgtctaatac catgaaaccc catctctact
+     2101 aaaaatacaa aaaaattagc tgggcatggt tgcacgtgcc tgtagttcca gctactgggg
+     2161 aggccgcagc aggagaatca cttgaaatcg ggaggcggag gttgcaatga gccaagatgg
+     2221 caccactgca ttccagcctg ggcaacagag caagactcca tctcaaaaaa aaaaaaaaaa
+     2281 aaaaaaaaga tttggagaat cattgctgct tgttttgcac aggacatgca ttgatcacct
+     2341 aaatgtaaat ataagaactt tcaaaactaa aatgacgttc cttaattcct aaatctcagg
+     2401 attttctagg aacataaaga tttggagaat catttctgtc tgtcccacgt tcccgggtca
+     2461 gaaccatttc tgtggtgttc taaggtgtga gtacatggcg gtagtattcc taaaaattca
+     2521 tactcggttt cctcatgtac cctactctgt ccctttacct atccatattg tattaaaaca
+     2581 tactcttctt tcaaggtgta agaggatgat aaatagatgc caagtggagc acccaagtgt
+     2641 gatgagccct tttacagtga aatggagtga gaagctttct gacctcacaa attgatggct
+     2701 atcttcagtc attgttttat atgttttacg taaattaatc ctcatataac cccaagaggt
+     2761 aaattagtat aattaaccta cattatacgt gggaaagatg agacccaaaa gaatcaaaaa
+     2821 actcttccag gatcaaccag taaaaggcaa accttggatt tcaatcaggc aacgaggctc
+     2881 agaaatcaat tttagttact acacgctgta ctttcaaaga tttgtaaaca ctttgacaat
+     2941 gcatgccaat ttcaagctat gaagaaacaa atacaatttt tacaacatct ctcaaatcta
+     3001 atgggtccac actatcaaga ttaaattcta gactgatgac gctgtgaggc cacatggcca
+     3061 gctgtgctgg aggcctggcc aaggtcagag cctgggttta cagagaagca aacagccgaa
+     3121 caaggagacg ataacttcct gattcattct ctctaccttc ttttctccta gtccagctta
+     3181 aggtgactgt gtatcctgca aagacccagc ccctgcagca ccacaacctc ctggtctgct
+     3241 ctgtgagtgg tttctatcca ggcagcattg aagtcaggtg gttccagaac ggccaggaag
+     3301 agaaggctgg ggtagtgtcc acaggcctga tccagaatgg agactggact ttccagaccc
+     3361 tggtgatgct ggaaacagtt cctcagagtg gaacctgcca actggagcat ccaagcgtga
+     3421 tgagccctct cacagtgcaa tagagtgagc agttttctga cttcatgaat ttctcaccca
+     3481 ctaagaaggg gactttgcta atccctgagt atcaggtttc tcctctccca catcctattt
+     3541 tcatttgttc catgttctca tctccatcag catggttcac tgggggttgc cctgtaatag
+     3601 tttctagaaa cactggtacc tcctggagaa gcagtcacgc ctgccaggca ggagaggctg
+     3661 tccctctttt gaacctcccc atgatggcac aggtgagggt cacccggtct ccctgggctc
+     3721 caggccctgc cctcggtctg agactgtgtt tctggtgctg ttgaactgag ttgtttgttg
+     3781 tgatctgaga agcgaactgt aggggccttc ctgacatgag gggagtccaa tctcggctct
+     3841 gccttttatt agctctgtca ctcgagacaa actacttaac ctcattgagt ctcaggcttt
+     3901 ctgtggatca gatgttgaag ttgtgcctta catcaaggct gtaatatttg aatgagtttg
+     3961 atgcctggac cttgtaactg ttcagtgtga tttgaaaact gttttttctc cccagaaatg
+     4021 gctagctatt ttagttctta cagggcagct ttcttcccca ttttgaaagc tctgaatctt
+     4081 agggtctcaa ttaaagaggt tcagtttgga ataaacatca ctaaacctgg cttcctctct
+     4141 caggagcacg gtctgaatct gcacagagca agatgctgag tggagtcggg ggctttgtgc
+     4201 tgggcctgct cttccttggg gccgggctgt ttgtctactt caggaatcag aaag
+//

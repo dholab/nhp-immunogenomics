@@ -1,0 +1,338 @@
+LOCUS       NHP01031                 704 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Saoe-F*03:01, F locus allele.
+ACCESSION   NHP01031
+VERSION     NHP01031
+DBLINK      INSDC: M38404
+KEYWORDS    IPD-MHC; MHC class I; F.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Watkins DI, Garber TL, Chen ZW, Toukatly G, Hughes AL, Letvin NL.
+  TITLE     Unusually limited nucleotide sequence variation of the expressed
+            major histocompatibility complex class I genes of a New World
+            primate species (Saguinus oedipus).
+  JOURNAL   Immunogenetics 33:79-89 (1991)
+   PUBMED   1840570
+REFERENCE   2
+  AUTHORS   Watkins DI, Chen ZW, Hughes AL, Evans MG, Tedder TF, Letvin NL.
+  TITLE     Evolution of the MHC class I genes of a New World primate from
+            ancestral homologues of human non-classical genes.
+  JOURNAL   Nature 346:60-63 (1990)
+   PUBMED   2114550
+COMMENT     IPD-MHC allele: Saoe-F*03:01
+            IPD accession: NHP01031
+            Species prefix: Saoe
+            MHC class: I
+            Previous designations: Saoe-F
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /organism="Saguinus oedipus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9490"
+     gene            1..704
+                     /gene="F"
+                     /allele="Saoe-F*03:01"
+                     /note="previous designations: Saoe-F"
+     exon            1..276
+                     /gene="F"
+                     /number=1
+     exon            277..552
+                     /gene="F"
+                     /number=2
+     exon            553..654
+                     /gene="F"
+                     /number=3
+     exon            667..699
+                     /gene="F"
+                     /number=4
+     exon            700..704
+                     /gene="F"
+                     /number=5
+     intron          655..666
+                     /gene="F"
+                     /number=1
+     CDS             join(1..276,277..552,553..654,667..699,700..704)
+                     /gene="F"
+                     /allele="Saoe-F*03:01"
+                     /codon_start=3
+                     /product="MHC class I F antigen"
+                     /translation="SHTLQGTNGCDVGPDGRFLRGYHQHAYDGKDYISLNEDLRSWTAA
+                     DTAAQITQRMYESEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRAVPPKAHVAHHPIS
+                     DHEAILRCWALGFYPAEIMLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVLSGEE
+                     QRYTCHVQHEGLPESLTLRWEPSSQPTVLIMGITAGVVVLGAVVTGAVMWRKKIYRNRG
+                     SYSQAAM"
+ORIGIN
+        1 ggtctcacac cctccaggga acgaatggct gcgatgtggg acccgatgga cgcttcctcc
+       61 gcggatatca ccagcacgcc tacgacggca aggactacat ctccctgaac gaggacctgc
+      121 gctcctggac cgcggcagac acagcggctc agatcaccca gcgcatgtat gagtcagaga
+      181 aatatgcaga ggagttcagc acctacctga agggcgggtg cgtggagtgg ctccacagat
+      241 acctggagaa cgggaaggag acgctgcagc gcgctgttcc tccaaaggca cacgttgccc
+      301 accaccccat ctctgaccat gaggccatcc tgaggtgctg ggccctgggc ttctaccctg
+      361 cggagattat gctgacctgg cagagggatg gagaggatca gacccaggac acagaacttg
+      421 tggagaccag gcctgcaggg gatggaacct tccagaagtg ggcagctgtg gtggtgcttt
+      481 ctggggagga gcagcgatac acctgccatg tgcagcacga ggggctgcca gagtccctca
+      541 ccctgagatg ggagccatct tcccagccca ccgtcctcat catgggcatc actgctggtg
+      601 tggttgtcct tggagctgtg gtcactggag ctgtgatgtg gaggaagaag atcttgttgg
+      661 gaagggatag aaacagaggg agctactctc aggctgcaat gtga
+//
+LOCUS       NHP10380                1044 bp    DNA     linear   PRI 07-APR-2020
+DEFINITION  Saoe-F*03:02, F locus allele.
+ACCESSION   NHP10380
+VERSION     NHP10380
+DBLINK      INSDC: LR656260
+KEYWORDS    IPD-MHC; MHC class I; F.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Saoe-F*03:02
+            IPD accession: NHP10380
+            Species prefix: Saoe
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1044
+                     /organism="Saguinus oedipus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9490"
+     gene            1..1044
+                     /gene="F"
+                     /allele="Saoe-F*03:02"
+     exon            1..64
+                     /gene="F"
+                     /number=1
+     exon            65..340
+                     /gene="F"
+                     /number=2
+     exon            341..616
+                     /gene="F"
+                     /number=3
+     exon            617..892
+                     /gene="F"
+                     /number=4
+     exon            893..994
+                     /gene="F"
+                     /number=5
+     exon            1007..1039
+                     /gene="F"
+                     /number=6
+     exon            1040..1044
+                     /gene="F"
+                     /number=7
+     intron          995..1006
+                     /gene="F"
+                     /number=1
+     CDS             join(1..64,65..340,341..616,617..892,893..994,1007..1039,
+                     1040..1044)
+                     /gene="F"
+                     /allele="Saoe-F*03:02"
+                     /codon_start=1
+                     /product="MHC class I F antigen"
+                     /translation="MAPRTLLLLLLGALTLTETWAGSHSLRYFSTAMSRPGRGEPRYRY
+                     IGVGYVDDTLFVRFDSDDPSPRMEPRAPWVEQERPEYWEDQTRVVKANAQTDRVKLRKL
+                     LRYYNQSEGGSHTLQGTNGCDVGPDGRFLRGYHQHAYDGKDYISLNEDLRSWTAADTAA
+                     QITQRMYESEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRAVPPKAHVAHHPISDHEA
+                     ILRCWALGFYPAEIMLTWQRDGEDQTQDTELVETRPAGDGNFQKWAAVVVLSGEEQRYT
+                     CHVQHEGLPESLTLRWEPSSQPTVLIMGITAGVVVLGAVVTGAVMWRKKIYRNRGSYSQ
+                     AAM"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc ttgggggccc tgaccctgac cgagacctgg
+       61 gcgggctccc actccttgag gtatttcagt actgccatgt cccggcctgg ccgcggggag
+      121 ccccgataca ggtacatcgg agtgggctac gtggatgaca cgctgttcgt gaggttcgac
+      181 agcgacgacc cgagtccgag gatggagccg cgggcgccgt gggtggagca ggagaggccg
+      241 gagtattggg aggaccagac acgggtcgtc aaggccaacg cacagactga ccgagtgaaa
+      301 ctgcggaaac tgctccgcta ctacaatcag agcgagggcg ggtctcacac cctccaggga
+      361 acgaatggct gcgatgtggg acccgatgga cgcttcctcc gcggatatca ccagcacgcc
+      421 tacgacggca aggactacat ctccctgaac gaggacctgc gctcctggac cgcggcagac
+      481 acagcggctc agatcaccca gcgcatgtat gagtcagaga aatatgcaga ggagttcagc
+      541 acctacctga agggcgggtg cgtggagtgg ctccacagat acctggagaa cgggaaggag
+      601 acgctgcagc gcgctgttcc tccaaaggca cacgttgccc accaccccat ctctgaccat
+      661 gaggccatcc tgaggtgctg ggccctgggc ttctaccctg cggagattat gctgacctgg
+      721 cagagggatg gagaggatca gacccaggac acagaacttg tggagaccag gcctgcaggg
+      781 gatggaaact tccagaagtg ggcagctgtg gtggtgcttt ctggggagga gcagcgatac
+      841 acctgccatg tgcagcacga ggggctgcca gagtccctca ccctgagatg ggagccatct
+      901 tcccagccca ccgtcctcat catgggcatc actgctggtg tggttgtcct tggagctgtg
+      961 gtcactggag ctgtgatgtg gaggaagaag atctggttgg gaagggatag aaacagaggg
+     1021 agctactctc aggctgcaat gtga
+//
+LOCUS       NHP10381                1044 bp    DNA     linear   PRI 07-APR-2020
+DEFINITION  Saoe-F*03:03, F locus allele.
+ACCESSION   NHP10381
+VERSION     NHP10381
+DBLINK      INSDC: LR656261
+KEYWORDS    IPD-MHC; MHC class I; F.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Saoe-F*03:03
+            IPD accession: NHP10381
+            Species prefix: Saoe
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1044
+                     /organism="Saguinus oedipus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9490"
+     gene            1..1044
+                     /gene="F"
+                     /allele="Saoe-F*03:03"
+     exon            1..64
+                     /gene="F"
+                     /number=1
+     exon            65..340
+                     /gene="F"
+                     /number=2
+     exon            341..616
+                     /gene="F"
+                     /number=3
+     exon            617..892
+                     /gene="F"
+                     /number=4
+     exon            893..994
+                     /gene="F"
+                     /number=5
+     exon            1007..1039
+                     /gene="F"
+                     /number=6
+     exon            1040..1044
+                     /gene="F"
+                     /number=7
+     intron          995..1006
+                     /gene="F"
+                     /number=1
+     CDS             join(1..64,65..340,341..616,617..892,893..994,1007..1039,
+                     1040..1044)
+                     /gene="F"
+                     /allele="Saoe-F*03:03"
+                     /codon_start=1
+                     /product="MHC class I F antigen"
+                     /translation="MAPRTLLLLLLGALTLTETWAGSHSLRYFSTAMSRPGRGEPRYRY
+                     IGVGYVDDTLFVRFDSDDPSPRMEPRAPWVEQERPEYWEDQTRVVKANAQTDRVKLRKL
+                     LRYYNQSEGGSHTLQGTNGCDVGPDGRFLRGYHQHAYDGKDYISLNEDLRSWTAADTAA
+                     QITQRMYESEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRAVPPKAHVAHHPISDHEA
+                     ILRCWALGFYPAEIMLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVLSGEEQRYT
+                     CHVQHEGLPESLTLRWEPSSQPTVLIMGITAGVVVLGAVVTGAVMWRKKIYRNRGSYSQ
+                     AAM"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc ttgggggccc tgaccctgac cgagacctgg
+       61 gcgggctccc actccttgag gtatttcagt actgccatgt cccggcctgg ccgcggggag
+      121 ccccgataca ggtacatcgg agtgggctac gtggatgaca cgctgttcgt gaggttcgac
+      181 agcgacgacc cgagtccgag gatggagccg cgggcgccgt gggtggagca ggagaggccg
+      241 gagtattggg aggaccagac acgggtcgtc aaggccaacg cacagactga ccgagtgaaa
+      301 ctgcggaaac tgctccgcta ctacaatcag agcgagggcg ggtctcacac cctccaggga
+      361 acgaatggct gcgatgtggg acccgatgga cgcttcctcc gcggatatca ccagcacgcc
+      421 tacgacggca aggactacat ctccctgaac gaggacctgc gctcctggac cgcggcagac
+      481 acagcggctc agatcaccca gcgcatgtat gagtcagaga aatatgcaga ggagttcagc
+      541 acctacctga agggcgggtg cgtggagtgg ctccacagat acctggagaa cgggaaggag
+      601 acgctgcagc gcgctgttcc tccaaaggca cacgttgccc accaccccat ctctgaccat
+      661 gaggccatcc tgaggtgctg ggccctgggc ttctaccctg cggagattat gctgacctgg
+      721 cagagggatg gagaggatca gacccaggac acagaacttg tggagaccag gcctgcaggg
+      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcttt ctggggagga gcagcgatac
+      841 acctgccatg tgcagcacga ggggctgcca gagtccctca ccctgagatg ggagccatct
+      901 tcccagccca ccgtcctcat catgggcatc actgctggtg tggttgtcct tggagctgtg
+      961 gtcactggag ctgtgatgtg gaggaagaag atctggttgg gaagggatag aaacagaggg
+     1021 agctactctc aggctgcaat gtga
+//
+LOCUS       NHP10382                1044 bp    DNA     linear   PRI 07-APR-2020
+DEFINITION  Saoe-F*03:04, F locus allele.
+ACCESSION   NHP10382
+VERSION     NHP10382
+DBLINK      INSDC: LR656262
+KEYWORDS    IPD-MHC; MHC class I; F.
+SOURCE      Saguinus oedipus (Cottontop Tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Saoe-F*03:04
+            IPD accession: NHP10382
+            Species prefix: Saoe
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1044
+                     /organism="Saguinus oedipus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9490"
+     gene            1..1044
+                     /gene="F"
+                     /allele="Saoe-F*03:04"
+     exon            1..64
+                     /gene="F"
+                     /number=1
+     exon            65..340
+                     /gene="F"
+                     /number=2
+     exon            341..616
+                     /gene="F"
+                     /number=3
+     exon            617..892
+                     /gene="F"
+                     /number=4
+     exon            893..994
+                     /gene="F"
+                     /number=5
+     exon            1007..1039
+                     /gene="F"
+                     /number=6
+     exon            1040..1044
+                     /gene="F"
+                     /number=7
+     intron          995..1006
+                     /gene="F"
+                     /number=1
+     CDS             join(1..64,65..340,341..616,617..892,893..994,1007..1039,
+                     1040..1044)
+                     /gene="F"
+                     /allele="Saoe-F*03:04"
+                     /codon_start=1
+                     /product="MHC class I F antigen"
+                     /translation="MAPRTLLLLLLGALTLTETWAGSHSLRYFSTAMSRPGRGEPRYRY
+                     IGVGYVDDTLFVRFDSDDPSPRMEPRAPWVEQERPEYWEDQTRVVKANAQTDRVKMRKL
+                     LRYYNQSEGGSHTLQGTNGCDVGPDGRFLRGYHQHAYDCKDYISLNEDLRSWTAADTAA
+                     QITQRMYESEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRAVPPKAHVAHHPISDHEA
+                     ILRCWALGFYPAEIMLTWQRDGEDQTQDTELVETRPAGDGNFQKWAAVVVLSGEEQRYT
+                     CHVQHEGLPESLTLRWEPSSQPTVLIMGITAGVVVLGAVVTGAVMWRKKIYRNRGSYSQ
+                     AAM"
+ORIGIN
+        1 atggcgcccc gaaccctcct cctgctgctc ttgggggccc tgaccctgac cgagacctgg
+       61 gcgggctccc actccttgag gtatttcagt actgccatgt cccggcctgg ccgcggggag
+      121 ccccgataca ggtacatcgg agtgggctac gtggatgaca cgctgttcgt gaggttcgac
+      181 agcgacgacc cgagtccgag gatggagccg cgggcgccgt gggtggagca ggagaggccg
+      241 gagtattggg aggaccagac acgggtcgtc aaggccaacg cacagactga ccgagtgaaa
+      301 atgcggaaac tgctccgcta ctacaatcag agcgagggcg ggtctcacac cctccaggga
+      361 acgaatggct gcgatgtggg acccgatgga cgcttcctcc gcggatatca ccagcacgcc
+      421 tacgactgca aggactacat ctccctgaac gaggacctgc gctcctggac cgcggcagac
+      481 acagcggctc agatcaccca gcgcatgtat gagtcagaga aatatgcaga ggagttcagc
+      541 acctacctga agggcgggtg cgtggagtgg ctccacagat acctggagaa cgggaaggag
+      601 acgctgcagc gcgctgttcc tccaaaggca cacgttgccc accaccccat ctctgaccat
+      661 gaggccatcc tgaggtgctg ggccctgggc ttctaccctg cggagattat gctgacctgg
+      721 cagagggatg gagaggatca gacccaggac acagaacttg tggagaccag gcctgcaggg
+      781 gatggaaact tccagaagtg ggcagctgtg gtggtgcttt ctggggagga gcagcgatac
+      841 acctgccatg tgcagcacga ggggctgcca gagtccctca ccctgagatg ggagccatct
+      901 tcccagccca ccgtcctcat catgggcatc actgctggtg tggttgtcct tggagctgtg
+      961 gtcactggag ctgtgatgtg gaggaagaag atctggttgg gaagggatag aaacagaggg
+     1021 agctactctc aggctgcaat gtga
+//

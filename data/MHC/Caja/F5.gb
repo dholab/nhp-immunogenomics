@@ -1,0 +1,366 @@
+LOCUS       NHP05261                2838 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Caja-F5*01, F5 locus allele.
+ACCESSION   NHP05261
+VERSION     NHP05261
+DBLINK      INSDC: AB845739
+KEYWORDS    IPD-MHC; MHC class I; F5.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Kono A, Brameier M, Roos C, Suzuki S, Shigenari A, Kametani Y,
+            Kitaura K, Matsutani T, Suzuki R, Inoko H, Walter L, Shiina T.
+  TITLE     Genomic sequence analysis of the MHC class I G/F segment in common
+            marmoset (Callithrix jacchus).
+  JOURNAL   J Immunol 192:3239-3246 (2014)
+   PUBMED   24600031
+COMMENT     IPD-MHC allele: Caja-F5*01
+            IPD accession: NHP05261
+            Species prefix: Caja
+            MHC class: I
+            Previous designations: Caja-F5Ps; Caja-F5Ps*01
+FEATURES             Location/Qualifiers
+     source          1..2838
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..2838
+                     /gene="F5"
+                     /allele="Caja-F5*01"
+                     /note="previous designations: Caja-F5Ps; Caja-F5Ps*01"
+     exon            1..64
+                     /gene="F5"
+                     /number=1
+     exon            194..460
+                     /gene="F5"
+                     /number=2
+     exon            706..981
+                     /gene="F5"
+                     /number=3
+     exon            1522..1797
+                     /gene="F5"
+                     /number=4
+     exon            1939..2040
+                     /gene="F5"
+                     /number=5
+     exon            2479..2510
+                     /gene="F5"
+                     /number=6
+     exon            2834..2838
+                     /gene="F5"
+                     /number=7
+     intron          65..193
+                     /gene="F5"
+                     /number=1
+     intron          461..705
+                     /gene="F5"
+                     /number=2
+     intron          982..1521
+                     /gene="F5"
+                     /number=3
+     intron          1798..1938
+                     /gene="F5"
+                     /number=4
+     intron          2041..2478
+                     /gene="F5"
+                     /number=5
+     intron          2511..2833
+                     /gene="F5"
+                     /number=6
+     CDS             join(1..64,194..460,706..981,1522..1797,1939..2040,
+                     2479..2510,2834..2838)
+                     /gene="F5"
+                     /allele="Caja-F5*01"
+                     /codon_start=1
+                     /product="MHC class I F5 antigen"
+                     /translation="MAPRTLLLLLSGALALTETQAGSHSLRYLSTAVSRPGRGESRYRY
+                     IAVGYVDDTQFMRFDSDAQSPMMEPRAPWVEQERPEYWDREVKESAQTDRVNLRILLRY
+                     YNQSETGSHTLQX"
+ORIGIN
+        1 atggcaccac gaaccctcct cctgctgctc tctggggccc tggccctgac cgagacccag
+       61 gcgggtgagt gcgggatcgg gagggaaacg acctctgcgg ggaggaccga gaggccgccc
+      121 ggtaggagcg caggacccag ggagccaggc tgggaggagg gtcggcaggg tctcagcccc
+      181 tcctcgtccc caggctccca ctccttgcgg tatttgagca ccgccgtgtc ccggcctggc
+      241 cgcggggagt ccagatacag gtacatcgca gtgggttacg tggacgacac gcaattcatg
+      301 cggtttgaca gcgacgccca gagtccgatg atggagccgc gggcaccgtg ggtggagcag
+      361 gagaggccgg agtattggga ccgggaggtc aaggagagcg cacaaactga ccgagtaaac
+      421 ctgcggatcc tgctccgcta ctacaaccag agcgagaccg gtgagggact caggctgggg
+      481 gaacaggtca cgacccctcc ccatctccca cgaagggcct gggtctccct gagtctccgg
+      541 tccgagatcc gccctgagac tgcaggacct gcccagatcc tccacccgag agaactccag
+      601 gcgcctttac ctggtttcat tttcagttta ggccaaaatc cccgcgggtt ggtgggggag
+      661 tgggtaggac tcggtgggcg gggctgaccg cgggggaggg gccagggtct cacacgctcc
+      721 agtgaatgaa tggctgcgat gtgggaccgg atggacgctt ccttcgaggg tatcaccagc
+      781 acgcctatga cggcaaggac tacatctccc tgaacgagga cctgcgttcc tggaccgcgg
+      841 cggacacagc agctcagatc aaccagcgca agtgggaggc agagaaatat gcagaggagt
+      901 tcagcaccta cctgaagggc agatgcgtgg agtggctcca cagatacctg gagaacggga
+      961 aggagacgct gcagcgcacg ggtaccaggg gccacagggc gccttcacca tctcctgtag
+     1021 atctgccggg ctggcctcgc acaagtaggg gaggaaaatg ggaccaatgc tagaatatca
+     1081 ccctccctct agtcctgagt gggaagaatc ctcctggttt ccggatcctg taccagagat
+     1141 tgactctgag tatccgcttt gcttgctggg ataattaagg gatgaagtct ttgagggaat
+     1201 ggaaggaagg acagtccctg gaaaactgat cagcggtccc ctttgacccc tgcaacaacc
+     1261 ttgggctccg tgacttttgc tctcaggcct tcttctctgc ctcacacaca atgtgtgtgg
+     1321 tgctctgatt ccagcttttc taagtccctc ggcctccact taggtcaggg ccagaagtcc
+     1381 ctatgtccca tcagagactc gaactttgca aggaataaga gattatccga ggtgtcctgt
+     1441 ctattctcag gatggtcaca tgagcactgc ttggtgtccc atgaggaggg caaagggtct
+     1501 gaattttctg actcttctca gatcctccaa aggcacacgt tgcccatcac cccatctctg
+     1561 accatgaggc caccctgagg tgctgggcct tgggcttcta ccctgtggag atcatgctga
+     1621 cctggcagag ggatggagag gatcagaccc aggacacaga gcttgtggag accaggcctg
+     1681 caggggatgg aaccttccag aagtgggcag ctgtggtggt gctttctggg gaggaggagc
+     1741 gatacacctg ccatgtgcag cacgaggggc tgccagagcc cctcaccctg agatggggta
+     1801 aggagtgaga tggaataaag gggaggatga gaggtgatgt cttttctcaa gagaagcagg
+     1861 agcccttctg gagcccttca gcagggtcag ggctgaggcc tggggatcag ggcccctcac
+     1921 cttcccctcc tttcccagag ccatcttccc agcccaccat cctcatcgtg ggcatcgttg
+     1981 ctggcctggt tgtccttgga gctgtggtca ctggagctgt gatgtggagc aagaagatct
+     2041 ggttgggaag gggtgaggag tgggggtctg agttttcttg tcctagtggg gattttgagc
+     2101 cccaggtaga agtgtgctct gtcttcttac tgggaagcac catccacaca catgggccta
+     2161 cccagctggg tacccgtgtg acaacactta ctcgtttgta aagcaaaacg aacaacagat
+     2221 tcttcccttt gaagactgtg gtggtgggga ccttattgcc aacagtcaca aaccacaggg
+     2281 gaaggtccct gctgaggaca gaccttagga ggacagttgg tccaggaccc acacctgctt
+     2341 ccttcttatt ttctgatact gccctggatc tgcagttata catttctgag aacttctctg
+     2401 ggatcaaaga ctagggggtt gctctaggac cttgtagccc tcctttctgg cctctcacag
+     2461 gacattttct tcccacagat ggaaacagag agagatactc tcaggctgca agtaagtata
+     2521 aagggggctg aaccctgaga tcattgggat actgtggttg agcccaagga gaagctgtcc
+     2581 cagcccacag ttcctcctct agccgcatct cctgtgggct ctgaccaggt cctgtttgtg
+     2641 ttctacccca gtcattgaca ctgcccaggg ctttagtgtg tctctcataa cttataaagg
+     2701 tgacacttgg gggcaggggc cccgatgtaa gtggggtatt gtggggaaca gagggaatgc
+     2761 gggtttgcta tggggtttct ttgacttgga tgccctgagt atgcgatggg cggttcaaag
+     2821 tgtcacctct cactgtga
+//
+LOCUS       NHP10773                1074 bp    DNA     linear   PRI 24-AUG-2020
+DEFINITION  Caja-F5*04:02N, F5 locus allele.
+ACCESSION   NHP10773
+VERSION     NHP10773
+DBLINK      INSDC: LT996919
+KEYWORDS    IPD-MHC; MHC class I; F5.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F5*04:02N
+            IPD accession: NHP10773
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1074
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..1074
+                     /gene="F5"
+                     /allele="Caja-F5*04:02N"
+     exon            1..64
+                     /gene="F5"
+                     /number=1
+     exon            65..331
+                     /gene="F5"
+                     /number=2
+     exon            332..605
+                     /gene="F5"
+                     /number=3
+     exon            606..881
+                     /gene="F5"
+                     /number=4
+     exon            882..983
+                     /gene="F5"
+                     /number=5
+     exon            996..1027
+                     /gene="F5"
+                     /number=6
+     exon            1070..1074
+                     /gene="F5"
+                     /number=7
+     intron          984..995
+                     /gene="F5"
+                     /number=1
+     intron          1028..1069
+                     /gene="F5"
+                     /number=2
+     CDS             join(1..64,65..331,332..605,606..881,882..983,996..1027,
+                     1070..1074)
+                     /gene="F5"
+                     /allele="Caja-F5*04:02N"
+                     /codon_start=1
+                     /product="MHC class I F5 antigen"
+                     /translation="MAPRTLLLLLSGALALAETQAGSHSLRYLSTAVSRPGRGESRYRY
+                     IAVGYVDDTQFLRFDSDAQSPMMEPRAPWVEQERPEYWEREVKEIAQTDRVNLRILLRY
+                     YNQSETGSHPPVNEWLRCGTGWTLPSRVSPARLRRQGLHLPERGPALLDRGGHSSSDHP
+                     AQVGGREICRGVQHLPEGQMRGVAPQIPGEREGDAAAHGSSKGTRCPSPHLX"
+ORIGIN
+        1 atggcaccac gaaccctcct cctgctgctt tctggggccc tggccctggc cgagacccag
+       61 gcgggctccc actccttgcg gtatttgagc accgccgtgt cccggcctgg ccgcggggag
+      121 tccagataca ggtacatcgc agtgggctac gtggacgaca cgcagttcct gcggtttgac
+      181 agcgacgccc agagtccgat gatggagccg cgggcgccgt gggtggagca ggagaggccg
+      241 gagtattggg agcgggaggt caaagagatc gcacaaactg accgagtgaa cctgcggatc
+      301 ctgctccgct actacaacca gagcgagacc gggtctcacc ctccagtgaa tgaatggctg
+      361 cgatgtggga ccggatggac gcttccttcg agggtatcac cagcacgcct acgacggcaa
+      421 ggactacatc tccctgaacg aggacctgcg ctcctggacc gcggcggaca cagcagctca
+      481 gatcacccag cgcaagtggg aggcagagaa atatgcagag gagttcagca cctacctgaa
+      541 gggcagatgc gtggagtggc tccacagata cctggagaac gggaaggaga cgctgcagcg
+      601 cacggatcct ccaaaggcac acgttgccca tcaccccatc tctgaccatg aggccaccct
+      661 gaggtgctgg gccttgggct tctaccctgt ggagatcatg ctgacctggc agagggatgg
+      721 agaggatcag acccaggaca cagagcttgt ggagaccagg cctgcagggg atggaacctt
+      781 ccagaagtgg gcagctgtag tggtgctttc tggggaggag gagcgataca cctgccatgt
+      841 gaagcacgag gggctgccag agcccctcac cctgagacgg gagccatctt cccagcccac
+      901 catcctcatc gtgggcatcg ttgctggcct ggttgtcctt ggagctgtgg tcactggagc
+      961 tgtgatgtgg agcaagaaga tctggttggg aagggatgga aactgagaga gatactctca
+     1021 ggctgcaatg tgtaggactg agaagcaaga tttgttcatg cctccctttt gtga
+//
+LOCUS       NHP10776                 703 bp    DNA     linear   PRI 24-AUG-2020
+DEFINITION  Caja-F5*04:04N, F5 locus allele.
+ACCESSION   NHP10776
+VERSION     NHP10776
+DBLINK      INSDC: LR213622
+KEYWORDS    IPD-MHC; MHC class I; F5.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F5*04:04N
+            IPD accession: NHP10776
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..703
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..703
+                     /gene="F5"
+                     /allele="Caja-F5*04:04N"
+     exon            1..275
+                     /gene="F5"
+                     /number=1
+     exon            276..551
+                     /gene="F5"
+                     /number=2
+     exon            552..653
+                     /gene="F5"
+                     /number=3
+     exon            666..698
+                     /gene="F5"
+                     /number=4
+     exon            699..703
+                     /gene="F5"
+                     /number=5
+     intron          654..665
+                     /gene="F5"
+                     /number=1
+     CDS             join(1..275,276..551,552..653,666..698,699..703)
+                     /gene="F5"
+                     /allele="Caja-F5*04:04N"
+                     /codon_start=2
+                     /product="MHC class I F5 antigen"
+                     /translation="AQTDRVNLRILLRYYNQSETGYHQHAYDGKDYISLNEDLRSWTAA
+                     DTAAQINQRKWEAEKYAEEFSTYLKGRCVEWLHRYLENGKETLQRTDPPKAHVAHHPIS
+                     DHEATLRCWALGFYPVEIMLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVLSGEE
+                     ERYTCHVQHEGLPEPLTLRWEPSSQPTILIVGIVAGLVVLGAVVTGAVMWSKKIYGNRE
+                     RYSQAAM"
+ORIGIN
+        1 cgcacaaact gaccgagtaa acctgcggat cctgctccgc tactacaacc agagcgagac
+       61 cgggtatcac cagcacgcct atgacggcaa ggactacatc tccctgaacg aggacctgcg
+      121 ttcctggacc gcggcggaca cagcagctca gatcaaccag cgcaagtggg aggcagagaa
+      181 atatgcagag gagttcagca cctacctgaa gggcagatgc gtggagtggc tccacagata
+      241 cctggagaac gggaaggaga cgctgcagcg cacggatcct ccaaaggcac acgttgccca
+      301 tcaccccatc tctgaccatg aggccaccct gaggtgctgg gccttgggct tctaccctgt
+      361 ggagatcatg ctgacctggc agagggatgg agaggatcag acccaggaca cagagcttgt
+      421 ggagaccagg cctgcagggg atggaacctt ccagaagtgg gcagctgtgg tggtgctttc
+      481 tggggaggag gagcgataca cctgccatgt gcagcacgag gggctgccag agcccctcac
+      541 cctgagatgg gagccatctt cccagcccac catcctcatc gtgggcatcg ttgctggcct
+      601 ggttgtcctt ggagctgtgg tcactggagc tgtgatgtgg agcaagaaga tctggttggg
+      661 aagggatgga aacagagaga gatactctca ggctgcaatg tga
+//
+LOCUS       NHP10778                1027 bp    DNA     linear   PRI 24-AUG-2020
+DEFINITION  Caja-F5*04:05N, F5 locus allele.
+ACCESSION   NHP10778
+VERSION     NHP10778
+DBLINK      INSDC: LR213625
+KEYWORDS    IPD-MHC; MHC class I; F5.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F5*04:05N
+            IPD accession: NHP10778
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1027
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..1027
+                     /gene="F5"
+                     /allele="Caja-F5*04:05N"
+     exon            1..64
+                     /gene="F5"
+                     /number=1
+     exon            65..331
+                     /gene="F5"
+                     /number=2
+     exon            332..605
+                     /gene="F5"
+                     /number=3
+     exon            606..881
+                     /gene="F5"
+                     /number=4
+     exon            882..983
+                     /gene="F5"
+                     /number=5
+     exon            996..1027
+                     /gene="F5"
+                     /number=6
+     intron          984..995
+                     /gene="F5"
+                     /number=1
+     CDS             join(1..64,65..331,332..605,606..881,882..983,996..1027)
+                     /gene="F5"
+                     /allele="Caja-F5*04:05N"
+                     /codon_start=1
+                     /product="MHC class I F5 antigen"
+                     /translation="MAPLTLLLLLSGALALAETQAGSHSLRYLSTAVSRPGRGESRYRY
+                     IAVGYVDDTQFLRFDSDAQSPMMEPRAPWVEQERPEYWEREVKEIAQTDRVNLRILLRY
+                     YNQSETGSHPPVNEWLRCGTGWTLPSRVSPARLRRQGLHLPERGPALLDRGGHSSSDHP
+                     AQVGGREICRGVQHLPEGQMRGVAPQIPGEREGDAAAHGSSKGTRCPSPHLX"
+ORIGIN
+        1 atggcaccac taaccctcct cctgctgctt tctggggccc tggccctggc cgagacccag
+       61 gcgggctccc actccttgcg gtatttgagc accgccgtgt cccggcctgg ccgcggggag
+      121 tccagataca ggtacatcgc agtgggctac gtggacgaca cgcagttcct gcggtttgac
+      181 agcgacgccc agagtccgat gatggagccg cgggcgccgt gggtggagca ggagaggccg
+      241 gagtattggg agcgggaggt caaagagatc gcacaaactg accgagtgaa cctgcggatc
+      301 ctgctccgct actacaacca gagcgagacc gggtctcacc ctccagtgaa tgaatggctg
+      361 cgatgtggga ccggatggac gcttccttcg agggtatcac cagcacgcct acgacggcaa
+      421 ggactacatc tccctgaacg aggacctgcg ctcctggacc gcggcggaca cagcagctca
+      481 gatcacccag cgcaagtggg aggcagagaa atatgcagag gagttcagca cctacctgaa
+      541 gggcagatgc gtggagtggc tccacagata cctggagaac gggaaggaga cgctgcagcg
+      601 cacggatcct ccaaaggcac acgttgccca tcaccccatc tctgaccatg aggccaccct
+      661 gaggtgctgg gccttgggct tctaccctgt ggagatcatg ctgacctggc agagggatgg
+      721 agaggatcag acccaggaca cagagcttgt ggagaccagg cctgcagggg atggaacctt
+      781 ccagaagtgg gcagctgtag tggtgctttc tggggaggag gagcgataca cctgccatgt
+      841 gaagcacgag gggctgccag agcccctcac cctgagacgg gagccatctt cccagcccac
+      901 catcctcatc gtgggcatcg ttgctggcct ggttgtcctt ggagctgtgg tcactggagc
+      961 tgtgatgtgg agcaagaaga tctggttggg aagggatgga aactgagaga gatactctca
+     1021 ggctgca
+//

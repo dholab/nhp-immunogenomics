@@ -1,0 +1,1612 @@
+LOCUS       NHP00839                5791 bp    DNA     linear   PRI 20-JAN-2023
+DEFINITION  Patr-DQB1*03:02:01:01, DQB1 locus allele.
+ACCESSION   NHP00839
+VERSION     NHP00839
+DBLINK      INSDC: M81260
+            INSDC: AB242213
+            INSDC: LT607052
+            INSDC: OV260170
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   Bak E, Ishii Y, Omatsu T, Kyuwa S, Tanoue T, Hayasaka I, Yoshikawa
+            Y.
+  TITLE     Sequence analysis of major histocompatibility complex class-II DQB1
+            (Patr-DQB1) alleles in chimpanzees by polymerase chain
+            reaction-based methods.
+  JOURNAL   Hum Immunol 67:655-663 (2006)
+   PUBMED   16916663
+REFERENCE   3
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*03:02:01:01
+            IPD accession: NHP00839
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*03:02; Patr-DQB1*0302;
+            Patr-DQB1*03:02:01
+FEATURES             Location/Qualifiers
+     source          1..5791
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5791
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:02:01:01"
+                     /note="previous designations: Patr-DQB1*03:02;
+                     Patr-DQB1*0302; Patr-DQB1*03:02:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1552..1821
+                     /gene="DQB1"
+                     /number=2
+     exon            4361..4642
+                     /gene="DQB1"
+                     /number=3
+     exon            5158..5268
+                     /gene="DQB1"
+                     /number=4
+     exon            5754..5777
+                     /gene="DQB1"
+                     /number=5
+     exon            5778..5791
+                     /gene="DQB1"
+                     /number=6
+     intron          110..1551
+                     /gene="DQB1"
+                     /number=1
+     intron          1822..4360
+                     /gene="DQB1"
+                     /number=2
+     intron          4643..5157
+                     /gene="DQB1"
+                     /number=3
+     intron          5269..5753
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1552..1821,4361..4642,5158..5268,5754..5777,
+                     5778..5791)
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVRLVTRYIYNREEYVRFDSDVGVYRAVTPLGPPAAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gcggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccgg taagtgcagg
+      121 gccactgctc tccagagccg ccactctggg aacaagctct ccttgggctg gggtatggcg
+      181 atggtgatct cgattatctc agacacaatc ttttatcaat atttcctctg ttttgggaaa
+      241 gagagctatg ttgcattccc atttatcttt taatgatgag gtgaggagaa tccaatccca
+      301 tcctacagac ttaagcctgg aggaggagag aggagagaaa agaggagaca aagtgttcat
+      361 ttactaccag tgataggaca aagtgagcat ggggttattt ttgaagatat gaatttctcc
+      421 aaagacacag catgatttgt catttaggcg tgccccaaga ctgcctggac taactattat
+      481 gagatcctgc attgggaaat gtaaggcagc aatggtgtct gtagtccccg tatttgggga
+      541 aaaggtgtct gtattcctga ctcagtagag catttgtgga ggcaaaatct tggtactgag
+      601 ggaagctgac tggctgacca cagacaggga gtcttcaggt ttcactgatt tatgggcaaa
+      661 tggtgacttg agtgggattc agagacccga gttaatggtg gactgaattt agtagaaagg
+      721 aggatgtaaa gaagggaaat aacacatatt atgaaaccac tcactcagac acagaacaat
+      781 actttatata aattctctct cactccttct aacatcctgt gtgtagatat catgattttc
+      841 ttttacacaa ttatacttgt gatatggata ttctgttacg taacctgccc gagctggtga
+      901 ctgccacagt ttaatgggat tctagtttat caaattcaaa agcttgtgct ctttcggtga
+      961 ataaacgttt ctttctagga ctcagagatc taggactccc ttctttctaa cacagaagtg
+     1021 agtgaacctc atagggcact tgggagggta aatccaggca tgggaaggaa ggtattttac
+     1081 ccagggacca agagaatagg catatcaaaa gaggacaggt ttaattcctg gacctgtctc
+     1141 gtcattccct tgaactctca ggtttatgtg gataacttta tctctgagat acccaggagc
+     1201 tccatggaaa aggggatttc atgcgagaac gccctgatcc ctctaagtgc agaggtccat
+     1261 gcaaaatcaa cccgactgcc tcttcgcttg gttcacaggc ccagccagac agggacaggg
+     1321 ctttcctccc tttcctgcct gtaggaaggc ggattcccga agacccccga gagggcggac
+     1381 agggctgggc agagcccccg ggaggatccc aggtctgcag cgcgaggcac aggccggcgg
+     1441 gaactggagg tcgcgcgggc ggttccacag ctccgggccg ggtcagggcg gcggctgcgg
+     1501 gggaggacgg gctgggctgg gccggactga ccggccggtg attccccgca gaggatttcg
+     1561 tgtaccagtt taagggcatg tgctacttca ccaacgggac ggagcgcgtg cgtcttgtga
+     1621 cgagatacat ctataaccga gaggagtacg tgcgcttcga cagcgacgtg ggggtgtacc
+     1681 gggcggtgac gccgctgggg ccgcctgccg ccgagtactg gaacagccag aaggaagtcc
+     1741 tggagaggac ccgggcggag ttggacacgg tgtgcagaca caactaccag ttggagctcc
+     1801 gcacgacctt gcaacggcga ggtgagcgtc gtcgccccgc tgcgaggccc actcttggcc
+     1861 ggggccccga gtctctgcgc taggagggac gaggggggcg aagcctctgg aacctgagcc
+     1921 gcgttcgttc caccccaggg gacaggagtt ggcggtgtgg gtggtggggc aggtgcatac
+     1981 gaggggcagg gacctggggg cagagcaggg gtacaggcag agttggtcaa gctgcctagt
+     2041 ttcgccccag cctccccgtc cgtcagcctc gccctctgct ctgcacgttc tcgcctcgtg
+     2101 ccttatgcgt ttgcctcctc atgccttgcc tttgctaagc agtcctctct gcccccaatt
+     2161 tctgccctct tcccctgccc gcccgccccg ctagcattgc cccacccagc aaggtccacg
+     2221 tgcacagctc gcgccgcagg aagcttcagg cttggcctgg tggagttagg gctgctccac
+     2281 aactgcgcgc agggcatcca gcaattacag ttgtgaaata agatattttg acttttggct
+     2341 tcaaattatt attcatcgta attctgtttt cttaaatggc tctcattcat ggaggagctc
+     2401 tttgaggtga gagtatttta atcatttcat gcctggtacc tgacacattg actgacatgt
+     2461 ggtatgagct caataatctt ctgttaaatt aatgaataaa tgtactcagc tgcccatcca
+     2521 cttaggctca agaaaaacca gaggtaaaca gaaccttaaa aatggacttt tattaattat
+     2581 tttctatcat tttgcttaat tctttaaagt aaactcttac tgacttggat ctaaatagtt
+     2641 tgtgaataca aagtctgagg aaaaaagtgt ttgctaaaaa taaaaacaac acttgaatga
+     2701 tgtttgtaag gcagttttaa tttcttagaa aagctgaaca aatggtacaa tgcaaagagc
+     2761 agaagttttg gaataaatag attgaagcca ttaagttatt ggataaaaat agtttcaggt
+     2821 tgcttttggc ctaggttctc ccctcccccc atcactatcc acttcaggaa taaacattct
+     2881 gaaagttaat tttacccata tagtgagcac ttatttctaa gttgccttat caaataccat
+     2941 ctatgttatg tcatttaatc tcgcagttgc ctgtgcatta gagattagta tcaccacttt
+     3001 atatatccta atattagtac atgataaaca ctttaagtaa tcagcccaca attactcacc
+     3061 aagaccttaa gcctcccaaa gtacacaaca ttcttacctt cctcactaca catctgtaga
+     3121 gtcaaaggga cataaagcct tgttaaagcc agttttgacc agaagcagca atggtctctt
+     3181 cctgtttgat ctccatgtta atgggacaaa atgatacttt caaggcattg aaaatttatg
+     3241 attaatcaat caaatttatg attaatcaat ccctagtctg actccagtca gattcacaaa
+     3301 actgttagtt tactttatac tcccttgcct tcttttgact cacatcatag tgccagcaag
+     3361 tacttatatt tttgctattt cagttctatt tccataaaat ttattttatc atcttttctc
+     3421 ataaatttgt gccctctatt tttactccca atctgtgtaa gatgaacaaa tcttataaga
+     3481 ccacatagct gactgtgatt tcaggtggac tccaggaagg agaaccaaag aaaagttcaa
+     3541 gtccaagcag aaaccgtgat tccttccgga tgatggctcg tgagtgccat ttaatagggg
+     3601 tgccacctgc tgtcctcagc aaatcccagc tatatgtata tgtttgcatt acaggctcat
+     3661 taacctaggc tgacctctgc aaggatctca gaatattttc tacagagaac atacaatgat
+     3721 aatatctgat tttaggacaa aaaagtaatt ctcaacagca agggaatgga gtagggtaga
+     3781 cagctagtaa ttaaactcac ttgtgtgtta aaaataaatt aaggaaaaaa gaaaatgaga
+     3841 gaacatatga ctaaataaag aaagcataca ttaaatattt actatagttt tacactaaga
+     3901 gaataaagga aatgcaataa agtggcctga aaggtaaagg atgagatgtg taaaagaggc
+     3961 agggaaagat gtgtcatttt ttttttttac tatgagcagc aatctgagaa gataaaggaa
+     4021 tcgagttatg ggcaaacatg atgtttgatc agtgttattt gttttcaagg cctgcctact
+     4081 tttttttcaa atattacaaa cttttgaagt cacattcttt ttgttttttg ctgtctgtta
+     4141 ctagatcgca cattctgtaa aggcagggac cgtggtatgt tgtttatctt tggattctca
+     4201 gtgattgtca tatttatatg tgctgaatga atcttaatcc aagacttgga ctccaggtat
+     4261 ctttccactc cggttccaag gagggaccct tcccaatggt agacgtgctg tgtagtctca
+     4321 catctcactc ctgtcttttc ctgtctgtta ctgccctcag tggagcccac agtgaccatc
+     4381 tccccatcca ggacagaggc cctcaaccac cacaacctgc tggtctgctc agtgacagat
+     4441 ttctatccag gccagatcaa agtccgatgg tttcggaatg accaggagga gacaaccggc
+     4501 gttgtgtcca ccccccttat taggaacggt gactggacct tccagatcct ggtgatgctg
+     4561 gaaatgactc cccagcatgg agatgtctac acctgccacg tggagcaccc cagcctccag
+     4621 aaccccatca ccgtggagtg gcgtaagggg atattgagtt tctgttacta tgggccccac
+     4681 aagacaaagg gcagagttca ttctgaccca tcccttccca tctcttatcc ctgatgtcac
+     4741 tactgagctg ggaatcacag gagactagag cacctcttgc tccatggcaa gtgcatcaga
+     4801 agaatcctga tctcatcacc tttccagatg ctagggaaat tactctacat actgtttctc
+     4861 tggatcccag tcctgatagc tcggagggac tgatcattag ggctggtgac tgggatctta
+     4921 gggtttaagg ttatggatga gttcctgagg agtggagatc tgcttcccca ctctctcacc
+     4981 tactcactgt acccaaggac ctattggcta gcctttcctc ccttaggggt ggtctgaatg
+     5041 gagaactagg ttcctttgac gccttcacct cctgaatctc agactggact tcagctcctc
+     5101 agcaggaatg ctatggggtg tggagacaaa cactgacact caggctctgc ttcttagggg
+     5161 ctcagtctga atctgcccag agcaagatgc tgagtggcgt tggaggcttc gtgctggggc
+     5221 tgatcttcct cgggctgggc cttattatcc atcacaggag tcagaaaggt gaggaacccc
+     5281 aagggaaaag gggaagatgg gctgtgaccc agaccctctg ttcagggagg tcctgtctct
+     5341 agatgtggct ctttcctcct gaccccgaga ggaagaaagc tgagctggag gtgggaggag
+     5401 acaggacaag attggaggag gcattggaat ctgattttac tagttgaaag gtagccctgt
+     5461 cacacagctc actgatagag cttattgcag gtcatcctta ctgttcatca ttgtctcatt
+     5521 ggctcctttc caaaagcttc ctccattaag agggtcagag cctcggcctc cttgccttct
+     5581 agtgacaatt tcctttgttt taggggattt tatattaggg tgcttaaggc cttgaaggac
+     5641 atgggtggga agagaatata actctaatta agtcacatgt gtcattttcc tttggggtga
+     5701 gagactggct gtttgtgtaa tgagaccttt ctctgcataa cttccttttg taagacctca
+     5761 agggcatcca ccagcagggc tcctgcactg a
+//
+LOCUS       NHP00840                 786 bp    DNA     linear   PRI 16-JUN-2021
+DEFINITION  Patr-DQB1*03:03:01, DQB1 locus allele.
+ACCESSION   NHP00840
+VERSION     NHP00840
+DBLINK      INSDC: AF071581
+            INSDC: LT607053
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Slierendregt BL, Kenter M, Otting N, Anholts J, Jonker M, Bontrop
+            RE.
+  TITLE     Major histocompatibility complex class II haplotypes in a breeding
+            colony of chimpanzees (Pan troglodytes).
+  JOURNAL   Tissue Antigens 42:55-61 (1993)
+   PUBMED   8266319
+REFERENCE   2
+  AUTHORS   de Groot NG, Otting N, Doxiadis GG, Antunes SM, Bontrop RE.
+  TITLE     Characterisation of four non-human primate Mhc-DQB1 alleles.
+  JOURNAL   Tissue Antigens 52:497-499 (1998)
+   PUBMED   9864042
+COMMENT     IPD-MHC allele: Patr-DQB1*03:03:01
+            IPD accession: NHP00840
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*03:03; Patr-DQB1*0303
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:03:01"
+                     /note="previous designations: Patr-DQB1*03:03;
+                     Patr-DQB1*0303"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     exon            773..786
+                     /gene="DQB1"
+                     /number=5
+     CDS             1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:03:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVRLVTRYIYNREEYVRFDSDVGVYRAVTPLGPPDAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gaggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccga ggatttcgtg
+      121 taccagttta agggcatgtg ctacttcacc aacgggacgg agcgcgtgcg tcttgtgacg
+      181 agatacatct ataaccgaga ggagtacgtg cgcttcgaca gcgacgtggg ggtgtaccgg
+      241 gcggtgacgc cgctggggcc gcctgacgcc gagtactgga acagccagaa ggaagtcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcagacaca actaccagtt ggagctccgc
+      361 acgaccttgc agcggcgagt ggagcccaca gtgaccatct ccccatccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctca gtgacagatt tctatccagg ccagatcaaa
+      481 gtccgatggt ttcggaatga ccaggaggag acaaccggcg ttgtgtccac cccccttatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaatgactcc ccagcatgga
+      601 gatgtctaca cctgccacgt ggagcacccc agcctccaga accccatcac cgtggagtgg
+      661 cgggctcagt ctgaatctgc ccagagcaag atgctgagtg gcgttggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatt atccatcaca ggagtcagaa agggctcctg
+      781 cactga
+//
+LOCUS       NHP00841                 786 bp    DNA     linear   PRI 16-JUN-2021
+DEFINITION  Patr-DQB1*03:04, DQB1 locus allele.
+ACCESSION   NHP00841
+VERSION     NHP00841
+DBLINK      INSDC: AJ308038
+            INSDC: LT908064
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Doxiadis GG, Bontrop RE.
+  TITLE     Extensive Mhc-DQB variation in humans and non-human primate species.
+  JOURNAL   Immunogenetics 54:230-239 (2002)
+   PUBMED   12136334
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*03:04
+            IPD accession: NHP00841
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*0304
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:04"
+                     /note="previous designations: Patr-DQB1*0304"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     exon            773..786
+                     /gene="DQB1"
+                     /number=5
+     CDS             1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:04"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVFQFKG
+                     MCYFTNGTERVRLVTRYIYNREEYVRFDSDVGVYRAVTPLGPPDAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gaggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccga ggatttcgtg
+      121 ttccagttta agggcatgtg ctacttcacc aacgggacgg agcgcgtgcg tcttgtgacg
+      181 agatacatct ataaccgaga ggagtacgtg cgcttcgaca gcgacgtggg ggtgtaccgg
+      241 gcggtgacgc cgctggggcc gcctgacgcc gagtactgga acagccagaa ggaagtcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcagacaca actaccagtt ggagctccgc
+      361 acgaccttgc agcggcgagt ggagcccaca gtgaccatct ccccatccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctca gtgacagatt tctatccagg ccagatcaaa
+      481 gtccgatggt ttcggaatga ccaggaggag acaaccggcg ttgtgtccac cccccttatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaatgactcc ccagcatgga
+      601 gatgtctaca cctgccacgt ggagcacccc agcctccaga accccatcac cgtggagtgg
+      661 cgggctcagt ctgaatctgc ccagagcaag atgctgagtg gcgttggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatt atccatcaca ggagtcagaa agggctcctg
+      781 cactga
+//
+LOCUS       NHP00842                5791 bp    DNA     linear   PRI 20-JAN-2023
+DEFINITION  Patr-DQB1*03:05:01:01, DQB1 locus allele.
+ACCESSION   NHP00842
+VERSION     NHP00842
+DBLINK      INSDC: AJ308039
+            INSDC: LT607055
+            INSDC: OV260059
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Doxiadis GG, Bontrop RE.
+  TITLE     Extensive Mhc-DQB variation in humans and non-human primate species.
+  JOURNAL   Immunogenetics 54:230-239 (2002)
+   PUBMED   12136334
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*03:05:01:01
+            IPD accession: NHP00842
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*0305; Patr-DQB1*03:05
+FEATURES             Location/Qualifiers
+     source          1..5791
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5791
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:05:01:01"
+                     /note="previous designations: Patr-DQB1*0305;
+                     Patr-DQB1*03:05"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1552..1821
+                     /gene="DQB1"
+                     /number=2
+     exon            4361..4642
+                     /gene="DQB1"
+                     /number=3
+     exon            5158..5268
+                     /gene="DQB1"
+                     /number=4
+     exon            5754..5777
+                     /gene="DQB1"
+                     /number=5
+     exon            5778..5791
+                     /gene="DQB1"
+                     /number=6
+     intron          110..1551
+                     /gene="DQB1"
+                     /number=1
+     intron          1822..4360
+                     /gene="DQB1"
+                     /number=2
+     intron          4643..5157
+                     /gene="DQB1"
+                     /number=3
+     intron          5269..5753
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1552..1821,4361..4642,5158..5268,5754..5777,
+                     5778..5791)
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:05:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKA
+                     MCYFTNGTERVRYVTRYIYNREEYVRFDSDVEVYRAVTPLGPPAAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gcggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccgg taagtgcagg
+      121 gccactgctc tccagagccg ccactctggg aacaagctct ccttgggctg gggtatggcg
+      181 atggtgatct cgattatctc agacacaatc ttttatcaat atttcctctg ttttgggaaa
+      241 gagagctatg ttgcattccc atttatcttt taatgatgag gtgaggagaa tccaatccca
+      301 tcctacagac ttaagcctgg aggaggagag aggagagaaa agaggagaca aagtgttcat
+      361 ttactaccag tgataggaca aagtgagcat ggggttattt ttgaagatat gaatttctcc
+      421 aaagacacag catgatttgt catttaggcg tgccccaaga ctgcctggac taactattat
+      481 gagatcctgc attgggaaat gtaaggcagc aatggtgtct gtagtccccg tatttgggga
+      541 aaaggtgtct gtattcctga ctcagtagag catttgtgga ggcaaaatct tggtactgag
+      601 ggaagctgac tggctgacca cagacaggga gtcttcaggt ttcactgatt tatgggcaaa
+      661 tggtgacttg agtgggattc agagacccga gttaatggtg gactgaattt agtagaaagg
+      721 aggatgtaaa gaagggaaat aacacatatt atgaaaccac tcactcagac acagaacaat
+      781 actttatata aattctctct cactccttct aacatcctgt gtgtagatat catgattttc
+      841 ttttacacaa ttatacttgt gatatggata ttctgttacg taacctgccc gagctggtga
+      901 ctgccacagt ttaatgggat tctagtttat caaattcaaa agcttgtgct ctttcggtga
+      961 ataaacgttt ctttctagga ctcagagatc taggactccc ttctttctaa cacagaagtg
+     1021 agtgaacctc atagggcact tgggagggta aatccaggca tgggaaggaa ggtattttac
+     1081 ccagggacca agagaatagg catatcaaaa gaggacaggt ttaattcctg gacctgtctc
+     1141 gtcattccct tgaactctca ggtttatgtg gataacttta tctctgagat acccaggagc
+     1201 tccatggaaa atgggatttc atgcgagaac gccctgatcc ctctaagtgc agaggtccat
+     1261 gcaaaatcaa cccgactgcc tcttcgcttg gttcacaggc ccagccagac agggacaggg
+     1321 ctttcctccc tttcttgcct gtaggaaggc ggattcccga agacccccga gagggcgggc
+     1381 agggctgggc agagcccccg ggaggatccc aggtctgcag cgcgaggcac gggccggcgg
+     1441 gaactggagg tcgcgcgggc ggttccacag ctccgggccg ggtcaaggcg gcggctgcgg
+     1501 gggaggacgg gctgggctgg gccggactga ccggccggtg attccccgca gaggatttcg
+     1561 tgtaccagtt taaggccatg tgctacttca ccaacgggac ggagcgcgtg cgttatgtga
+     1621 ccagatacat ctataaccga gaggaatacg tgcgcttcga cagcgacgtg gaggtgtacc
+     1681 gggcggtgac gccgctgggg ccgcctgccg ccgagtactg gaacagccag aaggaagtcc
+     1741 tggagaggac ccgggcggag ttggacacgg tgtgcagaca caactaccag ttggagctcc
+     1801 gcacgacctt gcaacggcga ggtgagcgtc gtcgccccgc tgcgaggccc actcttggcc
+     1861 ggggccccga gtctctgcgc taggagggac gaggggggcg aagcctctgg aacctgagcc
+     1921 gcgttcgttc caccccaggg gacaggagtt ggcggtgtgg gtggtggggc aggtgcatac
+     1981 gaggggcagg gacctggggg cagagcaggg gtacaggcag agttggtcaa gctgcctagt
+     2041 ttcgccccag cctccccgtc cgtcagcctc gccctctgct ctgcacgttc tcgcctcgtg
+     2101 ccttatgcgt ttgcctcctc atgccttgcc tttgctaagc agtcctctct gcccccaatt
+     2161 tctgccctct tcccctgccc gcccgccccg ctagcattgc cccacccagc aaggtccacg
+     2221 tgcacagctc gcgccgcagg aagcttcagg cttggcctgg tggagttagg gctgctccac
+     2281 aactgcgcgc agggcatcca gcaattacag ttgtgaaata agatattttg acttttggct
+     2341 tcaaattatt attcatcgta attctgtttt cttaaatggc tctcattcat ggaggagctc
+     2401 tttgaggtga gagtatttta atcatttcat gcctggtacc tgacacattg actgacatgt
+     2461 ggtatgagct caataatctt ctgttaaatt aatgaataaa tgtactcagc tgcccatcca
+     2521 cttaggctca agaaaaacca gaggtaaaca gaaccttaaa aatggacttt tattaattat
+     2581 tttctatcat tttgcttaat tctttaaagt aaactcttac tgacttggat ctaaatagtt
+     2641 tgtgaataca aagtctgagg aaaaaagtgt ttgctaaaaa taaaaacaac acttgaatga
+     2701 tgtttgtaag gcagttttaa tttcttagaa aagctgaaca aatggtacaa tgcaaagagc
+     2761 agaagttttg gaataaatag attgaagcca ttaagttatt ggataaaaat agtttcaggt
+     2821 tgcttttggc ctaggttctc ccctcccccc atcactatcc acttcaggaa taaacattct
+     2881 gaaagttaat tttacccata tagtgagcac ttatttctaa gttgccttat caaataccat
+     2941 ctatgttatg tcatttaatc tcgcagttgc ctgtgcatta gagattagta tcaccacttt
+     3001 atatatccta atattagtac atgataaaca ctttaagtaa tcagcccaca attactcacc
+     3061 aagaccttaa gcctcccaaa gtacacaaca ttcttacctt cctcactaca catctgtaga
+     3121 gtcaaaggga cataaagcct tgttaaagcc agttttgacc agaagcagca atggtctctt
+     3181 cctgtttgat ctccatgtta atgggacaaa atgatacttt caaggcattg aaaatttatg
+     3241 attaatcaat caaatttatg attaatcaat ccctagtctg actccagtca gattcacaaa
+     3301 actgttagtt tactttatac tcccttgcct tcttttgact cacatcatag tgccagcaag
+     3361 tacttatatt tttgctattt cagttctatt tccataaaat ttattttatc atcttttctc
+     3421 ataaatttgt gccctctatt tttactccca atctgtgtaa gatgaacaaa tcttataaga
+     3481 ccacatagct gactgtgatt tcaggtggac tccaggaagg agaaccaaag aaaagttcaa
+     3541 gtccaagcag aaaccgtgat tccttccgga tgatggctcg tgagtgccat ttaatagggg
+     3601 tgccacctgc tgtcctcagc aaatcccagc tatatgtata tgtttgcatt acaggctcat
+     3661 taacctaggc tgacctctgc aaggatctca gaatattttc tacagagaac atacaatgat
+     3721 aatatctgat tttaggacaa aaaagtaatt ctcaacagca agggaatgga gtagggtaga
+     3781 cagctagtaa ttaaactcac ttgtgtgtta aaaataaatt aaggaaaaaa gaaaatgaga
+     3841 gaacatatga ctaaataaag aaagcataca ttaaatattt actatagttt tacactaaga
+     3901 gaataaagga aatgcaataa agtggcctga aaggtaaagg atgagatgtg taaaagaggc
+     3961 agggaaagat gtgtcatttt ttttttttac tatgagcagc aatctgagaa gataaaggaa
+     4021 tcgagttatg ggcaaacatg atgtttgatc agtgttattt gttttcaagg cctgcctact
+     4081 tttttttcaa atattacaaa cttttgaagt cacattcttt ttgttttttg ctgtctgtta
+     4141 ctagatcgca cattctgtaa aggcagggac cgtggtatgt tgtttatctt tggattctca
+     4201 gtgattgtca tatttatatg tgctgaatga atcttaatcc aagacttgga ctccaggtat
+     4261 ctttccactc cggttccaag gagggaccct tcccaatggt agacgtgctg tgtagtctca
+     4321 catctcactc ctgtcttttc ctgtctgtta ctgccctcag tggagcccac agtgaccatc
+     4381 tccccatcca ggacagaggc cctcaaccac cacaacctgc tggtctgctc agtgacagat
+     4441 ttctatccag gccagatcaa agtccgatgg tttcggaatg accaggagga gacaaccggc
+     4501 gttgtgtcca ccccccttat taggaacggt gactggacct tccagatcct ggtgatgctg
+     4561 gaaatgactc cccagcatgg agatgtctac acctgccacg tggagcaccc cagcctccag
+     4621 aaccccatca ccgtggagtg gcgtaagggg atattgagtt tctgttacta tgggccccac
+     4681 aagacaaagg gcagagttca ttctgaccca tcccttccca tctcttatcc ctgatgtcac
+     4741 tactgagctg ggaatcacag gagactagag cacctcttgc tccatggcaa gtgcatcaga
+     4801 agaatcctga tctcatcacc tttccagatg ctagggaaat tactctacat actgtttctc
+     4861 tggatcccag tcctgatagc tcggagggac tgatcattag ggctggtgac tgggatctta
+     4921 gggtttaagg ttatggatga gttcctgagg agtggagatc tgcttcccca ctctctcacc
+     4981 tactcactgt acccaaggac ctattggcta gcctttcctc ccttaggggt ggtctgaatg
+     5041 gagaactagg ttcctttgac gccttcacct cctgaatctc agactggact tcagctcctc
+     5101 agcaggaatg ctatggggtg tggagacaaa cactgacact caggctctgc ttcttagggg
+     5161 ctcagtctga atctgcccag agcaagatgc tgagtggcgt tggaggcttc gtgctggggc
+     5221 tgatcttcct cgggctgggc cttattatcc atcacaggag tcagaaaggt gaggaacccc
+     5281 aagggaaaag gggaagatgg gctgtgaccc agaccctctg ttcagggagg tcctgtctct
+     5341 agatgtggct ctttcctcct gaccccgaga ggaagaaagc tgagctggag gtgggaggag
+     5401 acaggacaag attggaggag gcattggaat ctgattttac tagttgaaag gtagccctgt
+     5461 cacacagctc actgatagag cttattgcag gtcatcctta ctgttcatca ttgtctcatt
+     5521 ggctcctttc caaaagcttc ctccattaag agggtcagag cctcggcctc cttgccttct
+     5581 agtgacaatt tcctttgttt taggggattt tatattaggg tgcttaaggc cttgaaggac
+     5641 atgggtggga agagaatata actctaatta agtcacatgt gtcattttcc tttggggtga
+     5701 gagactggct gtttgtgtaa tgagaccttt ctctgcataa cttccttttg taagacctca
+     5761 agggcatcca ccagcagggc tcctgcactg a
+//
+LOCUS       NHP00843                5225 bp    DNA     linear   PRI 20-JAN-2023
+DEFINITION  Patr-DQB1*06:01:01:01, DQB1 locus allele.
+ACCESSION   NHP00843
+VERSION     NHP00843
+DBLINK      INSDC: M81263
+            INSDC: LT607056
+            INSDC: OW798118
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   Gyllensten UB, Lashkari D, Erlich HA.
+  TITLE     Allelic diversification at the class II DQB locus of the mammalian
+            major histocompatibility complex.
+  JOURNAL   Proc Natl Acad Sci U S A 87:1835-1839 (1990)
+   PUBMED   2308943
+REFERENCE   3
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*06:01:01:01
+            IPD accession: NHP00843
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*0601; Patr-DQB1*06:01
+FEATURES             Location/Qualifiers
+     source          1..5225
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5225
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:01:01:01"
+                     /note="previous designations: Patr-DQB1*0601;
+                     Patr-DQB1*06:01"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1543..1812
+                     /gene="DQB1"
+                     /number=2
+     exon            3822..4103
+                     /gene="DQB1"
+                     /number=3
+     exon            4613..4723
+                     /gene="DQB1"
+                     /number=4
+     exon            5188..5211
+                     /gene="DQB1"
+                     /number=5
+     exon            5212..5225
+                     /gene="DQB1"
+                     /number=6
+     intron          110..1542
+                     /gene="DQB1"
+                     /number=1
+     intron          1813..3821
+                     /gene="DQB1"
+                     /number=2
+     intron          4104..4612
+                     /gene="DQB1"
+                     /number=3
+     intron          4724..5187
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1543..1812,3822..4103,4613..4723,5188..5211,
+                     5212..5225)
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGDLRVATVTLMLAMLSSLLAEGRDSPEDFVFQFKG
+                     MCYFTNGTERVRLVTRYIYNREEFVRFYSDVGVYRAVTPQGRPDAEYWNSQKEVLERTR
+                     AELDTVCRHNYEVAYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGEVYTCHVEHPSLQSPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcggatcccc ggagaccttc gggtagcaac tgtcaccttg
+       61 atgctggcga tgctgagctc cctactggct gagggcagag actctcccgg taagtgcagg
+      121 gcagctgctc tccagagccg ccactctggg aacaggctct ccttgggctg gggtatgggg
+      181 gatggtgatc tctatgatct tggacacaat ctttcatcaa catttcctct ctcttgggaa
+      241 agaaagctat gttgcattcc catttatctt ttagtgatga gatgaggaca atccaatccc
+      301 catcctacag gcttaagcct ggaagaggag gagagaggag agaaagagga gataaagtgt
+      361 acatttacta ccagcgatag gacaaagtga gcatggggtt atttttgaag atatgaattt
+      421 ctccaaagac acagcaggat ttgtcattta ggcgtgcccc aagactgcct ggactaacga
+      481 ttatgagatc ctgcattggg aaatgtaagg cagcaatggt gtctgtagtc tctgtatttg
+      541 aggaaaattt gtctctattc ctgaccgagt ggagcatttg tggaggcaaa atcttggtgc
+      601 tgagggaagc tgactggctg accacagaga gggagtcttc gggtttcact gatttatggg
+      661 caaatggtga cttgagtggg attcagagac ccgagttaat ggtggactga atttagtagg
+      721 aaggaggatg taaagaaggg aaataacaca tattgtgaaa ccactcactt cagacacaga
+      781 acaatacttt atataaattc tctctcactc ctcctaacat cctgtgtgta gatatcatga
+      841 ttttctttta cacaatttta cgtgtgatat ggatattctg ttacataacc tgcccaaact
+      901 ggtgactgcc acagtttaat tggaatctag tttatcaaat tcaaaagctt gtgctctttc
+      961 catgaataaa tgtctctatc taggactcag aggtgtaggt cctttccaac atagaaggga
+     1021 gtgaacctca acgggacttg ggagggtaaa tctaggcatg ggaaggaagg tattttaccc
+     1081 agggaccaag agaatacgtg tgtcagaacg aggccaggct taattcctgg acctatctcg
+     1141 tcattccgtt gaactctcag atttatgtgg ataactttat ctctgaggta tccaggagct
+     1201 tcatgaaaaa tgggatttca tgcgagaacg ccctgatccc tctaagtgca gaggtgcatg
+     1261 taaaatcagc ccgactgcct ctttgctggg ttcacaggct caggcaggga cagggctttc
+     1321 ctccctttcc tggatgtagg aaggcagatt ccagaagccc gcaaagaagg cgggcagagc
+     1381 tgggcagagc cgccgggagg atcccaggtc tggagcgcca ggcacgggcg gtcgggaact
+     1441 ggaggtcgcg cgggcggttc cacagctcca ggccgggtca gggcggcggc tgcgggggcg
+     1501 gccgggctgg ggcctgactg accggccggt gattccccgc agaggatttc gtgttccagt
+     1561 ttaagggcat gtgctacttc accaacggga cggagcgcgt gcgtcttgta accagataca
+     1621 tctataaccg agaggagttc gtgcgcttct acagcgacgt gggggtgtac cgcgcggtga
+     1681 cgccgcaggg gcggcctgac gccgagtact ggaacagcca gaaggaagtc ctggagagga
+     1741 cccgggcgga gttggacacg gtgtgcagac acaactacga ggtggcgtac cgcgggatct
+     1801 tgcagaggag aggtgagcgt tgtcgcccct ccgtgaggcg cacccttggc cgagaccccg
+     1861 agtttctgtg ccgggagggg cgatgggggc gaggtctctg aaatctgagc ccagttcatt
+     1921 ccaccccagg ggaaaggagg cggcggcggg gtggtggggg caggtgcatc ggaggggcgg
+     1981 ggacctaggg cagagcaggg ggacaagcag agttggccag gctgcctagt gtccccccca
+     2041 gcctccccgt ccgtcggcct cgtcctctgc tctgcacgtt tctcgcctcg tgccttatgc
+     2101 gtttgcctcc tcgtacctta ccttcgctaa gcagttctct ctgctcccag tgcccaccct
+     2161 cttcccctgc ccgccggcct cgctagcact gccccatcca gcaaggccca cgtgcgcaat
+     2221 gaataggttg aagctattaa attattggat aaaaatagtt tcaggttgct tttggcctag
+     2281 gttatcccct ccctccatca ctatccactt caggaataaa cattctgaaa gtcaatttta
+     2341 cccattcagg aagcacttat ttctagacag ttgccttatc aaataccatc tatgttatgt
+     2401 catttaatct cgcagctacc tgtgcattag agattagcat caccacttta tatatcctaa
+     2461 tattggtaca tgataaacac tttaagtaat cagcccacaa ttactcacca agatcttaag
+     2521 cctaccaaag tacacaacat tcttatgttc ctcactacac atctgtagag tctaagggat
+     2581 gtaaggcctt gttaaagcca gttttgacca gaagccgcaa tgagtctatt cctgtttgtt
+     2641 ctctgtgtta atgcggcatt gaaaattcat gattaatcaa tccctagtct gaccctagtg
+     2701 ttatctatgc aggttcacaa aacttttagt ttgctttaca ctcccttgcc ttcttttgac
+     2761 tcacatccta atgccagcaa gtacttatat ttttgctatt tccgttttat ttccataaaa
+     2821 tttattttat catcttttct cataaatttg tgccctctat ttttactccc agtctgtgta
+     2881 agatgaacaa atcttataag gccacatagc tgactctgat ttcagttggc ctccaggaag
+     2941 gagaacctaa agaaaagttc aagtccaagc agaaaccatg attccttccg gatgatggct
+     3001 caagagtgcc atttaattgg ggtgccacct actgacctca gcaaatccca gttatatgta
+     3061 tatgttcaca ttacaggctc attagcccag gccgacctct gcacggatct cagaatattt
+     3121 tctatggaga acatacacga taatatctga tttcagaaca agaaagtaat tgtcaatagc
+     3181 aaggaaatgg agtagggtag acagctagta attaaactca cttgtgcgtt aaaaagaaat
+     3241 taaggaaaaa aagaaaatga gagaacatat gactaaataa agaaagcata cattaaatat
+     3301 ttactatagt ttcacactaa gagaataaag gaaatgcgat aaagtggcct aaaaggtaaa
+     3361 ggatgagatg tgtaaaagag gcagggaaag atgtgtcatt ttttttacta tgagcagcaa
+     3421 tctgagaaga taaaggaatt gagttgtgga caaacatgat gtttgatcaa gggttatttg
+     3481 ttttgaaggc ctgcctactt ttttttcaaa tattacaaac ttttgaaata acattctact
+     3541 tttttttcaa atattacaaa cttttgaaat aacattcttt ttgttttttg ctgtctgtta
+     3601 ctagattgca cattctataa atgcagggac catggtatgt tatttatctt tgaattctca
+     3661 gtgattgtca aatttatatt tgttgaatga accttaatcc aagacttgga ctccaggtat
+     3721 ctttccactc tggtccaagg agggatcctt cctcacggta gacgtgctgt gtgttctcac
+     3781 atctcactcc tatgtctttt cctgtctgtt actgccctca gtggagccca cagtgaccat
+     3841 ctccccatcc aggacagagg ccctcaacca ccacaacctg ctggtctgct cggtgacaga
+     3901 tttctatcca ggccagatca aagtccggtg gtttcggaat gaccaggagg agacagccgg
+     3961 cgttgtgtcc acccccctta ttaggaatgg tgactggact ttccagatcc tggtgatgct
+     4021 ggaaatgact ccccagcgtg gagaagtcta cacctgccac gtggagcacc ccagcctcca
+     4081 gagccccatc accgtggagt ggcgtaaggg gatattgagt ttctgttact atgggcccac
+     4141 aagacaaaga gctccttctg acccattcct tcccatctct tatccctgat gtcactactg
+     4201 agctgggaat cacaggagac tagagcacct cttgctccat ggcaagtgca tcagaagaat
+     4261 cctggtctca tcacctttcc agatgctagg gaaattactc tacatactgt tgctctggat
+     4321 cccagtcctg atagctctga gggactgatt cttagggctg gtgtctggga tcttcgtgtc
+     4381 taaggttatg gatgagttct tgaagagcag agatttgctt ccccactctc tcacctattc
+     4441 actgtatcca gggacctatt ggctggtctt tcccctcctt aggggtggtc tgaatggaga
+     4501 actaggttcc tttgatgcct tcaccttctg cacctcagac tggacttcaa ctcctcagca
+     4561 gggatgctat ggggtgtggg gacaaacaca gacactcagt tctgctcttt aggggctcag
+     4621 tctgaatctg cccagagcaa gatgctgagt ggcgttggag gcttcgtgct ggggctgatc
+     4681 ttccttgggc tgggccttat catccgtcaa aggagtcaga aaggtgagga accccagggg
+     4741 aaaaggggaa gatgggctgt gacccagacc ctttgttcag agtggtcctg tctgtagatt
+     4801 agctctttcc tcctcaccct gagaggaagt gcgaggagac aggacaagat gggaggaggc
+     4861 attggaatct gattttactg gttgaaaggt agcactgtca cagagctgac tgatagagct
+     4921 tattccaggg catccttacc attcatcatt gtctcactgg ctcctttcca aaagcttcct
+     4981 ccattaagag ggtcagagcc tcagcttcct ttctttctag tgacaatttc ctttgtttta
+     5041 ggggatttta aattagggtg ctgaaggcct ggaagaacat gggtgggaag agaatttaac
+     5101 tctaagtcat gtgtgtcatt ttcctttggg gtgagagagt ggctgtttgt gtaatgagac
+     5161 ctttctctgc ataacttcct tttgtaagac ctcaagggcc tccaccagca gggcttctgc
+     5221 actga
+//
+LOCUS       NHP00844                5226 bp    DNA     linear   PRI 20-JAN-2023
+DEFINITION  Patr-DQB1*06:02:01:01, DQB1 locus allele.
+ACCESSION   NHP00844
+VERSION     NHP00844
+DBLINK      INSDC: M81262
+            INSDC: LT607057
+            INSDC: OV260288
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*06:02:01:01
+            IPD accession: NHP00844
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*0602; Patr-DQB1*06:02
+FEATURES             Location/Qualifiers
+     source          1..5226
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5226
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:02:01:01"
+                     /note="previous designations: Patr-DQB1*0602;
+                     Patr-DQB1*06:02"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1543..1812
+                     /gene="DQB1"
+                     /number=2
+     exon            3822..4103
+                     /gene="DQB1"
+                     /number=3
+     exon            4613..4723
+                     /gene="DQB1"
+                     /number=4
+     exon            5189..5212
+                     /gene="DQB1"
+                     /number=5
+     exon            5213..5226
+                     /gene="DQB1"
+                     /number=6
+     intron          110..1542
+                     /gene="DQB1"
+                     /number=1
+     intron          1813..3821
+                     /gene="DQB1"
+                     /number=2
+     intron          4104..4612
+                     /gene="DQB1"
+                     /number=3
+     intron          4724..5188
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1543..1812,3822..4103,4613..4723,5189..5212,
+                     5213..5226)
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:02:01:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGDLRVATVTLMLAMLSSLLAEGRDSPEDFVFQFKG
+                     MCYFTNGTERVRLVTRYIYNREEFVRFYSDVGVYRAVTPQGRPVAEYWNSQKEVLERTR
+                     AELDTVCRHNYEVAYRGILQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETAGVVSTPLIRNGDWTFQILVMLEMTPQRGEVYTCHVEHPSLQSPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIRQRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcggatcccc ggagaccttc gggtagcaac tgtcaccttg
+       61 atgctggcga tgctgagctc cctactggct gagggcagag actctcccgg taagtgcagg
+      121 gcagctgctc tccagagccg ccactctggg aacaggctct ccttgggctg gggtatgggg
+      181 gatggtgatc tctatgatct tggacacaat ctttcatcaa catttcctct ctcttgggaa
+      241 agaaagctat gttgcattcc catttatctt ttagtgatga gatgaggaca atccaatccc
+      301 catcctacag gcttaagcct ggaagaggag gagagaggag agaaagagga gataaagtgt
+      361 acatttacta ccagcgatag gacaaagtga gcatggggtt atttttgaag atatgaattt
+      421 ctccaaagac acagcaggat ttgtcattta ggcgtgcccc aagactgcct ggactaacga
+      481 ttatgagatc ctgcattggg aaatgtaagg cagcaatggt gtctgtagtc tctgtatttg
+      541 aggaaaattt gtctctattc ctgaccgagt ggagcatttg tggaggcaaa atcttggtgc
+      601 tgagggaagc tgactggctg agcacagagc gggagtcttc gggtttcact gatttatggg
+      661 caaatggtga cttgagtggg attcagagac ccgagttaat ggtggactga atttagtaga
+      721 aaggaggatg taaagaaggg aaataacaca tattgtgaaa ccactcactt cagacacaga
+      781 acaatacttt atataaattc tctctcactc cttctaacat cctgtgtgta gatatcatga
+      841 ttttctttta cacaattata cgtgtgatat ggatattctg ttacataacc tgcccaaact
+      901 ggtgactgcc acagtttaat tggaatctag tttatcaaat tcaaaagctt gtgctctttc
+      961 catgaataaa tgtctctatc taggactcag aggtgtaggt cctttccaac atagaaggga
+     1021 gtgaacctca acgggacttg ggagggtaaa tctaggcatg ggaaggaagg tattttaccc
+     1081 agggaccaag agaatacgtg tgtcagaacg aggccaggct taattcctgg acctatctcg
+     1141 tcattccgtt gaactctcag atttatgtgg ataactttat ctctgaggta tccaggagct
+     1201 tcatgaaaaa tgggatttca tgcgagaacg ccctgatccc tctaagtgca gaggtgcatg
+     1261 taaaatcagc ccgactgcct cttcgctggg ttcacaggct caggcaggga cagggctttc
+     1321 ctccctttcc tggatgtagg aaggcagatt ccagaagccc gcaaagaagg cgggcagagc
+     1381 tgggcagagc cgccgggagg atcccaggtc tggagcgcca ggcacgggcg gtcgggaact
+     1441 ggaggtcgcg cgggcggttc cacagctcca ggccgggtca gggcggcggc tgcgggggcg
+     1501 gccgggctgg ggcctgactg accggccggt gattccccgt agaggatttc gtgttccagt
+     1561 ttaagggcat gtgctacttc accaacggga cggagcgcgt gcgtcttgta accagataca
+     1621 tctataaccg agaggagttc gtgcgcttct acagcgacgt gggggtgtac cgcgcggtga
+     1681 cgccgcaggg gcggcctgtc gccgagtact ggaacagcca gaaggaagtc ctggagagga
+     1741 cccgggcgga gttggacacg gtgtgcagac acaactacga ggtggcgtac cgcgggatct
+     1801 tgcagaggag aggtgagcgt tgtcgcccct ccgtgaggcg cacccttggc cgagaccccg
+     1861 agtttctgtg ccgggagggg cgatgggggc gaggtctctg aaatctgagc ccagttcatt
+     1921 ccaccccagg ggaaaggagg cggcggcggg gtggtggggg caggtgcatc ggaggggcgg
+     1981 ggacctaggg cagagcaggg ggacaagcag agttggccag gctgcctagt gttcccccca
+     2041 gcctccccgt ccgtcggcct cgtcctctgc tctgcacgtt tctcgcctcg tgccttatgc
+     2101 gtttgcctcc tcgtacctta ccttcgctaa gcagttctct ctgcccccag tgcccaccct
+     2161 cttcccctgc ccgccggcct cgctagcact gccccatcca gcaaggccca cgtgcgcaat
+     2221 gaataggttg aagctattaa attattggat aaaaatagtt tcaggttgct tttggcctag
+     2281 gttatcccct ccccccatca ctatccactt caggaataaa cattctgaaa gtcaatttta
+     2341 cccattcagg aagcacttat ttctagacag ttgccttatc aaataccatc tatgttatgt
+     2401 catttaatct cgcagctacc tgtgcattag agattagcat caccacttta tatatcctaa
+     2461 tattggtaca tgataaacac tttaagtaat cagcccacaa ttactcacca agatcttaag
+     2521 cctaccaaag tacacaacat tcttatgttc ctcactacac atctgtagag tctaagggat
+     2581 gtaaggcctt gttaaagcca gttttgacca gaagccgcaa tgagtctatt cctgtttgtt
+     2641 ctctgtgtta atgcggcatt gaaaattcat gattaatcaa tccctagtct gaccccagtg
+     2701 ttatctatgc aggttcacaa aacttttagt ttgctttaca ctcccttgcc ttcttttgac
+     2761 tcacatccta atgccagcaa gtacttatat ttttgctatt tccgttttat ttccataaaa
+     2821 tttattttat catcttttct cataaatttg tgccctctat ttttactccc agtctgtgta
+     2881 agatgaacaa atcttataag gccacatagc tgactctgat ttcagttggc ctccaggaag
+     2941 gagaacctaa agaaaagttc aagtccaagc agaaaccatg attccttccg gatgatggct
+     3001 caagagtgcc atttaattgg ggtgccacct actgacctca gcaaatccca gttatatgta
+     3061 tatgttcaca ttacaggctc attagcccag gccgacctct gcacggatct cagaatattt
+     3121 tctatggaga acatacacga taatgtctga tttcagaaca agaaagtaat tgtcaatagc
+     3181 aagggaatgg agtagggtag acagctagta attaaactca cttgtgcgtt aaaaagaaat
+     3241 taaggaaaaa aagaaaatga gagaacatat gactaaataa agaaagcaca cattaaatat
+     3301 ttgctatagt ttcacactaa gagaataaag gaaatgcgat aaagtggcct aaaaggtaaa
+     3361 ggatgagatg tgtaaaagag gcagggaaag atgtgtcatt ttttttacta tgagcagcaa
+     3421 tctgagaaga taaaggaatt gagttgtgga caaacatgat gtttgatcaa gggttatttg
+     3481 ttttgaaggc ctgcctactt ttttttcaaa tattacaaac ttttgaaata acattctact
+     3541 tttttttcaa atattacaaa cttttgaaat aacattcttt ttgttttttg ctgtctgtta
+     3601 ctagattgca cattctataa atgcagggac catggtatgt tatttatctt tgaattctca
+     3661 gtgattgtca aatttatatt tgttgaatga accttaatcc aagacttgga ctccaggtat
+     3721 ctttccactc tggtccaagg agggatcctt cctcacggta gacgtgctgt gtgttctcac
+     3781 atctcactcc tatgtctttt cctgtctgtt actgccctca gtggagccca cagtgaccat
+     3841 ctccccatcc aggacagagg ccctcaacca ccacaacctg ctggtctgct cggtgacaga
+     3901 tttctatcca ggccagatca aagtccggtg gtttcggaat gaccaggagg agacagccgg
+     3961 cgttgtgtcc acccccctta ttaggaatgg tgactggact ttccagatcc tggtgatgct
+     4021 ggaaatgact ccccagcgtg gagaagtcta cacctgccac gtggagcacc ccagcctcca
+     4081 gagccccatc accgtggagt ggcgtaaggg gatattgagt ttctgttact atgggcccac
+     4141 aagacaaaga gctccttctg acccattcct tcccatctct tatccctgat gtcactactg
+     4201 agctgggaat cacaggagac tagagcacct cttgctccat ggcaagtgca tcagaagaat
+     4261 cctggtctca tcacctttcc agatgctagg gaaattactc tacatactgt tgctctggat
+     4321 cccagtcctg atagctctga gggactgatt cttagggctg gtgactggga tcttcgtgtc
+     4381 taaggttata gatgagttct tgaagagcag agatttgctt ccccactctc tcacctattc
+     4441 actgtatcca aggacctatt ggctggtctt tcccctcctt aggggtggtc tgaatggaga
+     4501 actaggttcc tttgatgcct tcaccttctg cacctcagac tggacttcaa ctcctcagca
+     4561 gggatgctat ggggtgtggg gacaaacaca gacactcagt tctgctcttt aggggctcag
+     4621 tctgaatctg cccagagcaa gatgctgagt ggcgttggag gcttcgtgct ggggctgatc
+     4681 ttccttgggc tgggccttat catccgtcaa aggagtcaga aaggtgagga accccagggg
+     4741 aaaaggggaa gatgggctgt gacccagacc ctttgttcag agtggtcctg tctgtagatt
+     4801 agctctttcc tcctcaccct gagaggaagt gcgaggagac aggacaagat gggaggaggc
+     4861 attggaatct gattttactg gttgaaaggt agcactgtca cagagctgac tgatagagct
+     4921 tattccaggg catccttacc attcatcatt gtctcactgg ctcctttcca gaagcttcct
+     4981 ccattaagag ggtcagagcc tcagcttcct ttctttctag tgacaatttc ctttgtttta
+     5041 ggggatttta aattagggtg ctgaaggcct ggaagaacat gggtgggaag agaatttaac
+     5101 tctaagtcat gtgtgtcatt ttcctttggg gtgagagagt ggctgtttgt gtaatgagac
+     5161 ctttctctgc ataacttcct tttgtaagac ctcaagggcc tccaccagca ggggcttctg
+     5221 cactga
+//
+LOCUS       NHP00845                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQB1*06:04, DQB1 locus allele.
+ACCESSION   NHP00845
+VERSION     NHP00845
+DBLINK      INSDC: M81264
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   Gyllensten UB, Lashkari D, Erlich HA.
+  TITLE     Allelic diversification at the class II DQB locus of the mammalian
+            major histocompatibility complex.
+  JOURNAL   Proc Natl Acad Sci U S A 87:1835-1839 (1990)
+   PUBMED   2308943
+COMMENT     IPD-MHC allele: Patr-DQB1*06:04
+            IPD accession: NHP00845
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*0604
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:04"
+                     /note="previous designations: Patr-DQB1*0604"
+     exon            1..246
+                     /gene="DQB1"
+                     /number=1
+     CDS             1..246
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:04"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="FQFKGMCYFTNGTERVRLVTRYIYNREEFVRFDSDVGVYRAVTPQ
+                     GRPVAEYWNSQKEVLERTRAELDTVCRHNYEVAYRG"
+ORIGIN
+        1 ttccagttta agggcatgtg ctacttcacc aacgggacgg agcgcgtgcg tcttgtaacc
+       61 agatacatct ataaccgaga ggagttcgtg cgcttcgaca gcgacgtggg ggtgtaccgc
+      121 gcggtgacgc cgcaggggcg gcctgtcgcc gagtactgga acagccagaa ggaagtcctg
+      181 gagaggaccc gggcggagtt ggacacggtg tgcagacaca actacgaggt ggcgtaccgc
+      241 gggatc
+//
+LOCUS       NHP00846                 786 bp    DNA     linear   PRI 16-JUN-2021
+DEFINITION  Patr-DQB1*15:01, DQB1 locus allele.
+ACCESSION   NHP00846
+VERSION     NHP00846
+DBLINK      INSDC: M81259
+            INSDC: LT899694
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, Kenter M, van Weeren P, Jonker M, Bontrop RE.
+  TITLE     Mhc-DQB repertoire variation in hominoid and Old World primate
+            species.
+  JOURNAL   J Immunol 149:461-470 (1992)
+   PUBMED   1624794
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*15:01
+            IPD accession: NHP00846
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*1501
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*15:01"
+                     /note="previous designations: Patr-DQB1*1501"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     exon            773..786
+                     /gene="DQB1"
+                     /number=5
+     CDS             1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*15:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALQIPGGLWAATVTLMLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVWSVDRYIYNREEFVRFDSDVGEYRAVTPLGRPDAEYWNSQKEALERKR
+                     AELDTVCIHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPAQIKVRW
+                     FRNDQEETAGIVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCHVEHPSLQSPITVEWRA
+                     QSESAQSKMLSGIGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcagatcccc ggaggccttt gggcagcaac tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtggct gaggggagag actctcccga ggatttcgtg
+      121 taccagttta agggcatgtg ctacttcacc aacgggacag agcgcgtgtg gagtgtagac
+      181 agatacatct ataacagaga ggagttcgtg cgcttcgaca gcgacgtggg ggagtaccgg
+      241 gcggtgacgc cactggggcg gcctgatgcc gagtactgga acagccagaa ggaagccctg
+      301 gagaggaaac gggcggagtt ggacacggtg tgcatacaca actaccagtt ggaactccgc
+      361 acgaccttgc agcggcgagt ggagcccaca gtgaccatct ccccgtccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctcg gtgacagatt tctatccagc ccagatcaaa
+      481 gtccggtggt ttcggaatga ccaggaggag acagccggca ttgtgtccac ccccctcatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaatgactcc ccagcgtgga
+      601 gacgtctaca cctgccacgt ggagcacccc agcctccaga gccccatcac cgtggagtgg
+      661 cgggctcaat ctgaatctgc ccagagcaag atgctgagtg gcattggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatc atccatcaca ggagtcagaa agggctcctg
+      781 cactga
+//
+LOCUS       NHP00847                 786 bp    DNA     linear   PRI 20-JAN-2023
+DEFINITION  Patr-DQB1*15:03, DQB1 locus allele.
+ACCESSION   NHP00847
+VERSION     NHP00847
+DBLINK      INSDC: AJ308040
+            INSDC: LT908063
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Doxiadis GG, Bontrop RE.
+  TITLE     Extensive Mhc-DQB variation in humans and non-human primate species.
+  JOURNAL   Immunogenetics 54:230-239 (2002)
+   PUBMED   12136334
+REFERENCE   2
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*15:03
+            IPD accession: NHP00847
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*1503
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*15:03"
+                     /note="previous designations: Patr-DQB1*1503"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     exon            773..786
+                     /gene="DQB1"
+                     /number=5
+     CDS             1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*15:03"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALQIPGGLWAATVTLMLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVWSVDRYIYNREEFVRFDSDVGEYRAVTPLGRPDAEYWNSQKEALERKR
+                     AELDTVCIHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPAQIKVRW
+                     FRNDQEETAGIVSTPLIRNGDWTFQILVMLEMTPQRGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGIGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga agaaggcttt gcagatcccc ggaggccttt gggcagcaac tgtgaccttg
+       61 atgctggcga tgctgagcac cccagtggct gaggggagag actctcccga ggatttcgtg
+      121 taccagttta agggcatgtg ctacttcacc aacgggacag agcgcgtgtg gagtgtagac
+      181 agatacatct ataacagaga ggagttcgtg cgcttcgaca gcgacgtggg ggagtaccgg
+      241 gcggtgacgc cactggggcg gcctgatgcc gagtactgga acagccagaa ggaagccctg
+      301 gagaggaaac gggcggagtt ggacacggtg tgcatacaca actaccagtt ggaactccgc
+      361 acgaccttgc agcggcgagt ggagcccaca gtgaccatct ccccgtccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctcg gtgacagatt tctatccagc ccagatcaaa
+      481 gtccggtggt ttcggaatga ccaggaggag acagccggca ttgtgtccac ccccctcatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaatgactcc ccagcgtgga
+      601 gacgtctaca cctgccacgt ggagcacccc agcctccaga accccatcac tgtggagtgg
+      661 cgggctcaat ctgaatctgc ccagagcaag atgctgagtg gcattggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatc atccatcaca ggagtcagaa agggctcctg
+      781 cactga
+//
+LOCUS       NHP04228                 250 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DQB1*06:07, DQB1 locus allele.
+ACCESSION   NHP04228
+VERSION     NHP04228
+DBLINK      INSDC: DQ148524
+            INSDC: AB242214
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Caggiari L, Simula MP, Marzotto A, Shiina M, Rehermann B, De Re V.
+  TITLE     Identification of novel chimpanzee MHC class I and II alleles using
+            an improved sequence-based typing strategy.
+  JOURNAL   Hum Immunol 67:63-72 (2006)
+   PUBMED   16698427
+REFERENCE   2
+  AUTHORS   Bak E, Ishii Y, Omatsu T, Kyuwa S, Tanoue T, Hayasaka I, Yoshikawa
+            Y.
+  TITLE     Sequence analysis of major histocompatibility complex class-II DQB1
+            (Patr-DQB1) alleles in chimpanzees by polymerase chain
+            reaction-based methods.
+  JOURNAL   Hum Immunol 67:655-663 (2006)
+   PUBMED   16916663
+COMMENT     IPD-MHC allele: Patr-DQB1*06:07
+            IPD accession: NHP04228
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..250
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:07"
+     exon            1..250
+                     /gene="DQB1"
+                     /number=1
+     CDS             1..250
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*06:07"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="QFKGMCYFTNGTERVRLVTRYIYNREEFLRFYSDVGVYRAVTPKG
+                     RPDAEYWNSQKEVLERTRAELDTVCRHNYEVAYRGILQ"
+ORIGIN
+        1 cagtttaagg gcatgtgcta cttcaccaac gggacggagc gcgtgcgtct tgtaaccaga
+       61 tacatctata accgagagga gttcttgcgc ttctacagcg acgtgggggt gtaccgcgcg
+      121 gtgacgccga aggggcggcc tgacgccgag tactggaaca gccagaagga agtcctggag
+      181 aggacccggg cggagttgga cacggtgtgc agacacaact acgaggtggc gtaccgcggg
+      241 atcttgcaga
+//
+LOCUS       NHP08815                5793 bp    DNA     linear   PRI 25-JAN-2023
+DEFINITION  Patr-DQB1*03:02:02:01, DQB1 locus allele.
+ACCESSION   NHP08815
+VERSION     NHP08815
+DBLINK      INSDC: LT607051
+            INSDC: OV260058
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*03:02:02:01
+            IPD accession: NHP08815
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DQB1*03:02:02
+FEATURES             Location/Qualifiers
+     source          1..5793
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5793
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:02:02:01"
+                     /note="previous designations: Patr-DQB1*03:02:02"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1553..1822
+                     /gene="DQB1"
+                     /number=2
+     exon            4363..4644
+                     /gene="DQB1"
+                     /number=3
+     exon            5160..5270
+                     /gene="DQB1"
+                     /number=4
+     exon            5756..5779
+                     /gene="DQB1"
+                     /number=5
+     exon            5780..5793
+                     /gene="DQB1"
+                     /number=6
+     intron          110..1552
+                     /gene="DQB1"
+                     /number=1
+     intron          1823..4362
+                     /gene="DQB1"
+                     /number=2
+     intron          4645..5159
+                     /gene="DQB1"
+                     /number=3
+     intron          5271..5755
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1553..1822,4363..4644,5160..5270,5756..5779,
+                     5780..5793)
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:02:02:01"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVRLVTRYIYNREEYVRFDSDVGVYRAVTPLGPPAAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gcggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccgg taagtgcagg
+      121 gccactgctc tccagagccg ccactctggg aacaagctct ccttgggctg gggtatggcg
+      181 atggtgatct cgattatctc agacacaatc ttttatcaat atttcctctg ttttgggaaa
+      241 gagagctatg ttgcattccc atttatcttt taatgatgag gtgaggagaa tccaatccca
+      301 tcctacagac ttaagcctgg aagaggagag aggagagaaa agaggagaca aagtgttcat
+      361 ttactaccag tgataggaca aagtgagcat ggggttattt ttgaagatat gaatttctcc
+      421 aaagacacag catgatttgt catttaggcg tgcccccaag actgcctgga ctaactatta
+      481 tgagatcctg cattggcaaa tgtaaggcag caatggtgtc tgtagtcccc gtatttgggg
+      541 aaaaggtgtc tgtattcctg actcagtgga gcatttgtgg aggcaaaatc ttggtactga
+      601 gggaagctga ctggctgacc acagacaggg agtcttcagg tttcactgat ttatgggcaa
+      661 atggtgactt gagtgggatt cagagacccg agttaatggt ggactgaatt tagtagaaag
+      721 gaggatgtaa agaagggaaa taacacatat tatgaaacca ctcactcaga cacagaacaa
+      781 tactttatat aaattctctc tcactccttc taacatcctg tgtgtagata tcatgatttt
+      841 cttttacaca attatacttg tgatatggat attctgttac gtaacctgcc cgagctggtg
+      901 actgccacag tttaatggga ttctagttta tcaaattcaa aagcttgtgc tctttcggtg
+      961 aataaacgtt tctttctagg actcagagat ctaggactcc cttctttcta acacagaagt
+     1021 gagtgaacct catagggcac ttgggagggt aaatccaggc atgggaagga aggtatttta
+     1081 cccagggacc aagagaatag gcatatcaaa agaggacagg tttaattcct ggacctgtct
+     1141 cgtcattccc ttgaactctc aggtttatgt ggataacttt atctctgaga tacccaggag
+     1201 ctccatggaa aaggggattt catgcgagaa cgccctgatc cctctaagtg cagaggtcca
+     1261 tgcaaaatca acccgactgc ctcttcgctt ggttcacagg cccagccaga cagggacagg
+     1321 gctttcctcc ctttcctgcc tgtaggaagg cggattcccg aagacccccg agagggcgga
+     1381 cagggctggg cagagccccc gggaggatcc caggtctgca gcgcgaggca caggccggcg
+     1441 ggaactggag gtcgcgcggg cggttccaca gctccgggcc gggtcagggc ggcggctgcg
+     1501 ggggaggacg ggctgggctg ggccggactg accggccggt gattccccgc agaggatttc
+     1561 gtgtaccagt ttaagggcat gtgctacttc accaacggga cggagcgcgt gcgtcttgtg
+     1621 acgagataca tctataaccg agaggagtac gtgcgcttcg acagcgacgt gggggtgtac
+     1681 cgggcggtga cgccgctggg gccgcctgcc gccgagtact ggaacagcca gaaggaagtc
+     1741 ctggagagga cccgggcgga gttggacacg gtgtgcagac acaactacca gttggagctc
+     1801 cgcacgacct tgcagcggcg aggtgagcgt cgtcgccccg ctgcgaggcc cactcttggc
+     1861 cggggccccg agtctctgcg ctaggaggga cgaggggggc gaggcctctg gaacctgagc
+     1921 cgcgttcgtt ctaccccagg ggacaggagt tggcggcgtg ggtggtgggg caggtgcata
+     1981 cgaggggcag ggacctgggg gcagagcagg ggtacaggta gagttggtca aactgcctag
+     2041 ttttgcccca gccttcccgt ccgtcagcct cgccctctgg ctctgcacgt tctcgcctcg
+     2101 tgccttatgc gtttgcctcc tcatgccttg cctttgctaa gcagtcctct ctgcccccaa
+     2161 tttctgccct cttcccctgc ccgcccgccc cgctagcact gccccaccca gcaaggtcca
+     2221 cgtgcactgc tcatgccgca ggaagcttca ggcttggcct ggtggagtta gggctgctcc
+     2281 acaactgtgc gcagggcatc cagcaattac agttgtgaaa taagatattt tgacttttgg
+     2341 cttcaaatta ttattcatcg taattctgtt ttcttaaacg gctctcattc atggcggagc
+     2401 tctttgaggt gagagtattt taatcatttc atggccggta cctgacacat tgactggcat
+     2461 gtggtatgag ctcaataatc ttctgttaaa ttaatgaata aatgtgctca gctgccaatc
+     2521 cacttaggtt caagaaaaac cagaggtaaa cagaacctta aaaatggact tttattaatt
+     2581 attttctatc attttgctta attctttaaa gtaaactctt attgacttgg atctaaatag
+     2641 tttgtgaata caaagtctga ggaaaaaagt gtttgctaaa aataaaaaca acacttgaat
+     2701 gatgtttgta aggcagtttt aattttttag aaaagctgaa caaatggtac aatgcaaaga
+     2761 gcagaagttt tggaataaat agattgaagc cattaagtta ttggataaaa atagtttcag
+     2821 gttgcttttg gcctaggttc tcccctcccc ccatcactat ccacttcagg aataaacatt
+     2881 ctgaaagtta attttaccca tatagtgagc acttatttct aagttgcctt atcaaatacc
+     2941 atctatgtta tgtcatttaa tctcgcagtt gcctgtgcat tagagattag tatcaccact
+     3001 ttatatatcc taatattagt acatgataaa cactttaagt aatcagccca caattactca
+     3061 ccaagacctt aagcctccca aagtacacaa cattcttacc ttcctcacta cacatctgta
+     3121 gagtcaaagg gacataaagc cttgttaaag ccagttttga ccagaagcag caatggtctc
+     3181 ttcctgtttg atctccatgt taatgggaca aaatgatact ttcaaggcat tgaaaattta
+     3241 tgattaatca atcaaattta tgattaatca atccctagtc tgactccagt cagattcaca
+     3301 aaactgttag tttactttat actcccttgc cttcttttga ctcacatcat agtgccagca
+     3361 agtacttata tttttgctat ttcagttcta tttccataaa atttatttta tcatcttttc
+     3421 tcataaattt gtgccctcta tttttactcc caatctgtgt aagatgaaca aatcttataa
+     3481 gaccacatag ctgactgtga tttcaggtgg actccaggaa ggagaaccaa agaaaagttc
+     3541 aagtccaagc agaaaccgtg attccttccg gatgatggct cgtgagtgcc atttaatagg
+     3601 ggtgccacct gctgtcctca gcaaatccca gctatatgta tatgtttgca ttacaggctc
+     3661 attaacctag gctgacctct gcaaggatct cagaatattt tctacagaga acatacaatg
+     3721 ataatatctg attttaggac aaaaaagtaa ttctcaacag caagggaatg gagtagggta
+     3781 gacagctagt aattaaactc acttgtgtgt taaaaataaa ttaaggaaaa aagaaaatga
+     3841 gagaacatat gactaaataa agaaagcata cattaaatat ttactatagt tttacactaa
+     3901 gagaataaag gaaatgcaat aaagtggcct gaaaggtaaa ggatgagatg tgtaaaagag
+     3961 gcagggaaag atgtgtcatt tttttttttt actatgagca gcaatctgag aagataaagg
+     4021 aatcgagtta tgggcaaaca tgatgtttga tcagtgttat ttgttttcaa ggcctgccta
+     4081 cttttttttc aaatattaca aacttttgaa gtcacattct ttttgttttt tgctgtctgt
+     4141 tactagatcg cacattctgt aaaggcaggg accgtggtat gttgtttatc tttggattct
+     4201 cagtgattgt catatttata tgtgctgaat gaatcttaat ccaagacttg gactccaggt
+     4261 atctttccac tccggttcca aggagggacc cttcccaatg gtagacgtgc tgtgtagtct
+     4321 cacatctcac tcctgtcttt tcctgtctgt tactgccctc agtggagccc acagtgacca
+     4381 tctccccatc caggacagag gccctcaacc accacaacct gctggtctgc tcagtgacag
+     4441 atttctatcc aggccagatc aaagtccgat ggtttcggaa tgaccaggag gagacaaccg
+     4501 gcgttgtgtc cacccccctt attaggaacg gtgactggac cttccagatc ctggtgatgc
+     4561 tggaaatgac tccccagcat ggagatgtct acacctgcca cgtggagcac cccagcctcc
+     4621 agaaccccat caccgtggag tggcgtaagg ggatattgag tttctgttac tatgggcccc
+     4681 acaagacaaa gggcagagtt cattctgacc catcccttcc catctcttat ccctgatgtc
+     4741 actactgagc tgggaatcac aggagactag agcacctctt gctccatggc aagtgcatca
+     4801 gaagaatcct gatctcatca cctttccaga tgctagggaa attactctac atactgtttc
+     4861 tctggatccc agtcctgata gctcggaggg actgatcatt agggctggtg actgggatct
+     4921 tagggtttaa ggttatggat gagttcctga ggagtggaga tctgcttccc cactctctca
+     4981 cctactcact gtacccaagg acctattggc tagcctttcc tcccttaggg gtggtctgaa
+     5041 tggagaacta gtttcctttg acgccttcac ctcctgaatc tcagactgga cttcagctcc
+     5101 tcagcaggaa tgctatgggg tgtggagaca aacactgaca ctcaggctct gcttcttagg
+     5161 ggctcagtct gaatctgccc agagcaagat gctgagtggc gttggaggct tcgtgctggg
+     5221 gctgatcttc ctcgggctgg gccttattat ccatcacagg agtcagaaag gtgaggaacc
+     5281 ccaagggaaa aggggaagat gggctgtgac ccagaccctc tgttcaggga ggtcctgtct
+     5341 ctagatgtgg ctctttcctc ctgaccccga gaggaagaaa gctgagctgg aggtgggagg
+     5401 agacaggaca agattggagg aggcattgga atctgatttt actagttgaa aggtagccct
+     5461 gtcacacagc tcactgacag agcttattgc aggtcatcct tactgttcat cattgtctca
+     5521 ttggctcctt tccaaaagct tcctccatta agagggtcag agcctcggcc tccttgcctt
+     5581 ctagtgacaa tttcctttgt tttaggggat tttaaattag ggtgcttaag gccttgaagg
+     5641 acatgggtgg gaagagaata taactctaat taagtcacat gtgtcatttt cctttggggt
+     5701 gagagactgg ctgtttgtgt aatgagacct ttctctgcat aacttccttt tgtaagacct
+     5761 caagggcatc caccagcagg gctcctgcac tga
+//
+LOCUS       NHP08816                 786 bp    DNA     linear   PRI 16-JUN-2021
+DEFINITION  Patr-DQB1*03:03:02, DQB1 locus allele.
+ACCESSION   NHP08816
+VERSION     NHP08816
+DBLINK      INSDC: LT607054
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*03:03:02
+            IPD accession: NHP08816
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:03:02"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     exon            773..786
+                     /gene="DQB1"
+                     /number=5
+     CDS             1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:03:02"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVRLVTRYIYNREEYVRFDSDVGVYRAVTPLGPPDAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gaggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccga ggatttcgtg
+      121 taccagttta agggcatgtg ctacttcacc aacgggacgg agcgcgtgcg tcttgtgacg
+      181 agatacatct ataaccgaga ggagtacgtg cgcttcgaca gcgacgtggg ggtgtaccgg
+      241 gcggtgacgc cgctggggcc gcctgacgcc gagtactgga acagccagaa ggaagtcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcagacaca actaccagtt ggagctccgc
+      361 acgaccttgc aacggcgagt ggagcccaca gtgaccatct ccccatccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctca gtgacagatt tctatccagg ccagatcaaa
+      481 gtccgatggt ttcggaatga ccaggaggag acaaccggcg ttgtgtccac cccccttatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaatgactcc ccagcatgga
+      601 gatgtctaca cctgccacgt ggagcacccc agcctccaga accccatcac cgtggagtgg
+      661 cgggctcagt ctgaatctgc ccagagcaag atgctgagtg gcgttggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatt atccatcaca ggagtcagaa agggctcctg
+      781 cactga
+//
+LOCUS       NHP09834                 786 bp    DNA     linear   PRI 16-JUN-2021
+DEFINITION  Patr-DQB1*03:06, DQB1 locus allele.
+ACCESSION   NHP09834
+VERSION     NHP09834
+DBLINK      INSDC: LT908065
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Limited MHC class II gene polymorphism in the West African
+            chimpanzee is distributed maximally by haplotype diversity.
+  JOURNAL   Immunogenetics 71:13-23 (2019)
+   PUBMED   30159708
+COMMENT     IPD-MHC allele: Patr-DQB1*03:06
+            IPD accession: NHP09834
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:06"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            110..379
+                     /gene="DQB1"
+                     /number=2
+     exon            380..661
+                     /gene="DQB1"
+                     /number=3
+     exon            662..772
+                     /gene="DQB1"
+                     /number=4
+     exon            773..786
+                     /gene="DQB1"
+                     /number=5
+     CDS             1..786
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:06"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKA
+                     MCYFTNGTERVRYVTRYIYNREEYVRFDSDVEVYRAVTPLGPPDAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQKGLLH"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gcggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccga ggatttcgtg
+      121 taccagttta aggccatgtg ctacttcacc aacgggacgg agcgcgtgcg ttatgtgacc
+      181 agatacatct ataaccgaga ggaatacgtg cgcttcgaca gcgacgtgga ggtgtaccgg
+      241 gcggtgacgc cgctggggcc gcctgacgcc gagtactgga acagccagaa ggaagtcctg
+      301 gagaggaccc gggcggagtt ggacacggtg tgcagacaca actaccagtt ggagctccgc
+      361 acgaccttgc agcggcgagt ggagcccaca gtgaccatct ccccatccag gacagaggcc
+      421 ctcaaccacc acaacctgct ggtctgctca gtgacagatt tctatccagg ccagatcaaa
+      481 gtccgatggt ttcggaatga ccaggaggag acaaccggcg ttgtgtccac cccccttatt
+      541 aggaacggtg actggacctt ccagatcctg gtgatgctgg aaatgactcc ccagcatgga
+      601 gatgtctaca cctgccacgt ggagcacccc agcctccaga accccatcac cgtggagtgg
+      661 cgggctcagt ctgaatctgc ccagagcaag atgctgagtg gcgttggagg cttcgtgctg
+      721 gggctgatct tcctcgggct gggccttatt atccatcaca ggagtcagaa agggctcctg
+      781 cactga
+//
+LOCUS       NHP12187                5777 bp    DNA     linear   PRI 25-JAN-2023
+DEFINITION  Patr-DQB1*03:02:01:03, DQB1 locus allele.
+ACCESSION   NHP12187
+VERSION     NHP12187
+DBLINK      INSDC: OX376302
+KEYWORDS    IPD-MHC; MHC class II; DQB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-DQB1*03:02:01:03
+            IPD accession: NHP12187
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5777
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..5777
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:02:01:03"
+     exon            1..109
+                     /gene="DQB1"
+                     /number=1
+     exon            1552..1821
+                     /gene="DQB1"
+                     /number=2
+     exon            4361..4642
+                     /gene="DQB1"
+                     /number=3
+     exon            5158..5268
+                     /gene="DQB1"
+                     /number=4
+     exon            5754..5777
+                     /gene="DQB1"
+                     /number=5
+     intron          110..1551
+                     /gene="DQB1"
+                     /number=1
+     intron          1822..4360
+                     /gene="DQB1"
+                     /number=2
+     intron          4643..5157
+                     /gene="DQB1"
+                     /number=3
+     intron          5269..5753
+                     /gene="DQB1"
+                     /number=4
+     CDS             join(1..109,1552..1821,4361..4642,5158..5268,5754..5777)
+                     /gene="DQB1"
+                     /allele="Patr-DQB1*03:02:01:03"
+                     /codon_start=1
+                     /product="MHC class II DQB1 antigen"
+                     /translation="MSWKKALRIPGGLRAATVTLVLAMLSTPVAEGRDSPEDFVYQFKG
+                     MCYFTNGTERVRLVTRYIYNREEYVRFDSDVGVYRAVTPLGPPAAEYWNSQKEVLERTR
+                     AELDTVCRHNYQLELRTTLQRRVEPTVTISPSRTEALNHHNLLVCSVTDFYPGQIKVRW
+                     FRNDQEETTGVVSTPLIRNGDWTFQILVMLEMTPQHGDVYTCHVEHPSLQNPITVEWRA
+                     QSESAQSKMLSGVGGFVLGLIFLGLGLIIHHRSQK"
+ORIGIN
+        1 atgtcttgga aaaaggcttt gcggatcccc ggaggccttc gggcagcaac tgtgaccttg
+       61 gtgctggcga tgctgagcac cccagtagct gagggcagag actctcccgg taagtgcagg
+      121 gccactgctc tccagagccg ccactctggg aacaagctct ccttgggctg gggtatggcg
+      181 atggtgatct cgattatctc agacacaatc ttttatcaat atttcctctg ttttgggaaa
+      241 gagagctatg ttgcattccc atttatcttt taatgatgag gtgaggagaa tccaatccca
+      301 tcctacagac ttaagcctgg aggaggagag aggagagaaa agaggagaca aagtgttcat
+      361 ttactaccag tgataggaca aagtgagcat ggggttattt ttgaagatat gaatttctcc
+      421 aaagacacag catgatttgt catttaggcg tgccccaaga ctgcctggac taactattat
+      481 gagatcctgc attgggaaat gtaaggcagc aatggtgtct gtagtccccg tatttgggga
+      541 aaaggtgtct gtattcctga ctcagtagag catttgtgga ggcaaaatct tggtactgag
+      601 ggaagctgac tggctgacca cagacaggga gtcttcaggt ttcactgatt tatgggcaaa
+      661 tggtgacttg agtgggattc agagacccga gttaatggtg gactgaattt agtagaaagg
+      721 aggatgtaaa gaagggaaat aacacatatt atgaaaccac tcactcagac acagaacaat
+      781 actttatata aattctctct cactccttct aacatcctgt gtgtagatat catgattttc
+      841 ttttacacaa ttatacttgt gatatggata ttctgttacg taacctgccc gagctggtga
+      901 ctgccacagt ttaatgggat tctagtttat caaattcaaa agcttgtgct ctttcggtga
+      961 ataaacgttt ctttctagga ctcagagatc taggactccc ttctttctaa cacagaagtg
+     1021 agtgaacctc atagggcact tgggagggta aatccaggca tgggaaggaa ggtattttac
+     1081 ccagggacca agagaatagg catatcaaaa gaggacaggt ttaattcctg gacctgtctc
+     1141 gtcattccct tgaactctca ggtttatgtg gataacttta tctctgagat acccaggagc
+     1201 tccatggaaa aggggatttc atgcgagaac gccctgatcc ctctaagtgc agaggtccat
+     1261 gcaaaatcaa cccgactgcc tcttcgcttg gttcacaggc ccagccagac agggacaggg
+     1321 ctttcctccc tttcctgcct gtaggaaggc ggattcccga agacccccga gagggcggac
+     1381 agggctgggc agagcccccg ggaggatccc aggtctgcag cgcgaggcac aggccggcgg
+     1441 gaactggagg tcgcgcgggc ggttccacag ctccgggccg ggtcagggcg gcggctgcgg
+     1501 gggaggacgg gctgggctgg gccggactga ccggccggtg attccccgca gaggatttcg
+     1561 tgtaccagtt taagggcatg tgctacttca ccaacgggac ggagcgcgtg cgtcttgtga
+     1621 cgagatacat ctataaccga gaggagtacg tgcgcttcga cagcgacgtg ggggtgtacc
+     1681 gggcggtgac gccgctgggg ccgcctgccg ccgagtactg gaacagccag aaggaagtcc
+     1741 tggagaggac ccgggcggag ttggacacgg tgtgcagaca caactaccag ttggagctcc
+     1801 gcacgacctt gcaacggcga ggtgagcgtc gtcgccccgc tgcgaggccc actcttggcc
+     1861 ggggccccga gtctctgcgc taggagggac gaggggggcg aagcctctgg aacctgagcc
+     1921 gcgttcgttc caccccaggg gacaggagtt ggcggtgtgg gtggtggggc aggtgcatac
+     1981 gaggggcagg gacctggggg cagagcaggg gtacaggcag agttggtcaa gctgcctagt
+     2041 ttcgccccag cctccccgtc cgtcagcctc gccctctgct ctgcacgttc tcgcctcgtg
+     2101 ccttatgcgt ttgcctcctc atgccttgcc tttgctaagc agtcctctct gcccccaatt
+     2161 tctgccctct tcccctgccc gcccgccccg ctagcattgc cccacccagc aaggtccacg
+     2221 tgcacagctc gcgccgcagg aagcttcagg cttggcctgg tggagttagg gctgctccac
+     2281 aactgcgcgc agggcatcca gcaattacag ttgtgaaata agatattttg acttttggct
+     2341 tcaaattatt attcatcgta attctgtttt cttaaatggc tctcattcat ggaggagctc
+     2401 tttgaggtga gagtatttta atcatttcat gcctggtacc tgacacattg actgacatgt
+     2461 ggtatgagct caataatctt ctgttaaatt aatgaataaa tgtactcagc tgcccatcca
+     2521 cttaggctca agaaaaacca gaggtaaaca gaaccttaaa aatggacttt tattaattat
+     2581 tttctatcat tttgcttaat tctttaaagt aaactcttac tgacttggat ctaaatagtt
+     2641 tgtgaataca aagtctgagg aaaaaagtgt ttgctaaaaa taaaaacaac acttgaatga
+     2701 tgtttgtaag gcagttttaa tttcttagaa aagctgaaca aatggtacaa tgcaaagagc
+     2761 agaagttttg gaataaatag attgaagcca ttaagttatt ggataaaaat agtttcaggt
+     2821 tgcttttggc ctaggttctc ccctcccccc atcactatcc acttcaggaa taaacattct
+     2881 gaaagttaat tttacccata tagtgagcac ttatttctaa gttgccttat caaataccat
+     2941 ctatgttatg tcatttaatc tcgcagttgc ctgtgcatta gagattagta tcaccacttt
+     3001 atatatccta atattagtac atgataaaca ctttaagtaa tcagcccaca attactcacc
+     3061 aagaccttaa gcctcccaaa gtacacaaca ttcttacctt cctcactaca catctgtaga
+     3121 gtcaaaggga cataaagcct tgttaaagcc agttttgacc agaagcagca atggtctctt
+     3181 cctgtttgat ctccatgtta atgggacaaa atgatacttt caaggcattg aaaatttatg
+     3241 attaatcaat caaatttatg attaatcaat ccctagtctg actccagtca gattcacaaa
+     3301 actgttagtt tactttatac tcccttgcct tcttttgact cacatcatag tgccagcaag
+     3361 tacttatatt tttgctattt cagttctatt tccataaaat ttattttatc atcttttctc
+     3421 ataaatttgt gccctctatt tttactccca atctgtgtaa gatgaacaaa tcttataaga
+     3481 ccacatagct gactgtgatt tcaggtggac tccaggaagg agaaccaaag aaaagttcaa
+     3541 gtccaagcag aaaccgtgat tccttccgga tgatggctcg tgagtgccat ttaatagggg
+     3601 tgccacctgc tgtcctcagc aaatcccagc tatatgtata tgtttgcatt acaggctcat
+     3661 taacctaggc tgacctctgc aaggatctca gaatattttc tacagagaac atacaatgat
+     3721 aatatctgat tttaggacaa aaaagtaatt ctcaacagca agggaatgga gtagggtaga
+     3781 cagctagtaa ttaaactcac ttgtgtgtta aaaataaatt aaggaaaaaa gaaaatgaga
+     3841 gaacatatga ctaaataaag aaagcataca ttaaatattt actatagttt tacactaaga
+     3901 gaataaagga aatgcaataa agtggcctga aaggtaaagg atgagatgtg taaaagaggc
+     3961 agggaaagat gtgtcatttt ttttttttac tatgagcagc aatctgagaa gataaaggaa
+     4021 tcgagttatg ggcaaacatg atgtttgatc agtgttattt gttttcaagg cctgcctact
+     4081 tttttttcaa atattacaaa cttttgaagt cacattcttt ttgttttttg ctgtctgtta
+     4141 ctagatcgca cattctgtaa aggcagggac cgtggtatgt tgtttatctt tggattctca
+     4201 gtgattgtca tatttatatg tgctgaatga atcttaatcc aagacttgga ctccaggtat
+     4261 ctttccactc cagttccaag gagggaccct tcccaatggt agacgtgctg tgtagtctca
+     4321 catctcactc ctgtcttttc ctgtctgtta ctgccctcag tggagcccac agtgaccatc
+     4381 tccccatcca ggacagaggc cctcaaccac cacaacctgc tggtctgctc agtgacagat
+     4441 ttctatccag gccagatcaa agtccgatgg tttcggaatg accaggagga gacaaccggc
+     4501 gttgtgtcca ccccccttat taggaacggt gactggacct tccagatcct ggtgatgctg
+     4561 gaaatgactc cccagcatgg agatgtctac acctgccacg tggagcaccc cagcctccag
+     4621 aaccccatca ccgtggagtg gcgtaagggg atattgagtt tctgttacta tgggccccac
+     4681 aagacaaagg gcagagttca ttctgaccca tcccttccca tctcttatcc ctgatgtcac
+     4741 tactgagctg ggaatcacag gagactagag cacctcttgc tccatggcaa gtgcatcaga
+     4801 agaatcctga tctcatcacc tttccagatg ctagggaaat tactctacat actgtttctc
+     4861 tggatcccag tcctgatagc tcggagggac tgatcattag ggctggtgac tgggatctta
+     4921 gggtttaagg ttatggatga gttcctgagg agtggagatc tgcttcccca ctctctcacc
+     4981 tactcactgt acccaaggac ctattggcta gcctttcctc ccttaggggt ggtctgaatg
+     5041 gagaactagt ttcctttgac gccttcacct cctgaatctc agactggact tcagctcctc
+     5101 agcaggaatg ctatggggtg tggagacaaa cactgacact caggctctgc ttcttagggg
+     5161 ctcagtctga atctgcccag agcaagatgc tgagtggcgt tggaggcttc gtgctggggc
+     5221 tgatcttcct cgggctgggc cttattatcc atcacaggag tcagaaaggt gaggaacccc
+     5281 aagggaaaag gggaagatgg gctgtgaccc agaccctctg ttcagggagg tcctgtctct
+     5341 agatgtggct ctttcctcct gaccccgaga ggaagaaagc tgagctggag gtgggaggag
+     5401 acaggacaag attggaggag gcattggaat ctgattttac tagttgaaag gtagccctgt
+     5461 cacacagctc actgatagag cttattgcag gacatcctta ctgttcatca ttgtctcatt
+     5521 ggctcctttc caaaagcttc ctccattaag agggtcagag cctcggcctc cttgccttct
+     5581 agtgacaatt tcatttgttt taggggattt taaattaggg tgcttaaggc cttgaaggac
+     5641 atgggtggga agagaatata actctaatta agtcacatgt gtcattttcc tttggggtga
+     5701 gagactggct gtttgtgtaa tgagaccttt ctctgcataa cttccttttg taagacctca
+     5761 agggcatcca ccagcag
+//

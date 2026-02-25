@@ -1,0 +1,3722 @@
+LOCUS       NHP00683                1310 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*01:01, B locus allele.
+ACCESSION   NHP00683
+VERSION     NHP00683
+DBLINK      INSDC: U05576
+            INSDC: KY652701
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   McAdam SN, Boyson JE, Liu X, Garber TL, Hughes AL, Bontrop RE,
+            Watkins DI.
+  TITLE     A uniquely high level of recombination at the HLA-B locus.
+  JOURNAL   Proc Natl Acad Sci U S A 91:5893-5897 (1994)
+   PUBMED   8016085
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*01:01
+            IPD accession: NHP00683
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*01
+FEATURES             Location/Qualifiers
+     source          1..1310
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..1310
+                     /gene="B"
+                     /allele="Papa-B*01:01"
+                     /note="previous designations: Papa-B*01"
+     exon            1..49
+                     /gene="B"
+                     /number=1
+     exon            50..319
+                     /gene="B"
+                     /number=2
+     exon            565..840
+                     /gene="B"
+                     /number=3
+     exon            841..1116
+                     /gene="B"
+                     /number=4
+     exon            1117..1233
+                     /gene="B"
+                     /number=5
+     exon            1234..1266
+                     /gene="B"
+                     /number=6
+     exon            1267..1310
+                     /gene="B"
+                     /number=7
+     intron          320..564
+                     /gene="B"
+                     /number=1
+     CDS             join(1..49,50..319,565..840,841..1116,1117..1233,
+                     1234..1266,1267..1310)
+                     /gene="B"
+                     /allele="Papa-B*01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="VLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVD
+                     DTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRESLGNLRGYYNQS
+                     EAGSHTLQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKW
+                     EAAHEAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWAL
+                     GFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRYTCHVQHEG
+                     LAEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGKGGSYSQAA
+                     SSDSAQGSDVSLTA"
+ORIGIN
+        1 gtcctcctgc tgctctcggc ggccctggcc ctgaccgaga cctgggccgg ctcccactcc
+       61 atgaggtatt tctacacctc cgtgtcccgg cccggccgcg gggagccccg cttcatctca
+      121 gtgggctacg tggacgacac gcagttcgtg aggttcgaca gcgacgccgc gagtccgaga
+      181 gaggagccgc gggcgccgtg gatggagcag gaggggcctg agtattggga ccggaacaca
+      241 cagatctgca aggcccaggc acagactgac cgagagagcc tggggaacct gcgcggctac
+      301 tacaaccaga gcgaggccgg tgagtgaccc cggcccgggg cgcaggtcac gactccccat
+      361 cccccacgta cggcccgggt ctccccgagt ctccgggtcc gagatccgcc cccctgaggc
+      421 cgcgggaccc gcccagaccc tcgaccggcg agagccccag gcgcgtttac ccggtttcat
+      481 tttcagttga ggccaaaatc cccgcgggtt ggtcggggcg gggcggggct cgggggagtg
+      541 ggctgaccgc gggggcgggg ccagggtctc acaccctcca gacgatgtat ggctgcgacg
+      601 tggggccgga cgggcgcttc ctccgcgggt accggcagtt cgcctacgac ggcaaggatt
+      661 acatcgccct gaacgaggac ctgagctcct ggaccgcggc ggacacggcg gctcagatca
+      721 cccagcgcaa gtgggaggcg gcccatgagg cggagcagcg gagagcctac ctggagggcc
+      781 tgtgcgtgga gtggctccgc agatacctgg agaacgggaa ggagacgcta cagcgcgcgg
+      841 accccccaaa gacacacgtg acccaccacc ccatctctga ccatgaggcc accctgaggt
+      901 gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg gatggggagg
+      961 accaaactca ggacactgag cttgtggaga ccaggccagc aggagataga accttccaga
+     1021 agtgggcagc tgtggtggtg ccttctggac aagagcagag atacacatgc catgtgcagc
+     1081 atgaggggct cgcggagccc ctcaccctga gatgggagcc atcttcccag tccaccatcc
+     1141 ccatcgtggg cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg
+     1201 tcgctgctgt gatgtgtagg aggaagagct caggtggaaa aggagggagc tactcccagg
+     1261 ctgcgtccag cgacagtgcc cagggctctg atgtgtctct cacagcttga
+//
+LOCUS       NHP00684                1065 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*02:01, B locus allele.
+ACCESSION   NHP00684
+VERSION     NHP00684
+DBLINK      INSDC: U05578
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   McAdam SN, Boyson JE, Liu X, Garber TL, Hughes AL, Bontrop RE,
+            Watkins DI.
+  TITLE     A uniquely high level of recombination at the HLA-B locus.
+  JOURNAL   Proc Natl Acad Sci U S A 91:5893-5897 (1994)
+   PUBMED   8016085
+COMMENT     IPD-MHC allele: Papa-B*02:01
+            IPD accession: NHP00684
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*02
+FEATURES             Location/Qualifiers
+     source          1..1065
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..1065
+                     /gene="B"
+                     /allele="Papa-B*02:01"
+                     /note="previous designations: Papa-B*02"
+     exon            1..49
+                     /gene="B"
+                     /number=1
+     exon            50..319
+                     /gene="B"
+                     /number=2
+     exon            320..595
+                     /gene="B"
+                     /number=3
+     exon            596..871
+                     /gene="B"
+                     /number=4
+     exon            872..988
+                     /gene="B"
+                     /number=5
+     exon            989..1021
+                     /gene="B"
+                     /number=6
+     exon            1022..1065
+                     /gene="B"
+                     /number=7
+     CDS             1..1065
+                     /gene="B"
+                     /allele="Papa-B*02:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="VLLLLSAALALTETWAGSHSMRYFYTSVSRPGAGEPRFISVGYVD
+                     DTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRENLRIALRYYNQS
+                     EAGSHTLQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKW
+                     EAARVAEQQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWAL
+                     GFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRYTCHVQHEG
+                     LPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGKGGSYSQAA
+                     SSDSAQGSDVSLTA"
+ORIGIN
+        1 gtcctcctgc tgctctcggc ggccctggcc ctgacggaga cctgggccgg ctcccactcc
+       61 atgaggtatt tctacacctc cgtgtcccgg cccggcgccg gggagccccg cttcatctca
+      121 gtgggctacg tggacgacac gcagttcgtg aggttcgaca gcgacgccgc gagtccgaga
+      181 gaggagccgc gggcgccgtg gatggagcag gaggggcctg agtattggga ccggaacaca
+      241 cagatctgca aggcccaggc acagactgac cgagagaacc tgcggatcgc gctccgctac
+      301 tacaaccaga gcgaggccgg gtctcacacc ctccagacga tgtatggctg cgacgtgggg
+      361 ccggacgggc gcttcctccg cgggtaccgg cagttcgcct acgacggcaa ggattacatc
+      421 gccctgaacg aggacctgag ctcctggacc gcggcggaca cggcggctca gatcacccag
+      481 cgcaagtggg aggcggcccg tgtggcggag cagcagagag cctacctgga gggcctgtgc
+      541 gtggagtggc tccgcagata cctggagaac gggaaggaga cgctacagcg cgcggacccc
+      601 ccaaagacac acgtgaccca ccaccccatc tctgaccatg aggccaccct gaggtgctgg
+      661 gccctgggct tctaccctgc ggagatcaca ctgacctggc agcgggatgg ggaggaccaa
+      721 actcaggaca ctgagcttgt ggagaccagg ccagcaggag atagaacctt ccagaagtgg
+      781 gcagctgtgg tggtgccttc tggacaagag cagagataca catgccatgt gcagcatgag
+      841 gggctgccgg agcccctcac cctgagatgg gagccatctt cccagtccac catccccatc
+      901 gtgggcattg ttgctggcct ggctgtccta gcagttgtgg tcaccggagc tgtggtcgct
+      961 gctgtgatgt gtaggaggaa gagctcaggt ggaaaaggag ggagctactc ccaggctgcg
+     1021 tccagcgaca gtgcccaggg ctctgatgtg tctctcacag cttga
+//
+LOCUS       NHP00685                1065 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*03, B locus allele.
+ACCESSION   NHP00685
+VERSION     NHP00685
+DBLINK      INSDC: U05575
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   McAdam SN, Boyson JE, Liu X, Garber TL, Hughes AL, Bontrop RE,
+            Watkins DI.
+  TITLE     A uniquely high level of recombination at the HLA-B locus.
+  JOURNAL   Proc Natl Acad Sci U S A 91:5893-5897 (1994)
+   PUBMED   8016085
+COMMENT     IPD-MHC allele: Papa-B*03
+            IPD accession: NHP00685
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1065
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..1065
+                     /gene="B"
+                     /allele="Papa-B*03"
+     exon            1..49
+                     /gene="B"
+                     /number=1
+     exon            50..319
+                     /gene="B"
+                     /number=2
+     exon            320..595
+                     /gene="B"
+                     /number=3
+     exon            596..871
+                     /gene="B"
+                     /number=4
+     exon            872..988
+                     /gene="B"
+                     /number=5
+     exon            989..1021
+                     /gene="B"
+                     /number=6
+     exon            1022..1065
+                     /gene="B"
+                     /number=7
+     CDS             1..1065
+                     /gene="B"
+                     /allele="Papa-B*03"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="VLLLLSAALALTETWAGSHSMRYFDTAVSRPGAGEPRFITVGYVD
+                     DTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRENLRIALRYYNQS
+                     EAGSHTLQRMYGCDVGPDGRLLRGYSQSAYDGKDYIALNEDLSSWTAADTAAQITQRKW
+                     EAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWAL
+                     GFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRYTCHVQHEG
+                     LPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGKGGSYSQAA
+                     SSDSAQGSDVSLTA"
+ORIGIN
+        1 gtcctcctgc tgctctcggc ggccctggcc ctgacggaga cctgggccgg ctcccactcc
+       61 atgaggtatt tcgacaccgc cgtgtcccgg cccggcgccg gggagccccg cttcatcacc
+      121 gtgggctacg tggacgacac gcagttcgtg aggttcgaca gcgacgccgc gagtccgaga
+      181 gaggagccgc gggcgccgtg gatggagcag gaggggcctg agtattggga ccggaacaca
+      241 cagatctgca aggcccaggc acagactgac cgagagaacc tgcggatcgc gctccgctac
+      301 tacaaccaga gcgaggccgg gtctcacacc ctccagagga tgtatggctg cgacgtgggg
+      361 ccggacgggc gcctcctccg cgggtatagc cagtccgcct acgacggcaa ggattacatc
+      421 gccctgaacg aggacctgag ctcctggacc gcggcggaca cggcggctca gatcacccag
+      481 cgcaagtggg aggcggcccg tgtggcggag cagctgagag cctacctgga gggcctgtgc
+      541 gtggagtggc tccgcagata cctggagaac gggaaggaga cgctgcagcg cgcggacccc
+      601 ccaaagacac acgtgaccca ccaccccatc tctgaccatg aggccaccct gaggtgctgg
+      661 gccctgggct tctaccctgc ggagatcaca ctgacctggc agcgggatgg ggaggaccaa
+      721 actcaggaca ctgagcttgt ggagaccagg ccagcaggag atagaacctt ccagaagtgg
+      781 gcagctgtgg tggtgccttc tggacaagag cagagataca catgccatgt gcagcatgag
+      841 gggctgccgg agcccctcac cctgagatgg gagccatctt cccagtccac catccccatc
+      901 gtgggcattg ttgctggcct ggctgtccta gcagttgtgg tcaccggagc tgtggtcgct
+      961 gctgtgatgt gtaggaggaa gagctcaggt ggaaaaggag ggagctactc ccaggctgcg
+     1021 tccagcgaca gtgcccaggg ctctgatgtg tctctcacag cttga
+//
+LOCUS       NHP00686                1310 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*04:01, B locus allele.
+ACCESSION   NHP00686
+VERSION     NHP00686
+DBLINK      INSDC: U05577
+            INSDC: KY964062
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   McAdam SN, Boyson JE, Liu X, Garber TL, Hughes AL, Bontrop RE,
+            Watkins DI.
+  TITLE     A uniquely high level of recombination at the HLA-B locus.
+  JOURNAL   Proc Natl Acad Sci U S A 91:5893-5897 (1994)
+   PUBMED   8016085
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*04:01
+            IPD accession: NHP00686
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*04
+FEATURES             Location/Qualifiers
+     source          1..1310
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..1310
+                     /gene="B"
+                     /allele="Papa-B*04:01"
+                     /note="previous designations: Papa-B*04"
+     exon            1..49
+                     /gene="B"
+                     /number=1
+     exon            50..319
+                     /gene="B"
+                     /number=2
+     exon            565..840
+                     /gene="B"
+                     /number=3
+     exon            841..1116
+                     /gene="B"
+                     /number=4
+     exon            1117..1233
+                     /gene="B"
+                     /number=5
+     exon            1234..1266
+                     /gene="B"
+                     /number=6
+     exon            1267..1310
+                     /gene="B"
+                     /number=7
+     intron          320..564
+                     /gene="B"
+                     /number=1
+     CDS             join(1..49,50..319,565..840,841..1116,1117..1233,
+                     1234..1266,1267..1310)
+                     /gene="B"
+                     /allele="Papa-B*04:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="VLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVD
+                     DTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQIYKAQAQTDRESLGNLRGYYNQS
+                     EAGSHTLQTMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQISQRKL
+                     EAARAAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWAL
+                     GFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRYTCHVQHEG
+                     LPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGKGGSYSQAA
+                     SSDSAQGSDVSLTA"
+ORIGIN
+        1 gtcctcctgc tgctctcggc ggccctggcc ctgacggaga cctgggccgg ctcccactcc
+       61 atgaggtatt tctacacctc cgtgtcccgg cccggccgcg gggagccccg cttcatctca
+      121 gtgggctacg tggacgacac gcagttcgtg aggttcgaca gcgacgccgc gagtccgaga
+      181 gaggagccgc gggcgccgtg gatggagcag gaggggcctg agtattggga ccggaacaca
+      241 cagatctaca aggcccaggc acagactgac cgagagagcc tggggaacct gcgcggctac
+      301 tacaaccaga gcgaggccgg tgagtgaccc cggcccgggg cgcaggtcac gactccccat
+      361 cccccacgta cggcccgggt ctccccgagt ctccgggtcc gagatccgcc cccctgaggc
+      421 cgcgggaccc gcccagaccc tcgaccggcg agagccccag gcgcgtttac ccggtttcat
+      481 tttcagttga ggccaaaatc cccgcgggtt ggtcggggcg gggcggggct cgggggagtg
+      541 ggctgaccgc gggggcgggg ccagggtctc acaccctcca gacgatgtat ggctgcgacg
+      601 tggggccgga cgggcgcctc ctccgcgggt atgagcagtt cgcctacgac ggcaaggatt
+      661 acatcgccct gaacgaggac ctgagctcct ggaccgcggc ggacacggcg gctcagatct
+      721 cccagcgcaa gttggaggcg gcccgtgcgg cggagcagtg gagagcctac ctggagggcc
+      781 tgtgcgtgga gtggctccgc agatacctgg agaacgggaa ggagacgcta cagcgcgcgg
+      841 accccccaaa gacacacgtg acccaccacc ccatctctga ccatgaggcc accctgaggt
+      901 gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg gatggggagg
+      961 accaaactca ggacactgag cttgtggaga ccaggccagc aggagataga accttccaga
+     1021 agtgggcagc tgtggtggtg ccttctggac aagagcagag atacacatgc catgtgcagc
+     1081 atgaggggct gccggagccc ctcaccctga gatgggagcc atcttcccag tccaccatcc
+     1141 ccatcgtggg cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg
+     1201 tcgctgctgt gatgtgtagg aggaagagct caggtggaaa aggagggagc tactcccagg
+     1261 ctgcgtccag cgacagtgcc cagggctctg atgtgtctct cacagcttga
+//
+LOCUS       NHP01427                 948 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*05, B locus allele.
+ACCESSION   NHP01427
+VERSION     NHP01427
+DBLINK      INSDC: DQ026310
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   MartÃ­nez-Laso J, GÃ³mez-Casado E, Arnaiz-Villena A.
+  TITLE     Description of seven new non-human primate MHC-B alleles.
+  JOURNAL   Tissue Antigens 67:85-88 (2006)
+   PUBMED   16451210
+COMMENT     IPD-MHC allele: Papa-B*05
+            IPD accession: NHP01427
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..948
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..948
+                     /gene="B"
+                     /allele="Papa-B*05"
+     exon            1..29
+                     /gene="B"
+                     /number=1
+     exon            158..427
+                     /gene="B"
+                     /number=2
+     exon            673..948
+                     /gene="B"
+                     /number=3
+     intron          30..157
+                     /gene="B"
+                     /number=1
+     intron          428..672
+                     /gene="B"
+                     /number=2
+     CDS             join(1..29,158..427,673..948)
+                     /gene="B"
+                     /allele="Papa-B*05"
+                     /codon_start=2
+                     /product="MHC class I B antigen"
+                     /translation="ALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRF
+                     DSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRVNLRIALRYYNQSEAGSHTL
+                     QTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAE
+                     QQRAYLEGLCVEWLRRYLENGKETLQRA"
+ORIGIN
+        1 ggccctggcc ctgacggaga cctgggccgg tgagtgcggg tcgggaggga aatggcctct
+       61 gccgggagga gcgagggaac cgcaggcggg ggcgcaggac ctgaggagcc gcgccgggag
+      121 gagggtcggg cgggtctcag cccctccttg cccccaggct cccactccat gaggtatttc
+      181 tacacctccg tgtcccggcc cggccgcggg gagccccgct tcatctcagt gggctacgtg
+      241 gacgacacgc agttcgtgag gttcgacagc gacgccgcga gtccgagaga ggagccgcgg
+      301 gcgccgtgga tggagcagga ggggcctgag tattgggacc ggaacacaca gatctgcaag
+      361 gcccaggcac agactgaccg agtgaacctg cggatcgcgc tccgctacta caaccagagc
+      421 gaggccggtg agtgaccccg gcccggggcg caggtcacga ctccccatcc cccacgtacg
+      481 gcccgggtct ccccgagtct ccgggtccga gatccgcccc cctgaggccg cgggacccgc
+      541 ccagaccctc gaccggcgag agccccaggc gcgtttaccc ggtttcattt tcagttgagg
+      601 ccaaaatccc cgcgggttgg tcggggcggg gcggggctcg ggggagtggg ctgaccgcgg
+      661 gggcggggcc agggtctcac accctccaga cgatgtatgg ctgcgacgtg gggccggacg
+      721 ggcgcttcct ccgcgggtac cggcagttcg cctacgacgg caaggattac atcgccctga
+      781 acgaggacct gagctcctgg accgcggcgg acacggcggc tcagatcacc cagcgcaagt
+      841 gggaggcggc ccgtgtggcg gagcagcaga gagcctacct ggagggcctg tgcgtggagt
+      901 ggctccgcag atacctggag aacgggaagg agacgctaca gcgcgcgg
+//
+LOCUS       NHP01428                 948 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*06, B locus allele.
+ACCESSION   NHP01428
+VERSION     NHP01428
+DBLINK      INSDC: DQ026311
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   MartÃ­nez-Laso J, GÃ³mez-Casado E, Arnaiz-Villena A.
+  TITLE     Description of seven new non-human primate MHC-B alleles.
+  JOURNAL   Tissue Antigens 67:85-88 (2006)
+   PUBMED   16451210
+COMMENT     IPD-MHC allele: Papa-B*06
+            IPD accession: NHP01428
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..948
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..948
+                     /gene="B"
+                     /allele="Papa-B*06"
+     exon            1..29
+                     /gene="B"
+                     /number=1
+     exon            158..427
+                     /gene="B"
+                     /number=2
+     exon            673..948
+                     /gene="B"
+                     /number=3
+     intron          30..157
+                     /gene="B"
+                     /number=1
+     intron          428..672
+                     /gene="B"
+                     /number=2
+     CDS             join(1..29,158..427,673..948)
+                     /gene="B"
+                     /allele="Papa-B*06"
+                     /codon_start=2
+                     /product="MHC class I B antigen"
+                     /translation="ALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRF
+                     DSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRVSLGNLRGYYNQSEAGSHTL
+                     QTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAHEAE
+                     QRRAYLEGLCVEWLRRYLENGKETLQRA"
+ORIGIN
+        1 ggccctggcc ctgaccgaga cctgggccgg tgagtgcggg tcgggaggga aatggcctct
+       61 gccgggagga gcgagggaac cgcaggcggg ggcgcaggac ctgaggagcc gcgccgggag
+      121 gagggtcggg cgggtctcag cccctccttg cccccaggct cccactccat gaggtatttc
+      181 tacacctccg tgtcccggcc cggccgcggg gagccccgct tcatctcagt gggctacgtg
+      241 gacgacacgc agttcgtgag gttcgacagc gacgccgcga gtccgagaga ggagccgcgg
+      301 gcgccgtgga tggagcagga ggggcctgag tattgggacc ggaacacaca gatctgcaag
+      361 gcccaggcac agactgaccg agtgagcctg gggaacctgc gcggctacta caaccagagc
+      421 gaggccggtg agtgaccccg gcccggggcg caggtcacga ctccccatcc cccacgtacg
+      481 gcccgggtct ccccgagtct ccgggtccga gatccgcccc cctgaggccg cgggacccgc
+      541 ccagaccctc gaccggcgag agccccaggc gcgtttaccc ggtttcattt tcagttgagg
+      601 ccaaaatccc cgcgggttgg tcggggcggg gcggggctcg ggggagtggg ctgaccgcgg
+      661 gggcggggcc agggtctcac accctccaga cgatgtatgg ctgcgacgtg gggccggacg
+      721 ggcgcttcct ccgcgggtac cggcagttcg cctacgacgg caaggattac atcgccctga
+      781 acgaggacct gagctcctgg accgcggcgg acacggcggc tcagatcacc cagcgcaagt
+      841 gggaggcggc ccatgaggcg gagcagcgga gagcctacct ggagggcctg tgcgtggagt
+      901 ggctccgcag atacctggag aacgggaagg agacgctaca gcgcgcgg
+//
+LOCUS       NHP01429                 948 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*07:01:01, B locus allele.
+ACCESSION   NHP01429
+VERSION     NHP01429
+DBLINK      INSDC: DQ026312
+            INSDC: KY652703
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   MartÃ­nez-Laso J, GÃ³mez-Casado E, Arnaiz-Villena A.
+  TITLE     Description of seven new non-human primate MHC-B alleles.
+  JOURNAL   Tissue Antigens 67:85-88 (2006)
+   PUBMED   16451210
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*07:01:01
+            IPD accession: NHP01429
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*07
+FEATURES             Location/Qualifiers
+     source          1..948
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..948
+                     /gene="B"
+                     /allele="Papa-B*07:01:01"
+                     /note="previous designations: Papa-B*07"
+     exon            1..29
+                     /gene="B"
+                     /number=1
+     exon            158..427
+                     /gene="B"
+                     /number=2
+     exon            673..948
+                     /gene="B"
+                     /number=3
+     intron          30..157
+                     /gene="B"
+                     /number=1
+     intron          428..672
+                     /gene="B"
+                     /number=2
+     CDS             join(1..29,158..427,673..948)
+                     /gene="B"
+                     /allele="Papa-B*07:01:01"
+                     /codon_start=2
+                     /product="MHC class I B antigen"
+                     /translation="ALALTETWAGSHSMRYFDTAVSRPGRGEPRFITVGYVDDTQFVRF
+                     DSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRENLRIALRYYNQSEAGSHTL
+                     QRMYGCDVGPDGRLLRGYSQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAE
+                     QLRAYLEGLCVEWLRRYLENGKETLQRA"
+ORIGIN
+        1 ggccctggcc ctgacggaga cctgggccgg tgagtgcggg tcgggaggga aatggcctct
+       61 gccgggagga gcgagggaac cgcaggcggg ggcgcaggac ctgaggagcc gcgccgggag
+      121 gagggtcggg cgggtctcag cccctccttg cccccaggct cccactccat gaggtatttc
+      181 gacaccgccg tgtcccggcc cggccgcggg gagccccgct tcatcaccgt gggctacgtg
+      241 gacgacacgc agttcgtgag gttcgacagc gacgccgcga gtccgagaga ggagccgcgg
+      301 gcgccgtgga tggagcagga ggggcctgag tattgggacc ggaacacaca gatctgcaag
+      361 gcccaggcac agactgaccg agagaacctg cggatcgcgc tccgctacta caaccagagc
+      421 gaggccggtg agtgaccccg gcccggggcg caggtcacga ctccccatcc cccacgtacg
+      481 gcccgggtct ccccgagtct ccgggtccga gatccgcccc cctgaggccg cgggacccgc
+      541 ccagaccctc gaccggcgag agccccaggc gcgtttaccc ggtttcattt tcagttgagg
+      601 ccaaaatccc cgcgggttgg tcggggcggg gcggggctcg ggggagtggg ctgaccgcgg
+      661 gggcggggcc agggtctcac accctccaga ggatgtatgg ctgcgacgtg gggccggacg
+      721 ggcgcctcct ccgcgggtat agccagtccg cctacgacgg caaggattac atcgccctga
+      781 acgaggacct gagctcctgg accgcggcgg acacggcggc tcagatcacc cagcgcaagt
+      841 gggaggcggc ccgtgtggcg gagcagctga gagcctacct ggagggcctg tgcgtggagt
+      901 ggctccgcag atacctggag aacgggaagg agacgctgca gcgcgcgg
+//
+LOCUS       NHP05588                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*07:01:02:01, B locus allele.
+ACCESSION   NHP05588
+VERSION     NHP05588
+DBLINK      INSDC: JF974059
+            INSDC: KY613120
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Abi-Rached L, Jobin MJ, Kulkarni S, McWhinnie A, Dalva K, Gragert L,
+            Babrzadeh F, Gharizadeh B, Luo M, Plummer FA, Kimani J, Carrington
+            M, Middleton D, Rajalingam R, Beksac M, Marsh SG, Maiers M,
+            Guethlein LA, Tavoularis S, Little AM, Green RE, Norman PJ,
+  TITLE     The shaping of modern human immune systems by multiregional
+            admixture with archaic humans.
+  JOURNAL   Science 334:89-94 (2011)
+   PUBMED   21868630
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+COMMENT     IPD-MHC allele: Papa-B*07:01:02:01
+            IPD accession: NHP05588
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*07:01:02
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*07:01:02:01"
+                     /note="previous designations: Papa-B*07:01:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*07:01:02:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFDTAVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRENLRI
+                     ALRYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYSQSAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaggta tttcgacacc gccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga gagaggagcc gcgggcgccg tggatggagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatctg caaggcccag gcacagactg
+      421 accgagagaa cctgcggatc gcgctccgct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatagccag tccgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag ctgagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccctgct
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acccacacct gctttcctcg tgtttcctga tcctgccctg ggtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08817                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*17:01:01:01, B locus allele.
+ACCESSION   NHP08817
+VERSION     NHP08817
+DBLINK      INSDC: KX786206
+            INSDC: KY613124
+            INSDC: KY652692
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*17:01:01:01
+            IPD accession: NHP08817
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*17:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*17:01:01:01"
+                     /note="previous designations: Papa-B*17:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*17:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAAVALTETWAGSHSMKYFFTSVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQNSKTNAQTDRGSLRN
+                     LRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQHRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccgt ggccctaacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcctctc ctcgccccca ggctcccact ccatgaagta tttcttcaca tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagaactc caagaccaac gcacagactg
+      421 accgagggag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cacagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08818                 546 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*11:01, B locus allele.
+ACCESSION   NHP08818
+VERSION     NHP08818
+DBLINK      INSDC: KX786189
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+COMMENT     IPD-MHC allele: Papa-B*11:01
+            IPD accession: NHP08818
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*11:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*11:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTAVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQICKAQAQTDRESLRNLRGYYNQSEAGSHTLQTMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARAAEQLRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactga ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgcggcgga gcagctgaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctacagc
+      541 gcgcgg
+//
+LOCUS       NHP08819                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*19:01:01:01, B locus allele.
+ACCESSION   NHP08819
+VERSION     NHP08819
+DBLINK      INSDC: KX786190
+            INSDC: KY613127
+            INSDC: KY688125
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*19:01:01:01
+            IPD accession: NHP08819
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*19:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*19:01:01:01"
+                     /note="previous designations: Papa-B*19:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*19:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFDTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQISKTNAQTDRGSLRN
+                     LRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTA
+                     AQISQRKLEAARAAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttcgacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagatctc caagaccaac gcacagactg
+      421 accgagggag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatgagcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat ctcccagcgc aagttggagg cggcccgtgc
+      901 ggcggagcag tggagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggtcgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccctgct
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acccacacct gctttcctcg tgtttcctga tcctgccctg ggtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgagg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08820                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*09:01:01:01, B locus allele.
+ACCESSION   NHP08820
+VERSION     NHP08820
+DBLINK      INSDC: KX786191
+            INSDC: KY613128
+            INSDC: KY652690
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*09:01:01:01
+            IPD accession: NHP08820
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*09:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*09:01:01:01"
+                     /note="previous designations: Papa-B*09:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*09:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQIYKAQAQTDRVGLGN
+                     LRGYYNQSEAGSHTWQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttctacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga gagaggagcc gcgggcgccg tggatggagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatcta caaggcccag gcacagactg
+      421 accgagtggg cctggggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacacctgg cagacgatgt atggctgcga cgtggggccg gacgggcgct tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cggagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgct
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggagtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acccacacct gctttcctcg tgtttcctga tcctgccctg ggtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08821                2687 bp    DNA     linear   PRI 03-OCT-2024
+DEFINITION  Papa-B*12:01:01:01, B locus allele.
+ACCESSION   NHP08821
+VERSION     NHP08821
+DBLINK      INSDC: KX786192
+            INSDC: OZ184629
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+COMMENT     IPD-MHC allele: Papa-B*12:01:01:01
+            IPD accession: NHP08821
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*12:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*12:01:01:01"
+                     /note="previous designations: Papa-B*12:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*12:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFDTAVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQISKTNAQTDRVGLRN
+                     LRGYYNQSEAGSHTWQTMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctaacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaggta tttcgacacc gccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagatctc caagaccaac gcacagactg
+      421 accgagtggg cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacacctgg cagacgatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatgagcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cggagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08822                 791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*13:01, B locus allele.
+ACCESSION   NHP08822
+VERSION     NHP08822
+DBLINK      INSDC: KX786193
+            INSDC: KY652698
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*13:01
+            IPD accession: NHP08822
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..791
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..791
+                     /gene="B"
+                     /allele="Papa-B*13:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            516..791
+                     /gene="B"
+                     /number=2
+     intron          271..515
+                     /gene="B"
+                     /number=1
+     CDS             join(1..270,516..791)
+                     /gene="B"
+                     /allele="Papa-B*13:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTAVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRQTQISKTNAQTDRENLRIALRYYNQSEAGSHTWQTMFGCDVGP
+                     DGRLLRGYEQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQWRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgacagac acagatctcc aagaccaacg cacagactga ccgagagaac ctgcggatcg
+      241 cgctccgcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      301 cgactcccca tcccccacgt acggcccggg tctccccgag tctccgggtc cgagatccgc
+      361 ccccctgagg ccgcgggacc cgcccagacc ctcgaccggc gagagcccca ggcgcgttta
+      421 cccggtttca ttttcagttg aggccaaaat ccccgcgggt tggtcggggc ggggcggggc
+      481 tcgggggagt gggctgaccg cgggggcggg gccagggtct cacacctggc agacgatgtt
+      541 tggctgcgac gtggggccgg acgggcgcct cctccgcggg tatgaacagc acgcctacga
+      601 cggcaaggat tacatcgccc tgaacgagga cctgagctcc tggaccgcgg cggacacggc
+      661 ggctcagatc acccagcgca agtgggaggc ggcccgtgtg gcggagcagt ggagagccta
+      721 cctggagggc ctgtgcgtgg agtggctccg cagatacctg gagaacggga aggagacgct
+      781 gcagcgcgcg g
+//
+LOCUS       NHP08823                 546 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*10:01, B locus allele.
+ACCESSION   NHP08823
+VERSION     NHP08823
+DBLINK      INSDC: KX786194
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+COMMENT     IPD-MHC allele: Papa-B*10:01
+            IPD accession: NHP08823
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*10:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*10:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQICKAQAQTYRESLGNLRGYYNQSEAGSHTLQRMFGCDVGP
+                     DGRLLRGYSQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQWRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactta ccgagagagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagagg atgtttggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatag ccagtccgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagtggaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP08824                 546 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*17:02, B locus allele.
+ACCESSION   NHP08824
+VERSION     NHP08824
+DBLINK      INSDC: KX786196
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+COMMENT     IPD-MHC allele: Papa-B*17:02
+            IPD accession: NHP08824
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*17:02"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*17:02"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMKYFFTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRQTQISKTNAQTDRGSLRNLRGYYNQSEAGSHTLQRMYGCDVGP
+                     DGRLLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaagtat ttcttcacat ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgacagac acagatctcc aagaccaacg cacagactga ccgagggagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagagg atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagcacaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP08825                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*19:02:01:01, B locus allele.
+ACCESSION   NHP08825
+VERSION     NHP08825
+DBLINK      INSDC: KX786197
+            INSDC: KY613126
+            INSDC: KY652697
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*19:02:01:01
+            IPD accession: NHP08825
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*19:02
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*19:02:01:01"
+                     /note="previous designations: Papa-B*19:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*19:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFDTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQISKTNAQTDRGSLRN
+                     LRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYSQSAYDGKDYIALNEDLSSWTAADTA
+                     AQISQRKLEAARAAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttcgacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagatctc caagaccaac gcacagactg
+      421 accgagggag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatagccag tccgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat ctcccagcgc aagttggagg cggcccgtgc
+      901 ggcggagcag tggagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggtcgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccctgct
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acccacacct gctttcctcg tgtttcctga tcctgccctg ggtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgagg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08826                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*02:02:01:01, B locus allele.
+ACCESSION   NHP08826
+VERSION     NHP08826
+DBLINK      INSDC: KX786198
+            INSDC: KY613119
+            INSDC: KY652704
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*02:02:01:01
+            IPD accession: NHP08826
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*02:02
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*02:02:01:01"
+                     /note="previous designations: Papa-B*02:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*02:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRENLRI
+                     ALRYYNQSEAGSHTLQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttctacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga gagaggagcc gcgggcgccg tggatggagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatctg caaggcccag gcacagactg
+      421 accgagagaa cctgcggatc gcgctccgct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagacgatgt atggctgcga cgtggggccg gacgggcgct tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cagagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggtcgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08827                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*08:01:01:01, B locus allele.
+ACCESSION   NHP08827
+VERSION     NHP08827
+DBLINK      INSDC: KX786199
+            INSDC: KY613118
+            INSDC: KY652694
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*08:01:01:01
+            IPD accession: NHP08827
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*08:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*08:01:01:01"
+                     /note="previous designations: Papa-B*08:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*08:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRGSLGN
+                     LRGYYNQSEAGSHTLQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttctacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga gagaggagcc gcgggcgccg tggatggagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatctg caaggcccag gcacagactg
+      421 accgagggag cctggggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagacgatgt atggctgcga cgtggggccg gacgggcgct tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag tggagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08828                 791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*18:01, B locus allele.
+ACCESSION   NHP08828
+VERSION     NHP08828
+DBLINK      INSDC: KX786200
+            INSDC: KY652700
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*18:01
+            IPD accession: NHP08828
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..791
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..791
+                     /gene="B"
+                     /allele="Papa-B*18:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            516..791
+                     /gene="B"
+                     /number=2
+     intron          271..515
+                     /gene="B"
+                     /number=1
+     CDS             join(1..270,516..791)
+                     /gene="B"
+                     /allele="Papa-B*18:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRQTQISKTNAQTDRESLRNLRGYYNQSEAGSHTLQKMYGCDVGP
+                     DGRFLRGYRQDAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgacagac acagatctcc aagaccaacg cacagactga ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      301 cgactcccca tcccccacgt acggcccggg tctccccgag tctccgggtc cgagatccgc
+      361 ccccctgagg ccgcgggacc cgcccagacc ctcgaccggc gagagcccca ggcgcgttta
+      421 cccggtttca ttttcagttg aggccaaaat ccccgcgggt tggtcggggc ggggcggggc
+      481 tcgggggagt gggctgaccg cgggggcggg gccagggtct cacaccctcc agaagatgta
+      541 tggctgcgac gtggggccgg acgggcgctt cctccgcggg taccggcagg acgcctacga
+      601 cggcaaggat tacatcgccc tgaacgagga cctgcgctcc tggaccgccg cggacacggc
+      661 ggctcagatc acccagcgca agtgggaggc ggcccgtgtg gcggagcagc acagagccta
+      721 cctggagggc ctgtgcgtgg agtggctccg cagatacctg gagaacggga aggagacgct
+      781 gcagcgcgcg g
+//
+LOCUS       NHP08829                 546 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*20:01, B locus allele.
+ACCESSION   NHP08829
+VERSION     NHP08829
+DBLINK      INSDC: KX786201
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+COMMENT     IPD-MHC allele: Papa-B*20:01
+            IPD accession: NHP08829
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*20:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*20:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRQTQISKTNAQTDRVGLRNLRGYYNQSEAGSHTLQRMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAHEAEQQRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgacagac acagatctcc aagaccaacg cacagactga ccgagtgggc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagagg atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc atgaggcgga gcagcagaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctacagc
+      541 gcgcgg
+//
+LOCUS       NHP08830                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*15:01:01:01, B locus allele.
+ACCESSION   NHP08830
+VERSION     NHP08830
+DBLINK      INSDC: KX786202
+            INSDC: KY613122
+            INSDC: KY652702
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*15:01:01:01
+            IPD accession: NHP08830
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*15:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*15:01:01:01"
+                     /note="previous designations: Papa-B*15:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*15:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMKYFFTSVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRNTQISKTNAQTDRESLRN
+                     LRGYYNQSEAGSHTLQKMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQHRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaagta tttcttcaca tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatctc caagaccaac gcacagactg
+      421 accgagagag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacactctc cagaagatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatgagcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cacagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08831                2687 bp    DNA     linear   PRI 30-SEP-2024
+DEFINITION  Papa-B*12:02:01:01, B locus allele.
+ACCESSION   NHP08831
+VERSION     NHP08831
+DBLINK      INSDC: KX786203
+            INSDC: KY652699
+            INSDC: OZ184633
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*12:02:01:01
+            IPD accession: NHP08831
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*12:02
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*12:02:01:01"
+                     /note="previous designations: Papa-B*12:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*12:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFDTAVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQNSKTNAQTDRGSLRN
+                     LRGYYNQSEAGSHTWQTMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaggta tttcgacacc gccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagaactc caagaccaac gcacagactg
+      421 accgagggag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacacctgg cagacgatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatgagcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag ctgagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggtcgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgct
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcacga ggggctgcca gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttgtt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08832                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*14:01:01:01, B locus allele.
+ACCESSION   NHP08832
+VERSION     NHP08832
+DBLINK      INSDC: KX786204
+            INSDC: KY613121
+            INSDC: KY652695
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*14:01:01:01
+            IPD accession: NHP08832
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*14:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*14:01:01:01"
+                     /note="previous designations: Papa-B*14:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*14:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMKYFFTSVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQISKTNAQTDRENLRI
+                     ALRYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQHRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaagta tttcttcaca tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagatctc caagaccaac gcacagactg
+      421 accgagagaa cctgcggatc gcgctccgct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatgagcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cacagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgaggaaa ggaggaaaat gggatcagca
+     1081 ctggaatatc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP08833                 546 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*08:02, B locus allele.
+ACCESSION   NHP08833
+VERSION     NHP08833
+DBLINK      INSDC: KX786205
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+COMMENT     IPD-MHC allele: Papa-B*08:02
+            IPD accession: NHP08833
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*08:02"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*08:02"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQICKAQAQTDRGSLGNLRGYYNQSEAGSHTLQTMYGCDVGP
+                     DGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQWRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactga ccgagggagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcttcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagtggaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctacagc
+      541 gcgcgg
+//
+LOCUS       NHP08834                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*16:01:01:01, B locus allele.
+ACCESSION   NHP08834
+VERSION     NHP08834
+DBLINK      INSDC: KX786206
+            INSDC: KY613125
+            INSDC: KY964064
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Norman PJ, Li Y, Shaw CM, Han AS,
+            Ndjango JN, Ahuka-Mundeke S, Georgiev AV, Peeters M, Hahn BH, Parham
+            P.
+  TITLE     Bonobos Maintain Immune System Diversity with Three Functional Types
+            of MHC-B.
+  JOURNAL   J Immunol 198:3480-3493 (2017)
+   PUBMED   28348269
+REFERENCE   2
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*16:01:01:01
+            IPD accession: NHP08834
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*16:01
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*16:01:01:01"
+                     /note="previous designations: Papa-B*16:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*16:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAAVALTETWAGSHSMRYFDTAVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETQNSKTNAQTDRGSLRN
+                     LRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccgt ggccctaacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaggta tttcgacacc gccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgagaga cacagaactc caagaccaac gcacagactg
+      421 accgagggag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagaggatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag ctgagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccctgct
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP09278                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*01:03:01:01, B locus allele.
+ACCESSION   NHP09278
+VERSION     NHP09278
+DBLINK      INSDC: KY613117
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+COMMENT     IPD-MHC allele: Papa-B*01:03:01:01
+            IPD accession: NHP09278
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*01:03
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*01:03:01:01"
+                     /note="previous designations: Papa-B*01:03"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*01:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQICKAQAQTDRESLGN
+                     LRGYYNQSEAGSHTLQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAAHEAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttctacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga gagaggagcc gcgggcgccg tggatggagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatctg caaggcccag gcacagactg
+      421 accgagagag cctggggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagacgatgt atggctgcga cgtggggccg gacgggcgct tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccatga
+      901 ggcggagcag cggagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggtcgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP09279                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*15:02:01:01, B locus allele.
+ACCESSION   NHP09279
+VERSION     NHP09279
+DBLINK      INSDC: KY613123
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+COMMENT     IPD-MHC allele: Papa-B*15:02:01:01
+            IPD accession: NHP09279
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*15:02
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*15:02:01:01"
+                     /note="previous designations: Papa-B*15:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*15:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMKYFFTSVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRNTQICKAQAQTDRESLRN
+                     LRGYYNQSEAGSHTLQKMYGCDVGPDGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQHRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaagta tttcttcaca tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatctg caaggcccag gcacagactg
+      421 accgagagag cctgcggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacactctc cagaagatgt atggctgcga cgtggggccg gacgggcgcc tcctccgcgg
+      781 gtatgagcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccgtgt
+      901 ggcggagcag cacagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP09280                2687 bp    DNA     linear   PRI 04-NOV-2021
+DEFINITION  Papa-B*01:02:01:01, B locus allele.
+ACCESSION   NHP09280
+VERSION     NHP09280
+DBLINK      INSDC: KY613129
+            INSDC: KY652691
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Maibach V, Hans JB, Hvilsom C, Marques-Bonet T, Vigilant L.
+  TITLE     MHC class I diversity in chimpanzees and bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623392
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*01:02:01:01
+            IPD accession: NHP09280
+            Species prefix: Papa
+            MHC class: I
+            Previous designations: Papa-B*01:02
+FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..2687
+                     /gene="B"
+                     /allele="Papa-B*01:02:01:01"
+                     /note="previous designations: Papa-B*01:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            717..992
+                     /gene="B"
+                     /number=3
+     exon            1567..1842
+                     /gene="B"
+                     /number=4
+     exon            1947..2063
+                     /gene="B"
+                     /number=5
+     exon            2505..2537
+                     /gene="B"
+                     /number=6
+     exon            2644..2687
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..716
+                     /gene="B"
+                     /number=2
+     intron          993..1566
+                     /gene="B"
+                     /number=3
+     intron          1843..1946
+                     /gene="B"
+                     /number=4
+     intron          2064..2504
+                     /gene="B"
+                     /number=5
+     intron          2538..2643
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,717..992,1567..1842,1947..2063,
+                     2505..2537,2644..2687)
+                     /gene="B"
+                     /allele="Papa-B*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPREEPRAPWMEQEGPEYWDRNTQIYKAQAQTDRESLGN
+                     LRGYYNQSEAGSHTLQTMYGCDVGPDGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAAHEAEQQRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 gaaccgcagg cgggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc cttgccccca ggctcccact ccatgaggta tttctacacc tccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatct cagtgggcta cgtggacgac acgcagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga gagaggagcc gcgggcgccg tggatggagc
+      361 aggaggggcc tgagtattgg gaccggaaca cacagatcta caaggcccag gcacagactg
+      421 accgagagag cctggggaac ctgcgcggct actacaacca gagcgaggcc ggtgagtgac
+      481 cccggcccgg ggcgcaggtc acgactcccc atcccccacg tacggcccgg gtctccccga
+      541 gtctccgggt ccgagatccg cccccctgag gccgcgggac ccgcccagac cctcgaccgg
+      601 cgagagcccc aggcgcgttt acccggtttc attttcagtt gaggccaaaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcgggggag tgggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccctc cagacgatgt atggctgcga cgtggggccg gacgggcgct tcctccgcgg
+      781 gtaccggcag ttcgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgagctc
+      841 ctggaccgcg gcggacacgg cggctcagat cacccagcgc aagtgggagg cggcccatga
+      901 ggcggagcag cagagagcct acctggaggg cctgtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc gggtaccagg ggcagtgggg agccttcccc
+     1021 atctcctata ggttgccggg gatggcctcc cacgagaaga ggaggaaaat gggatcagcg
+     1081 ccagaatgtc gccctccctt gaatggagaa tggcatgagt tttcctgagt ttcctctgag
+     1141 ggccccctct tctctctagg acaattaagg gatgacgtct ctgaggaaat ggaggggaag
+     1201 acagtcccta gaatactgat caggggtccc ctttgacccc tgcagcagcc ttgggcaccg
+     1261 tgacttttcc tctcaggcct tgttctctgc ctcacactct gtgtttgggg ctctgattcc
+     1321 agcacttctg agtcacttta cctccactca gatcaggagc agaagtccct gttccccgcg
+     1381 cagagactcg aacttcccaa tgaataggag attatcccag atgcctgtgt ccaggctggt
+     1441 gtctgggttc tgtgccccct tccccacccc aggtgtcctg tccattctca ggttggtcac
+     1501 atgggtggtc ctagggtgtc ccatgagaga tgcaaagcgc ctgaattttc tgactcttcc
+     1561 catcagaccc cccaaagaca cacgtgaccc accaccccat ctctgaccat gaggccaccc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
+     1681 gggaggacca aactcaggac actgagcttg tggagaccag gccagcagga gatagaacct
+     1741 tccagaagtg ggcagctgtg gtggtgcctt ctggacaaga gcagagatac acatgccatg
+     1801 tgcagcatga ggggctgccg gagcccctca ccctgagatg gggtaaggag ggggatgagg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgga gcccttcagc agggtcgggg
+     1921 cccctcatct tcccctcctt tcccagagcc atcttcccag tccaccatcc ccatcgtggg
+     1981 cattgttgct ggcctggctg tcctagcagt tgtggtcacc ggagctgtgg tcgctgctgt
+     2041 gatgtgtagg aggaagagct caggtaggga aggggtgagg ggtggggtct gggttttctt
+     2101 gtcccactgg gggtttcaag ccccaggtag aagtgttccc tgcctcatta ctgggaagca
+     2161 gcattcacac aggggctaat gcagcctggg gccctgtgtg ccagcactta ctcttttgtg
+     2221 cagcacatgt gacaatgaag gacggatgta tcaccttgat ggttgtggtg ttggggtcct
+     2281 gattccagca ttcatgagtc aggggaaggt ccctgctaag gacagacctt aggagggcag
+     2341 ttggtccagg acacacacct gctttcctcg tgtttcctga tcctgccctg tgtctgtagt
+     2401 catacttctg gaaattcctt ttgggtccaa gactaggagg ttcctctaag atctcatggc
+     2461 cctgcttcct cccagtcccc tcacaggaca ttttcttccc acaggtggaa aaggagggag
+     2521 ctactcccag gctgcgtgta agtggtgggg gtgggagtgt ggaggagctc acccacccca
+     2581 taattcctcc tgtcccacgt ctcctgcggg ctctgaccag gtcctgtttt tgttctactc
+     2641 cagccagcga cagtgcccag ggctctgatg tgtctctcac agcttga
+//
+LOCUS       NHP09281                 791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*21:01, B locus allele.
+ACCESSION   NHP09281
+VERSION     NHP09281
+DBLINK      INSDC: KY652693
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*21:01
+            IPD accession: NHP09281
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..791
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..791
+                     /gene="B"
+                     /allele="Papa-B*21:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            516..791
+                     /gene="B"
+                     /number=2
+     intron          271..515
+                     /gene="B"
+                     /number=1
+     CDS             join(1..270,516..791)
+                     /gene="B"
+                     /allele="Papa-B*21:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQICKAQAQTDRENLRIALRYYNQSEAGSHTVQTMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc cgtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactga ccgagagaac ctgcggatcg
+      241 cgctccgcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      301 cgactcccca tcccccacgt acggcccggg tctccccgag tctccgggtc cgagatccgc
+      361 ccccctgagg ccgcgggacc cgcccagacc ctcgaccggc gagagcccca ggcgcgttta
+      421 cctggtttca ttttcagttg aggccaaaat ccccgcgggt tggtcggggc ggggcggggc
+      481 tcgggggagt gggctgaccg cgggggcggg gccagggtct cacactgtcc agacgatgta
+      541 tggctgcgac gtggggccgg acgggcgcct cctccgcggg tatgagcagt tcgcctacga
+      601 cggcaaggat tacatcgccc tgaacgagga cctgagctcc tggaccgcgg cggacacggc
+      661 ggctcagatc acccagcgca agtgggaggc ggcccgtgtg gcggagcagc acagagccta
+      721 cctggagggc ctgtgcgtgg agtggctccg cagatacctg gagaacggga aggagacgct
+      781 gcagcgcgcg g
+//
+LOCUS       NHP09282                 791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*16:02, B locus allele.
+ACCESSION   NHP09282
+VERSION     NHP09282
+DBLINK      INSDC: KY652696
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*16:02
+            IPD accession: NHP09282
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..791
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..791
+                     /gene="B"
+                     /allele="Papa-B*16:02"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            516..791
+                     /gene="B"
+                     /number=2
+     intron          271..515
+                     /gene="B"
+                     /number=1
+     CDS             join(1..270,516..791)
+                     /gene="B"
+                     /allele="Papa-B*16:02"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTAVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRETQNSKTNAQTDRGSLRNLRGYYNQSEAGSHTLQRMYGCDVGP
+                     DGRLLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgagagac acagaactcc aagaccaacg cacagactga ccgagggagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      301 cgactcccca tcccccacgt acggcccggg tctccccgag tctccgggtc cgagatccgc
+      361 ccccctgagg ccgcgggacc cgcccagacc ctcgaccggc gagagcccca ggcgcgttta
+      421 cccggtttca ttttcagttg aggccaaaat ccccgcgggt tggtcggggc ggggcggggc
+      481 tcgggggagt gggctgaccg cgggggcggg gccagggtct cacaccctcc agaggatgta
+      541 tggctgcgac gtggggccgg acgggcgcct cctccgcggg taccggcagt tcgcctacga
+      601 cggcaaggat tacatcgccc tgaacgagga cctgagctcc tggaccgcgg cggacacggc
+      661 ggctcagatc acccagcgca agtgggaggc ggcccgtgtg gcggagcagc acagagccta
+      721 cctggagggc ctgtgcgtgg agtggctccg cagatacctg gagaacggga aggagacgct
+      781 gcagcgcgcg g
+//
+LOCUS       NHP09283                 791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*22:01, B locus allele.
+ACCESSION   NHP09283
+VERSION     NHP09283
+DBLINK      INSDC: KY652705
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*22:01
+            IPD accession: NHP09283
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..791
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..791
+                     /gene="B"
+                     /allele="Papa-B*22:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            516..791
+                     /gene="B"
+                     /number=2
+     intron          271..515
+                     /gene="B"
+                     /number=1
+     CDS             join(1..270,516..791)
+                     /gene="B"
+                     /allele="Papa-B*22:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRNTQISKTNAQTYRENLRIALRYYNQSEAGSHTWQTMYGCDVGP
+                     DGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggcct gagtattggg
+      181 accggaacac acagatctcc aagaccaacg cacagactta ccgagagaac ctgcggatcg
+      241 cgctccgcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      301 cgactcccca tcccccacgt acggcccggg tctccccgag tctccgggtc cgagatccgc
+      361 ccccctgagg ccgcgggacc cgcccagacc ctcgaccggc gaaagcccca ggcgcgttta
+      421 cccggtttca ttttcagttg aggccaaaat ccccgcgggt tggtcggggc ggggcggggc
+      481 tcgggggagt gggctgaccg cgggggcggg gccagggtct cacacctggc agacgatgta
+      541 tggctgcgac gtggggccgg acgggcgctt cctccgcggg taccggcagt tcgcctacga
+      601 cggcaaggat tacatcgccc tgaacgagga cctgagctcc tggaccgcgg cggacacggc
+      661 ggctcagatc acccagcgca agtgggaggc ggcccgtgtg gcggagcagc acagagccta
+      721 cctggagggc ctgtgcgtgg agtggctccg cagatacctg gagaacggga aggagacgct
+      781 gcagcgcgcg g
+//
+LOCUS       NHP09484                 791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Papa-B*09:02, B locus allele.
+ACCESSION   NHP09484
+VERSION     NHP09484
+DBLINK      INSDC: KY964063
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CMC, Helsen P, Otting N, Pereboom Z, Stevens
+            JMG, Bontrop RE.
+  TITLE     Limited MHC class I intron 2 repertoire variation in bonobos.
+  JOURNAL   Immunogenetics : (2017)
+   PUBMED   28623393
+COMMENT     IPD-MHC allele: Papa-B*09:02
+            IPD accession: NHP09484
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..791
+                     /organism="Pan paniscus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9597"
+     gene            1..791
+                     /gene="B"
+                     /allele="Papa-B*09:02"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            516..791
+                     /gene="B"
+                     /number=2
+     intron          271..515
+                     /gene="B"
+                     /number=1
+     CDS             join(1..270,516..791)
+                     /gene="B"
+                     /allele="Papa-B*09:02"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQIYKAQAQTDRESLGNLRGYYNQSEAGSHTWQTMYGCDVGP
+                     DGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQRRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctac aaggcccagg cacagactga ccgagagagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      301 cgactcccca tcccccacgt acggcccggg tctccccgag tctccgggtc cgagatccgc
+      361 ccccctgagg ccgcgggacc cgcccagacc ctcgaccggc gagagcccca ggcgcgttta
+      421 cccggtttca ttttcagttg aggccaaaat ccccgcgggt tggtcggggc ggggcggggc
+      481 tcgggggagt gggctgaccg cgggggcggg gccagggtct cacacctggc agacgatgta
+      541 tggctgcgac gtggggccgg acgggcgctt cctccgcggg taccggcagt tcgcctacga
+      601 cggcaaggat tacatcgccc tgaacgagga cctgagctcc tggaccgcgg cggacacggc
+      661 ggctcagatc acccagcgca agtgggaggc ggcccgtgtg gcggagcagc ggagagccta
+      721 cctggagggc ctgtgcgtgg agtggctccg cagatacctg gagaacggga aggagacgct
+      781 gcagcgcgcg g
+//
+LOCUS       NHP10836                 546 bp    DNA     linear   PRI 16-OCT-2020
+DEFINITION  Papa-B*01:04, B locus allele.
+ACCESSION   NHP10836
+VERSION     NHP10836
+DBLINK      INSDC: MW039484
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Anderson AG, Liu W, Li Y, Heisel SE,
+            Connell AJ, Ndjango JN, Bertolani P, Hart JA, Hart TB, Sanz CM,
+            Morgan DB, Peeters M, Sharp PM, Hahn BH, Parham P.
+  TITLE     Malaria-driven adaptation of MHC class I in wild bonobo populations.
+  JOURNAL   Nat Commun 14:1033 (2023)
+   PUBMED   36823144
+COMMENT     IPD-MHC allele: Papa-B*01:04
+            IPD accession: NHP10836
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*01:04"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*01:04"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQIYKAQAQTDRESLGNLRGYYNQSEAGSHTLQTMYGCDVGP
+                     DGRLLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAHEAEQQRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctac aaggcccagg cacagactga ccgagagagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc atgaggcgga gcagcagaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctacagc
+      541 gcgcgg
+//
+LOCUS       NHP10837                 546 bp    DNA     linear   PRI 16-OCT-2020
+DEFINITION  Papa-B*04:02, B locus allele.
+ACCESSION   NHP10837
+VERSION     NHP10837
+DBLINK      INSDC: MW039485
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Anderson AG, Liu W, Li Y, Heisel SE,
+            Connell AJ, Ndjango JN, Bertolani P, Hart JA, Hart TB, Sanz CM,
+            Morgan DB, Peeters M, Sharp PM, Hahn BH, Parham P.
+  TITLE     Malaria-driven adaptation of MHC class I in wild bonobo populations.
+  JOURNAL   Nat Commun 14:1033 (2023)
+   PUBMED   36823144
+COMMENT     IPD-MHC allele: Papa-B*04:02
+            IPD accession: NHP10837
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*04:02"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*04:02"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQICKAQAQTYRESLGNLRGYYNQSEAGSHTLQTMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQISQRKLEAARAAEQWRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactta ccgagagagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac cctccagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatctccca gcgcaagttg gaggcggccc gtgcggcgga gcagtggaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctacagc
+      541 gcgcgg
+//
+LOCUS       NHP10838                 546 bp    DNA     linear   PRI 16-OCT-2020
+DEFINITION  Papa-B*23:01, B locus allele.
+ACCESSION   NHP10838
+VERSION     NHP10838
+DBLINK      INSDC: MW039486
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Anderson AG, Liu W, Li Y, Heisel SE,
+            Connell AJ, Ndjango JN, Bertolani P, Hart JA, Hart TB, Sanz CM,
+            Morgan DB, Peeters M, Sharp PM, Hahn BH, Parham P.
+  TITLE     Malaria-driven adaptation of MHC class I in wild bonobo populations.
+  JOURNAL   Nat Commun 14:1033 (2023)
+   PUBMED   36823144
+COMMENT     IPD-MHC allele: Papa-B*23:01
+            IPD accession: NHP10838
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*23:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*23:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQISKTNAQTDRESLRNLRGYYNQSEAGSHTLQKMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctcc aagaccaacg cacagactga ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac tctccagaag atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagcacaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP10839                 546 bp    DNA     linear   PRI 16-OCT-2020
+DEFINITION  Papa-B*24:01, B locus allele.
+ACCESSION   NHP10839
+VERSION     NHP10839
+DBLINK      INSDC: MW039487
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Anderson AG, Liu W, Li Y, Heisel SE,
+            Connell AJ, Ndjango JN, Bertolani P, Hart JA, Hart TB, Sanz CM,
+            Morgan DB, Peeters M, Sharp PM, Hahn BH, Parham P.
+  TITLE     Malaria-driven adaptation of MHC class I in wild bonobo populations.
+  JOURNAL   Nat Commun 14:1033 (2023)
+   PUBMED   36823144
+COMMENT     IPD-MHC allele: Papa-B*24:01
+            IPD accession: NHP10839
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*24:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*24:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFDTAVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRETQISKTNAQTDRGSLRIALRYYNQSEAGSHTLQRMYGCDVGP
+                     DGRLLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttcgacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgagagac acagatctcc aagaccaacg cacagactga ccgagggagc ctgcggatcg
+      241 cgctccgcta ctacaaccag agcgaggccg ggtctcacac cctccagagg atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagcacaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12133                 546 bp    DNA     linear   PRI 29-JUL-2022
+DEFINITION  Papa-B*15:03, B locus allele.
+ACCESSION   NHP12133
+VERSION     NHP12133
+DBLINK      INSDC: ON936818
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Anderson AG, Liu W, Li Y, Heisel SE,
+            Connell AJ, Ndjango JN, Bertolani P, Hart JA, Hart TB, Sanz CM,
+            Morgan DB, Peeters M, Sharp PM, Hahn BH, Parham P.
+  TITLE     Malaria-driven adaptation of MHC class I in wild bonobo populations.
+  JOURNAL   Nat Commun 14:1033 (2023)
+   PUBMED   36823144
+COMMENT     IPD-MHC allele: Papa-B*15:03
+            IPD accession: NHP12133
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*15:03"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*15:03"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMKYFFTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRNTQICKAQAQTDRESLRNLRGYYNQSEAGSHTLQKMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARAAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaagtat ttcttcacat ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactga ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac tctccagaag atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgcggcgga gcagcacaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12134                 546 bp    DNA     linear   PRI 29-JUL-2022
+DEFINITION  Papa-B*23:02, B locus allele.
+ACCESSION   NHP12134
+VERSION     NHP12134
+DBLINK      INSDC: ON936819
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan paniscus (Bonobo)
+  ORGANISM  Pan paniscus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Wroblewski EE, Guethlein LA, Anderson AG, Liu W, Li Y, Heisel SE,
+            Connell AJ, Ndjango JN, Bertolani P, Hart JA, Hart TB, Sanz CM,
+            Morgan DB, Peeters M, Sharp PM, Hahn BH, Parham P.
+  TITLE     Malaria-driven adaptation of MHC class I in wild bonobo populations.
+  JOURNAL   Nat Commun 14:1033 (2023)
+   PUBMED   36823144
+COMMENT     IPD-MHC allele: Papa-B*23:02
+            IPD accession: NHP12134
+            Species prefix: Papa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan paniscus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9597"
+     gene            1..546
+                     /gene="B"
+                     /allele="Papa-B*23:02"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Papa-B*23:02"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREE
+                     PRAPWMEQEGPEYWDRNTQICKAQAQTDRESLGNLRGYYNQSEAGSHTLQKMYGCDVGP
+                     DGRLLRGYEQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQHRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaggtat ttctacacct ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccgt ggatggagca ggaggggcct gagtattggg
+      181 accggaacac acagatctgc aaggcccagg cacagactga ccgagagagc ctggggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac tctccagaag atgtatggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagcacaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//

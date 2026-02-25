@@ -1,0 +1,48 @@
+LOCUS       NHP00178                 188 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Cogu-DQA1*25:01, DQA1 locus allele.
+ACCESSION   NHP00178
+VERSION     NHP00178
+DBLINK      INSDC: D88578
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Colobus guereza (Mantled Guereza)
+  ORGANISM  Colobus guereza
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Colobus.
+REFERENCE   1
+  AUTHORS   Mwenda JM, Takenaka O, Kim HS, Yamamoto T, Katsumata Y, Bambra CS,
+            Uchihi R, Shotake T.
+  TITLE     Nucleotide sequences of the major histocompatibility complex DQA1
+            locus of Cercopithecus monkeys.
+  JOURNAL   Immunogenetics 46:363-364 (1997)
+   PUBMED   9218545
+COMMENT     IPD-MHC allele: Cogu-DQA1*25:01
+            IPD accession: NHP00178
+            Species prefix: Cogu
+            MHC class: II
+            Previous designations: Cogu-DQA1*2501
+FEATURES             Location/Qualifiers
+     source          1..188
+                     /organism="Colobus guereza"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:33548"
+     gene            1..188
+                     /gene="DQA1"
+                     /allele="Cogu-DQA1*25:01"
+                     /note="previous designations: Cogu-DQA1*2501"
+     exon            1..188
+                     /gene="DQA1"
+                     /number=1
+     CDS             1..188
+                     /gene="DQA1"
+                     /allele="Cogu-DQA1*25:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="FYGSSGQYTHEFDGDEQFYVDLERKETVWRLPLFSRFAGFDPQGA
+                     LRNIAVGKQTLNVMIKR"
+ORIGIN
+        1 ttttatggtt cctctggcca gtacacccat gaatttgatg gagatgagca gttctatgtt
+       61 gacctggaga ggaaggagac tgtctggcgg ttgcctctgt tcagcagatt tgcaggtttt
+      121 gaccctcagg gtgcactgag aaacatcgct gtgggaaaac agaccttgaa cgtgatgatt
+      181 aaacgctc
+//

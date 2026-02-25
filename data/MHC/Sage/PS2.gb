@@ -1,0 +1,62 @@
+LOCUS       NHP00973                 803 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Sage-PS2*01, PS2 locus allele.
+ACCESSION   NHP00973
+VERSION     NHP00973
+DBLINK      INSDC: U52119
+KEYWORDS    IPD-MHC; MHC class I; PS2.
+SOURCE      Saguinus geoffroyi (Geoffroy's Tamarin)
+  ORGANISM  Saguinus geoffroyi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Cadavid LF, Hughes AL, Watkins DI.
+  TITLE     MHC class I-processed pseudogenes in New World primates provide
+            evidence for rapid turnover of MHC class I genes.
+  JOURNAL   J Immunol 157:2403-2409 (1996)
+   PUBMED   8805639
+COMMENT     IPD-MHC allele: Sage-PS2*01
+            IPD accession: NHP00973
+            Species prefix: Sage
+            MHC class: I
+            Previous designations: Sage-PS2
+FEATURES             Location/Qualifiers
+     source          1..803
+                     /organism="Saguinus geoffroyi"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:43778"
+     gene            1..803
+                     /gene="PS2"
+                     /allele="Sage-PS2*01"
+                     /note="previous designations: Sage-PS2"
+     exon            1..252
+                     /gene="PS2"
+                     /number=1
+     exon            253..527
+                     /gene="PS2"
+                     /number=2
+     exon            528..803
+                     /gene="PS2"
+                     /number=3
+     CDS             1..803
+                     /gene="PS2"
+                     /allele="Sage-PS2*01"
+                     /codon_start=2
+                     /product="MHC class I PS2 antigen"
+                     /translation="X"
+ORIGIN
+        1 gctcccactc catgaggtat ttctagaccc gcgtgtcccg gcccggcagc ggggagcccc
+       61 gcttcatcga agtcggctac cgggactgta cgcagttcat gtggttccac agcgaggcag
+      121 cgattgggag gatggagcag cgggcgccgt gggtggagca ggaggggccg gaggatcggg
+      181 actggaacgc acggaactcc aaggtctccg cacagactcg gcgagtgagc ctgcagaacc
+      241 agagcgaggc agggtctcac acctaccaga ggatgtatgg ctgcgacccg gggccagatg
+      301 ggcgcctctt ccgcgggtat aaccagttct cctacaaggc agggattaca tcgccttgaa
+      361 cgaggacttg ctcttctgga ctgccgcgga cgcagcggct catatcgccc agcgcaagtc
+      421 ggaggcggcc agtgaggcgg agcaaaagag agcctccctg gagggcaggt gagtggagtg
+      481 gctccgcaga tacctggaca aggggaagga gacgcttcag agcgaggaac cccccaagac
+      541 acaagtgacc caccacccca tctctgacca tgaggccacg ctgaggtgct gggccctcag
+      601 cgtctaccct gcggagatca cactgacctg tcagcaggat ggggaggacc agacccagga
+      661 catggagctt gtggagacca gaccagcagg gcacagaacc ttccagaagt gggctgctgt
+      721 ggtggtgcct tctggagagg agcagagata cacgtgccat gtgcagcatg aggggctgcc
+      781 agagaccctc accctgagat ggg
+//

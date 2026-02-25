@@ -1,0 +1,1762 @@
+LOCUS       NHP11278                 191 bp    DNA     linear   PRI 28-MAY-2021
+DEFINITION  Mafa-S*01:01:01:01, S locus allele.
+ACCESSION   NHP11278
+VERSION     NHP11278
+DBLINK      INSDC: MW679636
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-S*01:01:01:01
+            IPD accession: NHP11278
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-S*01:01
+FEATURES             Location/Qualifiers
+     source          1..191
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..191
+                     /gene="S"
+                     /allele="Mafa-S*01:01:01:01"
+                     /note="previous designations: Mafa-S*01:01"
+     exon            1..191
+                     /gene="S"
+                     /number=1
+     CDS             1..191
+                     /gene="S"
+                     /allele="Mafa-S*01:01:01:01"
+                     /codon_start=3
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 tgtgagacag ctgtcttgtg agggactgag atgcaggatt tcttcacact tcccctttgt
+       61 gacttcaaga gcctctggct tctctttctg caaaggcatc tgaatgtgtc tgcgtccctg
+      121 ttagcataat gtgaggaggt ggggagacca gccctccccc gtgtccacca tgaccccctt
+      181 ccccatgctg a
+//
+LOCUS       NHP11279                 797 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:02:01:01, S locus allele.
+ACCESSION   NHP11279
+VERSION     NHP11279
+DBLINK      INSDC: MW679637
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-S*01:02:01:01
+            IPD accession: NHP11279
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-S*01:02
+FEATURES             Location/Qualifiers
+     source          1..797
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..797
+                     /gene="S"
+                     /allele="Mafa-S*01:02:01:01"
+                     /note="previous designations: Mafa-S*01:02"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..178
+                     /gene="S"
+                     /number=2
+     exon            341..797
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          179..340
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..178,341..797)
+                     /gene="S"
+                     /allele="Mafa-S*01:02:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgccgtaa ctcctcttct cccacatctc ctcaggctct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctcacagc ttgtaaaggt
+      181 gatgtcctgg agggcctcat gtggaagggg gatggggtag aggggacaag actggattat
+      241 ggtgattctt tgggacatgt tgagtgtgta gtggggagtt cagagcatta ccctttatag
+      301 ccactgacct gaatttgttc atgactgttg ttttctgtag cgtgagacag ctgtcttgtg
+      361 agggactgag atgcaggatt tcttcacgct tcccctttgt gacttcaaga gccatgaggt
+      421 caggagatcg agaccatcct ggctaacacg gtgaaaccgc atctctacta aaaaatacaa
+      481 agaaaaacta gccgggcgag gtggcgggcg cctgtagtcc cagctactcg ggaagctgag
+      541 gcaggagaat ggtgtaaacc cgggaggcgg agcttgcagt gagctgagat ccggccactg
+      601 cactccagcc tgggcgacag agcaagactc cgtctcaaaa aaaaataaaa aaataaaaat
+      661 aaaaaaaata aaaagagcct ctggcttctc tttctgcaaa ggcatctgaa tgtgtctacg
+      721 tccctgttag cctaatgtga ggaggtgggg agaccagccc acccgggtgt ctaccatgac
+      781 ccccttcccc atgctga
+//
+LOCUS       NHP11280                 532 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:03:01:01, S locus allele.
+ACCESSION   NHP11280
+VERSION     NHP11280
+DBLINK      INSDC: MW679638
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-S*01:03:01:01
+            IPD accession: NHP11280
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-S*01:03
+FEATURES             Location/Qualifiers
+     source          1..532
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..532
+                     /gene="S"
+                     /allele="Mafa-S*01:03:01:01"
+                     /note="previous designations: Mafa-S*01:03"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..532
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..532)
+                     /gene="S"
+                     /allele="Mafa-S*01:03:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgctgtaa ctcctcctct cccacatctc ctcagactct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtagccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctt atgtggaagg gtgatggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgggtgtg tagtggggag ttcagagcat gaccctttat
+      301 agccactgac ctgaatttgt ccatgactgt tgttttctgt agcatgagac agctgtcttg
+      361 tgagggactg agatgcaaga ttacttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta acgtgaggag
+      481 gtggagagac agccttcccc cgtgtctacc atgaccccct tccccatgct ga
+//
+LOCUS       NHP11281                 532 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:04:01:01, S locus allele.
+ACCESSION   NHP11281
+VERSION     NHP11281
+DBLINK      INSDC: MW679639
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-S*01:04:01:01
+            IPD accession: NHP11281
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-S*01:04
+FEATURES             Location/Qualifiers
+     source          1..532
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..532
+                     /gene="S"
+                     /allele="Mafa-S*01:04:01:01"
+                     /note="previous designations: Mafa-S*01:04"
+     exon            1..28
+                     /gene="S"
+                     /number=1
+     exon            134..181
+                     /gene="S"
+                     /number=2
+     exon            343..532
+                     /gene="S"
+                     /number=3
+     intron          29..133
+                     /gene="S"
+                     /number=1
+     intron          182..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..28,134..181,343..532)
+                     /gene="S"
+                     /allele="Mafa-S*01:04:01:01"
+                     /codon_start=3
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 ggtagagaag gaggtgctca ggctgtgtta agtgtgggag acaggtgtgc aggagctcac
+       61 ctatgccata actcctcctc tcccacatct cctcaggctc tgaccaggtc ctgttttcgt
+      121 tctaccccag gtagccgtga cagtgcccag ggctgtgatg tgtctctcac agcttgtaaa
+      181 ggtgatgtcc tggaggcctt atgtggaagg ggaacggggt agaggggata agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt ccatgactgc tgctttctgc agcgtgagac agctgtcttg
+      361 tgagggaccg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta aggtgaggag
+      481 gtggagagac agccctcccc cgtgtctacc atgaccccct tccccatgct ga
+//
+LOCUS       NHP11282                 534 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:05:01:01, S locus allele.
+ACCESSION   NHP11282
+VERSION     NHP11282
+DBLINK      INSDC: MW679640
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-S*01:05:01:01
+            IPD accession: NHP11282
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-S*01:05
+FEATURES             Location/Qualifiers
+     source          1..534
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..534
+                     /gene="S"
+                     /allele="Mafa-S*01:05:01:01"
+                     /note="previous designations: Mafa-S*01:05"
+     exon            1..28
+                     /gene="S"
+                     /number=1
+     exon            134..181
+                     /gene="S"
+                     /number=2
+     exon            344..534
+                     /gene="S"
+                     /number=3
+     intron          29..133
+                     /gene="S"
+                     /number=1
+     intron          182..343
+                     /gene="S"
+                     /number=2
+     CDS             join(1..28,134..181,344..534)
+                     /gene="S"
+                     /allele="Mafa-S*01:05:01:01"
+                     /codon_start=3
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 ggtagagaag gaggtgctca ggctgtgtta agtatgggag acaggtgtgc aggagcttac
+       61 ctatgccata actcctcctc tcccacatct cctcagactc tgaccaggtc ctgtttttgt
+      121 tctaccccag gcagccctga cagtggccag ggctgtgatg tgtctctcac agcttgtaaa
+      181 gttgatgtcc tggagggcct tatgtggaag ggggacgggg tagaggggac aagactggat
+      241 tatggtgatt ctttgggaca tgttgagtgt gtagtaggga gttcagagca ttacccttta
+      301 tagccactga cctgaatttg ttcatgacta ttgttttctg tagcgtgaga cagctgcctt
+      361 gtgagggact gagatgcagg atttcttcac gcttcccctt tgggacttca agagcctctg
+      421 acttctcttt ctgcaaaggc atctgaatgt gtctgcgccc ctgttagcct aacgtgagga
+      481 ggtggggaga ccagcccacc ccggtgtcta ccacgacccc cttccccacg ctga
+//
+LOCUS       NHP12276                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:20:01:01, S locus allele.
+ACCESSION   NHP12276
+VERSION     NHP12276
+DBLINK      INSDC: OR823732
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:20:01:01
+            IPD accession: NHP12276
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:20:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:20:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tctgccataa ctcctcctct cccacatctc ctcagactct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctt atgtggaagg ggcatggggt acaggggaca agactggatt
+      241 atggtgattc tttgggatat gttgagtgtg tagtggggag ttcagagcat tactcttttt
+      301 agccactgac ctgaatttgt tcatgactat tgttttctct agcatgagac agctgtcttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gggacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta acgtgaggag
+      481 gtggggagac cagccctccc ctgtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12278                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:28:01:01, S locus allele.
+ACCESSION   NHP12278
+VERSION     NHP12278
+DBLINK      INSDC: OR823720
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:28:01:01
+            IPD accession: NHP12278
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:28:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:28:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagatcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttataaag
+      181 gtgatgtcct ggagggcctc atgtggaagg gggatggggt agagtggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt ccgtgactgt tgttttctgt agcgtgagac aactgtcttg
+      361 tgagggactg agatgcagga ttttttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcatccc tgttagccta atgtgaggat
+      481 gtggggagac cagccctccc ccgtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12279                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:24:01:01, S locus allele.
+ACCESSION   NHP12279
+VERSION     NHP12279
+DBLINK      INSDC: OR823733
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:24:01:01
+            IPD accession: NHP12279
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:24:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:24:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgca ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctt ctcaggctct gactaggtcc tgttttcgtt
+      121 ctaccccagg ccaccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaagg gggatggggt agagtggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt ccatgactgt tgttttctat agcatgagat agctgtcttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta atgtgaggag
+      481 gtggggagac caacccaccc ccgtgtctac catgatcccc ttccccatgc tga
+//
+LOCUS       NHP12280                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:19:01:01, S locus allele.
+ACCESSION   NHP12280
+VERSION     NHP12280
+DBLINK      INSDC: OR823712
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:19:01:01
+            IPD accession: NHP12280
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:19:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:19:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaagg gggatggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactgt tgttttctgc agcacgagac agctgtcttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgggaccc tgttagccta acgtgaggag
+      481 gtgggaagac cagccctccc ccgtgtccac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12281                 532 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:13:01:01, S locus allele.
+ACCESSION   NHP12281
+VERSION     NHP12281
+DBLINK      INSDC: OR823729
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:13:01:01
+            IPD accession: NHP12281
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..532
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..532
+                     /gene="S"
+                     /allele="Mafa-S*01:13:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            342..532
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..341
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,342..532)
+                     /gene="S"
+                     /allele="Mafa-S*01:13:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgca ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggaggcctta tgtggaaggg ggatggggta gaggggacaa gactggatta
+      241 tggtgattct ttgggacatg ttgagtgtgt agtggggagt tcagagcatt accctttata
+      301 gccactgacc tcaatttgtt catgactatt gttttctgca gcgtgagaca gctggtcttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgatataaa gagcctctgg
+      421 cttctctctc tgcaaaggca tctgaatgtg tctgcatccc tgttagccta acgtgaggag
+      481 gtggagagac agccctcccc cgtgtctacc atgactccct tccccatgct ga
+//
+LOCUS       NHP12282                 531 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:27:01:01, S locus allele.
+ACCESSION   NHP12282
+VERSION     NHP12282
+DBLINK      INSDC: OR823735
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:27:01:01
+            IPD accession: NHP12282
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..531
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..531
+                     /gene="S"
+                     /allele="Mafa-S*01:27:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            341..531
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..340
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,341..531)
+                     /gene="S"
+                     /allele="Mafa-S*01:27:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgca ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggaggcctta tgtggaaggg ggatggggta gagggggcaa gactggatta
+      241 tggtgattct ttgggacatg ttgagtgtgt agggggagtt cagagcatta ccctttatag
+      301 acactgacct gaatttgttc atggctattg ttttctgcag cgtgagacag ctgccttgtg
+      361 agggactgag atgcaggatt tcttcacgct tcccctttgt gacttgaaga gcctctggct
+      421 tctctttctg caaaggcatc tgaatgtgtc tgcgtccctg ttagcctaat gtgaggaggt
+      481 ggggagacca gccttccccc gtgtctacca tgaccccctt ccccatgctg a
+//
+LOCUS       NHP12283                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:23:01:01, S locus allele.
+ACCESSION   NHP12283
+VERSION     NHP12283
+DBLINK      INSDC: OR823727
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:23:01:01
+            IPD accession: NHP12283
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:23:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:23:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgtgttcgtt
+      121 ctaccccagg caaccctgac agtgcccagg gctgagatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctt atgtggaagg gggatggggt agaggggaca agactggatt
+      241 atggtgattc tttggaacat gttgagtgtg taatggggag ttcagagcat taccctttat
+      301 agccactgac ctgaattttt tcatgactgt tattttctgc agggtgagac agctgccttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gggacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta atgtgaggag
+      481 gtggggagac cagcccaccc cggtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12284                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:18:01:01, S locus allele.
+ACCESSION   NHP12284
+VERSION     NHP12284
+DBLINK      INSDC: OR823714
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:18:01:01
+            IPD accession: NHP12284
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:18:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:18:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gcggtgttaa gtatgggaga caggtataga ggagctcacc
+       61 tgtgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctt atgtggaaag gggatggggc agaggggaca aaactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt ccatgactgt tgttttctgc agcgtgagac agctgtcttg
+      361 tgagggaccg agatgcagga tttcttcacg cttccccttt gtgacttgaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcatccc tgttagccta atgtgaggag
+      481 gtggagagac cagccctccc ccgtgtccac catgactccc ttccccatgc tga
+//
+LOCUS       NHP12285                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:25:01:01, S locus allele.
+ACCESSION   NHP12285
+VERSION     NHP12285
+DBLINK      INSDC: OR823716
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:25:01:01
+            IPD accession: NHP12285
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:25:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:25:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagaaaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcttt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctttcata tcttgtaaag
+      181 gtgatgtcct ggagggcctt atgtggaagg gggatggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactgt tattttctgc agggtgagac agctgccttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgtaaaggca tctgaatgtg tctgcgtccc tgttagccta acgtgaggag
+      481 gtggggagac caacccgccc ccgtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12286                 525 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:26:01:01, S locus allele.
+ACCESSION   NHP12286
+VERSION     NHP12286
+DBLINK      INSDC: OR823725
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:26:01:01
+            IPD accession: NHP12286
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..525
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..525
+                     /gene="S"
+                     /allele="Mafa-S*01:26:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            335..525
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..334
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,335..525)
+                     /gene="S"
+                     /allele="Mafa-S*01:26:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcact
+       61 tatgtcataa ctcctcctct cccacatctc ctcaggctct gaccagatcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 ctggagagcc tcatgtggaa gggggatggg gtagagggga caagactgaa ttatggtgat
+      241 tctttgggac atgttgagtg tgtagtgggg agttcagagc attaccctat atagccactg
+      301 acctgaattt gttcatgact gttgttttct gtagcctgag acagctgcct tgtgagggac
+      361 tgagatgcag gatttcttca cgcttcccct ttgtgacttc aagagcctct ggcttctctt
+      421 tctgcaaagg catctgaatg tgtcttcgtc cctgttagcg taacgtgagg aggtggggag
+      481 accagcccac cccggtgtct accataaccc ccttccccat gctga
+//
+LOCUS       NHP12287                 527 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:16:01:01, S locus allele.
+ACCESSION   NHP12287
+VERSION     NHP12287
+DBLINK      INSDC: OR823721
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:16:01:01
+            IPD accession: NHP12287
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..527
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..527
+                     /gene="S"
+                     /allele="Mafa-S*01:16:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..527
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..527)
+                     /gene="S"
+                     /allele="Mafa-S*01:16:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caagtgtgca ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaagg gggatggggt agaggagaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactat tgttttctgt agcgtgagac agctgtcttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgca tccctgttag cctaatgtga ggagctgggg
+      481 agaccagccc tcccctgtgt ctaccatgac ccccttcccc acgctga
+//
+LOCUS       NHP12288                 527 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:17:01:01, S locus allele.
+ACCESSION   NHP12288
+VERSION     NHP12288
+DBLINK      INSDC: OR823713
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:17:01:01
+            IPD accession: NHP12288
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..527
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..527
+                     /gene="S"
+                     /allele="Mafa-S*01:17:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..527
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..527)
+                     /gene="S"
+                     /allele="Mafa-S*01:17:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg gggtgctcag gctgtgttaa gtgtgggaga caagtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaagg gggatggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag tttagagcat taccctttat
+      301 agccactgac ctaaatttgt tcatgactat tgttttctgt agcgtgagac agctgtcttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgcg tccctgttag cctaacatga agaggtggga
+      481 agaccagcct tccccagtgt ctaccatgac ccccttcccc acgctga
+//
+LOCUS       NHP12289                 526 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:15:01:01, S locus allele.
+ACCESSION   NHP12289
+VERSION     NHP12289
+DBLINK      INSDC: OR823724
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:15:01:01
+            IPD accession: NHP12289
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..526
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..526
+                     /gene="S"
+                     /allele="Mafa-S*01:15:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            342..526
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..341
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,342..526)
+                     /gene="S"
+                     /allele="Mafa-S*01:15:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gcggtgttaa gtgtgggaga caggtgtgga ggagctcacc
+       61 tgtgccgtaa ctcctcctct cccacatctc ctcagactct gaccaggtcc tgtgttcatt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggaggcctta tgtggaagag ggatggggta gaggggacaa gactggatta
+      241 tggtgattct ttggaacatg ttgagtgtgt aatggggagt tcagagcatt accctttata
+      301 gccactgacc tgaatttgtt catgactatt gttttctgca gcgtgagaca gctgtcttgt
+      361 gagggactga gatgcaggat ttcttcacac ttcccctttg tgacttcaag agcctctgac
+      421 ttctctttct gcaaaggcat ctgaatgcat ccctgttagc ctaatgtgag gaggtgggga
+      481 gaccagccct cccccgtgtc caccatgacc cccttcccca tgctga
+//
+LOCUS       NHP12290                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:29:01:01, S locus allele.
+ACCESSION   NHP12290
+VERSION     NHP12290
+DBLINK      INSDC: OR823719
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:29:01:01
+            IPD accession: NHP12290
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:29:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:29:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagatcacc
+       61 tatgctgtaa ctcctcctgt cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaagg gggatggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgggtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgag ctgaatttgt ccatgactat tgttttctgt agcatgagac agctgtcttg
+      361 tgagggactg agatacagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtc tctgcgtccc tgttagccta acgtgaggag
+      481 gtggagagac cagccctccc ccgtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12291                 532 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:14:01:01, S locus allele.
+ACCESSION   NHP12291
+VERSION     NHP12291
+DBLINK      INSDC: OR823718
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:14:01:01
+            IPD accession: NHP12291
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..532
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..532
+                     /gene="S"
+                     /allele="Mafa-S*01:14:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            342..532
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..341
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,342..532)
+                     /gene="S"
+                     /allele="Mafa-S*01:14:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtgtgggaga caggtgtgca ggagctcacc
+       61 tatgccataa ctcctcctgt cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg tagccgtgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggaggtctta tgtggaaggg gaacggggta gaggggacaa gactggatta
+      241 tggtgattct ttgggacatg ttgggtgtgt agtggggagt tcagagcatt accctttata
+      301 gccactgacc tgaatttgtc catgactgtt gttttctgga gggtgagaca gctgtcttgt
+      361 gagggaccga gatgcaggat ttcttcacgc ttcccctttg tgacttcaag agcctctggc
+      421 ttctctttct gcaaaggcat ctgaatgtgt ctgcgtccct gttagcctaa ggtgaggagg
+      481 tggagagacc agccctcccc cgtgtctacc atgaccccct tccccatgct ga
+//
+LOCUS       NHP12292                 531 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:12:01:01, S locus allele.
+ACCESSION   NHP12292
+VERSION     NHP12292
+DBLINK      INSDC: OR823711
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:12:01:01
+            IPD accession: NHP12292
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..531
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..531
+                     /gene="S"
+                     /allele="Mafa-S*01:12:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            342..531
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..341
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,342..531)
+                     /gene="S"
+                     /allele="Mafa-S*01:12:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtgtgggaga caggtgtgca ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgttttcgtt
+      121 ctaccccagg tagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggaggcctta tgtggaaggg gaacggggta gaggggacaa gactggatta
+      241 tggtgattct ttgggacatg ttgggtgtgt agtggggagt tcagagcatt accctttata
+      301 gccactgacc tgaatttgtc catgactgtt gctttctgca gcgtgagaca gctgtcttgt
+      361 gagggaccga gatgcaggat ttcttcacgc ttcccctttg tgacttcaag agcctctggc
+      421 ttctctttct gcaaaggcat ctgaatgtgt ctgcgtccct gttagcctaa ggtgaggagg
+      481 tggagagaca gccctccccc gtgtctacca tgaccccctt ccccatgctg a
+//
+LOCUS       NHP12293                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:21:01:01, S locus allele.
+ACCESSION   NHP12293
+VERSION     NHP12293
+DBLINK      INSDC: OR823730
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:21:01:01
+            IPD accession: NHP12293
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:21:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:21:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgctgtaa ctcctcctct cccacatctc ctcaggctct gaccaggtgc tattttcgtt
+      121 ctaccccagg cagccctggc agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaaag gggacggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactat tgttttctgt agcgtgagac agctgtcttg
+      361 tgagggaccg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta atgtgaggag
+      481 gtggggagac cagcccaccc cggtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12294                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:22:01:01, S locus allele.
+ACCESSION   NHP12294
+VERSION     NHP12294
+DBLINK      INSDC: OR823728
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:22:01:01
+            IPD accession: NHP12294
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:22:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:22:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 atagagaagg aggtgctcag gctgtgttaa gtatgggaga caagtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtgc tattttcgtt
+      121 ctaccccagg cagccctggc agtggccagg gctgtggtgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaaag gggacggggt agaggggaca agactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactat tgttttctgt agcgtgagac agctgtcttg
+      361 tgagggaccg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctgtgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgtgtccc tgttagccta atgtgaggag
+      481 gtggggagac cagcccaccc cggtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12295                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:21:01:03, S locus allele.
+ACCESSION   NHP12295
+VERSION     NHP12295
+DBLINK      INSDC: OR823722
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:21:01:03
+            IPD accession: NHP12295
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:21:01:03"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:21:01:03"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caagtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtgc tattttcgtt
+      121 ctaccccagg cagccctggc agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaaag gggacggggt agaggggaca agactgaatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactat tgttttctgt agcgtgagac agctgtcttg
+      361 tgagggaccg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta atgtgaggag
+      481 gtggggagac cagcccaccc cggtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12296                 533 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:21:01:02, S locus allele.
+ACCESSION   NHP12296
+VERSION     NHP12296
+DBLINK      INSDC: OR823726
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:21:01:02
+            IPD accession: NHP12296
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..533
+                     /gene="S"
+                     /allele="Mafa-S*01:21:01:02"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..533
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..533)
+                     /gene="S"
+                     /allele="Mafa-S*01:21:01:02"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caagtgtgga ggagctcacc
+       61 tatgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtgc tattttcgtc
+      121 ctaccccagg cagccctggc agtggccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctc atgtggaaag gggacggggt agaggggaca agactgaatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt tcatgactat tgttttctgt agcgtgagac agctgtcttg
+      361 tgagggaccg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagcctctgg
+      421 cttctctttc tgcaaaggca tctgaatgtg tctgcgtccc tgttagccta atgtgaggag
+      481 gtggggagac cagcccaccc cggtgtctac catgaccccc ttccccatgc tga
+//
+LOCUS       NHP12297                 797 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:11:01:01, S locus allele.
+ACCESSION   NHP12297
+VERSION     NHP12297
+DBLINK      INSDC: OR823709
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:11:01:01
+            IPD accession: NHP12297
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..797
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..797
+                     /gene="S"
+                     /allele="Mafa-S*01:11:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..180
+                     /gene="S"
+                     /number=2
+     exon            343..797
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          181..342
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..180,343..797)
+                     /gene="S"
+                     /allele="Mafa-S*01:11:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgca ggagctcacc
+       61 tctgccataa ctcctcctct cccgcatctc ctcaggctct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctctcaca gcttgtaaag
+      181 gtgatgtcct ggagggcctt atgtggaaag gggatggggc agaggggaca aaactggatt
+      241 atggtgattc tttgggacat gttgagtgtg tagtggggag ttcagagcat taccctttat
+      301 agccactgac ctgaatttgt ccatgactgt tgttttctgc agcacgagac agctgccttg
+      361 tgagggactg agatgcagga tttcttcacg cttccccttt gtgacttcaa gagccacgag
+      421 gtcaggagat cgagaccatc ctggctaaca cggtgaaacc ccatctctac taaaaaatac
+      481 aaaaaaaacc tagccgggcg aggtggcggg cgcctgtagt cccagctact cgggaggctg
+      541 aggcaggaga atggcgtaaa cccgggaggc ggagcttgca gtgatctgag atccggccac
+      601 tgcaccccag cctgggcgac agagcaagac tccgtctcaa aaaaaataaa aataaaaata
+      661 aaaaaaaata aaaagagcct ctggcttctc tttctgcaaa ggcatctgaa tgtgtctgtg
+      721 tccctgttag cctaatgtga ggaagtgggg agaccagcct accccggtgt ctaccatgac
+      781 ccccttcccc atgctga
+//
+LOCUS       NHP12298                 794 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:09:01:01, S locus allele.
+ACCESSION   NHP12298
+VERSION     NHP12298
+DBLINK      INSDC: OR823731
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:09:01:01
+            IPD accession: NHP12298
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..794
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..794
+                     /gene="S"
+                     /allele="Mafa-S*01:09:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..178
+                     /gene="S"
+                     /number=2
+     exon            341..794
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          179..340
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..178,341..794)
+                     /gene="S"
+                     /allele="Mafa-S*01:09:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgcg ggagctcacc
+       61 tctgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctcacagc ttgtaaaggt
+      181 gatgtcctgg agggccttat gtggaagggg gatggggtag aggggacaag actggattat
+      241 ggtgattctt tgggacatgt tgagtgttta gtggggagtt cagagcatta ccctttatag
+      301 ccactgacct gaatttgtcc atgactgttg ttttctgcag cgtgagacag ctgtcttgtg
+      361 agggactgag atgcaggatt tcttcacgct tcccctttgt aacttcaaga gccacaaggt
+      421 caggggatcg agaccatcct ggctaacacg gtgaaacccc atctctacta aaaaatacaa
+      481 aaaaaaccta gccgggcgag gtggcgggcg cctgtcatcc cagctactcg ggaggctgag
+      541 gcaggagaat ggcgtaaacc cgggaggcgg agcttgcagt gagctgagat ccggctactg
+      601 caccccagcc tgggcgacag agcgagactc cgtctcaaaa aaaataaaaa taaaaataaa
+      661 aaaaataaaa agagcctctg gcttctcttt ctgcaaaggc atctgaatgt gtctgcgtcc
+      721 ctgttagcct aatgtgagga ggtggggaga ccagcccacc ccggtgtcta ccatgacccc
+      781 cttccctatg ctga
+//
+LOCUS       NHP12299                 794 bp    DNA     linear   PRI 15-DEC-2023
+DEFINITION  Mafa-S*01:10:01:01, S locus allele.
+ACCESSION   NHP12299
+VERSION     NHP12299
+DBLINK      INSDC: OR823734
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:10:01:01
+            IPD accession: NHP12299
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..794
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..794
+                     /gene="S"
+                     /allele="Mafa-S*01:10:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..178
+                     /gene="S"
+                     /number=2
+     exon            341..794
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          179..340
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..178,341..794)
+                     /gene="S"
+                     /allele="Mafa-S*01:10:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgcg ggagctcacc
+       61 tctgccataa ctcctcctct cccacatctc ctcaggctct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtggccagg gctgtgatgt gtctcacagc ttgtaaaggt
+      181 gatgtcctgg agggccttat gtggaagggg gatggggtag aggggacaag actggattat
+      241 ggtgattctt tgggacatgt tgagtgtgta gtggggagtt cagagcatta ccctttatag
+      301 ccactgacct gaatttgtcc atgactgttg ttttctgcag cgtgagacag ctgccttgtg
+      361 agggactgag atgcaggatt tcttcacact tcccctttgt gacttcaaga gccacgaggt
+      421 caggagatcg agaccatcct ggctaacacg gtgaaacccc atctctacta aaaaatacaa
+      481 aaaaaaccta gccgggcgag gtggcgggcg cctgtcatcc cagctactcg ggaggctgag
+      541 gcaggagaat ggcgtaaacc cgggaggcgg agcttgcagt gagctgagat ccggccactg
+      601 caccccagcc tgggcgacag agcaagactc cgtctcaaaa aaaataaaaa taaaaataaa
+      661 aaaaataaaa agagcctctg gcttctcttt ctgcaaaggc atctgaatgt gtctgcgtcc
+      721 ctgttagcct aatgtgagga ggtggggaga ccagcccacc ccggtgtcta ccatgacccc
+      781 cttccccatg ctga
+//
+LOCUS       NHP12310                 190 bp    DNA     linear   PRI 18-DEC-2023
+DEFINITION  Mafa-S*01:06:01:01, S locus allele.
+ACCESSION   NHP12310
+VERSION     NHP12310
+DBLINK      INSDC: OR823717
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:06:01:01
+            IPD accession: NHP12310
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..190
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..190
+                     /gene="S"
+                     /allele="Mafa-S*01:06:01:01"
+     exon            1..190
+                     /gene="S"
+                     /number=1
+     CDS             1..190
+                     /gene="S"
+                     /allele="Mafa-S*01:06:01:01"
+                     /codon_start=3
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 tgtgagggac tgtcttgtga gggactgaga tgcaggattt cttcacgctt tccctttgtg
+       61 acttcaagaa cctctggctt ctctttctgc aaaggcatct gaatgtgtct gcgtccctgt
+      121 tagcataatg tgaggaggtg gggagaccaa cccacccacg tgtctaccat gatccccttc
+      181 cccatgctga
+//
+LOCUS       NHP12311                 190 bp    DNA     linear   PRI 18-DEC-2023
+DEFINITION  Mafa-S*01:07:01:01, S locus allele.
+ACCESSION   NHP12311
+VERSION     NHP12311
+DBLINK      INSDC: OR823710
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:07:01:01
+            IPD accession: NHP12311
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..190
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..190
+                     /gene="S"
+                     /allele="Mafa-S*01:07:01:01"
+     exon            1..190
+                     /gene="S"
+                     /number=1
+     CDS             1..190
+                     /gene="S"
+                     /allele="Mafa-S*01:07:01:01"
+                     /codon_start=3
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 tgtgagggac tgtcttgtga gggactgaga tgcaggattt cttcacgctt cccctttgtg
+       61 acttcaagaa cctctggctt ctctttctgc aaaggcatct gaatgtgtct gcgtccctgt
+      121 tagcataatg tgaggaggtg gggagaccaa cccacccacg tgtctaccat gatccccttc
+      181 cccatgctga
+//
+LOCUS       NHP12312                 797 bp    DNA     linear   PRI 18-DEC-2023
+DEFINITION  Mafa-S*01:08:01:01, S locus allele.
+ACCESSION   NHP12312
+VERSION     NHP12312
+DBLINK      INSDC: OR823723
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:08:01:01
+            IPD accession: NHP12312
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..797
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..797
+                     /gene="S"
+                     /allele="Mafa-S*01:08:01:01"
+     exon            1..27
+                     /gene="S"
+                     /number=1
+     exon            133..178
+                     /gene="S"
+                     /number=2
+     exon            341..797
+                     /gene="S"
+                     /number=3
+     intron          28..132
+                     /gene="S"
+                     /number=1
+     intron          179..340
+                     /gene="S"
+                     /number=2
+     CDS             join(1..27,133..178,341..797)
+                     /gene="S"
+                     /allele="Mafa-S*01:08:01:01"
+                     /codon_start=2
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 gtagagaagg aggtgctcag gctgtgttaa gtatgggaga caggtgtgga ggagctcacc
+       61 tatgccgtaa ctcctcttct cccacatctc ctcaggctct gaccaggtcc tgtttttgtt
+      121 ctaccccagg cagccctgac agtgcccagg gctgtgatgt gtctcacagc ttgtaaaggt
+      181 gatgtcctgg agggcctcat gtggaagggg gatggggtag aggggacaag actggattat
+      241 ggtgattctt tgggacatgt tgagtgtgta gtggggagtt cagagcatta ccctttatag
+      301 ccactgacct gaatttgttc atgactgttg ttttctgtag catgagacag ctgtcttgtg
+      361 agggactgag atgcaggatt tcttcacgct tcccctttgt gacttcaaga gccatgaggt
+      421 caggagatcg agaccatcct ggctaacacg gtgaaaccgc atctctacta aaaaatacaa
+      481 agaaaaacta gccgggcgag gtggcgggcg cctgtagtcc cagctactcg ggaagctgag
+      541 gcaggagaat ggtgtaaacc cgggaggcgg agcttgcagt gagctgagat ccggccactg
+      601 cactccagcc tgggcgacag agcaagactc cgtctcaaaa aaaaataaaa aaataaaaat
+      661 aaaaaaaata aaaagagcct ctggcttctc tttctgcaaa ggcatctgaa tgtgtctacg
+      721 tccctgttag cctaatgtga ggaggtgggg agaccagccc acccgggtgt ctaccatgac
+      781 ccccttcccc atgctga
+//
+LOCUS       NHP12314                 191 bp    DNA     linear   PRI 19-DEC-2023
+DEFINITION  Mafa-S*01:01:01:02, S locus allele.
+ACCESSION   NHP12314
+VERSION     NHP12314
+DBLINK      INSDC: OR823715
+KEYWORDS    IPD-MHC; MHC class I; S.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-S*01:01:01:02
+            IPD accession: NHP12314
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..191
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..191
+                     /gene="S"
+                     /allele="Mafa-S*01:01:01:02"
+     exon            1..191
+                     /gene="S"
+                     /number=1
+     CDS             1..191
+                     /gene="S"
+                     /allele="Mafa-S*01:01:01:02"
+                     /codon_start=3
+                     /product="MHC class I S antigen"
+                     /translation="X"
+ORIGIN
+        1 tgtgagacag ctgtcttgtg agggactgag atgcaggatt tcttcacact tcccctttgt
+       61 gacttcaaga gcctctggct tctctttctg caaaggcatc tgaatgtgtc tgcgtccctg
+      121 ttagcataat gtgaggaggt ggggagacca gccctccccc gtgtccacca tgaccccctt
+      181 ccccatgctg a
+//

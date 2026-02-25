@@ -1,0 +1,62 @@
+LOCUS       NHP00970                 822 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Safu-PS1*01, PS1 locus allele.
+ACCESSION   NHP00970
+VERSION     NHP00970
+DBLINK      INSDC: U52117
+KEYWORDS    IPD-MHC; MHC class I; PS1.
+SOURCE      Saguinus fuscicollis (Brown-mantled Tamarin)
+  ORGANISM  Saguinus fuscicollis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1
+  AUTHORS   Cadavid LF, Hughes AL, Watkins DI.
+  TITLE     MHC class I-processed pseudogenes in New World primates provide
+            evidence for rapid turnover of MHC class I genes.
+  JOURNAL   J Immunol 157:2403-2409 (1996)
+   PUBMED   8805639
+COMMENT     IPD-MHC allele: Safu-PS1*01
+            IPD accession: NHP00970
+            Species prefix: Safu
+            MHC class: I
+            Previous designations: Safu-PS1
+FEATURES             Location/Qualifiers
+     source          1..822
+                     /organism="Saguinus fuscicollis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9487"
+     gene            1..822
+                     /gene="PS1"
+                     /allele="Safu-PS1*01"
+                     /note="previous designations: Safu-PS1"
+     exon            1..270
+                     /gene="PS1"
+                     /number=1
+     exon            271..546
+                     /gene="PS1"
+                     /number=2
+     exon            547..822
+                     /gene="PS1"
+                     /number=3
+     CDS             1..822
+                     /gene="PS1"
+                     /allele="Safu-PS1*01"
+                     /codon_start=3
+                     /product="MHC class I PS1 antigen"
+                     /translation="X"
+ORIGIN
+        1 gctcccactc cttgaggtat tttcacacct ctgtgtcccg gcctggccgc gagaagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cgcagttcga gcggttcgac agcgacgccg
+      121 caagtccgag aaaggagccg cgggcgcagt gggtggagca ggaggggccg gagtattggg
+      181 accgggagac gcggatctcc aagggcgacg cacagaattt ccgagtgaac ctgcggaccc
+      241 tgcgcggcta ctacaaccag agcgaggctg agtctcacac catccagcgg atgtctggct
+      301 gcgacctggg gccggacggg cgcctcctcc gtgggtataa ccagcacccc taggactgca
+      361 aggactacat cgccctgaac gaggacctgc gctccgggat ggccgccgac gtggcggctc
+      421 agatcaccca gtgcaagtgg gaggcggcca atgtggctga ggagtggaga gcctacctgg
+      481 agggcaggtg cctggagtca ctcctcagat acctggagaa cgggaaggag acactgcagg
+      541 gcccggtgcc ccccaagaca cacgtgaccc accaccccat ctctgacgat gaggccaccc
+      601 tgaggtgctg ggccctgggc ttctactctg cggagatcac actgacctgg cagcgggatg
+      661 gggaggacca gacccgggac atggagcttg tggagaccag gcccacaggg gatggaaaat
+      721 tccagaagtg ggtggctgtg gtgatgcctt ctggagagga gcagagatac gcatgccatg
+      781 tgcagcacga ggggctgccc gagcccctca ccctgagatg gg
+//

@@ -1,0 +1,47 @@
+LOCUS       NHP00799                 257 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DOB*01, DOB locus allele.
+ACCESSION   NHP00799
+VERSION     NHP00799
+DBLINK      INSDC: M24358
+KEYWORDS    IPD-MHC; MHC class II; DOB.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kasahara M, Klein D, Klein J.
+  TITLE     Nucleotide sequence of a chimpanzee DOB cDNA clone.
+  JOURNAL   Immunogenetics 30:66-68 (1989)
+   PUBMED   2744808
+COMMENT     IPD-MHC allele: Patr-DOB*01
+            IPD accession: NHP00799
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DOB
+FEATURES             Location/Qualifiers
+     source          1..257
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..257
+                     /gene="DOB"
+                     /allele="Patr-DOB*01"
+                     /note="previous designations: Patr-DOB"
+     exon            1..257
+                     /gene="DOB"
+                     /number=1
+     CDS             1..257
+                     /gene="DOB"
+                     /allele="Patr-DOB*01"
+                     /codon_start=3
+                     /product="MHC class II DOB antigen"
+                     /translation="DFVIQAKADCYFTNGTEKVQFVVRFIFNLEEYVRFDSDVGMFVAL
+                     TKLGQPDAEQWNSRLDLLERSRQAVDGVCRHNYRLGAPF"
+ORIGIN
+        1 aagattttgt gattcaggca aaggctgact gttacttcac caacgggaca gaaaaggtgc
+       61 agtttgtggt cagattcatc tttaacttgg aggagtatgt acgtttcgac agtgatgtgg
+      121 ggatgtttgt ggcattgacc aagctggggc agccagatgc tgagcagtgg aacagccggc
+      181 tggatctctt ggagaggagc agacaggccg tggatggggt ctgtagacac aactacaggc
+      241 tgggcgcacc cttcact
+//

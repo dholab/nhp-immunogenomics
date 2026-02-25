@@ -1,0 +1,58 @@
+# Git LFS Configuration for NHP Immunogenomics Repository
+# This file configures which files should be stored in Git LFS (Large File Storage)
+# instead of the regular Git repository, improving performance and repository size.
+
+# === BINARY SEQUENCE FILES (Required for LFS) ===
+# Gzipped FASTA files are binary and should be tracked with LFS
+*.gz filter=lfs diff=lfs merge=lfs -text
+
+# === TEXT SEQUENCE FILES (Optional for LFS) ===
+# GenBank files are text but benefit from LFS due to frequent regeneration
+# Uncomment the line below to use LFS for GenBank files
+# *.gbk filter=lfs diff=lfs merge=lfs -text
+
+# Standard FASTA files (text-based, optional for LFS)
+# *.fasta filter=lfs diff=lfs merge=lfs -text
+
+# === FILES TO KEEP IN REGULAR GIT ===
+# These files should remain in the regular Git repository for easy access
+# and to avoid unnecessary LFS overhead
+
+# Metadata files
+*.json -filter -diff -merge
+*.jsonl -filter -diff -merge
+
+# Documentation
+*.md -filter -diff -merge
+*.txt -filter -diff -merge
+
+# Configuration files
+*.yaml -filter -diff -merge
+*.yml -filter -diff -merge
+*.toml -filter -diff -merge
+.gitignore -filter -diff -merge
+.gitattributes -filter -diff -merge
+
+# Source code
+*.py -filter -diff -merge
+*.sh -filter -diff -merge
+*.R -filter -diff -merge
+*.sql -filter -diff -merge
+
+# License and attribution
+LICENSE -filter -diff -merge
+CONTRIBUTING.md -filter -diff -merge
+CHANGELOG.md -filter -diff -merge
+
+# === BINARY FILES (Not sequence data) ===
+# Lock files and caches
+*.lock binary
+.DS_Store -filter -diff -merge
+Thumbs.db binary
+
+# === NORMALIZATION ===
+# Ensure consistent line endings across platforms
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf

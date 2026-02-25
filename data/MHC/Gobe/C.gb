@@ -1,0 +1,137 @@
+LOCUS       NHP09052                2864 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gobe-C*02:01, C locus allele.
+ACCESSION   NHP09052
+VERSION     NHP09052
+DBLINK      INSDC: KY189968
+KEYWORDS    IPD-MHC; MHC class I; C.
+SOURCE      Gorilla beringei (eastern gorilla)
+  ORGANISM  Gorilla beringei
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gobe-C*02:01
+            IPD accession: NHP09052
+            Species prefix: Gobe
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2864
+                     /organism="Gorilla beringei"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:499232"
+     gene            1..2864
+                     /gene="C"
+                     /allele="Gobe-C*02:01"
+     exon            1..73
+                     /gene="C"
+                     /number=1
+     exon            203..472
+                     /gene="C"
+                     /number=2
+     exon            719..994
+                     /gene="C"
+                     /number=3
+     exon            1582..1857
+                     /gene="C"
+                     /number=4
+     exon            1981..2100
+                     /gene="C"
+                     /number=5
+     exon            2541..2573
+                     /gene="C"
+                     /number=6
+     exon            2681..2728
+                     /gene="C"
+                     /number=7
+     exon            2860..2864
+                     /gene="C"
+                     /number=8
+     intron          74..202
+                     /gene="C"
+                     /number=1
+     intron          473..718
+                     /gene="C"
+                     /number=2
+     intron          995..1581
+                     /gene="C"
+                     /number=3
+     intron          1858..1980
+                     /gene="C"
+                     /number=4
+     intron          2101..2540
+                     /gene="C"
+                     /number=5
+     intron          2574..2680
+                     /gene="C"
+                     /number=6
+     intron          2729..2859
+                     /gene="C"
+                     /number=7
+     CDS             join(1..73,203..472,719..994,1582..1857,1981..2100,
+                     2541..2573,2681..2728,2860..2864)
+                     /gene="C"
+                     /allele="Gobe-C*02:01"
+                     /codon_start=1
+                     /product="MHC class I C antigen"
+                     /translation="MRVMAPRTLILLLSGALALTETWAGSHSMRYFYTSVSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRK
+                     LRGYYNQSEDGSHTLQSMYGCDLGPDGRLLRGYSQFAYDGKDYIALNEDLRSWTAADTA
+                     AQITQRKLEAARAAEQQRAYLEGLCVESLRRYLENGKETLQRAEPPKTHVTHHPLSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRY
+                     TCHMQHEGLPEPLTLRWEPSSQPTIPIVGIVVGLAVLVVLAVLGAVVTAMMCRRKSSGG
+                     KGGSCSQAACSNSAQGSDESLITCKA"
+ORIGIN
+        1 atgcgggtca tggcgccccg aaccctcatc ctgctgctct cgggagccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaacgg cctctgcgga aaggagcgag
+      121 gggcccgccc ggcgagggcg caggaccggg gagccgcgcc gggaggaggg tcaggcgggt
+      181 ctcagcccct cctcgccccc aggctcccac tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcggggagcc ccgcttcatc tcagtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgcgagtcca agaggggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaagt acaagcgcca ggcacagact
+      421 gaccgagtga acctgcggaa actgcgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcccg gggcgcaggt cacgacccct ccccatcccc cacggacggc ccgggtcgcc
+      541 ccgagtctcc cggtctgaga tccaccccga ggctgcggaa cccgcccaga ccctcgaccg
+      601 gagagagccc cagtcacctt tacccggttt cattttcagt ttaggccaaa atccccgcgg
+      661 gttggtcggg gctggggcgg ggctcggggg acggggctga ccacgggggc ggggccaggg
+      721 tctcacactc tccagtcgat gtatggctgc gacctggggc ccgacgggcg cctcctccgc
+      781 gggtatagcc agttcgccta cgacggcaag gattacatcg ccctgaacga ggacctgcgc
+      841 tcctggaccg ccgcggacac ggcggctcag atcacccagc gcaagttgga ggcggcccgt
+      901 gcggcggagc agcagagagc ctacctggag ggcctgtgcg tggagtcgct ccgcagatac
+      961 ctggagaacg ggaaggagac gctgcagcgc gcgggtacca ggggcagtgg ggagccgtct
+     1021 ccatctccta tagatctccc gggatggcct cccacgagga agggaggaaa atgggatcag
+     1081 cactggaata tcgccctccc ttgaatggag aatggcatga gttttcctga gtttcctctg
+     1141 agggccccct ctgctctcta ggacaattaa gggatgaagt ctctgaggaa atggagggga
+     1201 agacagtccc tggaatactg atcaggggtc tcctttgacc actttgacca ctgcggcagc
+     1261 tgtggtcagg ctgctgacct ttctctcagg ccttgttctc tgcctcacac tcaatgtgtc
+     1321 tgaaggtttg attccagctt ttctgagtcc tgcggcctcc actcaggtca ggaccagaag
+     1381 tcgctgttcc tccctcagag actagaactt tccaatgaat aggagattat cccaggtgct
+     1441 tgtgtccagg ctggcgtctg ggttctgtgc cgccttcccc gccccaggtg tcctgtccat
+     1501 tctcaggatg gtcacatggg cgctgctgga gtgtcccaag agagatgcaa agtgtctgaa
+     1561 ttttctgact cttcccgtca gaacccccaa agacacacgt gacccaccac cccctctctg
+     1621 accatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga
+     1681 cctggcagcg ggatggggag gaccagaccc aggacaccga gcttgtggag accaggccag
+     1741 caggagatgg aaccttccag aagtgggcag ctgtggtggt gccttctgga caagagcaga
+     1801 gatacacgtg ccatatgcag cacgaggggc tgccagagcc cctcaccctg agatggggta
+     1861 aggaggggaa tgggggtcac atctcttatc agagaaagca gaagtccttc tggagccctt
+     1921 cagccgggtc agggctgagg cttgggggtc agggcccctc accttcccct cctttcccag
+     1981 agccatcttc ccagcccacc atccccatcg tgggcattgt tgttggcctg gctgtcctgg
+     2041 ttgtcctagc tgtccttgga gctgtggtca ccgctatgat gtgtaggagg aagagctcag
+     2101 gtagggaagg ggtgaagagt ggggtctggg ttttcttgtc ccactgggag tttcaagccc
+     2161 caggtagaag tgtgccccgc cttgttactg gaagcaccat ccacacatgg gccatcccag
+     2221 cctgggaccc tgtgtgccag cacttactct tttgtgaagc acatgtgaca atgaaggacg
+     2281 gatgtatcac cttgatgatt atggtgttgg ggtcctgatt ccagcattca cgagtcaggg
+     2341 gaaggtccct gctaaggaca gaccttagga gggcagttgg tccagaaccc acaactgctt
+     2401 tccccatgtt tcctgatcct gccctgggtc tgcagtcgta gttctggaaa cttctcttgg
+     2461 gtccaagact aggaggttcc cctaagatca catggccctg cctcctccca gtcccctcat
+     2521 aaggcatttt cttcccacag gtggaaaagg agggagctgc tctcaggctg cgtgtaagtg
+     2581 atggcggcgg gcgtgtggag gagctcacct actccataat tcctcttgtc ccacatctcc
+     2641 tgcgggctct gaccaggtct ttttttttgt tctaccccag gcagcaacag tgcccagggc
+     2701 tctgatgagt ctctcatcac ttgtaaaggt gagattctgg ggagctgaag tggtcggggg
+     2761 tggggcagag ggaaaaggcc tgggtaatgg ggattctttg attggggcgt tttgagtgtg
+     2821 tggtgggccg ttcagagtgt catcacttac catgactgac ctga
+//

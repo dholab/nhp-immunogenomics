@@ -1,0 +1,538 @@
+LOCUS       NHP00240                2791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-OKO*01:01, OKO locus allele.
+ACCESSION   NHP00240
+VERSION     NHP00240
+DBLINK      INSDC: X54375
+            INSDC: X60692
+            INSDC: KY189932
+KEYWORDS    IPD-MHC; MHC class I; OKO.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Lawlor DA, Warren E, Taylor P, Parham P.
+  TITLE     Gorilla class I major histocompatibility complex alleles: comparison
+            to human and chimpanzee class I.
+  JOURNAL   J Exp Med 174:1491-1509 (1991)
+   PUBMED   1744581
+REFERENCE   2
+  AUTHORS   Watkins DI, Chen ZW, Garber TL, Hughes AL, Letvin NL.
+  TITLE     Segmental exchange between MHC class I genes in a higher primate:
+            recombination in the gorilla between the ancestor of a human
+            non-functional gene and an A locus gene.
+  JOURNAL   Immunogenetics 34:185-191 (1991)
+   PUBMED   1894312
+REFERENCE   3
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-OKO*01:01
+            IPD accession: NHP00240
+            Species prefix: Gogo
+            MHC class: I
+            Previous designations: Gogo-OKO; Gogo-OKO*01
+FEATURES             Location/Qualifiers
+     source          1..2791
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2791
+                     /gene="OKO"
+                     /allele="Gogo-OKO*01:01"
+                     /note="previous designations: Gogo-OKO; Gogo-OKO*01"
+     exon            1..73
+                     /gene="OKO"
+                     /number=1
+     exon            204..473
+                     /gene="OKO"
+                     /number=2
+     exon            718..993
+                     /gene="OKO"
+                     /number=3
+     exon            1632..1907
+                     /gene="OKO"
+                     /number=4
+     exon            2010..2126
+                     /gene="OKO"
+                     /number=5
+     exon            2573..2605
+                     /gene="OKO"
+                     /number=6
+     exon            2748..2791
+                     /gene="OKO"
+                     /number=7
+     intron          74..203
+                     /gene="OKO"
+                     /number=1
+     intron          474..717
+                     /gene="OKO"
+                     /number=2
+     intron          994..1631
+                     /gene="OKO"
+                     /number=3
+     intron          1908..2009
+                     /gene="OKO"
+                     /number=4
+     intron          2127..2572
+                     /gene="OKO"
+                     /number=5
+     intron          2606..2747
+                     /gene="OKO"
+                     /number=6
+     CDS             join(1..73,204..473,718..993,1632..1907,2010..2126,
+                     2573..2605,2748..2791)
+                     /gene="OKO"
+                     /allele="Gogo-OKO*01:01"
+                     /codon_start=1
+                     /product="MHC class I OKO antigen"
+                     /translation="MAVVAPRTLLLLLSGTLALTRTWAGSHSMRYFYTTMSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDDASPREEPRAPWMEREGPEYWDRNTQIYKAQAQTDRVDLET
+                     LRGYYNQSEGGSHTIQRMYGCEVGPDGRFLRGYLQDAYDGKDYITLNEDLRSWTAADMA
+                     AQITQRKWEAAREAERLRAYMEGTCVEWLRRHLENGKETLQRTDPPKTHMTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPGGDGTFQKWAAVVVPSGKEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLLGAVITGAVVAAMMWRKKSSGRK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atggcggtcg tggcgccccg aaccctcctc ctgctactct cggggaccct ggccctgacc
+       61 cggacgtggg cgggtgagtg cggggtcggg agggaaataa cctttgcggg gaggagcgag
+      121 gggccttccc ggagggggcg caggacccgg ggagccgcgc cgggaggagg gtcgggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca ccaccatgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctccgtcggc tacgtggacg atacgcagtt
+      301 cgtgcggttc gacagcgacg acgcgagtcc gagagaggag ccgcgagcgc cgtggatgga
+      361 gcgggagggg ccggagtatt gggaccggaa cacacagatc tacaaggccc aagcacagac
+      421 tgaccgagtg gatctggaga ccctgcgcgg ctactacaac cagagcgagg gcggtgagtg
+      481 accccggccc ggagcgcagg tcacgacccc tccccttccc ccaaggacgg cccgggtcgc
+      541 cccgagtctc cgggtccgag atccaccccg aagccgcggg accccgagac ccttgaccca
+      601 ggagaggccc gggcgccttt actcggtttc gtttttcagt ttaggccaga atccccgcgg
+      661 gttggtcggg gccgggcgtg gttcggggga ctaggctgac cgcggaggcg gggccagggt
+      721 ctcacaccat ccagagaatg tatggctgcg aagtggggcc ggacgggcgc ttcctccgcg
+      781 ggtacctgca ggacgcttac gacggcaagg attacatcac cctgaacgag gacctgcgct
+      841 cttggaccgc ggcagacatg gcggctcaga tcacccagcg caagtgggag gcggcccgtg
+      901 aggcggagcg gttgagagcc tacatggagg gcacgtgcgt ggagtggctc cgcagacacc
+      961 tggagaacgg gaaggagacg ctgcagcgca cgggtaccag gggccacggg gcgcctccct
+     1021 gatcgcctgt agatctcccg ggctgttctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actgtaatat cgccctccct ctggtcctga gggaggggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gaggttccac cctgctctct gacacaatta agggataaaa
+     1201 tctctgaggc aatgacggga agacgcaatt aagggataaa atctctgagg gaatgacggg
+     1261 aagacgatcc ctcgaatact gatcaggggt tccttttgac acctgcagca gccttgggcc
+     1321 ccattacttt tcctctcagg cctcgttctc tgcttcacac tcaatgtgtg tgggggtctg
+     1381 agtccagcac ttctgagtcc ctcagcctcc actcaggtca ggaccagaag tcgctgttcc
+     1441 ctcctcaggg aatagaattt tccacgtagt aggagattat cccaggtgtc tgtgtccagg
+     1501 ctggtgtctg ggttctgtgc tcccttcccc atcccagatg tcctgtccat tctcaagatg
+     1561 gccacatgcg tgctagtgga gtgtcccatg acagatgcaa aatgcctgaa tgttctgact
+     1621 cttcccgtca gaccccccca agacacatat gactcaccac cctgtctctg accatgaggc
+     1681 caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga cctggcagcg
+     1741 ggatggagag gaccagaccc aggacacgga gctcgtggag accaggcctg gaggggatgg
+     1801 gaccttccag aagtgggcgg ctgtggtggt gccttctgga aaggagcaga gatacacctg
+     1861 ccatgtgcag catgagggtc tgcccaagcc cctcaccctg agatggggta aggagagaga
+     1921 tgggggtgtc atgtctctta gggaaagctg gagcctctct ggagaccttt agcagggtca
+     1981 gggcccctca ccttcccctc ttttcccaga gccgtcttcc cagcccacca tccccatcgt
+     2041 gggcatcatt gctggcctgg ttcttcttgg agctgtgatc actggagctg tggtcgctgc
+     2101 tatgatgtgg aggaagaaga gctcaggtgg ggaaggggtg aagggtcggg tctgagattt
+     2161 cttgtctcac tgagggttcc aagccccagg tagaagtgtg ccctgcctcg ttactgggaa
+     2221 gcaccatcca cactcatggg ccgacccagc ctgggctctg tgtgccagca cttactcttt
+     2281 cgtaaaacac ctgtgacaat gaaggacaga tttatcacct tgataactgt ggtgatggga
+     2341 cctgatctca gcagtcagaa gtcacagggg aaggtccctg ctgaggacag acctcaggag
+     2401 ggcggttggt ccaggaccca cacctgtttt cctcatgttt cctaatccca ccctgggtct
+     2461 acagtcacac atttctggaa acttctctgg ggtccaagac ttggaggttc ctctaggacc
+     2521 ttatggccct ggcttctttc tggcatctca caggacattt tcttcccaca gggtagaaaa
+     2581 ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatctcc gagattgttg
+     2641 ggatattgtg tttgggagcc catgggggag ctcacccacc ccacagttcc tcctcttgcc
+     2701 acatctcctc tcggatctga ccagggcctg tttttgttct actccaggca gcgacagtgc
+     2761 ccagggctct gatgtgtctc tcacggcttg a
+//
+LOCUS       NHP09027                2791 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-OKO*01:02, OKO locus allele.
+ACCESSION   NHP09027
+VERSION     NHP09027
+DBLINK      INSDC: KY189933
+            INSDC: LR632927
+KEYWORDS    IPD-MHC; MHC class I; OKO.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-OKO*01:02
+            IPD accession: NHP09027
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2791
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2791
+                     /gene="OKO"
+                     /allele="Gogo-OKO*01:02"
+     exon            1..73
+                     /gene="OKO"
+                     /number=1
+     exon            204..473
+                     /gene="OKO"
+                     /number=2
+     exon            718..993
+                     /gene="OKO"
+                     /number=3
+     exon            1632..1907
+                     /gene="OKO"
+                     /number=4
+     exon            2010..2126
+                     /gene="OKO"
+                     /number=5
+     exon            2573..2605
+                     /gene="OKO"
+                     /number=6
+     exon            2748..2791
+                     /gene="OKO"
+                     /number=7
+     intron          74..203
+                     /gene="OKO"
+                     /number=1
+     intron          474..717
+                     /gene="OKO"
+                     /number=2
+     intron          994..1631
+                     /gene="OKO"
+                     /number=3
+     intron          1908..2009
+                     /gene="OKO"
+                     /number=4
+     intron          2127..2572
+                     /gene="OKO"
+                     /number=5
+     intron          2606..2747
+                     /gene="OKO"
+                     /number=6
+     CDS             join(1..73,204..473,718..993,1632..1907,2010..2126,
+                     2573..2605,2748..2791)
+                     /gene="OKO"
+                     /allele="Gogo-OKO*01:02"
+                     /codon_start=1
+                     /product="MHC class I OKO antigen"
+                     /translation="MAVVAPRTLLLLLSGTLALTRTWAGSHSMRYFYTTMSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDDASPREEPRAPWMEREGPEYWDRNTQIYKAQAQTDRVDLET
+                     LRGYYNQSEGGSHTIQRMYGCEVGPDGRFLRGYLQDAYDGKDYITLNEDLRSWTAADMA
+                     AQITQRKWEAAREAERLRAYMEGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPGGDGTFQKWAAVVVPSGKEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLLGAVITGAVVAAMMWRKKSSGRK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atggcggtcg tggcgccccg aaccctcctc ctgctactct cggggaccct ggccctgacc
+       61 cggacgtggg cgggtgagtg cggggtcggg agggaaataa cctttgcggg gaggagcgag
+      121 gggccttccc ggagggggcg caggacccgg ggagccgcgc cgggaggagg gtcgggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca ccaccatgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctccgtcggc tacgtggacg atacgcagtt
+      301 cgtgcggttc gacagcgacg acgcgagtcc gagagaggag ccgcgagcgc cgtggatgga
+      361 gcgggagggg ccggagtatt gggaccggaa cacacagatc tacaaggccc aagcacagac
+      421 tgaccgagtg gatctggaga ccctgcgcgg ctactacaac cagagcgagg gcggtgagtg
+      481 accccggccc ggagcgcagg tcacgacccc tccccttccc ccaaggacgg cccgggtcgc
+      541 cccgagtctc cgggtccgag atccaccccg aagccgcggg accccgagac ccttgaccca
+      601 ggagaggccc gggcgccttt actcggtttc gtttttcagt ttaggccaga atccccgcgg
+      661 gttggtcggg gccgggcgtg gttcggggga ctaggctgac cgcggaggcg gggccagggt
+      721 ctcacaccat ccagagaatg tatggctgcg aagtggggcc ggacgggcgc ttcctccgcg
+      781 ggtacctgca ggacgcttac gacggcaagg attacatcac cctgaacgag gacctgcgct
+      841 cttggaccgc ggcagacatg gcggctcaga tcacccagcg caagtgggag gcggcccgtg
+      901 aggcggagcg gttgagagcc tacatggagg gcacgtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgca cgggtaccag gggccacggg gcgcctccct
+     1021 gatcgcctgt agatctcccg ggctgttctc ccacaaggag gggagacaaa tgggaccaac
+     1081 actgtaatat cgccctccct ctggtcctga gggaggggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gaggttccac cctgctctct gacacaatta agggataaaa
+     1201 tctctgaggc aatgacggga agacgcaatt aagggataaa atctctgagg gaatgacggg
+     1261 aagacgatcc ctcgaatact gatcaggggt tccttttgac acctgcagca gccttgggcc
+     1321 ccattacttt tcctctcagg cctcgttctc tgcttcacac tcaatgtgtg tgggggtctg
+     1381 agtccagcac ttctgagtcc ctcagcctcc actcaggtca ggaccagaag tcgctgttcc
+     1441 ctcctcaggg aatagaattt tccacgtagt aggagattat cccaggtgtc tgtgtccagg
+     1501 ctggtgtctg ggttctgtgc tcccttcccc atcccagatg tcctgtccat tctcaagatg
+     1561 gccacatgcg tgctagtgga gtgtcccatg acagatgcaa aatgcctgaa tgttctgact
+     1621 cttcccgtca gaccccccca agacacatat gactcaccac cctgtctctg accatgaggc
+     1681 caccctgagg tgctgggccc tgggcttcta ccctgcggag atcacactga cctggcagcg
+     1741 ggatggagag gaccagaccc aggacacgga gctcgtggag accaggcctg gaggggatgg
+     1801 gaccttccag aagtgggcgg ctgtggtggt gccttctgga aaggagcaga gatacacctg
+     1861 ccatgtgcag catgagggtc tgcccaagcc cctcaccctg agatggggta aggagagaga
+     1921 tgggggtgtc atgtctctta gggaaagctg gagcctctct ggagaccttt agcagggtca
+     1981 gggcccctca ccttcccctc ttttcccaga gccgtcttcc cagcccacca tccccatcgt
+     2041 gggcatcatt gctggcctgg ttcttcttgg agctgtgatc actggagctg tggtcgctgc
+     2101 tatgatgtgg aggaagaaga gctcaggtgg ggaaggggtg aagggtcggg tctgagattt
+     2161 cttgtctcac tgagggttcc aagccccagg tagaagtgtg ccctgcctcg ttactgggaa
+     2221 gcaccatcca cactcatggg ccgacccagc ctgggctctg tgtgccagca cttactcttt
+     2281 cgtaaaacac ctgtgacaat gaaggacaga tttatcacct tgataactgt ggtgatggga
+     2341 cctgatctca gcagtcagaa gtcacagggg aaggtccctg ctgaggacag acctcaggag
+     2401 ggcggttggt ccaggaccca cacctgtttt cctcatgttt cctaatccca ccctgggtct
+     2461 acagtcacac atttctggaa acttctctgg ggtccaagac ttggaggttc ctctaggacc
+     2521 ttatggccct ggcttctttc tggcatctca caggacattt tcttcccaca gggtagaaaa
+     2581 ggagggagct actctcaggc tgcaagtaag tatgaaggag gctgatctcc gagattgttg
+     2641 ggatattgtg tttgggagcc catgggggag ctcacccacc ccacagttcc tcctcttgcc
+     2701 acatctcctc tcggatctga ccagggcctg tttttgttct actccaggca gcgacagtgc
+     2761 ccagggctct gatgtgtctc tcacggcttg a
+//
+LOCUS       NHP09028                2789 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-OKO*02:01, OKO locus allele.
+ACCESSION   NHP09028
+VERSION     NHP09028
+DBLINK      INSDC: KY189934
+KEYWORDS    IPD-MHC; MHC class I; OKO.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-OKO*02:01
+            IPD accession: NHP09028
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2789
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2789
+                     /gene="OKO"
+                     /allele="Gogo-OKO*02:01"
+     exon            1..73
+                     /gene="OKO"
+                     /number=1
+     exon            204..473
+                     /gene="OKO"
+                     /number=2
+     exon            717..992
+                     /gene="OKO"
+                     /number=3
+     exon            1631..1906
+                     /gene="OKO"
+                     /number=4
+     exon            2009..2125
+                     /gene="OKO"
+                     /number=5
+     exon            2571..2603
+                     /gene="OKO"
+                     /number=6
+     exon            2746..2789
+                     /gene="OKO"
+                     /number=7
+     intron          74..203
+                     /gene="OKO"
+                     /number=1
+     intron          474..716
+                     /gene="OKO"
+                     /number=2
+     intron          993..1630
+                     /gene="OKO"
+                     /number=3
+     intron          1907..2008
+                     /gene="OKO"
+                     /number=4
+     intron          2126..2570
+                     /gene="OKO"
+                     /number=5
+     intron          2604..2745
+                     /gene="OKO"
+                     /number=6
+     CDS             join(1..73,204..473,717..992,1631..1906,2009..2125,
+                     2571..2603,2746..2789)
+                     /gene="OKO"
+                     /allele="Gogo-OKO*02:01"
+                     /codon_start=1
+                     /product="MHC class I OKO antigen"
+                     /translation="MAVVAPRTLLLLLSGTLALTRTWAGSHSMRYFYTTMSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDDASPREEPRAPWMEREGPEYWDRNTQIYKAQAQTDRVDLET
+                     LRGYYNQSEGGSHTIQMMYGCEVGPDGRFLRGYQQDAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAARWAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHYPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPTVGIIAGLVLLGAVITGAVVAAMMWRKKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atggcggtcg tggcgccccg aaccctcctc ctgctactct cggggaccct ggccctgacc
+       61 cggacgtggg cgggtgagtg cggggtcggg agggaaatga cctttgcggg gaggagcgag
+      121 gggccttccc ggagggggcg caggacccgg ggagtcgcgc agggaggagg gtcgggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca ccaccatgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctccgtcggc tacgtggacg atacgcagtt
+      301 cgtgcggttc gacagcgacg acgcgagtcc gagagaggag ccgcgagcgc cgtggatgga
+      361 gcgggagggg ccggagtatt gggaccggaa cacacagatc tacaaggccc aagcacagac
+      421 tgaccgagtg gatctggaga ccctgcgcgg ctactacaac cagagcgagg gcggtgagtg
+      481 accccggccc ggagcgcagg tcacgacccc tccccttccc ccaaggacgg cccgggtcgc
+      541 cccgagtctc cgggtccgag atccaccccg aagccgcggg accccgagac ccttgaccca
+      601 ggagaggccc gggcgccttt acccggtttc attttcagtt taggccagaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcggggaac agggctgacc gcggaggcgg ggccaggttc
+      721 tcacaccatc cagatgatgt atggctgcga agtggggccg gacgggcgct tcctccgcgg
+      781 gtaccagcag gacgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ttggaccgcg gcggacatgg cggctcagat cacccagcgc aagtgggagg cggcccgttg
+      901 ggcggagcag ttgagagcct acctggaggg cgagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atcgcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gcccttcctc tggtcctgag ggaggggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccacc ctgctctctg acacaattaa gggataaaat
+     1201 ctctgaggca atgacgggaa gacgcaatta agggataaaa tctctgaggg aatgacggga
+     1261 agacgatccc tcgaatactg atcaggggtt ccttttgaca cctgcagcag ccttgggccc
+     1321 cattactttt cctctcaggc cttgttctct gcttcacact caatgtatgt gggggtctga
+     1381 gtccagcact tctgagtccc tcagcctcca ctcaggtcag gaccagaagt cgctgttccc
+     1441 tcctcaggga atagaatttt ccacgtagta ggagattatc ccaggtgtct gtgtccaggc
+     1501 tggtgtctgg gttctgtgct cccttcccca ccccagacgt cctgtccatt ctcaagatgg
+     1561 ccacatgcgt gctggtggag tgtcccatga cagatgcaaa aagcctgaat tttctgactc
+     1621 ttcctgtcag acccccccaa gacacatgtg actcactacc ctgtctctga ccatgaggcc
+     1681 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg
+     1741 gatggggagg accagaccca ggacacggag ctcgtggaga ccaggcctgc aggggatgga
+     1801 accttccaga agtgggcggc tgtggtggtg ccttctggag aggagcagag atacacctgc
+     1861 catgtgcaac atgagggtct gcccaagccc ctcaccctga gatggggtaa ggagagagat
+     1921 gggggtgtca tgtctcttag ggaaagctgg agcctctctg gagaccttta gcagggtcag
+     1981 ggcccctcac cttcccctct tttcccagag ccatcttccc agcccaccat ccccactgtg
+     2041 ggcatcattg ctggcctggt tcttcttgga gctgtgatca ctggagctgt ggtcgctgct
+     2101 atgatgtgga ggaagaagag ctcaggtggg gaaggggtga agggtcgggt ctgagatttc
+     2161 ttgtctcact gagggttcca agccccaggt agaagtgtgc cctgcctcgt tactgggaag
+     2221 caccatccac actcatgggc cgacccagcc tgggctctgt gtgccagcac ttactctttt
+     2281 gtaaaacacc tgtgacaatg aaggacagat ttatcacctt ggtaactgtg gtgatgggac
+     2341 ctgatctcag cagtcagaag tcacaggaga aggcccctgc tgaggacaga cctcaggagg
+     2401 gcggttggtc caggacccac acctgttttc ctcatgtttc ctaatcccac cctgggtctg
+     2461 cagtcacaca tttctggaaa cttctctggg gtccaagact tggaggttcc tctaggacct
+     2521 tatggccctg gtttctttct ggcatctcac aggacatttt cttcccacag atagaaaagg
+     2581 agggagctac tctcaggctg caagtaagta tgaaggaggc tgatccctga gattgttggg
+     2641 atattgtgtt tgggagccca tggaggagct cacccacccc acagttcctc ctcttgccac
+     2701 atctcctctc ggatctgacc agggcctgtt tttgttctac tccaggcagc gacagtgccc
+     2761 agggctctga tgtgtctctc acggcttga
+//
+LOCUS       NHP09029                2789 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Gogo-OKO*02:02, OKO locus allele.
+ACCESSION   NHP09029
+VERSION     NHP09029
+DBLINK      INSDC: KY189935
+KEYWORDS    IPD-MHC; MHC class I; OKO.
+SOURCE      Gorilla gorilla (Gorilla)
+  ORGANISM  Gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1
+  AUTHORS   Hans JB, Bergl RA, Vigilant L.
+  TITLE     Gorilla MHC class I gene and sequence variation in a comparative
+            context.
+  JOURNAL   Immunogenetics 69:303-323 (2017)
+   PUBMED   28332079
+COMMENT     IPD-MHC allele: Gogo-OKO*02:02
+            IPD accession: NHP09029
+            Species prefix: Gogo
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2789
+                     /organism="Gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9593"
+     gene            1..2789
+                     /gene="OKO"
+                     /allele="Gogo-OKO*02:02"
+     exon            1..73
+                     /gene="OKO"
+                     /number=1
+     exon            204..473
+                     /gene="OKO"
+                     /number=2
+     exon            717..992
+                     /gene="OKO"
+                     /number=3
+     exon            1631..1906
+                     /gene="OKO"
+                     /number=4
+     exon            2009..2125
+                     /gene="OKO"
+                     /number=5
+     exon            2571..2603
+                     /gene="OKO"
+                     /number=6
+     exon            2746..2789
+                     /gene="OKO"
+                     /number=7
+     intron          74..203
+                     /gene="OKO"
+                     /number=1
+     intron          474..716
+                     /gene="OKO"
+                     /number=2
+     intron          993..1630
+                     /gene="OKO"
+                     /number=3
+     intron          1907..2008
+                     /gene="OKO"
+                     /number=4
+     intron          2126..2570
+                     /gene="OKO"
+                     /number=5
+     intron          2604..2745
+                     /gene="OKO"
+                     /number=6
+     CDS             join(1..73,204..473,717..992,1631..1906,2009..2125,
+                     2571..2603,2746..2789)
+                     /gene="OKO"
+                     /allele="Gogo-OKO*02:02"
+                     /codon_start=1
+                     /product="MHC class I OKO antigen"
+                     /translation="MAVVAPRTLLLLLSGTLALTRTWAGSHSMRYFYTTMSRPGRGEPR
+                     FISVGYVDDTQFVRFDSDDASPREEPRAPWMEREGPEYWDRNTQICKAQAQTDRVDLET
+                     LRGYYNQSEGGSHTIQMMYGCEVGPDGRFLRGYEQHAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAARWAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHYPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPTVGIIAGLVLLGAVITGAVVAAMMWRKKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atggcggtcg tggcgccccg aaccctcctc ctgctactct cggggaccct ggccctgacc
+       61 cggacgtggg cgggtgagtg cggggtcggg agggaaatga cctttgcggg gaggagcgag
+      121 gggccttccc ggagggggcg caggacccgg ggagtcgcgc agggaggagg gtcgggcggg
+      181 tctcagcccc tcctcgcccc caggctccca ctccatgagg tatttctaca ccaccatgtc
+      241 ccggcccggc cgcggggagc cccgcttcat ctccgtcggc tacgtggacg atacgcagtt
+      301 cgtgcggttc gacagcgacg acgcgagtcc gagagaggag ccgcgagcgc cgtggatgga
+      361 gcgggagggg ccggagtatt gggaccggaa cacacagatc tgcaaggccc aagcacagac
+      421 tgaccgagtg gatctggaga ccctgcgcgg ctactacaac cagagcgagg gcggtgagtg
+      481 accccggccc ggagcgcagg tcacgacccc tccccttccc ccaaggacgg cccgggtcgc
+      541 cccgagtctc cgggtccgag atccaccccg aagccgcggg accccgagac ccttgaccca
+      601 ggagaggccc gggcgccttt acccggtttc attttcagtt taggccagaa tccccgcggg
+      661 ttggtcgggg cggggcgggg ctcggggaac agggctgacc gcggaggcgg ggccaggttc
+      721 tcacaccatc cagatgatgt atggctgcga agtggggccg gacgggcgct tcctccgcgg
+      781 gtatgaacag cacgcctacg acggcaagga ttacatcgcc ctgaacgagg acctgcgctc
+      841 ttggaccgcg gcggacatgg cggctcagat cacccagcgc aagtgggagg cggcccgttg
+      901 ggcggagcag ttgagagcct acctggaggg cgagtgcgtg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacgggg cgcctccctg
+     1021 atcgcctgta gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggaccaaca
+     1081 ctagaatatc gcccttcctc tggtcctgag ggaggggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg aggttccacc ctgctctctg acacaattaa gggataaaat
+     1201 ctctgaggca atgacgggaa gacgcaatta agggataaaa tctctgaggg aatgacggga
+     1261 agacgatccc tcgaatactg atcaggggtt ccttttgaca cctgcagcag ccttgggccc
+     1321 cattactttt cctctcaggc cttgttctct gcttcacact caatgtatgt gggggtctga
+     1381 gtccagcact tctgagtccc tcagcctcca ctcaggtcag gaccagaagt cgctgttccc
+     1441 tcctcaggga atagaatttt ccacgtagta ggagattatc ccaggtgtct gtgtccaggc
+     1501 tggtgtctgg gttctgtgct cccttcccca ccccagacgt cctgtccatt ctcaagatgg
+     1561 ccacatgcgt gctggtggag tgtcccatga cagatgcaaa aagcctgaat tttctgactc
+     1621 ttcctgtcag acccccccaa gacacatgtg actcactacc ctgtctctga ccatgaggcc
+     1681 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg
+     1741 gatggggagg accagaccca ggacacggag ctcgtggaga ccaggcctgc aggggatgga
+     1801 accttccaga agtgggcggc tgtggtggtg ccttctggag aggagcagag atacacctgc
+     1861 catgtgcaac atgagggtct gcccaagccc ctcaccctga gatggggtaa ggagagagat
+     1921 gggggtgtca tgtctcttag ggaaagctgg agcctctctg gagaccttta gcagggtcag
+     1981 ggcccctcac cttcccctct tttcccagag ccatcttccc agcccaccat ccccactgtg
+     2041 ggcatcattg ctggcctggt tcttcttgga gctgtgatca ctggagctgt ggtcgctgct
+     2101 atgatgtgga ggaagaagag ctcaggtggg gaaggggtga agggtcgggt ctgagatttc
+     2161 ttgtctcact gagggttcca agccccaggt agaagtgtgc cctgcctcgt tactgggaag
+     2221 caccatccac actcatgggc cgacccagcc tgggctctgt gtgccagcac ttactctttt
+     2281 gtaaaacacc tgtgacaatg aaggacagat ttatcacctt ggtaactgtg gtgatgggac
+     2341 ctgatctcag cagtcagaag tcacaggaga aggcccctgc tgaggacaga cctcaggagg
+     2401 gcggttggtc caggacccac acctgttttc ctcatgtttc ctaatcccac cctgggtctg
+     2461 cagtcacaca tttctggaaa cttctctggg gtccaagact tggaggttcc tctaggacct
+     2521 tatggccctg gtttctttct ggcatctcac aggacatttt cttcccacag atagaaaagg
+     2581 agggagctac tctcaggctg caagtaagta tgaaggaggc tgatccctga gattgttggg
+     2641 atattgtgtt tgggagccca tggaggagct cacccacccc acagttcctc ctcttgccac
+     2701 atctcctctc ggatctgacc agggcctgtt tttgttctac tccaggcagc gacagtgccc
+     2761 agggctctga tgtgtctctc acggcttga
+//

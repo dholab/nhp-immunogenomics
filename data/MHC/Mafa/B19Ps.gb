@@ -1,0 +1,800 @@
+LOCUS       NHP11300                2482 bp    DNA     linear   PRI 28-MAY-2021
+DEFINITION  Mafa-B19Ps*01:01:01:01, B19Ps locus allele.
+ACCESSION   NHP11300
+VERSION     NHP11300
+DBLINK      INSDC: MW679614
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:01:01:01
+            IPD accession: NHP11300
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2482
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2482
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:01:01:01"
+     exon            1..72
+                     /gene="B19Ps"
+                     /number=1
+     exon            199..458
+                     /gene="B19Ps"
+                     /number=2
+     exon            667..942
+                     /gene="B19Ps"
+                     /number=3
+     exon            1539..1814
+                     /gene="B19Ps"
+                     /number=4
+     exon            1909..2028
+                     /gene="B19Ps"
+                     /number=5
+     exon            2450..2482
+                     /gene="B19Ps"
+                     /number=6
+     intron          73..198
+                     /gene="B19Ps"
+                     /number=1
+     intron          459..666
+                     /gene="B19Ps"
+                     /number=2
+     intron          943..1538
+                     /gene="B19Ps"
+                     /number=3
+     intron          1815..1908
+                     /gene="B19Ps"
+                     /number=4
+     intron          2029..2449
+                     /gene="B19Ps"
+                     /number=5
+     CDS             join(1..72,199..458,667..942,1539..1814,1909..2028,
+                     2450..2482)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggatctt ggcgccccga accctcctcc tgctgctctc gggggcgctg gccctgaccg
+       61 agacctgggc aggtgagtgc gaggtcgaga gggaaacggc ctttgcgggc aggagcgagg
+      121 ggcccgcccg gcggggtgca ggactcgggg agccgcgccg gggggagggt cgggcgggtc
+      181 tcacctcctc ccgcacaggc tcccactcca tgaggtattt cggcacctca gtgtcccggc
+      241 ctggccgccg ggagccccac ttcatctaca tggcctacgt ggacgacacg cagtttgtgc
+      301 gattccacag cgacgcggcc attccgagga tggagccgct gcgccgtggg tggagccgga
+      361 gtgttgggag cgggagacac gaggcgccaa gacccacgca gagaatttcc aagtgaacct
+      421 gcggaccctg ctccgccact acaaccagag tgaggccggt gagtgacccc ggcgcggggc
+      481 gcaggtcacg acccctctcc atccccaacg gagggcccgg gtcgtccccg agtctccagg
+      541 ccgagatcca ccccgaggct gcgggactgg cccagatcct cgaccgggga gagccccagg
+      601 cgccttcacc ctgtttcttt ttcggtttag gcccaaatcc ctgtgggttg gtaggggcgg
+      661 ggccagggcc tcacaccttc caggagatgt acggctgcga cctggggcca gatgggcgct
+      721 tcctccgtgg ggatgaccag ttagcctacg acggcaggga ttacctcgcc ctgaacgagg
+      781 acctgcgctc ctggaccgca gcggacaccg cggctcagat ctcccggcgc aagtgggagg
+      841 tgacccgtga ggcggagagg gtgagagcct acctggagga caggtgcctg gagtggctcc
+      901 gcagatacct ggagaacagg aaggagacgc tgcagcgcgc gggtaccggg ggccacgggg
+      961 cgccttcacc atctcttgta gatctcccag gctggcctcc cgccaggaga ggaggaaaac
+     1021 gggaacaaag ctagaatatc gtcctccctc tgctcctgag tgggaagaat cctcctaggt
+     1081 ttccggatcc tgtaccagag agtgactctg agggcccacc tgctctctgg gacaattaag
+     1141 ggatgaagtc tctgagggaa tggagggaag acaatccctg gaatactgat cagcagtccc
+     1201 ctttgacccc tgcagcagcc ttgggcaccg tgactttatc tctcaggcct tgttctctgc
+     1261 ctcacactca gtgtgtgtgg gagtctgatt ccagctcttc tgagtccctc agcctccact
+     1321 caggtcagga ccagaagtcg ctgttcctcc ctcagagcct aaaactttcc aagtaatagg
+     1381 agcttgttcc aggtacctgt ttccaggctg gtgtctgaat tctgtgctcc cttccccacc
+     1441 ccaggtgtcc tgtccattct caggatggtc acatgggcac tgctggagtg tcccatgaga
+     1501 tgtgcaaagt gcctgaattt tctgactctt cccctcagat cccccaaaga cacatgtgac
+     1561 ccaccacccc gtctctgacc atgaggccac cctgaggtgc tgggccctgg gcttccaccc
+     1621 tgtggagatc acactgacct ggcagcggga tggagaggaa caaactcagg acacggagct
+     1681 tgtggagacc gggcccgcag gggatggaac cttccagaag tggggagctg tggtggtgcc
+     1741 ttctggagag gagcagagat acatgtgcca tgtgcagcat gagggattgc tggagcccct
+     1801 caccccgaga tggggtaggg agggggactg gggggtcatg tctcttctca gggaaagcag
+     1861 gagcccttca gcagggtcag ggcccctcac cttcccttcc tttcccagag cagtcttccc
+     1921 agcccaccat cctcatcgca gccattgttg ctggcctgat tgtccttgga gctgtggtca
+     1981 ctgctgtgat gtggaggaag aaaagctcag gtagggaagg ggagaggagt ggggcctgag
+     2041 ttttcttgtc ccactgggtg tttcaagcct caggtagaag tgtgtcctgc ctcgttactg
+     2101 ggaagtacca tccacacaca caggcctacc tagcctgggc cctgtgtgcc aatacctact
+     2161 ctttatgaag cacctgtgac aatgaaggac agagaatcac cttgatgatc gtggtgatgg
+     2221 agacctgatc ccagcagtca caggtcgtgg gaaggtccct gctgagggca gacctcagga
+     2281 gggcagtttg tccagaaccc acacccactt tcctcatgtt tcctgatcca gccctgggtc
+     2341 tgcagtcaca tttctggaaa cttccctgga gtccaagact aggggtttcc tccaggacct
+     2401 catgaccttg ccttccccca gcccctcaca ggacattttc ttcccccagg tggaaaagga
+     2461 gggagctact cgcaggctgc gt
+//
+LOCUS       NHP12205                2649 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-B19Ps*01:02:01:01, B19Ps locus allele.
+ACCESSION   NHP12205
+VERSION     NHP12205
+DBLINK      INSDC: OR823511
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:02:01:01
+            IPD accession: NHP12205
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2649
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2649
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:02:01:01"
+     exon            1..72
+                     /gene="B19Ps"
+                     /number=1
+     exon            199..457
+                     /gene="B19Ps"
+                     /number=2
+     exon            690..963
+                     /gene="B19Ps"
+                     /number=3
+     exon            1560..1835
+                     /gene="B19Ps"
+                     /number=4
+     exon            1930..2047
+                     /gene="B19Ps"
+                     /number=5
+     exon            2471..2502
+                     /gene="B19Ps"
+                     /number=6
+     exon            2607..2649
+                     /gene="B19Ps"
+                     /number=7
+     intron          73..198
+                     /gene="B19Ps"
+                     /number=1
+     intron          458..689
+                     /gene="B19Ps"
+                     /number=2
+     intron          964..1559
+                     /gene="B19Ps"
+                     /number=3
+     intron          1836..1929
+                     /gene="B19Ps"
+                     /number=4
+     intron          2048..2470
+                     /gene="B19Ps"
+                     /number=5
+     intron          2503..2606
+                     /gene="B19Ps"
+                     /number=6
+     CDS             join(1..72,199..457,690..963,1560..1835,1930..2047,
+                     2471..2502,2607..2649)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggatctt ggcgctccga accctcctcc tgctgctctc gggggcgctg gccctgaccg
+       61 agacctgggc aggtgagtgc gaggtcgaga gggaaacggc ctttgcgggg aggagcgagg
+      121 ggcccgcccg gcggggtgca ggactcgggg agccgcgccg gggggagggt cgggcgggtc
+      181 tcacctcctc ccgcacaggc tcccactcca tgaggtattt cggcacctca gtgtcccggc
+      241 ccggccgcgg ggagccccgc ttcatctaca tggcctacgt ggacgacacg cagttcctgc
+      301 gattcgacag cgacgcggcg attccgagga tggagccgct gcgccgtggg tggagccgga
+      361 gtattgggag cgggagacac gaggcgccaa gacccacaca gagaatttcc aagtgaacct
+      421 gcgaccctgc tccgccacta caaccagagc gaggccggtg agtgaccccg gcgcggggcg
+      481 caggtcacga cccctctcca ttcccaacgg atggcccggg tcgtccccga gtctccaggt
+      541 ccgagatcca ccccgaggct gcgggaccgg cccagatcct cgacccagga gagccccagg
+      601 cgccttcacc cggtttcttt ttcggtttgg gcccaaatcc ctgtgggttg gtcgggtcgg
+      661 ggcggggctg accgcggggg cagggccagg gtctcgccat cccggagttg tacggctgcg
+      721 acctggggcc agatgggcgc ttcctccgcg ggtacgacca gttcgcctac gatggcaagg
+      781 attacctcgc cctgaacgag gacctgcgct cctggaccgc aggggacacc acggctcaga
+      841 tctcccggcg caagtgggag gtgacccgtg aggcggagag ggtgagagcc cacctggagg
+      901 acaggtgcct ggagtggctc cgcagatacc tggagaacag gaaggagacg ctgcagcgcg
+      961 cgggtaccga gggccacggg gcgccttcac catctcttgt agatctccca ggctggcctc
+     1021 ccgccaggag aggaggaaaa cgggaacaaa gctagaatat cgtcctccct ctgctcctga
+     1081 gtgggaagaa tcctcctagg tttccggatc ctgtaccaga gagtgactct gagggcccac
+     1141 ctgctctctg ggacaattaa gggatgaagt ctctgaggga atggagggaa gacaatccct
+     1201 ggaatactga ttagcagtcc cctttgaccc ctgcagcagc cttgggcacc gtgactttat
+     1261 ctctcaggcc ttgttctctg cctcacactc agtgtgtgtg ggagtctgat tccagctctt
+     1321 ctgagtccct cagcctccac tcaggtcagg accagaagtc gctgttcctc cctcagagcc
+     1381 taaaactttc caagtaatag gagcttgttc caggtacctg tttccaggct ggtgtctgaa
+     1441 ttctgtgctc ccttccccac cccaggtgtc ctgtccattc tcaggatggt cacatgggca
+     1501 ctgctggagt gtcccatgag atgtgcaaag tgcctgaatt ttctgactct tcccctcaga
+     1561 tcccccaaag acacatatga cccaccaccc cgtctctgac catgaggcca ccctgaggtg
+     1621 ctgggccctg ggcttccacc ctgtggagat cacactgacc tggcagcagg atggggagga
+     1681 ccaaactcag gacagggagc ttgtggagac caggcccgca ggggatggaa ccttccagaa
+     1741 gtggggagct gtggtggtgc cttctggaga ggagcagaga tacatgtgcc atgtgtagca
+     1801 tgagggattg ctggagcccc tcaccccgag atggggtagg gagggggact ggggggtcat
+     1861 gtctcttctc agggaaagca agagcccttc aacagggtca gggcccctca ccttcccttc
+     1921 ctttcccaga gcagtcttcc cagcccacca tcctcatcgc agccattgtt gctggcctga
+     1981 ttgtccttgg agctgtggtc actgctgtga tgtggaggaa gaaaagctca ggtagggaag
+     2041 gggagaggag gggggcctga gttttcttgt cccactgggt gtttcaagcc tcaggtagaa
+     2101 gtgtgtcctg tctcgttact gggaagtacc atccacacac acaggcctac ctagcctggg
+     2161 ccctgtgtgc caatacctac tctttatgaa gcacctgtga caatgaagga cagagaatca
+     2221 ccttgatgat cgtggtgatg gagacctgat cccagcagtc acaggtcggg ggaaggtccc
+     2281 tgctgagggc agacctcagg agggcagttt gtccagaacc cacacccact ttcctcatgt
+     2341 ttcctgatcc agccctgggt ctgcagtcac atttctggaa acttccctgg agtccaagac
+     2401 taggggtttc ctccaggacc tcatgacctt gccttccccc agcccctcac aggacatttt
+     2461 cttcccccag gtggaaagga gggagctact ctcaggctgc gtgtaagttg gggactggga
+     2521 tgtggaggag ctcacccacc ccctaattcc tcctgtccca cgtctcctgg gggctctgac
+     2581 cagctgctgt ttttgttcta ccccagggag caatggtgcc cagggctctg atgtgtctct
+     2641 cagggattg
+//
+LOCUS       NHP12207                2662 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-B19Ps*01:03:01:01, B19Ps locus allele.
+ACCESSION   NHP12207
+VERSION     NHP12207
+DBLINK      INSDC: OR823512
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:03:01:01
+            IPD accession: NHP12207
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2662
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2662
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:03:01:01"
+     exon            1..73
+                     /gene="B19Ps"
+                     /number=1
+     exon            199..458
+                     /gene="B19Ps"
+                     /number=2
+     exon            690..965
+                     /gene="B19Ps"
+                     /number=3
+     exon            1558..1832
+                     /gene="B19Ps"
+                     /number=4
+     exon            1927..2043
+                     /gene="B19Ps"
+                     /number=5
+     exon            2484..2515
+                     /gene="B19Ps"
+                     /number=6
+     exon            2620..2662
+                     /gene="B19Ps"
+                     /number=7
+     intron          74..198
+                     /gene="B19Ps"
+                     /number=1
+     intron          459..689
+                     /gene="B19Ps"
+                     /number=2
+     intron          966..1557
+                     /gene="B19Ps"
+                     /number=3
+     intron          1833..1926
+                     /gene="B19Ps"
+                     /number=4
+     intron          2044..2483
+                     /gene="B19Ps"
+                     /number=5
+     intron          2516..2619
+                     /gene="B19Ps"
+                     /number=6
+     CDS             join(1..73,199..458,690..965,1558..1832,1927..2043,
+                     2484..2515,2620..2662)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:03:01:01"
+                     /codon_start=3
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 aatgggatct tggcgctccg aaccctcctc ctgctgctct cgggggcgct ggccctgacc
+       61 gagacctggg caggtgagtg cgaggtcgag agggaaacgg ccttgcgggg aggagcgagg
+      121 ggcccgcccg gcggggtgca ggactcgggg agccgcgccg gggggagggt cgggcgggtc
+      181 tcacctcctc ccgcacaggc tcccactcca tgaggtattt cggcacctca gtgtcccggc
+      241 ccggccgcgg ggagccccac ttcatctaca tggcctacgt ggaggacacg cagtttgtgc
+      301 gattcgacag cgacgcggcc attccgagga tggagccgct ggcatcgtgg gtggagccgg
+      361 agtattggga gctggagaca cgaggcgcca agacccacac agagaatttc caagtgaacc
+      421 tgcgaccctg ctccgccact acaacccgag cgaggccggt gagtgacccc ggcgcggggc
+      481 gcaggtcacg acccctctcc attcccaacg gagggcccgg gtcgtccccg agtctccagg
+      541 ccgagatcca ccccgaggct gcgggactgg cccagatcct cgaccgggga gagccccagg
+      601 cgccttcacc ctgtttcttt ttcggtttag gcccaaatcc ctgtgggttg gtcggggcgg
+      661 ggcggggctg accgcggggg cggggccagg gcctcacacc ttccaggaga tgtacggctg
+      721 cgacctgggg ccagatgggc gcttcctcca tggggatgac cagttagcct acgacggcag
+      781 ggattacctc gccctgaacg aggacctgcg ctcctggacc gcagcggaca ccgcggctca
+      841 gatctcccgg cgcaagtggg aggtgaccca tgaggcagag agggtgagag cccacctgga
+      901 ggacaggtgg ctggagtggc tccgcagata cctggagaac gggaaggaga cgctgcagcg
+      961 cgcagggacc gggggctacg aggcgccttc actatctcct gtagatctcc cgggctggcc
+     1021 tcccgccagg agaggaggaa aacgggaaca aagctagaat atcgccctcc ctctgctcct
+     1081 gagtgggaag aatcctccta ggtttccgga tcctgtaccg gagagtgact ctgagggccc
+     1141 acctgctctc tgggacaatt aagggatgaa atctctgagg gaatggtggg aagacaatcc
+     1201 ctggaatact gatcaggggt tctctttgac ccctgcagca gccttggtca ctgtttcttt
+     1261 atctctcagg ccttgttctc tgcctcacag tgtgtgtggg agtctgattc cggctcttct
+     1321 gagtccctca gcctccactc aggtcaggac cagaagtcgc tgttcctccc tcagagccta
+     1381 aaactttcca aataatagga gattgttcca ggtgcctgtt tccaggctgg tgtctgattt
+     1441 ctgtgctccc ttccccaccc caggtgtcct gtccattctc aggatggtca catgggcact
+     1501 gctggagtgt cccatgagag gtgcaaagtg cctgaatttt ctgactcttc ccctcagatc
+     1561 ccccaaagac acacgtgacc caccaccgca tctctgacca tgaggccatc ctgaggtgct
+     1621 gggccctggg cttctaccct gcggagatca cactgacctg gtcgtgggat ggggaggacc
+     1681 aaactcagga cacagagctt gtggagacca ggctggcagg ggacggaaac ttccagaagt
+     1741 gggcagctgt ggcggtgcct tctggagagg agcagagata catgtgcata tgcagcatga
+     1801 gggattgctg gagcccctca cactgagatg gggtaaggag ggggactggg gggtcatgtc
+     1861 tcttctcagg gaaagcagga gcccttctgc agggtcaggg cccctcacct tcccttcctt
+     1921 tctcagagca gtcttcccag cccaccatcc tcatcgcagc catcgttgct ggtctgtttg
+     1981 tccttggagc tgtggtcgct ggagctgtgg tcactgctgt gatatggagg aagaaaagct
+     2041 caggtaggga aggggagagg agtggggcct gagttttctt gtcccactgg gtgtttcaag
+     2101 cctcaggtag aagtgtgtcc tgcctcgtta ctgggaagta ccatccacac acacaggcct
+     2161 acctagcctg ggccctgtgt gccaatacct actctttatg aagcacctgc gacaatgaag
+     2221 gacagagtat caccttgatg attgtggtga tggggacctg atcccagcag tcacaggtcg
+     2281 ggggaaggtc cctgctgagg acagacctca ggagggcagt ttgtccagaa cccacaccca
+     2341 ctttcctcat gtttcccgat ccagccctgg gtctgcagtc acatttctgg aaacttccct
+     2401 ggagtccaag actagtggtt tcctccagga cctcatggcc ctgccctccc cctggcccct
+     2461 cacaggacag tttcttctcc caggtggaaa ggagggagct actctcaggc tgcgtgtaag
+     2521 ttggggactg ggatgtggag gagctcaccc accccataat tcctcctgtc ccacatctcc
+     2581 tgtgggctct gaccagctgc tgtttttgtt ctaccccagg gagcaatggt gcccagggct
+     2641 ctgatgtgtc tctcagggat tg
+//
+LOCUS       NHP12645                2510 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B19Ps*01:04:01:01, B19Ps locus allele.
+ACCESSION   NHP12645
+VERSION     NHP12645
+DBLINK      INSDC: MZ254652
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Hu Q, Huang X, Jin Y, Zhang R, Zhao A, Wang Y, Zhou C, Liu W, Liu X,
+            Li C, Fan G, Zhuo M, Wang X, Ling F, Luo W.
+  TITLE     Long-read assembly of major histocompatibility complex and killer
+            cell immunoglobulin-like receptor genome regions in cynomolgus
+            macaque.
+  JOURNAL   Biol Direct 17:36 (2022)
+   PUBMED   36447238
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:04:01:01
+            IPD accession: NHP12645
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2510
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2510
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:04:01:01"
+     exon            1..72
+                     /gene="B19Ps"
+                     /number=1
+     exon            199..458
+                     /gene="B19Ps"
+                     /number=2
+     exon            696..971
+                     /gene="B19Ps"
+                     /number=3
+     exon            1568..1843
+                     /gene="B19Ps"
+                     /number=4
+     exon            1938..2057
+                     /gene="B19Ps"
+                     /number=5
+     exon            2479..2510
+                     /gene="B19Ps"
+                     /number=6
+     intron          73..198
+                     /gene="B19Ps"
+                     /number=1
+     intron          459..695
+                     /gene="B19Ps"
+                     /number=2
+     intron          972..1567
+                     /gene="B19Ps"
+                     /number=3
+     intron          1844..1937
+                     /gene="B19Ps"
+                     /number=4
+     intron          2058..2478
+                     /gene="B19Ps"
+                     /number=5
+     CDS             join(1..72,199..458,696..971,1568..1843,1938..2057,
+                     2479..2510)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:04:01:01"
+                     /codon_start=0
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggatctt ggcgccccga accctcctcc tgctgctctc gggggcgctg gccctgaccg
+       61 agacctgggc aggtgagtgc gaggtcgaga gggaaacggc ctttgcgggg aggagcgagg
+      121 ggcccgcccg gcggggtgca ggactcgggg agccgcgccg gggggagggt cgtgcgggtc
+      181 tcacctcctc ccgcacaggc tcccactcca tgaggtattt cggcacctca gtgtcccggc
+      241 ctggccgcgg ggagccccgc ttcatctacg tggcctacgt ggacgacacg cagttcctgc
+      301 gattcgacag cgacgcggcg attccgagga tggagccgct gcgccgtggg tggagccgga
+      361 gtattgggag cgggagacac gaggcgccaa gacccacgca gagaatttcc aagtgaacct
+      421 gcggaccctg ctccgccact acaacccgag cgaggccggt gagtgacccc ggcgcggggc
+      481 gcaggtcacg acccctctcc atccccaacg gatggcccgg gtcgtccccg agtcttcagg
+      541 tccgagatcc accccgaggc tgcgggaccg gcccagatcc tcgacccagg agagccccag
+      601 gcgccttcac ccggtttctt tttcggtttg ggcccaaatc cctgtgggtt ggtcggggcg
+      661 gggcggggcg gggctgacct cgggggcggg gccagggcct cacaccttcc aggagttgta
+      721 cggctgcgac ctggggccag atgggtgctt cctccgcggg tacgaccagt tagcctacga
+      781 tggcaaggat tacctcgccc tgaacgagga cctgcgctcc tggaccgcag cggacaccac
+      841 ggctcagatc tcccggcgca agtgggaggt gacccgtgag gcggagaggg tgagagccta
+      901 cctggaggac aggtgcctgg agtggctccg cagataccta gagaacagga aggagacgct
+      961 gcagcgcgcg ggtaccgggg gccacggggc gccttcacca tctcttgtag atctcccagg
+     1021 ctggcctccc gccaggagag gaggaaaatg ggaacaaagc tagaatatcg tcctccctct
+     1081 gctcctgagt gggaagaatc ctcctaggtt tccggatcct gtaccagaga gtgactctga
+     1141 gggcccacct gctctctggg acaattaagg gatgaagtct ctgagggaat ggagggaaga
+     1201 caatccctgg aatactgatc agcagtcccc tttgacccct gcagcagcct tgggcaccgt
+     1261 gactttatct ctcaggcctt gttctctgcc tcacactcag tgtgtgtggg agtctgattc
+     1321 cagctcttct gagtccctca gcctccactc aggtcaggac cagaagtcgc tgttcctccc
+     1381 tcagagccta aaactttcca agtaatagga gcttgttcca ggtacctgtt tccaggctgg
+     1441 tgtctgaatt ctgtgctccc ttccccaccc caggtgtcct gtccattctc aggatggtca
+     1501 catgggcact gctggagtgt cccatgagat gtgcaaagtg cctgaatttt ctgactcttc
+     1561 ccctcagatc ccccaaagac acatatgacc caccaccccg tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttccaccct gtggagatca cactgacctg gcagcaggat
+     1681 ggggaggacc aaactcagga cacggagctt gtggagacca ggcccgcagg ggatggaacc
+     1741 ttccagaagt ggggagctgt ggtggtgcct tctggagagg agcagagata catgtgccat
+     1801 gtgcagcatg agggattgct ggagcccctc accccgagat ggggtaggga gggggactgg
+     1861 ggggtcatgt ctcttctcag ggaaagcagg agcccttcaa cagggtcagg gcccctcacc
+     1921 ttcccttcct ttcccagagc agtcttccca gcccaccatc ctcatcgcag ccattgttgc
+     1981 tggcctgatt gtccttggag ctgtggtcac tgctgtgatg tggaggaaga aaagctcagg
+     2041 tagggaaggg gagaggagtg gggcctgagt tttcttgtcc cactgggtgt ttcaagcctc
+     2101 aggtagaagt gtgtcctgtc tcgttactgg gaattaccat ccacacacac aggcctacct
+     2161 agcctgggcc ctgtgtgcca atacctactc tttatgaagc acctgtgaca atgaaggaca
+     2221 gagaatcacc ttgatgatcg tggtgatgga gacctgatcc cagcagtcac aggtcggggg
+     2281 aaggtccctg ctgagggcag acctcaggag ggcagtttgt ccagaaccca cacccacttt
+     2341 cctcatgttt cctgatccag ccctgggtct gcagtcacat ttctggaaac ttccctggag
+     2401 tccaagacta ggggtttcct ccaggacctc atgaccttgc cttcccccag cccctcacag
+     2461 gacattttct tcccccaggt ggaaaggagg gagctactct caggctgcgt
+//
+LOCUS       NHP12646                2503 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B19Ps*01:05:01:01, B19Ps locus allele.
+ACCESSION   NHP12646
+VERSION     NHP12646
+DBLINK      INSDC: ON755007
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:05:01:01
+            IPD accession: NHP12646
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2503
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2503
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:05:01:01"
+     exon            1..72
+                     /gene="B19Ps"
+                     /number=1
+     exon            199..458
+                     /gene="B19Ps"
+                     /number=2
+     exon            691..964
+                     /gene="B19Ps"
+                     /number=3
+     exon            1561..1836
+                     /gene="B19Ps"
+                     /number=4
+     exon            1931..2050
+                     /gene="B19Ps"
+                     /number=5
+     exon            2472..2503
+                     /gene="B19Ps"
+                     /number=6
+     intron          73..198
+                     /gene="B19Ps"
+                     /number=1
+     intron          459..690
+                     /gene="B19Ps"
+                     /number=2
+     intron          965..1560
+                     /gene="B19Ps"
+                     /number=3
+     intron          1837..1930
+                     /gene="B19Ps"
+                     /number=4
+     intron          2051..2471
+                     /gene="B19Ps"
+                     /number=5
+     CDS             join(1..72,199..458,691..964,1561..1836,1931..2050,
+                     2472..2503)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:05:01:01"
+                     /codon_start=0
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggatctt ggcgccccga accctcctcc tgctgctctc gggggcgctg gccctgaccg
+       61 agacctgggc aggtgagtgc gaggtcggaa gggaaacggc ctttgcgggg aggagcgagg
+      121 ggcccgcccg gcggggtgca ggactcgggg agccgcgccg gggggagggt cgggcgggtc
+      181 tcacctcctc gcgcacaggc tcccactcca tgaggtattt cggcacctca gtgtcccggc
+      241 ccggccgcgg ggagccccac ttcatctacg tggcctacgt ggacgacacg cagttcctgc
+      301 gattcgacag cgacgcggcg attccgagga tggagccgct gcgccgtggg tggagccgga
+      361 gtattgggag cgggagacac gaggcgccaa gacccacgca gagaatttcc aagtgaacct
+      421 gcggaccctg ctccgccact acaaccagag cgaggccggt gagtgacccc ggcgcggggc
+      481 gcaggtcacg acccctctcc atccccaacg gagggcccgg gtcgtccccg agtctccagg
+      541 tccgagatcc accccgaggc tgcgggaccg gcccagatcc tcgacccagg agagccccag
+      601 gcgccttcac ccggtttctt tttcggtttg ggcccaaatc cctgtgggtt ggtcgggtcg
+      661 gggcggggct gaccgcgggg gcagggccag ggtctcgcca tcccggagtt gtacggctgc
+      721 gacctggggc cagatgggcg cttcctccgc gggtacgacc agttcgccta cgatggcaag
+      781 gattacctcg ccctgaacga ggacctgcgc tcctggaccg cagcggacac cacggctcag
+      841 atctcccggc gcaagtggga gatgacccgt gaggcggaga gggtgagagc ccacctggag
+      901 gacaggtgcc tggagtggct ccgcagatac ctggagaaca ggaaggagac gctgcagcgc
+      961 gcgggtaccg ggggccacgg ggcgccttca ccatctcttg tagatctccc aggctggcct
+     1021 cccgccagga gaggaggaaa acgggaacaa agctagaata tcgtcctccc tctgctcctg
+     1081 agtgggaaga atcctcctag gtttccggat cctgtaccag agagtgactc tgagggccca
+     1141 cctgctctct gggacaatta agggatgaag tctctgaggg aatggaggga agacaatccc
+     1201 tggaatactg atcagcagtc ccctttgacc cctgcagcag ccttgggcac cgtgacttta
+     1261 tctctcaggc cttgttctct gcctcacact cagtgtgtgt gggagtctga ttccagctct
+     1321 tctgagtccc tcagcctcca ctcaagtcag gaccagaagt cgctgttcct ccctcagagc
+     1381 ctaaaacttt ccaagtaata ggagcttgtt ccaggtacct gtttccaggc tggtgtctga
+     1441 attctgtgct cccttcccca ccccaggtgt cctgtccatt ctcaggatgg tcacatgggc
+     1501 actgctggag tgtcccatga gatgtgcaaa gtgcctgaat tttctgactc ttcccctcag
+     1561 atcccccaaa gacacatgtg acccaccacc ccgtctctga ccatgaggcc accctgaggt
+     1621 gctgggccct gggcttccac cctgtggaga tcacactgac ctggcagcag gatggggagg
+     1681 accaaactca ggacagggag cttgtggaga ccaggcccgc aggggatgga accttccaga
+     1741 agtggggagc tgtggtggtg ccttctggag aggagcagag atacatgtgc catgtgtagc
+     1801 atgagggatt gctggagccc ctcaccccga gatggggtag ggagggggac tggggggtca
+     1861 tgtctcttct cagggaaagc aagagccctt caacagggtc agggcccctc accttccctt
+     1921 cctttcccag agcagtcttc ccagcccacc atcctcatcg cagccattgt tgctggcctg
+     1981 attgtccttg gagctgtggt cactgctgtg atgtggagga agaaaagctc aggtagggaa
+     2041 ggggagagga gtggggcctg agttttcttg tcccactggg tgtttcaagc ctcaggtaga
+     2101 agtgtgtcct gtctcgttac tgggaagtac catccacaca cacaggccta cctagcctgg
+     2161 gctctgtgtg ccaataccta ctctttatga agcacctgtg acaatgaagg acagagaatc
+     2221 accttgatga tcgtggtgat ggagacctga tcccagcagt cacaggtcgg gggaaggtcc
+     2281 ctgctgaggg cagacctcag gagggcagtt tgtccagaac ccacacccac tttcctcatg
+     2341 tttcctgatc cagccctggg tctgcagtca catttctgga aacttccctg gagtccaaga
+     2401 ctaggggttt cctccaggac ctcatgacct tgccttcccc cagcccctca caggacattt
+     2461 tcttccccca ggtggaaagg agggagctac tctcaggctg cgt
+//
+LOCUS       NHP12647                2671 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B19Ps*01:06:01:01, B19Ps locus allele.
+ACCESSION   NHP12647
+VERSION     NHP12647
+DBLINK      INSDC: OR823510
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:06:01:01
+            IPD accession: NHP12647
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2671
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2671
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:06:01:01"
+     exon            1..72
+                     /gene="B19Ps"
+                     /number=1
+     exon            198..457
+                     /gene="B19Ps"
+                     /number=2
+     exon            699..974
+                     /gene="B19Ps"
+                     /number=3
+     exon            1567..1841
+                     /gene="B19Ps"
+                     /number=4
+     exon            1936..2052
+                     /gene="B19Ps"
+                     /number=5
+     exon            2493..2524
+                     /gene="B19Ps"
+                     /number=6
+     exon            2629..2671
+                     /gene="B19Ps"
+                     /number=7
+     intron          73..197
+                     /gene="B19Ps"
+                     /number=1
+     intron          458..698
+                     /gene="B19Ps"
+                     /number=2
+     intron          975..1566
+                     /gene="B19Ps"
+                     /number=3
+     intron          1842..1935
+                     /gene="B19Ps"
+                     /number=4
+     intron          2053..2492
+                     /gene="B19Ps"
+                     /number=5
+     intron          2525..2628
+                     /gene="B19Ps"
+                     /number=6
+     CDS             join(1..72,198..457,699..974,1567..1841,1936..2052,
+                     2493..2524,2629..2671)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:06:01:01"
+                     /codon_start=0
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggatctt ggcgccccga accctcctcc tgctgctctc gggggcgctg gccctgaccg
+       61 agacctgggc aggtgagtgc gaggtcggga gggaaacggc ctttgcgggg aggagcgagg
+      121 gcccgcccgg cggggtgcag gacttgggga gccgcgccgg ggggagggtc gggcgggtct
+      181 cacctcctcc cgcacaggct cccactccat gaggtatttc ggcacctcag tgtcccggcc
+      241 cggccgcggg gagccccgct tcatctacgt ggcctacgtg gacgacacgc agttcgtgcg
+      301 attggacagc gacgcggcca ttccgaggat ggagccgctg gcatcgtggg tggagccgga
+      361 gtattgggag ctggagacac gaggcgccaa gacccacgca gagaatttcc aagtgaacct
+      421 gcgaccctgc tccgccacta caacccgagc gaggccggtg agtgaccccg gcgcggggcg
+      481 caggtcacga cccctctcca tccccaacgg agggcccggg tcgtccccga gtctccaggc
+      541 cgagatccac cccgaggctg cgggactggc ccagatcctc gaccggggag agccccaggc
+      601 gccttcaccc tgtttctttt tcggtttagg cccaaatccc tgtgggttgg tcggggcggg
+      661 gcggggcggg gcggggctga ccgcgggggc ggggccaggg cctcacacct tccaggagat
+      721 gtacggctgc gacctggggc cagatgggcg cttcctccgt ggggatgacc agttagccta
+      781 cgacggcagg gattacctcg ccctgaacga ggacctgcgc tcctggaccg cagcggacac
+      841 cgcggctcag atctcccggc gcaagtggga ggtgacccat gaggcagaga gggtgagagc
+      901 ccacctggag gacaggtggc tggagtggct ccgcagatac ctggagaacg ggaaggagac
+      961 gctgcagcgc gcggggaccg ggggctacga ggcgccttca ctatctcctg tagatctccc
+     1021 gggctggcct cccgccagga gaggaggaaa acgggaacaa agctagaata tcgccctccc
+     1081 tctgctcctg agtgggaaga atcctcctag gtttccggat cctgtaccgg agagtgactc
+     1141 tgagggccca cctgctctct gggacaatta agggatgaaa tctctgaggg aatggtggga
+     1201 agacaatccc tggaatactg atcaggggtt ctctttgacc cctgcagcag ccttgggcac
+     1261 tgtgacttta tctctcaggc cttgttctct gcctcacagt gtgtgtggga gtctgattcc
+     1321 ggctcttctg agtccctcag cctccactca ggtcaggacc agaagtcgct gttcctccct
+     1381 cagagcctaa aactttccaa ataataggag attgttccag gtgcctgttt ccaggctggt
+     1441 gtctgatttc tgtgctccct tccccacccc aggtgtcctg tctattctca ggatggtcac
+     1501 atgggcactg ctggagtgtc ccatgagagg tgcaaagtgc ctgaattttc tgactcttcc
+     1561 cctcagatcc cccaaagaca cacgtgaccc accaccgcat ctctgaccat gaggccatcc
+     1621 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg tcgtgggatg
+     1681 gggaggacca aactcaggac acagagcttg tggagaccag gctggcaggg gacggaaact
+     1741 tccagaagtg ggcagctgtg gcggtgcctt ctggagagga gcagagatac acgtgcatat
+     1801 gcagcatgag ggattgctgg agcccctcac actgagatgg ggtaaggagg gggactgggg
+     1861 ggtcatgtct cttctcaggg aaagcaggag cccttctgca gggtcagggc ccctcacctt
+     1921 cccttccttt ctcagagcag tcttcccagc ccaccatcct catcgcagcc atcgttgctg
+     1981 gtctgtttgt ccttggagct gtggtcgctg gagctgtggt cactgctgtg atatggagga
+     2041 agaaaagctc aggtagggaa ggggagagga gtggggcctg agttttcttg tcccactggg
+     2101 tgtttcaagc ctcaggtaga agtgtgtcct gcctcgttac tgggaagtac catccacaca
+     2161 cacaggccta cctagcctgg gccctgtgtg ccaataccta ctctttatga agcacctgcg
+     2221 acaatgaagg acagagtatc accttgatga ttgtggtgat ggggacctga tcccagcagt
+     2281 cacaggtcgg gggaaggtcc ctgctgagga cagacctcag gagggcagtt tgtccagaac
+     2341 ccacacccac tttcctcatg tttcccgatc cagccctggg tctgcagtca catttctgga
+     2401 aacttccctg gagtccaaga ctagtggttt cctccaggac ctcatggccc tgccctcccc
+     2461 ctggcccctc acaggacagt ttcttctccc aggtggaaag gagggagcta ctctcaggct
+     2521 gcgtgtaagt tggggactgg gatgtggagg agctcaccca ccccataatt cctcctgtcc
+     2581 cacatctcct gtgggctctg accagctgct gtttttgttc taccccaggg agcaatggtg
+     2641 cccagggctc tgatgtgtct ctcagggatt g
+//
+LOCUS       NHP12648                2650 bp    DNA     linear   PRI 15-APR-2024
+DEFINITION  Mafa-B19Ps*01:07:01:01, B19Ps locus allele.
+ACCESSION   NHP12648
+VERSION     NHP12648
+DBLINK      INSDC: OR823513
+KEYWORDS    IPD-MHC; MHC class I; B19Ps.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-B19Ps*01:07:01:01
+            IPD accession: NHP12648
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2650
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2650
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:07:01:01"
+     exon            1..72
+                     /gene="B19Ps"
+                     /number=1
+     exon            199..458
+                     /gene="B19Ps"
+                     /number=2
+     exon            691..964
+                     /gene="B19Ps"
+                     /number=3
+     exon            1561..1836
+                     /gene="B19Ps"
+                     /number=4
+     exon            1931..2048
+                     /gene="B19Ps"
+                     /number=5
+     exon            2472..2503
+                     /gene="B19Ps"
+                     /number=6
+     exon            2608..2650
+                     /gene="B19Ps"
+                     /number=7
+     intron          73..198
+                     /gene="B19Ps"
+                     /number=1
+     intron          459..690
+                     /gene="B19Ps"
+                     /number=2
+     intron          965..1560
+                     /gene="B19Ps"
+                     /number=3
+     intron          1837..1930
+                     /gene="B19Ps"
+                     /number=4
+     intron          2049..2471
+                     /gene="B19Ps"
+                     /number=5
+     intron          2504..2607
+                     /gene="B19Ps"
+                     /number=6
+     CDS             join(1..72,199..458,691..964,1561..1836,1931..2048,
+                     2472..2503,2608..2650)
+                     /gene="B19Ps"
+                     /allele="Mafa-B19Ps*01:07:01:01"
+                     /codon_start=0
+                     /product="MHC class I B19Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggatctt ggcgccccga accctcctcc tgctgctctc gggggcgctg gccctgaccg
+       61 agacctgggc aggtgagtgc gaggtcggaa gggaaacggc ctttgcgggg aggagcgagg
+      121 ggcccgcccg gcggggtgca ggactcgggg agccgcgccg gggggagggt cgggcgggtc
+      181 tcacctcctc ccgcacaggc tcccactcca tgaggtattt cggcacctca gtgtcccagc
+      241 ccggccgcgg ggagccccac ttcatctacg tggcctacgt ggacgacacg cagttcctgc
+      301 gattcgacag cgacgcggcg attccgagga tggagccgct gcgccgtggg tggagccgga
+      361 gtattgggag cgggagacac gaggcgccaa gacccacgca gagaatttcc aagtgaacct
+      421 gcggaccctg ctccgccact acaaccagag cgaggccggt gagtgacccc ggcgcggggc
+      481 gcaggtcacg acccctctcc atccccaacg gagggcccgg gtcgtccccg agtctccagg
+      541 tccgagatcc accccgaggc tgcgggaccg gcccagatcc tcgacccagg agagccccag
+      601 gcgccttcac ccggtttctt tttcggtttg ggcccaaatc cctgtgggtt ggtcgggtcg
+      661 gggcggggct gaccgcgggg gcagggccag ggtctcgcca tcccggagtt gtacggctgc
+      721 gacctggggc cagatgggcg cttcctccgc gggtacgacc agttcgccta cgatggcaag
+      781 gattacctcg ccctgaacga ggacctgcgc tcctggaccg caggggacac cacggctcag
+      841 atctcccggc gcaagtggga ggtgacccgt gaggcggaga gggtgagagc ccacctggag
+      901 gacaggtgcc tggagtggct ccgcagatac ctggagaaca ggaaggagac gctgcagcgc
+      961 gcgggtaccg agggccacgg ggcgccttca ccatctcttg tagatctccc aggctggcct
+     1021 cccgccagga gaggaggaaa acgggaacaa agctagaata tcgtcctccc tctgctcctg
+     1081 agtgggaaga atcctcctag gtttccggat cctgtaccag agagtgactc tgagggccca
+     1141 cctgctctct gggacaatta agggatgaag tctctgaggg aatggaggga agacaatccc
+     1201 tggaatactg attagcagtc ccctttgacc cctgcagcag ccttgggcac cgtgacttta
+     1261 tctctcaggc cttgttctct gcctcacact cagtgtgtgt gggagtctga ttccagctct
+     1321 tctgagtccc tcagcctcca ctcaggtcag gaccagaagt cgctgttcct ccctcagagc
+     1381 ctaaaacttt ccaagtaata ggagcttgtt ccaggtacct gtttccaggc tggtgtctga
+     1441 attctgtgct cccttcccca ccccaggtgt cctgtccatt ctcaggatgg tcacatgggc
+     1501 actgctggag tgtcccatga gatgtgcaaa gtgcctgaat tttctgactc ttcccctcag
+     1561 atcccccaaa gacacatatg acccaccacc ccgtctctga ccatgaggcc accctgaggt
+     1621 gctgggccct gggcttccac cctgtggaga tcacactgac ctggcagcag gatggggagg
+     1681 accaaactca ggacagggag cttgtggaga ccaggcccgc aggggatgga accttccaga
+     1741 agtggggagc tgtggtggtg ccttctggag aggagcagag atacatgtgc catgtgtagc
+     1801 atgagggatt gctggagccc ctcaccccga gatggggtag ggagggggac tggggggtca
+     1861 tgtctcttct cagggaaagc aagagccctt caacagggtc agggcccctc accttccctt
+     1921 cctttcccag agcagtcttc ccagcccacc atcctcatcg cagccattgt tgctggcctg
+     1981 attgtccttg gagctgtggt cactgctgtg atgtggagga agaaaagctc aggtagggaa
+     2041 ggggagagga ggggggcctg agttttcttg tcccactggg tgtttcaagc ctcaggtaga
+     2101 agtgtgtcct gtctcgttac tgggaagtac catccacaca cacaggccta cctagcctgg
+     2161 gccctgtgtg ccaataccta ctctttatga agcacctgtg acaatgaagg acagagaatc
+     2221 accttgatga tcgtggtgat ggagacctga tcccagcagt cacaggtcgg gggaaggtcc
+     2281 ctgctgaggg cagacctcag gagggcagtt tgtccagaac ccacacccac tttcctcatg
+     2341 tttcctgatc cagccctggg tctgcagtca catttctgga aacttccctg gagtccaaga
+     2401 ctaggggttt cctccaggac ctcatgacct tgccttcccc cagcccctca caggacattt
+     2461 tcttccccca ggtggaaagg agggagctac tctcaggctg cgtgtaagtt ggggactggg
+     2521 atgtggagga gctcacccac cccctaattc ctcctgtccc acgtctcctg ggggctctga
+     2581 ccagctgctg tttttgttct accccaagga gcaatggtgc ccagggctct gatgtgtctc
+     2641 tcagggattg
+//

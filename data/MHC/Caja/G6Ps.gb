@@ -1,0 +1,122 @@
+LOCUS       NHP05250                2859 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Caja-G6Ps*01, G6Ps locus allele.
+ACCESSION   NHP05250
+VERSION     NHP05250
+DBLINK      INSDC: AB845726
+KEYWORDS    IPD-MHC; MHC class I; G6Ps.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Kono A, Brameier M, Roos C, Suzuki S, Shigenari A, Kametani Y,
+            Kitaura K, Matsutani T, Suzuki R, Inoko H, Walter L, Shiina T.
+  TITLE     Genomic sequence analysis of the MHC class I G/F segment in common
+            marmoset (Callithrix jacchus).
+  JOURNAL   J Immunol 192:3239-3246 (2014)
+   PUBMED   24600031
+COMMENT     IPD-MHC allele: Caja-G6Ps*01
+            IPD accession: NHP05250
+            Species prefix: Caja
+            MHC class: I
+            Previous designations: Caja-G6Ps
+FEATURES             Location/Qualifiers
+     source          1..2859
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..2859
+                     /gene="G6Ps"
+                     /allele="Caja-G6Ps*01"
+                     /note="previous designations: Caja-G6Ps"
+     exon            1..69
+                     /gene="G6Ps"
+                     /number=1
+     exon            203..470
+                     /gene="G6Ps"
+                     /number=2
+     exon            689..955
+                     /gene="G6Ps"
+                     /number=3
+     exon            1572..1835
+                     /gene="G6Ps"
+                     /number=4
+     exon            1937..2055
+                     /gene="G6Ps"
+                     /number=5
+     exon            2855..2859
+                     /gene="G6Ps"
+                     /number=6
+     intron          70..202
+                     /gene="G6Ps"
+                     /number=1
+     intron          471..688
+                     /gene="G6Ps"
+                     /number=2
+     intron          956..1571
+                     /gene="G6Ps"
+                     /number=3
+     intron          1836..1936
+                     /gene="G6Ps"
+                     /number=4
+     intron          2056..2854
+                     /gene="G6Ps"
+                     /number=5
+     CDS             join(1..69,203..470,689..955,1572..1835,1937..2055,
+                     2855..2859)
+                     /gene="G6Ps"
+                     /allele="Caja-G6Ps*01"
+                     /codon_start=1
+                     /product="MHC class I G6Ps antigen"
+                     /translation="X"
+ORIGIN
+        1 gcggtcatgg agccccgaac cctcctcctg ctgctctcgg gggccctgct cctgaccgag
+       61 acgtgggcga gtaaatgcgg ggtcaagaga tagacggcct ctgccaggag aggggccggg
+      121 cgctcgccag gcgagagcgc aggacccggg gagccgagtc gggaggaggg ccgggcgagt
+      181 ctcagcccct cctcgccccc aggctcccac tccttgaggt atttggacac ttccgtgtcc
+      241 cggcccggcc gtggggagcc ccgcttcatc tccgagggct acgtggacga cacgcagttc
+      301 gtacggttcg acagtgacgc cgcgagtgcg agagaggagc cgcgggcgcc atgggttgag
+      361 caggaggggc cggagtattg ggaactgcag acacagatct ccaaggcgcc cgcacagact
+      421 ctgcgatcga acctgcggac cctgcgcggc tattaaaacc agagcgaggc aggtgagtga
+      481 tccctcccca tccccgacgg agagtccagg tccccctgag tctccaggtc caagatccac
+      541 cccgaggctg aggctcccga ccaaaccccc aacccgggag agccgcaggc gcctctaccc
+      601 ggtttcattt tcagtttagg ccaaaatccc cgcgggttgg gctggggcgg ggctcggtgg
+      661 gcggggatga ctgcgggggc ggggccaggg tctcactgcc acaggatgta tggctgcgac
+      721 ctggggcctg cctgacgcct actcagcagg tataaccagt acgcctatga tggcaaggac
+      781 tacatcggcc tgaacgagga cctgcgctcc tggacggccg cggacgtggg ggctcagatc
+      841 acccagcgca agtgggaggc ggccaatgag gctgagagga tgagagccta cctggaggga
+      901 aggtgcctgg agtcgctcct cagatacctg gagaacggga aggaggcgcg cgcgggtacc
+      961 aggggccaca ggggctatgg ggcacctccc tcatctcctg tagacctccc aggctggcct
+     1021 cacacaagga ggggaggaaa tgggaccaac actagaatat cgccgtccct cctgtcctga
+     1081 gggagaggaa tcctcctggg tttccagatc ctataccaga gagtgactct gagggcctgc
+     1141 cctgctctct gatgcaatta agggataaag tctctaaggg aaaggagggg aagataatcc
+     1201 ctgaagtact gatcaggggt tacctttgac ccccacagca gccttggaca ctgtgacttt
+     1261 atatctcagg cctttatatc tcagtcctct gcctcacact caatgtgtgt tggggtctga
+     1321 ctccagctcc tctgagtccc ttggcctcca ttcaggtcag gaccagaagt ccctgctctc
+     1381 ccacttagag actagaattt tccaaggaat aggagattac cccaggtgcc tgtatccagg
+     1441 ctggtgtctg ggttctgtgc tcccttcccc accccaggtg tcctgtccat tgtcagggtg
+     1501 gtcatgtgga cgctcctggg gtgtcccatg agagatgcaa agtgcctgaa gtttctgact
+     1561 attcccttca gagcccccca agacacacgt gacccaccac cccgtctctg accatgaggc
+     1621 caccctgagg tgctgggccc tgggcctgcg gagatcacac tgaccagcgg gatggggaag
+     1681 accaaactca ggacatggag cttctggaga ccaggcctgc gggggacaga accttccaga
+     1741 agtgggcggc tgtgttggtg ccttctggag aggagcagag atatgcattt cttgtgtagc
+     1801 acgaggggct gcccgagctc atcaccctga gatggggtaa ggagtgggtg tcatgtctct
+     1861 tagggaaagc aggagcccat ctggagacct ttagcagggt tggagctggg gctgggagtc
+     1921 agggaccctc acctttacct cttttcccag agcccaccat tcccatcgtg ggcatcattg
+     1981 ctgccctggc tgtccttgga gctgtagtca ctggagctgt ggtcgccgct gtgatgtgga
+     2041 ggaagaaaag ctcaggtgag gaaggggttg gggtggggtc tgagttttct tgtcctactg
+     2101 aggttactgg gaaacaacat ccacactcat gggccgaccc agcgtggacc cagtgtgcca
+     2161 gcacttactc ttgtaaaaca cctgtgacaa tgaaggacaa atgcatcacc ttgatgactg
+     2221 tggcaatggg gacctagtcc cagcagtcac aggtcacaga gcaaggtccc ttctgaggac
+     2281 agacctcagg agggcagtag gtctaggacc cacatctact ttcttcatgt ttcctgatcc
+     2341 tgccctgggt ctgtagtcac atttctggaa acttctctac agtccaagag taggaggttc
+     2401 ctctaggaca tcatggccct gccttctttc tggcctctca caggacattt tcttcccaca
+     2461 gatagcaaag gcgggagcta ccatccagct gcaagtaagt gtgaaggaag ctgatccctg
+     2521 agatttcaca ggacattttc ttccccacag atggagctac tctcaggctg caggtaagtg
+     2581 tgaaggaggc tgatccctga gattgttggg atatagtggt ggggagccca tggaggagct
+     2641 cacccagccc acaattcctc ctctaggaca tctcttgtgg gctctgacaa ggtcctgttt
+     2701 ttgttgtacc ccaggcagcg acagtcccca gggctctgat gtgtctctca tggcttgtaa
+     2761 aggtgagacc ctggagcagg aggctgatgt gtgtaagttg ttggggggga acaatgggaa
+     2821 cagctgtgtt atggggtttc tttgacttgg atgtattga
+//

@@ -1,0 +1,2292 @@
+LOCUS       NHP11283                3528 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:01:01:01, V locus allele.
+ACCESSION   NHP11283
+VERSION     NHP11283
+DBLINK      INSDC: MW679641
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-V*01:01:01:01
+            IPD accession: NHP11283
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-V*01:01
+FEATURES             Location/Qualifiers
+     source          1..3528
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3528
+                     /gene="V"
+                     /allele="Mafa-V*01:01:01:01"
+                     /note="previous designations: Mafa-V*01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..472
+                     /gene="V"
+                     /number=2
+     exon            717..911
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          473..716
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..472,717..911)
+                     /gene="V"
+                     /allele="Mafa-V*01:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc tgctgctctg gggagccctg gtcctgaccc
+       61 agacctgcgc gggtgagtgc ggggtccgga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgcccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt ggacagcgac gccgcgagtc ctaggtggag ccgtgggcgc cgtggatgga
+      361 gcaggagggg cagcaatatt gggaggagaa gacagggacc gccaagacca acgcacagtt
+      421 taccgaatga acctgcggac cctgagcggc tactagaacc agagcgaggc ctgtgagtga
+      481 caccggcccg gggcgcaggt cactacccct gcacatcctc cacggacagt ccgggtctcc
+      541 ccgagtcttc gggtccgaga tctaccccga ggccgcggga tccggagacc cttgaccggg
+      601 gagaagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat cccgcaggtt
+      661 ggtcggggtt gggcgtgggg ctcggtgggc cgggctgacc gcgggcgcag ggccagggtc
+      721 tcacaccatc tagaggatgc ctggctgcga caaggggtcc gaggggcgcc ttctccggga
+      781 gtatcaccag ctcgcctaag aaggcaggga ttacatcgct ctgaaccagg acctgtgctc
+      841 cttgaccgcc acagacacgg cggctcagat cacccagctc aagtgggaag ctgccggcga
+      901 ggcggaggtt cgagacattg agacagagcg cttggtacag gagtagcggg gtcagggcga
+      961 agtcccagag ccccaggcat ggctctcaga atctcaggct cagaaagcgg tgtgtggatt
+     1021 ggggaggccc agcgttgggg attccacatc tccgaaaggt ttctcttctt cctgtctcaa
+     1081 cctgcgtctg gtccttcttc ctggatactc accgggcggc cccagttctc actcccattg
+     1141 agtgtcgggt tcctagagaa gtcaatcaat gtagccacgg tcccggttct agagttccca
+     1201 cgcactcacc aggactccga ttcttccccg tcgccaagga tcctcacagg ggtaggtacc
+     1261 tattcgatgt ggtgtgtttt tcctctctac tctcagaccc tcagccagta tcactatagg
+     1321 cattcctgat ccactggctc agaatttcag tacattatct gcccgcggga cacacctcag
+     1381 agggaagggg atgaagcgtg ggccatgacc aaggcatctc ctggtcatat caccacctgc
+     1441 acctcccagg ggctgccagc cacacagagt catggacagg tctccacaga cacaacttag
+     1501 taccagcttg gatgaagccc tctgaggaat gggagccatc tttcaggatg ttgtgcgcgt
+     1561 attaaatcaa agacgtccct atggtgctgt gtttacagaa ggaagaattc gtgggtccaa
+     1621 aaaccaagaa gttgaaacag gtgtggctcc atgtctcatc ccttctattc accctcaggg
+     1681 tgattttgca cttctcctct ccaatatcgg ggctctgcag gggaggaggt cctggtttcc
+     1741 caaagggggc accctggcaa ggagacaaat gagagtccat ggaactacac gttatggttg
+     1801 cccccaggga tgtttgaata gtatgtgtcc agacacaagc aggtgagaag aggaggaggc
+     1861 agggctgcta tcacacaagg aaggcagaag tgtgtgtgga aataagagat ccacttggag
+     1921 gccttatggt tccccttgtc ctgttgtaaa tgtgaacaga atcatccagc aacgcagcct
+     1981 gagagggttt gatattcaag agagcagaac cctcaggaag gaaggactga gtgatacacc
+     2041 tagataatgt cccaaggctc cgctcctgcg ctctgacatc ctcagaaggg ttagtgcaga
+     2101 agccctgctt cccatgggct gttcccagcc agtgaccggt cacagcaggc gcactaagac
+     2161 aggccattac tgggagacac gggactcctc tgatggccaa ctgtggctgg aggactcctc
+     2221 catggccttg ctcaaccctc cttagattgc ctgtgctcta gaatgtgtcg aacaaacctt
+     2281 ctctccttct gtccagcact gggtgtcaca cttgcattgt ggtctgctgc cttttcctgg
+     2341 gatttctggc tcgcttcgca tattccctta caggtgtatc ccctcataaa atgccgcaga
+     2401 cttgaagctc atcttggcat ctgctccttg aaggacttag actaaaaatt atttccatct
+     2461 gcacatcaat aactcttact tacttcaact tgtaaaatcc ttctcttcgt ccaacttctg
+     2521 ccatccccat ataatctatt ttacttgtgt ttgtagtatc tctttgagtt aacggatatt
+     2581 tgttctatta agctattaaa ttttgaggta gtttgtgaca cagcacttga taaccattaa
+     2641 ggcttccttt tttttttttt tttttttttt tcttgagatg gagtctcact ctgtcactca
+     2701 ggctggactt cagtggctca atctcagctc actgcaagct ctgcctcccg ggttcacgcc
+     2761 tttctcctgc ctcctgagta gctgggacta caggcacctg ccaccacgcc cggctaattt
+     2821 tttgtatttt tagtagagac agggtttcac catgttagcc aggattgtct cgatcttctg
+     2881 acctcgtgat ccgcccgtct cggcctccca aagtgctggg attacaggcg tgagccattg
+     2941 cgcctggcca aggctttctt aagtttccat tattccatgg atattatcta cacatctttt
+     3001 aatactttgc attttaataa cattagccat atttgccgtt tccaaccctt tcctcctatt
+     3061 cttttttgaa catttttatt ttgtctttct ctgtccttcc ttccttattt cctcctttcc
+     3121 tccctcacag ttttctccct ccctctattt ttttcataaa acctaagtgt tcaggctaaa
+     3181 aggaagcatc acttgaactt aatgccaaaa gtataatgcc ataatttata atataaaagt
+     3241 aaagaaaagg aagttattaa ttgaatatga agaaaatgtc tagggtgatt ctgcagccaa
+     3301 gacagtggct tttaatattt aatctcctac ttcaagtgaa tgttttcaga aacacgagca
+     3361 acatgagctc tttcccattc ttggtacaag cacttgagaa atcaaattag ctttacctag
+     3421 tctgattaat gtccatacac cgtataatcc caccatctgc ctcctgatca tacactctgg
+     3481 ggacattctt ggctatgtgt ccaggagaca tgtaaagatg gaatgtct
+//
+LOCUS       NHP11284                3504 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:01:01:01, V locus allele.
+ACCESSION   NHP11284
+VERSION     NHP11284
+DBLINK      INSDC: MW679642
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-V*02:01:01:01
+            IPD accession: NHP11284
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-V*01:02
+FEATURES             Location/Qualifiers
+     source          1..3504
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3504
+                     /gene="V"
+                     /allele="Mafa-V*02:01:01:01"
+                     /note="previous designations: Mafa-V*01:02"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*02:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ctctgtgggg agtagctagg
+      121 ggtccgcccc gcgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggaggct
+      181 ctcagcgccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcgggatgc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcaagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 ttaccgaatg tacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaccggccg ggggcgcagg tcactacccc tccacatccc ccacggacag tccgggtctc
+      541 cctgagtctt cgggtccgag atccactccg aggccgcggg acccggagac ccttgaccgg
+      601 ggagaagcct aggagccgtt acccggtttc attttcagtt taggccaaaa tccccgcagg
+      661 ttggtcggag tgggggttgg gcttggtggg cggggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaagggtc cgaggggcgc cttctctggg
+      781 agtatcacca gctcgcctac gaaggcaggg attacatcgc ctggaaccag ggcctgtgct
+      841 ccttgaccgc cgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcgaaacatt gagacagagc gcttggcaca ggagtagcgg ggtcagggcg
+      961 aagtcccaga gccccaggcg tggctctcag aatctcaggc tcagaaagcg tgtgtggact
+     1021 ggggaggccc agcgttgggg attccccatc tccgaagggt ttctcttctc cctctctcaa
+     1081 cctgcgtctg gtccttcttc ctggatactc accgggcggc cccagttctc actcctattg
+     1141 actgtcgggt ttctagagaa gtcaatcaat gtagccacgg tcccggttct agagttccca
+     1201 cgcacccacc aggattccga ttctccccag tcgccaagga tcctcacagg ggtaggtacc
+     1261 tattcgatgt ggtgtgtttt tcctctctac tctcagaccc tcagccagta tcactattgg
+     1321 cattcctgat ccactggctc agaatttcag tacattatct gcccgcggga cacacctcag
+     1381 agggaaaggg atgaagcgtg ggccatgacc aaggcatccc ctggtcatat caccacctgc
+     1441 acctcccggg gctgccagcc acaccgagtc atggacaggt ctccacagac acaacttagt
+     1501 accagcttgg atgaagccct ctgaggaacg gggaccagct ttcaggatgt gctgcgcgta
+     1561 ttaaatcaga gacgtctgta tggtgctgtg tttacagaag gaagaattcg tgggtccaaa
+     1621 aaccaagaag ttgaaacagg tgtggctcca tgtctcatcc cttctattca ccctcagggt
+     1681 gattttgcac ttctcctctc caatatcggg gctctgcagg ggaggaggtc ctggtttccc
+     1741 aaagggggca ccctggcaag gagacaaatg agagtccatg gaactacaca ttatgggtgc
+     1801 ccccagggat gtttgaatag tatgtgtcca gacacaagca ggtgagaaga ggaggaggca
+     1861 gggctgctat cacataagga aggcagaagt gtgtgtggaa ataagagatc cacttggagg
+     1921 ccttatggtt ccccttgtcc tgttgtaaat gtgaacagaa tcatccagca acgcagcctg
+     1981 agagtgtttg atattcaaga gcccagaacc ctcaggaagg aaggattgag tgatacacct
+     2041 agataatgtc ccaaggctcc gctcctgtgc tctgacatcc tcagaagccc tgcttcccat
+     2101 gggttgttcc cagccagtga ccggtcacag caggcgcact aagacaggcc attactggga
+     2161 gacacgggat tcctctgatg gccaactgtg gctggaggac tcctccatgg ccttgctcaa
+     2221 ccctccttag attgcctgtg ctctaggatg tgtcgaacaa accttctctc cttctgtcca
+     2281 gcacttgggg gtcacacttg cattgtggtg tgccgccttt tccagggatt tctggctcgc
+     2341 ttcgcatatt cccttacagg tgtgtcccct cataaaatgc cacagacttg aagctcatct
+     2401 tggcatctgc tccttgaagg acttagacta aaaattattt ccatctgcac atcaataact
+     2461 cttacttact tcaacttgta aaatccttct cttcgtccaa cttctgccac ccccatagaa
+     2521 tctattttac ttgtgtttgt agtatctctt tgagttaacg gatacttgtt ctattaagct
+     2581 attaaatttt gaggtagttt gtgacacagc acttgataac cattaaggct tccttttttt
+     2641 ttttttttct tgagatggag tctcactctg tcactcaggc tggagttcag tggctcaatc
+     2701 tcagctcact gcaagctccg cctcccgggt tcacgccatt ctcctgcctc ctgagtagct
+     2761 ggcactacag gcacctgcca ccacgcccgg ctaatttttt gtatttttag tagagacagg
+     2821 gtttcaccat gttagccagg attgtctcga tctcctgacc tcgtgatctg cccgtctcgg
+     2881 cctcccaaag tgctgggatt acaggcgtga gccattgcgc ctggccaagg ctttcttaag
+     2941 tttccattat tccgtggata ttatctacac atcttttaat acctttcatt ttaataacat
+     3001 tagccatatt taccgtttcc aaccctttcc tcctattctt ttttgaacat ttttattttg
+     3061 tctttctctg tccttccttc cttctttcct cctttcctcc ctcagagctt tctccctccc
+     3121 tctatttttt tcataaaacc taagtgttca ggctaaaagg aagcatcact tgaacttaat
+     3181 gccaaaagta taatgccata atttataata taaaagtaaa gaaaaggaag ttattaattg
+     3241 aatatgaaga aaatgtctag ggtgattctg cagccaagac agtggctttt aatatttaat
+     3301 ctcctacttc aagtgaatgt tttcagaaac acgagcaaca tgagctcttt cccattcttg
+     3361 gtacaagcac ttgagaaatc aaattagcct tatctagtct gattaatgtc catacaccgt
+     3421 ataatcccac cgtctgcctc ctgatcatac actctgggga cattcttggc tatgtgtcca
+     3481 ggagacatgt aaaatggaat gtct
+//
+LOCUS       NHP11285                3518 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:02:01:01, V locus allele.
+ACCESSION   NHP11285
+VERSION     NHP11285
+DBLINK      INSDC: MW679643
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-V*02:02:01:01
+            IPD accession: NHP11285
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-V*01:03
+FEATURES             Location/Qualifiers
+     source          1..3518
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3518
+                     /gene="V"
+                     /allele="Mafa-V*02:02:01:01"
+                     /note="previous designations: Mafa-V*01:03"
+     exon            1..71
+                     /gene="V"
+                     /number=1
+     exon            203..473
+                     /gene="V"
+                     /number=2
+     exon            717..911
+                     /gene="V"
+                     /number=3
+     intron          72..202
+                     /gene="V"
+                     /number=1
+     intron          474..716
+                     /gene="V"
+                     /number=2
+     CDS             join(1..71,203..473,717..911)
+                     /gene="V"
+                     /allele="Mafa-V*02:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 aacctgtgcg ggtgagtgcg gggtcgggag ggaaacagct tctttgggga gtagctaggg
+      121 gtccgcccgg cgggggcgca ggaacccggt tgcggtgccg ggaggagggt cgggaggctc
+      181 tcagcgcccc cctcgtccac aggcttccac tccttgaggt atttccacac cgccacgtcc
+      241 cggcccggcc gcgggatgcc cccgcttcat ctccatgggc taagtggacg acacacagtt
+      301 cgtgcggtta gacagcgacg ccgcaagtcc taggatggag ccgcgggcgc cgtggatgga
+      361 gcaaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaacggcgg gggcgcaggt cactacccct gcacatcctc cacggacagt ccgggtctcc
+      541 ctgagtcttc gggtccgaga tccactccga ggccgcggga cccagagacc cttgaccggg
+      601 gagaagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat ccccgcaggt
+      661 tggtcggagt gggggttgga cttggtgggc ggggctgacc gcgggcgcag ggccagggtc
+      721 tcacaccatc tagaggatgc ctggctgcga caaagggtcc gaggggcgcc ttctccggga
+      781 gtatcaccag ctcgcctaag caggcaggga ttacatcgcc tggaaccagg acccgtgctc
+      841 cttgaccgcc acagacacgg cggctcagat cacccagctc aagtgggaag ctgccggcga
+      901 ggcggaggtt cgagacattg agacagagcg cttggcacag gagtagcggg gtcagggcga
+      961 agtcccagag ccccaggtat ggctctcaga atctcaggct cagaaagcgt gtgtggattg
+     1021 gggaggccca gcgttgggga ttccccatct ccgaagggtt tctcttctcc ctctctcaac
+     1081 ctgcgtctgg tccttcttcc tggatactca ccgggcggcc ccagttctca ctcctattga
+     1141 gtgtcgggtt tctagagaag tcaatcaatg tagccacggt cccggttcta aagttcccac
+     1201 gcacccacca ggactccgat tctccccagt cgccaaggat cctcacaggg gtaggtacct
+     1261 attcgatgtg gtgtgttttt ctctctactc tcagaccctc agccagtatc actattggca
+     1321 ttcctgatcc actggctcag aatttcagta cattatctgc ccgcgggaca cacctcagag
+     1381 ggaaagggat gaagcgtggg ccatgaccaa ggcatctcct ggtcatatca ccacctgcac
+     1441 ctcccagggg ctgccagcca caccgagtca tggacaggtc tccacagaca caacttagta
+     1501 ccagcttgga tgaaaccctc tgaggaacgg gggccagctt tcaggatgtg ctgcgcctat
+     1561 taaatcaaag acgtctgtat ggtgctgtgt ttacagaagg aagaacacgt gggtataaaa
+     1621 accaagaagt tgaaacaggt gtggttccat gtctcatccc ttctattcac cctcagggtg
+     1681 attttgcact tctcctctcc aatatcgggg ctctgcaggg gaggaggtcc tggtttccca
+     1741 aagggggcac cctggcaagg agacaaatga gagtccatga aactacacgt tatgggtgcc
+     1801 cccagggatg tttgaatagt atgtgtccag acacaagcag gtgagaagag gaggaggcag
+     1861 ggctgctatc acacaaggaa ggcagaagtg tgtgtggaaa taagagatcc acttggaggc
+     1921 cttatggttc cccttgtcgt gttgtaaatg tgaacagaat catccagcaa cgcagcctga
+     1981 gagggtttga tattcaagaa cccagaaccc tcaggaagga aggattgagt gatacaccta
+     2041 gataatgtcc caaggctccg ctcctgcgct ctgacatcct cagaagggtt agtgcagaag
+     2101 ccctgcttcc catgggctgt tcccagccag tgaccggtca cagcaggcgc actaaggcag
+     2161 gccattactg ggagacacgg gactcctctg atggccaact gtggctggag gactcctcca
+     2221 tggccttgct caaccctcct tagattgcct gtgctctagg atgcgtcgaa caaaccttct
+     2281 ctccttctgt ccagcactgg gtgtcacact tgcattgtgg tctgctgcct tttcctggga
+     2341 tttctggctc gcttcgcata ttcccttaca ggtgtgtccc ctcataaaac gccgcagact
+     2401 tgaagctcat cttggcatct gctccttgaa gggcttagac taaaaattat ttccatctgc
+     2461 acatcaataa ctcttactta cttcaacttg taaaatcctt ctcttcgtcc aacttctgcc
+     2521 acccccatag aatctatttt acttgtgttt gtagtatctc tttgagttaa cggatacttg
+     2581 ttctattaag ctattaaatt ttgaggtagt ttgtgacaca gcacttgata accattaagg
+     2641 cttccttttt tttttttttt ttcttgagat ggagtctcac tctgtcactc aggctggagt
+     2701 tcagtggctc aatctccgct cactgcaagc tctgcctccc gggttcacgc cattctcctg
+     2761 cctcctgagt agctggcact acaggtgcct gccaccacgc ccggctaatt ttttgtattt
+     2821 ttagtagaga cagggtttca ccatgttagc caggattgtc tcgatctcct gacctcgtga
+     2881 tctgcccgtc tcggcctccc aaagtgctgg gattacaggc gtgagccatt gcgcctggcc
+     2941 aaggctttct taagtttcca ttattccatg gatattatct acacatcttt taataccttt
+     3001 cattttaata acattagcca tatttgccgt ttccaaccct ttcctcctat tcttttttga
+     3061 acatttttat tttgtctttc tctgtccttc cttccttctt tcctcctttc ctccctcaga
+     3121 gctttctccc tccctctatt tttttcataa aacctaagtg ttcaggctaa aaggaagcat
+     3181 cacttgaact taatgccaaa agtataatgc cataatttat aatataaaag taaagaaaag
+     3241 gaagttatta attgaatatg aagaaaatgt ctagggtgat tctgtagcca agacagtggc
+     3301 ttttaatatt taatctccta cttcaagtga atgttttcag aaacacgagc aacatgagct
+     3361 ctttcccatt cttggtacaa gcacttgaga aatcaaatta gccttatcta gtctgattaa
+     3421 tgtccataca ccgtataatc ccaccgtctg cctcctgatc atacactctg gggacattct
+     3481 tggctatgtg tccaggagac atgtaaaatg gaatgtct
+//
+LOCUS       NHP11286                3507 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:01:01:01, V locus allele.
+ACCESSION   NHP11286
+VERSION     NHP11286
+DBLINK      INSDC: MW679644
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-V*04:01:01:01
+            IPD accession: NHP11286
+            Species prefix: Mafa
+            MHC class: I
+            Previous designations: Mafa-V*01:04
+FEATURES             Location/Qualifiers
+     source          1..3507
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..3507
+                     /gene="V"
+                     /allele="Mafa-V*04:01:01:01"
+                     /note="previous designations: Mafa-V*01:04"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*04:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc ggtgagtgcg gggtcgggag ggaaacagct tctgtgggga gtagctaggg
+      121 atccgccccg cgggggcgca ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgcccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgtcacgtc
+      241 ccggccgggc cgcggggtgc ccctgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt ggacagcaac gccgtgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccagaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaccggcct ggggcgcagg tcactacccc tgcacatccc ccacggacag tccgggtctc
+      541 cccgaatctt cgggtccgag atccaccccg aggccgcggg acccaaagac ccttgaccgg
+      601 ggagaagcct aggagccgtt acccggtttc attttcagtt taggccaaaa tccgcgcagg
+      661 ttggtagggg cgggggcggg gctcggtggg ccgggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaggggtc cgacgggcgc ctccttctgg
+      781 aatatcacca gctcgcctac gacgtcaggg attacatcgc ccggaaccag gacccgtgct
+      841 ccttgaccgc cgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcgaaacatt gagacagagc gcttggcaca ggaggagcgg ggtcagggcg
+      961 aagtcccaga gccccaggcg tggctctcag aatctcaggc tcagaaagcg tgtgtggact
+     1021 ggggaggccc aacgttgggg attccccatc tccgaaggat ttctcttctc cctctctcaa
+     1081 cctgcgtctg gtccttcttc ctggatactc accgggcggc cccagttctc gctcccattg
+     1141 actgtcgggt ttctagagaa gtcaatcaat gtagccaggg tccgggttct aaagttccca
+     1201 cgcacccacc aggactccga ttctccccag tcgccaagga tcctcacagg ggtaggtacc
+     1261 tattcgatgt ggtgtgtttt cctctctact ctcagaccct cagccagtat cactattggc
+     1321 attcctgatc cactggctca gaatttcagt gcattatctg cccgcgggac acacctcaga
+     1381 gggaaaggga tgaagcgtgg gccatgacca aggcatctcc tggtcatatc accacctgca
+     1441 cctcccaggg gctgccagcc acaccgagtc atggacaggt ctctacagac acaatttagt
+     1501 accagcttgg atgaaaccct ctgaggaatg ggggccagct ttcaggatgt gctgcgcgta
+     1561 ttaaatcaaa gacgtctgta tggtgctgtg tttacagaag gaagaacacg tgggtccaaa
+     1621 aaccaagaag ttgaaacagg tgtggctcca tgtctcatcc cttctattca ccctcagggt
+     1681 gattttgcac ttctcatctc caatatcggg gctctgcagg ggaggaggtc ctggtttccc
+     1741 aaagggggca ccctggcaag gagacaaatg agagtccatg gaactacacg ttatgggtgc
+     1801 ccccagggat gtttgaatag tatgtgtcca gacacaagca ggtgagaaga ggaggaggca
+     1861 gggctgctat cacacaagga aggcagaagt gtgtgtggaa ataagagatc cacttggagg
+     1921 ccttatggtt ccccttgtcc tgttgtaagt ttgagcagaa tcatccagca accgcagcct
+     1981 gagagggttt gatactcaag agcccagaac cctcaggaag gaaggactga gtgatacacc
+     2041 tagataatgt cccaaggctc cgctcctgtg ctctgacatc ctcagaaggg ttagtgcaga
+     2101 agccctgctt cccatgggct gttcccagcc agtgaccggt cacagcaggc gcactaaggc
+     2161 aggccattac tgggagacac gggactcctc tgatggccaa ctgtggctgg aggactcctc
+     2221 catggccttg ctcaaccctg cttagattgc ctgtgctcta ggatgtgtca aacaaacctt
+     2281 ctctccttct gtccagcact tggaggtcac actggctttg tggtctgctg ccttttccag
+     2341 ggatttctgg ctcgcttcgc atattccctt acaggtgtgt cccctcataa aatgccacag
+     2401 acttgaagct catcttggca tctgcttctt gaaggactta gactaaaaat tatttccatc
+     2461 tgcacatcaa taactcttac ttatttcaac ttgtaaaatc cttctctttg tccaactttt
+     2521 gccaccccca tagaatctat tttacttgtg tttgtagtat ctctttgagt taacggatat
+     2581 ttgttctatt aagctattaa attttgaggt agtttgtgac acagcacttg ataactatta
+     2641 aggctttctt tttttttctt gagatggagt ctcactctgt cgctcaggct ggagttcagt
+     2701 gggtcaatct cggctcactg caagctctgc ctcctgggtt cacgccatcc tcctgcctcc
+     2761 tgagtagctg ggactacagg cgcctgccac cacgcccggc taattttttg tatttttagt
+     2821 agagacagag tttcaccatg ttagccaggt ttgtctcgat ctcctgacct cgtgatccgc
+     2881 ccatcttggc ctcccaaagt gctgggatta caggcatgag ccaccgctcc tggccaaggc
+     2941 tttcttaagt ttccattatt ccatggatat tatctacaca tcttttaata ccttgcattt
+     3001 taataacagc catatttgcc gtttccaacc ctttcctcct attctttttt gaacattttt
+     3061 attttgtctt tctctgtcct tccttccttc tttcctcctt tcctccctca gagctttctc
+     3121 cctccatttt tttcataaaa cctaagtgtt taggctaaaa ggaagcatca cttgaaccta
+     3181 atgctaaaag tataatgcca taatttataa tataaaagta aagaaaagga agttattaat
+     3241 tgaatatgaa gaaaatgtct agggtgattc tgcagccaag acagtggctt ttaatattta
+     3301 atctcctact tcaactgaat gttttcagga cacgcgagca acatgagctc tttcccattc
+     3361 ttggtacaag cacttgagaa atcaaattag ccttatctag tctgattaat gtctatacat
+     3421 catataatcc caccgtctgc ctcctgatca tacactctgg ggatattctt ggctatgtgt
+     3481 ccaggagacg tgtaaaatgg aatgttt
+//
+LOCUS       NHP12362                1407 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:02:01:01, V locus allele.
+ACCESSION   NHP12362
+VERSION     NHP12362
+DBLINK      INSDC: OR823738
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:02:01:01
+            IPD accession: NHP12362
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1407
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1407
+                     /gene="V"
+                     /allele="Mafa-V*01:02:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*01:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggacat ggcgccccgg accctccttc tgctgctctg gggagccctg gccctgaccc
+       61 agacctgcgc gggtgagtgc ggggtccgga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc gggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccgcaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc cggggcgcag gtcactaccc ctgcacatcc tccacggaca gtccgggtct
+      541 ccccgagtct tcgggtgcga gatctacccg gaggccgcgg gatccggaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atcccgcagg
+      661 ttggtcgggg tgggggtggg gctcggtggg cggggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaagggtc cgaggggcgc ctcctccggg
+      781 agtatcacca gctcgcctaa gaaggcaggg attacgtcgc tctgaaccag gacccgtgct
+      841 ccttgaccgc cgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctcattcg atgtggtgtg tttttctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtacatta tctgcccgcg ggacacacct cagagggaaa gggatgaagc gtgggccatg
+     1081 accaaggcat cccctggtca tatcaccacc tgcacctccc aggggctgcc agccacactg
+     1141 agtcatggac aggtctccac agacgtaact tagtaccagc ttggatgaaa ccctctgagg
+     1201 aacggggccc agattcagga tgtgctgcgc gtattaaatc aaagacgtct gtatggtgct
+     1261 gtgtttacag aaggaagaac acgtgggtcc aaaaaccaag aagttgaaac aggtgtggct
+     1321 ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcct ctccgatatc
+     1381 ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12363                1906 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:03:01:01, V locus allele.
+ACCESSION   NHP12363
+VERSION     NHP12363
+DBLINK      INSDC: OR823740
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:03:01:01
+            IPD accession: NHP12363
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1906
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1906
+                     /gene="V"
+                     /allele="Mafa-V*01:03:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..472
+                     /gene="V"
+                     /number=2
+     exon            716..910
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          473..715
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..472,716..910)
+                     /gene="V"
+                     /allele="Mafa-V*01:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cactgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtccgga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccgcaatat tgggaggaga agacagggac cgccaagacc aacgcagttt
+      421 tactgaatga acctgcggac cctgagcggc tactagaacc agagcgaggc ctgtgagtga
+      481 caccggcccg gggcgcaggt cactacccct gcacatcctc cacggacagt ccgggtctcc
+      541 ccgagtcttc gggtgcgaga tctacccgga ggccgcggga tccggagacc cttgaccggg
+      601 gagcagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat cccgcaggtt
+      661 ggtcggggtg ggggtggggc tcggtgggcg gggctgaccg caggcgcagg gccagggtct
+      721 cacaccatct agaggatgcc tggctgcgac aaggggtccg aggggcgcct tctccgggag
+      781 tatcaccagc tcgcctaaga aggcagggat tacatcgctc tgaaccaggg cctgtgctcc
+      841 ttgaccgcca cagacacggc ggctcagatc acccagctca agtgggaagc tgccggcgag
+      901 gcggaggttc ctctggggtg agttttcttc tagaagagtc cactgggaca ggtaaggagt
+      961 aggaggcagg gagtccagtt ctgggacggg gagtcggtga tgaaaagtga agagagaggg
+     1021 acggggccca tgccgtgtgt ttctccctgg tttctcagac agttcctggg ccaagactca
+     1081 gggagacatt gagacagagc gcttggtaca ggagtagagg ggtcagggcg aagtcccaga
+     1141 gccccaggcg tggctctcag aatctcaggc tcagaaagcg gtgtgtggat tggggaggcc
+     1201 cagcgttggg gattccccat ctccgaaggg tttctcttct ccctctctca acctgagtct
+     1261 ggtccttctt cctggatact caccgggcgg ccccagttct cactcctatt gagtgtcggg
+     1321 tttctagaga agtcaatcaa tgtagccacg gtcccagttc taaagttccc acgcacccac
+     1381 caggactccg attcttcccc gtcgccaagg atcctcacag gggtaggtac ctattcgatg
+     1441 tggtgtgttt ttcctctcta ctctcagacc ctcagccagt atcactattg gcattcctga
+     1501 tccactggct cagaatttca gtacattatc tgcccgcggg acacacctca gagggaaggg
+     1561 gatgaagcgt gggccatgac caaggcatct cctggtcata tcaccacctg cacctcccag
+     1621 gggctgccag ccacaccgag tcatggacag gtctccacag acacaactta gtaccagctt
+     1681 ggatgaaacc ctctgaggaa cgggggccag ctttcaggat gtgctgcgcg tattaaatca
+     1741 aagacgtccc tatggtgctg tgtttacaga aggaagaaca cgtgggtcta aaaaccaaga
+     1801 agttgaaaca ggtgtggctc catgtctcat cccttctatt caccctcagg gtgattttgc
+     1861 acttctcctc tccaatatcg gggctctgca ggggaggagg tcctgg
+//
+LOCUS       NHP12364                1906 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:04:01:01, V locus allele.
+ACCESSION   NHP12364
+VERSION     NHP12364
+DBLINK      INSDC: OR823736
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:04:01:01
+            IPD accession: NHP12364
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1906
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1906
+                     /gene="V"
+                     /allele="Mafa-V*01:04:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..472
+                     /gene="V"
+                     /number=2
+     exon            716..910
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          473..715
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..472,716..910)
+                     /gene="V"
+                     /allele="Mafa-V*01:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cactgctctg gggagtcctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtccgga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcctgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccgcaatat tgggaggaga agacagggac cgccaagacc aacgcagttt
+      421 taccgaatga acctgcggac cctgagcggc tactagaacc agagcgaggc ctgtgagtga
+      481 caccggcccg gggcgcaggt cactacccct gcccatcctc cacggacagt ccgggtctcc
+      541 ccgagtcttc gggtgcgaga tctacccgga ggccgcggga tccggagacc cttgaccggg
+      601 gagcagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat cccgcaggtt
+      661 ggtcggggtg ggggtggggc tcggtgggcg gggctgaccg cgggcgcagg gccagggtct
+      721 cacaccatct agaggatgcc tggctgcgac aaggggtccg aggggcgcct tctccgggag
+      781 tatcaccagc tcgcctaaga aggcagggat tacatcgctc tgaaccaggg cctgtgctcc
+      841 ttgaccgcca cagacacggc ggctcagatc acccagctca agtgggaagc tgccggcgag
+      901 gcggaggttc ctctggggtg agttttcttc tagaagagtc cactgggaca ggtaaggagt
+      961 aggaggcagg gagtccagtt ctgggacggg gagtcggtga tgaaaagtga agagagaggg
+     1021 acggggccca tgccgtgtgt ttctccctgg tttctcagac agttcctggg ccaagactca
+     1081 gggagacatt gagacagagc gcttggtaca ggagtagagg ggtcagggcg aagtcccaga
+     1141 gccccaggcg tggctctcag aatctcaggc tcagaaagcg gtgtgtggat tggggaggcc
+     1201 cagcgttggg gattccccat ctccgaaggg tttctcttct ccctctctca acctgagtct
+     1261 ggtccttctt cctggatact caccgggcgg ccccagttct cactcctatt gagtgtcggg
+     1321 tttctagaga agtcaatcaa tgtagccacg gtcccagttc taaagttccc acgcacccac
+     1381 caggactccg attcttcccc gtcgccaagg atcctcacag gggtaggtac ctattcgatg
+     1441 tggtgtgttt ttcctctcta ctctcagacc ctcagccagt atcactattg gcattcctga
+     1501 tccactggct cagaatttca gtacattatc tgcccgcggg acacacctca gagggaaggg
+     1561 gatgaagcgt gggccatgac caaggcatct cctggtcata tcaccacctg cacctcccag
+     1621 gggctgccag ccacaccgag tcatggacag gtctccacag acacaactta gtaccagctt
+     1681 ggatgaaacc ctctgaggaa cgggggccag ctttcaggat gtgctgcgcg tattaaatca
+     1741 aagacgtccc tatggtgctg tgtttacaga aggaagaaca cgtgggtcta aaaaccaaga
+     1801 agttgaaaca ggtgtggctc catgtctcat cccttctatt caccctcagg gtgattttgc
+     1861 acttctcctc tccaatatcg gggctctgca ggggaggagg tcctgg
+//
+LOCUS       NHP12365                1406 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:05:01:01, V locus allele.
+ACCESSION   NHP12365
+VERSION     NHP12365
+DBLINK      INSDC: OR823746
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:05:01:01
+            IPD accession: NHP12365
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1406
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1406
+                     /gene="V"
+                     /allele="Mafa-V*01:05:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..472
+                     /gene="V"
+                     /number=2
+     exon            716..910
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          473..715
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..472,716..910)
+                     /gene="V"
+                     /allele="Mafa-V*01:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cactgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtccgga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccgcaatat tgggaggaga agacagggac cgccaagacc aacgcagttt
+      421 taccgaatga acctgcggac cctgagcggc tactagaacc agagcgaggc ctgtgagtga
+      481 caccggcccg gggcgcaggt cactacccct gcacatcctc cacggacagt ccgggtctcc
+      541 ccgagtcttc gggtgcgaga tctacccgga ggccgcggga tccggagacc cttgaccggg
+      601 gagcagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat cccgcaggtt
+      661 ggtcggggtg ggggtggggc tcggtgggcg gggctgaccg cgggcgcagg gccagggtct
+      721 cacaccatct agaggatgcc tggctgcgac aaggggtccg aggggcgcct tctccgggag
+      781 tatcaccagc tcgcctaaga aggcagggat tacatcgctc tgaaccaggg cctgtgctcc
+      841 ttgaccgcca cagacacggc ggctcagatc acccagctca agtgggaagc tgccggcgag
+      901 gcggaggttc atcctcacag gggtaggtac ctattcgatg tggtgtgttt ttcctctcta
+      961 ctctcagacc ctcagccagt atcactattg gcattcctga tccactggct cagaatttca
+     1021 gtacattatc tgcccgcggg acacacctca gagggaaggg gatgaagcgt gggccatgac
+     1081 caaggcatct cctggtcata tcaccacctg cacctcccag gggctgccag ccacaccgag
+     1141 tcatggacag gtctccacag acacaactta gtaccagctt ggatgaaacc ctctgaggaa
+     1201 cgggggccag ctttcaggat gtgctgcgcg tattaaatca aagacgtccc tatggtgctg
+     1261 tgtttacaga aggaagaaca cgtgggtcta aaaaccaaga agttgaaaca ggtgtggctc
+     1321 catgtctcat cccttctatt caccctcagg gtgattttgc acttctcctc tccaatatcg
+     1381 gggctctgca ggggaggagg tcctgg
+//
+LOCUS       NHP12366                1408 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:06:01:01, V locus allele.
+ACCESSION   NHP12366
+VERSION     NHP12366
+DBLINK      INSDC: OR823750
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:06:01:01
+            IPD accession: NHP12366
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1408
+                     /gene="V"
+                     /allele="Mafa-V*01:06:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*01:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cactgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtccgga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccgcaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc cggggcgcag gtcactaccc ctgcacatcc tccacggaca gtccgggtct
+      541 ccccgagtct tcgggtgcga gatctacccg gaggccgcgg gatccggaga cccttgaccg
+      601 ggaagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atcccgcagg
+      661 ttggtcgggg tgggggtggg gctcggtggg cggggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaggggtc cgaggggcgc cttctccggg
+      781 agtatcacca gctcgcctaa gaaggcaggg attacatcgc cctgaaccag gacccgtgct
+      841 ccttgaccgc cacagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt ttttcctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtacatta tctgcccgcg ggacacacct cagagggaag gggatgaagc gtgggccatg
+     1081 accaaggcat ctcctggtca tatcaccacc tgcacctccc aggggctgcc agccacactg
+     1141 agtcatggac aggtctccac agacacaact tagtaccagc ttggatgaaa ccctctgagg
+     1201 aacgggggcc agctttcagg atgtgctgcg cgtattaaat caaagacgtc cctatggtgc
+     1261 tgtgtttaca gaaggaagaa cacgtgggtc taaaaaccaa gaagttgaaa caggtgtggc
+     1321 tccatgtctc atcccttcta ttcaccctca gggtgatttt gcacttctcc tctccaatat
+     1381 cggggctctg caggggagga ggtcctgg
+//
+LOCUS       NHP12367                1408 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:07:01:01, V locus allele.
+ACCESSION   NHP12367
+VERSION     NHP12367
+DBLINK      INSDC: OR823756
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:07:01:01
+            IPD accession: NHP12367
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1408
+                     /gene="V"
+                     /allele="Mafa-V*01:07:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*01:07:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cgctgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggcatgc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 acgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc cggggcgcag gtcactaccc ctgcacatcc tccacggaca gtccgggtct
+      541 ccccgagtct tcgggtgcga gatctacccg gaggccgcgg gatccggaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atcccgcagg
+      661 ttggtcgggg tgggggtggg gctcggtggg ccgggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaggggtc cgaggggcgc cttctccggg
+      781 agtatcacca gctcgcctaa gaaggcaggg attacgtcgc tctgaaccag gacctgtgct
+      841 ccttgaccgc cgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt ttttcctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtacatta tctgcccgcg ggacacacct cagagggaag tggatgaagc gtgggccatg
+     1081 accaaggcat ctcctggtca tatcaccacc tgcacctccc aggggctgcc agccacactg
+     1141 agtcatggac aggtctccac agacacaact tagtaccagc ttggatgaaa ccctctgagg
+     1201 aacgggggcc agctttcagg atgtgctgcg cgtattaaat caaagacgtc cctatggtgc
+     1261 tgtgtttaca gaaggaagaa cacgtgggtc taaaaaccaa gaagttgaaa caggtgtggc
+     1321 tccatgtctc atcccttcta ttcaccctca gggtgatttt gcacttctcc tctccaatat
+     1381 cggggctctg caggggagga ggtcctgg
+//
+LOCUS       NHP12368                1408 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:08:01:01, V locus allele.
+ACCESSION   NHP12368
+VERSION     NHP12368
+DBLINK      INSDC: OR823744
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:08:01:01
+            IPD accession: NHP12368
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1408
+                     /gene="V"
+                     /allele="Mafa-V*01:08:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*01:08:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cgctgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagagc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc cggggcgcag gtcactaccc ctgcacatcc tccacggaca gtccgggtct
+      541 ccccgagtct tcgggtgcga gatctacccg gaggccgcgg gatccggaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atcccgcagg
+      661 ttggtcgggg tgggggtggg gctcggtggg ccgggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaggggtc cgaggggcgc cttctccggg
+      781 agtatcacca gctcgcctaa gaaggcaggg attacgtcgc tctgaaccag gacctgtgct
+      841 ccttgaccgc cgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctactcga tgtggtgtgt ttttcctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtacatta tctgcccgcg ggacacacct cagagggaag tggatgaagc gtgggccatg
+     1081 accaaggcat ctcctggtca tatcaccacc tgcacctccc aggggctgcc agccacactg
+     1141 aatcatggac aggtctccac agacacaact tagtaccagc ttggatgaaa ccctctgagg
+     1201 aacgggggcc agctttcagg atgtgctgcg cgtattaaat caaagacgtc cctatggtgc
+     1261 tgtgtttaca gaaggaagaa cacgtgggtc taaaaaccaa gaagttgaaa caggtgtggc
+     1321 tccatgtctc atcccttcta ttcaccctca gggtgatttt gcacttctcc tctccaatat
+     1381 cggtgctctg caggggagga ggtcctgg
+//
+LOCUS       NHP12369                1407 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:09:01:01, V locus allele.
+ACCESSION   NHP12369
+VERSION     NHP12369
+DBLINK      INSDC: OR823759
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:09:01:01
+            IPD accession: NHP12369
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1407
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1407
+                     /gene="V"
+                     /allele="Mafa-V*01:09:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*01:09:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cgctgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagtgcc gggaggagcg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc cggggcgcag gtcactaccc ctgcacatcc tccacggaca gtccgggtct
+      541 ccccgagtct tcgggtgcga gatctacccg gaggccgcgg gatccggaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atcccgcagg
+      661 ttggtcgggg cgggggcggg gctcggtggg ccgggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaggggtc cgaggggcgc cttctccggg
+      781 agtatcacca gctcgcctaa gaaggcaggg attacgtcgc tctgaaccag gacccgtgct
+      841 ctttgaccgc cacagacacg gcggctcaga tcacccagct gaagtgggaa gctgccagcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt tttcctctct
+      961 actctcagac cctcagccag tatcactatt ggcattcctg atccactggc tcagaatttc
+     1021 agtacattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg tgggccatga
+     1081 ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca gccacactga
+     1141 gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaagc cctctgagga
+     1201 acgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtcc ctatggtgct
+     1261 gtgtttacag aaggaagaac acgtgggtct aaaaaccaag aagttgaaac aggtgtggct
+     1321 ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcct ctccaatatc
+     1381 ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12370                1408 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*01:10:01:01, V locus allele.
+ACCESSION   NHP12370
+VERSION     NHP12370
+DBLINK      INSDC: OR823754
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*01:10:01:01
+            IPD accession: NHP12370
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1408
+                     /gene="V"
+                     /allele="Mafa-V*01:10:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            719..913
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..718
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,719..913)
+                     /gene="V"
+                     /allele="Mafa-V*01:10:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cgctgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgtccg gcgggggcgc aggaacccgg ttgcagttcc gggaggaggg tcgggggagt
+      181 ctcaggcccc tcctcgcccc caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggggagc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tagtgcggtt tgacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc cggggcgcag gtcactaccc ctgcacatcc tccacggaca gtccgggtct
+      541 ccccgagtct tcgggtgcga gatctacccg gaggccgcgg gatccggaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atccccgcag
+      661 gttggtcggg gcgggggcgg ggctcggtgg gccgggctga ccgcgggcgc agggccaggg
+      721 tctcacacca tctagaggat gcctggctgc gacaaggggt ccgaggggct ccttctccgg
+      781 gagtatcacc agctcgccta agaaggcagg gattacgtcg ctctgaacca ggacccgtgc
+      841 tctttgaccg ccacagacac ggcggctcag atcacccagc tcaagtggga agctgccggc
+      901 gaggcggagg ttcatcctca caggggtagg tacctattcg atgtggtgtg ttttcctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtacatta tctgcccgcg ggacacacct cagagggaaa gggatgaagc gtgggccatg
+     1081 accaaggcat ctcctggtca tatcaccacc tgcacctccc aggggctgcc agccacacag
+     1141 agtcatggac aggtctccac agacacaact tagtaccagc ttggatgaag ccctctgagg
+     1201 aacgggggcc agctttcagg atgtgctgcg cgtattaaat caaagacgtc cctatggtgc
+     1261 tgtgtttaca gaaggaagaa cacgtgggtc taaaaaccaa gaagttgaaa caggtgtggc
+     1321 tccatgtctc atcccttcta ttcaccctca gggtgatttt gcacttctcc tctccaatat
+     1381 cggggccctg caggggagga ggtcctgg
+//
+LOCUS       NHP12371                1407 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:03:01:01, V locus allele.
+ACCESSION   NHP12371
+VERSION     NHP12371
+DBLINK      INSDC: OR823761
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*02:03:01:01
+            IPD accession: NHP12371
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1407
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1407
+                     /gene="V"
+                     /allele="Mafa-V*02:03:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..474
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          475..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..474,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*02:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgcccg gcgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggagggt
+      181 ctcagcgacc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcgggatgc ccccgcttca tctccatggg ctaagtggac gacacacagt
+      301 tcgtgcggtt agacagcgac gccgcaagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaacggcg ggggcgcagg tcactacccc tgcacatcct ccacggacag tccgggtctc
+      541 cctgagtctt cgggtccgag atccactccg aggccgcggg acccggagac ccttgaccgg
+      601 ggagcagcct aggagccgtt acccggtttc attttcagtt taggccaaaa tccccgcagg
+      661 ttggtcggag tgggggttgg acttggtggg cggggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaagggtc cgaggggcgc cttctctggg
+      781 agtatcacca gctcgcctaa gcaggcaggg attacatcgc ctggaaccag gacccgtgct
+      841 ccttgaccgc cacagacacg acggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt ttttctctct
+      961 actctcagac cctcagccag tatcactatt ggcattcctg atccactggc tcagaatttc
+     1021 agtacattat ctgcccgcgg gacacacctc agagggaagg ggatgaagcg tgggccatga
+     1081 ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca gccacactga
+     1141 gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaaac cctctgagga
+     1201 acgggggcca gctttcagga tgtgctgcgc ctattaaatc aaagacgtcc ctatggtgct
+     1261 gtgtttacag aaggaagaac acgtgggtat aaaaaccaag aagttgaaac aggtgtggtt
+     1321 ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcct ctccaatatc
+     1381 ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12372                1408 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:04:01:01, V locus allele.
+ACCESSION   NHP12372
+VERSION     NHP12372
+DBLINK      INSDC: OR823752
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*02:04:01:01
+            IPD accession: NHP12372
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1408
+                     /gene="V"
+                     /allele="Mafa-V*02:04:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*02:04:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgcccg gcgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggagggt
+      181 ctcagcgccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcgggatgc ccccgcttca tctccatggg ctaagtggac gacacacagt
+      301 tcgtgcggtt agacagcgac gccgcaagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac caccaagacc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaccggccc ggggcgcagg tcactacccc tgcacatcct ccacggacag tccgggtctc
+      541 cctgagtctt cgggtccgag atccactccg aggccgcggg acccggagac ccttgaccgg
+      601 ggagaagcct aggagccgtt acccggtttc attttcagtt taggccaaaa tccccgcagg
+      661 ttggtcggag tgggggttgg acttggtggg cggggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaagggtc cgaggggcgc ctcctccggg
+      781 agtatcacca gctcgcctac gacggcaggg attacgtcgc tctgaaccag gacctgtgct
+      841 ccttgaccgc cacagacaag gcggctcaga tcacccagat caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt ttttcctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtgcatta tctgcccgcg ggacacacct cagagggaaa gggatgaagc gtgggccatg
+     1081 accaaggcat ctcctggtca tatcaccacc tgcacctccc aggggctgcc agccacaccg
+     1141 agtcatggac aggtctccac agacacaact tagtaccagc ttggatgaag ccctctgagg
+     1201 aacgggggcc agctttcagg atgtgctgcg cgtattaaat caaagacgtc cctatggtgc
+     1261 tgtgtttaca gaaggaagaa ttcgtgggtc caaaaaccaa gaagttgaaa caggtgtggc
+     1321 tccatgtctc atcccttcta ttcaccctca gggtgatttt gcacttctcc tctccaatat
+     1381 cggggctctg caggggagga ggtcctgg
+//
+LOCUS       NHP12373                1415 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:05:01:01, V locus allele.
+ACCESSION   NHP12373
+VERSION     NHP12373
+DBLINK      INSDC: OR823758
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*02:05:01:01
+            IPD accession: NHP12373
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1415
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1415
+                     /gene="V"
+                     /allele="Mafa-V*02:05:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            717..919
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..716
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,717..919)
+                     /gene="V"
+                     /allele="Mafa-V*02:05:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagt ttctttgggg agtagctagg
+      121 ggtccgcccg gcgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggagggt
+      181 ctcagcgccc ccctcgccct caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcggcatgc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt agacagcgac gccgcaagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaacggcgg gggcgcaggt cactacccct gcccatcccc cacggacagt ccgggtctcc
+      541 ctgagtcttc gggtccgaga tccactccga ggccgcggga cccggagacc cttgaccggg
+      601 gagcagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat ccccgcaggt
+      661 tggtcggagt gggggttggg cttggtgggc ggggctgacc gcgggcgcag ggccagggtc
+      721 tcacaccatc tagaggatgc ctggctgcga caaggggtcc gaggggcgcc ttctccggga
+      781 gtatcaccag ctcgcctacg acggcaggga ttacatcgct ctgaaccagg acccgtgctc
+      841 cttgaccgcc gcagacacgc agacacggcg gctcagatca cccagctcaa gtgggaagct
+      901 gccggcgagg cggaggttca tcctcacagg ggtaggtacc tattcgatgt ggtgtgtttt
+      961 tcctctctac tctcagaccc tcagccagta tcactattgg cattcctgat ccactggctc
+     1021 agaatttcag tacattatct gcccgcggga cacacctcag agggaagggg atgaagcgtg
+     1081 ggccatgacc aaggcatctc ctggtcatat caccacctgc acctcccagg ggctgccagc
+     1141 cacaccgagt catggacagg tctccacaga cacaatttag taccagcttg gatgaagccc
+     1201 tctgaggaac gggggccatc tttcaggatg tgctgcgcgt attaaatcaa agacgtccct
+     1261 atggtgctgt gtttacagaa ggaagaacac gtgggtccaa aaaccaagaa gttgaaacag
+     1321 gtgtggctcc atgtctcatc ccttctattc accctcaggg tgattttgca cttctcctct
+     1381 ccaatatcgg ggctctgcag gggaggaggt cctgg
+//
+LOCUS       NHP12374                1410 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:06:01:01, V locus allele.
+ACCESSION   NHP12374
+VERSION     NHP12374
+DBLINK      INSDC: OR823749
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*02:06:01:01
+            IPD accession: NHP12374
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1410
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1410
+                     /gene="V"
+                     /allele="Mafa-V*02:06:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            203..473
+                     /gene="V"
+                     /number=2
+     exon            720..914
+                     /gene="V"
+                     /number=3
+     intron          73..202
+                     /gene="V"
+                     /number=1
+     intron          474..719
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,203..473,720..914)
+                     /gene="V"
+                     /allele="Mafa-V*02:06:01:01"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtccgga gggaaacagc ttcttgggga gtagctaggg
+      121 gtccgcccgg cgggggcgca ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgcccc cctcgtccac aggcttccac tccttgaggt atttccacac cgccacgtcc
+      241 cggcccggcc gcggggagcc cccgcttcat ctccatgggc taagtggacg acacgcagtt
+      301 cgtgcggtta gacagcgacg ccgcgagtcc taggatggag ccgcgggcgt cgtggatgga
+      361 gcaggagggg ccggaatatt gggaggagaa gacagggacc gccaagagca acgcacagtt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaacggccc ggggcgcagg tcacactacc cctgcacatc ccccacggac agtccgggtc
+      541 tccctgagtc ttcgggtccg agatccactc cgaggccgcg ggacccggag acccttgacc
+      601 ggggagaagc ctaggagccg ttacccggtt tcattttcag tttaggccaa aatccccgca
+      661 ggttggtcgg ggcgggggtt gggcttggtg ggcggggctg accgcgggcg cagggccagg
+      721 gtctcacacc atctagagga tgcctggctg cgacaagggg tccgaggggc gccttctccg
+      781 ggagtatcac cagctcgcct acgaaggcag ggattacatc gctctgaacc aggacccgtg
+      841 ctccttgacc gccacagaca cggcggctaa gatcacccag ctcaagtggg aagctgccgg
+      901 cgaggcggag gttcatcctc acaggggtag gtacctattc gatgtggtgt gtttttcctc
+      961 tctactctca gaccgtcagc cagtatcact attggcattc ctgatccact ggctcagaat
+     1021 ttcagtacat tatctgcccg cgggacacac ctcagaggga aagggatgaa gcgtgggcca
+     1081 tgaccaaggc atctcctggt catatcacca cctgcacctc ccaggggctg ccagccacac
+     1141 cgagtcatgg acaggtctcc acagacacaa cttagtacca gcttggatga agccctctga
+     1201 ggaacgggga ccagctttca ggatgtgctg cgcgtattaa atcaaagacg tccctatggt
+     1261 gctgtgttta cagaaggaag aacacgtggg tccaaaaacc aagaagttga aacaggtgtg
+     1321 gctccatgtc tcatcccttc tattcaccct cagggtgatt ttgcacttct catctccaat
+     1381 atcggggctc tgcaggggag gaggtcctgg
+//
+LOCUS       NHP12375                1407 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:01:01:02, V locus allele.
+ACCESSION   NHP12375
+VERSION     NHP12375
+DBLINK      INSDC: OR823739
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*04:01:01:02
+            IPD accession: NHP12375
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1407
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1407
+                     /gene="V"
+                     /allele="Mafa-V*04:01:01:02"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*04:01:01:02"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc ggtgagtgcg gggtcgggag ggaaacagct tctgtgggga gtagctaggg
+      121 atccgccccg cgggggcgca ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgtccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgtcacgtc
+      241 ccggccgggc cgcggggtgc ccctgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt ggacagcaac gccgtgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccagaatat tgggaggaga agacagggac cgccaagacc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaccggcct ggggcgcagg tcactacccc tgcacatccc ccacggacag tccgggtctc
+      541 cccgaatctt cgggtccgag atccaccccg aggccgcggg acccaaagac ccttgaccgg
+      601 ggagaagcct aggagccgtt acccggtttc attttcagtt taggccaaaa tccgcgcagg
+      661 ttggtagggg cgggggcggg gctcggtggg ccgggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaggggtc cgacgggcgc ctccttctgg
+      781 aatatcacca gctcgcctac gacgtcaggg attacatcgc ccggaaccag gacccgtgct
+      841 ccttgaccgc cgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt tttcctctct
+      961 actctcagac cctcagccag tatcactatt ggcattcctg atccactggc tcagaatttc
+     1021 agtgcattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg tgggccatga
+     1081 ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca gccacaccga
+     1141 gtcatggaca ggtctctaca gacacaattt agtaccagct tggatgaaac cctctgagga
+     1201 atgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtct gtatggtgct
+     1261 gtgtttacag aaggaagaac acgtgggtcc aaaaaccaag aagttgaaac aggtgtggct
+     1321 ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcat ctccaatatc
+     1381 ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12376                1415 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:02:01:01, V locus allele.
+ACCESSION   NHP12376
+VERSION     NHP12376
+DBLINK      INSDC: OR823760
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*04:02:01:01
+            IPD accession: NHP12376
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1415
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1415
+                     /gene="V"
+                     /allele="Mafa-V*04:02:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            206..475
+                     /gene="V"
+                     /number=2
+     exon            726..920
+                     /gene="V"
+                     /number=3
+     intron          73..205
+                     /gene="V"
+                     /number=1
+     intron          476..725
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,206..475,726..920)
+                     /gene="V"
+                     /allele="Mafa-V*04:02:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgcccg gcaggggcgc aggaacccgg ttgcggtgcc aggaggaggg tcgggagggt
+      181 ctcagcgccc ccccctcgtc cacaggcttc cactccttga ggtatttcca caccgtcacg
+      241 tcccggccgg gccgcggggt gcccccgctt catctccatg ggctaagtgg acgacacgca
+      301 gttcgtgcgg ttggacagca acgccgtgag tcctaggatg gagccgcggg cgccgtggat
+      361 ggagcaggag gggccagaat attgggagga gaagacaggg accgccaaga ccaacgcaca
+      421 gtttaccgaa tgaacctgcg gaccctgagc ggctactaga accagagcga ggcctgtgag
+      481 tgacaccggc cttgggcgca ggtcactacc cctgcacatc ccccacggac aatccgggtc
+      541 tccccgaatc ttcgggtccg agatccaccc cgaggccgcg ggacccgaag acccttgacc
+      601 ggggagaagc ctaggagccg ttacccggtt tcattttcag tttaggccaa aatccgcgca
+      661 ggttggtagg ggcgggggcg ggggcggggc tcggtgggcg gggctgaccg cgggcgcagg
+      721 gccagggtct cacaccatct agaggatgcc tggctgcgac aaggggtccg acgggcgcct
+      781 ccttctggag tatcaccagc tcgcctacga cgtcagggat tacatcgccc ggaaccagga
+      841 cctgtgctcc ttgaccgcca cagacacggc ggctcagatc acccagctca agtgggaagc
+      901 tgccggcgag gcggaggttc atcctcacag gggtaggtac ctattcgatg tggtgtgttt
+      961 tcctctctac tctcagaccc tcagccagta tcactattgg cattcctgat ccactggctc
+     1021 agaatttcag tgcattatct gcccgcggga cacacctcag agggaaaggg atgaagcgtg
+     1081 ggccatgacc aaggcatccc ctggtcatat caccacctgc acctcccagg ggctgccagc
+     1141 cacaccgagt catggacagg tctctacaga cacaatttag taccagcttg gatgaagccc
+     1201 tctgaggaac gggggccagc tttcaggatg tgctgcgcgt attaaatcaa agacgtctgt
+     1261 atggtgctgt gtttacagaa ggaagaatac gtgggtccaa aaaccaagaa gttgaaacag
+     1321 gtgtggctcc atgtctcatc ccttctattc accctcaggg tgattttgca cttctcctct
+     1381 ccaatatcgg ggctctgcag gggaggaggt cctgg
+//
+LOCUS       NHP12377                1416 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:03:01:01, V locus allele.
+ACCESSION   NHP12377
+VERSION     NHP12377
+DBLINK      INSDC: OR823742
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*04:03:01:01
+            IPD accession: NHP12377
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1416
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1416
+                     /gene="V"
+                     /allele="Mafa-V*04:03:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            718..920
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,718..920)
+                     /gene="V"
+                     /allele="Mafa-V*04:03:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc gggtgagtgc ggggtccaga gggaaacagc ttcttgggga gtagctaggg
+      121 gtccgcccgg caggggcgca ggaacccggt tgcggtgcca ggaggagggt cgggagggtc
+      181 tcagcgcccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggccgggc cgcggggtgc ccccgcttca tctccatggg ctaagtggag gacacgcagt
+      301 tcgtgcggtt ggacagcaac gccgtgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccagaatat tgggaggaga agacaggaac cgccaagacc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaccggcct ggggcgcagg tcactacccc tgcacatccc ccacggacag tccgggtctc
+      541 cccgaatctt cgggtccgag atccaccccg aggccgcggg acccggagac ccttgaccgg
+      601 ggagaagcct aggagccgtt acccggtttc attttcagtt taggccaaaa tccgcgcaga
+      661 ttggtagggg cgggggcggg gctcggtggg cggggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagagggtg cctggctgcg acaaggggtc cgacgggcgc ctccttctgg
+      781 aatatcacca gctcgcctac gacgtcaggg attacatcgc ccggaaccag gacctgtgct
+      841 ccttgaccgc cgcagacacg cagacacggc ggctcagatc acccagctca agtgggaacc
+      901 tgccggcgag gcggaggttc atcctcacag gggtaggtac ctattcgatg tggtgtgttt
+      961 ttcctctcta ctctcagacc ctcagccagt atcactattg gcattcctga tccactggct
+     1021 cagaatttca gtacattatc tgcccgcggg acacacctca gagggaaagg gatgaagcgt
+     1081 gggccatgac caaggcatct cctggtcata tcaccacctg cacctcccag gcgctgccag
+     1141 ccacaccgag tcatagacag gtctctacag acacaattta gtaccagctt ggatgaagcc
+     1201 ctctgaggaa cgggggccat ctttcaggat gtgctgcgcg tattaaatca aagacgtccc
+     1261 tatggtgctg tgtttacaga aggaagaatt cgtgggtcca aaaaccaaga agttgaaaca
+     1321 ggtgtggctc catgtctcat cccttctatt caccctcagg gtgattttgc acttctcctc
+     1381 tccaatatcg gggctctgca ggggaggagg tcctgg
+//
+LOCUS       NHP12378                1417 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:04:01:01, V locus allele.
+ACCESSION   NHP12378
+VERSION     NHP12378
+DBLINK      INSDC: OR823741
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*04:04:01:01
+            IPD accession: NHP12378
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1417
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1417
+                     /gene="V"
+                     /allele="Mafa-V*04:04:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            205..474
+                     /gene="V"
+                     /number=2
+     exon            719..921
+                     /gene="V"
+                     /number=3
+     intron          73..204
+                     /gene="V"
+                     /number=1
+     intron          475..718
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,205..474,719..921)
+                     /gene="V"
+                     /allele="Mafa-V*04:04:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgcccg gcaggggcgc aggaacccgg ttgcggtgcc aggaggaggg tcgggagggt
+      181 ctcagcgccc cccctcgtcc acaggcttcc actccttgag gtatttccac accgtcacgt
+      241 cccggccggg ccgcggggtg cccccgcttc atctccatgg gctaagtgga cgacacgcag
+      301 ttcgtgcggt tggacagcaa cgccgtgagt cctaggatgg agccgcgggc gccgtggatg
+      361 gagcaggagg ggccagaata ttgggaggag aagacaggaa ccgccaagac caacgcacag
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc gggggcgcag gtcactaccc ctgcacatcc cccacggaca gtccgggtct
+      541 ccccgaatct tcgggtccga gatccacccc gaggccgcgg gacccgaaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atccccgcag
+      661 gttggtaggg gcgggggcgg ggctcggtgg gcggggctga ccgcgggcgc agggccaggg
+      721 tctcacacca tctaggggat gcctggctgc gacaaggggt ccgacgggcg cctccttctg
+      781 gaatatcacc agctcgccta cgacgtcagg gattacatcg cccggaacca ggacctgtgc
+      841 tccttgaccg ccgcagacac gcagacacgg cggctcagat cacccagctc aagtgggaag
+      901 ctgccggcga ggcggaggtt catcctcaca ggggtaggta cctattcgat gtggtgtgtt
+      961 tttcctctct actctcagac cctcagccag tatcactatt ggcattcctg atccactggc
+     1021 tcagaatttc agtacattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg
+     1081 tgggccatga ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca
+     1141 gccacacaga gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaagc
+     1201 cctctgagga acgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtcc
+     1261 ctatggtgct gtgtttacag aaggaagaac acgtgggtcc aaaaaccaag aagttgaaac
+     1321 aggtatggct ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcct
+     1381 ctccaatatc ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12379                1417 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:05:01:01, V locus allele.
+ACCESSION   NHP12379
+VERSION     NHP12379
+DBLINK      INSDC: OR823737
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*04:05:01:01
+            IPD accession: NHP12379
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1417
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1417
+                     /gene="V"
+                     /allele="Mafa-V*04:05:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            205..474
+                     /gene="V"
+                     /number=2
+     exon            719..921
+                     /gene="V"
+                     /number=3
+     intron          73..204
+                     /gene="V"
+                     /number=1
+     intron          475..718
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,205..474,719..921)
+                     /gene="V"
+                     /allele="Mafa-V*04:05:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgcccg gcaggggcgc aggaacccgg ttgcggtgcc aggaggaggg tcgggagggt
+      181 ctcagcgccc cccctcgtcc acaggcttcc actccttgag gtatttccac accgtcacgt
+      241 cccggccggg ccgcggggtg cccccgcttc atctccattg gctaagtgga cgacacgcag
+      301 ttcgtgcggt tggacagcaa cgccgtgagt cctaggatgg agccgcgggc gccgtggatg
+      361 gagcaggagg ggccagaata ttgggaggag aagacaggaa ccgccaagac caacgcacag
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc gggggcgcag gtcactaccc ctgcacatcc cccacggaca atccgggtct
+      541 ccccgaatct tcgggtccga gatccacccc gaggccgcgg gacccgaaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atccccgcag
+      661 gttggtaggg gcgggggcgg ggctcggtgg gcggggctga ccgcgggcgc agggccaggg
+      721 tctcacacca tctagaggat gcctggctgc gacaaggggt ccgacgggcg cctccttctg
+      781 gaatatcacc agctcgccta cgacgtcagg gattacatcg cccggaacca ggacctgtgc
+      841 tccttgaccg ccgcagacac gcagacacgg cggctcagat cacccagctc aagtgggaag
+      901 ctgccggcga ggcggaggtt catcctcaca ggggtaggta cctattcgat gtggtgtgtt
+      961 tttcctctct actctcagac cctcagccag tatcactatt ggcattcctg atccactggc
+     1021 tcagaatttc agtacattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg
+     1081 tgggccatga ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca
+     1141 gccacacaga gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaagc
+     1201 cctctgagga acgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtcc
+     1261 ctatggtgct gtgtttacag aaggaagaac acgtgggtcc aaaaaccaag aagttgaaac
+     1321 aggtatggct ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcct
+     1381 ctccaatatc ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12380                1417 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*04:06:01:01, V locus allele.
+ACCESSION   NHP12380
+VERSION     NHP12380
+DBLINK      INSDC: OR823747
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*04:06:01:01
+            IPD accession: NHP12380
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1417
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1417
+                     /gene="V"
+                     /allele="Mafa-V*04:06:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            205..474
+                     /gene="V"
+                     /number=2
+     exon            719..921
+                     /gene="V"
+                     /number=3
+     intron          73..204
+                     /gene="V"
+                     /number=1
+     intron          475..718
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,205..474,719..921)
+                     /gene="V"
+                     /allele="Mafa-V*04:06:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtccgcccg gcaggggcgc aggaacccgg ttgcggtgcc aggaggaggg tcgggagggt
+      181 ctcagcgccc cccctcgtcc acaggcttcc actccttgag gtatttccac accgtcacgt
+      241 cccggccggg ccgcggggtg cccccgcttc atctccatgg gctaagtgga cgacacgcag
+      301 ttcgtgcggt tggacagcaa cgccgtgagt cctaggatgg agccgcgggc gccgtggatg
+      361 gagcaggagg ggccagaata ttgggaggag aagacaggaa ccgccaagac caacgcacag
+      421 tttaccgaat gaacctgcgg accctgagcg gctactagaa ccagagcgag gcctgtgagt
+      481 gacaccggcc gggggcgcag gtcactaccc ctgcacatcc cccacggaca gtccgggtct
+      541 ccccgaatct tcgggtccga gatccacccc gaggccgcgg gacccgaaga cccttgaccg
+      601 gggagcagcc taggagccgt tacccggttt cattttcagt ttaggccaaa atccccgcag
+      661 gttggtaggg gcgggggcgg ggctcggtgg gcggggctga ccgcgggcgc agggccaggg
+      721 tctcacacca tctagaggat gcctggctgc gacaaggggt ccgacgggcg cctccttctg
+      781 gaatatcacc agctcgccta cgacgtcagg gattacatcg cccggaacca ggacctgtgc
+      841 tccttgaccg ccgcagacac gcagacacgg cggctcagat cacccagctc aagtgggaag
+      901 ctgccggcga ggcggaggtt catcctcaca ggggtaggta cctattcgat gtggtgtgtt
+      961 tttcctctct actctcagac cctcagccag tatcactatt ggcattcctg atccactggc
+     1021 tcagaatttc agtacattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg
+     1081 tgggccatga ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca
+     1141 gccacacaga gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaagc
+     1201 cctctgagga acgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtcc
+     1261 ctatggtgct gtgtttacag aaggaagaac acgtgggtcc aaaaaccaag aagttgaaac
+     1321 aggtatggct ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctcct
+     1381 ctccaatatc ggggctctgc aggggaggag gtcctgg
+//
+LOCUS       NHP12381                1405 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*05:01:01:01, V locus allele.
+ACCESSION   NHP12381
+VERSION     NHP12381
+DBLINK      INSDC: OR823743
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*05:01:01:01
+            IPD accession: NHP12381
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1405
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1405
+                     /gene="V"
+                     /allele="Mafa-V*05:01:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..470
+                     /gene="V"
+                     /number=2
+     exon            715..909
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          471..714
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..470,715..909)
+                     /gene="V"
+                     /allele="Mafa-V*05:01:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcaccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc cggtgagtgc ggggtcggga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtctgcccg gtgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggagggt
+      181 ctcagcgccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcgggatgc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt ggacagcgac gccgcgagtc ctaggatgga gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggagaaga cagggaccgc caagaccaac gcacagttta
+      421 ccgaatgaac ctgcggaccc tgagcggcta ctagaaccag agcgaggcct gtgagtgaca
+      481 ccggccgggg gcgcagggca ctacccctgc acatccccca cggacagccc gggtctgccc
+      541 gagtcttcgg gtccgagatc caccccgagg ccgcgggacc cggagaccct tgacctggga
+      601 gcagcctagg agccgttacc cggtttcatt ttcagtttag gccaaaatcc ctgcaggttg
+      661 gtcggggcgg ggacggggct cggtgggcgg ggctgaccgc ggacgcaggg ccaggatctc
+      721 acaccatcta gaggatgcct ggctgcgaca aggggtccga cgggcgcctc ctccgggagt
+      781 atcaccagct cgcctacgac agcagggatt acatcacctg gaaccagggc ctgtgctcct
+      841 tgaccgccac agacacggcg gctcagatca cccagctcaa gtgggaagct gccggcgagg
+      901 cggaggttca tcctcacagg ggtaggtacc tattcgatgt ggtgtgtttt tcctctctac
+      961 tctcagaccc tcagccagta tcactattgg cattcctgat ccactggctc agaatttcag
+     1021 tacattatct gcccgcggga cacacctcag agggaaaggg atgaagcgtg ggccatgacc
+     1081 aaggcatctc ctggtcatat caccacctga acctcccagg ggctgccagc cacaccgagt
+     1141 catggacagg tctccacaga cgtaacttag taccagcttg gatgaagccc tctgaggaac
+     1201 ggggaccagc tttcaggatg tgctgcgcat attaaatcaa agacgtctgt atggtgctgt
+     1261 gtttacagaa ggaagaattc gtgggtccaa aaaccaagaa gttgaaacag gtgtggctcc
+     1321 atgtctcatc ccttctattc accctcaggg tgattttaca cttctcatct ccaatatcgg
+     1381 ggctctgcag gggaggaggt cctgg
+//
+LOCUS       NHP12382                1406 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*05:02:01:01, V locus allele.
+ACCESSION   NHP12382
+VERSION     NHP12382
+DBLINK      INSDC: OR823753
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*05:02:01:01
+            IPD accession: NHP12382
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1406
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1406
+                     /gene="V"
+                     /allele="Mafa-V*05:02:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            205..471
+                     /gene="V"
+                     /number=2
+     exon            716..910
+                     /gene="V"
+                     /number=3
+     intron          73..204
+                     /gene="V"
+                     /number=1
+     intron          472..715
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,205..471,716..910)
+                     /gene="V"
+                     /allele="Mafa-V*05:02:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcaccccgg accctccttc tgctgctctc gggagccctg gtcctgaccc
+       61 agacctgtgc cggtgagtgc ggggtcggga gggaaacagc ttctgtgggg agtagctagg
+      121 ggtctgcccg gtgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggagggt
+      181 ctcagcgccc cccctcgtcc acaggcttcc acttcttgag gtatttccac accgccacgt
+      241 cccggcccgg ccgcggggtg cccccgcttc atctccatgg gctaagtgga cgacacgcag
+      301 ttcgtgcggt tggacagcga cgccgcgagt cctaggatgg agccgcgggc gccgtggatg
+      361 gagcaggagg ggccggaata ttgggagaag acagggaccg ccaagaccaa cgcacagttt
+      421 accgaatgaa cctgcggacc ctgagcggct actagaacca gagcgaggcc tgtgagtgac
+      481 accggccggg ggcgcagggc actacccctg cacatccccc acggacagcc cgggtctccc
+      541 cgagtcttcg ggtccgagat ccaccccgag gccgcgggac ccggagaccc ttgacctggg
+      601 agcagcctag gagccgttac ccggtttcat tttcagttta ggccaaaatc cctgcaggtt
+      661 ggtcggggcg gggacggggc tcggtgggcg gggctgaccg cgggcgcagg gccagggtct
+      721 cacaccatct agaggatgcc tggctgcgac aaagggtccg aggggcgcct cctccgggag
+      781 tatcaccagc tcgcctacga cagcagggat tacatcgccc tgaaccagga cctgtgctcc
+      841 ttgaccgcca cagacacggc gactcagatc acccagctca agtgggaagc tgccggcgag
+      901 gcggaggttc atcctcacag gggtaggtac ctattcgatg tggtgtgttt ttcctctcta
+      961 ctctcagacc ctcagccagt atcactattg gcattcctga tccactggct cagaatttca
+     1021 gtacattatc tgcccgcggg atacacctca gagggaaagg gatgaagcgt gggccatgac
+     1081 caaggcatcc cctggtcata tcaccacctg cacctcccag gggctgccag ccacaccgag
+     1141 tcatggacag gtctccacag acataactta gtaccagctt ggatgaaacc ctctgaggaa
+     1201 cggggaccat ctttcaggat gtgctgcgcg tattaaatca aagacgtctg tatggtgctg
+     1261 tgtttacaga aggaagaaca cgtgggtcca aaaaccaaga agttgaaaca ggtgtggctc
+     1321 catgtctcat cccttctatt caccctcagg gtgattttgc acttctcctc tccaatatcg
+     1381 gggctctgca ggggaggagg tcctgg
+//
+LOCUS       NHP12383                1410 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*06:01:01:01, V locus allele.
+ACCESSION   NHP12383
+VERSION     NHP12383
+DBLINK      INSDC: OR823745
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*06:01:01:01
+            IPD accession: NHP12383
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1410
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1410
+                     /gene="V"
+                     /allele="Mafa-V*06:01:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            203..475
+                     /gene="V"
+                     /number=2
+     exon            720..914
+                     /gene="V"
+                     /number=3
+     intron          73..202
+                     /gene="V"
+                     /number=1
+     intron          476..719
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,203..475,720..914)
+                     /gene="V"
+                     /allele="Mafa-V*06:01:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctcctgc tgctgctctc gggagccctg gccctgaccc
+       61 cgacttgtgc gggtgagtgc ggggtcggga gggaaacagc ttcttgggga gtagctaggg
+      121 gtccgccccg cgggggcgcg ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgcccc cctcgccctc aggcttccac tccttgaggt atttccacac cgccacgtcc
+      241 cggcccggcc gcgggatgcc cccgcttcat ctccatgggc taagtggacg atacgcagtt
+      301 agtgcggttt gacagcgacg ccgccgcgag tcctaggatg gagccgcggg cgccgtggat
+      361 ggagcaggag gggccggaat gttgggagga gaagacaggg accgccaaga ccaacgcaca
+      421 gtttaccgaa tgtacctgcg gaccctgagc ggctactaga accagagcga ggcctgtgag
+      481 tgacaccggc cgggggcgca ggtcactacc cctgcacatc ccccacggac agcccgggtc
+      541 tccccgagtc ttcgggtgcg agatccaccc cgaggccgcg ggacccggag acccttgacc
+      601 tgggagcagc ctaggagccg ttacccggtt tcattttcag tttaggccaa aatcaccgca
+      661 ggttggtggg ggcgggggcg gggctcggtg ggcggggctg accgcgggcg cagggccagg
+      721 gtctcacacc atctagagga tgcctggctg cgacaaaggg tccgaggggc gcctcctccg
+      781 ggagtatcac cagctcgcct acgacagcag ggattacatc acctggaacc agggcctgtg
+      841 ctccttgacc gccacagaca cggcggctca gatcacccag ctcaagtggg aagctgccgg
+      901 cgaggcggag gttcatcctc acaggggtag gtacctattc gatgtggtgt gtttttcctc
+      961 tctactctca gaccgtcagc cagtatcact attggcattc ctgatccact ggctcagaat
+     1021 ttcagtacat tatctgcccg cgggacacac ctcagaggga aagggatgaa gcgtgggcca
+     1081 tgaccaaggc atctcctggt catatcacca cctgcacctc ccaggggctg ccagtcacac
+     1141 agagtcatgg acaggtctcc acagacgtaa cttagtacca gcttggatga agccctctga
+     1201 ggaatggggg ccatctttca ggatgtgctg cgcgtattaa atcaaagacg tccctatggt
+     1261 gctgtgttta cagaaggaag aacacgtggg tccaaaaacc aagaagttga aacaggtgtg
+     1321 gctccatgtc tcatcccttc tattcaccct cagggtgatt ttgcacttct catctccaat
+     1381 atcggggctc tgcaggggag gaggtcctgg
+//
+LOCUS       NHP12384                1410 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*06:01:01:02, V locus allele.
+ACCESSION   NHP12384
+VERSION     NHP12384
+DBLINK      INSDC: OR823748
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*06:01:01:02
+            IPD accession: NHP12384
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1410
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1410
+                     /gene="V"
+                     /allele="Mafa-V*06:01:01:02"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            203..475
+                     /gene="V"
+                     /number=2
+     exon            720..914
+                     /gene="V"
+                     /number=3
+     intron          73..202
+                     /gene="V"
+                     /number=1
+     intron          476..719
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,203..475,720..914)
+                     /gene="V"
+                     /allele="Mafa-V*06:01:01:02"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atggggtcat ggcgccccgg accctcctgc tgctgctctc gggagccctg gccctgaccc
+       61 cgacttgtgc gggtgagtgc ggggtcggga gggaaacagc ttcttgggga gtagctaggg
+      121 gtccgccccg cgggggcgcg ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgcccc cctcgccctc aggcttccac tccttgaggt atttccacac cgccacgtcc
+      241 cggcccggcc gcgggatgcc cccgcttcat ctccatgggc taagtggacg atacgcagtt
+      301 agtgcggttt gacagcgacg ccgccgcgag tcctaggatg gagccgcggg cgccgtggat
+      361 ggagcaggag gggccggaat gttgggagga gaagacaggg accgccaaga ccaacgcaca
+      421 gtttaccgaa tgtacctgcg gaccctgagc ggctactaga accagagcga ggcctgtgag
+      481 tgacaccggc cgggggcgca ggtcactacc cctgcacatc ccccacggac agtccgggtc
+      541 tccccgagtc ttcgggtgcg agatccactc cgaggccgcg ggacccggag acccttgacc
+      601 tgggagcagc ctaggagccg ttacccggtt tcattttcag tttaggccaa aatcaccgca
+      661 ggttggtggg ggcgggggcg gggctcggtg ggcggggctg accgcgggcg cagggccagg
+      721 gtctcacacc atctagagga tgcctggctg cgacaaaggg tccgaggggc gcctcctccg
+      781 ggagtatcac cagctcgcct acgacagcag ggattacatc acctggaacc agggcctgtg
+      841 ctccttgacc gccacagaca cggcggctca gatcacccag ctcaagtggg aagctgccgg
+      901 cgaggcggag gttcatcctc acaggggtag gtacctattc gatgtggtgt gtttttcctc
+      961 tctactctca gaccgtcagc cagtatcact attggcattc ctgatccact ggctcagaat
+     1021 ttcagtacat tatctgcccg cgggacacac ctcagaggga aagggatgaa gcgtgggcca
+     1081 tgaccaaggc atctcctggt catatcacca cctgcacctc ccaggggctg ccagtcacac
+     1141 agagtcatgg acaggtctcc acagacgtaa cttagtacca gcttggatga agccctctga
+     1201 ggaatggggg ccatctttca ggatgtgctg cgcgtattaa atcaaagacg tccctatggt
+     1261 gctgtgttta cagaaggaag aacacgtggg tctaaaaacc aagaagttga aacaggtgtg
+     1321 gctccatgtc tcatcccttc tattcaccct cagggtgatt ttgcacttct cctctccaat
+     1381 atcggggctc tgcaggggag gaggtcctgg
+//
+LOCUS       NHP12385                1404 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*07:01:01:01, V locus allele.
+ACCESSION   NHP12385
+VERSION     NHP12385
+DBLINK      INSDC: OR823751
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*07:01:01:01
+            IPD accession: NHP12385
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1404
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1404
+                     /gene="V"
+                     /allele="Mafa-V*07:01:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            203..472
+                     /gene="V"
+                     /number=2
+     exon            717..911
+                     /gene="V"
+                     /number=3
+     intron          73..202
+                     /gene="V"
+                     /number=1
+     intron          473..716
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,203..472,717..911)
+                     /gene="V"
+                     /allele="Mafa-V*07:01:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 cgacttgtgc gggtgagtgc ggggtcggga gggaaacagc ttcttgggga gtagctagga
+      121 gtccgccccg cgggggcgcg ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgcccc cctcgccctc aggcttccac tccttgaggt atttccacac cgccacgtcc
+      241 cggcccggcc gcggggtgcc cccgcttcat ctccatgggc taagtggacg atacgcagtt
+      301 cgtgcggttt gacagcgacg ccgcgagtcc taggatggag ccgcgggcgc cgtggatgga
+      361 gcaggagggg ccggaatatt gggaggagaa gacagggacc gccaagacca acgcacagtt
+      421 taccgaatga acctgcggac cctgagcggc tactagaacc agagcgaggc ctgtgagtga
+      481 caccggccgg gggcgcaggt cactacccct ccacatcccc cacggacagt ccgggtctcc
+      541 ctgagtcttc gggtccgaga tccactccga ggccgcggga cccggagacc cttgacctgg
+      601 gagcagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat ccccgcaggt
+      661 tggtcggagt gggggttggg cttggtgggc ggggctgacc gcggtcgcag ggccagggtc
+      721 tcacaccatc tataggatgc ctggctgcga caaagggtcc gaggggcgcc ttctccggga
+      781 gtatcaccag ctcccctacg acagcaggga ttacatcgcc ctgaaccagg acccgtgctc
+      841 cttgaccgcc gcagacacgg aggctcagat cacccagctc aagtgggaag ctgccggcga
+      901 ggcggaggtt catcctcaca ggggtaggta cctattcgat gtggtgtgtt tttcctctct
+      961 actctcagac cctcagccag tatcactatt ggcattcctg atccactggc tcagaatttc
+     1021 agtacattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg tgggccatga
+     1081 ccaaggcatc tcctggtcat atcaccacct gcacctccca ggggctgcca gccacacaga
+     1141 gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaagc cctctgagga
+     1201 acgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtcc ctatggtgct
+     1261 gtgtttacag aaggaagaat tcgtgggtcc aaaaaccaag aagttgaaac aggtgtggct
+     1321 ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctctc caatatcggg
+     1381 gctctgcagg ggaggaggtc ctgg
+//
+LOCUS       NHP12386                1404 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*07:01:01:02, V locus allele.
+ACCESSION   NHP12386
+VERSION     NHP12386
+DBLINK      INSDC: OR823755
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*07:01:01:02
+            IPD accession: NHP12386
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1404
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1404
+                     /gene="V"
+                     /allele="Mafa-V*07:01:01:02"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            203..472
+                     /gene="V"
+                     /number=2
+     exon            717..911
+                     /gene="V"
+                     /number=3
+     intron          73..202
+                     /gene="V"
+                     /number=1
+     intron          473..716
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,203..472,717..911)
+                     /gene="V"
+                     /allele="Mafa-V*07:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc tgctgctctt gggagccctg gccctgaccc
+       61 cgacttgtgc gggtgagtgc ggggtcggga gggaaacagc ttcttgggga gtagctagga
+      121 gtccgccccg cgggggcgcg ggaacccggt tgcggtgccg ggaggagggt cgggagggtc
+      181 tcagcgcccc cctcgccctc aggcttccac tccttgaggt atttccacac cgccacgtcc
+      241 cggcccggcc gcggggtgcc cccgcttcat ctccatgggc taagtggacg atacgcagtt
+      301 cgtgcggttt gacagcgacg ccgcgagtcc taggatggag ccgcgggcgc cgtggatgga
+      361 gcaggagggg ccggaatatt gggaggagaa gacagggacc gccaagacca acgcacagtt
+      421 taccgaatga acctgcggac cctgagcggc tactagaacc agagcgaggc ctgtgagtga
+      481 caccggccgg gggcgcaggt cactacccct ccacatcccc cacggacagt ccgggtctcc
+      541 ctgagtcttc gggtccgaga tccactccga ggccgcggga cccggagacc cttgacctgg
+      601 gagcagccta ggagccgtta cccggtttca ttttcagttt aggccaaaat ccccgcaggt
+      661 tggtcggagt gggggttggg cttggtgggc ggggctgacc gcggtcgcag ggccagggtc
+      721 tcacaccatc tataggatgc ctggctgcga caaagggtcc gaggggcgcc ttctccggga
+      781 gtatcaccag ctcccctacg acagcaggga ttacatcgcc ctgaaccagg acccgtgctc
+      841 cttgaccgcc gcagacacgg aggctcagat cacccagctc aagtgggaag ctgccggcga
+      901 ggcggaggtt catcctcaca ggggtaggta cctattcgat gtggtgtgtt tttcctctct
+      961 actctcagac cctcagccag tatcactatt ggcattcctg atccactggc tcagaatttc
+     1021 agtacattat ctgcccgcgg gacacacctc agagggaaag ggatgaagcg tgggccatga
+     1081 ccaaggcatc ccctggtcat atcaccacct gcacctccca ggggctgcca gccacacaga
+     1141 gtcatggaca ggtctccaca gacacaactt agtaccagct tggatgaagc cctctgagga
+     1201 acgggggcca gctttcagga tgtgctgcgc gtattaaatc aaagacgtcc ctatggtgct
+     1261 gtgtttacag aaggaagaat tcgtgggtcc aaaaaccaag aagttgaaac aggtgtggct
+     1321 ccatgtctca tcccttctat tcaccctcag ggtgattttg cacttctctc caatatcggg
+     1381 gctctgcagg ggaggaggtc ctgg
+//
+LOCUS       NHP12387                1408 bp    DNA     linear   PRI 03-JAN-2024
+DEFINITION  Mafa-V*02:07:01:01, V locus allele.
+ACCESSION   NHP12387
+VERSION     NHP12387
+DBLINK      INSDC: OR823757
+KEYWORDS    IPD-MHC; MHC class I; V.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-V*02:07:01:01
+            IPD accession: NHP12387
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..1408
+                     /gene="V"
+                     /allele="Mafa-V*02:07:01:01"
+     exon            1..72
+                     /gene="V"
+                     /number=1
+     exon            204..473
+                     /gene="V"
+                     /number=2
+     exon            718..912
+                     /gene="V"
+                     /number=3
+     intron          73..203
+                     /gene="V"
+                     /number=1
+     intron          474..717
+                     /gene="V"
+                     /number=2
+     CDS             join(1..72,204..473,718..912)
+                     /gene="V"
+                     /allele="Mafa-V*02:07:01:01"
+                     /codon_start=2
+                     /product="MHC class I V antigen"
+                     /translation="X"
+ORIGIN
+        1 atgggggcat ggcgccccgg accctccttc cgctgctctg gggagccctg gccctgaccc
+       61 agacctgtgc gggtgagtgc ggggtcggga gggaaacagc ttctttgggg agtagctagg
+      121 ggtccgcccg gcgggggcgc aggaacccgg ttgcggtgcc gggaggaggg tcgggagggt
+      181 ctcagcgccc ccctcgtcca caggcttcca ctccttgagg tatttccaca ccgccacgtc
+      241 ccggcccggc cgcgggatgc ccccgcttca tctccatggg ctaagtggac gacacgcagt
+      301 tcgtgcggtt tgacagcgac gccgcgagtc ctagaatggg gccgcgggcg ccgtggatgg
+      361 agcaggaggg gccggaatat tgggaggaga agacagggac cgccaagagc aacgcacagt
+      421 ttaccgaatg aacctgcgga ccctgagcgg ctactagaac cagagcgagg cctgtgagtg
+      481 acaccggccg ggggcgcagg tcactacccc tccacatccc ccacggacag tccgggtctc
+      541 cccgagtctt cgggtccgag atccaccccg aggccgcggg acccggagac ccttgaccgg
+      601 ggagcagcct aggagccgtt acccggtttc atttacagtt taggccaaaa tccccgcagg
+      661 ttggtggggg cgggggcggg gcttggtggg ccgggctgac cgcgggcgca gggccagggt
+      721 ctcacaccat ctagaggatg cctggctgcg acaaagggtc cgaggggcgc ctcctccggg
+      781 agtatcacca gctcgcctaa gaaggcaggg attacgtcgc tctgaaccag gacctgtgct
+      841 ccttgaccgc tgcagacacg gcggctcaga tcacccagct caagtgggaa gctgccggcg
+      901 aggcggaggt tcatcctcac aggggtaggt acctattcga tgtggtgtgt ttttcctctc
+      961 tactctcaga ccctcagcca gtatcactat tggcattcct gatccactgg ctcagaattt
+     1021 cagtgcatta tctgcccgcg ggacacacct cagagggaaa gggatgaagc gtgggccatg
+     1081 accaaggcat ctcctggtca tatcaccacc tgcacctccc aggggctgcc agccacaccg
+     1141 agtcatggac aggtctccac agacacaact tagtaccagc ttggatgaaa ccctctgagg
+     1201 aacgggggcc agctttcagg atgtgctgcg cgtattaaat caaagacgtc cctatggtgc
+     1261 tgtgtttaca gaaggaagaa cacgtgggtc caaaaaccaa gaagttgaaa caggtgtggc
+     1321 tccatgtctc atcccttcta ttcaccctca gggtgatttt gcacttctcc tctccaatat
+     1381 cggggctctg caggggagga ggtcctgg
+//

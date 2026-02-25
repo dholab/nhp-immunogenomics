@@ -1,0 +1,48 @@
+LOCUS       NHP00256                 185 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Loat-DQA1*01:01, DQA1 locus allele.
+ACCESSION   NHP00256
+VERSION     NHP00256
+DBLINK      INSDC: D88579
+KEYWORDS    IPD-MHC; MHC class II; DQA1.
+SOURCE      Lophocebus aterrimus (Black Crested Mangabey)
+  ORGANISM  Lophocebus aterrimus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Lophocebus.
+REFERENCE   1
+  AUTHORS   Mwenda JM, Takenaka O, Kim HS, Yamamoto T, Katsumata Y, Bambra CS,
+            Uchihi R, Shotake T.
+  TITLE     Nucleotide sequences of the major histocompatibility complex DQA1
+            locus of Cercopithecus monkeys.
+  JOURNAL   Immunogenetics 46:363-364 (1997)
+   PUBMED   9218545
+COMMENT     IPD-MHC allele: Loat-DQA1*01:01
+            IPD accession: NHP00256
+            Species prefix: Loat
+            MHC class: II
+            Previous designations: Loat-DQA1*0101
+FEATURES             Location/Qualifiers
+     source          1..185
+                     /organism="Lophocebus aterrimus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:75566"
+     gene            1..185
+                     /gene="DQA1"
+                     /allele="Loat-DQA1*01:01"
+                     /note="previous designations: Loat-DQA1*0101"
+     exon            1..185
+                     /gene="DQA1"
+                     /number=1
+     CDS             1..185
+                     /gene="DQA1"
+                     /allele="Loat-DQA1*01:01"
+                     /codon_start=1
+                     /product="MHC class II DQA1 antigen"
+                     /translation="TYGLSGQYTHEFDGDEQFYVDLERKETAWRWPELSKFGGFDPHAL
+                     RNLAVLKHNLNIVTKR"
+ORIGIN
+        1 acttacggtc tctctggcca gtacacccat gaatttgatg gagacgagca gttctacgtg
+       61 gacctggaga ggaaggagac ggcctggcga tggcctgaat taagcaaatt tggaggtttt
+      121 gacccgcatg cactgagaaa cttggctgtg ttaaaacaca acttgaacat cgtgactaaa
+      181 cgcta
+//

@@ -1,0 +1,85 @@
+LOCUS       NHP10777                1036 bp    DNA     linear   PRI 24-AUG-2020
+DEFINITION  Caja-F7*07:01N, F7 locus allele.
+ACCESSION   NHP10777
+VERSION     NHP10777
+DBLINK      INSDC: LR213624
+KEYWORDS    IPD-MHC; MHC class I; F7.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F7*07:01N
+            IPD accession: NHP10777
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..1036
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..1036
+                     /gene="F7"
+                     /allele="Caja-F7*07:01N"
+     exon            1..64
+                     /gene="F7"
+                     /number=1
+     exon            65..331
+                     /gene="F7"
+                     /number=2
+     exon            332..607
+                     /gene="F7"
+                     /number=3
+     exon            608..884
+                     /gene="F7"
+                     /number=4
+     exon            885..986
+                     /gene="F7"
+                     /number=5
+     exon            999..1031
+                     /gene="F7"
+                     /number=6
+     exon            1032..1036
+                     /gene="F7"
+                     /number=7
+     intron          987..998
+                     /gene="F7"
+                     /number=1
+     CDS             join(1..64,65..331,332..607,608..884,885..986,999..1031,
+                     1032..1036)
+                     /gene="F7"
+                     /allele="Caja-F7*07:01N"
+                     /codon_start=1
+                     /product="MHC class I F7 antigen"
+                     /translation="MAPRILLLLLSGALALTETQAGSHSLRYLSTAVSRPGRGESRYRY
+                     IAVGYVDYTQFLRFDSDAQSPMMEPRAPWVEQERPEYWEREVKESAQTDRVNLRILLRY
+                     YNQSEIGSHKLQGMNGCDVGPDGRFLRGYHQHAYDGKDYISLNEDLRSWTAADTAAQIT
+                     QRKWEAEKYAEEFSTYLKGGCVEWLHRYLENGKETLQRTDPPKAHVAHHPISDHEATLE
+                     MLGLGLLPCGDHADLAEGWRGSDPGHRACGDQACRGWNLPEVGSCGGAFWGGAAIHLPC
+                     EARGAARAPHPEMGAIFPAHHPHRGHRCWPGCPWSCSHWSCDVEEEDLX"
+ORIGIN
+        1 atggcaccac gaatcctcct cctgctgctc tctggggccc tggccctgac cgagacccag
+       61 gcgggctccc actccttgcg gtatttgagc accgccgtgt cccggcctgg ccgcggggag
+      121 tccagataca ggtacatcgc agtgggctac gtggactaca cgcaattcct gcggtttgac
+      181 agcgacgccc agagtccgat gatggagccg cgggcgccgt gggtggagca ggagaggccg
+      241 gagtattggg agcgggaggt caaagagagc gcacaaactg accgagtgaa cctgcggatc
+      301 ctgctccgct actacaacca gagcgagatc gggtctcaca agctccaggg aatgaatggc
+      361 tgcgatgtag gacccgatgg acgcttcctt cgagggtatc accagcacgc ctacgacggc
+      421 aaggactaca tctccctgaa cgaggacctg cgctcctgga ccgcggcgga cacagcagct
+      481 cagatcaccc agcgcaagtg ggaggcagag aaatatgcag aggagttcag tacctacctg
+      541 aagggcgggt gcgtggagtg gctccacaga tacctggaga acgggaagga gacgctgcaa
+      601 cgcacggatc ctccaaaggc acacgttgcc catcacccca tctctgacca tgaggccacc
+      661 cttgagatgc tgggccttgg gcttctaccc tgtggagatc atgctgacct ggcagaggga
+      721 tggagaggat cagacccagg acacagagct tgtggagacc aggcctgcag gggatggaac
+      781 cttccagaag tgggcagctg tggtggtgct ttttggggag gagcagcgat acacctgcca
+      841 tgtgaagcac gaggggctgc cagagcccct caccctgaaa tgggagccat cttcccagcc
+      901 caccatcctc atcgtgggca tcgttgctgg cctggttgtc cttggagctg tagtcactgg
+      961 agctgtgatg tggaggaaga agatctggct gggaagggat agaaacagag agagatactc
+     1021 tcaggctgca atgtga
+//

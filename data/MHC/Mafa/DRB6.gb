@@ -1,0 +1,2684 @@
+LOCUS       NHP00323                5227 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:01:01:01, DRB6 locus allele.
+ACCESSION   NHP00323
+VERSION     NHP00323
+DBLINK      INSDC: AY340696
+            INSDC: AF492329
+            INSDC: OR823574
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Leuchte N, Berry N, KÃ¶hler B, Almond N, LeGrand R, Thorstensson R,
+            Titti F, Sauermann U.
+  TITLE     MhcDRB-sequences from cynomolgus macaques (Macaca fascicularis) of
+            different origin.
+  JOURNAL   Tissue Antigens 63:529-537 (2004)
+   PUBMED   15140028
+REFERENCE   2
+  AUTHORS   Blancher A, Tisseyre P, Dutaur M, Apoil PA, Maurer C, Quesniaux V,
+            Raulf F, Bigaud M, Abbal M.
+  TITLE     Study of Cynomolgus monkey (Macaca fascicularis) MhcDRB (Mafa-DRB)
+            polymorphism in two populations.
+  JOURNAL   Immunogenetics 58:269-282 (2006)
+   PUBMED   16572321
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:01:01:01
+            IPD accession: NHP00323
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0101; Mafa-DRB6*01:01
+FEATURES             Location/Qualifiers
+     source          1..5227
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5227
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:01:01:01"
+                     /note="previous designations: Mafa-DRB6*0101;
+                     Mafa-DRB6*01:01"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     exon            3307..3588
+                     /gene="DRB6"
+                     /number=2
+     exon            4276..4386
+                     /gene="DRB6"
+                     /number=3
+     exon            4863..4886
+                     /gene="DRB6"
+                     /number=4
+     exon            5213..5227
+                     /gene="DRB6"
+                     /number=5
+     intron          271..3306
+                     /gene="DRB6"
+                     /number=1
+     intron          3589..4275
+                     /gene="DRB6"
+                     /number=2
+     intron          4387..4862
+                     /gene="DRB6"
+                     /number=3
+     intron          4887..5212
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..270,3307..3588,4276..4386,4863..4886,5213..5227)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:01:01:01"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQGKSECQIFNGRERVRYLNRYIHKREENLRFDSDVGEFQAV
+                     TELGRPVAENWNSQKGILEEKRDKVDTYCRYNX"
+ORIGIN
+        1 cacgtttctt ggagcagggt aagtctgagt gtcaaatctt caacgggagg gagcgggtgc
+       61 ggtacctgaa cagatacatc cataaacggg aggagaacct gcgcttcgac agcgacgtgg
+      121 gggagttcca ggcggtgacg gaactggggc ggcctgtcgc ggagaactgg aacagccaga
+      181 agggcatcct ggaggagaag cgggacaagg tggacaccta ctgcagatac aattaacggg
+      241 tttttgagag cttcacagtg cagcgatgag gtgagcgcgg cgtggggcgg ggcctgagtc
+      301 ccagtgagct ggaaatctga gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt gtgtgtgtgt
+      361 gtgtgtgaga gagagagaga gagagagaga gagagccatc tgtgagcatt tagaatcctc
+      421 tcaatctcga gcaagcagtt ctgagagcac aggtgtgtgt gtagaatgta gatttgtctg
+      481 tgtctgtgtg tctgttgtgg gaggggaagc aggagggggc tgcctcttat ccttggaggc
+      541 ctctgtgggg aggtgacatg ggagatgggt gcagggggct ggagagagga gaccttgatt
+      601 gtctcaggtc cttacagatg cagggaaggg aaatggaagg ggtgtgtggt tggggtgaag
+      661 gtttagggga ggagagctga ggggtatgga aagttcggga taatgtgagg aggccagttc
+      721 caggctgtcc ctggaacaca cccttcatgt aatctctgaa ataaaagtgt gtggtgtatg
+      781 tttgcaaaag cattagatta acttctaggg gaactgagga gacctctgag gcacctctga
+      841 agcttcttta gatctaaatt tcttgccatt ttttgttttc ttagtgtgta tatttttact
+      901 tagctgaatg attgtgaaac tcacttcttg aattaaagtt ttaacacatt gttattattt
+      961 tattataatg ctaatagttt tctagtagtt acatactatt cttttatatg tgatagttgt
+     1021 gacacaacgt acctcacttt ccctttcctt gacctttttt atgacattct ccaaaagctg
+     1081 aaaatgtatg tttctggtta atttttaacc tatctttttt gatttgtaat tcttttgaat
+     1141 tattttgacc tatttattgg cgagttataa ttactgttct aagaattccc tatcatattt
+     1201 ggtaggtaat ggacaataat ctattggcta ttatctctag ggcttagcat ttttctcagt
+     1261 gattttgtgg gttctttgta ctgtaagatt attaacactt tcttgatatt tcattcagca
+     1321 ttttctccag tttgtggttt gtatgttgat tttgaaaact tttttccatg ttaaggattt
+     1381 gaacgttttt tgttcgtttg tttttggttt gttttttttg agacagagtc tccctctgtt
+     1441 gcccaggctg gagtgcggtg gtgcgatctc ggctccctgc aacctctgcg tccctggttc
+     1501 aagcgattct cctgcctctg cctcctgagt agttgggatt acagccatgt accacaacac
+     1561 tcggctaatt tttgtatttt tagtaaagac ggtttcacca tgttagtcag gctgttctca
+     1621 aactcctgac ctcggcctcc caaagtgcta ggattacagg cttgagcctc tgcacccggc
+     1681 ctgaacattt ttatttaata aaatatatta caaaatttta ttaatgtttt acaatcaata
+     1741 tacaaactat aactttgtgg tattgttgtc tccaggtctc tccttccttc tcacacacaa
+     1801 aaaaattgta ttattgagag tatgctagta ttagggattt tctgaggcat aagcacccca
+     1861 actaatgagt cccagaccct gcctggatcc aaatgtcatt ttggaaaaaa aaaaatcatt
+     1921 tcacaataat agatctaata atagctatgt ttgttttgca tgggagatac attcgtcagc
+     1981 taaatgtaaa tataagaact ttcaaattta aagttcttat ttgaaagttc aaatttaaac
+     2041 tttcaaaatt aaaatgactt tcctgaatcc ttctcactgc tttaggactc atgcgtttct
+     2101 aggagcttaa agatttggag aatcggccag gtgtgatggc tcacacctgt aatccccgca
+     2161 ccacggcggg ggatcatgag gtcaggagat ggagaccatc ttgtctaaca cggtgaaacc
+     2221 ccatctctac taaaaataca aaaaattagc cgtgcatggt ggcacgtgcc tgtagtccaa
+     2281 gacactcagg atgctgaggc aggagaatca cttgaatctg ggaggtggaa gttgcagtga
+     2341 accaagatgg tgtcactgca ttccagcctg gaagacagag caagactcat ctcaaaaaaa
+     2401 aaaaaagaga gaattggaga atcatttctg cttgttttgc acaggagata cattcatcag
+     2461 ctaaatgtga atataagaac tttcaaaact aaaatgacgt tccctaattc ctaatctctg
+     2521 ctttaggact caggcttttc taggaacata aaaatttctg tcatttctgt ctgtcctacc
+     2581 ttcccaggag cagaaccatt tctgtgccgt tctaaggtgt gagagcatgg cggtagtatt
+     2641 cctaaaaatt cattctcggt ttcctcatgt accctatctg tccctttatc tatctacatt
+     2701 gttttaaatc atactcttct ttcaaggtgt aagaggatga taaataggtg ccaagtggag
+     2761 cgcccaagtg tgatgagtcc tctcacagtg gaatggagtg agaagcttct gacctcataa
+     2821 tttgaaggct ctcttcagtc ttttgtttta tatattttac gtaaatgaat cctcatataa
+     2881 ccccaaaagg taaattagta taactaacct acattatacg tgagaaagtt aagacaaaaa
+     2941 agaatcgaaa aactcttcca ggatcaacca gtaaaaggca gaccttggat ttgaaccagg
+     3001 caacctggct cagacatcag ttttaattac tacactcttt accttccaag atttgtaaac
+     3061 acttcaacaa tgcatgacaa aatcgagcta tgaagaaaca aattaaattt ttgcaacatc
+     3121 tctcaaatct aatgggtcct cactatcaca attaaattcc aggctgatga cactataagg
+     3181 gcatataggc agctgtgctg gagacctgtc caaggccaga gcctgggttt acagagaagc
+     3241 aaacaaacag ctgaacaagg agactctaac ttcctgattc attccctcta cctttttttg
+     3301 tcctagtcca acctaaggtg actgtgtatc ctgcaaagac ccagcccctg cagcaccaca
+     3361 acctcctggt ctgctctgtg aacggtttct atccaggcag cactgaagtc aggtggttcc
+     3421 ggaacggcca ggaagagaag gctggggtgg tgtccacagg cctgatccag aatggagact
+     3481 ggaccttcca gaccctggtg atgctggaaa cagttcctcg gagtggagag gtttacacct
+     3541 gccaagtgga gcatccaagc atgaccagcc ctctcacagt ggaatggagt gagcagcttt
+     3601 ctgacttcat gcatttctca cccaccaaga aggggactgt gctaatctct gagtgtcagg
+     3661 tttctcctct cccacatcct attttcgttt gctccatgtt ctcatctcca tcagcatagg
+     3721 tcagtggggg tagccctgta atcgtttcta gaaacacctg tacctcctgg agaagcagtc
+     3781 gtgcctgcca ggcaggagag gctgtccctc ttttgaacct ccccgtgatg tcacaggtca
+     3841 ggatcaccca gtctccctgg gctccaggcc ctgtctctgg gtctgagact gagtttctgg
+     3901 tgctgttttt ctgagttgtt gtgatctgag aagaggagaa ctgtaggggc cttcctgacg
+     3961 tgaggggagt ccaatctcag gtctgccttt tattagctct gtcactctag acaaagctag
+     4021 agtctcaggc tttctgtgga tcagatgttg aagtagtgcc ttacatcaag gctgtaatat
+     4081 tagaatgaat ttgatccctg aatcttgtaa ctgttcagtg tggtttgaaa accttttttt
+     4141 cctccagaaa tggctagtta ttttagttct tacagggcag tcttcttccc cattttcaaa
+     4201 tctctgaatc tcagggtctc aattaaagag gttcaatctg gaataaacat cactaaagct
+     4261 ggcttcctct ctcaggagca cagtctgaat ctgcacagaa caagatgctg agtggagtcg
+     4321 gaggctttgg gctgggcctg ctcttccttg gggccgggct gttcatttac ttcaggaatc
+     4381 agaaaggtga ggagcttttg ggagctaagt ctctccatag gcttttctgg aggaggaact
+     4441 atggctttgc tgaggttagt tctcagtata tgagtggccc tggataaagc ctttctttcc
+     4501 ccagatgacc gccaatgtcc tgctaatcca gaaatgatca gtacatggtt actatgtcaa
+     4561 agcataatag cttgtggcct gcagagacaa gagaaaggtt aacaagtagg ggtcctttgg
+     4621 tttgagatcc tggagcaaat taagggagag ccactaaggc taatgcagtt acactggatc
+     4681 ctgtgacaga cacttcatgc ttcatgggtc acatggtctg tttctgctcc tgtctgccct
+     4741 ggctggtgtg ggttgtggtg gtagagaaat ctcaggtggg agatctgggg ctgggacatt
+     4801 gtgttggagg acagatttgc ttccatatct tttaagtgta tatcttttcc tctttttccc
+     4861 aggacactct ggacttcacc caataggtaa taccttttaa tcctctttta gaaacagatt
+     4921 tgatctccct agaatgacgg cagaggtgat aaggcatgag acagaaacaa taggaaagtc
+     4981 tttggatcca aatttctgat caggcaattt acatcaaaac tcctcctctc cacttagaaa
+     5041 aggcctgcgc tctgcaggag cattggctca gggagactca agaacttgtt tttcttcttc
+     5101 ctgcagtgct ctcatctgag tcattgaaag cggggaaaag aagcttttag taaaaccagg
+     5161 tctgaaaaca atgtcctctg tctctgcagg actcctgaac tggactcctg agctgaagtg
+     5221 ccgatga
+//
+LOCUS       NHP01203                 270 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:02, DRB6 locus allele.
+ACCESSION   NHP01203
+VERSION     NHP01203
+DBLINK      INSDC: AM086040
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, Rouweler AJ, de Groot NG, Louwerse A, Otting N,
+            Verschoor EJ, Bontrop RE.
+  TITLE     Extensive sharing of MHC class II alleles between rhesus and
+            cynomolgus macaques.
+  JOURNAL   Immunogenetics 58:259-268 (2006)
+   PUBMED   16470376
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:02
+            IPD accession: NHP01203
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0102
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..270
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:02"
+                     /note="previous designations: Mafa-DRB6*0102"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..270
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:02"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQVKCKCRIFNGTERVQYLNRNIHKREENLRFHSNLGEFQAV
+                     TELGRPVAENWNSQKGILEEKPDKVDTYCRYNYGVFESFTVQRR"
+ORIGIN
+        1 cacgtttctt ggagcaggtt aagtgtaagt gtcgtatctt caatgggact gagcgggtgc
+       61 agtacctgaa cagaaacatc cataaacggg aggagaacct gcgcttccac agcaacctgg
+      121 gggagttcca ggcggtgacg gaactggggc ggcctgtcgc ggagaactgg aacagccaga
+      181 agggcatcct ggaggagaag ccggacaagg tggacaccta ctgcagatac aattacgggg
+      241 tttttgagag cttcacagtg cagcggcgag
+//
+LOCUS       NHP01293                 203 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:03, DRB6 locus allele.
+ACCESSION   NHP01293
+VERSION     NHP01293
+DBLINK      INSDC: AF492346
+            INSDC: FN433746
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Blancher A, Tisseyre P, Dutaur M, Apoil PA, Maurer C, Quesniaux V,
+            Raulf F, Bigaud M, Abbal M.
+  TITLE     Study of Cynomolgus monkey (Macaca fascicularis) MhcDRB (Mafa-DRB)
+            polymorphism in two populations.
+  JOURNAL   Immunogenetics 58:269-282 (2006)
+   PUBMED   16572321
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:03
+            IPD accession: NHP01293
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0103
+FEATURES             Location/Qualifiers
+     source          1..203
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..203
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:03"
+                     /note="previous designations: Mafa-DRB6*0103"
+     exon            1..203
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..203
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:03"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="FLEQAKCDCHIFNGTERVRYLNRYIHKREENLRYNSDLGEFQAVT
+                     ELGWPVTELQLWGFX"
+ORIGIN
+        1 ttcttggagc aggctaagtg tgactgtcat atctttaatg ggactgagcg ggtgcggtac
+       61 ctgaacagat acatccataa aagggaggag aacctgcgct acaacagcga cctgggggag
+      121 ttccaggcgg tgacggaact ggggtggcct gtcacagagt tacaattatg gggtttttga
+      181 gagcttcaca gtgcagcgat gag
+//
+LOCUS       NHP01294                 180 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:04, DRB6 locus allele.
+ACCESSION   NHP01294
+VERSION     NHP01294
+DBLINK      INSDC: AF492321
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Blancher A, Tisseyre P, Dutaur M, Apoil PA, Maurer C, Quesniaux V,
+            Raulf F, Bigaud M, Abbal M.
+  TITLE     Study of Cynomolgus monkey (Macaca fascicularis) MhcDRB (Mafa-DRB)
+            polymorphism in two populations.
+  JOURNAL   Immunogenetics 58:269-282 (2006)
+   PUBMED   16572321
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:04
+            IPD accession: NHP01294
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0104
+FEATURES             Location/Qualifiers
+     source          1..180
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..180
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:04"
+                     /note="previous designations: Mafa-DRB6*0104"
+     exon            1..180
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..180
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:04"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="FLEQAKCECHIFNGSEQVQYLNRNIHKRGENLGFHSDVGEFQAVT
+                     QLGRPVTEYNYRVF"
+ORIGIN
+        1 ttcttggagc aggctaagtg tgagtgtcat atcttcaatg ggtctgagca ggtgcagtac
+       61 ctgaacagaa acatccataa acggggggag aacctgggct tccacagcga cgtgggggag
+      121 ttccaggcgg tgacgcaact ggggcggcct gtcacagagt acaattaccg ggtttttgag
+//
+LOCUS       NHP01295                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:05, DRB6 locus allele.
+ACCESSION   NHP01295
+VERSION     NHP01295
+DBLINK      INSDC: AF492314
+            INSDC: AM911061
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Blancher A, Tisseyre P, Dutaur M, Apoil PA, Maurer C, Quesniaux V,
+            Raulf F, Bigaud M, Abbal M.
+  TITLE     Study of Cynomolgus monkey (Macaca fascicularis) MhcDRB (Mafa-DRB)
+            polymorphism in two populations.
+  JOURNAL   Immunogenetics 58:269-282 (2006)
+   PUBMED   16572321
+REFERENCE   2
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:05
+            IPD accession: NHP01295
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0105
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:05"
+                     /note="previous designations: Mafa-DRB6*0105"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:05"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="FLKQAKCECHIFNGTEPVQYLNRYIHKREENLRFHSDVGEFQAVT
+                     ELEWPVAENWNSRMGILEKRDKVDSYCRYNYGVFESFTEQRX"
+ORIGIN
+        1 ttcttgaagc aggctaagtg tgagtgtcat atcttcaatg ggactgagcc ggtgcagtac
+       61 ctgaacagat acatccataa acgggaagag aacctgcgct tccacagcga cgtgggggag
+      121 ttccaggcgg tgacagaact ggagtggcct gtcgcggaga actggaacag ccggatgggc
+      181 atcctagaga agcgggacaa ggtggactcc tactgcagat acaattacgg ggtttttgag
+      241 agcttcacag agcagcgatg ag
+//
+LOCUS       NHP02007                 261 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:06, DRB6 locus allele.
+ACCESSION   NHP02007
+VERSION     NHP02007
+DBLINK      INSDC: AM911053
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:06
+            IPD accession: NHP02007
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0106
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..261
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:06"
+                     /note="previous designations: Mafa-DRB6*0106"
+     exon            1..261
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..261
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:06"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQVKCKCRIFNGTERVQYLNRNIHKREENLRFHSNLGEFQAVTE
+                     WGGLSRRTGTARRASWRRSRTRWTPTADTITGFLRASQSSD"
+ORIGIN
+        1 ttggagcagg ttaagtgtaa gtgtcgtatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagaaaca tccataaacg ggaggagaac ctgcgcttcc acagcaacct gggggagttc
+      121 caggcggtga cggaatgggg cggcctgtcg cggagaactg gaacagccag aagggcatcc
+      181 tggaggagaa gccggacaag gtggacacct actgcagata caattacggg gtttttgaga
+      241 gcttcacaga gcagcgatga g
+//
+LOCUS       NHP02008                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:07, DRB6 locus allele.
+ACCESSION   NHP02008
+VERSION     NHP02008
+DBLINK      INSDC: AM911054
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:07
+            IPD accession: NHP02008
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0107
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:07"
+                     /note="previous designations: Mafa-DRB6*0107"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:07"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERMQYLNRYIHKREENLRFHSDVGEFQAVTQ
+                     LGRPVAENWNSQKGILEEKRDX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcggat gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt gggggagttt
+      121 caggcggtga cgcaactggg gcggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacta ggtggacacc tactgcagat acaattacgg ggtttttgag
+      241 agcttcacag agcagccatg ag
+//
+LOCUS       NHP02009                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:08, DRB6 locus allele.
+ACCESSION   NHP02009
+VERSION     NHP02009
+DBLINK      INSDC: AM911055
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:08
+            IPD accession: NHP02009
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0108
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:08"
+                     /note="previous designations: Mafa-DRB6*0108"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:08"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERMQYLNRYIHKREENLRFHSDVGEFQAVTQ
+                     LGRPVAENWNSRMGILEEKRDX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcggat gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt gggggagttt
+      121 caggcggtga cgcaactggg gcggcctgtc gcggagaact ggaacagccg gatgggcatc
+      181 ctggaggaga agcgggacta ggtggacacc tactgcagat acaattacgg ggtttttgag
+      241 agcttcacag agcagccatg ag
+//
+LOCUS       NHP02010                5121 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:09:01:01, DRB6 locus allele.
+ACCESSION   NHP02010
+VERSION     NHP02010
+DBLINK      INSDC: AM911056
+            INSDC: MW679618
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+REFERENCE   2
+  AUTHORS   Karl JA, Prall TM, Bussan HE, Varghese JM, Pal A, Wiseman RW,
+            O'Connor DH.
+  TITLE     Complete sequencing of a cynomolgus macaque major histocompatibility
+            complex haplotype.
+  JOURNAL   Genome Res 33:448-462 (2023)
+   PUBMED   36854669
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:09:01:01
+            IPD accession: NHP02010
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*01:09; Mafa-DRB6*0109
+FEATURES             Location/Qualifiers
+     source          1..5121
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5121
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:09:01:01"
+                     /note="previous designations: Mafa-DRB6*01:09;
+                     Mafa-DRB6*0109"
+     exon            1..208
+                     /gene="DRB6"
+                     /number=1
+     exon            3189..3461
+                     /gene="DRB6"
+                     /number=2
+     exon            4160..4270
+                     /gene="DRB6"
+                     /number=3
+     exon            4756..4779
+                     /gene="DRB6"
+                     /number=4
+     exon            5107..5121
+                     /gene="DRB6"
+                     /number=5
+     intron          209..3188
+                     /gene="DRB6"
+                     /number=1
+     intron          3462..4159
+                     /gene="DRB6"
+                     /number=2
+     intron          4271..4755
+                     /gene="DRB6"
+                     /number=3
+     intron          4780..5106
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..208,3189..3461,4160..4270,4756..4779,5107..5121)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:09:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="QVSWSRLSVSVISSMGLSRCSTX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggtct gagcaggtgc
+       61 agtacctgaa cagaaacatc cataaacggg gggagaacct gggcttccac agcgacgtgg
+      121 gggagttcca ggcggtgacg caactggggc ggcctgtcac agagttacaa ttaccgggtt
+      181 tttgagagct tcacagtgca gcgatgaggt gagagcagcg gggggcaggg cctgagtccc
+      241 tgtgagctgg gaatctgaga gtgtgtgtgt gtgtctgtgt gtgtgtgtat gtgagagaga
+      301 gagagagaga gcgccatctg tgagcattta gagtcctctc tatcctgagg aagcagttct
+      361 gagagcacag gtgtgtgtag agtgtggatt tgtctgtgtg tctgttgtgg gaggggaagc
+      421 aggagggggc ttcttctaat ccttggaggc ctctgtgggg aggtgacatg ggaggtggga
+      481 gcaggtggct ggagagagag gagaccttga ttgtcctgga tccttaaaga tgcagggaag
+      541 ggaagtgtaa ggtgtatgtg gttggggtga aagtttaggg gaggagagct gaggggtatg
+      601 gaagcttcgg gataacgtga gggggccagt tccagactgt ccctggcaca cacccttcat
+      661 gtaatctctg aaataaaagt gcatggtgtt tgtctgcgaa agcattagat taacttctaa
+      721 gggaactgag gagacctctg aggcaattct gaagcttctt taggtctaaa tttctttttt
+      781 tgttgttttc ttagtgtgta tatttttaca tagctgaaat gattgtgaaa ctaacttctt
+      841 gaattaaagt tttagcacat tgttattatt ttattataat gctaataatt ttctagtagt
+      901 tatgtattat tatttcatat gtaatagttg tgacacaact tacctcactt tctcttttgt
+      961 tgacctttat tatgacattc tccaaaagct gaaaatgtat gtttctggtt aatttttaat
+     1021 ttatattttt tgatttgtaa ttcttttcaa taattttgac ctacttatgt gccggttata
+     1081 attactgctc taagaattcc ctgttgtatt tggtaggtaa tggacaataa tctattgtct
+     1141 gttatctcta gggcttagta tttttctcag tgattttgtg gattctttgt actgtaagat
+     1201 tattaacact ttcttgatat tttattcagc attttctcaa gtttgtggtt tgtatgttga
+     1261 ttttgaaaat tcttttccat gttaaggatt taaacgtttt ttgtttgttt gtttgttttc
+     1321 gggctttttt tttttttttt tttttgagac agagtcttac tctgttgccc aggctggaat
+     1381 gcagtggtgc ggtctcggct cactgcaacc tccacctccc aggttcaagc gattctcctg
+     1441 cctctgcctc ctgagtagct gggattacag acacgcacca ccacgctcaa ctaatttttc
+     1501 tatttttagt agagatgggg tttcaccacg ttggtcaggc tgttctcaaa ctcctgacct
+     1561 cggcctccca aagtgctggg attacaggct tgagccacag cacctcgcct gaacgttttt
+     1621 acttattaaa atatattgca aatttttatt aatgatttac aatctatctt aaatctacca
+     1681 tttcgtggta ttgttgtctc caggtttctc cttccttctt acaaaaattg tattgttgag
+     1741 agtctgctag tgtcagggat tttcctgggc ataagcaccc caagtaacga gtcccagacc
+     1801 ctgccttgat ccaaacgtcc ttctggaaaa aaatcagttt acaatgatag gtctgataat
+     1861 agttatgttt gttttgcacg ggagatgcat tgatcagcta aatgtaaata taagaacttt
+     1921 caaaattaaa gtggctttcc ttaatccttc ttgctgcttt aggactcatg cttttctagg
+     1981 agaaagagtt ggagaatcga ctgggcgctg tggctcacac ctgtaatccc agcactttgg
+     2041 gaggccgagg agggcgaatg acgaggtcag aagatggaga ctatcctgtc taataccgtg
+     2101 aaaccccatc tctactaaaa atacaaaaaa ttagctgggc atggttgcat gtgcctgtag
+     2161 ttccagctac tggggaggcc gcagcaggag aatcacttga aatcgggagg tggaggttgc
+     2221 aacgagccaa gatggcacca ctgcattcca gcctgggtga tggagcaaga ctccatctca
+     2281 aaaaaaaaaa aaaaaaaaaa aagatttgga gaatcattgc tgcttgtttt gcacaggaca
+     2341 ttcattgatc acctaaatgt aaatataaga attttcaaaa ctaaaatgac gttccttaat
+     2401 tcctaaatct caggattttc taggaacata aagatttgga gaatcatttc tgtctgtccc
+     2461 acgttcccgg gtcagaacca tttctgtggt gttctaaggt gtgagcacac agcagtagta
+     2521 ttcctaaaac ttcatactca gtttcctcat gtaccctact ctgtcccttt atctatccac
+     2581 attgtattaa aacatactct tctctcaagg tgtaagagga tgataatagg tgccaagtgg
+     2641 agcacccaag tgtgatgagc ccttttacag tgaaatggag tgagaagctt tctgacctca
+     2701 caaattgacg gctatcttca gtcattgttt tatatgtttt acataaatta atcctcatat
+     2761 aaccccaaga ggtaaattag tataattaac ctacattata cgtgggaaag atgagacata
+     2821 aaagaatcaa aaaactcttc caggatcaac cagtaaaagg cagaccttgg atttgaatca
+     2881 ggcaaccggg ctcagaaatc aattttaatt actacacgct gtactttcaa aaatttgtaa
+     2941 acactttaac aatgcatgcc aatttcaagc tatgaagaaa caaatacaat ttttataaca
+     3001 tctctcaaat caaataggtc cacactatca agattaaatt ccagactgat gacactgtga
+     3061 ggccacatgg ccagctgtgc tggaggcctg gtcaaggtca gagcctgggt ttacagagaa
+     3121 gcagacaaac agtcaaacaa ggagactcta acttcctgat tcattctctc tacctttttt
+     3181 tctcctagtc caacctaagg tgactgtgta tcctgcaaag actgagcctc tgcagcacca
+     3241 caacctcctg gtctgctctg tgagtggttt ttatccaggc agcattgaag tcaggtggtt
+     3301 ccggaacggt caggaagaga aggccggggt ggtgtccaca ggcctgatcc agaatggaga
+     3361 ctggaccttc cagaccctgg tgatgctgga aacagttcct cagagtggaa cctgccaact
+     3421 ggagcatcca agcgtgacga gccctctcac agtggaatgg agtgagcagc tttctgactt
+     3481 catgaatttc tcacccacca aaaagggtac tttgctaatc cctgagtatc aggtgtctcc
+     3541 tctcccacat cctatgttca tttgctccat gttctcatct ccatcagcgt ggttcactgg
+     3601 gggtagccct gtaatagttt ctagaaacac ctgtacccca ggaaagcagt cacacctgcc
+     3661 aggcaggaga ggctgtccct cttttgaacc tccccatgat ggcacaggtc agggtcaccc
+     3721 agtctccctg ggctccagga cctgccttgg gtctgagact gagtttctgg tgctgttgat
+     3781 ctgagttgtt tgttgtgatc tgggaagagg agaagtgtag gggccttcct gacataaggg
+     3841 gagtccaatc tcagctctgc cttttattag ctctgtcact ctagacaaac tacttaacct
+     3901 cattgagact caggctttct gttgatcaga ttttgaagtc gtgccttaca tcaaggctgt
+     3961 aatatttgaa tgagtttgat gcctggacct tgtaactgtt cagtgtgatt tgaaaaccgt
+     4021 ttattccccc agaaatggct agttatttta gttcttaggg cagccttctt ccccattttg
+     4081 aaagctctga atcttagggt ctcaatttaa agaggttcaa tttggaataa acatcactaa
+     4141 agctggcttc ctctctcagg agcacggtct gaatctgcac agagcaagat gctgagtgga
+     4201 gtcgggggct ttgtgctggg cctgctcttc cttggggccg ggctgttcat ctacttcagg
+     4261 aatcagaaag gtgaggagcc tttggtaact ggttctctcc ataggctttt ctggaggagg
+     4321 aactatggct ttgctgaggt tagttctcag tatatgagtg gccctgaata aagcctttct
+     4381 ttccccaaat gacctccaat gtcctgataa tctagaaatt atcagtgcat ggtttctatg
+     4441 tcaaagcata acagccataa tagcttgtgg cctgcagaga tgagagaaag gttaacgagt
+     4501 agggatcctt tggttccaga tcctggagca aattaaggaa gagccactaa gattaatgca
+     4561 attacactgg atcctgtgac agacacttca tgcttcatgg gtcacatggt ctgtttctgc
+     4621 tcctctctgc catggttggt gtgggtggtg gtgatagaga aacctcaggt gggagatcta
+     4681 gggctgggac attgtgttgg aggacagatt tgcttccgta tcttttaagt gtatatcttt
+     4741 tcctcttttt cccaggacac tctggacttc tgccaatagg taacaccttt taatcctctt
+     4801 tcagaaacag attcggtttc cctagaatga cggtagaggt gataaggcat aagacacaaa
+     4861 taataggaaa gactttggat ccaaatttct gatcaggcaa tttacaccaa aactcctcct
+     4921 ctccacttag aaaaggcctg tgctctgcag gagtattggc tcggggagac tcaggaacct
+     4981 cgtttttctt cttcctgcag tgctcttgtc tgagtcattg aaagcaggga aaagaaactt
+     5041 ttagtaaagc caggtctgaa aacaatttcc tctgtctctg tgggactcct gaactggact
+     5101 cctgagctga agtgcagatg a
+//
+LOCUS       NHP02011                 265 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:10, DRB6 locus allele.
+ACCESSION   NHP02011
+VERSION     NHP02011
+DBLINK      INSDC: AM911057
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:10
+            IPD accession: NHP02011
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0110
+FEATURES             Location/Qualifiers
+     source          1..265
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..265
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:10"
+                     /note="previous designations: Mafa-DRB6*0110"
+     exon            1..265
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..265
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:10"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERVQYLNRYIHKREENLRFHSDVGEFQAVTE
+                     LEWPPVAENWNSQKGILEEKRDKGDTYCINNYGVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcgggt gcagtaccta
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt cggggagttc
+      121 caggcggtga cggaactgga gtggccgcct gtcgcggaga actggaacag ccagaagggc
+      181 atcctggagg agaagcggga caagggggac acctactgca taaacaatta cggggttttt
+      241 gagagcttca cagagcagcg atgag
+//
+LOCUS       NHP02012                 259 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:11:01, DRB6 locus allele.
+ACCESSION   NHP02012
+VERSION     NHP02012
+DBLINK      INSDC: AM911058
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:11:01
+            IPD accession: NHP02012
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*011101
+FEATURES             Location/Qualifiers
+     source          1..259
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..259
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:11:01"
+                     /note="previous designations: Mafa-DRB6*011101"
+     exon            1..259
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..259
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:11:01"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAVSE
+                     LEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtgt cggaactgga gtggcctgtc gcagagaact ggaacagccg gatgggcatc
+      181 ctagagaagc gggacaaggt ggacatctac tgcagataca attatagggt ttttgagagc
+      241 ttcacagagc agcgatgag
+//
+LOCUS       NHP02013                 200 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:12, DRB6 locus allele.
+ACCESSION   NHP02013
+VERSION     NHP02013
+DBLINK      INSDC: AM911059
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:12
+            IPD accession: NHP02013
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0112
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:12"
+                     /note="previous designations: Mafa-DRB6*0112"
+     exon            1..200
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:12"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGTERVQYLNRYIHKREENLRFHSDLGEFQAVTE
+                     LGWPVTELQLRGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgcga gtgtcatatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc acagagttac aattacgggg tttttgagac
+      181 cttcacagag cagcgatgag
+//
+LOCUS       NHP02014                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:13:01, DRB6 locus allele.
+ACCESSION   NHP02014
+VERSION     NHP02014
+DBLINK      INSDC: AM911060
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:13:01
+            IPD accession: NHP02014
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*011301
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:13:01"
+                     /note="previous designations: Mafa-DRB6*011301"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:13:01"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCVCHIFNGTERVQYLNRNTHKREENLRFHSDLGEFQAVTE
+                     LGRPVAESWNSQKGILEEKRDKVDSYCRYNYGVFDSFIEQRX"
+ORIGIN
+        1 ttggagcagg ctaaatgtgt gtgtcatatc ttcaatggga ctgagcgggt gcagtaccta
+       61 aacagaaaca cccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga cggaactggg gcggcctgtc gcggagagct ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacaa ggtggactcc tactgcagat acaattacgg agtttttgat
+      241 agcttcatag agcagcgatg ag
+//
+LOCUS       NHP02015                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:14, DRB6 locus allele.
+ACCESSION   NHP02015
+VERSION     NHP02015
+DBLINK      INSDC: AM911062
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:14
+            IPD accession: NHP02015
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0114
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:14"
+                     /note="previous designations: Mafa-DRB6*0114"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:14"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERMHYLNRYIHKREENLRFHSDVGEFQAVTE
+                     LGWPVAENWNSQKGILEEKLDKVDSYCRYNYGVFENLTEHPR"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcggat gcattacctg
+       61 aacagataca tccataaacg agaggagaac ctgcgcttcc acagcgacgt cggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agctggacaa ggtggactcc tactgcagat acaattacgg ggtttttgag
+      241 aacctcacag agcatccaag ag
+//
+LOCUS       NHP02016                4152 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:13:02:01, DRB6 locus allele.
+ACCESSION   NHP02016
+VERSION     NHP02016
+DBLINK      INSDC: AM911063
+            INSDC: OR823575
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:13:02:01
+            IPD accession: NHP02016
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*011302; Mafa-DRB6*01:13:02
+FEATURES             Location/Qualifiers
+     source          1..4152
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..4152
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:13:02:01"
+                     /note="previous designations: Mafa-DRB6*011302;
+                     Mafa-DRB6*01:13:02"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     exon            2221..2493
+                     /gene="DRB6"
+                     /number=2
+     exon            3193..3303
+                     /gene="DRB6"
+                     /number=3
+     exon            3789..3812
+                     /gene="DRB6"
+                     /number=4
+     exon            4138..4152
+                     /gene="DRB6"
+                     /number=5
+     intron          271..2220
+                     /gene="DRB6"
+                     /number=1
+     intron          2494..3192
+                     /gene="DRB6"
+                     /number=2
+     intron          3304..3788
+                     /gene="DRB6"
+                     /number=3
+     intron          3813..4137
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..270,2221..2493,3193..3303,3789..3812,4138..4152)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:13:02:01"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQAKCVCHIFNGTERVQYLNRNTHKREENLRFHSDLGEFQAV
+                     TELGRPVAESWNSQKGILEEKRDKVDSYCRYNYGVFDSFIEQRX"
+ORIGIN
+        1 cacgtttctt ggagcaggct aaatgtgtgt gtcatatctt caatgggact gagcgggtgc
+       61 agtacctaaa cagaaacacc cataaacggg aggagaacct acgcttccac agcgacctgg
+      121 gggagttcca ggcggtgacg gaactggggc ggcctgtcgc ggagagctgg aacagccaga
+      181 agggcatcct ggaggagaag cgggacaagg tggactccta ctgcagatac aattacggag
+      241 tttttgatag cttcatagag cagcgatgag gtgagagctg caggtggggg ggcctgagtc
+      301 gccgtgagct ggaaatctga gtgtgtgtgt gtgtgtgtgt gtgtgtgaga gagagagaga
+      361 gagagagagc catctgtgac catttagagt tctctcaatc cccagcaagc agttctgaga
+      421 gcacaggtgt gtgtagaatg tggatttgtc tgtgtctgtg tggctgttgt gggaggggag
+      481 gcaggacccg gctgcttctt atcgttggag gcctctgtgg ggaggtgaca tgggaggtgg
+      541 gagcaggtgg ctggacagag aggagacctt gattgtcctg gatccttaga gatgcaggga
+      601 agggaagtgt aaggtgtatg tggttgggat gaaggtttag gggaggagag ctgaggggta
+      661 tggaaggttc gggataatgt gaaggggcca gttccagact atccctggca cacacccttc
+      721 atgtaatctc tgaaataaaa gtgcatggta tttgtttgca aaagcattag attaacttcc
+      781 aggagaacgg aggagacctc tgaggcaatt ctgaagcttc tttaggtcta aatttctttt
+      841 tttgtttgtt ttcttagtgt gtatattttt acatagctga aatgattgtg aaactaactt
+      901 cttgaattaa agttttgttt gttttcgggt tttgtttttt gttgtttgta tttttgagag
+      961 agaatctttc aaaattaaag tgcccttcct taaaccttct cgctgcttta ggactcatgc
+     1021 ctttctagga gaaagatttg gagaatcggc cgggctcggt ggctcacacc tgtaatccca
+     1081 gcactttggg aggctgagga gggtggacga tgaggtcagg agatggagac tatcctgtct
+     1141 aacacggtga aaccccatct ctactaaaaa caaaaaatta gccaggcatg gtggcatgcg
+     1201 cctgtagttc cagctactcc ggaggccgca gcaggagaat cacttgaatc ccggaggcgg
+     1261 aggttgcagt gagccaagat ggtgccactg cattccagcc taggcgacag agcaagactc
+     1321 catctcaaaa aaagaaaata tttggagaat catttctgct tgttttgcac gggagatgca
+     1381 ttgatcacct aaatgtaaat ataagaactt tcaaaactaa aatgacgttc cttaattcct
+     1441 aaatctcagg attttccagg aacataaaga tttggagaat catttctgtc tgtcccacgt
+     1501 tcccgggtca gaaccatttc tgtggtgttc taaggtgtga gtgtatggcg gtagtattcc
+     1561 tgaaaattca cactcagttt tctcatgtac cctactctgt cactttatct atccacattg
+     1621 ttttaaaaca tactcttctc tcaaggtgta agaggatgat aaataggtgc caagtggagc
+     1681 acccaagtgt gatgagccct ctcactgtgg aatagagtga gaagcttctg acctcataaa
+     1741 ttgatggcta tcttcagtca ttgttttata tattttatgt aaattaatcc tcatataacc
+     1801 ccaagaggta aattagtata attaacctac attatacgtg ggaaagatga gacacaaaag
+     1861 aatcaaaaaa ctcttccagg atcaaccagt aaaaggcagc ccttggattt gaaccaggca
+     1921 accaggctca gaaatcaatt ttaattacta cacgctgtac tttcaaagat ttgtaaacac
+     1981 tttgacaatg catgccaatt tcaagctatg aagaaacaaa tacaattttt gtaacatctc
+     2041 tcaaatctaa tgcgtcctca ctatcaagat taaattccag actgatgacg ctgtaaggcc
+     2101 acatggccag ctgtgctgga ggcctggtca aggtcagaat ctgggtttac agagaagcag
+     2161 acagtcaaac aaggagactc taacttcctg attcgttctc tctacctttt tttctcctag
+     2221 tccaagctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac cacaccctcc
+     2281 tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg ttccggaacg
+     2341 gccaggaaga gaaggctgga gtggtgtcca caggcctgat ccagaatgga gactggacct
+     2401 tccagaccct ggtgatgctg gaaacagttc ctcagagtgg cacctgccaa ctggagcacc
+     2461 caagcgtgat gagccctctc acagcgcaat ggagtgagca gttttctgac ttcatgaatt
+     2521 tctcccccac caagaagggg actttgctaa tccctgagta tcaggtttct cctctcccac
+     2581 atcctatttt catttgctcc atgttctcat ctccatcagc atggttcact gggggtagcc
+     2641 ctgtaatatt ttctagaaac actggtacct cctggagaag caatcacacc tgccaggcag
+     2701 gagaggctgt tcctcttttg aacctcccca tgatgtcaca ggtcagggtc acccagtctc
+     2761 cctgggctcc aggccctgcc ctgggtctga gactacgttt ctggtgctgt tgatctgagt
+     2821 tgtttgttgc gatctgagaa gcgaactgta ggggccttcc tgacataagg ggagtccaat
+     2881 ctcagctctg ctttttgtta gctctgtcac tctagacaaa ctgcttaacc tcattgagac
+     2941 tcaggctttc tgttgatcag attttgaagt tgtgacttac atcaagactg taatatttga
+     3001 atgagtttga tgcctagacc ttgtaactgt tcagtgtgat ttgaaaaccg tttttccccc
+     3061 cagaaatggc ttcttatttt agttcttgtg ggggcagcct tcttccccat tttcaaagct
+     3121 ctgaatctta gggtctcaat taaagaggtt cagtttggaa taaacatcac taaagctggc
+     3181 ttcctctctc aggagcacgg tctgaatctg cacagagcaa gatgctgagt ggagtcgggg
+     3241 gctttgtgct gggcctgctc ttccttgggg ccgggctgtt catctgcttc aggaatcaga
+     3301 aaggtgagga gcctttggaa gctgagtgtc cgcataggct tttctggagg aagaaatatg
+     3361 tctttgctga ggttagttct cagtatatga gtggccctgg ataaagcctt tctttttccc
+     3421 aaatgacctc taatgtcctg ataatctaga aatcatcagt gcatggtttc tatgtcaaag
+     3481 cataatagcc ataacagctt ggggcttgca gagatgaaag aaaggctaac gagtagggat
+     3541 cctttggttc cagatcctgg agcaaattaa ggcagagccg ctaaggctaa tgcagttaca
+     3601 ctggatcctg tgacagacac ttcatgcttc atgggtcaca tgtctgtttc tgctcctctc
+     3661 tgctgtggtt ggtgtgggtg gtggtgatag agaaacctca ggtgagagat ctggggctgg
+     3721 aacattgtgt tggaggacaa atttgcttcc atatctttta agtgtatatc ttttcccctt
+     3781 tttcccagga cactctggac ttccgccaac aggtaatacc ttttaatcct ctttcagaaa
+     3841 cagattcggt ttccctagaa tgacggcaga ggtgataagg cataagacag aaatagtagg
+     3901 aaagacttgg gatccaaatt tctgatcagg caatttacac caaaactcct cctccccact
+     3961 tagaaaggcc tgtgctgtgc gggagtattg gctgggggag acttaggaac cttgttttcc
+     4021 tcttcctgca gtgctctcgt ctgagtcgtt gaaagcaggg aaaagaagct tttagtaaag
+     4081 ccaggtctga aaacaatttc ctctgtctct gtgggactcc tgaactggac tcctgagctg
+     4141 aagtgcagat ga
+//
+LOCUS       NHP02017                 259 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:15, DRB6 locus allele.
+ACCESSION   NHP02017
+VERSION     NHP02017
+DBLINK      INSDC: AM911065
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   de Groot N, Doxiadis GG, de Vos-Rouweler AJ, de Groot NG, Verschoor
+            EJ, Bontrop RE.
+  TITLE     Comparative genetics of a highly divergent DRB microsatellite in
+            different macaque species.
+  JOURNAL   Immunogenetics 60:737-748 (2008)
+   PUBMED   18956179
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:15
+            IPD accession: NHP02017
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0115
+FEATURES             Location/Qualifiers
+     source          1..259
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..259
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:15"
+                     /note="previous designations: Mafa-DRB6*0115"
+     exon            1..259
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..259
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:15"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGTERVRYLNRYIHKREENLHFHSDLGEFQAVSE
+                     LEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcacttcc acagcgacct gggggagttc
+      121 caggcggtgt cggaactgga gtggcctgtc gcagagaact ggaacagccg gatgggcatc
+      181 ctagagaagc gggacaaggt ggacatctac tgcagataca attatagggt ttttgagagc
+      241 ttcacagagc agcgatgag
+//
+LOCUS       NHP02951                5115 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:16:01:01, DRB6 locus allele.
+ACCESSION   NHP02951
+VERSION     NHP02951
+DBLINK      INSDC: FN433737
+            INSDC: OR823577
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:16:01:01
+            IPD accession: NHP02951
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0116; Mafa-DRB6*01:16
+FEATURES             Location/Qualifiers
+     source          1..5115
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5115
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:16:01:01"
+                     /note="previous designations: Mafa-DRB6*0116;
+                     Mafa-DRB6*01:16"
+     exon            1..208
+                     /gene="DRB6"
+                     /number=1
+     exon            3182..3454
+                     /gene="DRB6"
+                     /number=2
+     exon            4153..4263
+                     /gene="DRB6"
+                     /number=3
+     exon            4750..4773
+                     /gene="DRB6"
+                     /number=4
+     exon            5101..5115
+                     /gene="DRB6"
+                     /number=5
+     intron          209..3181
+                     /gene="DRB6"
+                     /number=1
+     intron          3455..4152
+                     /gene="DRB6"
+                     /number=2
+     intron          4264..4749
+                     /gene="DRB6"
+                     /number=3
+     intron          4774..5100
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..208,3182..3454,4153..4263,4750..4773,5101..5115)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:16:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="QVSWSRLSVSVISSMGLSGCSTX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 agtacctgaa cagaaacatc cataaacggg gggagaacct gggcttccac agcgacgtgg
+      121 gggagttcca ggcggtgacg caactggggc ggcctgtcac agagttacaa ttaccgggtt
+      181 tttgagagct tcacagtgca gcgatgaggt gagagcggcg gggggcaggg cctgagtccc
+      241 tgtgagctgg gaatctgaga gtgtgtgtgt gtgtctgtgt gtgtgtgtat gtgagagaga
+      301 gagagagcgc catctgtgag catttagagt cctctctatc ctgaggaagc agttctgaga
+      361 gcacaggtgt gtgtagagtg tggatttgtc tgtgtgtctg ttgtgggagg agaagcagga
+      421 gggggcttct tctaatcctt ggaggcctct gtggggaggt gacatgggag gtgggagcag
+      481 gtggctggag agagaggaga ccttgattgt cctggatcct taaagatgca gggaagggaa
+      541 gtgtaaggtg tatgtggttg gggtgaaagt ttaggggagg agagctgagg ggtatggaag
+      601 cttcgggata acgtgagggg gccagttcca gactgtccct ggcacacacc cttcatgtaa
+      661 tctctgaaat aaaagtgcat ggtgtttgtc tgcgaaagca ttagattaac ttctaaggga
+      721 actgaggaga cctctgaggc aattctgaag cttctttagg tctaaatttc tttttttgtt
+      781 gttttcttag tgtgtatatt tttacatagc tgaaatgatt gtgaaactaa cttcttgaat
+      841 taaagtttta gcacattgtt attattttat tataatgcta ataattttct agtagttatg
+      901 tattattatt tcatatgtaa tagttgtgac acaacttacc tcactttctc ttttgttgac
+      961 ctttattatg acattctcca aaagctgaaa atgtatgttt ctggttaatt tttaatttat
+     1021 attttttgat ttgtaattct tttcaataat tttgacctat ttatgtgccg gttataatta
+     1081 ctgctctaag aattccctgt tgtatttggt aggtaatgga caataatcta ttgtctgtta
+     1141 tctctagggc ttagtatttt tctcagtgat tttgtggatt ctttgtactg taagattatt
+     1201 aacactttct tgatatttta ttcagcattt tctcaagttt gtggtttgta tgttgatttt
+     1261 gaaaattctt ttccatgtta aggatttaaa cgttttttgt ttgtttgttt gttttcgggc
+     1321 tttttttttt tttttttttt tttgagacag agtcttactc tgttgcccag gctggaatgc
+     1381 agtggtgcgg tctcggctca ctgcaacctc cacctcccag gttcaagtga ttctcctgcc
+     1441 tctgcctcct gagtagctgg gattacagac atgcaccacc acgctcaact aatttttcta
+     1501 tttttagtag agatggggtt tcaccacgtt ggtcaggctg ttctcaaact cctgacctcg
+     1561 gcctcccaaa gtgctgggat tacaggcttg agccacagca cctcgcctga acgtttttac
+     1621 ttattaaaat atattgcaaa tttttattaa tgatttacaa tctatcttaa atctaccatt
+     1681 tcgtggtatt gttgtctcca ggtttctcct tccttcttac aaaaattgta ttgttgagag
+     1741 tctgctagtg tcagggattt tcctgggcat aagcacccca agtaacgagt cccagaccct
+     1801 gccttgatcc aaacgtcctt ctggaaaaaa atcagtttac aatgataggt ctgataatag
+     1861 ttatgtttgt tttgcacggg agatgcattg atcagctaaa tgtaaatata agaactttca
+     1921 aaattaaagt ggctttcctt aatccttctt gctgctttag gactcatgct tttctaggag
+     1981 aaagagttgg agaatcgact gggcgctgtg gctcacacct gtaatcccag cactttggga
+     2041 ggccgaggag ggcgaatgac gaggtcagaa gatggagact atcctgtcta ataccgtgaa
+     2101 accccatctc tactaaaaat acaaaaaatt agctgggcat ggttgcatgt gcctgtagtt
+     2161 ccagctactg gggaggccgc agcaggagaa tcacttgaaa tcgggaggtg gaggttgcaa
+     2221 cgagctaaga tggcaccact gcattccagc ctgggtgatg gagcaagact ccatctcaaa
+     2281 aaaaaaaaaa aaaaagattt ggagaatcat tgctgcttgt tttgcacagg acattcattg
+     2341 atcacctaaa tgtaaatata agaattttca aaactaaaat gacgttcctt aattcctaaa
+     2401 tctcaggatt ttctaggaac ataaagattt ggagaatcat ttctgtctgt cccacgttcc
+     2461 cgggtcagaa ccatttctgt ggtgttctaa ggtgtgagca cacagcagta gtattcctaa
+     2521 aacttcatac tcagtttcct catgtaccct actctgtccc tttatctatc cacattgtat
+     2581 taaaacatac tcttctctca aggtgtaaga ggatgataat aggtgccaag tggagcaccc
+     2641 aagtgtgatg agccctttta cagtgaaatg gagtgagaag ctttctgacc tcacaaattg
+     2701 acagctatct tcagtcattg ttttatatgt tttacataaa ttaatcctca tataacccca
+     2761 agaggtaaat tagtataatt aacctacatt atacgtggga aagatgagac ataaaagaat
+     2821 caaaaaactc ttccaggatc aaccagcaaa aggcagacct tggatttgaa tcaggcaacc
+     2881 gggctcagaa atcaatttta attactacac gctgtacttt caaaaatttg taaacacttt
+     2941 aacaatgcat gccaatttca agctatgaag aaacaaatac aatttttata acatctctca
+     3001 aatcaaatag gtccacacta tcaagattaa attccagact gatgacactg tgaggccaca
+     3061 tggccagctg tgctggaggc ctggtcaagg tcagagcctg ggtttacaga gaagcagaca
+     3121 aacagtcaaa caaggagact ctaacttcct gattcgttct ctctaccttt ttttctccta
+     3181 gtccaaccta aggtgactgt gtatcctgca aagactgagc ctctgcagca ccacaccctc
+     3241 ctggtctgct ctgtgaacgg tttctattca ggcagcattg aagtcaggtg gttccggaac
+     3301 ggccaggaag agaaggccgg ggtggtgtcc acaggcctga tccagaatgg agactggacc
+     3361 ttccagaccc tggtgatgct ggaaacagtt cctcagagtg gaacctgcca actggagcat
+     3421 ccaagcgtga tgagccctct cacagtggaa tggagtgagc agctttctga cttcatgaat
+     3481 ttctcaccca ccaaaaaggg tactttgcta atccctgagt atcaggtgtc tcctctccca
+     3541 catcctatgt tcatttgctc catgttctca tctccatcag catggttcac tgggggtagc
+     3601 cctgtaatag tttctagaaa cacctgtacc ccgggaaagc agtcacgcct gccaggcagg
+     3661 agaggctgtc cctcttttga acctccccat gatggcacag gtcagggtca cccagtctcc
+     3721 ctgggctcca ggacctgcct tgggtctgag actgagtttc tggtgctgtt gatctgagtt
+     3781 gtttgttgtg atctgggaag aggagaagtg taggggcctt cctgacataa ggggagtcca
+     3841 atctcagctc tgccttttat tagctctgtc actctagaca aactacttaa cctcattgag
+     3901 actcaggctt tctgttgatc agattttgaa gtcgtgcctt acatcaaggc tgtaatattt
+     3961 gaatgagttt gatgcctgga tcttgtaact gttcagtgtg atttgaaaac cgtttattcc
+     4021 cccagaaatg gctagttatt ttagttctta gggcagcctt cttccccatt ttgaaagctc
+     4081 tgaatcttag ggtctcaatt taaagaggtt caatttggaa taaacatcac taaacctggc
+     4141 ttcctctctc aggagcacgg tctgaatctg cacagagcaa gatgctgagt ggagtcgggg
+     4201 gctttgtgct gggcctgctc ttccttgggg ccgggctgtt catctacttc aggaatcaga
+     4261 aaggtgagga gactttggga gctgattctc tacataggct tttctggagg aggaactatg
+     4321 gctttgctga ggttagttct cagtatatca gtggccctgg ataaagcctt tctttccccc
+     4381 aaatgacctc caatgtcctg ataatctaga aattatcagt gcatggtttc tatgtcaaag
+     4441 cataacagcc ataatagctt gtggcctgca gagatgagag aaaggttaac gagtagggat
+     4501 cctttggttc cagatcctgg agcaaattaa ggaagagcca ctaagattaa tgcaattaca
+     4561 ctggatcctg tgacagacac ttcatgcttc atgggtcaca tggtctgttt ctgctcctct
+     4621 ctgccatggt tggtgtgggt ggtggtgata gagaaacctc aggtgggaga tctagggctg
+     4681 ggacattgtg ttggaggaca gatttgcttc cgtatctttt aagtgtatat cttttcctct
+     4741 ttttcccagg acactctgga cttctgccaa taggtaacac cttttaatcc tctttcagaa
+     4801 acagattcgg tttccctaga atgacggtag aggtgataag gcataagaca gaaatagtag
+     4861 gaaagacttg ggatccaaat ttctgatcag gcaatttaca ccaaaactcc tcctctccac
+     4921 ttagaaaagg cctgtgctct gcaggagtat tggctcgggg agactcagga acctcgtttt
+     4981 tcttcttcct gcagtgctct tgtctgagtc attgaaagca gggaaaagaa acttttagta
+     5041 aagccaggtc tgaaaacaat ttcctctgtc tctgtgggac tcctgaactg gactcctgag
+     5101 ctgaagtgca gatga
+//
+LOCUS       NHP02952                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:17, DRB6 locus allele.
+ACCESSION   NHP02952
+VERSION     NHP02952
+DBLINK      INSDC: FN433738
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:17
+            IPD accession: NHP02952
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0117
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:17"
+                     /note="previous designations: Mafa-DRB6*0117"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:17"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHFFNGTERMQYLNRYIHKREENLRFHSDVGEFQAVTE
+                     LGWPVAENWNSQKGILEEKLDKVDSYCRYNYGVFENLTEHPR"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatttc ttcaatggga ctgagcggat gcagtacctg
+       61 aacagataca tccataaacg agaggagaac ctgcgcttcc acagcgacgt cggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agctggacaa ggtggactcc tactgcagat acaattacgg ggtttttgag
+      241 aacctcacag aacatccaag ag
+//
+LOCUS       NHP02953                 204 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:18, DRB6 locus allele.
+ACCESSION   NHP02953
+VERSION     NHP02953
+DBLINK      INSDC: FN433739
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:18
+            IPD accession: NHP02953
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0118
+FEATURES             Location/Qualifiers
+     source          1..204
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..204
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:18"
+                     /note="previous designations: Mafa-DRB6*0118"
+     exon            1..204
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..204
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:18"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECRIFNGTERVRYLNRNIHKREGGEPALPQRPGGVPGGD
+                     GTGVACHRVTITGFLRASQCSD"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcgtatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagaaaca tccataaacg ggagggagga gaacctgcgc ttccacagcg acctggggga
+      121 gttccaggcg gtgatggaac tggggtggcc tgtcacagag ttacaattac ggggtttttg
+      181 agagcttcac agtgcagtga tgag
+//
+LOCUS       NHP02954                 265 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:24, DRB6 locus allele.
+ACCESSION   NHP02954
+VERSION     NHP02954
+DBLINK      INSDC: FN433740
+            INSDC: GU576473
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:24
+            IPD accession: NHP02954
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0124
+FEATURES             Location/Qualifiers
+     source          1..265
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..265
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:24"
+                     /note="previous designations: Mafa-DRB6*0124"
+     exon            1..265
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..265
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:24"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKYECHIFNGTERVQYLNRNIHKGEKNLRFQSDVGEFQAVTE
+                     PEWPPVAENWNSQKGILEEKQDKVDTYCRNNYGVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaaatatga gtgtcatatc ttcaatggga ctgagcgggt gcagtaccta
+       61 aacagaaaca tccataaagg ggagaagaac ctgcgcttcc agagcgacgt cggggagttc
+      121 caggcggtga ctgaaccgga gtggccgcct gtcgcggaga actggaacag ccagaagggc
+      181 atcctggagg agaagcagga caaggtggac acctactgca gaaacaatta cggggttttt
+      241 gagagcttca cagagcagcg atgag
+//
+LOCUS       NHP02955                 200 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:23, DRB6 locus allele.
+ACCESSION   NHP02955
+VERSION     NHP02955
+DBLINK      INSDC: FN433741
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:23
+            IPD accession: NHP02955
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0123
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:23"
+                     /note="previous designations: Mafa-DRB6*0123"
+     exon            1..200
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:23"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTEWVQYLNRNIHKREENLRFHSDLGEFQAVME
+                     LGRPVTELQLWGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagtgggt gcagtacctg
+       61 aacagaaaca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gcgacctgtc acagagttac aattgtgggg tttttgagag
+      181 cttcacagtg cagcgatgag
+//
+LOCUS       NHP02956                 200 bp    DNA     linear   PRI 26-NOV-2020
+DEFINITION  Mafa-DRB6*01:21, DRB6 locus allele.
+ACCESSION   NHP02956
+VERSION     NHP02956
+DBLINK      INSDC: FN433742
+            INSDC: GU576475
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:21
+            IPD accession: NHP02956
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0121
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:21"
+                     /note="previous designations: Mafa-DRB6*0121"
+     exon            1..200
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:21"
+                     /codon_start=2
+                     /product="MHC class II DRB6 antigen"
+                     /translation="WSRLSVSVISSMGLSGCGTX"
+ORIGIN
+        1 ttggagtagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagaaaca tccataaaca ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga cggaactggg gtggcctgtc acagagttac aattgtgggg tttttgagag
+      181 cttcacagtg cagcgatgag
+//
+LOCUS       NHP02957                 200 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:22, DRB6 locus allele.
+ACCESSION   NHP02957
+VERSION     NHP02957
+DBLINK      INSDC: FN433743
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:22
+            IPD accession: NHP02957
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0122
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:22"
+                     /note="previous designations: Mafa-DRB6*0122"
+     exon            1..200
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:22"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTERVQYLNRNIHKREENLRFHSDVGEFQAVME
+                     LGRPVTELQLWGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagaaaca tccataaacg ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga tggaactggg gcgacctgtc acagagttac aattgtgggg tttttgagag
+      181 cttcacagtg cagcgatgag
+//
+LOCUS       NHP02958                 200 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:19, DRB6 locus allele.
+ACCESSION   NHP02958
+VERSION     NHP02958
+DBLINK      INSDC: FN433744
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:19
+            IPD accession: NHP02958
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0119
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:19"
+                     /note="previous designations: Mafa-DRB6*0119"
+     exon            1..200
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..200
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:19"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECRIFNGTEQVQYPNRNIHKREENLRFHSDLGEFQAVME
+                     LGWPVTELQLWGFX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcgtatc ttcaatggga ctgagcaggt gcagtacccg
+       61 aacagaaata tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gtggcctgtc acagagttac aattatgggg tttttgagag
+      181 cttcacagta cagtgatgag
+//
+LOCUS       NHP02959                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:28, DRB6 locus allele.
+ACCESSION   NHP02959
+VERSION     NHP02959
+DBLINK      INSDC: FN433745
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:28
+            IPD accession: NHP02959
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0128
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:28"
+                     /note="previous designations: Mafa-DRB6*0128"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:28"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTERVQYLNRYIHKREENLRFHSDLGEFQAVME
+                     LGWPVAENWNSQKGILEEKRDKVDSYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gtggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacaa ggtggactcc tactgcagat acaattacag ggtttttgag
+      241 agcttcacag agcagcgatg ag
+//
+LOCUS       NHP02960                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:26, DRB6 locus allele.
+ACCESSION   NHP02960
+VERSION     NHP02960
+DBLINK      INSDC: FN433747
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:26
+            IPD accession: NHP02960
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0126
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:26"
+                     /note="previous designations: Mafa-DRB6*0126"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:26"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTERVQYLNRNIHKQEENLRFHSDVGEFQAVTE
+                     LERPVAENWNSQQGILEEKRDKVDTYCRYNYRVFESFTVQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagaaaca tccataaaca ggaggagaac ctgcgcttcc acagcgacgt gggggagttc
+      121 caggcggtga cggaactgga gcggcctgtc gcggagaact ggaacagcca gcagggcatc
+      181 ctggaggaga agcgggacaa ggtggacacc tactgcagat acaattacag ggtttttgag
+      241 agcttcacag tgcagcgatg ag
+//
+LOCUS       NHP02961                5218 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:29:01:01, DRB6 locus allele.
+ACCESSION   NHP02961
+VERSION     NHP02961
+DBLINK      INSDC: FN433748
+            INSDC: OR823580
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:29:01:01
+            IPD accession: NHP02961
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0129; Mafa-DRB6*01:29
+FEATURES             Location/Qualifiers
+     source          1..5218
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5218
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:29:01:01"
+                     /note="previous designations: Mafa-DRB6*0129;
+                     Mafa-DRB6*01:29"
+     exon            1..267
+                     /gene="DRB6"
+                     /number=1
+     exon            3291..3572
+                     /gene="DRB6"
+                     /number=2
+     exon            4274..4384
+                     /gene="DRB6"
+                     /number=3
+     exon            4869..4892
+                     /gene="DRB6"
+                     /number=4
+     exon            5205..5218
+                     /gene="DRB6"
+                     /number=5
+     intron          268..3290
+                     /gene="DRB6"
+                     /number=1
+     intron          3573..4273
+                     /gene="DRB6"
+                     /number=2
+     intron          4385..4868
+                     /gene="DRB6"
+                     /number=3
+     intron          4893..5204
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..267,3291..3572,4274..4384,4869..4892,5205..5218)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:29:01:01"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAV
+                     SELEWPVAENWNSRMGILEKRDKVDTYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagcgggtgc
+       61 ggtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgtcg gaactggagt ggcctgtcgc agagaactgg aacagccgga
+      181 tgggcatcct agagaagcgg gacaaggtgg acacctactg cagatacaat tatagggttt
+      241 ttgagagctt cacagagcag cgatgaggtg agagtggtag gtggggggcc ctgagtccca
+      301 gtgagctgga aatctgagtg tgtgagtgtg tgtgtgtgtg tgagagagag agagagagag
+      361 agagacagag agacagagag agagagagac agagagagag agagacagag agagagagcc
+      421 atctgtgacc atttagagtc ctctcaatct ccagcaagca gttctgaggg cacaggtgtg
+      481 tgtatagagt gtggatttgt ctgtgtggct gttgtgggac gggaggcagg agtgggcttc
+      541 ttcttatcat tggaggtctc tgtggggagg tgacatggga ggtgggagca ggtggctgga
+      601 cagagaggag accttgattg tcctggatcc ttagagatgc agggaaggga agtgtaaggt
+      661 gtatgtggtt ggggtgaagg tttaggggag gagagctgag gggtatataa ggttcgagat
+      721 aatgtgaggg ggccagttcc agactgtccc tggcacacac ccttcatgta atctctgaaa
+      781 taaaagtgca tggtgtttgt ttgcaaaagc attagattaa catccagggg aacggaggag
+      841 aactctgagg caattctgaa gcttatttac gtctaaattt ctttttttgt ttgttttctt
+      901 agtgtgtata tttttacata gctgaaatga ttgtgaaaca aacttcttga attaaagttt
+      961 taacacattg ttattatttt attataatgc taaaagtttt ctagtagtta cgtattattc
+     1021 ttttatatat aatagttgtg acacagctta cctcactttc tcttttgttg acctttatta
+     1081 tgacattctc caaaagctga aaatgtatgt ttctggttaa tttttaattt atattttttg
+     1141 atttgtaatt cttttaaata attttgacct atttgtgtgc cggttataat tactgctcta
+     1201 agaattccct attgtatttg gtaggtaatg gacaataatc tattgtctct tatatctagg
+     1261 gcttagtatt tttctcagtg actttgtgga ttctttgtac tgtaagatta ttaacacttt
+     1321 cttgatattt tattcagcat tttctccagt ttgtggtttg tatgttgatt ctgaaaattc
+     1381 ttttccatgt taaggatttg aacgtttttt gtttgtttgt ttgtttttgg gttttgtttt
+     1441 ttgttttttt gagacagaat cttactctgt tgctggagtg cagtggcgcg atcgcggctc
+     1501 acggcaacct ccaccccctg ggttcaagcg attctcctgc ctctgcctcc tgagtagctg
+     1561 ggattacaga cacgcactac cacgctcgac taatttttct atttttagta gatatggggc
+     1621 ttcaccatgt tggtcaggct gttctcagac caaactcctg acctcggcct cccaaagtgc
+     1681 tgggattaca ggcttgagcc actgcacccg gcctaaacgt ttttatttaa taaaatatat
+     1741 tgcaaaattt tattaatgat ttacaatcta tcttaaatct accatgttgc ggtattgttg
+     1801 tctccaggtt tctcctttct tctcacaaaa aattgtatcg ttgagagtct gctagtgtca
+     1861 gggattttcc tgggcataag cacccaaagt aatgagtccc agaccctgcc tcgatccaaa
+     1921 cgtccttctg gaacaaaaat cgttttacaa tgataggtct gataatagtt atgtttgttt
+     1981 tgcatgggag atgcattgat cagctaatgt aaatataaga actttcaaaa ttagagtgac
+     2041 tttccttaat ccttctcgct gctttaggac tcatgccttt ctaagagaaa gatttggaga
+     2101 atcagccggg cgtggtggct cacgcctgta atcccagcac tttgggaggc cgaagagggt
+     2161 ggacgacgag gtcaggagat ggagactatc ctgtctaaca cggtgaaaca ccatctctac
+     2221 taaaaataca aaaaattagc caggcatggt ggcatgcgcc tgtagttcca gctactccgg
+     2281 aggccacagc aggagaatca cttgaatccg ggaggcggag gttgcagtga gccaagatgg
+     2341 cgtcactgca ctccaacctg ggcaacagag caagactcta tctcaaaaaa aaaaaaaaaa
+     2401 aaaaaaaaaa aagaattgga gaatcatttc tgcttgtttt gcacaggaga tgcattgatc
+     2461 acctaaatgt aaatataaga actttcaaaa ctaaaatgac gttccttaat tcctaaatct
+     2521 caggattttc taggaatata aagatttggt gaatcatttc tgtctgtccc acgttcccgg
+     2581 gtcagaacca tttctgtggt gttttaaggt gtgagtgcat ggcgccagta ttcctaaaaa
+     2641 ttcatactcg gtttcctcat gtaccctact ctgttccttt atctatccac attgttttaa
+     2701 aacatattct tctctcaagg tgtaagagta tgataaatag gtgccaagtc gagcaccgaa
+     2761 gtgtgatgag ccctctcaca ggggaatgca gtgagaagct tctgacctca taaattgacg
+     2821 gctatcttca gtcattgttt tatatatttt atgtaaatta tcctcatata accccaagag
+     2881 gtaaattagt atatttaacc tacattatat gtgggaaaag atgagacaca aaagaatcaa
+     2941 aacactcttc caggatcaac cagtaaaagg cagaccttgg atttgaacca ggcgacctgg
+     3001 ctcagaaatc aattttaatt actacacact gtactttcaa agatttgtaa acacgttgac
+     3061 aatgcatgcc aatttcaagc tagaagaaac aaatacaatt tttacaacat ctctcaaatc
+     3121 taatgggtcc tcactatcaa gattaaattc cagactggtg atgctgtaag gccacatggc
+     3181 cagctgtgct ggaggcctgg tcaaggtctg ggtttacaga gaagcagaca aacagtcaaa
+     3241 caaggagacg ctaacttcct gattcattct ctctaccttt tttctcctag tccaagctaa
+     3301 ggtgactgtg tatcctgcaa agacccagcc tctgcagcac cacaccctcc tggtctgctc
+     3361 tgtgagtggt ttttatccag gcagcattga agtcaggtgg ttccggaatg gccaggaaga
+     3421 gaaggctggg gtggtgtcca caggcctgat ccagaatgga gactggacct tccagaccct
+     3481 ggtgatgctg gaaacagttc ctcggagtgg agaggtttac acctgccaag tggagaactc
+     3541 aagcatgacg agccctctca cagtggaatg gagtgagcag ctttctgact tcatgaattt
+     3601 ctcacccacc aagaagggga ctatgctaat ctctgagtgt caggtttctc ctctcccaca
+     3661 tcctattttc atttgctcca tgttttcatc tccatcagca tggttcactg gtggtagccc
+     3721 tgtaatagtt tccagaaaca ctggtacctc ctggagaagc agtcacgcct gtcaagcagg
+     3781 agaggctgtc cctcttttga acctccccat gatggcacag gtcagggtca cctggtctcc
+     3841 ctgggctcca ggccctgccc tgggtctgag attgtgtttc tggtgctgtc gatctgagtt
+     3901 gtttgttgtg atctcagaag aggagaagtg taggggcctt ccagacatga ggggagtcca
+     3961 atctcagctc tgccttttat tagctctgtc actctagaca aactgcttaa cctcattgag
+     4021 actcagggtt tctgtggatc agattttgaa gtcgtgcctt acatcaaggc tgtaatattt
+     4081 gaatgagttt gatgcctgga ccttgtaact gttcagtgtg atttgaaaac cacttttccc
+     4141 cccagaaacg gccagttatt tcagttctta cagggcagcc ttcttctcca ttttgaaagc
+     4201 tctgaatctt agagtctcaa ttaaagaggt tcagtttgga ataaacatca ctaacgctgg
+     4261 cttcctctct caggagcatg gtctgaatct gcacagagca agacgctgag tggagtcggg
+     4321 ggctttgtgc tgggcctgct cttccttggg gccgggctgt tcgtctactt caggaatcag
+     4381 aaaggtgagg agcctttggt agctgcctct ctccataggc ttttctggag gaggaaatat
+     4441 ggctttgctg aggttagttc tcagtatatc agtggccctg gataaagcct ttctttcccc
+     4501 aaatgacctc caatgtcctg ataatccaga aattatcagt gcatggtttc tatgtcaaag
+     4561 cataatagcc acaatagctt gtggcctgca gagatgagag aaagattaac gagtagggat
+     4621 cctttggttc cagatcctgg agcaaattaa ggaagagcca ctaaggctaa tgaaattaca
+     4681 ctggatcctg tgacagacac ttcatgcttc atgggtcaca tgtctgtttc tgctcctctc
+     4741 tgccacggtt ggtgtgggtg gtggtgacag agaaatctca ggtgggagat ctggagctgg
+     4801 gacactgtgt tggaggacag atttgcttcc atatctttta agtgtatatc ttttcctctt
+     4861 tttcctagga cactctggac ttctgccaac aggtaatacc ttttgatcct ctttcagaaa
+     4921 cagattcggt ttccctagaa tgatagcagc ggtcataagg cataagacag aaatagtagg
+     4981 aaagactttg gagactttgg atccaaattt ctaatcaggc aatttacacc aaaactcctc
+     5041 ctctccactt agaaaaggcc tgtgctctgc gggagtatcg gctcggggag acttaggaac
+     5101 cttgtttttc ttcttcctgc agtgccctcg tctgagtcgt tgaaagcagg aaaagaagct
+     5161 tttagtaaag ccaggtccga aaacactttc ctctgtctct gcaggactcc tgagctga
+//
+LOCUS       NHP02962                4145 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:25:01:01, DRB6 locus allele.
+ACCESSION   NHP02962
+VERSION     NHP02962
+DBLINK      INSDC: FN433749
+            INSDC: OR823578
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:25:01:01
+            IPD accession: NHP02962
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0125; Mafa-DRB6*01:25
+FEATURES             Location/Qualifiers
+     source          1..4145
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..4145
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:25:01:01"
+                     /note="previous designations: Mafa-DRB6*0125;
+                     Mafa-DRB6*01:25"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     exon            2225..2497
+                     /gene="DRB6"
+                     /number=2
+     exon            3197..3307
+                     /gene="DRB6"
+                     /number=3
+     exon            3793..3816
+                     /gene="DRB6"
+                     /number=4
+     exon            4132..4145
+                     /gene="DRB6"
+                     /number=5
+     intron          271..2224
+                     /gene="DRB6"
+                     /number=1
+     intron          2498..3196
+                     /gene="DRB6"
+                     /number=2
+     intron          3308..3792
+                     /gene="DRB6"
+                     /number=3
+     intron          3817..4131
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..270,2225..2497,3197..3307,3793..3816,4132..4145)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:25:01:01"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQAKCVCHIFNGTERVQYLNRNTHKREENLRFHSDLGEFQAV
+                     TELGRPVAENWNSQKGILEEKRDKVDSYCRYNYGVFDSFIEQRX"
+ORIGIN
+        1 cacgtttctt ggagcaggct aaatgtgtgt gtcatatctt caatgggact gagcgggtgc
+       61 agtacctaaa cagaaacacc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgacg gaactggggc ggcctgtcgc ggagaactgg aacagccaga
+      181 agggcatcct ggaggagaag cgggacaagg tggactccta ctgcagatac aattacggag
+      241 tttttgatag cttcatagag cagcgatgag gtgagagctg caggtggggg ggcctgagtc
+      301 gccgtgagct ggaaatctga gtgtgtgtgt gtgtgtgtgt gtgtgtgtga gagagagaga
+      361 gagagagaga gagccatctg tgaccattta gagttctctc aatccccagc aagcagttct
+      421 gagagcacag gtgtgtgtag aatgtggatt tgtctgtgtc tgtgtggctg ttgtgggagg
+      481 ggaggcagga cccggctgct tcttatcgtt ggaggcctct gtggggaggt gacatgggag
+      541 gtgggagcag gtggctggac agagaggaga ccttgattgt cctggatcct tagagatgca
+      601 gggaagggaa gtgtaaggtg tatgtggttg ggatgaaagt ttaggggagg agagctgagg
+      661 ggtatggaag gttcgggata atgtgaaggg gccagttcca gactatccct ggcacacacc
+      721 cttcatgtaa tctctgaaat aaaagtgcat ggtgtttgtt tgcaaaagca ttagattaac
+      781 ttccaggaga acggaggaga cctctgaggc aattctgaag cttctttagg tctaaatttc
+      841 ttattttgtt tgttttctta gtgtgtatat ttttacatag ctgaaatgat tgtgaaacta
+      901 acttcttgaa ttaaagtttt gtttgttttc gggttttgtt ttttgttgtt tgtatttttg
+      961 agagagaatc tttcaaaatt aaagtgccct tccttaatcc ttctcgctgc tttaggactc
+     1021 atgcctttct aggagaaaga tttggagaat cggccgggct cggtggctca cacctgtaat
+     1081 cccagcactt tgggaggctg aggagggtgg acgatgaggt caggagatgg agactatcct
+     1141 gtctaacacg gtgaaacccc atctctacta aaaacaaaaa attagccagg catggtggca
+     1201 tgcgcctgta gttccagcta ctccggaggc cgcagcagga gaatcacttg aatcccggag
+     1261 gcggaggttg cagtgagcca agatggtgcc actgcattcc agcctgggcg acagagcaag
+     1321 actccatctc aaaaaaagaa aatatttgga gaatcatttc tgcttgtttt gcacgggaga
+     1381 tgcattgatc acctaaatgt aaatataaga actttcaaaa ctaaaatgac gttccttaat
+     1441 tcctaaatct caggattttc caggaacata aagatttgga gaatcatttc tgtctgtccc
+     1501 acgttcccgg gtcagaacca tttctgtggt gttctaaggt gtgagtgtat ggcggtagta
+     1561 ttcctgaaaa ttcatactca gttttctcat gtaccctact ctgtcacttt atctatccac
+     1621 attgttttaa aacatactct tctctcaagg tgtaagagga tgataaatag gtgccaagtg
+     1681 gagcacccaa gtgtgatgag ccctctcact gtggaataga gtgagaagct tctgacctca
+     1741 taaattgatg gctatcttca gtcattgttt tatatatttt atgtaaatta atcctcatat
+     1801 aaccccaaga ggtaaattag tataattaac ctacattata cgtgggaaag atgagacaca
+     1861 aaagaatcaa aaaactcttc caggatcaac cagtaaaagg cagcccttgg atttgaacca
+     1921 ggcaaccagg ctcagaaatc aattttaatt actacacgct gtactttcaa agatttgtaa
+     1981 acactttgac aatgcatgcc aatttcaagc tatgaagaaa caaatacaat ttttgtaaca
+     2041 tctctcaaat ctaatgcgtc ctcactatca agattaaatt ccagactgat gacgctgtaa
+     2101 ggccacatgg ccagctgtgc tggaggcctg gtcaaggtca gaatctgggt ttacagagaa
+     2161 gcagacagtc aaacaaggag actctaactt cctgattcgt tctctctacc tttttttctc
+     2221 ctagtccaag ctaaggtgac tgtgtatcct gcaaagaccc agcccctgca gcaccacacc
+     2281 ctcctggtct gctctgtgag tggtttctat ccaggcagca ttgaagtcag gtggttccgg
+     2341 aacggccagg aagagaaggc tggggtggtg tccacaggcc tgatccagaa tggagactgg
+     2401 accttccaga ccctggtgat gctggaaaca gttcctcaga gtggcacctg ccaactggag
+     2461 cacccaaccg tgatgagccc tctcacagcg caatggagtg agcagttttc tgacttcatg
+     2521 aatttctccc ccaccaagaa ggggactttg ctaatccctg agtatcaggt ttctcctctc
+     2581 ccacatccta ttttcatttg ctccatgttc tcatctccat cagcatggtt cactgggggt
+     2641 agccctgtaa tattttctag aaacactggt acctcctgga gaagcaatca cacctgccag
+     2701 gcaggagaag ctgttcctct tttgaacctc cccatgatgt cacaggtcag ggtcacccag
+     2761 tctccctggg ctccaggccc tgccctgggt ctgagactac gtttctggtg ctgttgatct
+     2821 gagttgtttg ttgcgatctg agaagcgaac tgtaggggcc ttcctgacat aaggggagtc
+     2881 caatctcagc tctgcttttt gttagctctg tcactctaga caaactgctt aacctcattg
+     2941 agactcaggc tttctgttga tcagattttg aagttgtgac ttacatcaag actgtaatat
+     3001 ttgaatgagt ttgatgccta gaccttgtaa ctgttcagtg tgatttgaaa accgtttttc
+     3061 cccccagaaa tggcttctta ttttagttct tgtgggggca gccttcttcc ccattttcaa
+     3121 agctctgaat cttagggtct caattaaaga ggttcagttt ggaataaaca tcactaaacc
+     3181 tggcttcctc tctcaggagc acgatctgaa tctgcacaga gcaagatgct gagtggagtc
+     3241 gggggctttg tgctgggcct gctcttcctt ggggccgggc tgttcatctg cttcaggaat
+     3301 cagaaaggtg aggagccttt ggaagctgag tgtccgcata ggcttttctg gaggaagaaa
+     3361 tatgtctttg ctgaggttag ttctcagtat atgagtggcc ctggataaag cctttctttt
+     3421 tcccaaatga cctctaatgt cctgataatc tagaaatcat cagtgcatgg tttctatgtc
+     3481 aaagcataat agccataaca gcttggggct tgcagagatg aaagaaaggc taacgagtag
+     3541 ggatcctttg gttccagatc ctggagcaaa ttaaggcaga gccactaagg ctaatgcagt
+     3601 tacactggat cctgtgacag acacttcatg cttcatgggt cacatgtctg tttctgctcc
+     3661 tctctgctgt ggttggtgtg ggtggtggtg atagagaaac ctcaggtgag agatctgggg
+     3721 ctggaacatt gtgttggagg acaaatttgc ttccatatct tttaagtgta tatcttttcc
+     3781 cctttttccc aggacactct ggacttccgc caacaggtaa taccttttaa tcctctttca
+     3841 gaaacagatt cggtttccct agaatgacgg cagaggtgat aaggcataag acagaaatag
+     3901 taggaaagac ttgggatcca aatttctgat caggcaattt acaccaaaac tcctcctccc
+     3961 cacttagaaa ggcctgtgct gtgcgggagt attggctggg ggagacttag gaaccttgtt
+     4021 ttcctcttcc tgcagtgctc tcgtctgagt cgttgaaagc agggaaaaga agcttttagt
+     4081 aaagccaggt ctgaaaacaa tttcctctgt ctctgtggga ctcctgaact ggactcctga
+     4141 gctga
+//
+LOCUS       NHP02963                 259 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:11:02, DRB6 locus allele.
+ACCESSION   NHP02963
+VERSION     NHP02963
+DBLINK      INSDC: FN433750
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:11:02
+            IPD accession: NHP02963
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*011102
+FEATURES             Location/Qualifiers
+     source          1..259
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..259
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:11:02"
+                     /note="previous designations: Mafa-DRB6*011102"
+     exon            1..259
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..259
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:11:02"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECHIFNGTERVRYLNRYIHKREENLRFHSDLGEFQAVSE
+                     LEWPVAENWNSRMGILEKRDKVDIYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcatatc ttcaatggga ctgagcgggt gcggtacctg
+       61 aacagataca tccataaacg agaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtgt cggaactgga gtggcctgtc gcagagaact ggaacagccg gatgggcatc
+      181 ctagagaagc gggacaaggt ggacatctac tgcagataca attatagggt ttttgagagc
+      241 ttcacagagc agcgatgag
+//
+LOCUS       NHP02964                 262 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:27, DRB6 locus allele.
+ACCESSION   NHP02964
+VERSION     NHP02964
+DBLINK      INSDC: FN433751
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:27
+            IPD accession: NHP02964
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0127
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:27"
+                     /note="previous designations: Mafa-DRB6*0127"
+     exon            1..262
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..262
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:27"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECPIFNGTERVQYLNRYIHKREENLRFHSDLGEFQAVME
+                     LGWPVAENWNSQKGILEEKRDKVDSYCRYNYMVFESFTEQRX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcctatc ttcaatggga ctgagcgggt gcagtacctg
+       61 aacagataca tccataaacg ggaggagaac ctgcgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gtggcctgtc gcggagaact ggaacagcca gaagggcatc
+      181 ctggaggaga agcgggacaa ggtggactcc tactgcagat acaattacat ggtttttgag
+      241 agcttcacag agcagcgatg ag
+//
+LOCUS       NHP02965                 199 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:20, DRB6 locus allele.
+ACCESSION   NHP02965
+VERSION     NHP02965
+DBLINK      INSDC: FN433752
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Rotmans G, de Vos-Rouweler AJ,
+            Bontrop RE.
+  TITLE     Extensive DRB region diversity in cynomolgus macaques: recombination
+            as a driving force.
+  JOURNAL   Immunogenetics 62:137-147 (2010)
+   PUBMED   20131048
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:20
+            IPD accession: NHP02965
+            Species prefix: Mafa
+            MHC class: II
+            Previous designations: Mafa-DRB6*0120
+FEATURES             Location/Qualifiers
+     source          1..199
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..199
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:20"
+                     /note="previous designations: Mafa-DRB6*0120"
+     exon            1..199
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..199
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:20"
+                     /codon_start=1
+                     /product="MHC class II DRB6 antigen"
+                     /translation="LEQAKCECRIFNGTERVQYPNRNIHKREENLCFHSDLGEFQAVME
+                     LGWPVTELQLRGFESFTVQX"
+ORIGIN
+        1 ttggagcagg ctaagtgtga gtgtcgtatc ttcaatggga ctgagcgggt gcagtacccg
+       61 aacagaaaca tccataaacg ggaggagaac ctgtgcttcc acagcgacct gggggagttc
+      121 caggcggtga tggaactggg gtggcctgtc acagagttac aattacgggg ttttgagagc
+      181 ttcacagtgc agtgatgag
+//
+LOCUS       NHP03932                 164 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:30, DRB6 locus allele.
+ACCESSION   NHP03932
+VERSION     NHP03932
+DBLINK      INSDC: GU576478
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:30
+            IPD accession: NHP03932
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..164
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..164
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:30"
+     exon            1..164
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..164
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:30"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="CRIFNGSEQVQYLNRNIHKRGENLGFHSDVGEFQAVTQLGRPVTE
+                     LQLPGFX"
+ORIGIN
+        1 agtgtcgtat cttcaatggg tctgagcagg tgcagtacct gaacagaaac atccataaac
+       61 ggggggagaa cctgggcttc cacagcgacg tgggggagtt ccaggcggtg acgcaactgg
+      121 ggcggcctgt cacagagtta caattaccgg gtttttgaga gctt
+//
+LOCUS       NHP03935                 164 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:32, DRB6 locus allele.
+ACCESSION   NHP03935
+VERSION     NHP03935
+DBLINK      INSDC: GU576472
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:32
+            IPD accession: NHP03935
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..164
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..164
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:32"
+     exon            1..164
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..164
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:32"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="CHIFNGTERVQYLNRYIHKREENLRFHSDVGEFQEVTELGRLVTE
+                     LQLQGFX"
+ORIGIN
+        1 agtgtcatat cttcaatggg actgagcggg tgcagtacct gaacagatac atccataaac
+       61 gggaggagaa cctgcgcttc cacagcgacg tcggggagtt ccaggaggtg acggaactgg
+      121 ggcggcttgt cacagagtta caattacagg gtttttgaga gctt
+//
+LOCUS       NHP03942                 226 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Mafa-DRB6*01:33, DRB6 locus allele.
+ACCESSION   NHP03942
+VERSION     NHP03942
+DBLINK      INSDC: HM236224
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:33
+            IPD accession: NHP03942
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..226
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..226
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:33"
+     exon            1..226
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..226
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:33"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="CHIFNGTERVRYLNRNIHKWEENLRFHSDVREFQAVTELERPVAE
+                     NWNSQKGILEEKPDX"
+ORIGIN
+        1 agtgtcatat cttcaatggg actgagcggg tgcggtacct gaacagaaac atccataaat
+       61 gggaggagaa cctgcgcttc cacagcgacg tgcgagagtt ccaggcggtg acggaactgg
+      121 agcggcctgt cgcggagaac tggaacagcc agaagggcat cctggaggag aagccggact
+      181 aggtggacat ctactgcaga tacaattagg gggttcttga gagctt
+//
+LOCUS       NHP10552                 270 bp    DNA     linear   PRI 04-MAR-2020
+DEFINITION  Mafa-DRB6*01:34, DRB6 locus allele.
+ACCESSION   NHP10552
+VERSION     NHP10552
+DBLINK      INSDC: LR744081
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:34
+            IPD accession: NHP10552
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..270
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:34"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..270
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:34"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECPIFNGTERVQYLNRYIHKREENLRFHSDLGEFQAV
+                     MELGWPVAENWNSQKGILEEKRDKVDYYCRYNYRVFESFTEQRX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcctatctt caatgggact gagcgggtgc
+       61 agtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgatg gaactggggt ggcctgtcgc ggagaactgg aacagccaga
+      181 agggcatcct ggaggagaag cgggacaagg tggactacta ctgcagatac aattacaggg
+      241 tttttgagag cttcacagag cagcgatgag
+//
+LOCUS       NHP10699                 207 bp    DNA     linear   PRI 04-MAR-2020
+DEFINITION  Mafa-DRB6*01:35, DRB6 locus allele.
+ACCESSION   NHP10699
+VERSION     NHP10699
+DBLINK      INSDC: LR744082
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:35
+            IPD accession: NHP10699
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..207
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..207
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:35"
+     exon            1..207
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..207
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:35"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECRIFNGTERVQYPNRNIHKREENLRFHSDLGEFQAV
+                     MELGWPVTELQLRGFX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcgtatctt caatgggact gagcgggtgc
+       61 agtacccgaa cagaaacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgatg gaactggggt ggcctgtcac agagttacaa ttacggggtt
+      181 tttgagagct tcacagtgca gtgatga
+//
+LOCUS       NHP10700                 208 bp    DNA     linear   PRI 04-MAR-2020
+DEFINITION  Mafa-DRB6*01:36, DRB6 locus allele.
+ACCESSION   NHP10700
+VERSION     NHP10700
+DBLINK      INSDC: LR744083
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:36
+            IPD accession: NHP10700
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..208
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..208
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:36"
+     exon            1..208
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..208
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:36"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECHIFNGTEPVQYLNRYIHKREENLRFHSDLGEFQAV
+                     MELGWPVTELQLRGFX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggact gagccggtgc
+       61 agtacctgaa cagatacatc cataaacggg aggagaacct gcgtttccac agcgacctgg
+      121 gggagttcca ggcggtgatg gaactggggt ggcctgtcac agagttacaa ttacggggtt
+      181 tttgagacct tcacagagca gcgatgag
+//
+LOCUS       NHP10701                 208 bp    DNA     linear   PRI 04-MAR-2020
+DEFINITION  Mafa-DRB6*01:37, DRB6 locus allele.
+ACCESSION   NHP10701
+VERSION     NHP10701
+DBLINK      INSDC: LR744084
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:37
+            IPD accession: NHP10701
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..208
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+     gene            1..208
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:37"
+     exon            1..208
+                     /gene="DRB6"
+                     /number=1
+     CDS             1..208
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:37"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECPIFNGTEWVQYLNRYIHKREENLRFHSDLGEFQAV
+                     MELGRPVTELQLWGFX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcctatctt caatgggact gagtgggtgc
+       61 agtacctgaa cagatacatc cataaacggg aggagaacct gcgcttccac agcgacctgg
+      121 gggagttcca ggcggtgatg gaactggggc gacctgtcac agagttacaa ttgtggggtt
+      181 tttgagagct tcacagtgca gcgatgag
+//
+LOCUS       NHP12198                4152 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:13:02:02, DRB6 locus allele.
+ACCESSION   NHP12198
+VERSION     NHP12198
+DBLINK      INSDC: OR823576
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:13:02:02
+            IPD accession: NHP12198
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..4152
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..4152
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:13:02:02"
+     exon            1..270
+                     /gene="DRB6"
+                     /number=1
+     exon            2221..2493
+                     /gene="DRB6"
+                     /number=2
+     exon            3193..3303
+                     /gene="DRB6"
+                     /number=3
+     exon            3789..3812
+                     /gene="DRB6"
+                     /number=4
+     exon            4138..4152
+                     /gene="DRB6"
+                     /number=5
+     intron          271..2220
+                     /gene="DRB6"
+                     /number=1
+     intron          2494..3192
+                     /gene="DRB6"
+                     /number=2
+     intron          3304..3788
+                     /gene="DRB6"
+                     /number=3
+     intron          3813..4137
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..270,2221..2493,3193..3303,3789..3812,4138..4152)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:13:02:02"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="RFLEQAKCVCHIFNGTERVQYLNRNTHKREENLRFHSDLGEFQAV
+                     TELGRPVAESWNSQKGILEEKRDKVDSYCRYNYGVFDSFIEQRX"
+ORIGIN
+        1 cacgtttctt ggagcaggct aaatgtgtgt gtcatatctt caatgggact gagcgggtgc
+       61 agtacctaaa cagaaacacc cataaacggg aggagaacct acgcttccac agcgacctgg
+      121 gggagttcca ggcggtgacg gaactggggc ggcctgtcgc ggagagctgg aacagccaga
+      181 agggcatcct ggaggagaag cgggacaagg tggactccta ctgcagatac aattacggag
+      241 tttttgatag cttcatagag cagcgatgag gtgagagctg caggtggggg ggcctgagtc
+      301 gccgtgagct ggaaatctga gtgtgtgtgt gtgtgtgtgt gtgagagaga gagagagaga
+      361 gagagagagc catctgtgac catttagagt tctctcaatc cccagcaagc agttctgaga
+      421 gcacaggtgt gtgtagaatg tggatttgtc tgtgtctgtg tggctgttgt gggaggggag
+      481 gcaggacccg gctgcttctt atcgttggag gcctctgtgg ggaggtgaca tgggaggtgg
+      541 gagcaggtgg ctggacagag aggagacctt gattgtcctg gatccttaga gatgcaggga
+      601 agggaagtgt aaggtgtatg tggttgggat gaaggtttag gggaggagag ctgaggggta
+      661 tggaaggttc gggataatgt gaaggggcca gttccagact atccctggca cacacccttc
+      721 atgtaatctc tgaaataaaa gtgcatggta tttgtttgca aaagcattag attaacttcc
+      781 aggagaacgg aggagacctc tgaggcaatt ctgaagcttc tttaggtcta aatttctttt
+      841 tttgtttgtt ttcttagtgt gtatattttt acatagctga aatgattgtg aaactaactt
+      901 cttgaattaa agttttgttt gttttcgggt tttgtttttt gttgtttgta tttttgagag
+      961 agaatctttc aaaattaaag tgcccttcct taaaccttct cgctgcttta ggactcatgc
+     1021 ctttctagga gaaagatttg gagaatcggc cgggctcggt ggctcacacc tgtaatccca
+     1081 gcactttggg aggctgagga gggtggacga tgaggtcagg agatggagac tatcctgtct
+     1141 aacacggtga aaccccatct ctactaaaaa caaaaaatta gccaggcatg gtggcatgcg
+     1201 cctgtagttc cagctactcc ggaggccgca gcaggagaat cacttgaatc ccggaggcgg
+     1261 aggttgcagt gagccaagat ggtgccactg cattccagcc taggcgacag agcaagactc
+     1321 catctcaaaa aaagaaaata tttggagaat catttctgct tgttttgcac gggagatgca
+     1381 ttgatcacct aaatgtaaat ataagaactt tcaaaactaa aatgacgttc cttaattcct
+     1441 aaatctcagg attttccagg aacataaaga tttggagaat catttctgtc tgtcccacgt
+     1501 tcccgggtca gaaccatttc tgtggtgttc taaggtgtga gtgtatggcg gtagtattcc
+     1561 tgaaaattca tactcagttt tctcatgtac cctactctgt cactttatct atccacattg
+     1621 ttttaaaaca tactcttctc tcaaggtgta agaggatgat aaataggtgc caagtggagc
+     1681 acccaagtgt gatgagccct ctcactgtgg aatagagtga gaagcttctg acctcataaa
+     1741 ttgatggcta tcttcagtca ttgttttata tattttatgt aaattaatcc tcatataacc
+     1801 ccaagaggta aattagtata attaacctac attatacgtg ggaaagatga gacacaaaag
+     1861 aatcaaaaaa ctcttccagg atccaccagt aaaaggcagc ccttggattt gaaccaggca
+     1921 accaggctca gaaatcaatt ttaattacta cacgctgtac tttcaaagat ttgtaaacac
+     1981 tttgacaatg catgccaatt tcaagctatg aagaaacaaa tacaattttt gtaacatctc
+     2041 tcaaatctaa tgcgtcctca ctatcaagat taaattccag actgatgacg ctgtaaggcc
+     2101 acatggccag ctgtgctgga ggcctggtca aggtcagaat ctgggtttac agagaagcag
+     2161 acagtcaaac aaggagactc taacttcctg attcgttctc tctacctttt tttctcctag
+     2221 tccaagctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac cacaccctcc
+     2281 tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg ttccggaacg
+     2341 gccaggaaga gaaggctgga gtggtgtcca caggcctgat ccagaatgga gactggacct
+     2401 tccagaccct ggtgatgctg gaaacagttc ctcagagtgg cacctgccaa ctggagcacc
+     2461 caagcgtgat gagccctctc acagcgcaat ggagtgagca gttttctgac ttcatgaatt
+     2521 tctcccccac caagaagggg actttgctaa tccctgagta tcaggtttct cctctcccac
+     2581 atcctatttt catttgctcc atgttctcat ctccatcagc atggttcact gggggtagcc
+     2641 ctgtaatatt ttctagaaac actggtacct cctggagaag caatcacacc tgccaggcag
+     2701 gagaggctgt tcctcttttg aacctcccca tgatgtcaca ggtcagggtc acccagtctc
+     2761 cctgggctcc aggccctgcc ctgggtctga gactacgttt ctggtgctgt tgatctgagt
+     2821 tgtttgttgc gatctgagaa gcgaactgta ggggccttcc tgacataagg ggagtccaat
+     2881 ctcagctctg ctttttgtta gctctgtcac tctagacaaa ctgcttaacc tcattgagac
+     2941 tcaggctttc tgttgatcag attttgaagt tgtgacttac atcaagactg taatatttga
+     3001 atgagtttga tgcctagacc ttgtaactgt tcagtgtgat ttgaaaaccg tttttccccc
+     3061 cagaaatggc ttcttatttt agttcttgtg ggggcagcct tcttccccat tttcaaagct
+     3121 ctgaatctta gggtctcaat taaagaggtt cagtttggaa taaacatcac taaagctggc
+     3181 ttcctctctc aggagcacgg tctgaatctg cacagagcaa gatgctgagt ggagtcgggg
+     3241 gctttgtgct gggcctgctc ttccttgggg ccgggctgtt catctgcttc aggaatcaga
+     3301 aaggtgagga gcctttggaa gctgagtgtc cgcataggct tttctggagg aagaaatatg
+     3361 tctttgctga ggttagttct cagtatatga gtggccctgg ataaagcctt tctttttccc
+     3421 aaatgacctc taatgtcctg ataatctaga aatcatcagt gcatggtttc tatgtcaaag
+     3481 cataatagcc ataacagctt ggggcttgca gagatgaaag aaaggctaac gagtagggat
+     3541 cctttggttc cagatcctgg agcaaattaa ggcagagccg ctaaggctaa tgcagttaca
+     3601 ctggatcctg tgacagacac ttcatgcttc atgggtcaca tgtctgtttc tgctcctctc
+     3661 tgctgtggtt ggtgtgggtg gtggtgatag agaaacctca ggtgagagat ctggggctgg
+     3721 aacattgtgt tggaggacaa atttgcttcc atatctttta agtgtatatc ttttcccctt
+     3781 tttcccagga cactctggac ttccgccaac aggtaatacc ttttaatcct ctttcagaaa
+     3841 cagattcggt ttccctagaa tgacggcaga ggtgataagg cataagacag aaatagtagg
+     3901 aaagacttgg gatccaaatt tctgatcagg caatttacac caaaactcct cctccccact
+     3961 tagaaaggcc tgtgctgtgc gggagtattg gctgggggag acttaggaac cttgttttcc
+     4021 tcttcctgca gtgctctcgt ctgagtcgtt gaaagcaggg aaaagaagct tttagtaaag
+     4081 ccaggtctga aaacaatttc ctctgtctct gtgggactcc tgaactggac tcctgagctg
+     4141 aagtgcagat ga
+//
+LOCUS       NHP12206                5117 bp    DNA     linear   PRI 29-NOV-2023
+DEFINITION  Mafa-DRB6*01:38:01:01, DRB6 locus allele.
+ACCESSION   NHP12206
+VERSION     NHP12206
+DBLINK      INSDC: OR823579
+KEYWORDS    IPD-MHC; MHC class II; DRB6.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-DRB6*01:38:01:01
+            IPD accession: NHP12206
+            Species prefix: Mafa
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..5117
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..5117
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:38:01:01"
+     exon            1..212
+                     /gene="DRB6"
+                     /number=1
+     exon            3210..3482
+                     /gene="DRB6"
+                     /number=2
+     exon            4182..4292
+                     /gene="DRB6"
+                     /number=3
+     exon            4777..4800
+                     /gene="DRB6"
+                     /number=4
+     exon            5104..5117
+                     /gene="DRB6"
+                     /number=5
+     intron          213..3209
+                     /gene="DRB6"
+                     /number=1
+     intron          3483..4181
+                     /gene="DRB6"
+                     /number=2
+     intron          4293..4776
+                     /gene="DRB6"
+                     /number=3
+     intron          4801..5103
+                     /gene="DRB6"
+                     /number=4
+     CDS             join(1..212,3210..3482,4182..4292,4777..4800,5104..5117)
+                     /gene="DRB6"
+                     /allele="Mafa-DRB6*01:38:01:01"
+                     /codon_start=3
+                     /product="MHC class II DRB6 antigen"
+                     /translation="GFLEQAKCECHIFNGSERVQYLNRNIHKWEGGEPALPQRCGGVPG
+                     GDGTGAACHRITITGFLRASQCSDESSLRX"
+ORIGIN
+        1 caggtttctt ggagcaggct aagtgtgagt gtcatatctt caatgggtct gagcgggtgc
+       61 agtacctgaa cagaaacatc cataaatggg agggaggaga acctgcgctt ccacagcgat
+      121 gtgggggagt tccaggaggt gacggaactg gggcggcctg tcacagaatt acaattacgg
+      181 ggtttttgag agcttcacag tgcagcgatg aggtgagagc ggcgggggcc agggcctgag
+      241 tccctgtgag ctgggaatct gagagtgtgt gtgtgtgtga gagagagaga gagagagaga
+      301 gagagagaga gagagagaga gagagagcgc catctgagca tttagagtcc tctcaatcct
+      361 gagcaagcag ttctgagggc acaggtgtgt gtgtagagtg tggatttatc tgtgtgtctg
+      421 ttgtgggagg ggaggcagga gggggattct tctaatcctt ggaggcctct gtggggaggt
+      481 gacatgggag gtgggagcag gtggctggag agagaggaga ccttgattgt cctggatcct
+      541 taaagatgca ggtaagggaa gttaaggtgt atgtggttgg ggtgaaggtt taggggagga
+      601 gagctgaggg tattggaagc ttccggataa cgtgaggggg ccagttccag actgtccttg
+      661 gcacacaccc ttcttgtaat ctctgaaata aaagtgcacg gtgtttgttt gcgaaagcat
+      721 tagattaact tctaggggaa ctgaggagac ctctgaggca attctgaagc ttctttagat
+      781 ctaaatttct ttttttgttg ttttcttagt gtgtatattt ttacatagct gaaatgattg
+      841 tgaaactaac ttcttgaatt aaagttttaa cacattgtta ttattttatt ataatgctaa
+      901 tagttttcta gtagttatgt attattattt catatgtaat agttgtgaca caacttacct
+      961 cactttctct tttgttgacc tttattatga cattctccaa aagctgaaaa tgtatgtttc
+     1021 tggttaattt ttaatttata ttgttttatt tgtaattgtt ttaaataatt ttgacctatt
+     1081 tgtgtgccgg ttataattac tgctctaaga attccctatt gtatttggta ggtaatggac
+     1141 aataatctat tgtctgttat ctctagggtt tagtattttt ctcagtgatt ttgtggattc
+     1201 tttgtactgt aagattatta acactttctt gatattttat tcagtatttt ctccagtttg
+     1261 tggtttgtat gttgattctg aaaattcttt tccatgttaa ggatttgaac gttttttgtt
+     1321 tgtttgtttg tttttgggct tttctttttt tttttttttt gagacagagt cttactctgt
+     1381 tgcccaggct ggaatgcagt ggtgcggtct tggctcactg caacctccac ctcccgggtt
+     1441 caagcgattc tcctgcctct gcctcctgag tagctgggat tacagacacg caccaccatg
+     1501 ctcgactaat ttttctattt ttagtagaga tggggtttca ccacattggt caggctgttc
+     1561 tcaaactcct gtcctcggcc tcccaaagtg ctgggattac gggcttgagc cactgcacct
+     1621 cgcctgaacg tttttattta ttaaaatata ttgcaaattt ttattaatga tttacaatct
+     1681 accttaaatc tatcatttcg tggtattgtt gtctccaggt ttcttcttcc ttctcacaaa
+     1741 aattgtattg ttgagagtct gctagtgtca gggattttcc tgggcataag caccccaagt
+     1801 aatgagtccc agaccctgcc ttgatccaaa tgtccttctg gaaaaaaatc agtttacaat
+     1861 gataggtctg ataatagtta tgtttgtttt gcacaggaga tgcattgatc agctaaatgt
+     1921 aaatataaga actttcaaaa ttaaagtgac tttccttaat ccttctcact gctttaggac
+     1981 ttatgctttt ctaggagaaa gagttggaga atcgactggg cgctgtggct cacacctgta
+     2041 atctcagcac tttgggaggc cgaggagggc gaatgacgag gtcagaagat ggagactaac
+     2101 ctgtctaata ccgtgaaacc ccatctctac taaaaataca aaaaaattag ctgggcatgg
+     2161 ttgcacgtgc ctgtagttcc agctactggg gaggccgcag caggagaatc acttgaaatc
+     2221 gggaggcgga ggttgcaatg agccaagatg gcaccactgc attccagcct gggcaacaga
+     2281 gcaagactcc atctcaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaagatt tggagaatca
+     2341 ttgctgcttg ttttgcacag gacatgcatt gatcacctaa atgtaaatat aagaactttc
+     2401 aaaactaaaa tgacgttcct taattcctaa atctcaggat tttctaggaa cataaagatt
+     2461 tggagaatca tttctgtctg tcccacgttc ccgggtcaga accatttctg tggtgttcta
+     2521 aggtgtgagt acatggcggt agtattccta aaaattcata ctcggtttcc tcatgtaccc
+     2581 tactctgtcc ctttacctat ccatattgta ttaaaacata ctcttctttc aaggtgtaag
+     2641 aggatgataa atagatgcca agtggagcac ccaagtgtga tgagcccttt tacagtgaaa
+     2701 tggagtgaga agctttctga cctcacaaat tgatggctat cttcagtcat tgttttatat
+     2761 gttttacgta aattaatcct catataaccc caagaggtaa attagtataa ttaacctaca
+     2821 ttatacgtgg gaaagatgag acccaaaaga atcaaaaaac tcttccagga tcaaccagta
+     2881 aaaggcaaac cttggatttc aatcaggcaa cgaggctcag aaatcaattt tagttactac
+     2941 acgctgtact ttcaaagatt tgtaaacact ttgacaatgc atgccaattt caagctatga
+     3001 agaaacaaat acaattttta caacatctct caaatctaat gggtccacac tatcaagatt
+     3061 aaattctaga ctgatgacgc tgtgaggcca catggccagc tgtgctggag gcctggccaa
+     3121 ggtcagagcc tgggtttaca gagaagcaaa cagccgaaca aggagacgat aacttcctga
+     3181 ttcattctct ctaccttctt ttctcctagt ccagcttaag gtgactgtgt atcctgcaaa
+     3241 gacccagccc ctgcagcacc acaacctcct ggtctgctct gtgagtggtt tctatccagg
+     3301 cagcattgaa gtcaggtggt tccagaacgg ccaggaagag aaggctgggg tggtgtccac
+     3361 aggcctgatc cagaatggag actggacctt ccagaccctg gtgatgctgg aaacagttcc
+     3421 tcagagtgga acctgccaac tggagcatcc aagcgtgatg agccctctca cagtgcaatg
+     3481 gagtgagcag ttttctgact tcatgaattt ctcacccact aagaagggga ctttgctaat
+     3541 ccctgagtat caggtttctc ctctcccaca tcctattttc atttgttcca tgttctcatc
+     3601 tccatcagca tggttcactg ggggttgccc tgtaatagtt tctagaaaca ctggtacctc
+     3661 ctggagaagc agtcacgcct gccaggcagg agaggctgtc cctcttttga acctccccat
+     3721 gatggcacag gtgagggtca cccggtctcc ctgggctcca ggccctgccc tcggtctgag
+     3781 actgtgtttc tggtgctgtt gaactgagtt gtttgttgtg atctgagaag cgaactgtag
+     3841 gggccttcct gacatgaggg gagtccaatc tcggctctgc cttttattag ctctgtcact
+     3901 ctagacaaac tacttaacct cattgagtct caggctttct gtggatcaga tgttgaagtt
+     3961 gtgccttaca tcaaggctgt aatatttgaa tgagtttgat gcctggacct tgtaactgtt
+     4021 cagtgtgatt tgaaaactgt tttttctccc cagaaatggc tagctatttt agttcttaca
+     4081 gggcagcctt cttccccatt ttgaaagctc tgaatcttag ggtctcaatt aaagaggttc
+     4141 agtttggaat aaacatcact aaagctggct tcctctctca ggagcacggt ctgaatctgc
+     4201 acagagcaag atgctgagtg gagtcggggg ctttgtgctg ggcctgctct tccttggggc
+     4261 cgggctgttt gtctacttca ggaatcagaa aggtgaggag cctttgggag ctggctctcc
+     4321 ccataggctt ttctggagga ggaaatatgg ctttgctgag gttagttctc agtatatgag
+     4381 tggccctgga taaagacttt ctttccccaa atgacctcca atgtcctgat agtccagaaa
+     4441 tcatcagtgc atggtttcta ggtcaaaaca taatagccat aatagcttgt agcctgcaga
+     4501 gataagagaa aggttaacga atagggaacc tttgtttcca gatcctggag caaattaagg
+     4561 aagagccact aaggctaatg caattacact ggatcctgtg acagacactt catgcttcat
+     4621 gggtcacatg tctgtttctg ctcctctctg ctgtggttgg tgtgggtggt ggtgacagag
+     4681 aaacctcagg tgagagatct ggggctggaa cattgtgttg gaggacaaat ttgcttccat
+     4741 atcttttaag tgtatatctt ttccgctttt tcctaggaca ctctggactt cggccaacag
+     4801 gtaatacctt ttaatcttct ttcagaaaca gattcggttt ccctagaatg acggcagagg
+     4861 tgataaggca taagacagaa atagtaggaa aaactttgga tccaaatttc tgatgaggca
+     4921 atttacacca aaactcctcc tctccactta gaaaaggcct gtgctctgca ggagtattgg
+     4981 ctccgggaca cttaggaacc ttatttttct tcttcctgca gtgccctcgt ctgagtcgtt
+     5041 gaaagcagga aaagaagctt ttagtaaagc caggtccgaa aacactttcc tctgtctctg
+     5101 caggactcct gagctga
+//

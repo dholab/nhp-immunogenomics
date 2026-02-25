@@ -1,0 +1,2561 @@
+LOCUS       NHP00849                9065 bp    DNA     linear   PRI 28-APR-2020
+DEFINITION  Patr-DRB1*02:01:01:01, DRB1 locus allele.
+ACCESSION   NHP00849
+VERSION     NHP00849
+DBLINK      INSDC: M96076
+            INSDC: FN424193
+            INSDC: AM910425
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   Doxiadis GG, de Groot N, de Groot NG, Doxiadis II, Bontrop RE.
+  TITLE     Reshuffling of ancient peptide binding motifs between HLA-DRB
+            multigene family members: old wine served in new skins.
+  JOURNAL   Mol Immunol 45:2743-2751 (2008)
+   PUBMED   18395261
+REFERENCE   4
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*02:01:01:01
+            IPD accession: NHP00849
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*02:01; Patr-DRB1*0201
+FEATURES             Location/Qualifiers
+     source          1..9065
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..9065
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:01:01:01"
+                     /note="previous designations: Patr-DRB1*02:01;
+                     Patr-DRB1*0201"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            5379..5648
+                     /gene="DRB1"
+                     /number=2
+     exon            7934..8215
+                     /gene="DRB1"
+                     /number=3
+     exon            8917..9027
+                     /gene="DRB1"
+                     /number=4
+     exon            9028..9051
+                     /gene="DRB1"
+                     /number=5
+     exon            9052..9065
+                     /gene="DRB1"
+                     /number=6
+     intron          101..5378
+                     /gene="DRB1"
+                     /number=1
+     intron          5649..7933
+                     /gene="DRB1"
+                     /number=2
+     intron          8216..8916
+                     /gene="DRB1"
+                     /number=3
+     CDS             join(1..100,5379..5648,7934..8215,8917..9027,9028..9051,
+                     9052..9065)
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKGECH
+                     FFNGTERVRFLERDIYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDILEQARAAV
+                     DNYCRHNYGVGESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cgctgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat gtaagtgcac attgtgggtg
+      121 ctgagctact atggggtggg gaaaatatgg agttgtgtta acattgtgcc caggccatgt
+      181 cccttaagaa attgtgaggt tttcttcaga gattgcccat ctttatcacg ggatcccaaa
+      241 ttatttcctc cacaaaagga gcttgggtac ttgccctctc catgagactg tgtaaggggc
+      301 ctttgcacaa gtcatttctt ttcaaatctc caccaataaa acctttgcat catatgtcct
+      361 cagggtcttt agaggattta caaataagga tgctaaaata aattccccat acagcacttc
+      421 cctttattat gttgacttac gtcagacaaa aggaggttct tactgaaaat tttgtgggag
+      481 tcaagggaat tcaaagggtc tctcctagac tatccagtgt taggttctcc acaggacctt
+      541 tggtgttggc ccctcttcct catatgtgag gatggaccca gtggcctccc cattaactcc
+      601 tttcttttct tgctgaactc caatgtttat aaggcctgta tccctgtagc gtatgtaggt
+      661 tctctgacag aagttatact tagtgctctt tctttcttat ggggaaaagt ccctggaact
+      721 gaagctgaga ttgttagtac ttggagtcac cttacagata cagagcattt atgaggtatt
+      781 ctttggtgcc taaagaactt aaggcatcct ctgaaaaact ggcccaggtt cgtgttcatt
+      841 atgaatcttt tttaaccttt ctgtacttgt ttctcttaca tgtcctatgt gctctaacta
+      901 gacatgacag aagagattta actaacgttg tataaattat atgaaattct atttttgtaa
+      961 gtcaaaaata atcaaatacc agaaatttaa taatgttcaa accatatact ctgtgtgggg
+     1021 ttaccgagac aatgcggaca ttgttcacgt ctcaagggct aaaagccaac gagcaagtcc
+     1081 tgggaactca ttgtcttact ggggtcttgt cctaaatttc ctaggttgac ccatcatgac
+     1141 ctcagctttc cttaattagc catgtctgct tacttcttcc tccagtttct atttttcccc
+     1201 agctatgttg tcatcatttc cagaaatctc taaagcttgc acagaacctt agcactatga
+     1261 gattcattga aagacacttt tttttctttt tgaggtaggg cctggctctg tcacccagtc
+     1321 tatagctcag tggtgtgatc gaggctcact gcaacctctg cctcccacgc tcaagtgatc
+     1381 ctccctcctc aggctccaga gtagctggga atacaggcag gcaaccacgc ccagctaatt
+     1441 tttataattt tggtagacat gagattttgc catgttgccc aggctggtct tgaactgctg
+     1501 gactcaagca atcttcctgt cttggcctcc caacatgcta ggattataga tgtgagccac
+     1561 tgtgcccagg caaaaagaga tgactcttaa taaaaaaatt tcctttttct taaattattg
+     1621 tttctttatc tgtgaattct tcttccaact agaaggagaa gaaagaagaa gtttgcctgt
+     1681 atttctcact gggaggagaa ggggtctagt gtgacattaa aatgaaagag tgctggagct
+     1741 tgagcccctt cttgctttcc agtatcccca cagtgatcag ttcccatacc ctggtttatt
+     1801 catgtaaatc acacttattt ttctcagcag ctactcttta ccaggctcca ttctaggttc
+     1861 aaatcattct atttgattaa gatagagagg gttccaactc tcatggaagt tacacaagag
+     1921 tagaggagac agacactaac ccaataagca tttgacgaag aaaatgttag agagtcatag
+     1981 tgcactgaag aaaagacatc aggtttgtga aaaagagaga aatggattca cctactttag
+     2041 ttcatatgtt tagggagctc tacctgagaa agtgacattc agctgagaca acaaaataag
+     2101 tagacagtcg tgaagatcta agggatgaaa gttccaggga gaccgaatcg ggggaagccc
+     2161 tgatgtgtta aattatgtgg agggagagaa agaaagctag aggggctgat gtatagaaag
+     2221 caaggaaatg gagaggcaga agatgagtgt aggacacaga gaggaagtca ggagcctcat
+     2281 cattataggc tctgatgtcc acagtaaaaa aattaaattt tattatttat ttatttattt
+     2341 atttatttgt ttattttatt ttattttatt ttgtgatgga gtctctctct gttgcccagg
+     2401 ctagattgct gtggcacaat ctcggctcac tgcaacctcc gcctcctggg ttcaagcgat
+     2461 tctcctgcct cagcctcccg attagctggg gccacaggcg catgccacca tacctggcta
+     2521 attttttgta tttttagtag ggatagggtt tcaccgtgtt agccaggatg gtctcgatct
+     2581 cctgacctcg tgatccgccc gccttggcct cccaaagtgc tgggattaca ggtgtgagcc
+     2641 actgcgccca gcctatattc aatgtttaaa actaattcta gctactctgt ggggattgga
+     2701 ttgttggggt tcactagtgg ttaggaagac tatttaggag cacagcagga aattcttcag
+     2761 ggaaaacagg tttgtggctt catggagtac attagtgata aagacggtga aaaagataaa
+     2821 gtggacagac ttggcatgta tttttgctta gcttgttaat gaattacttt aaagggggca
+     2881 gaacaatcaa gcttattcct aaggattttc ttttgacaaa taaatgggtg gtagtgttgt
+     2941 ttattgagat aggaaaaact atgggaggaa atgatttgaa gtgggtggtt tgaaataaaa
+     3001 gttttgttta aatacgagat gattgattga catttatgtg gagaaatccg aaggtcaatg
+     3061 gcatttaaga gactcatggt gaggccaggg cttcaggtat ttatgttggt ggcagcaata
+     3121 cgtgtagtgt gttaaattct agggagtgga agaggataca tagggagatg gattgtgtga
+     3181 agaaaaaaga acagggcaca ggtcagcaaa gggggctgag aaagagccca aggatgttgg
+     3241 agaaaaacca agagaacatc atgtgtgtaa gtccaggaaa atagattatt ttcaaggaga
+     3301 agggagaggc caattgtggt gagtaccact aagaggaggg gcaggtgaga atatgacaga
+     3361 gaagcaagtg ctgggtttgg tggagtcgat atttgcagtc aatggagtat ccaggtagga
+     3421 aactggattg gaccatttga agagtgagta aaagtgagga cgaggttaag gttgactgtt
+     3481 ttgagtagag agcttcaggg aaggattgtt ctctgggttc agggagccag ctgaacctaa
+     3541 aggaaaaggc taaagaagct gaagagaagg aggaggacct gtgaaccaga gatgctcagt
+     3601 cattattagc gaggaaatac ggagagcccc tgtgtgcagt ggtgactact catgcaaaat
+     3661 gtcacacagc caatatttaa cacagccagt atttcacaca gccaatattt attagtgaca
+     3721 tagcatgtac cagttattac tctaggtcat gagaatggag tgataaataa aatgaatcca
+     3781 gtcgccatca ctatatgcca tgtaacattt tgcagtgact gtgtatcagg cctatgaatt
+     3841 tcagtattca atttcaataa tgatcctgtt gtatctgtgg tatttaaaaa catatacatc
+     3901 tctggaatct aaaattgaga ggttataagt aaaacccagt attagaaatt tagtgctgga
+     3961 aatcagattg cagtttaaat ctgagcatat agaaagtccc tttcttctat gtcagcagat
+     4021 gccttttgtg tgaggtttag gtgtactgca ttatttgaca taaaccagtg tttctgccct
+     4081 atgtcttcag aatgacaatt ctttatgaaa ctaatagaag aacagaagac aactgcaaaa
+     4141 tcatgatgaa gatactaatt gctttagaat taaggaatac aaaaaataat atgagctgca
+     4201 gttataggat cataaaagtt aaaatgggaa tgtattcgag tgtttattat gtgatcagtg
+     4261 ctaagaagtg tcatcattta attttacact taacggtaat cctgtgagga tgacgctatt
+     4321 attaaatgca tttgatagat tacaaaaagg cttatggttg gtaaaaattg acccaagtag
+     4381 aagagatcgt gtttttattc aggttttctg attatagagt ttgagagttt gaccatcatt
+     4441 agtgagtagt gactatattg tgtctgaatt attgacacaa tttctgatat tcatatgtac
+     4501 caggctgttt cttagagtgg ggacagaaat gcaagggctg ctagttctga tgtataggag
+     4561 aaactttcat tcattttgca tttatcattt taaacgttgt atatgtctat ctgggcatgt
+     4621 gttcaagaac acaaggaagt attaaatcac tcctttttct gaggtttgac tagcaagttg
+     4681 ggctagagtt acaaataaaa tacaggttcc tagtgaaatc tgaatttcag atacacaacc
+     4741 ataatttatt ggaaatccaa atttaactgg gaatcttcta ttattctctg ctctagaacg
+     4801 ccacacttct gatatttctc attcctgtct aagctcttgt gtgtttggtt tttggccatc
+     4861 gctttcactg ctctttaagc tcccccagcg gagtggagag gtctgttttc cctcgtttgg
+     4921 attcctagag gcagcgcagg cctggcacaa ggtcatcact aaggaagtgt tcacagggtg
+     4981 aacgcggtgg gtgctgttga aggtaccggt aaagcgtgtg ggatgagaga aggagcagag
+     5041 agtgtctttg gggctcccag gaagaggcgg cgcgggctgc ggtgctgggc ggattctcct
+     5101 ccaactcctg cttggagttc tccagaacag gctggaggca gggagggggt cccaaaagcc
+     5161 tggggatgag aaggggtttt cccgcatggt cccccaggcc cccgttcgac tcaggaagac
+     5221 ggaggatgag cccctaggtt gctggtggtg ggcgttgcgg ttggggccgg ttaaggttcc
+     5281 agtgcccgca ccccgctcag ggagccccgg atggtggcgt cgctgtccgt gtcttctcag
+     5341 gaggccgccc tgtgaccgga tggttcgtgt ccccacagca cgtttcctgt tgcagcctaa
+     5401 gggggagtgt catttcttca atgggacgga gcgggtgcgg ttcctggaga gagacatcta
+     5461 taaccaagag gagttcatgc gcttcgacag cgacgtgggg gagtaccggg cggtgacgga
+     5521 gctggggcgg cctgtcgccg agtactgcaa cagccagaag gacatcctgg agcaggcgcg
+     5581 ggccgcggtg gacaattact gcagacacaa ctacggggtt ggtgagagct tcacagtgca
+     5641 gcggcgaggt gagcatggcc gcggcggggc ctgagtcccg gtgagctggg aatctgagtg
+     5701 agtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg agagagagag agagagagag
+     5761 agagagacag agagagacag agagagagag agagagagag agcgccatct gtgagcattt
+     5821 agaatcctct cagtcccgag caagcagttc tgagagcaca ggtgtgtgtg taaagtgtgg
+     5881 atttgtctgt gtctgtgtgt ctgttgtggg aggggaggca ggaaggggct gtttcttatc
+     5941 cttggagacc tctgtgggga ggtgacaagg gaggtgggtg ctgggggctg gagagagagg
+     6001 agaccttgat tatctcggtc cttagagatg cagggaaggg aaatgtaagg ggtgtgtggt
+     6061 tggggtgaag gtttagggga ggactgctga ggggtaaggc aggtttggga taatgcgagg
+     6121 aggccagttc cagactctcc ctggcataca cccttcgtgt aatctctgaa ttaaaagtgt
+     6181 gtgctgtttg tttgtaaaag caatagatta atttctagag gaactgagta gacctctgag
+     6241 gcacctctga agcttcttta gatctaaatt tcttcctagt tttttgtttt tttcagtttg
+     6301 tatattttta catagtagaa atgactgtga aactaacttt ttgaattaaa gttttaacac
+     6361 ggttactatt ttattataat gctggtagtt ttctagtagt tacatattat tcttttatat
+     6421 ataatatttg tgacacaact cacctcactt tcccgtttgt tgacctttat tatgacattc
+     6481 accagaagtt gaaattgtgt gtttctagtt aatttttaat ttatattttt tatttgtaat
+     6541 tcctttgaat tattttgacc tatttattgg ccgattataa ttattgctct aagaattccc
+     6601 tattgtattt ggtaggtaat ggacaatgat ctacggtcta atatcttgag ggcttagtat
+     6661 ttttctcagt gactttctgc gttctttgta ctataagatt attaacactt tattgatatt
+     6721 tgatccagca tttgctccag tttgtggttt gtatgtggat tttgaaaatt cttttccatg
+     6781 ttaagaattt gaacattttt atttaataaa atatattgta acatttttat taatgatcta
+     6841 caatccatct gaaatctgcc attttgtggc attgttgtct ccaggtttct ccttacttct
+     6901 aaaaaaaata ttgtatttat tgagagtatg ctagtgtcgg ggattttcct gggcataagc
+     6961 accccaagta acgagtccca gacactgcct taatccaaat gtgattctgg aaagaaaaat
+     7021 cattttacaa tgataggcct aataataatt atgcttgtgt tgcatgggag atgcattgat
+     7081 cagctaaatc taaatataag aactttcaaa actaaaatca cgttccctaa tccttctctc
+     7141 tgcttcagga ctcatgctgt tctaagtaaa aatttggaga atcatttctg tctgtcccac
+     7201 cttcccaggg gcagaacaat ttctgttgtg ttctaaggtg tgagtgcatg gcagtagtat
+     7261 tcctaaaatt catacttggt ttcctcatat acccaactct gtccctttat ctatgcatat
+     7321 tgctttaaat catatttttc tgtcacggtg tacaaggatg ataaataggt gccaagtgga
+     7381 gcacccaagt gtgatgagcc ccctcacagt ggaatggagt gagaagcttt ctgacctcat
+     7441 aaattgaagg ctatcttcag tcattgtttt atatatttta cgtgcattaa tcctcatata
+     7501 accccaagag gtaaattagt ataattatcc ttcattgtag gtgacaaagt tgagacacag
+     7561 aagaatcaaa aaactcttcc aggatcaacc agtaaaaggc agaccctgga ttcgaaccag
+     7621 gcaacctggc tcaaatatca gttttaatta ctacactctg tactttccaa gatttgtaaa
+     7681 cactttgaca atgcatgcca atttaaagct atgaagaaac aaacacaatt tttcacaaca
+     7741 cctctcaaat ctaatgggtc ctcactgtca agattaaatt ccaggctgat gacactgtaa
+     7801 ggtcacatgg ccagctgtgc tataggcctg gtcaaggcca gagcctgggt ttgcagagaa
+     7861 gcagacacac agccaaacca ggagacttac tctgtcttcc tgactcattc cctctacctt
+     7921 gtttttctcc tagtccaacc taaggtgact gtgtatcctg caaagaccca gcccctgcag
+     7981 caccacaacc tcctggtctg ctctgtgagt ggtttctatc caggcagcat tgaagtcagg
+     8041 tggttcctga atggccagga agagaaggct ggggtggtgt ccacaggcct gatccagaat
+     8101 ggagactgga ccttccagac cctggtgatg ctggaaacag ttcctcggag tggagaggtt
+     8161 tacacctgcc aagtggagca cccaagcgtg acgagccctc tcacagtgga atggagtgag
+     8221 cagctttctg acttcctaaa tttctcaccc actaagacgg ggactgtgct aatccctgag
+     8281 tgtcaggttt ctcctctccc acatcctatt ttcatttgct ccatgttctc atctccatca
+     8341 gcacaggtca ctgggggtag ccctgtaggt gtttctagaa acacccgtac ctcctggaga
+     8401 agcagtcttg cctgccaggc gggagagact gtccctcttt tgaacctccc catgatttcg
+     8461 caggccaggg tcacccactc tccccaggct ccaggccctg cctctgggtc tgagactgag
+     8521 tttctggtgc tgttgctctg agttattttt tgtgatctgg gaagaggaga agtgtagggg
+     8581 cctacctgac atgaggggag tccagtctca gccctgcctt ttattagctc tgtcactcta
+     8641 gacaaactac ttatcctcat tgagtctcag gctttctgtg gatcagatgt tgaactcgtg
+     8701 ccttacatca aggctgtaat atttgaatga gtttgatgtc tgaacctcgt aactgttcag
+     8761 tgtaatttga aatccttttt ttctccagaa atggctagtt attttagttc ttgtggggca
+     8821 ggcttctgcc ccattttcaa agctctgaat cttacagtct taattaaaga ggttcaattt
+     8881 ggaataaaca tcactaaacc tggcttcctc tctcaggagc acggtctgaa tctgcacaga
+     8941 gcaagatgct gagtggtgtc gggggctttg tgctgggcct gctcttcctt ggggccgggc
+     9001 tgttcatcta cttcaggaat cagaaaggac actctggact tcagccaaca ggattcctga
+     9061 gctga
+//
+LOCUS       NHP00850                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:02, DRB1 locus allele.
+ACCESSION   NHP00850
+VERSION     NHP00850
+DBLINK      INSDC: M96077
+            INSDC: FN424194
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*02:02
+            IPD accession: NHP00850
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0202
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:02"
+                     /note="previous designations: Patr-DRB1*0202"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:02"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKGECH
+                     FFNGTERVRFLDRYFYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDFLEQARAAV
+                     DNYCRHNYGAVESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cactgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat cacgtttcct gttgcagcct
+      121 aagggggagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 tataaccaag aggagttcat gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgc aacagccaga aggacttcct ggagcaggcg
+      301 cgggccgcgg tggacaatta ctgcagacac aactacgggg ctgtggagag cttcacggtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttcctgaatg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggtgtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00851                 252 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:03, DRB1 locus allele.
+ACCESSION   NHP00851
+VERSION     NHP00851
+DBLINK      INSDC: M96078
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB1*02:03
+            IPD accession: NHP00851
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0203
+FEATURES             Location/Qualifiers
+     source          1..252
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..252
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:03"
+                     /note="previous designations: Patr-DRB1*0203"
+     exon            1..252
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..252
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:03"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLLQPKGECHFFNGTERVRFLERDIYNQEEFMRFDSDVGEYRAV
+                     TELGRPVAEYWNSQKDILEQARAAVDNYCRHNYGVGES"
+ORIGIN
+        1 cgtttcctgt tgcagcctaa gggggagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctggaga gagacatcta taaccaagag gagttcatgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgtcgccg agtactggaa cagccagaag
+      181 gacatcctgg agcaggcgcg ggccgcggtg gacaattact gcagacacaa ctacggggtt
+      241 ggtgagagct tc
+//
+LOCUS       NHP00852                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:04, DRB1 locus allele.
+ACCESSION   NHP00852
+VERSION     NHP00852
+DBLINK      INSDC: M94937
+            INSDC: M96079
+            INSDC: FN424195
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*02:04
+            IPD accession: NHP00852
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0204
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:04"
+                     /note="previous designations: Patr-DRB1*0204"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:04"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKGECH
+                     FFNGTERVRFLHRYFYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDILEQARAAV
+                     DNYCRHNYGVGESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQDGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cgctgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat cacgtttcct gttgcagcct
+      121 aagggggagt gtcatttctt caatgggacg gagcgggtgc ggttcctgca cagatacttc
+      181 tataaccaag aggagttcat gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgc aacagccaga aggacatcct ggagcaggcg
+      301 cgggccgcgg tggacaatta ctgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttcctgaatg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccaggatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggtgtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00853                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:05, DRB1 locus allele.
+ACCESSION   NHP00853
+VERSION     NHP00853
+DBLINK      INSDC: M96080
+            INSDC: FN424196
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*02:05
+            IPD accession: NHP00853
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0205
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:05"
+                     /note="previous designations: Patr-DRB1*0205"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:05"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKRECH
+                     FFNGTERVRFLDRYFYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDLLERRRAEV
+                     DTYCRHNYGVGESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cgctgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat cacgtttcct gttgcagcct
+      121 aagagggagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 tataaccaag aggagttcat gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgc aacagccaga aggacctcct ggagcggagg
+      301 cgcgccgagg tggacaccta ctgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttcctgaatg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggtgtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00854                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:13, DRB1 locus allele.
+ACCESSION   NHP00854
+VERSION     NHP00854
+DBLINK      INSDC: M96121
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB1*02:13
+            IPD accession: NHP00854
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0213
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:13"
+                     /note="previous designations: Patr-DRB1*0213"
+     exon            1..246
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:13"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="LLQPKGECHFFNGTERVRFLERDIYNQEEFMRFDSDVGEYRAVTE
+                     LGRPVAEYCNSQKDLLERRRAEVDTVCRHNYGVGES"
+ORIGIN
+        1 ctgttgcagc ctaaggggga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gagagagaca tctataacca agaggagttc atgcgcttcg acagcgacgt gggggagtac
+      121 cgggcggtga cggagctggg gcggcctgtc gccgagtact gcaacagcca gaaggacctc
+      181 ctggagcgga ggcgcgccga ggtggacacc gtgtgcagac acaactacgg ggttggtgag
+      241 agcttc
+//
+LOCUS       NHP00855                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:02, DRB1 locus allele.
+ACCESSION   NHP00855
+VERSION     NHP00855
+DBLINK      INSDC: M94938
+            INSDC: M96081
+            INSDC: FN424198
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Gyllensten U, Sundvall M, Ezcurra I, Erlich HA.
+  TITLE     Genetic diversity at class II DRB loci of the primate MHC.
+  JOURNAL   J Immunol 146:4368-4376 (1991)
+   PUBMED   2040804
+REFERENCE   4
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   5
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:02
+            IPD accession: NHP00855
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0302
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:02"
+                     /note="previous designations: Patr-DRB1*0302"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:02"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRFLDRYFHNQEEYVRFDSDVGEYRAVTELGRPVAESWNSQKDILEDRRGQV
+                     DNYCRHNYGVGESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPQSGEVYTCQVEHPSVTSPLTVEWKARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSRLPPTGLLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 cataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtcctgg aacagccaga aggacatcct ggaggacagg
+      301 cggggccagg tggacaatta ctgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcagagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gaaagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tagacttccg
+      781 ccaacaggac ttctgagctg a
+//
+LOCUS       NHP00856                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:05, DRB1 locus allele.
+ACCESSION   NHP00856
+VERSION     NHP00856
+DBLINK      INSDC: M94939
+            INSDC: M96082
+            INSDC: FN424199
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:05
+            IPD accession: NHP00856
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0305
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:05"
+                     /note="previous designations: Patr-DRB1*0305"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:05"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRFLDRYFHNQEEYVRFDSDVGEFRAVTELGRPVAEYWNSQKDLLEDRRGQV
+                     DNYCRHNYGAVESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPQSGEVYTCQVEHPSVTSPLTVEWKARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSRLPPTGLLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 cataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgg aacagccaga aggacctcct ggaggacagg
+      301 cggggccagg tggacaatta ctgcagacac aactacgggg ctgtggagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcagagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gaaagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tagacttccg
+      781 ccaacaggac ttctgagctg a
+//
+LOCUS       NHP00857                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:06, DRB1 locus allele.
+ACCESSION   NHP00857
+VERSION     NHP00857
+DBLINK      INSDC: M96083
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB1*03:06
+            IPD accession: NHP00857
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0306
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:06"
+                     /note="previous designations: Patr-DRB1*0306"
+     exon            1..246
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:06"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="LEYSTSECHFFNGTERVRFLDRYFYNQEEYVRFDSDVGEFRAVTE
+                     LGRPDAEYWNSQKDLLEDRRGQVDNYCRHNYRVVES"
+ORIGIN
+        1 ttggagtact ctacgtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gacagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagttc
+      121 cgggcggtga cggagctggg gcggcctgat gccgagtact ggaacagcca gaaggacctc
+      181 ctggaggaca ggcggggcca ggtggacaat tactgcagac acaactacag ggttgtggag
+      241 agcttc
+//
+LOCUS       NHP00858                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:07:01, DRB1 locus allele.
+ACCESSION   NHP00858
+VERSION     NHP00858
+DBLINK      INSDC: M96084
+            INSDC: FN424200
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:07:01
+            IPD accession: NHP00858
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0307
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:07:01"
+                     /note="previous designations: Patr-DRB1*0307"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:07:01"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRFLDRYFHNQEESVRFDSDVGEFRAVTELGRPDAEYWNSQKDYVEDERAAV
+                     DTYCRHNYGVAESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPQSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSRLPPTGLLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 cataaccagg aggagtccgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctgatgc cgagtactgg aacagccaga aggactacgt ggaagacgag
+      301 cgggccgcgg tggacaccta ttgcagacac aactacgggg ttgctgagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcagagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tagacttccg
+      781 ccaacaggac ttctgagctg a
+//
+LOCUS       NHP00859                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:08, DRB1 locus allele.
+ACCESSION   NHP00859
+VERSION     NHP00859
+DBLINK      INSDC: M96085
+            INSDC: DQ655657
+            INSDC: FN424202
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:08
+            IPD accession: NHP00859
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0308
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:08"
+                     /note="previous designations: Patr-DRB1*0308"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:08"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRYLDRYFYNQEEYVRFDSDVGEFRAVTELGRPVAEYYNSQKDYVEDERAAV
+                     DTYCRHNYGVGESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWKARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSRLPPTGLLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggaca gagcgggtgc ggtacctgga cagatacttc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactac aacagccaga aggactacgt ggaagacgag
+      301 cgggccgcgg tggacaccta ttgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gaaagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tagacttccg
+      781 ccaacaggac ttctgagctg a
+//
+LOCUS       NHP00860                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:09, DRB1 locus allele.
+ACCESSION   NHP00860
+VERSION     NHP00860
+DBLINK      INSDC: M94940
+            INSDC: M96086
+            INSDC: FN424203
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:09
+            IPD accession: NHP00860
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0309
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:09"
+                     /note="previous designations: Patr-DRB1*0309"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:09"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRFLDRYFYNQEEYVRFDSDVGEFRAVTELGRPDAEYWNSQKDYVEDERAAV
+                     DTYCRHNYGVAESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWKARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggaca gagcgggtgc ggttcctgga cagatacttc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctgatgc cgagtactgg aacagccaga aggactacgt ggaagacgag
+      301 cgggccgcgg tggacaccta ttgcagacac aactacgggg ttgctgagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gaaagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00861                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:10, DRB1 locus allele.
+ACCESSION   NHP00861
+VERSION     NHP00861
+DBLINK      INSDC: M96122
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+COMMENT     IPD-MHC allele: Patr-DRB1*03:10
+            IPD accession: NHP00861
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0310
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:10"
+                     /note="previous designations: Patr-DRB1*0310"
+     exon            1..246
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:10"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="LEYSTSECHFFNGTERVRFLDRYFYNQEESVRFDSDVGEFRAVTE
+                     LGRPDAEYWNSQKDLLEDRRGQVDNYCRHNYGAVES"
+ORIGIN
+        1 ttggagtact ctacgtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gacagatact tctataacca ggaggagtcc gtgcgcttcg acagcgacgt gggggagttc
+      121 cgggcggtga cggagctggg gcggcctgat gccgagtact ggaacagcca gaaggacctc
+      181 ctggaggaca ggcggggcca ggtggacaat tactgcagac acaactacgg ggctgtggag
+      241 agcttc
+//
+LOCUS       NHP00862                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*07:01, DRB1 locus allele.
+ACCESSION   NHP00862
+VERSION     NHP00862
+DBLINK      INSDC: M96087
+            INSDC: DQ655659
+            INSDC: FN424205
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   3
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*07:01
+            IPD accession: NHP00862
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0701
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*07:01"
+                     /note="previous designations: Patr-DRB1*0701"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*07:01"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMVALTVTLMVLSSPLALAGDTQPRFLWQSKYKCH
+                     FFNGTERVQFLERLFYNQEEFVRFDSDVGEYRAVTELGRPVAESWNSQKDLLEDRRGQV
+                     DTVCRHNYGVLESFIVQRRVHPEVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYICQVEHPSVMSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggtgg ctctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccaac cacgtttcct gtggcagagt
+      121 aagtataagt gtcatttctt caacgggacg gagcgggtgc agttcctgga aagactcttc
+      181 tataaccagg aggagttcgt gcgcttcgac agcgacgttg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtcctgg aacagccaga aggacctcct ggaggacagg
+      301 cggggccagg tggacaccgt gtgcagacac aactacgggg ttttggagag cttcatagtg
+      361 cagcggcgag tccatcctga ggtgactgtg tatcctgcca agactcagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaagtttac
+      601 atctgccaag tggagcaccc aagtgtgatg agccctctca cagtgcaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00863                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*07:02, DRB1 locus allele.
+ACCESSION   NHP00863
+VERSION     NHP00863
+DBLINK      INSDC: M94941
+            INSDC: M96088
+            INSDC: FN424206
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*07:02
+            IPD accession: NHP00863
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0702
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*07:02"
+                     /note="previous designations: Patr-DRB1*0702"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*07:02"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMVALTVTLMVLSSPLALAGDTQPRFLWQGKYKCH
+                     FFNGTERVQFLERLFYNQEEFVRFDSDVGEYRAVTELGRPVAESWNSQKDLLEDRRGQV
+                     DTVCRHNYGVGESFTVQRRVHPEVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYICQVEHPSVMSPLTVQWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggtgg ctctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacacccaac cacgtttcct gtggcagggt
+      121 aagtataagt gtcatttctt caacgggacg gagcgggtgc agttcctgga aagactcttc
+      181 tataaccagg aggagttcgt gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtcctgg aacagccaga aggacctcct ggaggacagg
+      301 cggggccagg tggacaccgt gtgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccatcctga ggtgactgtg tatcctgcca agactcagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaacg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaagtttac
+      601 atctgccaag tggagcaccc aagtgtgatg agccctctca cagtgcaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP00864               11731 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Patr-DRB1*10:01:01:01, DRB1 locus allele.
+ACCESSION   NHP00864
+VERSION     NHP00864
+DBLINK      INSDC: M94942
+            INSDC: M96089
+            INSDC: FN424207
+            INSDC: HE800526
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Kenter M, Otting N, Anholts J, Jonker M, Schipper R, Bontrop RE.
+  TITLE     Mhc-DRB diversity of the chimpanzee (Pan troglodytes).
+  JOURNAL   Immunogenetics 37:1-11 (1992)
+   PUBMED   1428007
+REFERENCE   2
+  AUTHORS   Mayer WE, O'hUigin C, Zaleska-Rutczynska Z, Klein J.
+  TITLE     Trans-species origin of Mhc-DRB polymorphism in the chimpanzee.
+  JOURNAL   Immunogenetics 37:12-23 (1992)
+   PUBMED   1428008
+REFERENCE   3
+  AUTHORS   Fan WM, Kasahara M, Gutknecht J, Klein D, Mayer WE, Jonker M, Klein
+            J.
+  TITLE     Shared class II MHC polymorphisms between humans and chimpanzees.
+  JOURNAL   Hum Immunol 26:107-121 (1989)
+   PUBMED   2511168
+REFERENCE   4
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+REFERENCE   5
+  AUTHORS   Doxiadis GG, Hoof I, de Groot N, Bontrop RE.
+  TITLE     Evolution of HLA-DRB genes.
+  JOURNAL   Mol Biol Evol 29:3843-3853 (2012)
+   PUBMED   22826457
+COMMENT     IPD-MHC allele: Patr-DRB1*10:01:01:01
+            IPD accession: NHP00864
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*10:01; Patr-DRB1*1001
+FEATURES             Location/Qualifiers
+     source          1..11731
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..11731
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*10:01:01:01"
+                     /note="previous designations: Patr-DRB1*10:01;
+                     Patr-DRB1*1001"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            8119..8388
+                     /gene="DRB1"
+                     /number=2
+     exon            10625..10906
+                     /gene="DRB1"
+                     /number=3
+     exon            11583..11693
+                     /gene="DRB1"
+                     /number=4
+     exon            11694..11717
+                     /gene="DRB1"
+                     /number=5
+     exon            11718..11731
+                     /gene="DRB1"
+                     /number=6
+     intron          101..8118
+                     /gene="DRB1"
+                     /number=1
+     intron          8389..10624
+                     /gene="DRB1"
+                     /number=2
+     intron          10907..11582
+                     /gene="DRB1"
+                     /number=3
+     CDS             join(1..100,8119..8388,10625..10906,11583..11693,
+                     11694..11717,11718..11731)
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*10:01:01:01"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEQAKCECH
+                     FFNGTERVRFLERRIHNQEEDVRFDSDVGEYRAVTELGRPDAEYWNSQKDILAQRRADV
+                     DTFCRHNYGVGESFTVQRRVEPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFRN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPQSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
+ORIGIN
+        1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac gtaagtgcac atcgtgggtg
+      121 ctgagctact atgaggtggg gaaaataggg agttttgtta acatcgtgct caggccatgt
+      181 cccttaagaa actgtgacgt attcttcaga gattgcccat ctttatcatt ggatcccaaa
+      241 ttatttcccc accacaaaag gagcttggct acttgccctc tccatgagac ttgtgtaagg
+      301 ggccttcata caggtcattt cttttcaaat ccccacaaat aaaacctttg cgtcacatgt
+      361 cctcagggtc tttagaggct ttagaaataa ggatgctaaa ataaattccc catacagcac
+      421 ttccctttat tatattgact tatgtcagac aaaaagaggt ttttttctga aaattttgtg
+      481 ggagtcaagg gaattcaaag ggtctctcct agacaatcct gggttatgtt ctccacagga
+      541 cctgtggtgt tggcccctct tcctcatatg tgaggatgga cccagtggcc tcctcattat
+      601 ctcctttctt ttctttctga actccaatgt ttataaagcc tgtatccctg tagtgtatgt
+      661 aggttctctg gcagaagtta tacttagtgc tctttctttc ttatggggaa aaatccctgg
+      721 aagtgaagct gagatcttta gtacttggag tcaccttaca gatacagagc atttatgagg
+      781 tattctttgg tgcctaaaga acttaaggca tcctctgaaa aactggccca agttagtgtt
+      841 tattatgaat cttttttaac ctttctatac ttgtttctcc tacgtctcct acatgctcta
+      901 actagacatg acagaagaga tttaactaat gtagtataaa ttatatgaaa ttctattttt
+      961 gtaagtaaaa aataatcaaa tatcagaagt ttaataatgt tcaaactgta tgctctgtgt
+     1021 ggggttaccg agacaatgcg gacattgttc acatcccata gggctgaaag tcaatgagca
+     1081 agtcctggga actcattgtc ttactggggt cttgtcctaa atttcctggg ttcacccatc
+     1141 atgccctcag ctttccttaa ttagccatgt ctgcttacct ctttctccag tttctctcta
+     1201 tttttcccca gctatgttgt catcatttcc agaaatctct aaagcttgca cagatcctta
+     1261 gcactatgag atccattgaa agagatagtt tttttctttt tgagataggg cctggctctg
+     1321 tcacccaggc tgtagctcag tggtgcgatc gaggctcact gcaacctctg cctcccacgc
+     1381 tcaagcgatc ctccctcctc aggctccaga gtagctggga atacaggcag gcaaccacgc
+     1441 ccagctaatt tttgtaattt tggtagagat gagattttgc catgttgccc aggctggtct
+     1501 taaactgctg gactcaagca atcctcctgc cttggcctcc caatgtgcta ggattataga
+     1561 tgtgagccac tgtgcccagg caaaaagaga tgactctcaa taaaaaaatt tccttttcct
+     1621 taaatcactg tttctttatc tatgaattct tcttccaact agaaggagga gaaagaagaa
+     1681 gtttgcctgt atttctcact gggaagagaa ggggtctagt gtgacatcaa aatgaaagag
+     1741 tgctggagct tgagcccctt cttgctttcc aggatcccca cagtgatcag ttcccatacc
+     1801 ctggtttatt catgtatacc gcacttattt ttctcagcag ctactgtgta ctgggctcca
+     1861 ttctaggttc aaatcattct atttgagtaa gatagagagg gtcccgactc tcatggaagt
+     1921 tacacaagag tagaggaggc agacactaac ccaataagca tttcacaaag aagataatgt
+     1981 tagagagtca tactgcactg aagaacagac atcaggtttg tgaaaaagag agaaatggat
+     2041 tcacctacat tagttcatat gtttagggag ctctacctga gaaagtgaca ttcagctgag
+     2101 acaacaaaat aagtagacag tggtgaagat ctatgggacg aaatttccag ggagaccgaa
+     2161 taggggaaaa gccctggtgt gggaaattat gtggagggag agaaagaagg ctagaggggc
+     2221 tgaggtatag aaagcaagga aatggagagg cagaagaaga ggcaggacag agaggaagtc
+     2281 aggagcctca tcatattagg ctctgatgtc cacggtaaaa aatttgaatt ttattttatt
+     2341 tttttattta atttatttat ttatttattt atttatttat ttatttattt attttgagat
+     2401 ggagtctcgc tttgtcgccc aggctggagt gcagtggcgc gatctcggct cactgcaagc
+     2461 tccacctcct ggatttcacg ccattctccc gcctcagcct cccgagtagc tgggactaca
+     2521 cgtgcctgct accacgcttg gctaattttt tgtgttttta gtagtaatgg gatttcaccg
+     2581 tgttagccag tatggtctcc atctcctgac cccgtgatcc gcccgcctcg gcctcccaaa
+     2641 gtgctgggat tacaggcgtg agccaccacg cccggtctat tttattttat ttttttttga
+     2701 gacggagttt cgttcttgtt gcccaggctg gagtgcaatg gtgcaatctc ggcttgctgc
+     2761 aaccttcgcc tccctggttc aagtgattct cctgcctcag cttcccaagt agctgggatt
+     2821 acaggcaccc accaccatac ctgactaatt ttttttgtat tcttagtaga gttggggtat
+     2881 caccatgttg accaggctgg tctcgaattc ctgacctcag ataatctgtc tgccttggcc
+     2941 tcccaaagtg ctgggattac aggcgtgagc caccacgccc ggactgaatt ttatttaaat
+     3001 agatatgaga agctgctgta tggttacaag gagagtcaat ttatattcaa ttcttttgtg
+     3061 tgtgtgtgtg tgtgctttgt gtgtgtgtgt gtgatggagt cttgctctgt tgcccaggct
+     3121 agattgcagt ggcacaatct cggctcactg caacctctgc cttccgggtt caagcgattc
+     3181 tcctgcctca gcctccagag tagctgggac cacaggtgca tgccaccaca cctggctaag
+     3241 tttttgtatt tttagtaggg atcgggtttc accatgttag ccaggatgat ctcaatctcc
+     3301 tgacctcgtg atctgcccac cttggcctcc caaagtgcag agattacagg cgtgagccac
+     3361 tgcgcccggc ctgtattcaa tttttaaaac taattctagc tactctgtgg gcattggatt
+     3421 gttggggttc acaagtggtc aggagactat ttaggatcac agcagggaac tctccaggga
+     3481 aaacaggctt gtggcttcat ggagggcatt agtgataaag acggtgaaaa acataaagtg
+     3541 gacagacttg gcatgtattt ttacttagtt tgttaatgaa ttactataaa gggcatagaa
+     3601 caatcaagct tattcctaag gattttgttt tgataaataa gtgggtggta gtgttgttta
+     3661 ttgagacagg aaaaactgtg ggaggaaatt atttgaagtg agtggttgga aatggaagtt
+     3721 ttgtttaaat ttgagatgat ttattgacat ttatgtggag caatcagaag gtcagtggca
+     3781 tttaagagac tcggtgaggc cagggcttca gatatttatg ttggcagcat caatacatgt
+     3841 agtgtgttaa attccaggga gtggaagagg atacataggg agatggattg tgtggagaaa
+     3901 aaagaagagg gacaggccag caaagggggc tgagaaagag cccagggatg ttggagaaaa
+     3961 accaagagaa cataatgcgt gtaagtcaag gaaaatattt tttttttcaa ggagaagaga
+     4021 gaggccaatt gtggtgacta ccaccaagag gagggggaag tgagaacgtg acagagaagc
+     4081 aagtgctggg tttgctggag ttgatatttg cagtcaatgg agtatccagt gaggaaactg
+     4141 gattggataa tttgaagagt gagtagaagt gaggacgagg ttaaggttga ctgttttgag
+     4201 taaagagctt cggggaagga ctgtgctctg ggttcaggga gccagctgaa cctaaaggaa
+     4261 aaggctaaag aagctgaaga gaaggaggag gacctgtgaa ccagagatgc tcagtcatta
+     4321 ttagcgagga aatactagag agccccagtg tgcagtgctg actactcatg caaaaggtca
+     4381 cacagccaat atttcacaca gccagtattt cacacagcca aagtttatta gtgacacagc
+     4441 atatacccgt tattattcta ggtcatgaga atggagtgat aaataaaatg aatctggtcg
+     4501 ccatcggtat atgccatgta acattttgca gtgactgtgt accaggccta tgaatttcag
+     4561 tattcaattt ctataatgat cccgttggtg tttaaaaaca tacatctctg gaatctaaaa
+     4621 ttgagaggtt ataagtaaaa cccagcatta caaattcagt gctggaaatc agattgcagt
+     4681 ttaaacctga gcatatagaa agtccctttc ttctatgtca ggagatgcct tttgtgtgag
+     4741 gcttaggtat actacattat tagacataaa ccagtgtttc tgccctatat ttttagaatg
+     4801 acaattctct atgaaattaa cagaagaaca gaagacaatt gcaaaatcat gatgaagaca
+     4861 tgaattgctt tagaattaag gaatacaaaa aataatgtga gctgcaggta tagggatcat
+     4921 aaaagttaaa atgggaatgt atttgagtgt ttattatgtg atcagtgcta agaagagtca
+     4981 tcatttaatt tgacacttaa cacaaatcct gtgaggatta tgctattatt aaatgcattt
+     5041 gatagattac aaaaaggctt atggttgtaa aaattgaccc aagtagaaga gatcatgttt
+     5101 ttattcaggt tttctgattc tacagtttga gagtttgacc atcattagga gcagtgacta
+     5161 tattgtgtct gaattattga cagaatttct gatattcata tgtaccaggt tgtttcttag
+     5221 agtggggaca gagatgcaag ggctgctagt tccaatgtat aggagaaact ttcattcatt
+     5281 tcgcatttat cattttaaaa gttctgtatg tctataatgg tcatgtgttg aagaacacaa
+     5341 agaagtatta aatcactcca tcttctgagg tttgactagc aagttggcct ggggttacca
+     5401 aataaaatac atgttcctag ttaaatctga atttcagata cacaaccatg atttcttgga
+     5461 aatccaaatt taagtgggca tcctctggtt ttatttgcca aatctgtcaa ccctaagtgg
+     5521 gacacatgga catggattac agtgctaacc atgcaagcca cagtgacaac aacttcacac
+     5581 atatttattt ttaactttct ctctgtaaag tgcttagata atttagggat aaaaagatag
+     5641 acattgtttg atccagggtg cactcctctc tgccatcgtt tctaaaggca aagggagatt
+     5701 tccgcaggtc ttgctcacag tctggggacc tgctcttttt tgcaaactgt ctgtatgaga
+     5761 atgtcatttt cttggtttcc tcctttctga ggggacttga ctacaaaacc aagagttctg
+     5821 cctctggcca gggctggtaa tttgatgcct gctagtactg ttgggagtgg gagactgaaa
+     5881 gatatgagtt agttggggca tttaacggga ataaaatagc tgcggttgtg gttcattact
+     5941 acagataatt agkggaccag tggcagagac attaagaaaa aagatgatgt gaacaataaa
+     6001 tgatatgatt agtgactgct tggtaaggca aggaaatcat taaatcttgg ttctcatgaa
+     6061 gttcatattc tggaaagata gccctgtatt gggaccagaa ttctacaaaa cattcttttt
+     6121 acataggacc aagattttca acaaatattt ttcaatgcaa ttctcagctg ctccataact
+     6181 aatagtagct tgttcaacac agagtttttc agatggttca cacctgtggt tcttacccag
+     6241 ggatagttct ccacccctcc catcatcctt ggggaacagt ggcaatgttt ggaacaattt
+     6301 ttggttgtca caacagaggt ttcttctgat atttaatgag tagaagccag ggacactgct
+     6361 agagaaccta caatgttcag aacagcctct gccactaaca aagaattatc tggtccaaaa
+     6421 tgtcaatagt actgaggctg agagcagtgg ttcacactgt gctctttctg aaaattctaa
+     6481 actcacatct gtaatacagt caccacagag ttcagttttt tatggtttat ttttgcttgt
+     6541 ttcattataa acaattagat agttgcatac attcaaccac tttattgttg aatccattta
+     6601 gtcaatgcaa gctcaatatt ttcatattta ttttttgccg tatgcagtat ttttcaacat
+     6661 tttcatgcgt tgttggtcat cactatctct attaactttc aacaacttgc ccttgtaagt
+     6721 cacaaatagt gatgctgctg aaattatttc tcactaacat acctcagatt tctgtagtga
+     6781 ttctacattt gatattattc acaatgtaaa atgcttctat ttattcactt cacttttacc
+     6841 caaggattat ttttgttatt tttgtcattt tcacacttca aacataaaga caaaaacatc
+     6901 aaaaatatat acagtgtttt acatgtgtat atttacacat atatatgtat gtatatttat
+     6961 atgtattgaa actacagaag cacatgtcac caataagagc tctgagacac ctttgaacac
+     7021 ttacccttat cagatgagat ttgccaaacg agttgcggaa acaagttttt tttaactgaa
+     7081 tatctgacct ttgtggattt agaaatgcaa aggaaggttt gtggacattc acagggatca
+     7141 tggttttatt ctccttaaga ctcttccata ctttaccatt gtctttagta taaatccaaa
+     7201 atcctaacac cacccacgag gcttttcaat acctggcttc atgtgatttc tccaggctag
+     7261 tcttttactc tccttcccct cagcctctct gctttaatga actttgttct agtttcttga
+     7321 agaagttcat caattcaatc ttttgtaaat gggatttcct aaacctgaaa tgtgcctccc
+     7381 gttttgtcca aacagacaca caggctccac tctgccccct ggctctcacc tgtttaacct
+     7441 gtcaagtcac atctgaactg tcactcttca gagggtcctt ctctggcacc ctaatgtaat
+     7501 agagatcatc ctattattcg ctgttctaga actccacact tctgacattt cccattcctg
+     7561 tctaagctct tgtgtgtttg gtttttggcc atcaagttca ccgctcttca agctccccca
+     7621 gcggagtgga gaggtctgtt ttcctttgct tggattccta gaggcagcgc aggcctggca
+     7681 caaggtcagc actaaggaag tgttcacagg gtgaacgcgg tgggagctgt tgaaggaacc
+     7741 tgtaaagcat gtgggatgag agaaggagca gagagtgtct ttggggtgga ggctcccagg
+     7801 aggaggcggc gcgggctgcg gttcttggcg gatcctcctc caactcctgc ttggagttct
+     7861 ccagaacagg ttgaaggcag gaggggggtc ccaaaagcct gggaatcaga aggggttttc
+     7921 ctgcatggtc ccccagaccc ccgttcccct caggaagacg gaggatgagc ccctgggctg
+     7981 ctggtggtgg gcgttgcggg tggagccggt taaggttccc agtgcccgca ccccgcccag
+     8041 ggagccccgg atggcggcgt cgctgtcagt gtcttctcag gaggccgccc tgtgaccgga
+     8101 tccttcgtgt ccccactgca cgtttcttgg agcaggctaa gtgtgagtgt catttcttca
+     8161 atgggacgga gcgggtgcgg ttcctggaga gacgcatcca taaccaggag gaggacgtgc
+     8221 gcttcgacag cgacgtgggg gagtaccggg cggtgacgga gctggggcgg cctgacgccg
+     8281 agtactggaa cagccagaag gacatcctgg cgcagaggcg ggccgacgtg gacaccttct
+     8341 gcagacacaa ctacggggtt ggtgagagct tcacagtgca gcggcgaggt gagcgcagcg
+     8401 aggggcgggg cctgggtccc tgtaaactgg gaatctgagt gtgtgtgtgt gtgtgtgaga
+     8461 gagagagaga gagagagaca gagagagaaa gagagagaga gcgcgccatc ggtgagcatt
+     8521 tagaatcctc tctatcctga gcaaggagtt ctgagagcac aggtgtgtat gcagagtgtg
+     8581 aatttgtctg tgtgtctgtt gtgggagggg aaacaggagg gggctgcttc ttatacttgg
+     8641 aggcctctgt ggggaggtga caagggaggt gggtgcacgg ggctggagag agaggagacc
+     8701 ttgattgtct cctgtcctca gagatgcagg gaagggaaat ataaggtgtg tgtggttggg
+     8761 gtgaaggttt aggggagrar agctgagggg taaggmaggt ttgggataat gtgaggaggc
+     8821 cagttccaga ctgtccctgg cacacaccct tcatgtaatc tctgaaataa aagtgtgtgc
+     8881 tgtttgtttg taaaagcatt agattaattt ctaggggaat tgaggagacc tctgaggcac
+     8941 ctctgaagct tttttagctc taaatttctt gctagttttt tgttctttta gtatgtatgt
+     9001 ttttacatag tagaaatgac tgtgaaacta actttttgaa ttaaagtttt aacacggtta
+     9061 atattataat gctaatagtt ttctagtagt tacatattat tcttttatat ataatagttg
+     9121 tgacacaact tacctcactt tcccctttgt tgacctttaa tatgacattc accaaaagtt
+     9181 gaaaatgtat gtttctggtt aatttttaat ttatttttta tttgtaattc ttctgactta
+     9241 ttttgaccta tttattggcc aattataatt actgctctaa gaattcccta ttgtatttgg
+     9301 taggtaatgg acatcaatct actgtctaat atctcaagga cttagtattt ttctcagtga
+     9361 ctttgtgggt tctttgtact gtaagattat taacactttc ttgatatttg attcagcatt
+     9421 tgctccagtt tgtggtttgt atgtggattt tgaaaattct tttccatgtt aagaatttga
+     9481 acatttttat ttaataaaat atattgcaaa atttgtatta atgatttaca atccatctta
+     9541 aatctaccat tttgtggtat tgttgtctcc aggtttctcc ttctaaaaaa aaaaattcta
+     9601 cttattgaga ggatgctagt gtcagggatt ttcctgggca taagcacccc aaataacgag
+     9661 ttccagacac tgccttaatc caaacgtctt tctggaagaa aaatcatttt acaatgatag
+     9721 gcctaataat aatgatgctt ctgttgcatg ggagatgcat tcatcagcta aatgtaaatg
+     9781 taagaacttt caaaactaaa atgatgttcc ttaatccttc tctctgcttt aggactcatg
+     9841 cttttctagg aatgtaaaaa tttggagaat catttctgtc tgtcccacct tcccagaggc
+     9901 agaaccattt ctgtggtgtt ctaaggtgtg agtgcatggc ggtagtattc ctaaaaattc
+     9961 atactcggtt tcctcatgta cccaactctg tccctttatc tatccacatt gctttaaatc
+    10021 atatttttct gtcatggtgt acaaggatgg taaataggtg ccaagtggaa cacccaagtg
+    10081 tgatgagccc tctcacagtg gaatggagtg agaagctttc tgacctcata aattgaaggc
+    10141 tatcttcagt cattgtttta tatattttac gtaaattaat catcatataa ccccaagagg
+    10201 taaattagta taattatcct tcattgtagg tgacaaagtt gagacacaga agaatcaaaa
+    10261 aactcttcca ggatcaacca gtaaaaggca gaccttggat ttgaactggg caacttggct
+    10321 cagatatcag tttaattact gcactctgta ctttcaaaga tttgtaaaca cttggagaat
+    10381 gcctgacaat ttcaagctat gaagaaacaa acacaatttt tcacaacatc cctcaaatct
+    10441 aatgggtcct cactatcaag attaaattcc aggctgatga cactgtaagg ccacatggcc
+    10501 agctgtgctg gaggcctggt caaggtcaaa ccctgcctgg gtttgcagag aagcagccaa
+    10561 acagccaaac aaggagactt actctgtctt cgtgactcat tccctctacc tttttttctc
+    10621 ctagttgagc ctaaggtgac tgtgtatcct gcaaagaccc agcccctgca gcaccacaac
+    10681 ctcctggtct gctctgtgag tggtttctat ccaggcagca ttgaagtcag gtggttccgg
+    10741 aacggccagg aagagaaggc tggggtggtg tccacaggcc tgatccagaa tggagactgg
+    10801 accttccaga ctctggtgat gctggaaaca gttcctcaga gtggagaggt ttacacctgc
+    10861 caagtggagc acccaagcgt gacgagccct ctcacagtgg aatggagtga gcagctttct
+    10921 gatttcatac atttctcacc caccaagaag gggactgtgc taatccctga gtgtcaggtt
+    10981 tctcctctcc cacatcctat tttcattttc tccatgttct catctccatc agcacaggtc
+    11041 actggggata gtcttgtaat agtttctaga aacactcatg cctgcccagc aggagaggct
+    11101 gtccctcttt tgaacctccc catgatagca caggtcaggg acacccgctc tccccaggca
+    11161 ccaggccctg cgtctgggtc tgagactgag tttctggtgc tgttgatctg agttatttgt
+    11221 tgtgatctgg gaagagaagt gtaggggctt acctgacatt argggagtcc aatctcagct
+    11281 ctgcctttta ttagctctgt cactctagat aaactactta aactcattga gtctcaggct
+    11341 ttctgtggat cagatgttga actcgtgcct tacatcaagg ctgtaatatt tgaatgagtt
+    11401 tgacgtctga accttgtaac tgttcagtgt gacttgaaat cctttttttc ctccggaaat
+    11461 gactagttat tttagttctt gtggggcagc cttcttcccc attttcaaag ctgtgaatct
+    11521 tagagtcagt taaagaggct caatttggaa taaacatcaa taaacttggc ttcctctctt
+    11581 aggagcacgg tctgaatctg cacagagcaa gatgctgagt ggagttgggg gctttgtgct
+    11641 gggcctgctc ttccttgggg ccgggctgtt catctacttc agaaatcaga aaggacactc
+    11701 tggacttcag ccaacaggac tcctgagctg a
+//
+LOCUS       NHP01097                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:14, DRB1 locus allele.
+ACCESSION   NHP01097
+VERSION     NHP01097
+DBLINK      INSDC: DQ673902
+            INSDC: FN424197
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   De Zorzi M, Caggiari L, Ahlenstiel G, Rehermann B, De Re V.
+  TITLE     Description of two new major histocompatibility complex (MHC) class
+            II DRB1 [Pan troglodytes (Patr)-DRB1] alleles.
+  JOURNAL   Tissue Antigens 71:490-492 (2008)
+   PUBMED   18346032
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*02:14
+            IPD accession: NHP01097
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0214
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:14"
+                     /note="previous designations: Patr-DRB1*0214"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:14"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKGECH
+                     FFNGTERVRFLERYFYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDLLERRRAAV
+                     DNYCRHNYGAVESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cgctgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat cacgtttcct gttgcagcct
+      121 aagggggagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga gagatacttc
+      181 tataaccaag aggagttcat gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgc aacagccaga aggacctcct ggagcggagg
+      301 cgggccgcgg tggacaatta ctgcagacac aactacgggg ctgtggagag cttcacggtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttcctgaatg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggtgtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP01448                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:11, DRB1 locus allele.
+ACCESSION   NHP01448
+VERSION     NHP01448
+DBLINK      INSDC: AB201752
+            INSDC: EU285275
+            INSDC: FN424204
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Bak EJ, Ishii Y, Omatsu T, Kyuwa S, Tetsuya T, Hayasaka I, Yoshikawa
+            Y.
+  TITLE     Identification and analysis of MHC class II DRB1 (Patr-DRB1) alleles
+            in chimpanzees.
+  JOURNAL   Tissue Antigens 67:134-142 (2006)
+   PUBMED   16441484
+REFERENCE   2
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:11
+            IPD accession: NHP01448
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0311
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:11"
+                     /note="previous designations: Patr-DRB1*0311"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:11"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRFLDRYFYNQEEYVRFDSDVGEFRAVTELGRPDAEYWNSQKDLLEDRRGQV
+                     DNYCRHNYRVGESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPQSGEVYTCQVEHPSVTSPLTVEWKARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSRLPPTGLLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 tataaccagg aggagtacgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctgatgc cgagtactgg aacagccaga aggacctcct ggaggacagg
+      301 cggggccagg tggacaatta ctgcagacac aactacaggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcagagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gaaagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tagacttccg
+      781 ccaacaggac ttctgagctg a
+//
+LOCUS       NHP01449                 270 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:12, DRB1 locus allele.
+ACCESSION   NHP01449
+VERSION     NHP01449
+DBLINK      INSDC: AB201753
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Bak EJ, Ishii Y, Omatsu T, Kyuwa S, Tetsuya T, Hayasaka I, Yoshikawa
+            Y.
+  TITLE     Identification and analysis of MHC class II DRB1 (Patr-DRB1) alleles
+            in chimpanzees.
+  JOURNAL   Tissue Antigens 67:134-142 (2006)
+   PUBMED   16441484
+COMMENT     IPD-MHC allele: Patr-DRB1*03:12
+            IPD accession: NHP01449
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0312
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..270
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:12"
+                     /note="previous designations: Patr-DRB1*0312"
+     exon            1..270
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..270
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:12"
+                     /codon_start=3
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLEYSTSECHFFNGTERVRFLDRYFYNQEEYVRFDSDVGEFRAV
+                     TELGRPSAEYYNSQKDYVEDERAAVDTYCRHNYGVAESFTVQRR"
+ORIGIN
+        1 cacgtttctt ggagtactct acgtctgagt gtcatttctt caatgggaca gagcgggtgc
+       61 ggttcctgga cagatacttc tataaccagg aggagtacgt gcgcttcgac agcgacgtgg
+      121 gggagttccg ggcggtgacg gagctggggc ggcctagcgc cgagtactac aacagccaga
+      181 aggactacgt ggaagacgag cgggccgcgg tggacaccta ttgcagacac aactacgggg
+      241 ttgctgagag cttcacagtg cagcggcgag
+//
+LOCUS       NHP01995                 227 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:16, DRB1 locus allele.
+ACCESSION   NHP01995
+VERSION     NHP01995
+DBLINK      INSDC: EU285279
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   De Zorzi M, Caggiari L, Ahlenstiel G, Rehermann B, De Re V.
+  TITLE     Description of two new major histocompatibility complex (MHC) class
+            II DRB1 [Pan troglodytes (Patr)-DRB1] alleles.
+  JOURNAL   Tissue Antigens 71:490-492 (2008)
+   PUBMED   18346032
+COMMENT     IPD-MHC allele: Patr-DRB1*03:16
+            IPD accession: NHP01995
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0316
+FEATURES             Location/Qualifiers
+     source          1..227
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..227
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:16"
+                     /note="previous designations: Patr-DRB1*0316"
+     exon            1..227
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..227
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:16"
+                     /codon_start=2
+                     /product="MHC class II DRB1 antigen"
+                     /translation="SECHFFNGTERVRFLDRYFHNQEEYVRFDSDVGEYRAVTELGRPV
+                     AESWNSQKDLLEDRRGQVDNYCRHNYGVGE"
+ORIGIN
+        1 gtctgagtgt catttcttca atgggacgga gcgggtgcgg ttcctggaca gatacttcca
+       61 taaccaggag gagtacgtgc gcttcgacag cgacgtgggg gagtaccggg cggtgacgga
+      121 gctggggcgg cctgtcgccg agtcctggaa cagccagaag gacctcctgg aggacaggcg
+      181 gggccaggtg gacaattact gcagacacaa ctacggggtt ggtgaga
+//
+LOCUS       NHP02922                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:07:02, DRB1 locus allele.
+ACCESSION   NHP02922
+VERSION     NHP02922
+DBLINK      INSDC: FN424201
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*03:07:02
+            IPD accession: NHP02922
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*030702
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:07:02"
+                     /note="previous designations: Patr-DRB1*030702"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:07:02"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MVCLKLPGGSCMAALTVTLMVLSSPLALAGDTRPRFLEYSTSECH
+                     FFNGTERVRFLDRYFHNQEESVRFDSDVGEFRAVTELGRPDAEYWNSQKDYVEDERAAV
+                     DTYCRHNYGVAESFTVQRRVHPKVTVYPSKTQPLQHHNLLVCSVNGFYPGSIEVRWFRN
+                     GQEEKTGVVSTGLIQNGDWTFQTLVMLETVPQSGEVYTCQVEHPSVTSPLTVEWKARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSRLPPTGLLS"
+ORIGIN
+        1 atggtatgtc tgaagctccc tgggggctcc tgcatggcag cgctgacagt gacactgatg
+       61 gtgctgagct ccccactggc tttggctggg gacaccagac cacgtttctt ggagtactct
+      121 acgtctgagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga cagatacttc
+      181 cataaccagg aggagtccgt gcgcttcgac agcgacgtgg gggagttccg ggcggtgacg
+      241 gagctggggc ggcctgatgc cgagtactgg aacagccaga aggactacgt ggaagacgag
+      301 cgggccgcgg tggacaccta ttgcagacac aactacgggg ttgctgagag cttcacagtg
+      361 cagcggcgag tccaccctaa ggtgactgtg tatccttcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgaatggt ttctatccag gcagcattga agtcaggtgg
+      481 ttccggaatg gacaggaaga gaagactggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcagagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagtgtgacg agccctctca cagtggaatg gaaagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggagtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tagacttccg
+      781 ccaacaggac ttctgagctg a
+//
+LOCUS       NHP02926                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:15, DRB1 locus allele.
+ACCESSION   NHP02926
+VERSION     NHP02926
+DBLINK      INSDC: FN424223
+            INSDC: LR216145
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   de Groot NG, Heijmans CM, de Groot N, Doxiadis GG, Otting N, Bontrop
+            RE.
+  TITLE     The chimpanzee Mhc-DRB region revisited: gene content, polymorphism,
+            pseudogenes, and transcripts.
+  JOURNAL   Mol Immunol 47:381-389 (2009)
+   PUBMED   19800692
+COMMENT     IPD-MHC allele: Patr-DRB1*02:15
+            IPD accession: NHP02926
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0215
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:15"
+                     /note="previous designations: Patr-DRB1*0215"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:15"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKGECH
+                     FFNGTERVRFLERDIYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDLLERRRAEV
+                     DNYCRHNYGAVESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cactgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat cacgtttcct gttgcagcct
+      121 aagggggagt gtcatttctt caatgggacg gagcgggtgc ggttcctgga gagagacatc
+      181 tataaccaag aggagttcat gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgc aacagccaga aggacctcct ggagcggagg
+      301 cgcgccgagg tggacaatta ctgcagacac aactacgggg ctgtggagag cttcacggtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttcctgaatg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggtgtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//
+LOCUS       NHP02973                 260 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:13, DRB1 locus allele.
+ACCESSION   NHP02973
+VERSION     NHP02973
+DBLINK      INSDC: DQ069896
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Caggiari L, Simula MP, Marzotto A, Shiina M, Rehermann B, De Re V.
+  TITLE     Identification of novel chimpanzee MHC class I and II alleles using
+            an improved sequence-based typing strategy.
+  JOURNAL   Hum Immunol 67:63-72 (2006)
+   PUBMED   16698427
+COMMENT     IPD-MHC allele: Patr-DRB1*03:13
+            IPD accession: NHP02973
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0313
+FEATURES             Location/Qualifiers
+     source          1..260
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..260
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:13"
+                     /note="previous designations: Patr-DRB1*0313"
+     exon            1..260
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..260
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:13"
+                     /codon_start=3
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLEYSTSECHFFNGTERVRFLDRYFHNQEEYVRFDSDVGEYRAV
+                     TELGRPVAEYWNSQKDLLEDRRGQVDNYCRHNYGAVESFT"
+ORIGIN
+        1 cacgtttctt ggagtactct acgtctgagt gtcatttctt caatgggacg gagcgggtgc
+       61 ggttcctgga cagatacttc cataaccagg aggagtacgt gcgcttcgac agcgacgtgg
+      121 gggagtaccg ggcggtgacg gagctggggc ggcctgtcgc cgagtactgg aacagccaga
+      181 aggacctcct ggaggacagg cggggccagg tggacaatta ctgcagacac aactacgggg
+      241 ctgtggagag cttcacagtg
+//
+LOCUS       NHP02974                 246 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:14, DRB1 locus allele.
+ACCESSION   NHP02974
+VERSION     NHP02974
+DBLINK      INSDC: DQ069897
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Caggiari L, Simula MP, Marzotto A, Shiina M, Rehermann B, De Re V.
+  TITLE     Identification of novel chimpanzee MHC class I and II alleles using
+            an improved sequence-based typing strategy.
+  JOURNAL   Hum Immunol 67:63-72 (2006)
+   PUBMED   16698427
+COMMENT     IPD-MHC allele: Patr-DRB1*03:14
+            IPD accession: NHP02974
+            Species prefix: Patr
+            MHC class: II
+            Previous designations: Patr-DRB1*0314
+FEATURES             Location/Qualifiers
+     source          1..246
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:14"
+                     /note="previous designations: Patr-DRB1*0314"
+     exon            1..246
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..246
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:14"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="LEYSTSECHFFNGTERVRFLDRYFYNQEEYVRFDSDVGEFRAVTE
+                     LGRPDAEYWNSQKDLLEDRRGQVDTYCRHNYGVVES"
+ORIGIN
+        1 ttggagtact ctacgtctga gtgtcatttc ttcaatggga cggagcgggt gcggttcctg
+       61 gacagatact tctataacca ggaggagtac gtgcgcttcg acagcgacgt gggggagttc
+      121 cgggcggtga cggagctggg gcggcctgat gccgagtact ggaacagcca gaaggacctc
+      181 ctggaggaca ggcggggcca ggtggacacc tattgcagac acaactacgg ggttgtggag
+      241 agcttc
+//
+LOCUS       NHP04396                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:07, DRB1 locus allele.
+ACCESSION   NHP04396
+VERSION     NHP04396
+DBLINK      INSDC: M63219
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*02:07
+            IPD accession: NHP04396
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:07"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:07"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLLQPKGECHFFNGTERVRFLHRYFYNQEEFMRFDSDVGEYRAV
+                     TELGRPVAEYCNSQKDILEHERAAVDT"
+ORIGIN
+        1 cgtttcctgt tgcagcctaa aggggagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctgcaca gatacttcta taaccaagag gagttcatgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgtcgccg agtactgcaa cagccagaag
+      181 gacatcctgg agcacgagcg ggccgcggtg gacacctac
+//
+LOCUS       NHP04397                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:08, DRB1 locus allele.
+ACCESSION   NHP04397
+VERSION     NHP04397
+DBLINK      INSDC: M63221
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*02:08
+            IPD accession: NHP04397
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:08"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:08"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLLQPKGECHFFNGTERVRFLERDIYNQEEFMRFDSDVGEYRAV
+                     TELGRPVAEYCNSQKDILEHERAAVDN"
+ORIGIN
+        1 cgtttcctgt tgcagcctaa gggggagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctggaga gagacatcta taaccaagag gagttcatgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgtcgccg agtactgcaa cagccagaag
+      181 gacatcctgg agcacgagcg ggccgcggtg gacaattac
+//
+LOCUS       NHP04398                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:09, DRB1 locus allele.
+ACCESSION   NHP04398
+VERSION     NHP04398
+DBLINK      INSDC: M63220
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*02:09
+            IPD accession: NHP04398
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:09"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:09"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLLQPKGECHFFNGTERVRFLHRYFYNQEEFMRFDSDVGEYRAV
+                     TELGRPVAEYWNSQKDILEHERAAVDN"
+ORIGIN
+        1 cgtttcctgt tgcagcctaa gggggagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctgcaca gatacttcta taaccaagag gagttcatgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgtcgccg agtactggaa cagccagaag
+      181 gacatcctgg agcacgagcg ggccgcggtg gacaattac
+//
+LOCUS       NHP04399                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:10, DRB1 locus allele.
+ACCESSION   NHP04399
+VERSION     NHP04399
+DBLINK      INSDC: M63217
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*02:10
+            IPD accession: NHP04399
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:10"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:10"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLLQPKGECHFFNGTERVRFLERDIYNQEEFMRFDSDVGEYRAV
+                     TELGRPVAEYCNSQKDILEQAGAAVDT"
+ORIGIN
+        1 cgtttcctgt tgcagcctaa gggggagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctggaga gagacatcta taaccaagag gagttcatgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgtcgccg agtactgcaa cagccagaag
+      181 gacatcctgg agcaggcggg cgccgcggtg gacacctac
+//
+LOCUS       NHP04400                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:01, DRB1 locus allele.
+ACCESSION   NHP04400
+VERSION     NHP04400
+DBLINK      INSDC: M63215
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*03:01
+            IPD accession: NHP04400
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:01"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:01"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLEYSTSECHFFNGTERVRFLDRYFHNQEDYVRFDSDVGEYRAV
+                     TELGRPVAESWNSQKDILEDSGATVDT"
+ORIGIN
+        1 cgtttcttgg agtactctac gtctgagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctggaca gatacttcca taaccaggag gactacgtgc gcttcgacag cgacgtgggg
+      121 gagtaccggg cggtgacgga gctggggcgg cctgtcgccg agtcctggaa cagccagaag
+      181 gacatcctgg aggacagcgg ggccacggtg gacacctac
+//
+LOCUS       NHP04401                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:04, DRB1 locus allele.
+ACCESSION   NHP04401
+VERSION     NHP04401
+DBLINK      INSDC: M63214
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*03:04
+            IPD accession: NHP04401
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:04"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:04"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLEYSTSECHFFNGTERVRFLDRYFHNQEESVRFDSDVGEFRAV
+                     TELGRPVAESWNSQKDYVEQKRGQVDN"
+ORIGIN
+        1 cgtttcttgg agtactctac gtctgagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctggaca gatacttcca taaccaggag gagtccgtgc gcttcgacag cgacgtgggg
+      121 gagttccggg cggtgacgga gctggggcgg cctgtcgccg agtcctggaa cagccagaag
+      181 gactacgtgg agcagaagcg gggccaggtg gacaattac
+//
+LOCUS       NHP04402                 219 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*03:03, DRB1 locus allele.
+ACCESSION   NHP04402
+VERSION     NHP04402
+DBLINK      INSDC: M63213
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1
+  AUTHORS   Gyllensten UB, Sundvall M, Erlich HA.
+  TITLE     Allelic diversity is generated by intraexon sequence exchange at the
+            DRB1 locus of primates.
+  JOURNAL   Proc Natl Acad Sci U S A 88:3686-3690 (1991)
+   PUBMED   2023919
+COMMENT     IPD-MHC allele: Patr-DRB1*03:03
+            IPD accession: NHP04402
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:03"
+     exon            1..219
+                     /gene="DRB1"
+                     /number=1
+     CDS             1..219
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*03:03"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="RFLEYSTSECHFFNGTERVRFLDRYFHNQEEYVRFDSDVGEFRAV
+                     TELGRPDAEYWNSQKDILERRRAEVDT"
+ORIGIN
+        1 cgtttcttgg agtactctac gtctgagtgt catttcttca atgggacgga gcgggtgcgg
+       61 ttcctggaca gatacttcca taaccaggag gagtacgtgc gcttcgacag cgacgtgggg
+      121 gagttccggg cggtgacgga gctggggcgg cctgacgcgg agtactggaa cagccagaag
+      181 gacatcctgg agcggaggcg cgccgaggtg gacacctac
+//
+LOCUS       NHP10324                 801 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Patr-DRB1*02:16, DRB1 locus allele.
+ACCESSION   NHP10324
+VERSION     NHP10324
+DBLINK      INSDC: LR216144
+KEYWORDS    IPD-MHC; MHC class II; DRB1.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-DRB1*02:16
+            IPD accession: NHP10324
+            Species prefix: Patr
+            MHC class: II
+FEATURES             Location/Qualifiers
+     source          1..801
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:16"
+     exon            1..100
+                     /gene="DRB1"
+                     /number=1
+     exon            101..370
+                     /gene="DRB1"
+                     /number=2
+     exon            371..652
+                     /gene="DRB1"
+                     /number=3
+     exon            653..763
+                     /gene="DRB1"
+                     /number=4
+     exon            764..787
+                     /gene="DRB1"
+                     /number=5
+     exon            788..801
+                     /gene="DRB1"
+                     /number=6
+     CDS             1..801
+                     /gene="DRB1"
+                     /allele="Patr-DRB1*02:16"
+                     /codon_start=1
+                     /product="MHC class II DRB1 antigen"
+                     /translation="MLCLKLPGVSCMTALTVTLMVLSSPLALAGDTRSRFLLQPKGECH
+                     FFNGTERVRFLHRYFYNQEEFMRFDSDVGEYRAVTELGRPVAEYCNSQKDILEQARAAV
+                     DNYCRHNYGVGESFTVQRRVQPKVTVYPAKTQPLQHHNLLVCSVSGFYPGSIEVRWFLN
+                     GQEEKAGVVSTGLIQNGDWTFQTLVMLETVPRSGEVYTCQVEHPSVTSPLTVEWRARSE
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGFLS"
+ORIGIN
+        1 atgctgtgtc tgaagctccc tggagtctcc tgcatgacag cgctgacagt gacactgatg
+       61 gtgctgagct caccactggc tttggctggg gacacccgat cacgtttcct gttgcagcct
+      121 aagggggagt gtcatttctt caatgggacg gagcgggtgc ggttcctgca cagatacttc
+      181 tataaccaag aggagttcat gcgcttcgac agcgacgtgg gggagtaccg ggcggtgacg
+      241 gagctggggc ggcctgtcgc cgagtactgc aacagccaga aggacatcct ggagcaggcg
+      301 cgggccgcgg tggacaatta ctgcagacac aactacgggg ttggtgagag cttcacagtg
+      361 cagcggcgag tccaacctaa ggtgactgtg tatcctgcaa agacccagcc cctgcagcac
+      421 cacaacctcc tggtctgctc tgtgagtggt ttctatccag gcagcattga agtcaggtgg
+      481 ttcctgaatg gccaggaaga gaaggctggg gtggtgtcca caggcctgat ccagaatgga
+      541 gactggacct tccagaccct ggtgatgctg gaaacagttc ctcggagtgg agaggtttac
+      601 acctgccaag tggagcaccc aagcgtgacg agccctctca cagtggaatg gagagcacgg
+      661 tctgaatctg cacagagcaa gatgctgagt ggtgtcgggg gctttgtgct gggcctgctc
+      721 ttccttgggg ccgggctgtt catctacttc aggaatcaga aaggacactc tggacttcag
+      781 ccaacaggat tcctgagctg a
+//

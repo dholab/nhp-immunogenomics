@@ -1,0 +1,369 @@
+LOCUS       NHP05248                2957 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Caja-F1*01, F1 locus allele.
+ACCESSION   NHP05248
+VERSION     NHP05248
+DBLINK      INSDC: AB845735
+KEYWORDS    IPD-MHC; MHC class I; F1.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Kono A, Brameier M, Roos C, Suzuki S, Shigenari A, Kametani Y,
+            Kitaura K, Matsutani T, Suzuki R, Inoko H, Walter L, Shiina T.
+  TITLE     Genomic sequence analysis of the MHC class I G/F segment in common
+            marmoset (Callithrix jacchus).
+  JOURNAL   J Immunol 192:3239-3246 (2014)
+   PUBMED   24600031
+COMMENT     IPD-MHC allele: Caja-F1*01
+            IPD accession: NHP05248
+            Species prefix: Caja
+            MHC class: I
+            Previous designations: Caja-F1Ps; Caja-F1Ps*01
+FEATURES             Location/Qualifiers
+     source          1..2957
+                     /organism="Callithrix jacchus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9483"
+     gene            1..2957
+                     /gene="F1"
+                     /allele="Caja-F1*01"
+                     /note="previous designations: Caja-F1Ps; Caja-F1Ps*01"
+     exon            1..64
+                     /gene="F1"
+                     /number=1
+     exon            195..470
+                     /gene="F1"
+                     /number=2
+     exon            716..989
+                     /gene="F1"
+                     /number=3
+     exon            1642..1917
+                     /gene="F1"
+                     /number=4
+     exon            2059..2163
+                     /gene="F1"
+                     /number=5
+     exon            2597..2628
+                     /gene="F1"
+                     /number=6
+     exon            2953..2957
+                     /gene="F1"
+                     /number=7
+     intron          65..194
+                     /gene="F1"
+                     /number=1
+     intron          471..715
+                     /gene="F1"
+                     /number=2
+     intron          990..1641
+                     /gene="F1"
+                     /number=3
+     intron          1918..2058
+                     /gene="F1"
+                     /number=4
+     intron          2164..2596
+                     /gene="F1"
+                     /number=5
+     intron          2629..2952
+                     /gene="F1"
+                     /number=6
+     CDS             join(1..64,195..470,716..989,1642..1917,2059..2163,
+                     2597..2628,2953..2957)
+                     /gene="F1"
+                     /allele="Caja-F1*01"
+                     /codon_start=1
+                     /product="MHC class I F1 antigen"
+                     /translation="MEPRTLFLLLLGALTLTETWVGSHSLRYFSTTVSPPGRWEPRYRY
+                     IGVGYVDDTQIVRFDSDAASPRMEPRAPWVEQEGPQYWEEETLVVKASAQTDRVKLRIA
+                     LGYYNQSEAGSHPPGNEWLRCGTRWTLPPRVSPARLRRQGLHLPEQGPALLDHGGSGGS
+                     DHAAQVGGREICRGIQHLPGGRVRGVAPQVPGEREGDAVARRSSKGTRCPSPHLX"
+ORIGIN
+        1 atggagcccc gaacgctctt cctgctactc ttgggggccc tgaccctgac cgagacctgg
+       61 gtgggtgagt gcgtactagg gagggaaaag gcctctgcgg ggaggagcaa gaggcccgcc
+      121 cggaggggat gcaggaccca gggggccagg ccaggaggaa ggttgggcgg atctcagccc
+      181 cttctcgccc ccaggctccc actccttgag gtatttcagc accaccgtgt ccccgcccgg
+      241 ccgctgggag ccccgataca ggtacatcgg agtgggctac gtggacgaca cgcagatcgt
+      301 gcggttcgac agcgacgccg cgagtccgag gatggagccg cgggcaccgt gggtggagca
+      361 ggaggggccg cagtattggg aggaggagac actggtagtc aaggccagcg cacaaactga
+      421 cagagtgaaa ctgcggatcg ctctcggcta ctacaaccag agcgaggccg gtgagtgact
+      481 gtggctgggg gaacaggtca cgacccctcc ccatccccca cggagggcct gggtcttccc
+      541 gagtctcccg tccgagaacc accctgagac taggggacct gcccagattc tccaccccgg
+      601 agagccccag gcgcctttac ctggtttcat tttcagttta ggccaaaatt ccctcgggtt
+      661 ggtcggggcg tgggcgggac tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 caccctccag ggaatgaatg gctgagatgt gggacccgat ggacacttcc tccgcgggta
+      781 tcaccagcac gcctacgacg gcaaggacta catctccctg aacaaggacc tgcgctcctg
+      841 gaccacggcg gaagtggcgg ctcagatcac gcagcgcaag tgggaggcag agaaatatgc
+      901 agaggaattc agcacctacc tggagggcga gtgcgtggag tggctccaca ggtacctgga
+      961 gaacgggaag gagacgccgt agcgcgccgg taccaggggc cacggggcgc cttcactatc
+     1021 tcctgtagat ctccccggct ggcctcgcac aagtagggga ggaaaaaggg accaatgcta
+     1081 taatatcgcc ctcccgctgg tcctgtgtgg caagaatctt cctggctttc catcgcctgt
+     1141 atatctcctg ggttggcttc cctccacaag gggaggaaaa tgggaccaac gcaagaatat
+     1201 cgccctccct ctagtcctga gtgggaagaa tcctccgggt tcccggatcc tgtaccagag
+     1261 tgactctgag tatccgctct gcttgctggg acagttacgg gatgaagtct ttgagggaat
+     1321 ggaagggaag acagtccctg gaacactgat cagcggtccc ctttgacccc tgcaacatcc
+     1381 ttggtccccg tgacttttgc tctcgggcct tcttctctgc ctcacacaca atgtgtgtgg
+     1441 tgctctgatt ccagctcttc taagtctctc ggcctccact taggtcaggg acagaagtcc
+     1501 ctattccccc tcagagactc gaactctgca aggaataaga gattatccca ggtgtcctgt
+     1561 ctattctcag gatggtcata tgagcactgc ggggtgtctc atgaggagtg caaagggtct
+     1621 gaattttctg actcttctca gatcctccaa aggcacacgt tgcccatcac cccatctctg
+     1681 accatgaggc caccctgagg tgctgggcct tgggcttcta ccctgtggag atcatgctga
+     1741 cctggcagag ggatggagag gatcagaccc aggacacaga gcttgtggag accaggcctg
+     1801 caggggatgg aaacttccag aagtgggcag ctgtggtggt gctttctggg gaggagcagc
+     1861 gatacacctg ccatgtgcag cacgaggggc tgccagagcc cctcaccctg agatggggta
+     1921 aggagtgaga tggaataaag gggaggatga gaggtgatgt cttttctcaa gagaagcagg
+     1981 agcccttctg gagcccttca gcagggtcag ggctgaggcc cagggatcag ggcccctcac
+     2041 cttcccctcc tttcccagag ccatcttccc agcccaccgt ccccaacatg ggcatcattg
+     2101 ctggcctggt tgtccttgga gctgtggtca ctggagctgt gatgtggagg aagaagatct
+     2161 caggttggga aggggtgagg agtggggtct gagttttctt gtcctagtgg ggattttgag
+     2221 ccccaggtag aagtatgccc tgtctcctta ctgggaagca tcatccacac acatgggcct
+     2281 acccagccgg gtacactgtg tgacacttac tcgtttgtaa agcaaaaatg aaccagattc
+     2341 ttcacttcaa agactgcggt ggtggcgacc tgattgccag aagtcacaaa tctcagggga
+     2401 aggtcccgct gagggcatac tttaggagga cagttggtcc aggacctata cctgcttcct
+     2461 tattttctga ttctgccctg gatctgcagt tatacatttc tgagaacttc tatgggatca
+     2521 aagactatgg ggttgctcta ggaccttatg gccctgcctc ctttctggca tctcacagga
+     2581 cattttcttc ccacagatag aaacagagag agctgctctc aggctgcaag taagtatgaa
+     2641 gggggctgaa ccctgagatc attgggatac tgtggttggg agcccaaggg aagctgtccc
+     2701 agcccgcagt tcctccttta ggggcatctc ctgtgggctc tgaccaggtc ctgtttgtgt
+     2761 tctaccccag tcattgacac tgcccagggc tttggtgtgt ctctcataac ttataaaggt
+     2821 gacacttggg gtcaggagcc atgatataag tggggtattg tggggaacag agggaacatg
+     2881 gttgtgctat gggggttctt tgacttggat gtcctgagta tgccatgggc ggttcagagt
+     2941 gtcacctctc actgtga
+//
+LOCUS       NHP10779                 987 bp    DNA     linear   PRI 24-AUG-2020
+DEFINITION  Caja-F1*08:01N, F1 locus allele.
+ACCESSION   NHP10779
+VERSION     NHP10779
+DBLINK      INSDC: LR213626
+KEYWORDS    IPD-MHC; MHC class I; F1.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F1*08:01N
+            IPD accession: NHP10779
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..987
+                     /organism="Callithrix jacchus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9483"
+     gene            1..987
+                     /gene="F1"
+                     /allele="Caja-F1*08:01N"
+     exon            1..64
+                     /gene="F1"
+                     /number=1
+     exon            65..340
+                     /gene="F1"
+                     /number=2
+     exon            341..568
+                     /gene="F1"
+                     /number=3
+     exon            569..844
+                     /gene="F1"
+                     /number=4
+     exon            845..949
+                     /gene="F1"
+                     /number=5
+     exon            950..982
+                     /gene="F1"
+                     /number=6
+     exon            983..987
+                     /gene="F1"
+                     /number=7
+     CDS             1..987
+                     /gene="F1"
+                     /allele="Caja-F1*08:01N"
+                     /codon_start=1
+                     /product="MHC class I F1 antigen"
+                     /translation="MEPRTLFLLLLGALTLTETWVGSHSLRYFSTTVSPPGRWEPRYRY
+                     IGVGYVDDTQIVRFDSDAASPRMEPRAPWVEQEGPQYWEEETLVVKASAQTDRVKLRIA
+                     LGYYNQSEAGSHPPGNEWLRCGTRWTLPPRVSPARLRRQGLHLPEQGPALLDHGGSGGS
+                     DHAAQVGGREICRGIQHLPGGRVRGVDPPKAHVAHHPISDHEATLRCWALGFYPVEIML
+                     TWQRDGEDQTQDTELVETRPAGDGNFQKWAAVVVLSGEEQRYTCHVQHEGLPEPLTLRW
+                     EPSSQPTVPNMGIIAGLVVLGAVVTGAVMWRKKISDRNRESCSQAAM"
+ORIGIN
+        1 atggagcccc gaacgctctt cctgctactc ttgggggccc tgaccctgac cgagacctgg
+       61 gtgggctccc actccttgag gtatttcagc accaccgtgt ccccgcccgg ccgctgggag
+      121 ccccgataca ggtacatcgg agtgggctac gtggacgaca cgcagatcgt gcggttcgac
+      181 agcgacgccg cgagtccgag gatggagccg cgggcaccgt gggtggagca ggaggggccg
+      241 cagtattggg aggaggagac actggtagtc aaggccagcg cacaaactga cagagtgaaa
+      301 ctgcggatcg ctctcggcta ctacaaccag agcgaggccg ggtctcaccc tccagggaat
+      361 gaatggctga gatgtgggac ccgatggaca cttcctccgc gggtatcacc agcacgccta
+      421 cgacggcaag gactacatct ccctgaacaa ggacctgcgc tcctggacca cggcggaagt
+      481 ggcggctcag atcacgcagc gcaagtggga ggcagagaaa tatgcagagg aattcagcac
+      541 ctacctggag ggcgagtgcg tggagtggat cctccaaagg cacacgttgc ccatcacccc
+      601 atctctgacc atgaggccac cctgaggtgc tgggccttgg gcttctaccc tgtggagatc
+      661 atgctgacct ggcagaggga tggagaggat cagacccagg acacagagct tgtggagacc
+      721 aggcctgcag gggatggaaa cttccagaag tgggcagctg tggtggtgct ttctggggag
+      781 gagcagcgat acacctgcca tgtgcagcac gaggggctgc cagagcccct caccctgaga
+      841 tgggagccat cttcccagcc caccgtcccc aacatgggca tcattgctgg cctggttgtc
+      901 cttggagctg tggtcactgg agctgtgatg tggaggaaga agatctcaga tagaaacaga
+      961 gagagctgct ctcaggctgc aatgtga
+//
+LOCUS       NHP10780                 995 bp    DNA     linear   PRI 15-DEC-2020
+DEFINITION  Caja-F1*08:02:01N, F1 locus allele.
+ACCESSION   NHP10780
+VERSION     NHP10780
+DBLINK      INSDC: LR731936
+KEYWORDS    IPD-MHC; MHC class I; F1.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F1*08:02:01N
+            IPD accession: NHP10780
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..995
+                     /organism="Callithrix jacchus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9483"
+     gene            1..995
+                     /gene="F1"
+                     /allele="Caja-F1*08:02:01N"
+     exon            1..64
+                     /gene="F1"
+                     /number=1
+     exon            65..340
+                     /gene="F1"
+                     /number=2
+     exon            341..576
+                     /gene="F1"
+                     /number=3
+     exon            577..852
+                     /gene="F1"
+                     /number=4
+     exon            853..957
+                     /gene="F1"
+                     /number=5
+     exon            958..990
+                     /gene="F1"
+                     /number=6
+     exon            991..995
+                     /gene="F1"
+                     /number=7
+     CDS             1..995
+                     /gene="F1"
+                     /allele="Caja-F1*08:02:01N"
+                     /codon_start=1
+                     /product="MHC class I F1 antigen"
+                     /translation="MEPRTLFLLLLGALTLTETWVGSHSLRYFSTTVSPPGRWEPRYRY
+                     IGVGYVDDTQIVRFDSDAASPRMEPRAPWVEQEGPEYWEEETLVVKASAQTDRVKLRIA
+                     LGYYNQSEAGSHPPGNEWLRCGTRWTLPPRVSPARLRRQGLHLPEQGPALLDHGGSGGS
+                     DHAAQVGGREICRGIQHLPGGRVRGVAPQILQRHTLPITPSLTMRPPX"
+ORIGIN
+        1 atggagcccc gaacgctctt cctgctactc ttgggggccc tgaccctgac cgagacctgg
+       61 gtgggctccc actccttgag gtatttcagc accaccgtgt ccccgcccgg ccgctgggag
+      121 ccccgataca ggtacatcgg agtgggctac gtggacgaca cgcagatcgt gcggttcgac
+      181 agcgacgccg cgagtccgag gatggagccg cgggcaccgt gggtggagca ggaggggccg
+      241 gagtattggg aggaggagac actggtagtc aaggccagcg cacaaactga cagagtgaaa
+      301 ctgcggatcg ctctcggcta ctacaaccag agcgaggccg ggtctcaccc tccagggaat
+      361 gaatggctga gatgtgggac ccgatggaca cttcctccgc gggtatcacc agcacgccta
+      421 cgacggcaag gactacatct ccctgaacaa ggacctgcgc tcctggacca cggcggaagt
+      481 ggcggctcag atcacgcagc gcaagtggga ggcagagaaa tatgcagagg aattcagcac
+      541 ctacctggag ggcgagtgcg tggagtggct ccacagatcc tccaaaggca cacgttgccc
+      601 atcaccccat ctctgaccat gaggccaccc tgaggtgctg ggccttgggc ttctaccctg
+      661 tggagatcat gctgacctgg cagagggatg gagaggatca gacccaggac acagagcttg
+      721 tggagaccag gcctgcaggg gatggaaact tccagaagtg ggcagctgtg gtggtgcttt
+      781 ctggggagga gcagcgatac acctgccatg tgcagcacga ggggctgcca gagcccctca
+      841 ccctgagatg ggagccatct tcccagccca ccgtccccaa catgggcatc attgctggcc
+      901 tggttgtcct tggagctgtg gtcactggag ctgtgatgtg gaggaagaag atctcagata
+      961 gaaacagaga gagctgctct caggctgcaa tgtga
+//
+LOCUS       NHP10782                 995 bp    DNA     linear   PRI 24-AUG-2020
+DEFINITION  Caja-F1*08:02:02N, F1 locus allele.
+ACCESSION   NHP10782
+VERSION     NHP10782
+DBLINK      INSDC: LR731937
+KEYWORDS    IPD-MHC; MHC class I; F1.
+SOURCE      Callithrix jacchus (Common Marmoset)
+  ORGANISM  Callithrix jacchus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Otting N, de Groot NG, Bontrop RE.
+  TITLE     Evolution of HLA-F and its orthologues in primate species: a complex
+            tale of conservation, diversification and inactivation.
+  JOURNAL   Immunogenetics 72:475-487 (2020)
+   PUBMED   33184728
+COMMENT     IPD-MHC allele: Caja-F1*08:02:02N
+            IPD accession: NHP10782
+            Species prefix: Caja
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..995
+                     /organism="Callithrix jacchus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9483"
+     gene            1..995
+                     /gene="F1"
+                     /allele="Caja-F1*08:02:02N"
+     exon            1..64
+                     /gene="F1"
+                     /number=1
+     exon            65..338
+                     /gene="F1"
+                     /number=2
+     exon            339..576
+                     /gene="F1"
+                     /number=3
+     exon            577..852
+                     /gene="F1"
+                     /number=4
+     exon            853..957
+                     /gene="F1"
+                     /number=5
+     exon            958..990
+                     /gene="F1"
+                     /number=6
+     exon            991..995
+                     /gene="F1"
+                     /number=7
+     CDS             1..995
+                     /gene="F1"
+                     /allele="Caja-F1*08:02:02N"
+                     /codon_start=1
+                     /product="MHC class I F1 antigen"
+                     /translation="MEPRTLFLLLLGALTLTETWVGSHSLRYFSTTVSPPGRWEPRYRY
+                     IGVGYVDDTQIVRFDSDAASPRMEPRAPWVEQEGPEYWEEETLVVKASAQTDRVKLRIA
+                     LGYYNQSEAGSHPPGNEWLRCGTRWTLPPRVSPARLRRQGLHLPEQGPALLDHGGSGGS
+                     DHAAQVGGREICRGIQHLPGGRVRGVAPQILQRHTLPITPSLTMRPPX"
+ORIGIN
+        1 atggagcccc gaacgctctt cctgctactc ttgggggccc tgaccctgac cgagacctgg
+       61 gtgggctccc actccttgag gtatttcagc accaccgtgt ccccgcccgg ccgctgggag
+      121 ccccgataca ggtacatcgg agtgggctac gtggacgaca cgcagatcgt acggttcgac
+      181 agcgacgccg cgagtccgag gatggagccg cgggcaccgt gggtggagca ggaggggccg
+      241 gagtattggg aggaggagac actggtagtc aaggccagcg cacaaactga cagagtgaaa
+      301 ctgcggatcg ctctcggcta ctacaaccag agcgaggcgg ggtctcaccc tccagggaat
+      361 gaatggctga gatgtgggac ccgatggaca cttcctccgc gggtatcacc agcacgccta
+      421 cgacggcaag gactacatct ccctgaacaa ggacctgcgc tcctggacca cggcggaagt
+      481 ggcggctcag atcacgcagc gcaagtggga ggcagagaaa tatgcagagg aattcagcac
+      541 ctacctggag ggcgagtgcg tggagtggct ccacagatcc tccaaaggca cacgttgccc
+      601 atcaccccat ctctgaccat gaggccaccc tgaggtgctg ggccttgggc ttctaccctg
+      661 tggagatcat gctgacctgg cagagggatg gagaggatca gacccaggac acagagcttg
+      721 tggagaccag gcctgcaggg gatggaaact tccagaagtg ggcagctgtg gtggtgcttt
+      781 ctggggagga gcagcgatac acctgccatg tgcagcacga ggggctgcca gagcccctca
+      841 ccctgagatg ggagccatct tcccagccca ccgtccccaa catgggcatc attgctggcc
+      901 tggttgtcct tggagctgtg gtcactggag ctgtgatgtg gaggaagaag atctcagata
+      961 gaaacagaga gagctgctct caggctgcaa tgtga
+//

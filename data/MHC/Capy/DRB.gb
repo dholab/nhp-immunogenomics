@@ -1,0 +1,52 @@
+LOCUS       NHP00154                 249 bp    DNA     linear   PRI 19-SEP-2019
+DEFINITION  Capy-DRB*W012:01, DRB locus allele.
+ACCESSION   NHP00154
+VERSION     NHP00154
+DBLINK      INSDC: AJ544169
+KEYWORDS    IPD-MHC; MHC class II; DRB.
+SOURCE      Callithrix pygmaea (Pygmy Marmoset)
+  ORGANISM  Callithrix pygmaea
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Callithrix.
+REFERENCE   1
+  AUTHORS   Middleton SA, Anzenberger G, Knapp LA.
+  TITLE     Identification of New World monkey MHC-DRB alleles using PCR, DGGE
+            and direct sequencing.
+  JOURNAL   Immunogenetics 55:785-790 (2004)
+   PUBMED   14714152
+COMMENT     IPD-MHC allele: Capy-DRB*W012:01
+            IPD accession: NHP00154
+            Species prefix: Capy
+            MHC class: II
+            Previous designations: Capy-DRB*W12:01; Cepy-DRB*W1201
+FEATURES             Location/Qualifiers
+     source          1..249
+                     /organism="Callithrix pygmaea"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9493"
+     gene            1..249
+                     /gene="DRB"
+                     /allele="Capy-DRB*W012:01"
+                     /note="previous designations: Capy-DRB*W12:01;
+                     Cepy-DRB*W1201"
+     exon            1..241
+                     /gene="DRB"
+                     /number=1
+     exon            242..249
+                     /gene="DRB"
+                     /number=2
+     CDS             1..249
+                     /gene="DRB"
+                     /allele="Capy-DRB*W012:01"
+                     /codon_start=1
+                     /product="MHC class II DRB antigen"
+                     /translation="LEQFKYECLHLNGTEGVRLLVRYIYNQEEYVRFDSDVGEFRAVTE
+                     LGRPAAEYINSLKDFLEQTRAAVDTVCRHNYRIFERF"
+ORIGIN
+        1 ttggagcagt ttaagtatga gtgtcttcac ctcaacggga cggagggtgt acggctcctg
+       61 gtcagataca tctacaacca ggaggagtat gtgcgctttg acagcgacgt gggggagttc
+      121 cgggcggtga cagagctggg gcggcctgcc gcagagtaca tcaacagcct gaaggacttc
+      181 ctggagcaga cacgggccgc ggtggacacc gtgtgcagac acaactacag gatttttgag
+      241 cggtttcta
+//

@@ -1,0 +1,1716 @@
+LOCUS       NHP11468                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:01:01:01, AG4 locus allele.
+ACCESSION   NHP11468
+VERSION     NHP11468
+DBLINK      INSDC: LR999820
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:01:01:01
+            IPD accession: NHP11468
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:01:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDQETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 ggccccgccc agcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccaggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccgcatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11469                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:02:01:01, AG4 locus allele.
+ACCESSION   NHP11469
+VERSION     NHP11469
+DBLINK      INSDC: LR999822
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:02:01:01
+            IPD accession: NHP11469
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctt ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtctgg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgga agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11470                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:03:01:01, AG4 locus allele.
+ACCESSION   NHP11470
+VERSION     NHP11470
+DBLINK      INSDC: LR999824
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:03:01:01
+            IPD accession: NHP11470
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:03:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:03:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPYSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctt ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtctgg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgga agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tattcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11471                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:04:01:01, AG4 locus allele.
+ACCESSION   NHP11471
+VERSION     NHP11471
+DBLINK      INSDC: LR999830
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:04:01:01
+            IPD accession: NHP11471
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:04:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAIMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcgatca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctgt aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11472                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:04:02:01, AG4 locus allele.
+ACCESSION   NHP11472
+VERSION     NHP11472
+DBLINK      INSDC: LR999831
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:04:02:01
+            IPD accession: NHP11472
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:04:02:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:04:02:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAIMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcgatca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctgt aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcacg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11473                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:02:02:01, AG4 locus allele.
+ACCESSION   NHP11473
+VERSION     NHP11473
+DBLINK      INSDC: LR999834
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:02:02:01
+            IPD accession: NHP11473
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:02:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:02:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctt ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtctgg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgga agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11474                2908 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*09:01:01:01, AG4 locus allele.
+ACCESSION   NHP11474
+VERSION     NHP11474
+DBLINK      INSDC: LR999837
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*09:01:01:01
+            IPD accession: NHP11474
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2908
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2908
+                     /gene="AG4"
+                     /allele="Mafa-AG4*09:01:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            204..473
+                     /gene="AG4"
+                     /number=2
+     exon            717..992
+                     /gene="AG4"
+                     /number=3
+     exon            1589..1864
+                     /gene="AG4"
+                     /number=4
+     exon            1967..2083
+                     /gene="AG4"
+                     /number=5
+     exon            2515..2547
+                     /gene="AG4"
+                     /number=6
+     exon            2690..2736
+                     /gene="AG4"
+                     /number=7
+     exon            2904..2908
+                     /gene="AG4"
+                     /number=8
+     intron          74..203
+                     /gene="AG4"
+                     /number=1
+     intron          474..716
+                     /gene="AG4"
+                     /number=2
+     intron          993..1588
+                     /gene="AG4"
+                     /number=3
+     intron          1865..1966
+                     /gene="AG4"
+                     /number=4
+     intron          2084..2514
+                     /gene="AG4"
+                     /number=5
+     intron          2548..2689
+                     /gene="AG4"
+                     /number=6
+     intron          2737..2903
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
+                     2515..2547,2690..2736,2904..2908)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*09:01:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSLRYFYTSVSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctcgca ctccttgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttctt cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaacg cgacacagac
+      421 ctaccgagag aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 acctcggctc ggggctcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtctc tgggtcccag atccaccccg aagccgcggg acccggggac ccttaacccg
+      601 ggagagcccc aggcgcctgt acccgatttc ctttttagtt tgggccaaaa ttcccgtggg
+      661 ttggtctggg cggtgcgggg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccgtc cagaagatgt acggctgcga cctggggccg gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcaggga ttacatcgtc ctgaacgaag acctgcgctc
+      841 ctggaccgct gcggacgtgg cggctcagaa cacccagcgg aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacaggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggatcaaca
+     1081 ctagaaaatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccacc ctgctctctg acacaattaa ggataaaatc
+     1201 tctgagggaa tgaagggaag acgattcctc gaatactgat caagggttcc cttcgacacc
+     1261 ggcagcagcc ttgggccccg tgacttttcc tctcaggcct tgttctctgc ttcacactca
+     1321 atgtgtgtgg gggtctgagt ccagctcctc tgagtccctc agcctccact caggtcagga
+     1381 ccagaagtca ctgttccctc ctcagggaat agaattttcc acggaatagg agattctcac
+     1441 aggtgcctgt gtccaggatg gtgtctgggt tctgggctcc cttccccacc ccaggtgtcc
+     1501 tgtccattct caagatggtc acatgcgtgc tggtggagtg tcccatgaca gatgcaaaat
+     1561 gactgaattt tctgactctt cccatcagac ccccccaaga cacatgtgac ccaccacccc
+     1621 gtctctgact acgaggccac cctgaggtgc tgggccctgg gcttctaccc tgcggagatc
+     1681 acactgacct ggcagcggga tggagaggaa caaactcagg atacagagct cgtggagacc
+     1741 aggcctacag gggatggaac cttccaaaag tgggcggctg tggtggtgcc ttctggagag
+     1801 gagcagagat acacctgtca tgtgcaacat gagggtctgc ccaagcccct caccttgaga
+     1861 tggggtaaag agggagatgg gggtgtcatg tctcttaggg aaagccgaag cctttctgga
+     1921 gacctttagc agggtcggga cccctcacct tcccctcttt tcccagagcc gtcttcccag
+     1981 tctaccatcc tcatcgtagg catcattgct ggcctggttc tccttggaac tgtggtcact
+     2041 ggagctgtgg ttgctgctgt gatgtggagg aggaagagct caggtgagga aggggtgagg
+     2101 agtggggtct gggatttctt gtctcactga gggcttcaaa ccccaggtag aagtgtaccc
+     2161 tgtctggtta ctgggaagca ccatccacac tcatgggctg acccagcctg ggccctgtgt
+     2221 gccagcacct actcttttgt aaagcacctg ttacaatgaa ggacagattt atcaccttga
+     2281 ttatggtgat gggacctgat cccagcactc acaagtcaca agggaaggtc cctgctgagg
+     2341 acagacctca ggagggcaat tggtccagga cccacacctg atttcttcat gtttcctgat
+     2401 cctgccctgg gtctgcaatc acacatttct ggaaacttct ctggggtcca agactaggag
+     2461 attcctctag gaccttatgg ccctgatatc tcacaggaca ttttcttccc atagatagat
+     2521 aaggcgggag ctactctcag gctgcaagta agtatgaagg aggctgatcc ctgagatcct
+     2581 tgggatattg tggttgggag cccatggggg agctcactaa ccccacagtt cctcctctag
+     2641 ccacatctcc agagggatct gaccaggtcc tgttcttgtt ctactccagg cagtgacagt
+     2701 gcccagggct ctgatgtgtc tctcatggct ttaaaggtga gaccctgggg ggcctgatgt
+     2761 gtgtggggtg ttgggggaac agtggacgca gctgtgctgt ggggtttgtt tgacttggat
+     2821 gtactgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg atgtgaattt
+     2881 tttcatgaat attttttcta tagagtga
+//
+LOCUS       NHP11475                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:02:03:01, AG4 locus allele.
+ACCESSION   NHP11475
+VERSION     NHP11475
+DBLINK      INSDC: LR999838
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:02:03:01
+            IPD accession: NHP11475
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:03:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:03:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgga agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11476                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:02:04:01, AG4 locus allele.
+ACCESSION   NHP11476
+VERSION     NHP11476
+DBLINK      INSDC: LR999841
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:02:04:01
+            IPD accession: NHP11476
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:04:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:04:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 ggccccgccc agcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11477                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:02:04:02, AG4 locus allele.
+ACCESSION   NHP11477
+VERSION     NHP11477
+DBLINK      INSDC: LR999845
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:02:04:02
+            IPD accession: NHP11477
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:04:02"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:04:02"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 ggccccgccc agcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatact
+     1141 gtaccagaga gtgactctga ggttccgccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacaatggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatgtttt ctatagtgtg a
+//
+LOCUS       NHP11478                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:05:01:01, AG4 locus allele.
+ACCESSION   NHP11478
+VERSION     NHP11478
+DBLINK      INSDC: LR999847
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:05:01:01
+            IPD accession: NHP11478
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:05:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGKCLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 ggccccgccc agcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc aagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccctgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacagtggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//
+LOCUS       NHP11479                2908 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*09:02:01:01, AG4 locus allele.
+ACCESSION   NHP11479
+VERSION     NHP11479
+DBLINK      INSDC: LR999851
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*09:02:01:01
+            IPD accession: NHP11479
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2908
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2908
+                     /gene="AG4"
+                     /allele="Mafa-AG4*09:02:01:01"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            204..473
+                     /gene="AG4"
+                     /number=2
+     exon            717..992
+                     /gene="AG4"
+                     /number=3
+     exon            1589..1864
+                     /gene="AG4"
+                     /number=4
+     exon            1967..2083
+                     /gene="AG4"
+                     /number=5
+     exon            2515..2547
+                     /gene="AG4"
+                     /number=6
+     exon            2690..2736
+                     /gene="AG4"
+                     /number=7
+     exon            2904..2908
+                     /gene="AG4"
+                     /number=8
+     intron          74..203
+                     /gene="AG4"
+                     /number=1
+     intron          474..716
+                     /gene="AG4"
+                     /number=2
+     intron          993..1588
+                     /gene="AG4"
+                     /number=3
+     intron          1865..1966
+                     /gene="AG4"
+                     /number=4
+     intron          2084..2514
+                     /gene="AG4"
+                     /number=5
+     intron          2548..2689
+                     /gene="AG4"
+                     /number=6
+     intron          2737..2903
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
+                     2515..2547,2690..2736,2904..2908)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*09:02:01:01"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSLRYFYTSVSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRENLRT
+                     LLRYYNQSEAGSHTVQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADVA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTQVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggcgccccg aaccctcctc ctggtgctct caggggtcct ggccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 gggcccgccc ggcgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg
+      181 tctcagcctc tcctcgcccc caggctcgca ctccttgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttctt cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgagagtcc gaggatggag ccgcgggcgc cgtgggtgga
+      361 gcaggagggg ccggagtatt gggaccggga gacacagaac atgaagaacg cgacacagac
+      421 ctaccgagag aacctgcgga ccctgctccg ctactacaac cagagcgagg ccggtgagtg
+      481 acctcggctc ggggctcagg tcacgacccc tccccatccc ccacggacgg cccgggtggc
+      541 cccgagtctc tgggtcccag atccaccccg aagccgcggg acccggggac ccttaacccg
+      601 ggagagcccc aggcgccttt acccgatttc ctttttagtt tgggccaaaa ttcccgtggg
+      661 ttggtctggg cggggcgggg ctcggtgggc ggggctgacc gcgggggcgg ggccagggtc
+      721 tcacaccgtc cagaagatgt acggctgcga cctggggccg gacgggcgcc tcctccgcgg
+      781 gtatgaacag ttcgcctacg acggcaggga ttacatcgtc ctgaacgaag acctgcgctc
+      841 ctggaccgct gcggacgtgg cggctcagaa cacccagcgg aagtgggagg cggcccgtgc
+      901 ggcggagcag cacagaacct acctggaggg cgagtgcctg gagtggctcc gcagatacct
+      961 ggagaacggg aaggagacgc tgcagcgcgc gggtaccagg ggccacaggg cgcctccctg
+     1021 atctcctgtg gatctcccgg gctggcctcc cacaaggagg ggagacaaat gggatcaaca
+     1081 ctagaaaatc gccctccctc tggtcctgag ggagaggaat cctcctgggt ttccagatcc
+     1141 tgtaccagag agtgactctg agggtccacc ctactctctg acacaattaa ggataaaatc
+     1201 tctgagggaa tgaagggaag acgattcctc gaatactgat caagggttcc cttcgacacc
+     1261 ggcagcagcc ttgggccccg tgacttttcc tctcaggcct tgttctctgc ttcacactca
+     1321 atgtgtgtgg gggtctgagt ccagctcctc tgagtccctc agcctccact caggtcagga
+     1381 ccagaagtca ctgttccctc ctcagggaat agaattttcc acggaatagg agattctcac
+     1441 aggtgcctgt gtccaggatg gtgtctgggt tctgggctcc cttccccacc ccaggtgtcc
+     1501 tgtccattct caagatggtc acatgcgtgc tggtggagtg tcccatgaca gatgcaaaat
+     1561 gactgaattt tctgactctt cccatcagac ccccccaaga cacaggtgac ccaccacccc
+     1621 gtctctgact acgaggccac cctgaggtgc tgggccctgg gcttctaccc tgcggagatc
+     1681 acactgacct ggcagcggga tggagaggaa caaactcagg atacagagct cgtggagacc
+     1741 aggcctacag gggatggaac cttccaaaag tgggcggctg tggtggtgcc ttctggagag
+     1801 gagcagagat acacctgtca tgtgcaacat gagggtctgc ccaagcccct caccttgaga
+     1861 tggggtaaag agggagatgg gggtgtcatg tctcttaggg aaagccgaag cctttctgga
+     1921 gacctttagc agggtcggga cccctcacct tcccctcttt tcccagagcc gtcttcccag
+     1981 tctaccatcc tcatcgtagg catcattgct ggcctggttc tccttggaac tgtggtcact
+     2041 ggagctgtgg ttgctgctgt gatgtggagg aggaagagct caggtgagga aggggtgagg
+     2101 agtggggtct gggatttctt gtctcactga gggcttcaaa ccccaggtag aagtgtaccc
+     2161 tgtctggtta ctgggaagca ccatccacac tcatgggctg acccagcctg ggccctgtgt
+     2221 gccagcacct actcttttgt aaagcacctg ttacaatgaa ggacagattt atcaccttga
+     2281 ttatggtgat gggacctgat cccagcactc acaagtcaca agggaaggtc cctgctgagg
+     2341 acagacctca ggagggcaat tggtccagga cccacacctg atttcttcat gtttcctgat
+     2401 cctgccctgg gtctgcaatc acacatttct ggaaacttct ctggggtcca agactaggag
+     2461 attcctctag gaccttatgg ccctgatatc tcacaggaca ttttcttccc atagatagat
+     2521 aaggcgggag ctactctcag gctgcaagta agtatgaagg aggctgatcc ctgagatcct
+     2581 tgggatattg tggttgggag cccatggggg agctcactaa ccccacagtt cctcctctag
+     2641 ccacatctcc agagggatct gaccaggtcc tgttcttgtt ctactccagg cagtgacagt
+     2701 gcccagggct ctgatgtgtc tctcatggct ttaaaggtga gaccctgggg ggcctgatgt
+     2761 gtgtggggtg ttgggggaac agtggacgca gctgtgctgt ggggtttgtt tgacttggat
+     2821 gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg atgtgaattt
+     2881 tttcatgaat attttttcta tagagtga
+//
+LOCUS       NHP11480                2921 bp    DNA     linear   PRI 18-MAY-2021
+DEFINITION  Mafa-AG4*08:02:04:03, AG4 locus allele.
+ACCESSION   NHP11480
+VERSION     NHP11480
+DBLINK      INSDC: LR999853
+KEYWORDS    IPD-MHC; MHC class I; AG4.
+SOURCE      Macaca fascicularis (Crab-eating Macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     IPD-MHC allele: Mafa-AG4*08:02:04:03
+            IPD accession: NHP11480
+            Species prefix: Mafa
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2921
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..2921
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:04:03"
+     exon            1..73
+                     /gene="AG4"
+                     /number=1
+     exon            203..472
+                     /gene="AG4"
+                     /number=2
+     exon            716..991
+                     /gene="AG4"
+                     /number=3
+     exon            1588..1863
+                     /gene="AG4"
+                     /number=4
+     exon            1966..2082
+                     /gene="AG4"
+                     /number=5
+     exon            2528..2560
+                     /gene="AG4"
+                     /number=6
+     exon            2703..2749
+                     /gene="AG4"
+                     /number=7
+     exon            2917..2921
+                     /gene="AG4"
+                     /number=8
+     intron          74..202
+                     /gene="AG4"
+                     /number=1
+     intron          473..715
+                     /gene="AG4"
+                     /number=2
+     intron          992..1587
+                     /gene="AG4"
+                     /number=3
+     intron          1864..1965
+                     /gene="AG4"
+                     /number=4
+     intron          2083..2527
+                     /gene="AG4"
+                     /number=5
+     intron          2561..2702
+                     /gene="AG4"
+                     /number=6
+     intron          2750..2916
+                     /gene="AG4"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2528..2560,2703..2749,2917..2921)
+                     /gene="AG4"
+                     /allele="Mafa-AG4*08:02:04:03"
+                     /codon_start=1
+                     /product="MHC class I AG4 antigen"
+                     /translation="MAVMAPRTLLLVLSGVLALTRTWAGSHSMRYFYTSMSRPGRGEPR
+                     FFAVGYVDDTQFVRFDSDAESPRMEPRAPWVEQEGPEYWDRETQNMKNATQTYRGNLRT
+                     LLRYYNQSEAGSHTLQKMYGCDLGPDGRLLRGYEQFAYDGRDYIVLNEDLRSWTAADLA
+                     AQNTQRKWEAARAAEQHRTYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDYE
+                     ATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPTGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTILIVGIIAGLVLLGTVVTGAVVAAVMWRRKSSDRX
+                     "
+ORIGIN
+        1 atggcggtca tggccccccg aaccctcctc ctggtgctct caggggtcct agccctgacc
+       61 cggacctggg ccggtgagtg cggggtcgcg agggaaacgg cctctgccga gagcagcgag
+      121 ggccccgccc agcgggggcg caggaccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcgcac tccatgaggt atttctacac ctccatgtcc
+      241 cggcccggcc gcggggagcc ccgcttcttc gccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg aggatggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccgggag acacagaaca tgaagaacgc gacacagacc
+      421 taccgaggga acctgcggac cctgctccgc tactacaacc agagcgaggc cggtgagtga
+      481 cctcggctcg gggctcaggt cacgacccct ccccatcccc cacggacggc ccgggtggcc
+      541 ccgagtctct gggtcccaga tccaccccga agccgcggga cccggggacc cttgacccgg
+      601 gagagcccca ggagccttta cccgatttcc tttttagttt gggccaaaat ccccgtgggt
+      661 tggtcggggc ggggcgaggc tcggtgggcg gggctgaccg cgggggcggg gccagggtct
+      721 cacacactcc agaagatgta cggctgcgac ctggggccgg acgggcgcct cctccgcggg
+      781 tatgaacagt tcgcctacga cggcagggat tacatcgtcc tgaacgagga cctgcgctcc
+      841 tggaccgctg cggacttggc ggctcagaac acccagcgaa agtgggaggc ggcccgtgcg
+      901 gcggagcagc acagaaccta cctggagggc gagtgcctgg agtggctccg cagatacttg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccaggg gccacggggc gcctccctga
+     1021 tctcctgtgg atctcccggg gtggcctccc acaaggaggg gagacaaatg ggatcaacac
+     1081 tagaatatcg ccctccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccaccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgattcctcg aatactgatc aagggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggcctt gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggtcaggag
+     1381 cagaagtcac tgttccctcc tcagggaata gaattttcca cggaatagga gattctcaca
+     1441 ggtgcctgtg tccaggatgg tgtctgggtt ctgggctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggtca catgcgtgct ggtggagtgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacta cgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggagaggaac aaactcagga tacagagctc gtggagacca
+     1741 ggcctacagg ggatggaacc ttccaaaagt gggcggctgt ggtggtgcct tctggagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc cgagcccctc accttgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt ctcttaggga aagccgaagc ctttctggag
+     1921 acctttagca gggtcgggac ccctcacctt cccctctttt cccagagccg tcttcccagt
+     1981 ctaccatcct catcgtaggc atcattgctg gcctggttct ccttggaact gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtgaggaa ggggtgagga
+     2101 gtggggtctg ggatttcttg tctcactgag ggcttcaaac cccaggtaga agtgtacact
+     2161 gtctggttac tgggaagcac catccacact catgggctga cccagcctgg gccctgtgtg
+     2221 ccagcaccta ctcttttgta aagcacctgt tacaatgaag gacagataga tcaccttgat
+     2281 tatggtggtg atgggacctg atcccagcag tcacaagtca caagggaagg tccatgctga
+     2341 ggacagacct caggagggca attggtccag gacccacacc tactttcttc atgtttcctg
+     2401 atcctgccct gggtctgcaa tcacacattt ctggaaactt ctctggggtc caagactagg
+     2461 agattcctct aggaccttat ggccctgact cctttctgat atctcacagg acattttctt
+     2521 cccatagata gataaggcgg gagctactct caggctgcaa gtaagtatga aggaggctga
+     2581 tccctgagat ccttgggata ttgtggttgg gagcccatgg gggagctcac taaccccaca
+     2641 gttcctcctc tagccacatc tccagaggga tctgaccagg tcctgttctt gttctactcc
+     2701 aggcagtgac agtgcccagg gctctgatgt gtctctcatg gctttaaagg tgagaccctg
+     2761 gggggcctga tgtgtggggg gtgttggggg aacaatggac gcagctgtgc tgtggggttt
+     2821 gtttgacttg gatgtactga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
+//

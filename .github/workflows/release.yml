@@ -1,0 +1,58 @@
+name: Create Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "version.json"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version info
+        id: version
+        run: |
+          mhc_ver=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('MHC', {}).get('version', 'unknown'))")
+          nhkir_ver=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('NHKIR', {}).get('version', 'unknown'))")
+          mhc_count=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('MHC', {}).get('allele_count', 0))")
+          nhkir_count=$(python3 -c "import json; d=json.load(open('version.json')); print(d.get('NHKIR', {}).get('allele_count', 0))")
+          tag="v${mhc_ver}+nhkir${nhkir_ver}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "mhc_version=$mhc_ver" >> "$GITHUB_OUTPUT"
+          echo "nhkir_version=$nhkir_ver" >> "$GITHUB_OUTPUT"
+          echo "mhc_count=$mhc_count" >> "$GITHUB_OUTPUT"
+          echo "nhkir_count=$nhkir_count" >> "$GITHUB_OUTPUT"
+
+      - name: Check if tag already exists
+        id: check_tag
+        run: |
+          if git rev-parse "refs/tags/${{ steps.version.outputs.tag }}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create GitHub Release
+        if: steps.check_tag.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: ${{ steps.version.outputs.tag }}
+          body: |
+            ## NHP Immunogenomics Data Release
+
+            | Database | Version | Alleles |
+            |----------|---------|---------|
+            | IPD-MHC  | ${{ steps.version.outputs.mhc_version }} | ${{ steps.version.outputs.mhc_count }} |
+            | IPD-NHKIR | ${{ steps.version.outputs.nhkir_version }} | ${{ steps.version.outputs.nhkir_count }} |
+
+            Browse alleles at the [NHP Immunogenomics Database](https://dholab.github.io/nhp-immunogenomics/).
+
+            Data sourced from [IPD-MHC](https://www.ebi.ac.uk/ipd/mhc/) and [IPD-NHKIR](https://www.ebi.ac.uk/ipd/nhkir/).
+          generate_release_notes: true
