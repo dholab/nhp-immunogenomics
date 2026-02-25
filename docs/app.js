@@ -32,6 +32,7 @@
       mhcClass: "",
       locus: "",
       search: "",
+      includeProvisional: false,
     },
   };
 
@@ -62,6 +63,7 @@
     dom.classSelect = document.getElementById("class-select");
     dom.locusSelect = document.getElementById("locus-select");
     dom.nameSearch = document.getElementById("name-search");
+    dom.provisionalCheckbox = document.getElementById("provisional-checkbox");
     dom.clearFiltersBtn = document.getElementById("clear-filters-btn");
 
     dom.resultsCount = document.getElementById("results-count");
@@ -112,6 +114,14 @@
         onFilterChange();
       }, 200);
     });
+
+    // Provisional checkbox
+    if (dom.provisionalCheckbox) {
+      dom.provisionalCheckbox.addEventListener("change", function () {
+        state.filters.includeProvisional = this.checked;
+        onFilterChange();
+      });
+    }
 
     // Clear filters
     dom.clearFiltersBtn.addEventListener("click", clearAllFilters);
@@ -213,6 +223,7 @@
           generated: data.generated || "",
           mhcVersion: data.mhc_version || "",
           nhkirVersion: data.nhkir_version || "",
+          provisionalCount: data.provisional_count || 0,
         };
         initializeUI();
       })
@@ -235,13 +246,17 @@
           day: "numeric",
         })
       : "unknown";
-    dom.versionInfo.textContent =
+    var versionText =
       "IPD-MHC v" +
       state.metadata.mhcVersion +
       " | IPD-NHKIR v" +
-      state.metadata.nhkirVersion +
-      " | Generated " +
-      generated;
+      state.metadata.nhkirVersion;
+    if (state.metadata.provisionalCount > 0) {
+      versionText += " | " + state.metadata.provisionalCount + " provisional allele" +
+        (state.metadata.provisionalCount !== 1 ? "s" : "");
+    }
+    versionText += " | Generated " + generated;
+    dom.versionInfo.textContent = versionText;
 
     populateSpeciesDropdown();
     populateLocusDropdown();
@@ -337,6 +352,7 @@
     state.filters.mhcClass = "";
     state.filters.locus = "";
     state.filters.search = "";
+    state.filters.includeProvisional = false;
 
     dom.databaseToggle.forEach(function (btn) {
       var isAll = btn.dataset.value === "All";
@@ -348,6 +364,7 @@
     dom.classSelect.value = "";
     dom.classSelect.disabled = false;
     dom.nameSearch.value = "";
+    if (dom.provisionalCheckbox) dom.provisionalCheckbox.checked = false;
 
     populateLocusDropdown();
     onFilterChange();
@@ -370,10 +387,19 @@
     var cls = state.filters.mhcClass;
     var loc = state.filters.locus;
     var search = state.filters.search.toLowerCase().trim();
+    var includeProv = state.filters.includeProvisional;
 
     state.filtered = state.alleles.filter(function (allele) {
-      // Database
-      if (db !== "All" && allele.p !== db) return false;
+      // Hide provisional unless opted in
+      if (allele.prov && !includeProv) return false;
+
+      // Database: infer database for provisional alleles from locus
+      if (db !== "All") {
+        var alleleDb = allele.prov
+          ? (allele.l.indexOf("KIR") === 0 ? "NHKIR" : "MHC")
+          : allele.p;
+        if (alleleDb !== db) return false;
+      }
 
       // Species
       if (sp && allele.s !== sp) return false;
@@ -452,6 +478,7 @@
       var allele = pageData[i];
       var tr = document.createElement("tr");
       if (state.selected.has(allele.a)) tr.classList.add("row-selected");
+      if (allele.prov) tr.classList.add("row-provisional");
 
       // Checkbox
       var tdCheck = document.createElement("td");
@@ -482,12 +509,20 @@
       tdAcc.textContent = allele.a;
       tr.appendChild(tdAcc);
 
-      // Name + previous designations
+      // Name + provisional badge + previous designations
       var tdName = document.createElement("td");
       var nameSpan = document.createElement("span");
       nameSpan.className = "cell-name";
       nameSpan.textContent = allele.n;
       tdName.appendChild(nameSpan);
+
+      if (allele.prov) {
+        var badge = document.createElement("span");
+        badge.className = "badge-provisional";
+        badge.textContent = "Provisional";
+        badge.title = "Submitted by " + (allele.sub || "unknown") + " on " + (allele.da || "unknown date");
+        tdName.appendChild(badge);
+      }
 
       if (allele.prev && allele.prev.length > 0) {
         var prevSpan = document.createElement("span");
@@ -696,9 +731,11 @@
   function groupAlleles(alleles) {
     var map = {};
     alleles.forEach(function (a) {
-      var key = a.p + "/" + a.s + "/" + a.l;
+      // Provisional alleles live under data/provisional/{species}/{locus}.gb
+      var project = a.prov ? "provisional" : a.p;
+      var key = project + "/" + a.s + "/" + a.l;
       if (!map[key]) {
-        map[key] = { project: a.p, species: a.s, locus: a.l, accessions: new Set() };
+        map[key] = { project: project, species: a.s, locus: a.l, accessions: new Set() };
       }
       map[key].accessions.add(a.a);
     });
@@ -807,9 +844,10 @@
     return ranges.length > 0 ? ranges : null;
   }
 
-  /** Build a FASTA header: >{name} IPD:{accession} */
+  /** Build a FASTA header: >{name} IPD:{accession} or >{name} Provisional:{accession} */
   function fastaHeader(r) {
-    return ">" + r.name + " IPD:" + r.accession;
+    var prefix = (r.accession && r.accession.indexOf("PROV") === 0) ? "Provisional" : "IPD";
+    return ">" + r.name + " " + prefix + ":" + r.accession;
   }
 
   /** Convert parsed GenBank records to nucleotide FASTA (full sequence). */
@@ -888,6 +926,12 @@
       if (sanitized) parts.push(sanitized);
     }
 
+    // Append provisional indicator if provisional alleles are included
+    var dlAlleles = getDownloadAlleles();
+    if (dlAlleles.some(function (a) { return a.prov; })) {
+      parts.push("incl-provisional");
+    }
+
     var base = parts.join("_");
 
     // Format-specific suffix
@@ -903,6 +947,9 @@
   }
 
   function downloadCSV() {
+    var dlAlleles = getDownloadAlleles();
+    var hasProvisional = dlAlleles.some(function (a) { return a.prov; });
+
     var headers = [
       "Accession",
       "Name",
@@ -916,9 +963,11 @@
       "Date Modified",
       "Previous Designations",
     ];
+    if (hasProvisional) {
+      headers.push("Source", "Submitter");
+    }
 
     var rows = [headers.join(",")];
-    var dlAlleles = getDownloadAlleles();
 
     dlAlleles.forEach(function (a) {
       var sp = state.species[a.s] || {};
@@ -931,11 +980,17 @@
         csvEscape(a.s),
         csvEscape(sp.scientificName || ""),
         csvEscape(sp.commonName || ""),
-        csvEscape(a.p),
+        csvEscape(a.prov ? "provisional" : a.p),
         csvEscape(a.da || ""),
         csvEscape(a.dm || ""),
         csvEscape(prev),
       ];
+      if (hasProvisional) {
+        row.push(
+          csvEscape(a.prov ? "Provisional" : "IPD"),
+          csvEscape(a.sub || "")
+        );
+      }
       rows.push(row.join(","));
     });
 

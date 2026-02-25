@@ -16,6 +16,18 @@ from .fetch import (
 )
 from .genbank_builder import write_genbank_file
 from .metadata_index import build_metadata_index
+from .provisional import (
+    add_provisional_alleles,
+    build_genbank,
+    build_metadata,
+    build_sequence_index,
+    check_retirements,
+    load_manifest,
+    load_sequences,
+    retire_alleles,
+    validate,
+    validate_no_ipd_collisions,
+)
 from .release_tracker import (
     has_new_release,
     load_version_file,
@@ -47,6 +59,20 @@ def main():
     sub.add_parser("update", help="Incremental update")
     sub.add_parser("index", help="Rebuild metadata index only")
 
+    pv_cmd = sub.add_parser("provisional-validate", help="Validate provisional alleles")
+
+    pa_cmd = sub.add_parser("provisional-add", help="Add provisional allele(s)")
+    pa_cmd.add_argument("--species", required=True, help="Species prefix (e.g., Mamu)")
+    pa_cmd.add_argument("--locus", required=True, help="Locus name (e.g., A1)")
+    pa_cmd.add_argument("--class", dest="allele_class", default="", help="MHC class (I, II)")
+    pa_cmd.add_argument("--submitter", required=True, help="Name of the submitter")
+    pa_cmd.add_argument("--fasta", type=Path, help="Path to FASTA file (one or more sequences)")
+    pa_cmd.add_argument("--fasta-text", default="", help="FASTA content as string (alternative to --fasta)")
+    pa_cmd.add_argument("--name", default="", help="Override auto-assigned name (single sequence only)")
+    pa_cmd.add_argument("--seq-type", default="coding", choices=["coding", "genomic"],
+                        help="Sequence type (default: coding)")
+    pa_cmd.add_argument("--notes", default="", help="Optional notes")
+
     args = parser.parse_args()
 
     logging.basicConfig(
@@ -64,6 +90,10 @@ def main():
         run_incremental_update(repo_root)
     elif args.command == "index":
         run_build_index(repo_root)
+    elif args.command == "provisional-validate":
+        run_provisional_validate(repo_root)
+    elif args.command == "provisional-add":
+        run_provisional_add(repo_root, args)
     else:
         parser.print_help()
         sys.exit(1)
@@ -113,7 +143,10 @@ def run_full_build(repo_root: Path, args) -> None:
         except Exception as e:
             logger.warning("Could not update version info for %s: %s", project, e)
 
-    # Build metadata index
+    # Process provisional alleles
+    _process_provisionals(repo_root)
+
+    # Build metadata index (includes provisional alleles)
     run_build_index(repo_root, all_listings)
     logger.info("=== Full build complete ===")
 
@@ -213,6 +246,11 @@ def run_incremental_update(repo_root: Path) -> None:
             logger.warning("Could not update version info for %s: %s", project, e)
 
     save_version_file(repo_root, version_data)
+
+    # Process provisional alleles + auto-retirement
+    _process_provisionals(repo_root, run_retirement=True)
+
+    # Build metadata index (includes provisional alleles)
     run_build_index(repo_root, all_listings)
 
     if any_changes:
@@ -234,6 +272,10 @@ def run_build_index(
         }
 
     version_data = load_version_file(repo_root)
+
+    # Load provisional alleles for inclusion in the index
+    prov_alleles = _get_provisional_metadata(repo_root)
+
     index_path = repo_root / DOCS_DIR / "alleles.json"
     index = build_metadata_index(
         listings.get("MHC", []),
@@ -241,5 +283,124 @@ def run_build_index(
         index_path,
         mhc_version=version_data.get("MHC", {}).get("version", ""),
         nhkir_version=version_data.get("NHKIR", {}).get("version", ""),
+        provisional_alleles=prov_alleles if prov_alleles else None,
     )
     logger.info("Built metadata index: %d alleles at %s", len(index["alleles"]), index_path)
+
+
+def _get_provisional_metadata(repo_root: Path) -> list[dict]:
+    """Load provisional manifest and build metadata records for the index."""
+    manifest = load_manifest(repo_root)
+    if not manifest:
+        return []
+    sequences = load_sequences(repo_root, manifest)
+    return build_metadata(manifest, sequences)
+
+
+def _get_species_map(repo_root: Path) -> dict[str, dict]:
+    """Build a species map from the existing alleles.json index."""
+    index_path = repo_root / DOCS_DIR / "alleles.json"
+    if index_path.exists():
+        index = json.loads(index_path.read_text())
+        return index.get("species", {})
+    return {}
+
+
+def _process_provisionals(repo_root: Path, run_retirement: bool = False) -> None:
+    """Build provisional GenBank files and optionally run auto-retirement."""
+    manifest = load_manifest(repo_root)
+    if not manifest:
+        logger.info("No provisional alleles found.")
+        return
+
+    sequences = load_sequences(repo_root, manifest)
+
+    # Auto-retirement (during updates only)
+    if run_retirement:
+        logger.info("=== Checking provisional allele retirements ===")
+        ipd_index = build_sequence_index(repo_root)
+        retirements = check_retirements(manifest, sequences, ipd_index)
+        if retirements:
+            retire_alleles(repo_root, retirements)
+            # Reload after retirement
+            manifest = load_manifest(repo_root)
+            sequences = load_sequences(repo_root, manifest)
+        else:
+            logger.info("  No provisional alleles to retire.")
+
+    if not manifest:
+        return
+
+    # Build provisional GenBank files
+    species_map = _get_species_map(repo_root)
+    n = build_genbank(repo_root, manifest, sequences, species_map)
+    logger.info("Built %d provisional GenBank records", n)
+
+
+def run_provisional_validate(repo_root: Path) -> None:
+    """Validate provisional manifest and sequences."""
+    errors = validate(repo_root)
+
+    # Also check for IPD name collisions if we have an existing index
+    manifest = load_manifest(repo_root)
+    if manifest:
+        index_path = repo_root / DOCS_DIR / "alleles.json"
+        if index_path.exists():
+            index = json.loads(index_path.read_text())
+            ipd_names = {
+                a["n"] for a in index.get("alleles", [])
+                if not a.get("prov")
+            }
+            errors.extend(validate_no_ipd_collisions(manifest, ipd_names))
+
+    if errors:
+        for err in errors:
+            logger.error("  %s", err)
+        logger.error("Validation failed with %d error(s).", len(errors))
+        sys.exit(1)
+    else:
+        logger.info("Provisional alleles are valid.")
+
+
+def run_provisional_add(repo_root: Path, args) -> None:
+    """Add provisional allele(s) from a FASTA file or string."""
+    from io import StringIO
+
+    from Bio import SeqIO
+
+    # Parse records from --fasta file or --fasta-text string
+    if args.fasta_text:
+        records = list(SeqIO.parse(StringIO(args.fasta_text), "fasta"))
+    elif args.fasta:
+        if not args.fasta.exists():
+            logger.error("FASTA file not found: %s", args.fasta)
+            sys.exit(1)
+        records = list(SeqIO.parse(str(args.fasta), "fasta"))
+    else:
+        logger.error("Must provide either --fasta or --fasta-text")
+        sys.exit(1)
+
+    if not records:
+        logger.error("No sequences found in FASTA input")
+        sys.exit(1)
+
+    try:
+        names = add_provisional_alleles(
+            repo_root=repo_root,
+            records=records,
+            species=args.species,
+            locus=args.locus,
+            allele_class=args.allele_class,
+            seq_type=args.seq_type,
+            submitter=args.submitter,
+            notes=args.notes,
+            name_override=args.name,
+        )
+    except ValueError as exc:
+        logger.error("%s", exc)
+        sys.exit(1)
+
+    rel_fasta = f"{args.species}/{args.locus}.fasta"
+    for name in names:
+        logger.info("  Manifest: provisional/manifest.tsv")
+        logger.info("  Sequence: provisional/sequences/%s", rel_fasta)

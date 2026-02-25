@@ -223,6 +223,124 @@ def _infer_product(locus: str, allele_class: str, project: str) -> str:
     return f"MHC {locus} antigen"
 
 
+def provisional_to_seqrecord(
+    name: str,
+    sequence: str,
+    species: str,
+    locus: str,
+    allele_class: str,
+    seq_type: str,
+    species_info: dict,
+    date_added: str,
+    submitter: str,
+    accession: str = "",
+) -> SeqRecord:
+    """Convert a provisional allele to a BioPython SeqRecord.
+
+    Simpler than allele_to_seqrecord: no exon/intron features from API,
+    no references, no INSDC cross-references.
+
+    Args:
+        name: Provisional allele name (e.g., "Mamu-A1*026:new01").
+        sequence: Uppercase nucleotide sequence.
+        species: Species prefix (e.g., "Mamu").
+        locus: Locus name (e.g., "A1").
+        allele_class: MHC class ("I", "II", or "").
+        seq_type: "coding" or "genomic".
+        species_info: Dict with scientificName, commonName, taxon.
+        date_added: Date string (YYYY-MM-DD).
+        submitter: Name of the person who submitted the allele.
+        accession: Provisional accession (PROVxxxxx).
+    """
+    sci_name = species_info.get("scientificName", "unknown organism")
+    common_name = species_info.get("commonName", "")
+    taxon = species_info.get("taxon")
+    is_genomic = seq_type == "genomic"
+
+    sr = SeqRecord(
+        seq=Seq(sequence),
+        id=accession,
+        name=accession,
+        description=f"{name}, {locus} locus allele (provisional)",
+    )
+
+    sr.annotations["molecule_type"] = "DNA"
+    sr.annotations["topology"] = "linear"
+    sr.annotations["data_file_division"] = "PRI"
+    sr.annotations["organism"] = sci_name
+    sr.annotations["source"] = (
+        f"{sci_name} ({common_name})" if common_name else sci_name
+    )
+    sr.annotations["accessions"] = [accession]
+    sr.annotations["sequence_version"] = 1
+
+    if date_added:
+        try:
+            dt = datetime.strptime(date_added, "%Y-%m-%d")
+            sr.annotations["date"] = dt.strftime("%d-%b-%Y").upper()
+        except ValueError:
+            pass
+
+    # Keywords
+    keywords = ["Provisional"]
+    if allele_class and allele_class != "unknown":
+        keywords.append(f"MHC class {allele_class}")
+    keywords.append(locus)
+    sr.annotations["keywords"] = keywords
+
+    # Comment
+    sr.annotations["comment"] = (
+        f"Provisional allele submitted by {submitter}. Not yet in IPD.\n"
+        f"Species prefix: {species}\n"
+        f"Sequence type: {seq_type}"
+    )
+
+    seq_len = len(sequence)
+
+    # Source feature
+    source_qualifiers = {
+        "organism": [sci_name],
+        "mol_type": ["genomic DNA" if is_genomic else "mRNA"],
+    }
+    if taxon:
+        source_qualifiers["db_xref"] = [f"taxon:{taxon}"]
+    sr.features.append(SeqFeature(
+        location=FeatureLocation(0, seq_len),
+        type="source",
+        qualifiers=source_qualifiers,
+    ))
+
+    # Gene feature
+    sr.features.append(SeqFeature(
+        location=FeatureLocation(0, seq_len),
+        type="gene",
+        qualifiers={
+            "gene": [locus],
+            "allele": [name],
+            "note": ["provisional allele, not yet in IPD"],
+        },
+    ))
+
+    # CDS feature (for coding sequences)
+    if not is_genomic:
+        product = _infer_product(
+            locus, allele_class,
+            "NHKIR" if locus.startswith("KIR") else "MHC",
+        )
+        sr.features.append(SeqFeature(
+            location=FeatureLocation(0, seq_len),
+            type="CDS",
+            qualifiers={
+                "gene": [locus],
+                "allele": [name],
+                "codon_start": ["1"],
+                "product": [product],
+            },
+        ))
+
+    return sr
+
+
 def write_genbank_file(
     records: list[dict],
     output_path: Path,

@@ -19,6 +19,14 @@ CACHE_DIR = "cache"
 DOCS_DIR = "docs"
 VERSION_FILE = "version.json"
 
+# Provisional allele paths
+PROVISIONAL_DIR = "provisional"
+PROVISIONAL_MANIFEST = "provisional/manifest.tsv"
+PROVISIONAL_SEQUENCES_DIR = "provisional/sequences"
+PROVISIONAL_DATA_DIR = "data/provisional"
+PROVISIONAL_RETIRED = "provisional/retired/retired.tsv"
+PROVISIONAL_SEQ_INDEX = "provisional/ipd_sequences.json"
+
 # Fields to request in the listing endpoint (flat dot-notation keys)
 LISTING_FIELDS = (
     "accession,name,locus,class,status,"

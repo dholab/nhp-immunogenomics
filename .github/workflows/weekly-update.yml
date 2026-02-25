@@ -74,6 +74,26 @@ jobs:
           echo "gb_changed=$gb_changed" >> "$GITHUB_OUTPUT"
           echo "gb_new=$gb_new" >> "$GITHUB_OUTPUT"
 
+          # Check for provisional allele retirements
+          retired_file="provisional/retired/retired.tsv"
+          if git diff --name-only -- "$retired_file" | grep -q .; then
+            retired_lines=$(git diff -- "$retired_file" | grep '^+[^+]' | grep -v 'provisional_name' || true)
+            if [ -n "$retired_lines" ]; then
+              retired_summary=$(echo "$retired_lines" | sed 's/^+//' | awk -F'\t' '{printf "- %s → %s (%s)\\n", $1, $2, $3}')
+              echo "has_retirements=true" >> "$GITHUB_OUTPUT"
+              # Escape for multiline output
+              {
+                echo 'retired_summary<<RETIRED_EOF'
+                echo "$retired_summary"
+                echo 'RETIRED_EOF'
+              } >> "$GITHUB_OUTPUT"
+            else
+              echo "has_retirements=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "has_retirements=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Create pull request
         if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v7
@@ -89,6 +109,8 @@ jobs:
             | IPD-NHKIR | ${{ steps.before.outputs.nhkir_version }} | ${{ steps.after.outputs.nhkir_version }} | ${{ steps.after.outputs.nhkir_count }} |
 
             **Changed files**: ${{ steps.summary.outputs.gb_changed }} modified, ${{ steps.summary.outputs.gb_new }} new GenBank files.
+
+            ${{ steps.summary.outputs.has_retirements == 'true' && format('**Provisional allele retirements**:\n{0}', steps.summary.outputs.retired_summary) || '' }}
 
             Only locus files containing new or modified alleles were regenerated.
             Version suffixes (e.g., 3.16.0.0.1) indicate silent IPD updates without an official release.

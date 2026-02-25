@@ -11,11 +11,13 @@ def build_metadata_index(
     output_path: Path,
     mhc_version: str = "",
     nhkir_version: str = "",
+    provisional_alleles: list[dict] | None = None,
 ) -> dict:
     """
     Build docs/alleles.json from allele listings.
 
     Listings use flat dot-notation keys from the API (e.g., 'organism.name').
+    Provisional alleles (if provided) are appended with their pre-built metadata.
     """
     species_map = {}
     all_alleles = []
@@ -27,6 +29,16 @@ def build_metadata_index(
     for allele in nhkir_listing:
         _process_allele(allele, "NHKIR", species_map, all_alleles, loci)
 
+    # Append provisional alleles (already in index-ready format)
+    if provisional_alleles:
+        for prov in provisional_alleles:
+            all_alleles.append(prov)
+            locus = prov.get("l", "")
+            if locus:
+                # Infer database from locus for loci tracking
+                db = "NHKIR" if locus.startswith("KIR") else "MHC"
+                loci[db].add(locus)
+
     index = {
         "generated": datetime.now(timezone.utc).isoformat(),
         "mhc_version": mhc_version,
@@ -35,6 +47,9 @@ def build_metadata_index(
         "alleles": all_alleles,
         "loci": {k: sorted(v) for k, v in loci.items()},
     }
+
+    if provisional_alleles:
+        index["provisional_count"] = len(provisional_alleles)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(index, separators=(",", ":")))

@@ -1,0 +1,121 @@
+name: Add Provisional Alleles
+
+on:
+  workflow_dispatch:
+    inputs:
+      species:
+        description: "Species prefix (e.g., Mamu, Mafa, Mane)"
+        required: true
+        type: string
+      locus:
+        description: "Locus name (e.g., A1, B, DRB, KIR3DL01)"
+        required: true
+        type: string
+      allele_class:
+        description: "MHC class"
+        required: true
+        type: choice
+        options:
+          - "I"
+          - "II"
+          - ""
+        default: "I"
+      seq_type:
+        description: "Sequence type"
+        required: true
+        type: choice
+        options:
+          - "coding"
+          - "genomic"
+        default: "coding"
+      submitter:
+        description: "Submitter name (e.g., J. Karl)"
+        required: true
+        type: string
+      fasta:
+        description: "Paste FASTA content (>header + sequence, one or more records)"
+        required: true
+        type: string
+      notes:
+        description: "Optional notes"
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  add-provisional:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Write FASTA to file
+        env:
+          FASTA_CONTENT: ${{ github.event.inputs.fasta }}
+        run: printf '%s\n' "$FASTA_CONTENT" > /tmp/input.fasta
+
+      - name: Add provisional allele(s)
+        run: |
+          uv run nhp-pipeline provisional-add \
+            --species "${{ github.event.inputs.species }}" \
+            --locus "${{ github.event.inputs.locus }}" \
+            --class "${{ github.event.inputs.allele_class }}" \
+            --seq-type "${{ github.event.inputs.seq_type }}" \
+            --submitter "${{ github.event.inputs.submitter }}" \
+            --notes "${{ github.event.inputs.notes }}" \
+            --fasta /tmp/input.fasta
+
+      - name: Summarize additions
+        id: summary
+        run: |
+          added=$(git diff --unified=0 provisional/manifest.tsv | grep '^+[^+]' | grep -v '^+name' | wc -l | tr -d ' ')
+          echo "count=$added" >> "$GITHUB_OUTPUT"
+
+          names=$(git diff --unified=0 provisional/manifest.tsv | grep '^+[^+]' | grep -v '^+name' | cut -f1)
+          {
+            echo 'names<<NAMES_EOF'
+            echo "$names"
+            echo 'NAMES_EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Add ${{ steps.summary.outputs.count }} provisional allele(s) at ${{ github.event.inputs.species }}-${{ github.event.inputs.locus }}"
+          title: "Add provisional: ${{ github.event.inputs.species }}-${{ github.event.inputs.locus }} (${{ steps.summary.outputs.count }} allele(s))"
+          body: |
+            ## Provisional Allele Submission
+
+            | Field | Value |
+            |-------|-------|
+            | **Species** | ${{ github.event.inputs.species }} |
+            | **Locus** | ${{ github.event.inputs.locus }} |
+            | **Class** | ${{ github.event.inputs.allele_class }} |
+            | **Seq type** | ${{ github.event.inputs.seq_type }} |
+            | **Submitter** | ${{ github.event.inputs.submitter }} |
+            | **Count** | ${{ steps.summary.outputs.count }} |
+            | **Notes** | ${{ github.event.inputs.notes }} |
+
+            ### Assigned names
+            ```
+            ${{ steps.summary.outputs.names }}
+            ```
+
+            Submitted via `workflow_dispatch` by @${{ github.actor }}.
+            This PR will be validated by the `validate-provisional` CI check.
+          branch: provisional/${{ github.event.inputs.species }}-${{ github.event.inputs.locus }}-${{ github.run_id }}
+          delete-branch: true
