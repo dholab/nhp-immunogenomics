@@ -1,0 +1,61 @@
+name: Process Provisional Changes
+
+# Triggered by the NHP Immunogenomics macOS app after staging files on a branch.
+# If .staging/config.json exists: runs provisional-add with the staged FASTA, then cleans up.
+# Always runs provisional-build to regenerate GenBank files and metadata index.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Process new submission (if staged)
+        if: hashFiles('.staging/config.json') != ''
+        run: |
+          # Parse config
+          SPECIES=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['species'])")
+          LOCUS=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['locus'])")
+          ALLELE_CLASS=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['allele_class'])")
+          SEQ_TYPE=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['seq_type'])")
+          SUBMITTER=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['submitter'])")
+          NOTES=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['notes'])")
+
+          uv run nhp-pipeline provisional-add \
+            --species "$SPECIES" \
+            --locus "$LOCUS" \
+            --class "$ALLELE_CLASS" \
+            --seq-type "$SEQ_TYPE" \
+            --submitter "$SUBMITTER" \
+            --notes "$NOTES" \
+            --fasta .staging/input.fasta
+
+          rm -rf .staging
+
+      - name: Build provisional GenBank files and update metadata index
+        run: uv run nhp-pipeline provisional-build
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Process provisional changes"
+          git push

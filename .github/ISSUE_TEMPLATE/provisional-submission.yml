@@ -1,0 +1,84 @@
+name: Provisional Allele Submission
+description: Submit provisional allele sequences for addition to the database
+title: "Provisional submission: "
+labels: ["provisional-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit provisional alleles
+
+        Fill out the fields below and attach your FASTA file.
+
+        **Important:** GitHub only accepts certain file types for drag-and-drop upload.
+        If your file has a `.fasta` or `.fa` extension, **rename it to `.txt`** before
+        dragging it into the FASTA file field below (e.g., `sequences.fasta` → `sequences.txt`).
+        Alternatively, you can gzip the file (`.gz`) before uploading.
+
+  - type: input
+    id: species
+    attributes:
+      label: Species prefix
+      description: "e.g., Mamu, Mafa, Mane"
+      placeholder: "Mamu"
+    validations:
+      required: true
+
+  - type: input
+    id: locus
+    attributes:
+      label: Locus name
+      description: "e.g., A1, B, DRB, E, KIR3DL01"
+      placeholder: "E"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: allele_class
+    attributes:
+      label: MHC class
+      options:
+        - "I"
+        - "II"
+        - "(none)"
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: seq_type
+    attributes:
+      label: Sequence type
+      options:
+        - "coding"
+        - "genomic"
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: submitter
+    attributes:
+      label: Submitter name
+      description: "e.g., J. Karl"
+    validations:
+      required: true
+
+  - type: textarea
+    id: fasta
+    attributes:
+      label: FASTA file
+      description: |
+        Drag and drop your FASTA file here (.txt or .gz).
+        For small inputs you can also paste the content directly.
+      placeholder: "Drag and drop your file here..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: "Optional notes about this submission"
+    validations:
+      required: false
