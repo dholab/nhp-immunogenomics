@@ -902,6 +902,16 @@ a:focus-visible {
   word-break: break-all;
 }
 
+.cell-fasta-header {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  max-width: 18rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .results-table tbody tr.row-provisional {
   background-color: #fffbeb;
 }

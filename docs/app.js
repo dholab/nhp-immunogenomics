@@ -460,7 +460,7 @@
       if (lenMin > 0 && (!allele.len || allele.len < lenMin)) return false;
       if (lenMax > 0 && (!allele.len || allele.len > lenMax)) return false;
 
-      // Search: match accession, name, or previous designations
+      // Search: match accession, name, previous designations, or FASTA header
       if (search) {
         var accMatch = allele.a.toLowerCase().indexOf(search) !== -1;
         if (!accMatch) {
@@ -475,7 +475,10 @@
                 }
               }
             }
-            if (!prevMatch) return false;
+            if (!prevMatch) {
+              var fhMatch = allele.fh && allele.fh.toLowerCase().indexOf(search) !== -1;
+              if (!fhMatch) return false;
+            }
           }
         }
       }
@@ -640,6 +643,12 @@
       tdDate.className = "cell-date";
       tdDate.textContent = allele.dm || "";
       tr.appendChild(tdDate);
+
+      // Original Header (FASTA)
+      var tdHeader = document.createElement("td");
+      tdHeader.className = "cell-fasta-header";
+      tdHeader.textContent = allele.fh || "";
+      tr.appendChild(tdHeader);
 
       fragment.appendChild(tr);
     }
@@ -1045,7 +1054,7 @@
       "Previous Designations",
     ];
     if (hasProvisional) {
-      headers.push("Source", "Submitter");
+      headers.push("Source", "Submitter", "Original Header");
     }
 
     var rows = [headers.join(",")];
@@ -1071,7 +1080,8 @@
       if (hasProvisional) {
         row.push(
           csvEscape(a.prov ? "Provisional" : "IPD"),
-          csvEscape(a.sub || "")
+          csvEscape(a.sub || ""),
+          csvEscape(a.fh || "")
         );
       }
       rows.push(row.join(","));
