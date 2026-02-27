@@ -1,5 +1,8 @@
 name: Add Provisional Alleles
 
+# For FASTA files larger than ~65 KB, use scripts/submit-provisional.sh instead.
+# GitHub limits workflow_dispatch text inputs to 65,535 characters.
+
 on:
   workflow_dispatch:
     inputs:
@@ -33,7 +36,7 @@ on:
         required: true
         type: string
       fasta:
-        description: "Paste FASTA content (>header + sequence, one or more records)"
+        description: "Paste FASTA content (small inputs only; for large files use scripts/submit-provisional.sh)"
         required: true
         type: string
       notes:

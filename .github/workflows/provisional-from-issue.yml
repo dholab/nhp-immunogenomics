@@ -1,0 +1,193 @@
+name: Add Provisional Alleles (from Issue)
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  add-provisional:
+    if: contains(github.event.issue.labels.*.name, 'provisional-submission')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Acknowledge submission
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --body "Processing your provisional allele submission..."
+
+      - uses: actions/checkout@v4
+
+      - name: Parse issue form
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 << 'PYEOF'
+          import os, re
+
+          body = os.environ["ISSUE_BODY"]
+
+          # Parse "### Label\n\nvalue" sections from the issue form body
+          sections = {}
+          current_key = None
+          for line in body.split("\n"):
+              if line.startswith("### "):
+                  current_key = line[4:].strip()
+                  sections[current_key] = []
+              elif current_key is not None:
+                  sections[current_key].append(line)
+
+          for k in sections:
+              val = "\n".join(sections[k]).strip()
+              sections[k] = "" if val == "_No response_" else val
+
+          species = sections.get("Species prefix", "").strip()
+          locus = sections.get("Locus name", "").strip()
+          allele_class = sections.get("MHC class", "I").strip()
+          seq_type = sections.get("Sequence type", "coding").strip()
+          submitter = sections.get("Submitter name", "").strip()
+          notes = sections.get("Notes", "").strip()
+          fasta_raw = sections.get("FASTA file", "").strip()
+
+          if allele_class == "(none)":
+              allele_class = ""
+
+          # Check if the FASTA field contains a file attachment URL
+          url_match = re.search(r"\[.*?\]\((https?://\S+)\)", fasta_raw)
+          fasta_url = url_match.group(1) if url_match else ""
+
+          # If no attachment URL, treat the field as inline FASTA content
+          if not fasta_url:
+              with open("/tmp/input.fasta", "w") as f:
+                  f.write(fasta_raw)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"species={species}\n")
+              f.write(f"locus={locus}\n")
+              f.write(f"allele_class={allele_class}\n")
+              f.write(f"seq_type={seq_type}\n")
+              f.write(f"submitter={submitter}\n")
+              f.write(f"notes={notes}\n")
+              f.write(f"fasta_url={fasta_url}\n")
+          PYEOF
+
+      - name: Download FASTA attachment
+        if: steps.parse.outputs.fasta_url != ''
+        env:
+          FASTA_URL: ${{ steps.parse.outputs.fasta_url }}
+        run: |
+          curl -fSL -o /tmp/input_raw "$FASTA_URL"
+          # Decompress if gzipped, otherwise use as-is
+          if file /tmp/input_raw | grep -q gzip; then
+            gunzip -c /tmp/input_raw > /tmp/input.fasta
+          else
+            mv /tmp/input_raw /tmp/input.fasta
+          fi
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Add provisional allele(s)
+        env:
+          SPECIES: ${{ steps.parse.outputs.species }}
+          LOCUS: ${{ steps.parse.outputs.locus }}
+          ALLELE_CLASS: ${{ steps.parse.outputs.allele_class }}
+          SEQ_TYPE: ${{ steps.parse.outputs.seq_type }}
+          SUBMITTER: ${{ steps.parse.outputs.submitter }}
+          NOTES: ${{ steps.parse.outputs.notes }}
+        run: |
+          uv run nhp-pipeline provisional-add \
+            --species "$SPECIES" \
+            --locus "$LOCUS" \
+            --class "$ALLELE_CLASS" \
+            --seq-type "$SEQ_TYPE" \
+            --submitter "$SUBMITTER" \
+            --notes "$NOTES" \
+            --fasta /tmp/input.fasta
+
+      - name: Build provisional GenBank files and update metadata index
+        run: uv run nhp-pipeline provisional-build
+
+      - name: Summarize additions
+        id: summary
+        run: |
+          added=$(git diff --unified=0 provisional/manifest.tsv | grep '^+[^+]' | grep -v '^+name' | wc -l | tr -d ' ')
+          echo "count=$added" >> "$GITHUB_OUTPUT"
+
+          names=$(git diff --unified=0 provisional/manifest.tsv | grep '^+[^+]' | grep -v '^+name' | cut -f1)
+          {
+            echo 'names<<NAMES_EOF'
+            echo "$names"
+            echo 'NAMES_EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create pull request
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Add ${{ steps.summary.outputs.count }} provisional allele(s) at ${{ steps.parse.outputs.species }}-${{ steps.parse.outputs.locus }}"
+          title: "Add provisional: ${{ steps.parse.outputs.species }}-${{ steps.parse.outputs.locus }} (${{ steps.summary.outputs.count }} allele(s))"
+          body: |
+            ## Provisional Allele Submission
+
+            | Field | Value |
+            |-------|-------|
+            | **Species** | ${{ steps.parse.outputs.species }} |
+            | **Locus** | ${{ steps.parse.outputs.locus }} |
+            | **Class** | ${{ steps.parse.outputs.allele_class }} |
+            | **Seq type** | ${{ steps.parse.outputs.seq_type }} |
+            | **Submitter** | ${{ steps.parse.outputs.submitter }} |
+            | **Count** | ${{ steps.summary.outputs.count }} |
+            | **Notes** | ${{ steps.parse.outputs.notes }} |
+
+            ### Assigned names
+            ```
+            ${{ steps.summary.outputs.names }}
+            ```
+
+            Submitted via issue #${{ github.event.issue.number }} by @${{ github.event.issue.user.login }}.
+            This PR will be validated by the `validate-provisional` CI check.
+          branch: provisional/${{ steps.parse.outputs.species }}-${{ steps.parse.outputs.locus }}-${{ github.run_id }}
+          delete-branch: true
+
+      - name: Comment on issue with PR link
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ steps.pr.outputs.pull-request-url }}
+          COUNT: ${{ steps.summary.outputs.count }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --body "Created PR with $COUNT allele(s): $PR_URL"
+
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --reason completed
+
+      - name: Comment on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --body "Something went wrong processing this submission. See the [workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
