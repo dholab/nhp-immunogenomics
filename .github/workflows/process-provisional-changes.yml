@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   process:
@@ -59,3 +60,12 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "Process provisional changes"
           git push
+
+      - name: Auto-merge PR
+        run: |
+          PR_NUMBER=$(gh pr list --head "${{ github.ref_name }}" --json number --jq '.[0].number')
+          if [ -n "$PR_NUMBER" ]; then
+            gh pr merge "$PR_NUMBER" --squash --delete-branch
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

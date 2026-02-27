@@ -70,7 +70,7 @@ final class ProvisionalViewModel {
                 seqType: seqType, submitter: submitter, notes: notes,
                 fastaContent: fastaContent
             )
-            successMessage = "PR created: \(prURL.absoluteString)"
+            successMessage = "Submission created. The workflow will process your sequences and auto-merge within a few minutes."
             showAddSheet = false
             await loadSubmissions(api: api)
         } catch {

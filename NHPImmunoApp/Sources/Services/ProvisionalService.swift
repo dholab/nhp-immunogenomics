@@ -33,13 +33,37 @@ actor ProvisionalService {
         }
     }
 
+    // MARK: - Deduplication
+
+    /// Extract allele names from FASTA headers, stripping any accession suffix after `|`.
+    private func extractAlleleNames(from fastaContent: String) -> Set<String> {
+        let records = FASTAParser.parse(fastaContent)
+        return Set(records.map { record in
+            if let pipe = record.name.firstIndex(of: "|") {
+                return String(record.name[..<pipe])
+            }
+            return record.name
+        })
+    }
+
     // MARK: - Add
 
     /// Submit new provisional alleles.
-    /// Creates a branch, stages FASTA + config, creates a draft PR, triggers the workflow.
+    /// Checks for duplicates, creates a branch, stages FASTA + config, creates a PR,
+    /// and triggers the processing workflow.
     func submitNewAlleles(species: String, locus: String, alleleClass: String,
                           seqType: String, submitter: String, notes: String,
                           fastaContent: String) async throws -> URL {
+        // Check for duplicate allele names against existing manifest
+        let submittedNames = extractAlleleNames(from: fastaContent)
+        let existing = try await fetchManifest()
+        let existingNames = Set(existing.map(\.name))
+        let duplicates = submittedNames.intersection(existingNames)
+        if !duplicates.isEmpty {
+            let names = duplicates.sorted().joined(separator: ", ")
+            throw ProvisionalSubmissionError.duplicateAlleles(names)
+        }
+
         let timestamp = Int(Date().timeIntervalSince1970)
         let branch = "provisional/\(sanitizeBranchComponent(species))-\(sanitizeBranchComponent(locus))-\(timestamp)"
 
@@ -77,14 +101,13 @@ actor ProvisionalService {
         | **Notes** | \(notes) |
 
         Submitted via NHP Immunogenomics app.
-        Waiting for workflow to process and assign allele names.
+        This PR will be automatically processed and merged by the workflow.
         """
 
         let (_, prURL) = try await api.createPullRequest(
             title: "Add provisional: \(species)-\(locus) (\(records.count) sequence(s))",
             body: prBody,
-            head: branch,
-            draft: true
+            head: branch
         )
 
         // Trigger the processing workflow (non-fatal — PR is already created)
@@ -203,5 +226,16 @@ actor ProvisionalService {
         )
 
         return prURL
+    }
+}
+
+enum ProvisionalSubmissionError: LocalizedError {
+    case duplicateAlleles(String)
+
+    var errorDescription: String? {
+        switch self {
+        case .duplicateAlleles(let names):
+            "These alleles already exist in the provisional manifest: \(names)"
+        }
     }
 }
