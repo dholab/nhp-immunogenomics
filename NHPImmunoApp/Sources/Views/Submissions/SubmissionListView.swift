@@ -25,10 +25,12 @@ struct SubmissionListView: View {
                     Task { await vm.loadSubmissions(api: settings.api) }
                 }
                 .help("Refresh submissions")
-                .keyboardShortcut("r", modifiers: .command)
             }
         }
         .task {
+            await vm.loadSubmissions(api: settings.api)
+        }
+        .focusedValue(\.refreshAction) {
             await vm.loadSubmissions(api: settings.api)
         }
     }

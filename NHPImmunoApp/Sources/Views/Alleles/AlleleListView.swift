@@ -19,6 +19,12 @@ struct AlleleListView: View {
             }
             .overlay { overlayContent }
             .safeAreaInset(edge: .bottom) { statusBar }
+            .focusedValue(\.refreshAction) {
+                await vm.load(owner: settings.owner, repo: settings.repo)
+            }
+            .focusedValue(\.toggleInspector) {
+                showInspector.toggle()
+            }
     }
 
     private func alleleTable() -> some View {
@@ -65,14 +71,12 @@ struct AlleleListView: View {
                 showInspector.toggle()
             }
             .help("Toggle inspector panel")
-            .keyboardShortcut("i", modifiers: [.command, .option])
         }
         ToolbarItem {
             Button("Refresh", systemImage: "arrow.clockwise") {
                 Task { await vm.load(owner: settings.owner, repo: settings.repo) }
             }
             .help("Refresh allele data")
-            .keyboardShortcut("r", modifiers: .command)
         }
     }
 

@@ -39,6 +39,9 @@ struct ProvisionalListView: View {
             .task {
                 await vm.loadProvisionals(api: settings.api)
             }
+            .focusedValue(\.refreshAction) {
+                await vm.loadProvisionals(api: settings.api)
+            }
     }
 
     /// Binding that presents the edit sheet using the selected allele as the item.
@@ -79,7 +82,6 @@ struct ProvisionalListView: View {
         ToolbarItemGroup {
             Button("Add", systemImage: "plus") { vm.showAddSheet = true }
                 .help("Add provisional alleles")
-                .keyboardShortcut("n", modifiers: .command)
             Button("Edit", systemImage: "pencil") { vm.showEditSheet = true }
                 .disabled(vm.selectedProvisional == nil)
                 .help("Edit selected allele")
@@ -91,7 +93,6 @@ struct ProvisionalListView: View {
                 Task { await vm.loadProvisionals(api: settings.api) }
             }
             .help("Refresh provisional alleles")
-            .keyboardShortcut("r", modifiers: .command)
         }
     }
 
