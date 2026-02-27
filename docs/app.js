@@ -131,8 +131,14 @@
         onFilterChange();
       }, 300);
     }
-    if (dom.lengthMin) dom.lengthMin.addEventListener("input", onLengthInput);
-    if (dom.lengthMax) dom.lengthMax.addEventListener("input", onLengthInput);
+    if (dom.lengthMin) {
+      dom.lengthMin.addEventListener("input", onLengthInput);
+      dom.lengthMin.addEventListener("change", onLengthInput);
+    }
+    if (dom.lengthMax) {
+      dom.lengthMax.addEventListener("input", onLengthInput);
+      dom.lengthMax.addEventListener("change", onLengthInput);
+    }
 
     // Seq type dropdown
     if (dom.seqTypeSelect) {

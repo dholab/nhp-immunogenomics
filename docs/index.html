@@ -100,6 +100,12 @@
               placeholder="e.g. Mamu-A1*001, NHP00001, or PROV6f9fc"
               autocomplete="off"
             >
+            <div class="length-range">
+              <label class="length-label">Length (bp):</label>
+              <input type="number" id="length-min" class="filter-input filter-input-sm" placeholder="Min" min="0" aria-label="Minimum length">
+              <span class="length-sep">&ndash;</span>
+              <input type="number" id="length-max" class="filter-input filter-input-sm" placeholder="Max" min="0" aria-label="Maximum length">
+            </div>
           </div>
 
           <div class="filter-group">
@@ -109,15 +115,6 @@
               <option value="genomic">Genomic</option>
               <option value="coding">Coding</option>
             </select>
-          </div>
-
-          <div class="filter-group filter-group-length">
-            <label class="filter-label">Length (bp)</label>
-            <div class="length-range">
-              <input type="number" id="length-min" class="filter-input filter-input-sm" placeholder="Min" min="0" aria-label="Minimum length">
-              <span class="length-sep">&ndash;</span>
-              <input type="number" id="length-max" class="filter-input filter-input-sm" placeholder="Max" min="0" aria-label="Maximum length">
-            </div>
           </div>
 
           <div class="filter-group filter-group-provisional">
