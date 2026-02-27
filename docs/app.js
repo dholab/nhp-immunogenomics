@@ -32,6 +32,7 @@
       mhcClass: "",
       locus: "",
       search: "",
+      seqType: "",
       provisionalMode: "exclude",
     },
   };
@@ -63,6 +64,7 @@
     dom.classSelect = document.getElementById("class-select");
     dom.locusSelect = document.getElementById("locus-select");
     dom.nameSearch = document.getElementById("name-search");
+    dom.seqTypeSelect = document.getElementById("seqtype-select");
     dom.provisionalSelect = document.getElementById("provisional-select");
     dom.clearFiltersBtn = document.getElementById("clear-filters-btn");
 
@@ -114,6 +116,14 @@
         onFilterChange();
       }, 200);
     });
+
+    // Seq type dropdown
+    if (dom.seqTypeSelect) {
+      dom.seqTypeSelect.addEventListener("change", function () {
+        state.filters.seqType = this.value;
+        onFilterChange();
+      });
+    }
 
     // Provisional dropdown
     if (dom.provisionalSelect) {
@@ -352,6 +362,7 @@
     state.filters.mhcClass = "";
     state.filters.locus = "";
     state.filters.search = "";
+    state.filters.seqType = "";
     state.filters.provisionalMode = "exclude";
 
     dom.databaseToggle.forEach(function (btn) {
@@ -364,6 +375,7 @@
     dom.classSelect.value = "";
     dom.classSelect.disabled = false;
     dom.nameSearch.value = "";
+    if (dom.seqTypeSelect) dom.seqTypeSelect.value = "";
     if (dom.provisionalSelect) dom.provisionalSelect.value = "exclude";
 
     populateLocusDropdown();
@@ -387,6 +399,7 @@
     var cls = state.filters.mhcClass;
     var loc = state.filters.locus;
     var search = state.filters.search.toLowerCase().trim();
+    var seqType = state.filters.seqType;
     var provMode = state.filters.provisionalMode;
 
     state.filtered = state.alleles.filter(function (allele) {
@@ -411,22 +424,28 @@
       // Locus
       if (loc && allele.l !== loc) return false;
 
-      // Search: match accession, name, or previous designations
+      // Seq Type
+      if (seqType && allele.st !== seqType) return false;
+
+      // Search: match accession, name, length, or previous designations
       if (search) {
         var accMatch = allele.a.toLowerCase().indexOf(search) !== -1;
         if (!accMatch) {
           var nameMatch = allele.n.toLowerCase().indexOf(search) !== -1;
           if (!nameMatch) {
-            var prevMatch = false;
-            if (allele.prev) {
-              for (var i = 0; i < allele.prev.length; i++) {
-                if (allele.prev[i].toLowerCase().indexOf(search) !== -1) {
-                  prevMatch = true;
-                  break;
+            var lenMatch = allele.len && String(allele.len).indexOf(search) !== -1;
+            if (!lenMatch) {
+              var prevMatch = false;
+              if (allele.prev) {
+                for (var i = 0; i < allele.prev.length; i++) {
+                  if (allele.prev[i].toLowerCase().indexOf(search) !== -1) {
+                    prevMatch = true;
+                    break;
+                  }
                 }
               }
+              if (!prevMatch) return false;
             }
-            if (!prevMatch) return false;
           }
         }
       }
@@ -554,14 +573,6 @@
       tdClass.className = "cell-class";
       tdClass.textContent = allele.c;
       tr.appendChild(tdClass);
-
-      // Species
-      var tdSpecies = document.createElement("td");
-      tdSpecies.textContent = allele.s;
-      if (state.species[allele.s]) {
-        tdSpecies.title = state.species[allele.s].scientificName;
-      }
-      tr.appendChild(tdSpecies);
 
       // Length
       var tdLen = document.createElement("td");

@@ -102,6 +102,15 @@
             >
           </div>
 
+          <div class="filter-group">
+            <label for="seqtype-select" class="filter-label">Seq Type</label>
+            <select id="seqtype-select" class="filter-select">
+              <option value="">All types</option>
+              <option value="genomic">Genomic</option>
+              <option value="coding">Coding</option>
+            </select>
+          </div>
+
           <div class="filter-group filter-group-provisional">
             <label for="provisional-select" class="filter-label">Provisional</label>
             <select id="provisional-select" class="filter-select">
@@ -164,11 +173,6 @@
                 <th scope="col">
                   <button type="button" class="sort-btn" data-sort="c" aria-label="Sort by Class">
                     Class <span class="sort-icon" aria-hidden="true"></span>
-                  </button>
-                </th>
-                <th scope="col">
-                  <button type="button" class="sort-btn" data-sort="s" aria-label="Sort by Species">
-                    Species <span class="sort-icon" aria-hidden="true"></span>
                   </button>
                 </th>
                 <th scope="col">
