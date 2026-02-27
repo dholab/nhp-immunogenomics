@@ -25,7 +25,7 @@ MANIFEST_COLUMNS = (
     "name", "species", "locus", "class", "seq_type",
     "sequence_file", "submitter", "date_added", "notes",
     "ref_nt", "ref_nt_pct", "ref_aa", "ref_aa_pct",
-    "cds_diffs", "aa_diffs",
+    "cds_diffs", "aa_diffs", "fasta_header",
 )
 
 
@@ -251,7 +251,8 @@ def add_provisional_alleles(
         )
 
     # Pre-validate all sequences before writing anything
-    sequences_to_add: list[tuple[str, str]] = []  # (record_id, uppercase_seq)
+    # (record_id, uppercase_seq, fasta_header)
+    sequences_to_add: list[tuple[str, str, str]] = []
     batch_hashes: dict[str, str] = {}  # hash -> record_id
 
     for i, record in enumerate(records):
@@ -270,14 +271,14 @@ def add_provisional_alleles(
                 f"record '{batch_hashes[h]}'"
             )
         batch_hashes[h] = record.id
-        sequences_to_add.append((record.id, seq))
+        sequences_to_add.append((record.id, seq, record.description))
 
     # Check for duplicates against existing manifest
     manifest = load_manifest(repo_root)
     existing_seqs = load_sequences(repo_root, manifest)
     existing_hashes = {sequence_hash(s): n for n, s in existing_seqs.items()}
 
-    for rec_id, seq in sequences_to_add:
+    for rec_id, seq, _hdr in sequences_to_add:
         h = sequence_hash(seq)
         if h in existing_hashes:
             raise ValueError(
@@ -308,7 +309,7 @@ def add_provisional_alleles(
     # intra-batch synonymous detection
     provisional_refs: list[ReferenceAllele] = []
 
-    for i, (rec_id, seq) in enumerate(sequences_to_add):
+    for i, (rec_id, seq, fasta_header) in enumerate(sequences_to_add):
         if name_override:
             allele_name = name_override
             relationship = ""
@@ -403,6 +404,7 @@ def add_provisional_alleles(
             "ref_aa_pct": ref_aa_pct,
             "cds_diffs": cds_diffs,
             "aa_diffs": aa_diffs,
+            "fasta_header": fasta_header,
         }
 
         append_to_manifest(repo_root, entry)
@@ -532,6 +534,10 @@ def build_metadata(
         rationale = _build_rationale(entry)
         if rationale:
             rec["nr"] = rationale
+
+        fh = entry.get("fasta_header", "")
+        if fh:
+            rec["fh"] = fh
 
         records.append(rec)
     return records

@@ -587,12 +587,12 @@
           badge.setAttribute("role", "button");
           badge.setAttribute("aria-label", "Naming rationale for " + allele.n);
           badge.title = allele.nr;
-          badge.addEventListener("click", (function (rationale, name) {
+          badge.addEventListener("click", (function (rationale, name, fastaHeader) {
             return function (e) {
               e.stopPropagation();
-              showRationale(e.target, rationale, name);
+              showRationale(e.target, rationale, name, fastaHeader);
             };
-          })(allele.nr, allele.n));
+          })(allele.nr, allele.n, allele.fh || ""));
         } else {
           badge.title = "Submitted by " + (allele.sub || "unknown") + " on " + (allele.da || "unknown date");
         }
@@ -1118,7 +1118,7 @@
   // -------------------------------------------------------
   var activePopover = null;
 
-  function showRationale(anchor, rationale, name) {
+  function showRationale(anchor, rationale, name, fastaHeader) {
     // Close any existing popover
     dismissPopover();
 
@@ -1133,7 +1133,15 @@
 
     var body = document.createElement("div");
     body.className = "rationale-body";
-    body.textContent = rationale;
+    if (fastaHeader) {
+      var hdrLine = document.createElement("div");
+      hdrLine.className = "rationale-fasta-header";
+      hdrLine.textContent = "Original header: " + fastaHeader;
+      body.appendChild(hdrLine);
+    }
+    var rationaleText = document.createElement("div");
+    rationaleText.textContent = rationale;
+    body.appendChild(rationaleText);
     popover.appendChild(body);
 
     document.body.appendChild(popover);
