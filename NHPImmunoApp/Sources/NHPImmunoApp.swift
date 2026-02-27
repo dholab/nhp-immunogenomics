@@ -70,7 +70,7 @@ private struct ViewMenuCommands: Commands {
 private struct HelpMenuCommands: Commands {
     var body: some Commands {
         CommandGroup(replacing: .help) {
-            Link("NHP Immunogenomics on GitHub",
+            Link("O'Connor lab NHP immunogenomics allele browser on GitHub",
                  destination: URL(string: "https://github.com/dholab/nhp-immunogenomics")!)
         }
     }

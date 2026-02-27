@@ -32,6 +32,8 @@ final class AlleleViewModel {
 
     /// Persistent service instance to preserve cache across loads.
     private var alleleService: AlleleService?
+    private var serviceOwner: String?
+    private var serviceRepo: String?
 
     /// O(1) lookup for selected allele.
     private var alleleLookup: [Allele.ID: Allele] = [:]
@@ -80,8 +82,10 @@ final class AlleleViewModel {
         errorMessage = nil
         defer { isLoading = false }
 
-        if alleleService == nil {
+        if alleleService == nil || serviceOwner != owner || serviceRepo != repo {
             alleleService = AlleleService(owner: owner, repo: repo)
+            serviceOwner = owner
+            serviceRepo = repo
         }
         guard let service = alleleService else { return }
         do {

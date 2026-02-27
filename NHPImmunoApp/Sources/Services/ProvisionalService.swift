@@ -11,14 +11,33 @@ actor ProvisionalService {
 
     /// Sanitize a string for use in a Git branch name.
     private func sanitizeBranchComponent(_ input: String) -> String {
-        input.map { char -> String in
-            switch char {
-            case "*", ":", " ", "~", "^", "?", "[", "\\", ".":
-                return "-"
-            default:
-                return String(char)
-            }
-        }.joined()
+        var cleaned = input
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .replacingOccurrences(of: "[^A-Za-z0-9._-]+", with: "-", options: .regularExpression)
+            .replacingOccurrences(of: "\\.+", with: ".", options: .regularExpression)
+            .replacingOccurrences(of: "-{2,}", with: "-", options: .regularExpression)
+            .trimmingCharacters(in: CharacterSet(charactersIn: ".-"))
+
+        if cleaned.isEmpty {
+            cleaned = "item"
+        }
+        if cleaned == "@" {
+            cleaned = "item"
+        }
+        if cleaned.hasSuffix(".lock") {
+            cleaned += "-ref"
+        }
+        return cleaned
+    }
+
+    /// Normalize an allele name from FASTA header text.
+    /// Any accession suffix after `|` is ignored to match manifest naming.
+    private func normalizedAlleleName(from header: String) -> String {
+        let trimmed = header.trimmingCharacters(in: .whitespacesAndNewlines)
+        if let pipe = trimmed.firstIndex(of: "|") {
+            return String(trimmed[..<pipe])
+        }
+        return trimmed
     }
 
     // MARK: - Read
@@ -38,12 +57,7 @@ actor ProvisionalService {
     /// Extract allele names from FASTA headers, stripping any accession suffix after `|`.
     private func extractAlleleNames(from fastaContent: String) -> Set<String> {
         let records = FASTAParser.parse(fastaContent)
-        return Set(records.map { record in
-            if let pipe = record.name.firstIndex(of: "|") {
-                return String(record.name[..<pipe])
-            }
-            return record.name
-        })
+        return Set(records.map { normalizedAlleleName(from: $0.name) })
     }
 
     // MARK: - Add
@@ -100,7 +114,7 @@ actor ProvisionalService {
         | **Sequences** | \(records.count) |
         | **Notes** | \(notes) |
 
-        Submitted via NHP Immunogenomics app.
+        Submitted via O'Connor lab NHP immunogenomics allele browser.
         This PR will be automatically processed and merged by the workflow.
         """
 
@@ -145,7 +159,7 @@ actor ProvisionalService {
         // Create PR
         let (_, prURL) = try await api.createPullRequest(
             title: "Edit provisional: \(updated.name)",
-            body: "Updated metadata for provisional allele \(updated.name).\n\nSubmitted via NHP Immunogenomics app.",
+            body: "Updated metadata for provisional allele \(updated.name).\n\nSubmitted via O'Connor lab NHP immunogenomics allele browser.",
             head: branch
         )
 
@@ -194,7 +208,7 @@ actor ProvisionalService {
                 let (fastaContent, fastaSHA) = try await api.getFileContent(path: fastaPath, ref: branch)
                 let records = FASTAParser.parse(fastaContent)
                 let namesToRemove = Set(toDelete.filter { $0.sequenceFile == file }.map(\.name))
-                let kept = records.filter { !namesToRemove.contains($0.name) }
+                let kept = records.filter { !namesToRemove.contains(normalizedAlleleName(from: $0.name)) }
                 if kept.isEmpty {
                     try await api.deleteFile(path: fastaPath,
                                               message: "Remove empty FASTA \(file)",
@@ -215,7 +229,7 @@ actor ProvisionalService {
         let nameList = names.sorted().joined(separator: ", ")
         let (_, prURL) = try await api.createPullRequest(
             title: "Delete provisional: \(label)",
-            body: "Removing provisional allele(s): \(nameList)\n\nSubmitted via NHP Immunogenomics app.",
+            body: "Removing provisional allele(s): \(nameList)\n\nSubmitted via O'Connor lab NHP immunogenomics allele browser.",
             head: branch
         )
 

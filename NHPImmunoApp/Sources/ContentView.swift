@@ -25,7 +25,7 @@ struct ContentView: View {
             List(SidebarItem.allCases, id: \.self, selection: $selection) { item in
                 Label(item.rawValue, systemImage: item.icon)
             }
-            .navigationTitle("NHP Immuno")
+            .navigationTitle("O'Connor lab NHP immunogenomics allele browser")
         } detail: {
             if settings.isConfigured {
                 switch selection {
