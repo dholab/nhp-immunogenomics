@@ -10,6 +10,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   process:
@@ -30,24 +31,28 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Process new submission (if staged)
+      - name: Parse staging config
+        id: config
         if: hashFiles('.staging/config.json') != ''
         run: |
-          # Parse config
-          SPECIES=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['species'])")
-          LOCUS=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['locus'])")
-          ALLELE_CLASS=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['allele_class'])")
-          SEQ_TYPE=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['seq_type'])")
-          SUBMITTER=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['submitter'])")
-          NOTES=$(python3 -c "import json; print(json.load(open('.staging/config.json'))['notes'])")
+          python3 -c "
+          import json, os
+          cfg = json.load(open('.staging/config.json'))
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              for key in ('species', 'locus', 'allele_class', 'seq_type', 'submitter', 'notes'):
+                  f.write(f'{key}={cfg[key]}\n')
+          "
 
+      - name: Add provisional allele(s)
+        if: steps.config.outcome == 'success'
+        run: |
           uv run nhp-pipeline provisional-add \
-            --species "$SPECIES" \
-            --locus "$LOCUS" \
-            --class "$ALLELE_CLASS" \
-            --seq-type "$SEQ_TYPE" \
-            --submitter "$SUBMITTER" \
-            --notes "$NOTES" \
+            --species "${{ steps.config.outputs.species }}" \
+            --locus "${{ steps.config.outputs.locus }}" \
+            --class "${{ steps.config.outputs.allele_class }}" \
+            --seq-type "${{ steps.config.outputs.seq_type }}" \
+            --submitter "${{ steps.config.outputs.submitter }}" \
+            --notes "${{ steps.config.outputs.notes }}" \
             --fasta .staging/input.fasta
 
           rm -rf .staging
@@ -55,20 +60,37 @@ jobs:
       - name: Build provisional GenBank files and update metadata index
         run: uv run nhp-pipeline provisional-build
 
+      - name: Summarize changes
+        id: summary
+        run: |
+          added=$(git diff --unified=0 provisional/manifest.tsv 2>/dev/null | grep '^+[^+]' | grep -v '^+name' | wc -l | tr -d ' ')
+          echo "count=${added:-0}" >> "$GITHUB_OUTPUT"
+          species="${{ steps.config.outputs.species }}"
+          locus="${{ steps.config.outputs.locus }}"
+          if [ -n "$species" ] && [ -n "$locus" ]; then
+            echo "label=${species}-${locus}" >> "$GITHUB_OUTPUT"
+          else
+            echo "label=provisional" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Process provisional changes"
+          git diff --cached --quiet || git commit -m "Process ${{ steps.summary.outputs.label }}: ${{ steps.summary.outputs.count }} allele(s)"
           git push
 
-      - name: Auto-merge PR
+      - name: Auto-merge PR and trigger deploy
         run: |
           PR_NUMBER=$(gh pr list --head "${{ github.ref_name }}" --json number --jq '.[0].number')
           if [ -n "$PR_NUMBER" ]; then
             gh pr ready "$PR_NUMBER" 2>/dev/null || true
             gh pr merge "$PR_NUMBER" --squash --delete-branch
+
+            # GITHUB_TOKEN merges don't trigger push-based workflows,
+            # so explicitly dispatch the deploy.
+            gh workflow run "Deploy Pages" --ref main
           fi
         env:
           GH_TOKEN: ${{ github.token }}
