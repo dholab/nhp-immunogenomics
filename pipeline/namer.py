@@ -171,12 +171,33 @@ class NamingResult:
     protein_length: int
     exon_count: int
 
+    # Difference counts vs closest protein-level match
+    cds_diffs: int = -1  # CDS nucleotide mismatches (-1 = not computed)
+    aa_diffs: int = -1   # amino acid mismatches (-1 = not computed)
+
     # Extracted sequences (used by batch naming for intra-batch comparison)
     extracted_cds: str = ""
     extracted_protein: str = ""
 
     # Warnings
     warnings: list[str] = field(default_factory=list)
+
+
+def _count_diffs(seq_a: str, seq_b: str) -> int:
+    """Count mismatches between two sequences of equal or similar length.
+
+    Compares character-by-character up to the shorter length, then adds
+    the length difference as additional differences.
+    """
+    if not seq_a or not seq_b:
+        return -1
+    a = seq_a.upper().rstrip("*")
+    b = seq_b.upper().rstrip("*")
+    diffs = abs(len(a) - len(b))
+    for i in range(min(len(a), len(b))):
+        if a[i] != b[i]:
+            diffs += 1
+    return diffs
 
 
 # ---------------------------------------------------------------------------
@@ -1243,7 +1264,16 @@ def name_provisional_allele(
             relationship = "synonymous"
             protein_pct = 100.0
 
-    # Step 7: Assign name
+    # Step 7: Compute difference counts vs closest protein-level match
+    cds_diffs = -1
+    aa_diffs = -1
+    if best_protein_ref:
+        if cds and best_protein_ref.coding_seq:
+            cds_diffs = _count_diffs(cds, best_protein_ref.coding_seq)
+        if protein and best_protein_ref.protein:
+            aa_diffs = _count_diffs(protein, best_protein_ref.protein)
+
+    # Step 8: Assign name
     # For the naming, use the protein-level best match
     naming_ref = best_protein_ref if best_protein_ref else closest_nt_ref
 
@@ -1263,6 +1293,8 @@ def name_provisional_allele(
         cds_length=len(cds),
         protein_length=len(protein),
         exon_count=len(query_exons),
+        cds_diffs=cds_diffs,
+        aa_diffs=aa_diffs,
         extracted_cds=cds,
         extracted_protein=protein,
         warnings=warnings,

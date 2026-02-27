@@ -25,6 +25,7 @@ MANIFEST_COLUMNS = (
     "name", "species", "locus", "class", "seq_type",
     "sequence_file", "submitter", "date_added", "notes",
     "ref_nt", "ref_nt_pct", "ref_aa", "ref_aa_pct",
+    "cds_diffs", "aa_diffs",
 )
 
 
@@ -374,11 +375,17 @@ def add_provisional_alleles(
         ref_nt_pct = ""
         ref_aa = ""
         ref_aa_pct = ""
+        cds_diffs = ""
+        aa_diffs = ""
         if not name_override and result:
             ref_nt = result.closest_nt_allele
             ref_nt_pct = f"{result.closest_nt_identity:.1f}" if result.closest_nt_allele else ""
             ref_aa = result.closest_protein_allele
             ref_aa_pct = f"{result.closest_protein_identity:.1f}" if result.closest_protein_allele else ""
+            if result.cds_diffs >= 0:
+                cds_diffs = str(result.cds_diffs)
+            if result.aa_diffs >= 0:
+                aa_diffs = str(result.aa_diffs)
 
         entry = {
             "name": allele_name,
@@ -394,6 +401,8 @@ def add_provisional_alleles(
             "ref_nt_pct": ref_nt_pct,
             "ref_aa": ref_aa,
             "ref_aa_pct": ref_aa_pct,
+            "cds_diffs": cds_diffs,
+            "aa_diffs": aa_diffs,
         }
 
         append_to_manifest(repo_root, entry)
@@ -536,6 +545,11 @@ def _build_rationale(entry: dict) -> str:
     ref_nt = entry.get("ref_nt", "")
     ref_nt_pct = entry.get("ref_nt_pct", "")
     name = entry.get("name", "")
+    cds_diffs_str = entry.get("cds_diffs", "")
+    aa_diffs_str = entry.get("aa_diffs", "")
+
+    cds_diffs = int(cds_diffs_str) if cds_diffs_str else None
+    aa_diffs = int(aa_diffs_str) if aa_diffs_str else None
 
     # Determine relationship from the notes field
     # Check non_synonymous before synonymous to avoid substring match
@@ -551,22 +565,37 @@ def _build_rationale(entry: dict) -> str:
     if relationship == "synonymous" and ref_aa:
         # Check if synonymous to a provisional allele (ref_aa contains "new")
         if "new" in ref_aa:
-            return (
-                f"Amino acid sequence identical to provisional allele {ref_aa}. "
-                f"Differs at synonymous nucleotide positions. "
-                f"Both encode a novel protein not yet in IPD."
-            )
+            parts = [
+                f"Amino acid sequence identical to provisional allele {ref_aa}.",
+            ]
+            if cds_diffs is not None and cds_diffs > 0:
+                parts.append(f"{cds_diffs} synonymous CDS nucleotide difference{'s' if cds_diffs != 1 else ''}.")
+            elif cds_diffs == 0:
+                parts.append("Identical CDS; differs in intronic/UTR regions.")
+            else:
+                parts.append("Differs at synonymous nucleotide positions.")
+            parts.append("Both encode a novel protein not yet in IPD.")
+            return " ".join(parts)
         else:
-            return (
-                f"Amino acid sequence identical to {ref_aa}. "
-                f"Differs at synonymous nucleotide positions."
-            )
+            parts = [f"Amino acid sequence identical to {ref_aa}."]
+            if cds_diffs is not None and cds_diffs > 0:
+                parts.append(f"{cds_diffs} synonymous CDS nucleotide difference{'s' if cds_diffs != 1 else ''}.")
+            elif cds_diffs == 0:
+                parts.append("Identical CDS; differs in intronic/UTR regions.")
+            else:
+                parts.append("Differs at synonymous nucleotide positions.")
+            return " ".join(parts)
 
     if relationship == "non_synonymous":
-        parts = [f"Novel protein sequence not yet in IPD."]
+        parts = ["Novel protein sequence not yet in IPD."]
         if ref_aa and ref_aa_pct:
+            diff_detail = ""
+            if aa_diffs is not None and aa_diffs > 0:
+                diff_detail = f", {aa_diffs} amino acid difference{'s' if aa_diffs != 1 else ''}"
+            if cds_diffs is not None and cds_diffs > 0:
+                diff_detail += f", {cds_diffs} CDS nucleotide difference{'s' if cds_diffs != 1 else ''}"
             parts.append(
-                f"Closest match: {ref_aa} ({ref_aa_pct}% amino acid identity)."
+                f"Closest match: {ref_aa} ({ref_aa_pct}% amino acid identity{diff_detail})."
             )
         # Extract group from the name to explain assignment
         group_match = re.search(r"\*(\d+):new", name)
@@ -857,10 +886,10 @@ def backfill_rationale(repo_root: Path) -> int:
     if not manifest:
         return 0
 
-    # Find entries missing rationale
+    # Find entries missing rationale (ref_nt or cds_diffs)
     needs_backfill = [
         e for e in manifest
-        if not e.get("ref_nt") and e.get("notes", "") != ""
+        if (not e.get("ref_nt") or not e.get("cds_diffs")) and e.get("notes", "") != ""
     ]
     if not needs_backfill:
         return 0
@@ -910,6 +939,8 @@ def backfill_rationale(repo_root: Path) -> int:
             entry["ref_nt_pct"] = f"{result.closest_nt_identity:.1f}" if result.closest_nt_allele else ""
             entry["ref_aa"] = result.closest_protein_allele
             entry["ref_aa_pct"] = f"{result.closest_protein_identity:.1f}" if result.closest_protein_allele else ""
+            entry["cds_diffs"] = str(result.cds_diffs) if result.cds_diffs >= 0 else ""
+            entry["aa_diffs"] = str(result.aa_diffs) if result.aa_diffs >= 0 else ""
             updated += 1
 
             # Track for intra-batch detection
