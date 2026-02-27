@@ -154,7 +154,7 @@ class NamingResult:
     provisional_name: str
 
     # Classification
-    relationship: str  # "synonymous", "non_synonymous", "novel_group", "fallback"
+    relationship: str  # "synonymous", "non_synonymous", "novel_group", "fallback", "extension"
 
     # Closest matches
     closest_nt_allele: str  # closest by nucleotide alignment
@@ -174,6 +174,9 @@ class NamingResult:
     # Difference counts vs closest protein-level match
     cds_diffs: int = -1  # CDS nucleotide mismatches (-1 = not computed)
     aa_diffs: int = -1   # amino acid mismatches (-1 = not computed)
+
+    # Extension detection
+    is_extension: bool = False  # query contains an IPD allele as a substring
 
     # Extracted sequences (used by batch naming for intra-batch comparison)
     extracted_cds: str = ""
@@ -1027,6 +1030,10 @@ def assign_provisional_name(
     """Assign a provisional allele name based on the classification.
 
     Naming patterns:
+        - extension:       {Sp}-{Locus}*{Group}:{Protein}:ext{NN}
+          Example:         Mamu-E*02:28:ext01
+          Meaning:         extends an existing IPD allele with additional sequence
+
         - synonymous:      {Sp}-{Locus}*{Group}:{Protein}:new{NN}
           Example:         Mamu-E*02:01:new01
           Meaning:         same protein as 02:01, differs at synonymous sites
@@ -1044,15 +1051,24 @@ def assign_provisional_name(
     Args:
         species: Species prefix (e.g., "Mamu").
         locus: Locus name (e.g., "E").
-        relationship: One of "synonymous", "non_synonymous", "novel_group",
-            "fallback".
+        relationship: One of "extension", "synonymous", "non_synonymous",
+            "novel_group", "fallback".
         best_match: Closest ReferenceAllele (None for fallback).
         existing_names: All existing provisional names (to avoid collisions).
 
     Returns:
         Provisional allele name string.
     """
-    if relationship == "synonymous" and best_match is not None:
+    if relationship == "extension" and best_match is not None:
+        # Extension: name at third field level with ext suffix
+        protein_field = best_match.protein_field
+        if protein_field:
+            prefix = f"{species}-{locus}*{protein_field}:ext"
+        else:
+            group = best_match.allele_group or "000"
+            prefix = f"{species}-{locus}*{group}:ext"
+
+    elif relationship == "synonymous" and best_match is not None:
         # Name at the third field level: *Group:Protein:newNN
         protein_field = best_match.protein_field
         if protein_field:
@@ -1264,6 +1280,27 @@ def name_provisional_allele(
             relationship = "synonymous"
             protein_pct = 100.0
 
+    # Step 6.5: Check for extension
+    # If any IPD reference's full nucleotide sequence is a substring of the
+    # query, this is an extension of an existing allele, not a novel one.
+    is_extension = False
+    extension_ref = None
+    query_upper = sequence.upper()
+    for ref in references:
+        ref_seq = ref.sequence.upper()
+        if len(ref_seq) < len(query_upper) and ref_seq in query_upper:
+            if extension_ref is None or len(ref_seq) > len(extension_ref.sequence):
+                extension_ref = ref
+
+    if extension_ref is not None:
+        is_extension = True
+        relationship = "extension"
+        best_protein_ref = extension_ref
+        logger.info(
+            "Extension detected: query contains %s (%d bp within %d bp)",
+            extension_ref.name, len(extension_ref.sequence), len(sequence),
+        )
+
     # Step 7: Compute difference counts vs closest protein-level match
     cds_diffs = -1
     aa_diffs = -1
@@ -1295,6 +1332,7 @@ def name_provisional_allele(
         exon_count=len(query_exons),
         cds_diffs=cds_diffs,
         aa_diffs=aa_diffs,
+        is_extension=is_extension,
         extracted_cds=cds,
         extracted_protein=protein,
         warnings=warnings,

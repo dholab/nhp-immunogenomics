@@ -560,13 +560,19 @@ def _build_rationale(entry: dict) -> str:
     # Determine relationship from the notes field
     # Check non_synonymous before synonymous to avoid substring match
     relationship = ""
-    for rel in ("non_synonymous", "synonymous", "fallback"):
+    for rel in ("extension", "non_synonymous", "synonymous", "fallback"):
         if rel in notes:
             relationship = rel
             break
 
     if not relationship:
         return ""
+
+    if relationship == "extension" and ref_nt:
+        parts = [f"Extension of {ref_nt}."]
+        if ref_nt_pct:
+            parts.append(f"Provisional sequence contains the full IPD nucleotide sequence ({ref_nt_pct}% nucleotide identity) plus additional flanking regions.")
+        return " ".join(parts)
 
     if relationship == "synonymous" and ref_aa:
         # Check if synonymous to a provisional allele (ref_aa contains "new")
