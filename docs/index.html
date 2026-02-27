@@ -111,6 +111,15 @@
             </select>
           </div>
 
+          <div class="filter-group filter-group-length">
+            <label class="filter-label">Length (bp)</label>
+            <div class="length-range">
+              <input type="number" id="length-min" class="filter-input filter-input-sm" placeholder="Min" min="0" aria-label="Minimum length">
+              <span class="length-sep">&ndash;</span>
+              <input type="number" id="length-max" class="filter-input filter-input-sm" placeholder="Max" min="0" aria-label="Maximum length">
+            </div>
+          </div>
+
           <div class="filter-group filter-group-provisional">
             <label for="provisional-select" class="filter-label">Provisional</label>
             <select id="provisional-select" class="filter-select">

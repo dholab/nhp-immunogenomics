@@ -33,6 +33,8 @@
       locus: "",
       search: "",
       seqType: "",
+      lengthMin: 0,
+      lengthMax: 0,
       provisionalMode: "exclude",
     },
   };
@@ -65,6 +67,8 @@
     dom.locusSelect = document.getElementById("locus-select");
     dom.nameSearch = document.getElementById("name-search");
     dom.seqTypeSelect = document.getElementById("seqtype-select");
+    dom.lengthMin = document.getElementById("length-min");
+    dom.lengthMax = document.getElementById("length-max");
     dom.provisionalSelect = document.getElementById("provisional-select");
     dom.clearFiltersBtn = document.getElementById("clear-filters-btn");
 
@@ -116,6 +120,19 @@
         onFilterChange();
       }, 200);
     });
+
+    // Length range inputs
+    var lengthTimer = null;
+    function onLengthInput() {
+      clearTimeout(lengthTimer);
+      lengthTimer = setTimeout(function () {
+        state.filters.lengthMin = parseInt(dom.lengthMin.value, 10) || 0;
+        state.filters.lengthMax = parseInt(dom.lengthMax.value, 10) || 0;
+        onFilterChange();
+      }, 300);
+    }
+    if (dom.lengthMin) dom.lengthMin.addEventListener("input", onLengthInput);
+    if (dom.lengthMax) dom.lengthMax.addEventListener("input", onLengthInput);
 
     // Seq type dropdown
     if (dom.seqTypeSelect) {
@@ -363,6 +380,8 @@
     state.filters.locus = "";
     state.filters.search = "";
     state.filters.seqType = "";
+    state.filters.lengthMin = 0;
+    state.filters.lengthMax = 0;
     state.filters.provisionalMode = "exclude";
 
     dom.databaseToggle.forEach(function (btn) {
@@ -376,6 +395,8 @@
     dom.classSelect.disabled = false;
     dom.nameSearch.value = "";
     if (dom.seqTypeSelect) dom.seqTypeSelect.value = "";
+    if (dom.lengthMin) dom.lengthMin.value = "";
+    if (dom.lengthMax) dom.lengthMax.value = "";
     if (dom.provisionalSelect) dom.provisionalSelect.value = "exclude";
 
     populateLocusDropdown();
@@ -400,6 +421,8 @@
     var loc = state.filters.locus;
     var search = state.filters.search.toLowerCase().trim();
     var seqType = state.filters.seqType;
+    var lenMin = state.filters.lengthMin;
+    var lenMax = state.filters.lengthMax;
     var provMode = state.filters.provisionalMode;
 
     state.filtered = state.alleles.filter(function (allele) {
@@ -427,25 +450,26 @@
       // Seq Type
       if (seqType && allele.st !== seqType) return false;
 
-      // Search: match accession, name, length, or previous designations
+      // Length range
+      if (lenMin > 0 && (!allele.len || allele.len < lenMin)) return false;
+      if (lenMax > 0 && (!allele.len || allele.len > lenMax)) return false;
+
+      // Search: match accession, name, or previous designations
       if (search) {
         var accMatch = allele.a.toLowerCase().indexOf(search) !== -1;
         if (!accMatch) {
           var nameMatch = allele.n.toLowerCase().indexOf(search) !== -1;
           if (!nameMatch) {
-            var lenMatch = allele.len && String(allele.len).indexOf(search) !== -1;
-            if (!lenMatch) {
-              var prevMatch = false;
-              if (allele.prev) {
-                for (var i = 0; i < allele.prev.length; i++) {
-                  if (allele.prev[i].toLowerCase().indexOf(search) !== -1) {
-                    prevMatch = true;
-                    break;
-                  }
+            var prevMatch = false;
+            if (allele.prev) {
+              for (var i = 0; i < allele.prev.length; i++) {
+                if (allele.prev[i].toLowerCase().indexOf(search) !== -1) {
+                  prevMatch = true;
+                  break;
                 }
               }
-              if (!prevMatch) return false;
             }
+            if (!prevMatch) return false;
           }
         }
       }
