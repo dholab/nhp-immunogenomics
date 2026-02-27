@@ -568,11 +568,9 @@ def _build_rationale(entry: dict) -> str:
     if not relationship:
         return ""
 
-    if relationship == "extension" and ref_nt:
-        parts = [f"Extension of {ref_nt}."]
-        if ref_nt_pct:
-            parts.append(f"Provisional sequence contains the full IPD nucleotide sequence ({ref_nt_pct}% nucleotide identity) plus additional flanking regions.")
-        return " ".join(parts)
+    if relationship == "extension":
+        ext_name = ref_aa or ref_nt or "unknown"
+        return f"Extension of {ext_name}. Provisional sequence contains the full IPD nucleotide sequence plus additional flanking regions."
 
     if relationship == "synonymous" and ref_aa:
         # Check if synonymous to a provisional allele (ref_aa contains "new")
