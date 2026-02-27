@@ -284,23 +284,53 @@ def add_provisional_alleles(
             )
 
     # All validation passed — now process each record
+    from .namer import ReferenceAllele, name_provisional_allele
+
     assigned_names: list[str] = []
     rel_fasta = f"{species}/{locus}.fasta"
     today = date.today().isoformat()
 
+    # Resolve GenBank path for reference alleles
+    gb_path = repo_root / DATA_DIR / "MHC" / species / f"{locus}.gb"
+    if not gb_path.exists():
+        gb_path = repo_root / DATA_DIR / "NHKIR" / species / f"{locus}.gb"
+
+    # Collect existing provisional names at this locus for collision avoidance
+    existing_names = [
+        e.get("name", "")
+        for e in manifest
+        if e.get("species") == species and e.get("locus") == locus
+    ]
+
+    # Track previously-named provisional alleles in this batch for
+    # intra-batch synonymous detection
+    provisional_refs: list[ReferenceAllele] = []
+
     for i, (rec_id, seq) in enumerate(sequences_to_add):
         if name_override:
             allele_name = name_override
+            relationship = ""
         else:
-            gb_path = repo_root / DATA_DIR / "MHC" / species / f"{locus}.gb"
-            if not gb_path.exists():
-                gb_path = repo_root / DATA_DIR / "NHKIR" / species / f"{locus}.gb"
+            result = name_provisional_allele(
+                sequence=seq,
+                species=species,
+                locus=locus,
+                seq_type=seq_type,
+                locus_gb_path=gb_path,
+                existing_names=existing_names,
+                provisional_refs=provisional_refs,
+            )
+            allele_name = result.provisional_name
+            relationship = result.relationship
 
-            nearest_name, pct = find_nearest_neighbor(seq, gb_path)
-            if nearest_name:
+            if result.closest_nt_allele:
                 logger.info(
-                    "Record %d ('%s'): nearest IPD allele: %s (%.1f%% identity)",
-                    i + 1, rec_id, nearest_name, pct,
+                    "Record %d ('%s'): nearest IPD allele: %s (%.1f%% nt identity), "
+                    "relationship: %s, closest protein: %s (%.1f%%)",
+                    i + 1, rec_id, result.closest_nt_allele, result.closest_nt_identity,
+                    result.relationship,
+                    result.closest_protein_allele or "none",
+                    result.closest_protein_identity,
                 )
             else:
                 logger.warning(
@@ -308,7 +338,35 @@ def add_provisional_alleles(
                     i + 1, rec_id, species, locus,
                 )
 
-            allele_name = assign_name(species, locus, nearest_name, manifest)
+            for warn in result.warnings:
+                logger.warning("Record %d ('%s'): %s", i + 1, rec_id, warn)
+
+            # Track name for next record's collision avoidance
+            existing_names.append(allele_name)
+
+            # Track protein for intra-batch synonymous detection
+            if result.extracted_protein:
+                provisional_refs.append(
+                    ReferenceAllele(
+                        name=allele_name,
+                        accession="",
+                        sequence=seq,
+                        mol_type="genomic DNA" if seq_type == "genomic" else "mRNA",
+                        protein=result.extracted_protein,
+                        coding_seq=result.extracted_cds,
+                        exon_coords=[],
+                        intron_coords=[],
+                        codon_start=1,
+                    )
+                )
+
+        # Build notes: include relationship and any user-provided notes
+        entry_notes_parts = []
+        if relationship:
+            entry_notes_parts.append(relationship)
+        if notes:
+            entry_notes_parts.append(notes)
+        entry_notes = "; ".join(entry_notes_parts)
 
         entry = {
             "name": allele_name,
@@ -319,13 +377,13 @@ def add_provisional_alleles(
             "sequence_file": rel_fasta,
             "submitter": submitter,
             "date_added": today,
-            "notes": notes,
+            "notes": entry_notes,
         }
 
         append_to_manifest(repo_root, entry)
         append_to_fasta(repo_root, rel_fasta, allele_name, seq)
 
-        # Track in-memory so assign_name increments correctly for next record
+        # Track in-memory so next iteration sees this entry
         manifest.append(entry)
         assigned_names.append(allele_name)
 
@@ -442,6 +500,7 @@ def build_metadata(
             "dm": entry.get("date_added", ""),
             "prov": True,
             "sub": entry.get("submitter", ""),
+            "len": len(seq),
             "st": entry.get("seq_type", "coding"),
         })
     return records

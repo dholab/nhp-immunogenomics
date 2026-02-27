@@ -32,7 +32,7 @@
       mhcClass: "",
       locus: "",
       search: "",
-      includeProvisional: false,
+      provisionalMode: "exclude",
     },
   };
 
@@ -63,7 +63,7 @@
     dom.classSelect = document.getElementById("class-select");
     dom.locusSelect = document.getElementById("locus-select");
     dom.nameSearch = document.getElementById("name-search");
-    dom.provisionalCheckbox = document.getElementById("provisional-checkbox");
+    dom.provisionalSelect = document.getElementById("provisional-select");
     dom.clearFiltersBtn = document.getElementById("clear-filters-btn");
 
     dom.resultsCount = document.getElementById("results-count");
@@ -115,10 +115,10 @@
       }, 200);
     });
 
-    // Provisional checkbox
-    if (dom.provisionalCheckbox) {
-      dom.provisionalCheckbox.addEventListener("change", function () {
-        state.filters.includeProvisional = this.checked;
+    // Provisional dropdown
+    if (dom.provisionalSelect) {
+      dom.provisionalSelect.addEventListener("change", function () {
+        state.filters.provisionalMode = this.value;
         onFilterChange();
       });
     }
@@ -352,7 +352,7 @@
     state.filters.mhcClass = "";
     state.filters.locus = "";
     state.filters.search = "";
-    state.filters.includeProvisional = false;
+    state.filters.provisionalMode = "exclude";
 
     dom.databaseToggle.forEach(function (btn) {
       var isAll = btn.dataset.value === "All";
@@ -364,7 +364,7 @@
     dom.classSelect.value = "";
     dom.classSelect.disabled = false;
     dom.nameSearch.value = "";
-    if (dom.provisionalCheckbox) dom.provisionalCheckbox.checked = false;
+    if (dom.provisionalSelect) dom.provisionalSelect.value = "exclude";
 
     populateLocusDropdown();
     onFilterChange();
@@ -387,11 +387,12 @@
     var cls = state.filters.mhcClass;
     var loc = state.filters.locus;
     var search = state.filters.search.toLowerCase().trim();
-    var includeProv = state.filters.includeProvisional;
+    var provMode = state.filters.provisionalMode;
 
     state.filtered = state.alleles.filter(function (allele) {
-      // Hide provisional unless opted in
-      if (allele.prov && !includeProv) return false;
+      // Provisional filter: exclude, include, or only
+      if (provMode === "exclude" && allele.prov) return false;
+      if (provMode === "only" && !allele.prov) return false;
 
       // Database: infer database for provisional alleles from locus
       if (db !== "All") {
@@ -410,20 +411,23 @@
       // Locus
       if (loc && allele.l !== loc) return false;
 
-      // Search: match name or previous designations
+      // Search: match accession, name, or previous designations
       if (search) {
-        var nameMatch = allele.n.toLowerCase().indexOf(search) !== -1;
-        if (!nameMatch) {
-          var prevMatch = false;
-          if (allele.prev) {
-            for (var i = 0; i < allele.prev.length; i++) {
-              if (allele.prev[i].toLowerCase().indexOf(search) !== -1) {
-                prevMatch = true;
-                break;
+        var accMatch = allele.a.toLowerCase().indexOf(search) !== -1;
+        if (!accMatch) {
+          var nameMatch = allele.n.toLowerCase().indexOf(search) !== -1;
+          if (!nameMatch) {
+            var prevMatch = false;
+            if (allele.prev) {
+              for (var i = 0; i < allele.prev.length; i++) {
+                if (allele.prev[i].toLowerCase().indexOf(search) !== -1) {
+                  prevMatch = true;
+                  break;
+                }
               }
             }
+            if (!prevMatch) return false;
           }
-          if (!prevMatch) return false;
         }
       }
 
@@ -436,12 +440,20 @@
     var asc = state.sortAsc;
 
     state.filtered.sort(function (a, b) {
-      var va = a[key] || "";
-      var vb = b[key] || "";
+      var va = a[key];
+      var vb = b[key];
 
-      if (typeof va === "string") {
-        va = va.toLowerCase();
-        vb = vb.toLowerCase();
+      // Numeric sort for length
+      if (key === "len") {
+        va = va || 0;
+        vb = vb || 0;
+      } else {
+        va = va || "";
+        vb = vb || "";
+        if (typeof va === "string") {
+          va = va.toLowerCase();
+          vb = vb.toLowerCase();
+        }
       }
 
       if (va < vb) return asc ? -1 : 1;
@@ -550,6 +562,18 @@
         tdSpecies.title = state.species[allele.s].scientificName;
       }
       tr.appendChild(tdSpecies);
+
+      // Length
+      var tdLen = document.createElement("td");
+      tdLen.className = "cell-length";
+      tdLen.textContent = allele.len ? allele.len.toLocaleString() : "\u2014";
+      tr.appendChild(tdLen);
+
+      // Seq Type
+      var tdType = document.createElement("td");
+      tdType.className = "cell-seqtype";
+      tdType.textContent = allele.st || "\u2014";
+      tr.appendChild(tdType);
 
       // Project
       var tdProject = document.createElement("td");
@@ -958,6 +982,8 @@
       "Species",
       "Scientific Name",
       "Common Name",
+      "Length",
+      "Seq Type",
       "Project",
       "Date Assigned",
       "Date Modified",
@@ -980,6 +1006,8 @@
         csvEscape(a.s),
         csvEscape(sp.scientificName || ""),
         csvEscape(sp.commonName || ""),
+        csvEscape(a.len ? String(a.len) : ""),
+        csvEscape(a.st || ""),
         csvEscape(a.prov ? "provisional" : a.p),
         csvEscape(a.da || ""),
         csvEscape(a.dm || ""),

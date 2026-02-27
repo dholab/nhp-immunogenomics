@@ -39,7 +39,7 @@
       <!-- Usage hint -->
       <div class="usage-bar">
         <p>Filter by database, species, locus, or name to find alleles.
-          The search field also matches previous designations.
+          The search field matches accessions, names, and previous designations.
           Select individual rows with checkboxes, or download all filtered results in
           GenBank, FASTA, CDS FASTA, Protein FASTA, or CSV format.
           <a href="#" id="usage-more-link">More&hellip;</a>
@@ -92,23 +92,23 @@
           </div>
 
           <div class="filter-group filter-group-search">
-            <label for="name-search" class="filter-label">Search by name</label>
+            <label for="name-search" class="filter-label">Search by name or accession</label>
             <input
               type="search"
               id="name-search"
               class="filter-input"
-              placeholder="e.g. Mamu-A1*001 or Mamu-A*25"
+              placeholder="e.g. Mamu-A1*001, NHP00001, or PROV6f9fc"
               autocomplete="off"
             >
           </div>
 
           <div class="filter-group filter-group-provisional">
-            <label class="filter-label">&nbsp;</label>
-            <label class="checkbox-label">
-              <input type="checkbox" id="provisional-checkbox">
-              <span>Include provisional</span>
-              <span class="provisional-hint">O'Connor lab alleles not yet in IPD</span>
-            </label>
+            <label for="provisional-select" class="filter-label">Provisional</label>
+            <select id="provisional-select" class="filter-select">
+              <option value="exclude">Exclude provisional</option>
+              <option value="include">Include provisional</option>
+              <option value="only">Provisional only</option>
+            </select>
           </div>
 
           <div class="filter-group filter-group-clear">
@@ -169,6 +169,16 @@
                 <th scope="col">
                   <button type="button" class="sort-btn" data-sort="s" aria-label="Sort by Species">
                     Species <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="len" aria-label="Sort by Length">
+                    Length <span class="sort-icon" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" class="sort-btn" data-sort="st" aria-label="Sort by Seq Type">
+                    Seq Type <span class="sort-icon" aria-hidden="true"></span>
                   </button>
                 </th>
                 <th scope="col">

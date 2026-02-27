@@ -727,7 +727,8 @@ class TestAddProvisionalAlleles:
             tmp_path, records, "Mamu", "A1", "I", "coding", "J. Karl",
         )
         assert len(names) == 1
-        assert names[0] == "Mamu-A1*026:new01"
+        # New namer detects synonymous protein → uses protein field in name
+        assert names[0] == "Mamu-A1*026:01:new01"
 
         manifest = load_manifest(tmp_path)
         assert len(manifest) == 1
@@ -746,8 +747,9 @@ class TestAddProvisionalAlleles:
             tmp_path, records, "Mamu", "A1", "I", "coding", "J. Karl",
         )
         assert len(names) == 2
-        assert names[0] == "Mamu-A1*026:new01"
-        assert names[1] == "Mamu-A1*026:new02"
+        # New namer detects synonymous protein → uses protein field in name
+        assert names[0] == "Mamu-A1*026:01:new01"
+        assert names[1] == "Mamu-A1*026:01:new02"
 
         manifest = load_manifest(tmp_path)
         assert len(manifest) == 2

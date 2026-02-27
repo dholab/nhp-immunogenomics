@@ -664,6 +664,19 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.cell-length {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.cell-seqtype {
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
 .cell-date {
   white-space: nowrap;
   font-family: var(--font-mono);

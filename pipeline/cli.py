@@ -15,7 +15,7 @@ from .fetch import (
     group_by_species_locus,
 )
 from .genbank_builder import write_genbank_file
-from .metadata_index import build_metadata_index
+from .metadata_index import build_metadata_index, scan_genbank_seq_info
 from .provisional import (
     add_provisional_alleles,
     build_genbank,
@@ -277,6 +277,11 @@ def run_build_index(
 
     version_data = load_version_file(repo_root)
 
+    # Scan GenBank files for sequence length and type
+    data_dir = repo_root / DATA_DIR
+    seq_info = scan_genbank_seq_info(data_dir)
+    logger.info("Scanned sequence info for %d alleles from GenBank files", len(seq_info))
+
     # Load provisional alleles for inclusion in the index
     prov_alleles = _get_provisional_metadata(repo_root)
 
@@ -288,6 +293,7 @@ def run_build_index(
         mhc_version=version_data.get("MHC", {}).get("version", ""),
         nhkir_version=version_data.get("NHKIR", {}).get("version", ""),
         provisional_alleles=prov_alleles if prov_alleles else None,
+        seq_info=seq_info,
     )
     logger.info("Built metadata index: %d alleles at %s", len(index["alleles"]), index_path)
 
