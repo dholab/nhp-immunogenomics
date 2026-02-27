@@ -65,6 +65,7 @@ jobs:
         run: |
           PR_NUMBER=$(gh pr list --head "${{ github.ref_name }}" --json number --jq '.[0].number')
           if [ -n "$PR_NUMBER" ]; then
+            gh pr ready "$PR_NUMBER" 2>/dev/null || true
             gh pr merge "$PR_NUMBER" --squash --delete-branch
           fi
         env:
