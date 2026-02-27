@@ -1281,16 +1281,31 @@ def name_provisional_allele(
             protein_pct = 100.0
 
     # Step 6.5: Check for extension
-    # If any IPD reference's full nucleotide sequence is a substring of the
-    # query, this is an extension of an existing allele, not a novel one.
+    # If any IPD reference's nucleotide sequence is contained within the
+    # provisional sequence, this is an extension of an existing allele.
+    # Two checks:
+    #   1. ref full sequence is a substring of query (genomic-in-genomic)
+    #   2. ref CDS is a substring of query's extracted CDS (CDS-only refs
+    #      vs genomic provisionals — CDS won't be contiguous in genomic
+    #      due to introns, but will match after CDS extraction)
     is_extension = False
     extension_ref = None
     query_upper = sequence.upper()
+    cds_upper = cds.upper() if cds else ""
     for ref in references:
-        ref_seq = ref.sequence.upper()
-        if len(ref_seq) < len(query_upper) and ref_seq in query_upper:
-            if extension_ref is None or len(ref_seq) > len(extension_ref.sequence):
+        if len(ref.sequence) >= len(sequence):
+            continue  # provisional must be longer overall
+        # Check 1: full sequence substring
+        if ref.sequence.upper() in query_upper:
+            if extension_ref is None or len(ref.sequence) > len(extension_ref.sequence):
                 extension_ref = ref
+            continue
+        # Check 2: CDS substring (for CDS-only refs vs genomic queries)
+        if cds_upper and ref.coding_seq:
+            ref_cds = ref.coding_seq.upper()
+            if ref_cds in cds_upper:
+                if extension_ref is None or len(ref.sequence) > len(extension_ref.sequence):
+                    extension_ref = ref
 
     if extension_ref is not None:
         is_extension = True
