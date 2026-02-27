@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 MANIFEST_COLUMNS = (
     "name", "species", "locus", "class", "seq_type",
     "sequence_file", "submitter", "date_added", "notes",
+    "ref_nt", "ref_nt_pct", "ref_aa", "ref_aa_pct",
 )
 
 
@@ -368,6 +369,17 @@ def add_provisional_alleles(
             entry_notes_parts.append(notes)
         entry_notes = "; ".join(entry_notes_parts)
 
+        # Extract rationale fields from NamingResult
+        ref_nt = ""
+        ref_nt_pct = ""
+        ref_aa = ""
+        ref_aa_pct = ""
+        if not name_override and result:
+            ref_nt = result.closest_nt_allele
+            ref_nt_pct = f"{result.closest_nt_identity:.1f}" if result.closest_nt_allele else ""
+            ref_aa = result.closest_protein_allele
+            ref_aa_pct = f"{result.closest_protein_identity:.1f}" if result.closest_protein_allele else ""
+
         entry = {
             "name": allele_name,
             "species": species,
@@ -378,6 +390,10 @@ def add_provisional_alleles(
             "submitter": submitter,
             "date_added": today,
             "notes": entry_notes,
+            "ref_nt": ref_nt,
+            "ref_nt_pct": ref_nt_pct,
+            "ref_aa": ref_aa,
+            "ref_aa_pct": ref_aa_pct,
         }
 
         append_to_manifest(repo_root, entry)
@@ -489,7 +505,7 @@ def build_metadata(
         if not seq:
             continue
 
-        records.append({
+        rec = {
             "a": compute_accession(seq),
             "n": name,
             "l": entry.get("locus", ""),
@@ -502,8 +518,74 @@ def build_metadata(
             "sub": entry.get("submitter", ""),
             "len": len(seq),
             "st": entry.get("seq_type", "coding"),
-        })
+        }
+
+        rationale = _build_rationale(entry)
+        if rationale:
+            rec["nr"] = rationale
+
+        records.append(rec)
     return records
+
+
+def _build_rationale(entry: dict) -> str:
+    """Generate a human-readable naming rationale from manifest fields."""
+    notes = entry.get("notes", "")
+    ref_aa = entry.get("ref_aa", "")
+    ref_aa_pct = entry.get("ref_aa_pct", "")
+    ref_nt = entry.get("ref_nt", "")
+    ref_nt_pct = entry.get("ref_nt_pct", "")
+    name = entry.get("name", "")
+
+    # Determine relationship from the notes field
+    # Check non_synonymous before synonymous to avoid substring match
+    relationship = ""
+    for rel in ("non_synonymous", "synonymous", "fallback"):
+        if rel in notes:
+            relationship = rel
+            break
+
+    if not relationship:
+        return ""
+
+    if relationship == "synonymous" and ref_aa:
+        # Check if synonymous to a provisional allele (ref_aa contains "new")
+        if "new" in ref_aa:
+            return (
+                f"Amino acid sequence identical to provisional allele {ref_aa}. "
+                f"Differs at synonymous nucleotide positions. "
+                f"Both encode a novel protein not yet in IPD."
+            )
+        else:
+            return (
+                f"Amino acid sequence identical to {ref_aa}. "
+                f"Differs at synonymous nucleotide positions."
+            )
+
+    if relationship == "non_synonymous":
+        parts = [f"Novel protein sequence not yet in IPD."]
+        if ref_aa and ref_aa_pct:
+            parts.append(
+                f"Closest match: {ref_aa} ({ref_aa_pct}% amino acid identity)."
+            )
+        # Extract group from the name to explain assignment
+        group_match = re.search(r"\*(\d+):new", name)
+        if group_match:
+            parts.append(
+                f"Assigned to the *{group_match.group(1)} group based on protein similarity."
+            )
+        return " ".join(parts)
+
+    if relationship == "fallback":
+        parts = ["Could not be confidently assigned to an allele group."]
+        if ref_nt and ref_nt_pct:
+            parts.append(
+                f"Closest nucleotide match: {ref_nt} ({ref_nt_pct}% identity)."
+            )
+        parts.append("Assigned placeholder group *000.")
+        return " ".join(parts)
+
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -762,6 +844,102 @@ def build_genbank(
             logger.info("Wrote %d provisional records to %s", len(seq_records), gb_path)
 
     return total
+
+
+def backfill_rationale(repo_root: Path) -> int:
+    """Re-run the namer on manifest entries missing rationale fields.
+
+    Returns the number of entries updated.
+    """
+    from .namer import ReferenceAllele, name_provisional_allele
+
+    manifest = load_manifest(repo_root)
+    if not manifest:
+        return 0
+
+    # Find entries missing rationale
+    needs_backfill = [
+        e for e in manifest
+        if not e.get("ref_nt") and e.get("notes", "") != ""
+    ]
+    if not needs_backfill:
+        return 0
+
+    logger.info("Backfilling rationale for %d provisional allele(s)", len(needs_backfill))
+    sequences = load_sequences(repo_root, manifest)
+
+    # Group by species/locus so we load references once per locus
+    by_locus: dict[tuple[str, str], list[dict]] = {}
+    for entry in needs_backfill:
+        key = (entry.get("species", ""), entry.get("locus", ""))
+        by_locus.setdefault(key, []).append(entry)
+
+    updated = 0
+    for (species, locus), entries in by_locus.items():
+        gb_path = repo_root / DATA_DIR / "MHC" / species / f"{locus}.gb"
+        if not gb_path.exists():
+            gb_path = repo_root / DATA_DIR / "NHKIR" / species / f"{locus}.gb"
+
+        # Collect all existing names at this locus
+        existing_names = [
+            e.get("name", "") for e in manifest
+            if e.get("species") == species and e.get("locus") == locus
+        ]
+
+        # Build provisional refs for intra-batch synonymous detection
+        provisional_refs: list[ReferenceAllele] = []
+
+        for entry in entries:
+            name = entry.get("name", "")
+            seq = sequences.get(name, "")
+            if not seq:
+                continue
+
+            seq_type = entry.get("seq_type", "coding")
+            result = name_provisional_allele(
+                sequence=seq,
+                species=species,
+                locus=locus,
+                seq_type=seq_type,
+                locus_gb_path=gb_path,
+                existing_names=existing_names,
+                provisional_refs=provisional_refs,
+            )
+
+            entry["ref_nt"] = result.closest_nt_allele
+            entry["ref_nt_pct"] = f"{result.closest_nt_identity:.1f}" if result.closest_nt_allele else ""
+            entry["ref_aa"] = result.closest_protein_allele
+            entry["ref_aa_pct"] = f"{result.closest_protein_identity:.1f}" if result.closest_protein_allele else ""
+            updated += 1
+
+            # Track for intra-batch detection
+            if result.extracted_protein:
+                provisional_refs.append(
+                    ReferenceAllele(
+                        name=name,
+                        accession="",
+                        sequence=seq,
+                        mol_type="genomic DNA" if seq_type == "genomic" else "mRNA",
+                        protein=result.extracted_protein,
+                        coding_seq=result.extracted_cds,
+                        exon_coords=[],
+                        intron_coords=[],
+                        codon_start=1,
+                    )
+                )
+
+            logger.info(
+                "  %s: ref_nt=%s (%.1f%%), ref_aa=%s (%.1f%%)",
+                name,
+                result.closest_nt_allele, result.closest_nt_identity,
+                result.closest_protein_allele or "none", result.closest_protein_identity,
+            )
+
+    if updated:
+        _write_manifest(repo_root, manifest)
+        logger.info("Backfilled rationale for %d entries", updated)
+
+    return updated
 
 
 def append_to_fasta(repo_root: Path, rel_path: str, name: str, sequence: str) -> None:

@@ -18,6 +18,7 @@ from .genbank_builder import write_genbank_file
 from .metadata_index import build_metadata_index, scan_genbank_seq_info
 from .provisional import (
     add_provisional_alleles,
+    backfill_rationale,
     build_genbank,
     build_metadata,
     build_sequence_index,
@@ -340,6 +341,12 @@ def _process_provisionals(repo_root: Path, run_retirement: bool = False) -> None
 
     if not manifest:
         return
+
+    # Backfill rationale for entries that lack it
+    backfill_rationale(repo_root)
+    # Reload in case backfill updated the manifest
+    manifest = load_manifest(repo_root)
+    sequences = load_sequences(repo_root, manifest)
 
     # Build provisional GenBank files
     species_map = _get_species_map(repo_root)

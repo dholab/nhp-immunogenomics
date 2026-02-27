@@ -581,7 +581,21 @@
         var badge = document.createElement("span");
         badge.className = "badge-provisional";
         badge.textContent = "Provisional";
-        badge.title = "Submitted by " + (allele.sub || "unknown") + " on " + (allele.da || "unknown date");
+        if (allele.nr) {
+          badge.classList.add("has-rationale");
+          badge.setAttribute("tabindex", "0");
+          badge.setAttribute("role", "button");
+          badge.setAttribute("aria-label", "Naming rationale for " + allele.n);
+          badge.title = allele.nr;
+          badge.addEventListener("click", (function (rationale, name) {
+            return function (e) {
+              e.stopPropagation();
+              showRationale(e.target, rationale, name);
+            };
+          })(allele.nr, allele.n));
+        } else {
+          badge.title = "Submitted by " + (allele.sub || "unknown") + " on " + (allele.da || "unknown date");
+        }
         tdName.appendChild(badge);
       }
 
@@ -1097,5 +1111,70 @@
       btn.classList.remove("is-loading");
       btn.removeAttribute("aria-disabled");
     }
+  }
+
+  // -------------------------------------------------------
+  // Naming rationale popover
+  // -------------------------------------------------------
+  var activePopover = null;
+
+  function showRationale(anchor, rationale, name) {
+    // Close any existing popover
+    dismissPopover();
+
+    var popover = document.createElement("div");
+    popover.className = "rationale-popover";
+    popover.setAttribute("role", "tooltip");
+
+    var header = document.createElement("div");
+    header.className = "rationale-header";
+    header.textContent = name;
+    popover.appendChild(header);
+
+    var body = document.createElement("div");
+    body.className = "rationale-body";
+    body.textContent = rationale;
+    popover.appendChild(body);
+
+    document.body.appendChild(popover);
+    activePopover = popover;
+
+    // Position relative to the badge
+    var rect = anchor.getBoundingClientRect();
+    var popRect = popover.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - popRect.width / 2;
+    var top = rect.bottom + 6;
+
+    // Keep within viewport
+    if (left < 8) left = 8;
+    if (left + popRect.width > window.innerWidth - 8) {
+      left = window.innerWidth - popRect.width - 8;
+    }
+    if (top + popRect.height > window.innerHeight - 8) {
+      top = rect.top - popRect.height - 6;
+    }
+
+    popover.style.left = left + "px";
+    popover.style.top = top + "px";
+    popover.classList.add("visible");
+
+    // Dismiss on click outside or Escape
+    setTimeout(function () {
+      document.addEventListener("click", dismissPopover);
+      document.addEventListener("keydown", onPopoverKey);
+    }, 0);
+  }
+
+  function dismissPopover() {
+    if (activePopover) {
+      activePopover.remove();
+      activePopover = null;
+      document.removeEventListener("click", dismissPopover);
+      document.removeEventListener("keydown", onPopoverKey);
+    }
+  }
+
+  function onPopoverKey(e) {
+    if (e.key === "Escape") dismissPopover();
   }
 })();

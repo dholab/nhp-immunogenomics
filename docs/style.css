@@ -846,6 +846,55 @@ a:focus-visible {
   cursor: default;
 }
 
+.badge-provisional.has-rationale {
+  cursor: pointer;
+  border-bottom: 1px dashed #b45309;
+}
+
+.badge-provisional.has-rationale:hover {
+  background-color: #fde68a;
+}
+
+.badge-provisional.has-rationale:focus-visible {
+  outline: 2px solid var(--color-primary-light);
+  outline-offset: 1px;
+}
+
+/* --- Naming Rationale Popover --- */
+.rationale-popover {
+  position: fixed;
+  z-index: 1000;
+  max-width: 26rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 1rem;
+  opacity: 0;
+  transition: opacity 0.12s ease-in;
+  pointer-events: auto;
+}
+
+.rationale-popover.visible {
+  opacity: 1;
+}
+
+.rationale-header {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.375rem;
+  padding-bottom: 0.375rem;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.rationale-body {
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+
 .results-table tbody tr.row-provisional {
   background-color: #fffbeb;
 }
