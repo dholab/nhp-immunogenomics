@@ -9,8 +9,14 @@ struct SettingsView: View {
         Form {
             Section("GitHub Authentication") {
                 SecureField("Personal Access Token", text: $vm.token)
-                    .help("Token needs 'repo' scope for read/write access.")
-                Text("Create a token at github.com/settings/tokens with **repo** scope.")
+                    .help("Fine-grained token with Contents, Pull requests, Actions, and Workflows read/write access.")
+                Text("""
+                    Create a **fine-grained** token at GitHub → Settings → Developer settings → \
+                    Personal access tokens → Fine-grained tokens. \
+                    Grant it access to the repository with these permissions: \
+                    **Contents** (Read and write), **Pull requests** (Read and write), \
+                    **Actions** (Read and write), and **Workflows** (Read and write).
+                    """)
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }

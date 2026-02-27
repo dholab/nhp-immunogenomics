@@ -16,7 +16,7 @@ struct Allele: Identifiable, Codable, Hashable, Sendable {
     var submitter: String?
     var seqType: String?
 
-    var id: String { accession }
+    var id: String { "\(accession)-\(name)" }
 
     enum CodingKeys: String, CodingKey {
         case accession = "a"

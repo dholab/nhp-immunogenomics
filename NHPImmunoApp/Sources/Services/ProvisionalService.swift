@@ -87,8 +87,8 @@ actor ProvisionalService {
             draft: true
         )
 
-        // Trigger the processing workflow on this branch
-        try await api.triggerWorkflow(
+        // Trigger the processing workflow (non-fatal — PR is already created)
+        try? await api.triggerWorkflow(
             workflowFileName: "process-provisional-changes.yml",
             ref: branch
         )
@@ -126,8 +126,8 @@ actor ProvisionalService {
             head: branch
         )
 
-        // Trigger rebuild
-        try await api.triggerWorkflow(
+        // Trigger rebuild (non-fatal — PR is already created)
+        try? await api.triggerWorkflow(
             workflowFileName: "process-provisional-changes.yml",
             ref: branch
         )
@@ -196,8 +196,8 @@ actor ProvisionalService {
             head: branch
         )
 
-        // Trigger rebuild
-        try await api.triggerWorkflow(
+        // Trigger rebuild (non-fatal — PR is already created)
+        try? await api.triggerWorkflow(
             workflowFileName: "process-provisional-changes.yml",
             ref: branch
         )
