@@ -25,11 +25,18 @@ struct AlleleListView: View {
             .focusedValue(\.toggleInspector) {
                 showInspector.toggle()
             }
+            .onChange(of: vm.searchText) { _, _ in vm.applyFilters() }
+            .onChange(of: vm.selectedSpecies) { _, _ in vm.applyFilters() }
+            .onChange(of: vm.selectedLocus) { _, _ in vm.applyFilters() }
+            .onChange(of: vm.selectedClass) { _, _ in vm.applyFilters() }
+            .onChange(of: vm.selectedProject) { _, _ in vm.applyFilters() }
+            .onChange(of: vm.showProvisionalOnly) { _, _ in vm.applyFilters() }
     }
 
     private func alleleTable() -> some View {
         @Bindable var vm = vm
-        return Table(sortedAlleles, selection: $vm.selectedAlleleID, sortOrder: $sortOrder) {
+        let sorted = vm.filteredAlleles.sorted(using: sortOrder)
+        return Table(sorted, selection: $vm.selectedAlleleID, sortOrder: $sortOrder) {
             TableColumn("Accession", value: \.accession) { allele in
                 Text(allele.accession).font(.body.monospaced())
             }
@@ -114,10 +121,6 @@ struct AlleleListView: View {
         .padding(.horizontal)
         .padding(.vertical, 6)
         .background(.bar)
-    }
-
-    private var sortedAlleles: [Allele] {
-        vm.filteredAlleles.sorted(using: sortOrder)
     }
 }
 

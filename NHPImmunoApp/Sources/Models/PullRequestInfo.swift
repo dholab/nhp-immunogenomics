@@ -21,14 +21,19 @@ struct PullRequestInfo: Identifiable, Sendable {
 
     /// Pre-formatted relative date string for display.
     var relativeDate: String {
-        let formatter = RelativeDateTimeFormatter()
-        formatter.unitsStyle = .short
-        return formatter.localizedString(for: createdAt, relativeTo: Date())
+        Self.relativeDateFormatter.localizedString(for: createdAt, relativeTo: Date())
     }
 
     /// Parse a PR creation date from ISO 8601 string.
     static func parseDate(_ string: String) -> Date {
-        let formatter = ISO8601DateFormatter()
-        return formatter.date(from: string) ?? Date()
+        isoDateFormatter.date(from: string) ?? Date()
     }
+
+    private nonisolated(unsafe) static let relativeDateFormatter: RelativeDateTimeFormatter = {
+        let f = RelativeDateTimeFormatter()
+        f.unitsStyle = .short
+        return f
+    }()
+
+    private nonisolated(unsafe) static let isoDateFormatter = ISO8601DateFormatter()
 }

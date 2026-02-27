@@ -25,27 +25,32 @@ final class AlleleViewModel {
     var errorMessage: String?
     var selectedAlleleID: Allele.ID?
 
+    // Cached results — updated via applyFilters()
+    private(set) var filteredAlleles: [Allele] = []
+    private(set) var availableSpecies: [String] = []
+    private(set) var availableLoci: [String] = []
+
     /// Persistent service instance to preserve cache across loads.
     private var alleleService: AlleleService?
+
+    /// O(1) lookup for selected allele.
+    private var alleleLookup: [Allele.ID: Allele] = [:]
 
     /// The currently selected allele, resolved from the ID.
     var selectedAllele: Allele? {
         guard let id = selectedAlleleID else { return nil }
-        return alleles.first { $0.id == id }
+        return alleleLookup[id]
     }
 
-    var availableSpecies: [String] {
-        Set(alleles.map(\.species)).sorted()
+    var alleleCount: String {
+        let filtered = filteredAlleles.count
+        let total = alleles.count
+        return filtered == total ? "\(total) alleles" : "\(filtered) of \(total) alleles"
     }
 
-    var availableLoci: [String] {
-        var filtered = alleles
-        if let sp = selectedSpecies { filtered = filtered.filter { $0.species == sp } }
-        if let proj = selectedProject { filtered = filtered.filter { $0.project == proj } }
-        return Set(filtered.map(\.locus)).sorted()
-    }
-
-    var filteredAlleles: [Allele] {
+    /// Recompute filteredAlleles, availableSpecies, and availableLoci from current filter state.
+    /// Call this after changing any filter property or after loading new data.
+    func applyFilters() {
         var result = alleles
         if !searchText.isEmpty {
             let query = searchText.lowercased()
@@ -60,13 +65,14 @@ final class AlleleViewModel {
         if let cl = selectedClass { result = result.filter { $0.alleleClass == cl } }
         if let pr = selectedProject { result = result.filter { $0.project == pr } }
         if showProvisionalOnly { result = result.filter(\.isProvisional) }
-        return result
-    }
+        filteredAlleles = result
 
-    var alleleCount: String {
-        let filtered = filteredAlleles.count
-        let total = alleles.count
-        return filtered == total ? "\(total) alleles" : "\(filtered) of \(total) alleles"
+        availableSpecies = Set(alleles.map(\.species)).sorted()
+
+        var locusSource = alleles
+        if let sp = selectedSpecies { locusSource = locusSource.filter { $0.species == sp } }
+        if let proj = selectedProject { locusSource = locusSource.filter { $0.project == proj } }
+        availableLoci = Set(locusSource.map(\.locus)).sorted()
     }
 
     func load(owner: String, repo: String) async {
@@ -81,11 +87,15 @@ final class AlleleViewModel {
         do {
             let index = try await service.fetchIndex(forceRefresh: true)
             alleles = index.alleles
+            alleleLookup = Dictionary(alleles.map { ($0.id, $0) }, uniquingKeysWith: { _, b in b })
             speciesMap = index.species
             lociByProject = index.loci
             mhcVersion = index.mhcVersion
             nhkirVersion = index.nhkirVersion
             generated = index.generated
+            applyFilters()
+            // Release the service cache — data is now in the ViewModel
+            await service.clearCache()
         } catch {
             errorMessage = error.localizedDescription
         }
@@ -104,5 +114,6 @@ final class AlleleViewModel {
         selectedClass = nil
         selectedProject = nil
         showProvisionalOnly = false
+        applyFilters()
     }
 }
