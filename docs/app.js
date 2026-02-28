@@ -217,9 +217,9 @@
       var pageData = state.filtered.slice(start, end);
 
       if (dom.selectAll.checked) {
-        pageData.forEach(function (a) { state.selected.add(a.a); });
+        pageData.forEach(function (a) { state.selected.add(alleleUID(a)); });
       } else {
-        pageData.forEach(function (a) { state.selected.delete(a.a); });
+        pageData.forEach(function (a) { state.selected.delete(alleleUID(a)); });
       }
       renderTable();
       updateSelectionUI();
@@ -541,7 +541,8 @@
     for (var i = 0; i < pageData.length; i++) {
       var allele = pageData[i];
       var tr = document.createElement("tr");
-      if (state.selected.has(allele.a)) tr.classList.add("row-selected");
+      var uid = alleleUID(allele);
+      if (state.selected.has(uid)) tr.classList.add("row-selected");
       if (allele.prov) tr.classList.add("row-provisional");
 
       // Checkbox
@@ -549,21 +550,21 @@
       tdCheck.className = "cell-select";
       var cb = document.createElement("input");
       cb.type = "checkbox";
-      cb.checked = state.selected.has(allele.a);
+      cb.checked = state.selected.has(uid);
       cb.setAttribute("aria-label", "Select " + allele.n);
-      cb.dataset.acc = allele.a;
-      cb.addEventListener("change", (function (acc) {
+      cb.dataset.acc = uid;
+      cb.addEventListener("change", (function (uid) {
         return function (e) {
           if (e.target.checked) {
-            state.selected.add(acc);
+            state.selected.add(uid);
           } else {
-            state.selected.delete(acc);
+            state.selected.delete(uid);
           }
           e.target.closest("tr").classList.toggle("row-selected", e.target.checked);
           updateSelectAllCheckbox(pageData);
           updateSelectionUI();
         };
-      })(allele.a));
+      })(uid));
       tdCheck.appendChild(cb);
       tr.appendChild(tdCheck);
 
@@ -716,6 +717,11 @@
   // -------------------------------------------------------
   // Selection helpers
   // -------------------------------------------------------
+
+  /** Unique key for an allele (avoids MHC/KIR accession collisions). */
+  function alleleUID(a) {
+    return (a.prov ? "provisional" : a.p) + ":" + a.a;
+  }
   function updateSelectAllCheckbox(pageData) {
     if (!pageData || pageData.length === 0) {
       dom.selectAll.checked = false;
@@ -724,7 +730,7 @@
     }
     var checkedCount = 0;
     pageData.forEach(function (a) {
-      if (state.selected.has(a.a)) checkedCount++;
+      if (state.selected.has(alleleUID(a))) checkedCount++;
     });
     dom.selectAll.checked = checkedCount === pageData.length;
     dom.selectAll.indeterminate = checkedCount > 0 && checkedCount < pageData.length;
@@ -749,7 +755,7 @@
   /** Return the alleles to use for download: selected if any, otherwise all filtered. */
   function getDownloadAlleles() {
     if (state.selected.size > 0) {
-      return state.alleles.filter(function (a) { return state.selected.has(a.a); });
+      return state.alleles.filter(function (a) { return state.selected.has(alleleUID(a)); });
     }
     return state.filtered;
   }
@@ -888,9 +894,12 @@
   function extractOriginSequence(record) {
     var idx = record.indexOf("\nORIGIN");
     if (idx === -1) return "";
-    var block = record.substring(idx);
-    // Remove "ORIGIN" header line, line numbers, and spaces; uppercase
-    return block.replace(/^[^\n]*\n/, "").replace(/[\s0-9\/]/g, "").toUpperCase();
+    // Skip past the ORIGIN line itself
+    var lineEnd = record.indexOf("\n", idx + 1);
+    if (lineEnd === -1) return "";
+    var block = record.substring(lineEnd + 1);
+    // Remove line numbers, spaces, and trailing //; uppercase
+    return block.replace(/[\s0-9\/]/g, "").toUpperCase();
   }
 
   /** Extract /translation="..." from CDS feature. */

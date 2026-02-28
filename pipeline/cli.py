@@ -15,7 +15,7 @@ from .fetch import (
     group_by_species_locus,
 )
 from .genbank_builder import write_genbank_file
-from .metadata_index import build_metadata_index, scan_genbank_seq_info
+from .metadata_index import build_metadata_index, load_retired_provisionals, scan_genbank_seq_info
 from .provisional import (
     add_provisional_alleles,
     backfill_rationale,
@@ -286,6 +286,9 @@ def run_build_index(
     # Load provisional alleles for inclusion in the index
     prov_alleles = _get_provisional_metadata(repo_root)
 
+    # Load retired provisional names to append to IPD alleles' previous designations
+    retired = load_retired_provisionals(repo_root)
+
     index_path = repo_root / DOCS_DIR / "alleles.json"
     index = build_metadata_index(
         listings.get("MHC", []),
@@ -295,6 +298,7 @@ def run_build_index(
         nhkir_version=version_data.get("NHKIR", {}).get("version", ""),
         provisional_alleles=prov_alleles if prov_alleles else None,
         seq_info=seq_info,
+        retired_provisionals=retired if retired else None,
     )
     logger.info("Built metadata index: %d alleles at %s", len(index["alleles"]), index_path)
 

@@ -1,5 +1,6 @@
 """Build the JSON metadata index consumed by the GitHub Pages site."""
 
+import csv
 import json
 import logging
 from datetime import datetime, timezone
@@ -13,8 +14,9 @@ logger = logging.getLogger(__name__)
 def scan_genbank_seq_info(data_dir: Path) -> dict[str, dict]:
     """Scan all GenBank files to extract sequence length and type per accession.
 
-    Returns {accession: {"len": int, "st": str}} where st is
-    "genomic", "coding", or "partial".
+    Returns {"project:accession": {"len": int, "st": str}} where st is
+    "genomic", "coding", or "partial".  Keys are composite to avoid
+    collisions between MHC and NHKIR databases that share NHP accessions.
     """
     info: dict[str, dict] = {}
 
@@ -52,11 +54,30 @@ def scan_genbank_seq_info(data_dir: Path) -> dict[str, dict]:
                     else:
                         seq_type = "coding"
 
-                    info[acc] = {"len": seq_len, "st": seq_type}
+                    # Use composite key to avoid MHC/NHKIR accession collisions
+                    info[f"{project_dir}:{acc}"] = {"len": seq_len, "st": seq_type}
             except Exception as e:
                 logger.warning("Error scanning %s: %s", gb_file, e)
 
     return info
+
+
+def load_retired_provisionals(repo_root: Path) -> dict[str, list[str]]:
+    """Load retired.tsv and return {ipd_accession: [provisional_name, ...]}."""
+    retired_path = repo_root / "provisional" / "retired" / "retired.tsv"
+    result: dict[str, list[str]] = {}
+    if not retired_path.exists():
+        return result
+
+    with open(retired_path, newline="") as fh:
+        reader = csv.DictReader(fh, delimiter="\t")
+        for row in reader:
+            acc = row.get("ipd_accession", "")
+            prov_name = row.get("provisional_name", "")
+            if acc and prov_name:
+                result.setdefault(acc, []).append(prov_name)
+
+    return result
 
 
 def build_metadata_index(
@@ -67,6 +88,7 @@ def build_metadata_index(
     nhkir_version: str = "",
     provisional_alleles: list[dict] | None = None,
     seq_info: dict[str, dict] | None = None,
+    retired_provisionals: dict[str, list[str]] | None = None,
 ) -> dict:
     """
     Build docs/alleles.json from allele listings.
@@ -74,17 +96,19 @@ def build_metadata_index(
     Listings use flat dot-notation keys from the API (e.g., 'organism.name').
     Provisional alleles (if provided) are appended with their pre-built metadata.
     seq_info maps accession -> {"len": int, "st": str} from GenBank scanning.
+    retired_provisionals maps IPD accession -> list of retired provisional names.
     """
     species_map = {}
     all_alleles = []
     loci: dict[str, set] = {"MHC": set(), "NHKIR": set()}
     si = seq_info or {}
+    rp = retired_provisionals or {}
 
     for allele in mhc_listing:
-        _process_allele(allele, "MHC", species_map, all_alleles, loci, si)
+        _process_allele(allele, "MHC", species_map, all_alleles, loci, si, rp)
 
     for allele in nhkir_listing:
-        _process_allele(allele, "NHKIR", species_map, all_alleles, loci, si)
+        _process_allele(allele, "NHKIR", species_map, all_alleles, loci, si, rp)
 
     # Append provisional alleles (already in index-ready format)
     if provisional_alleles:
@@ -121,6 +145,7 @@ def _process_allele(
     all_alleles: list,
     loci: dict[str, set],
     seq_info: dict[str, dict] | None = None,
+    retired_provisionals: dict[str, list[str]] | None = None,
 ) -> None:
     """Process a single allele listing record into the index."""
     sp = allele.get("organism.name", "")
@@ -151,13 +176,22 @@ def _process_allele(
         "dm": allele.get("date_modified", ""),
     }
 
-    # Add sequence length and type from GenBank scan
+    # Add sequence length and type from GenBank scan (composite key avoids MHC/NHKIR collisions)
     si = seq_info or {}
-    if acc in si:
-        entry["len"] = si[acc]["len"]
-        entry["st"] = si[acc]["st"]
+    composite_key = f"{project}:{acc}"
+    if composite_key in si:
+        entry["len"] = si[composite_key]["len"]
+        entry["st"] = si[composite_key]["st"]
 
-    prev = allele.get("previous", [])
+    prev = list(allele.get("previous", []))
+
+    # Append any retired provisional names for this accession
+    rp = retired_provisionals or {}
+    if acc in rp:
+        for prov_name in rp[acc]:
+            if prov_name not in prev:
+                prev.append(prov_name)
+
     if prev:
         entry["prev"] = prev
     all_alleles.append(entry)
