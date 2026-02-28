@@ -182,6 +182,9 @@ class NamingResult:
     extracted_cds: str = ""
     extracted_protein: str = ""
 
+    # Exon coordinates in the query sequence (0-based, used for GenBank CDS annotation)
+    exon_coords: list[tuple[int, int]] = field(default_factory=list)
+
     # Warnings
     warnings: list[str] = field(default_factory=list)
 
@@ -1350,6 +1353,7 @@ def name_provisional_allele(
         is_extension=is_extension,
         extracted_cds=cds,
         extracted_protein=protein,
+        exon_coords=query_exons,
         warnings=warnings,
     )
 

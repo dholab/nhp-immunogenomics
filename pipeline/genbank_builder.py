@@ -234,11 +234,10 @@ def provisional_to_seqrecord(
     date_added: str,
     submitter: str,
     accession: str = "",
+    exon_coords: list[tuple[int, int]] | None = None,
+    protein: str = "",
 ) -> SeqRecord:
     """Convert a provisional allele to a BioPython SeqRecord.
-
-    Simpler than allele_to_seqrecord: no exon/intron features from API,
-    no references, no INSDC cross-references.
 
     Args:
         name: Provisional allele name (e.g., "Mamu-A1*026:new01").
@@ -251,6 +250,8 @@ def provisional_to_seqrecord(
         date_added: Date string (YYYY-MM-DD).
         submitter: Name of the person who submitted the allele.
         accession: Provisional accession (PROVxxxxx).
+        exon_coords: Optional 0-based exon coordinates for CDS annotation.
+        protein: Optional protein translation for CDS /translation qualifier.
     """
     sci_name = species_info.get("scientificName", "unknown organism")
     common_name = species_info.get("commonName", "")
@@ -321,22 +322,63 @@ def provisional_to_seqrecord(
         },
     ))
 
-    # CDS feature (for coding sequences)
-    if not is_genomic:
-        product = _infer_product(
-            locus, allele_class,
-            "NHKIR" if locus.startswith("KIR") else "MHC",
-        )
+    # Exon/intron/CDS features from extracted coordinates
+    project = "NHKIR" if locus.startswith("KIR") else "MHC"
+    product = _infer_product(locus, allele_class, project)
+
+    if exon_coords and len(exon_coords) > 1 and is_genomic:
+        # Genomic with multi-exon structure
+        for i, (start, end) in enumerate(exon_coords, 1):
+            sr.features.append(SeqFeature(
+                location=FeatureLocation(start, end),
+                type="exon",
+                qualifiers={"gene": [locus], "number": [str(i)]},
+            ))
+
+        # Intron features (between consecutive exons)
+        for i in range(len(exon_coords) - 1):
+            intron_start = exon_coords[i][1]
+            intron_end = exon_coords[i + 1][0]
+            if intron_end > intron_start:
+                sr.features.append(SeqFeature(
+                    location=FeatureLocation(intron_start, intron_end),
+                    type="intron",
+                    qualifiers={"gene": [locus], "number": [str(i + 1)]},
+                ))
+
+        # CDS with compound join location
+        exon_locations = [FeatureLocation(s, e) for s, e in exon_coords]
+        cds_location = CompoundLocation(exon_locations)
+        cds_qualifiers = {
+            "gene": [locus],
+            "allele": [name],
+            "codon_start": ["1"],
+            "product": [product],
+        }
+        if protein:
+            cds_qualifiers["translation"] = [protein]
         sr.features.append(SeqFeature(
-            location=FeatureLocation(0, seq_len),
+            location=cds_location,
             type="CDS",
-            qualifiers={
+            qualifiers=cds_qualifiers,
+        ))
+
+    else:
+        # Coding sequence (single exon) or genomic without exon data
+        if not is_genomic or (exon_coords and len(exon_coords) == 1):
+            cds_qualifiers = {
                 "gene": [locus],
                 "allele": [name],
                 "codon_start": ["1"],
                 "product": [product],
-            },
-        ))
+            }
+            if protein:
+                cds_qualifiers["translation"] = [protein]
+            sr.features.append(SeqFeature(
+                location=FeatureLocation(0, seq_len),
+                type="CDS",
+                qualifiers=cds_qualifiers,
+            ))
 
     return sr
 

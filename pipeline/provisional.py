@@ -26,7 +26,26 @@ MANIFEST_COLUMNS = (
     "sequence_file", "submitter", "date_added", "notes",
     "ref_nt", "ref_nt_pct", "ref_aa", "ref_aa_pct",
     "cds_diffs", "aa_diffs", "fasta_header",
+    "exon_coords", "protein",
 )
+
+
+def _serialize_exon_coords(coords: list[tuple[int, int]]) -> str:
+    """Serialize exon coords to '0-73;204-473;716-991' format."""
+    if not coords:
+        return ""
+    return ";".join(f"{s}-{e}" for s, e in coords)
+
+
+def _deserialize_exon_coords(s: str) -> list[tuple[int, int]]:
+    """Deserialize '0-73;204-473;716-991' back to list of tuples."""
+    if not s or not s.strip():
+        return []
+    result = []
+    for part in s.split(";"):
+        start, end = part.split("-", 1)
+        result.append((int(start), int(end)))
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -310,6 +329,7 @@ def add_provisional_alleles(
     provisional_refs: list[ReferenceAllele] = []
 
     for i, (rec_id, seq, fasta_header) in enumerate(sequences_to_add):
+        result = None
         if name_override:
             allele_name = name_override
             relationship = ""
@@ -405,6 +425,8 @@ def add_provisional_alleles(
             "cds_diffs": cds_diffs,
             "aa_diffs": aa_diffs,
             "fasta_header": fasta_header,
+            "exon_coords": _serialize_exon_coords(result.exon_coords) if result else "",
+            "protein": result.extracted_protein if result else "",
         }
 
         append_to_manifest(repo_root, entry)
@@ -855,6 +877,9 @@ def build_genbank(
             species_info = species_map.get(species, {})
             accession = compute_accession(seq)
 
+            exon_coords = _deserialize_exon_coords(entry.get("exon_coords", ""))
+            protein = entry.get("protein", "")
+
             try:
                 sr = provisional_to_seqrecord(
                     name=name,
@@ -867,6 +892,8 @@ def build_genbank(
                     date_added=entry.get("date_added", ""),
                     submitter=entry.get("submitter", ""),
                     accession=accession,
+                    exon_coords=exon_coords if exon_coords else None,
+                    protein=protein,
                 )
                 seq_records.append(sr)
             except Exception as e:
@@ -896,10 +923,13 @@ def backfill_rationale(repo_root: Path) -> int:
     if not manifest:
         return 0
 
-    # Find entries missing rationale (ref_nt or cds_diffs)
+    # Find entries missing rationale (ref_nt, cds_diffs) or CDS annotation (exon_coords)
     needs_backfill = [
         e for e in manifest
-        if (not e.get("ref_nt") or not e.get("cds_diffs")) and e.get("notes", "") != ""
+        if (
+            (not e.get("ref_nt") or not e.get("cds_diffs") or not e.get("exon_coords"))
+            and e.get("notes", "") != ""
+        )
     ]
     if not needs_backfill:
         return 0
@@ -951,6 +981,8 @@ def backfill_rationale(repo_root: Path) -> int:
             entry["ref_aa_pct"] = f"{result.closest_protein_identity:.1f}" if result.closest_protein_allele else ""
             entry["cds_diffs"] = str(result.cds_diffs) if result.cds_diffs >= 0 else ""
             entry["aa_diffs"] = str(result.aa_diffs) if result.aa_diffs >= 0 else ""
+            entry["exon_coords"] = _serialize_exon_coords(result.exon_coords)
+            entry["protein"] = result.extracted_protein
             updated += 1
 
             # Track for intra-batch detection
