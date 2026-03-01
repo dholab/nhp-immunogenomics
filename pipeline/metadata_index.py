@@ -183,7 +183,7 @@ def _process_allele(
         entry["len"] = si[composite_key]["len"]
         entry["st"] = si[composite_key]["st"]
 
-    prev = list(allele.get("previous", []))
+    prev = list(allele.get("previous") or [])
 
     # Append any retired provisional names for this accession
     rp = retired_provisionals or {}
