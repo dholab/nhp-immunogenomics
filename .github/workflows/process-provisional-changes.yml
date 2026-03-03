@@ -69,6 +69,8 @@ jobs:
           locus="${{ steps.config.outputs.locus }}"
           if [ -n "$species" ] && [ -n "$locus" ]; then
             echo "label=${species}-${locus}" >> "$GITHUB_OUTPUT"
+          elif [ -n "$species" ]; then
+            echo "label=${species}-KIR" >> "$GITHUB_OUTPUT"
           else
             echo "label=provisional" >> "$GITHUB_OUTPUT"
           fi

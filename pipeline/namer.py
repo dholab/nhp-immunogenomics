@@ -1168,14 +1168,28 @@ def name_provisional_allele(
         )
 
     # Step 2: Auto-detect sequence type
+    cds_lengths = [len(r.coding_seq) for r in references if r.coding_seq]
+    genomic_lengths = [len(r.sequence) for r in references if r.is_genomic]
+
     if seq_type == "auto" or not seq_type:
-        cds_lengths = [len(r.coding_seq) for r in references if r.coding_seq]
-        genomic_lengths = [len(r.sequence) for r in references if r.is_genomic]
         detected_type = detect_sequence_type(
             sequence, cds_lengths or None, genomic_lengths or None
         )
     else:
         detected_type = seq_type
+        # Validate user-specified type: if "genomic" but the sequence
+        # length is within 15% of the CDS median, auto-correct to
+        # "coding".  This handles KIR and other loci where all IPD
+        # references are CDS-only and users may mislabel CDS as genomic.
+        if detected_type == "genomic" and cds_lengths:
+            median_cds = sorted(cds_lengths)[len(cds_lengths) // 2]
+            if median_cds > 0 and abs(len(sequence) - median_cds) / median_cds < 0.15:
+                logger.info(
+                    "Overriding seq_type='genomic': sequence length %d is "
+                    "within 15%% of median CDS length %d; treating as coding",
+                    len(sequence), median_cds,
+                )
+                detected_type = "coding"
 
     # Step 3: Find closest nucleotide-level match
     # When comparing genomic query to CDS-only references, use CDS-aware
@@ -1265,6 +1279,41 @@ def name_provisional_allele(
                 protein = _translate_cds(cds, closest_nt_ref.codon_start)
             if not protein:
                 warnings.append("CDS could not be translated to a valid protein")
+
+        # Frame correction: if the protein has very low identity to all
+        # reference proteins, the CDS may have extra leading nucleotides
+        # (e.g. from primer overhang or truncated start codon).  Try
+        # trimming 1 or 2 leading bases to shift the reading frame and
+        # pick the frame that best matches the closest reference protein.
+        if protein and references:
+            _, initial_pct = compare_proteins(protein, references)
+            if initial_pct < 80.0:
+                best_frame_protein = protein
+                best_frame_pct = initial_pct
+                best_frame_offset = 0
+                for offset in (1, 2):
+                    trimmed = cds[offset:]
+                    trial = _translate_cds(trimmed, codon_start=1)
+                    if not trial:
+                        continue
+                    _, trial_pct = compare_proteins(trial, references)
+                    if trial_pct > best_frame_pct:
+                        best_frame_pct = trial_pct
+                        best_frame_protein = trial
+                        best_frame_offset = offset
+                if best_frame_offset > 0:
+                    logger.info(
+                        "Frame correction: trimmed %d leading base(s) "
+                        "from CDS (protein identity %.1f%% -> %.1f%%)",
+                        best_frame_offset, initial_pct, best_frame_pct,
+                    )
+                    protein = best_frame_protein
+                    cds = cds[best_frame_offset:]
+                    if query_exons:
+                        first_start, first_end = query_exons[0]
+                        query_exons = [
+                            (first_start + best_frame_offset, first_end)
+                        ] + list(query_exons[1:])
 
     # Step 6: Classify relationship
     # First check against IPD references
@@ -1469,8 +1518,18 @@ def _select_template_reference(
         if ref.is_genomic and ref.exon_coords and _is_length_compatible(ref):
             return ref
 
-    # No suitable genomic template — return None to trigger
-    # cross-species fallback in name_provisional_allele()
+    # Priority 4: CDS-only reference with exon annotations (e.g., KIR
+    # loci where all IPD references are mRNA/CDS but have exon features).
+    # extract_cds_from_genomic() handles this via
+    # _extract_cds_by_exon_sizes_and_splice_scan().
+    if closest_nt and closest_nt.exon_coords:
+        return closest_nt
+    for ref in references:
+        if ref.exon_coords:
+            return ref
+
+    # No suitable template — return None to trigger cross-species
+    # fallback in name_provisional_allele()
     return None
 
 

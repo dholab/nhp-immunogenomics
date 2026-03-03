@@ -1,12 +1,14 @@
 import SwiftUI
 
 enum SidebarItem: String, Hashable, CaseIterable {
-    case provisional = "Provisional"
+    case provisional = "MHC Provisional"
+    case kirProvisional = "KIR Provisional"
     case submissions = "Submissions"
 
     var icon: String {
         switch self {
         case .provisional: "flask"
+        case .kirProvisional: "flask.fill"
         case .submissions: "arrow.triangle.pull"
         }
     }
@@ -27,7 +29,9 @@ struct ContentView: View {
             if settings.isConfigured {
                 switch selection {
                 case .provisional:
-                    ProvisionalListView()
+                    ProvisionalListView(filter: .mhc)
+                case .kirProvisional:
+                    ProvisionalListView(filter: .kir)
                 case .submissions:
                     SubmissionListView()
                 case nil:

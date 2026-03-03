@@ -65,7 +65,7 @@ def main():
 
     pa_cmd = sub.add_parser("provisional-add", help="Add provisional allele(s)")
     pa_cmd.add_argument("--species", required=True, help="Species prefix (e.g., Mamu)")
-    pa_cmd.add_argument("--locus", required=True, help="Locus name (e.g., A1)")
+    pa_cmd.add_argument("--locus", default="", help="Locus name (e.g., A1). If empty, auto-detects by searching all KIR loci.")
     pa_cmd.add_argument("--class", dest="allele_class", default="", help="MHC class (I, II)")
     pa_cmd.add_argument("--submitter", required=True, help="Name of the submitter")
     pa_cmd.add_argument("--fasta", type=Path, help="Path to FASTA file (one or more sequences)")
@@ -421,7 +421,6 @@ def run_provisional_add(repo_root: Path, args) -> None:
         logger.error("%s", exc)
         sys.exit(1)
 
-    rel_fasta = f"{args.species}/{args.locus}.fasta"
+    logger.info("  Manifest: provisional/manifest.tsv")
     for name in names:
-        logger.info("  Manifest: provisional/manifest.tsv")
-        logger.info("  Sequence: provisional/sequences/%s", rel_fasta)
+        logger.info("  Added: %s", name)

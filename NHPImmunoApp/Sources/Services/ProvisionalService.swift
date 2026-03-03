@@ -79,7 +79,8 @@ actor ProvisionalService {
         }
 
         let timestamp = Int(Date().timeIntervalSince1970)
-        let branch = "provisional/\(sanitizeBranchComponent(species))-\(sanitizeBranchComponent(locus))-\(timestamp)"
+        let locusLabel = locus.isEmpty ? "KIR" : sanitizeBranchComponent(locus)
+        let branch = "provisional/\(sanitizeBranchComponent(species))-\(locusLabel)-\(timestamp)"
 
         // Create branch from main
         let mainSHA = try await api.getBranchSHA("main")
@@ -101,14 +102,15 @@ actor ProvisionalService {
 
         // Create draft PR
         let records = FASTAParser.parse(fastaContent)
+        let locusDisplay = locus.isEmpty ? "KIR (auto-detect)" : locus
         let prBody = """
         ## Provisional Allele Submission
 
         | Field | Value |
         |-------|-------|
         | **Species** | \(species) |
-        | **Locus** | \(locus) |
-        | **Class** | \(alleleClass) |
+        | **Locus** | \(locusDisplay) |
+        | **Class** | \(alleleClass.isEmpty ? "-" : alleleClass) |
         | **Seq type** | \(seqType) |
         | **Submitter** | \(submitter) |
         | **Sequences** | \(records.count) |
@@ -118,8 +120,11 @@ actor ProvisionalService {
         This PR will be automatically processed and merged by the workflow.
         """
 
+        let prTitle = locus.isEmpty
+            ? "Add provisional: \(species)-KIR (\(records.count) sequence(s))"
+            : "Add provisional: \(species)-\(locus) (\(records.count) sequence(s))"
         let (_, prURL) = try await api.createPullRequest(
-            title: "Add provisional: \(species)-\(locus) (\(records.count) sequence(s))",
+            title: prTitle,
             body: prBody,
             head: branch
         )

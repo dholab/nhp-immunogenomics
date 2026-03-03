@@ -3503,64 +3503,62 @@ FEATURES             Location/Qualifiers
                      /gene="E"
                      /allele="Mamu-E*000:new01"
                      /note="provisional allele, not yet in IPD"
-     exon            1..59
+     exon            2..185
                      /gene="E"
                      /number=1
      exon            186..455
                      /gene="E"
                      /number=2
-     exon            701..976
+     exon            701..1597
                      /gene="E"
                      /number=3
-     exon            1598..1873
+     exon            1598..1998
                      /gene="E"
                      /number=4
-     exon            1995..2111
+     exon            1995..2854
                      /gene="E"
                      /number=5
      exon            2855..2887
                      /gene="E"
                      /number=6
-     exon            2993..3040
+     exon            2993..3201
                      /gene="E"
                      /number=7
      exon            3206..3210
                      /gene="E"
                      /number=8
-     intron          60..185
-                     /gene="E"
-                     /number=1
      intron          456..700
                      /gene="E"
                      /number=2
-     intron          977..1597
-                     /gene="E"
-                     /number=3
-     intron          1874..1994
-                     /gene="E"
-                     /number=4
-     intron          2112..2854
-                     /gene="E"
-                     /number=5
      intron          2888..2992
                      /gene="E"
                      /number=6
-     intron          3041..3205
+     intron          3202..3205
                      /gene="E"
                      /number=7
-     CDS             join(1..59,186..455,701..976,1598..1873,1995..2111,
-                     2855..2887,2993..3040,3206..3210)
+     CDS             join(2..185,186..455,701..1597,1598..1998,1995..2854,
+                     2855..2887,2993..3201,3206..3210)
                      /gene="E"
                      /allele="Mamu-E*000:new01"
                      /codon_start=1
                      /product="MHC class I E antigen"
-                     /translation="MAQRTLLLLLSALTKTWAGELPLLEVFPHFRVPARPRGAPLHLRG
-                     LRGRHPVRAVRQRCRESEDAAAGAVGGAGGAGVLGPGDTQSQGHRTDFTSETEDPARLL
-                     QPERGRVSYPPVDAWLRPGARRALPPRV*TVRLRRQGLSHPE*GPVLLVRGGHGGSNLR
-                     AKVK*WL*GGAPESLPGRHMRGVAPQIPGEWEGDAAAPGTPKDTRDPPPRL*S*GHPEV
-                     LGPGLLPCEDHSDLAVGRGGPDPGHGACGDQACRGWNLPEVGSCGGAFWRGAEIHVPCA
-                     A*GATRAPHPEMGAVFPVHHPHCGHHCWPASPWSCGH*SCGCCCDVEEEELR*KRMELL
-                     SGFV*RQYPGI**VSHSL*NL"
+                     /translation="WHNEPYFSCSRPLPRPGRGSAGSGWKRPLPGGERGRTGGGAGLGE
+                     PRRE*GRTGLSPSSPPGSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASP
+                     RMQPRAPWVEQEGPEYWDQETRRARDTAQTLRVKLKTLRGYYNLSEAASHTLQWMHGCD
+                     LGPDGRFLRGYEQFAYDGKDYLTLNEDLCSWSAVDTADQISEQKSNDGCEAEHQRAYLE
+                     DTCVEWLRRYLENGKETLQRPGKRVHRATLPSPSWARTVPTADRPQTVEDTGMEARIPL
+                     LPWIRRGGCHPRYRRSCTRE*LS*MTSLLSGTIKESSLSGESILQMN**AVLFDSQC*E
+                     SWGSFSRAWFSAPHQEFLEV*L*LFSVTQHPHRPRPEMPFHFLSWAISPLF*NFPRKKR
+                     LSQIPEFRLVSRFSPRLLL*LSPSFSGWSHGCCWSVP*EIQSV*IF*LFPSEPPKTHVT
+                     HHPVSDHEATLRCWALGFYPAKITVTWQWDGEDQTQDMELVETRPAGDGTFQKWAAVVV
+                     PSGEEQRYTCHVQHEGLPEPLTLRWGKEGNGRSCLLGKAGALLKPFCRVRPEAWGSGPL
+                     TFPCFPRASRLPGPPSPLWASLLACFSLELWSLKLWLLL*CGGGRAQVGKGEG*SLVPL
+                     RVSSPR*KCVLPCYWEAPSTHTGRPSPGPVCQHLLFFLRWNLGSVTQAGVQWRGFSSL*
+                     L*PLPPRFKRFSCLSLPSSWDYMCVPPHPANFFLYF**IWSFTVLARLVSNS*PRDPPA
+                     SASQSAGVTGMSHRAQPHLLFSKVPVTMKDRFITLTIVVMGI*AQQSQVTGEGPC*G*T
+                     SGGQLVQDPHLLSSCFLILPWVCSHSSGYFSGIQD*EVPRGPCGPASSLAPHRTFSSNR
+                     *KRMELLSGFV*RQYPGI**VSHSL*K*DSGGLKWVEGGADGTGLGCGDFLIWNF*VCG
+                     GLFRVSSLTVTDLNLFMTVFFS"
 ORIGIN
         1 atggcacaac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggggag
        61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
@@ -3637,6 +3635,62 @@ FEATURES             Location/Qualifiers
                      /gene="E"
                      /allele="Mamu-E*000:new02"
                      /note="provisional allele, not yet in IPD"
+     exon            1..185
+                     /gene="E"
+                     /number=1
+     exon            186..455
+                     /gene="E"
+                     /number=2
+     exon            701..1595
+                     /gene="E"
+                     /number=3
+     exon            1596..1992
+                     /gene="E"
+                     /number=4
+     exon            1993..2862
+                     /gene="E"
+                     /number=5
+     exon            2863..2895
+                     /gene="E"
+                     /number=6
+     exon            3000..3208
+                     /gene="E"
+                     /number=7
+     exon            3213..3217
+                     /gene="E"
+                     /number=8
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          2896..2999
+                     /gene="E"
+                     /number=6
+     intron          3209..3212
+                     /gene="E"
+                     /number=7
+     CDS             join(1..185,186..455,701..1595,1596..1992,1993..2862,
+                     2863..2895,3000..3208,3213..3217)
+                     /gene="E"
+                     /allele="Mamu-E*000:new02"
+                     /codon_start=1
+                     /product="MHC class I E antigen"
+                     /translation="LALRTLLLLLSALTKTWAGECGVGMEAASTRRREGPDRRGRRTRG
+                     AAPGVGPDRSQPLLAPRLPLLEVFPHFRVPARPRGAPLHLRGLRGRHPVRAVRQRRRES
+                     EDAAAGAVDEAGGAGVLGAGDTKRQGHRTDFPSEPEYPARLLQPERGRVSYPPVDVWLR
+                     PGALRALPPRV*TVCLRARIISP*MRTCAPGPRWTRRLRSLHKSQMMALRWSTREPTWK
+                     THAWSGSTDTWRMGRRRCSARVRGSTGLLSHLLLGLGLCPQLTDLKQ*QTQGWKPEYPS
+                     SLGSGEGAVTPGTGDPVPESDSLK*PAFSQGQLRNVVSLESLFFK*TDEQFSLTLSVRN
+                     HGGVSLVPGSQPHAKSFWRSDSSFSQSLSIRTGQDQKSLFTFYPGLSHPDSRTFQGIRG
+                     YPRSLSSGWCQGFVLVSYYNCPLPSQDGHMGAAGVSHERYKVSEFSDSSPQNPQRHT*P
+                     TTPSLIMRPP*GAGPWASTLRRSQ*PGSGMGRTRPRTRSLWRPGLQGMEPSRSGQLWWC
+                     LLERSRDTHAMCSMRGYPSPSP*DGVRKGMGGHVS*GKQEPF*SPFAGSGLRPEGQGPL
+                     RSPVFPEPPSQHSIPIVGIIAGLVLLGAVVTGAVVAAVMCRRNRSGGEGRGVESEFSCP
+                     TGGFKP*VEVCPALLLGSTIHTHGPTQPGSCVPAPTLFF*DGILALSPRLECNGVVSVH
+                     CNCNLCLRGSSGSPASASRVPGTTCVCHHTRLIFFCIFSRYGVSLCWPGWSRTPDLVIH
+                     LPRPHKVLGLQA*AISPSHTYFFLKYL*Q*RTDLSP*RLW*WGSEPSSHGSQGKVPAED
+                     RPQEGSWSRTHTCFLHVS*SCPGSAVTVLDTSLGSKTRRFLEDLVALPPPWPLTGHFLP
+                     TGRKGWSYSQASCSDSTQGSDESLTAYKSEILGV*SGWRMGQMGQDWVVGIFCFGIFEC
+                     VVGCSECHHLL*LT*ICS*LFSCP"
 ORIGIN
         1 ctggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggccggtgag
        61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg

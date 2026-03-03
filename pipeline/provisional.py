@@ -184,6 +184,83 @@ def find_nearest_neighbor(
     return (best_name, best_pct)
 
 
+def detect_kir_locus(
+    repo_root: Path,
+    sequence: str,
+    species: str,
+) -> tuple[str, str, float]:
+    """Search all KIR loci for a species to find the best-matching locus.
+
+    Uses local alignment so that genomic query sequences (which include
+    introns) can match against the coding-only references in KIR GenBank
+    files.  A two-phase approach keeps the search fast:
+
+      Phase 1 – Quick scan: align against the first representative allele
+                from each locus file (~66 alignments).
+      Phase 2 – Detailed scan: align against all alleles in the top 3
+                candidate loci to pick the best overall match.
+
+    Returns:
+        (locus, best_allele_name, percent_identity).
+        Returns ("", "", 0.0) if no match found.
+    """
+    from .config import DATA_DIR
+
+    kir_dir = repo_root / DATA_DIR / "NHKIR" / species
+    if not kir_dir.exists():
+        return ("", "", 0.0)
+
+    aligner = PairwiseAligner()
+    aligner.mode = "local"
+    aligner.match_score = 1
+    aligner.mismatch_score = -1
+    aligner.open_gap_score = -2
+    aligner.extend_gap_score = -0.5
+
+    query = sequence.upper()
+
+    # Phase 1: Quick scan — first allele from each locus
+    candidates: list[tuple[str, Path, float]] = []
+    for gb_file in sorted(kir_dir.glob("KIR*.gb")):
+        locus_name = gb_file.stem  # e.g., "KIR3DL01"
+        for record in SeqIO.parse(str(gb_file), "genbank"):
+            target = str(record.seq).upper()
+            if not target:
+                continue
+            score = aligner.score(query, target)
+            ref_len = len(target)
+            pct = (score / ref_len) * 100 if ref_len > 0 else 0.0
+            candidates.append((locus_name, gb_file, pct))
+            break  # only first allele per locus
+
+    if not candidates:
+        return ("", "", 0.0)
+
+    # Phase 2: Detailed scan of top 3 candidate loci
+    candidates.sort(key=lambda x: x[2], reverse=True)
+    top_loci = candidates[:3]
+
+    best_locus = ""
+    best_allele = ""
+    best_pct = 0.0
+
+    for locus_name, gb_file, _ in top_loci:
+        for record in SeqIO.parse(str(gb_file), "genbank"):
+            target = str(record.seq).upper()
+            if not target:
+                continue
+            score = aligner.score(query, target)
+            ref_len = len(target)
+            pct = (score / ref_len) * 100 if ref_len > 0 else 0.0
+            allele_name = record.description.split(",")[0].strip()
+            if pct > best_pct:
+                best_pct = pct
+                best_allele = allele_name
+                best_locus = locus_name
+
+    return (best_locus, best_allele, best_pct)
+
+
 def extract_allele_group(allele_name: str) -> str:
     """Extract the allele group number from an IPD allele name.
 
@@ -245,7 +322,8 @@ def add_provisional_alleles(
         repo_root: Repository root directory.
         records: List of Bio.SeqRecord objects (from FASTA parsing).
         species: Species prefix (e.g., "Mamu").
-        locus: Locus name (e.g., "A1").
+        locus: Locus name (e.g., "A1"). If empty, auto-detects the locus
+            by searching all KIR loci for the species.
         allele_class: MHC class ("I", "II", or "").
         seq_type: "coding" or "genomic".
         submitter: Name of the submitter.
@@ -305,30 +383,57 @@ def add_provisional_alleles(
                 f"provisional allele '{existing_hashes[h]}'"
             )
 
+    # Auto-detect KIR locus per-sequence when locus is not provided
+    detected_loci: dict[int, str] = {}
+    if not locus:
+        for i, (rec_id, seq, _hdr) in enumerate(sequences_to_add):
+            det_locus, det_allele, det_pct = detect_kir_locus(repo_root, seq, species)
+            if not det_locus:
+                raise ValueError(
+                    f"Record {i + 1} ('{rec_id}'): could not detect KIR locus "
+                    f"for species {species}"
+                )
+            logger.info(
+                "Record %d ('%s'): detected locus %s (best match: %s, %.1f%%)",
+                i + 1, rec_id, det_locus, det_allele, det_pct,
+            )
+            detected_loci[i] = det_locus
+
     # All validation passed — now process each record
     from .namer import ReferenceAllele, name_provisional_allele
 
     assigned_names: list[str] = []
-    rel_fasta = f"{species}/{locus}.fasta"
     today = date.today().isoformat()
 
-    # Resolve GenBank path for reference alleles
-    gb_path = repo_root / DATA_DIR / "MHC" / species / f"{locus}.gb"
-    if not gb_path.exists():
-        gb_path = repo_root / DATA_DIR / "NHKIR" / species / f"{locus}.gb"
+    # Per-locus state for collision avoidance and intra-batch tracking.
+    # When locus is fixed, there's one group; when auto-detected, each
+    # detected locus gets its own state.
+    _locus_existing_names: dict[str, list[str]] = {}
+    _locus_provisional_refs: dict[str, list[ReferenceAllele]] = {}
 
-    # Collect existing provisional names at this locus for collision avoidance
-    existing_names = [
-        e.get("name", "")
-        for e in manifest
-        if e.get("species") == species and e.get("locus") == locus
-    ]
-
-    # Track previously-named provisional alleles in this batch for
-    # intra-batch synonymous detection
-    provisional_refs: list[ReferenceAllele] = []
+    def _get_locus_state(loc: str) -> tuple[list[str], list[ReferenceAllele]]:
+        if loc not in _locus_existing_names:
+            _locus_existing_names[loc] = [
+                e.get("name", "")
+                for e in manifest
+                if e.get("species") == species and e.get("locus") == loc
+            ]
+            _locus_provisional_refs[loc] = []
+        return _locus_existing_names[loc], _locus_provisional_refs[loc]
 
     for i, (rec_id, seq, fasta_header) in enumerate(sequences_to_add):
+        # Resolve the locus for this sequence
+        seq_locus = detected_loci.get(i, locus)
+        seq_class = allele_class if locus else ""  # KIR has no MHC class
+
+        # Resolve GenBank path for this locus
+        gb_path = repo_root / DATA_DIR / "MHC" / species / f"{seq_locus}.gb"
+        if not gb_path.exists():
+            gb_path = repo_root / DATA_DIR / "NHKIR" / species / f"{seq_locus}.gb"
+
+        existing_names, provisional_refs = _get_locus_state(seq_locus)
+        rel_fasta = f"{species}/{seq_locus}.fasta"
+
         result = None
         if name_override:
             allele_name = name_override
@@ -337,7 +442,7 @@ def add_provisional_alleles(
             result = name_provisional_allele(
                 sequence=seq,
                 species=species,
-                locus=locus,
+                locus=seq_locus,
                 seq_type=seq_type,
                 locus_gb_path=gb_path,
                 existing_names=existing_names,
@@ -358,7 +463,7 @@ def add_provisional_alleles(
             else:
                 logger.warning(
                     "Record %d ('%s'): no IPD alleles found at %s/%s",
-                    i + 1, rec_id, species, locus,
+                    i + 1, rec_id, species, seq_locus,
                 )
 
             for warn in result.warnings:
@@ -411,8 +516,8 @@ def add_provisional_alleles(
         entry = {
             "name": allele_name,
             "species": species,
-            "locus": locus,
-            "class": allele_class,
+            "locus": seq_locus,
+            "class": seq_class,
             "seq_type": seq_type,
             "sequence_file": rel_fasta,
             "submitter": submitter,
@@ -459,9 +564,13 @@ def validate(repo_root: Path) -> list[str]:
 
     # Check required columns
     for i, entry in enumerate(manifest, 1):
-        for col in ("name", "species", "locus", "class", "seq_type", "sequence_file", "submitter", "date_added"):
+        for col in ("name", "species", "locus", "seq_type", "sequence_file", "submitter", "date_added"):
             if not entry.get(col, "").strip():
                 errors.append(f"Row {i}: missing required field '{col}'")
+        # Class is required for MHC, optional for KIR
+        locus = entry.get("locus", "")
+        if not locus.startswith("KIR") and not entry.get("class", "").strip():
+            errors.append(f"Row {i}: missing required field 'class'")
 
         # Validate seq_type
         st = entry.get("seq_type", "").strip()
