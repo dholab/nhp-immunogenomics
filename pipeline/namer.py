@@ -190,18 +190,30 @@ class NamingResult:
 
 
 def _count_diffs(seq_a: str, seq_b: str) -> int:
-    """Count mismatches between two sequences of equal or similar length.
+    """Count mismatches between two sequences using global alignment.
 
-    Compares character-by-character up to the shorter length, then adds
-    the length difference as additional differences.
+    Aligns the two sequences first, then counts positions where the
+    aligned characters differ (including gap positions).  This avoids
+    false inflation when one sequence has an offset (e.g. a missing
+    leading methionine).
     """
     if not seq_a or not seq_b:
         return -1
     a = seq_a.upper().rstrip("*")
     b = seq_b.upper().rstrip("*")
-    diffs = abs(len(a) - len(b))
-    for i in range(min(len(a), len(b))):
-        if a[i] != b[i]:
+
+    aligner = PairwiseAligner()
+    aligner.mode = "global"
+    aligner.match_score = 2
+    aligner.mismatch_score = -1
+    aligner.open_gap_score = -5
+    aligner.extend_gap_score = -0.5
+
+    alignment = aligner.align(a, b)[0]
+    aligned_a, aligned_b = alignment[0], alignment[1]
+    diffs = 0
+    for ca, cb in zip(aligned_a, aligned_b):
+        if ca != cb:
             diffs += 1
     return diffs
 
