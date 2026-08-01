@@ -9582,3 +9582,619 @@ ORIGIN
       481 agggcacgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
       541 gcgcgg
 //
+LOCUS       NHP11991                2688 bp    DNA     linear   PRI 17-JAN-2022
+DEFINITION  Patr-B*03:02:01:02, B locus allele.
+ACCESSION   NHP11991
+VERSION     NHP11991
+DBLINK      INSDC: OV260185
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*03:02:01:02
+            IPD accession: NHP11991
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2688
+                     /gene="B"
+                     /allele="Patr-B*03:02:01:02"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            202..471
+                     /gene="B"
+                     /number=2
+     exon            714..989
+                     /gene="B"
+                     /number=3
+     exon            1565..1840
+                     /gene="B"
+                     /number=4
+     exon            1945..2064
+                     /gene="B"
+                     /number=5
+     exon            2506..2538
+                     /gene="B"
+                     /number=6
+     exon            2645..2688
+                     /gene="B"
+                     /number=7
+     intron          74..201
+                     /gene="B"
+                     /number=1
+     intron          472..713
+                     /gene="B"
+                     /number=2
+     intron          990..1564
+                     /gene="B"
+                     /number=3
+     intron          1841..1944
+                     /gene="B"
+                     /number=4
+     intron          2065..2505
+                     /gene="B"
+                     /number=5
+     intron          2539..2644
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,202..471,714..989,1565..1840,1945..2064,
+                     2506..2538,2645..2688)
+                     /gene="B"
+                     /allele="Patr-B*03:02:01:02"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTVLLLLSAALALTETWAGSHSMRYFDTAVSRPGRGEPR
+                     FITVGYVDDTQFVRFDSDAASPRMEPRAPWIEQEGPEYWDRETRNVKASAQTDRENLRI
+                     ALRYYNQSEAGSHTWQTMFGCDMGPDGRLLRGYYQYAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARAAEQLRAYLEGTCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPEGDRTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTIPIVGIVAGLAVLVVTVAVVAVVAAVLCRRKSSGG
+                     KGGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccgtcctc ctgctgctct cggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cgggtcggga gggaaatggc ctctgccggg aggagcgagg
+      121 ggaccgcagg ctggggcgca ggacctgagg agccgcgccg ggaggagggt cgggcgggtc
+      181 tcagcccctc ctcgccccca ggctcccact ccatgaggta tttcgacacc gccgtgtccc
+      241 ggcccggccg cggggagccc cgcttcatca ccgtgggcta cgtggacgac acccagttcg
+      301 tgaggttcga cagcgacgcc gcgagtccga ggatggagcc ccgggcgcca tggatagagc
+      361 aggaggggcc ggagtattgg gaccgggaga cacggaacgt gaaggcctcc gcacagactg
+      421 accgagagaa cctgcggatc gcgctccgct actacaacca gagcgaggcc ggtgagtgac
+      481 cccgacccgg ggcgcaggtc acgactcccc atcccccacg gacgggccgg gtcgcccaca
+      541 gtctccgggt cggagatccg ccccgaggcc gcgggacccg cccagaccct cgaccggcga
+      601 gagccccagg cgcgtttacc cggtttcatt ttcagttgag gccaaaatcc ccgcgggttg
+      661 gtcggggcgg ggcggggctc gggggacggg gctgaccgcg ggggcggggc cagggtctca
+      721 cacctggcag acgatgtttg gctgcgacat ggggccggac gggcgcctcc tccgcgggta
+      781 ttaccagtac gcctacgacg gcaaggatta catcgccctg aacgaggacc tgagctcctg
+      841 gaccgcggcg gacacggcgg ctcagatcac ccagcgcaag tgggaggcgg cccgtgcggc
+      901 ggagcagctg agagcctacc tggagggcac gtgcgtggag tggctccgca gatacctgga
+      961 gaacgggaag gagacgctgc agcgcgcggg taccaggggc agtggggagc cttccgcatc
+     1021 tcctataggt cgccggggat ggcctcccac gataagagga ggaaaatggg atcagcgcca
+     1081 gaatgtcgcc ctcccttgaa tggagaatgg catgagtttt cctgagtttc ctctgagggc
+     1141 cccctcttct ctctaggaca attaagggat gacgtctctg aggaaatgga ggggaagaaa
+     1201 gtccctagaa tactgatcag gggtcccctt tgacccctgc agcagccttg ggaaccgtga
+     1261 cttttcctct caggccttgt tctctgcctc acactcagtg tgtttggggc tctgattcca
+     1321 gcacttctga gtcactttac ctccactcag atcaggagaa gaagtccctg ttccccgctc
+     1381 agagactcga actttccaat aaataggaga ttatcccagg tgcctgcgtc caggctggtg
+     1441 tctgggttct gtgccccttc cccaccccag gtgtcctgtc cattctcagg ctggtcacat
+     1501 gggtggtcct agggtgtccc atgagagatg caaagcgcct gaattttctg actcttccca
+     1561 tcagaccccc caaagacaca cgtgacccac caccccatct ctgaccatga ggccaccctg
+     1621 aggtgctggg ccctgggctt ctaccctgcg gagatcacac tgacctggca gcgggatggc
+     1681 gaggaccaaa ctcaggacac cgagcttgtg gagaccaggc cagaaggaga tagaaccttc
+     1741 cagaagtggg cagctgtggt ggtgccttct ggagaagagc agagatacac atgccatgtg
+     1801 cagcatgagg ggctgccgaa gcccctcacc ctgagatggg gtaaggaggg ggatgagggg
+     1861 tcatatctct tctcaaggaa agcaggagcc cttctggagc ccttcagcag ggtcggggcc
+     1921 cctcatcttc ccctcctttc ccagagccat cttcccagtc caccatcccc attgtgggca
+     1981 ttgttgctgg cctggctgtc cttgtggtca ccgtagctgt ggtcgctgtg gtcgctgctg
+     2041 tgttgtgtag gaggaagagc tcaggtaggg aaggggtgag gggtggggtc tgggttttct
+     2101 tgtcccactg ggggtttcaa gccccaggta gaagtgttcc ctgcctcatt actgggaagc
+     2161 agcatccaca caggggctaa cgcagcctgg ggccctgtgt gccagcactt actcttttgt
+     2221 gcagcacatg tgacaatgaa ggacggatgt atcaccttga tggttgtggt gttggggtcc
+     2281 tgattccagc attcatgagt caggggaagg tccctgctaa ggacagacct taggagggca
+     2341 gttggtccag gacccacact tgctttcctc gtgtttcctg atcctgccct gggtctgtag
+     2401 tcatacttct ggaaattcct tttgggtcca agactaggag gttcctctaa gatctcatgg
+     2461 ccctgcttcc tcccagtccc ctcacaggac attttcttcc cacaggtgga aaaggaggga
+     2521 gctactctca ggctgcatgt aagtggtggg ggtgggagtg tggaggagct cacccacccc
+     2581 ataattcctc ctgtcccacg tctcctgcgg gctctgacca ggtcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cagcttga
+//
+LOCUS       NHP12445                 546 bp    DNA     linear   PRI 27-FEB-2024
+DEFINITION  Patr-B*22:09, B locus allele.
+ACCESSION   NHP12445
+VERSION     NHP12445
+DBLINK      INSDC: OR866198
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*22:09
+            IPD accession: NHP12445
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..546
+                     /gene="B"
+                     /allele="Patr-B*22:09"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Patr-B*22:09"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMKYFYTAVSRPGRGEPRFITVGYVDDTQFVWFDSDAASPRKE
+                     PRTPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTWQTMFGCDVGP
+                     DGRLLRGYEQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARAAEQLRAYLEGEC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaagtat ttctacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cgcagttcgt gtggttcgac agcgacgccg
+      121 cgagtccgag gaaggagccg cggacgccat ggatagagca ggaggggccg gagtattggg
+      181 accgagagac acagatctcc aagaccaaca cacagactta ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac ctggcagacg atgtttggct
+      301 gcgacgtggg gccggacggg cgcctcctcc gcgggtatga gcagtacgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgcggcgga gcagctgaga gcctacctgg
+      481 agggcgagtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12469                 546 bp    DNA     linear   PRI 10-MAR-2024
+DEFINITION  Patr-B*41:01, B locus allele.
+ACCESSION   NHP12469
+VERSION     NHP12469
+DBLINK      INSDC: OR866197
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*41:01
+            IPD accession: NHP12469
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..546
+                     /gene="B"
+                     /allele="Patr-B*41:01"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Patr-B*41:01"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMKYFYTAVSRPGRGEPRFISVGYVDDTQFVWFDSDAASPREE
+                     PRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTWQTMYGCDVGP
+                     DGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARWAEQLRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaagtat ttctacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatctc agtgggctac gtggacgaca cgcagttcgt gtggttcgac agcgacgccg
+      121 cgagtccgag agaggagccg cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgagagac acagatctcc aagaccaaca cacagactta ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac ctggcagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcttcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gttgggcgga gcagctgaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12470                 546 bp    DNA     linear   PRI 10-MAR-2024
+DEFINITION  Patr-B*21:03, B locus allele.
+ACCESSION   NHP12470
+VERSION     NHP12470
+DBLINK      INSDC: OR866199
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*21:03
+            IPD accession: NHP12470
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..546
+                     /gene="B"
+                     /allele="Patr-B*21:03"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Patr-B*21:03"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMKYFYTAVSRPGRGEPRFITVGYVDDTQFVWFDSDAASPRME
+                     PRAPWIEQEGPEYWDRQTQISKTNTQTYRESLRNLRGYYNQSEAGSHTWQTMYGCDVGP
+                     DGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARWAEQLRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaagtat ttctacaccg ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cgcagttcgt gtggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgacagac acagatctcc aagaccaaca cacagactta ccgagagagc ctgcggaacc
+      241 tgcgcggcta ctacaaccag agcgaggccg ggtctcacac ctggcagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcttcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gttgggcgga gcagctgaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12498                 546 bp    DNA     linear   PRI 14-MAR-2024
+DEFINITION  Patr-B*07:07, B locus allele.
+ACCESSION   NHP12498
+VERSION     NHP12498
+DBLINK      INSDC: OR866200
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*07:07
+            IPD accession: NHP12498
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..546
+                     /gene="B"
+                     /allele="Patr-B*07:07"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Patr-B*07:07"
+                     /codon_start=3
+                     /product="MHC class I B antigen"
+                     /translation="SHSMKYFLTSVSRPGRGEPRFITVGYVDDTQFVRFDSDAASPRME
+                     PRAPWIEQEGPEYWDRETRNVKASAQTYRENLRIALRYYNQSEDGSHTLQTMYGCDVGP
+                     DGRFLRGYRQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARWAEQWRAYLEGLC
+                     VEWLRRYLENGKETLQRA"
+ORIGIN
+        1 gctcccactc catgaagtat ttcttaacat ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgggagac acggaacgtg aaggcctccg cacagactta ccgagagaac ctgcggatcg
+      241 cgctccgcta ttacaaccag agcgaggacg ggtctcacac tctccagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcttcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gttgggcgga gcagtggaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12511                 546 bp    DNA     linear   PRI 25-MAR-2024
+DEFINITION  Patr-B*07:08, B locus allele.
+ACCESSION   NHP12511
+VERSION     NHP12511
+DBLINK      INSDC: PP497086
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*07:08
+            IPD accession: NHP12511
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..546
+                     /organism="Pan troglodytes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9598"
+     gene            1..546
+                     /gene="B"
+                     /allele="Patr-B*07:08"
+     exon            1..270
+                     /gene="B"
+                     /number=1
+     exon            271..546
+                     /gene="B"
+                     /number=2
+     CDS             1..546
+                     /gene="B"
+                     /allele="Patr-B*07:08"
+                     /codon_start=2
+                     /product="MHC class I B antigen"
+                     /translation="LPLHEVFLNIRVPARPRGAPLHHRGLRGRHPVREVRQRRRESEDG
+                     APGAMDRAGGAGVLGPGDTEREGLRTDLPREPADRAPLLQPERGRVSHSPDDVWLRRGA
+                     GRALPPRVPAVRLRRQGLHRPERGPELLDRGGHGGSDHPAQVGGGPCGGAAQSLPGGPV
+                     RGVAPQIPGEREGDAAAR"
+ORIGIN
+        1 gctcccactc catgaagtat ttcttaacat ccgtgtcccg gcccggccgc ggggagcccc
+       61 gcttcatcac cgtgggctac gtggacgaca cccagttcgt gaggttcgac agcgacgccg
+      121 cgagtccgag gatggagccc cgggcgccat ggatagagca ggaggggccg gagtattggg
+      181 accgggagac acggaacgtg aaggcctccg cacagactta ccgagagaac ctgcggatcg
+      241 cgctccgcta ttacaaccag agcgaggacg ggtctcacac tctccagacg atgtatggct
+      301 gcgacgtggg gccggacggg cgcttcctcc gcgggtaccg gcagttcgcc tacgacggca
+      361 aggattacat cgccctgaac gaggacctga gctcctggac cgcggcggac acggcggctc
+      421 agatcaccca gcgcaagtgg gaggcggccc gtgtggcgga gcagcacaga gcctacctgg
+      481 agggcctgtg cgtggagtgg ctccgcagat acctggagaa cgggaaggag acgctgcagc
+      541 gcgcgg
+//
+LOCUS       NHP12664                2688 bp    DNA     linear   PRI 30-SEP-2024
+DEFINITION  Patr-B*40:04:01:01, B locus allele.
+ACCESSION   NHP12664
+VERSION     NHP12664
+DBLINK      INSDC: OZ184632
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*40:04:01:01
+            IPD accession: NHP12664
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2688
+                     /gene="B"
+                     /allele="Patr-B*40:04:01:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            203..472
+                     /gene="B"
+                     /number=2
+     exon            718..993
+                     /gene="B"
+                     /number=3
+     exon            1568..1843
+                     /gene="B"
+                     /number=4
+     exon            1948..2064
+                     /gene="B"
+                     /number=5
+     exon            2506..2538
+                     /gene="B"
+                     /number=6
+     exon            2645..2688
+                     /gene="B"
+                     /number=7
+     intron          74..202
+                     /gene="B"
+                     /number=1
+     intron          473..717
+                     /gene="B"
+                     /number=2
+     intron          994..1567
+                     /gene="B"
+                     /number=3
+     intron          1844..1947
+                     /gene="B"
+                     /number=4
+     intron          2065..2505
+                     /gene="B"
+                     /number=5
+     intron          2539..2644
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1568..1843,1948..2064,
+                     2506..2538,2645..2688)
+                     /gene="B"
+                     /allele="Patr-B*40:04:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTLLLLLWAALALTETWAGSHSMRYFHTAMSRPGRGEPR
+                     FITVGYVDDTQFVWFDSDAASPRKEPRTPWIEQEGPEYWDRETQISKTNTQTDRVNLRN
+                     LRGYYNQSEDGSHTWQTMYGCDVGPDGRLLRGYRQYAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAAREAEQLRAYLEGTCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccctcctc ctgctgctct gggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgtggg gagaagcgag
+      121 gggaccgcag gcggcggcgc aggacccggg gagcagcgcc gggaggaggg tcgggcgggt
+      181 ctcagcccct cctcgccccc aggctcccac tccatgaggt atttccacac cgccatgtcc
+      241 cggcccggcc gcggagagcc ccgcttcatc accgtgggct acgtggacga cacgcagttc
+      301 gtgtggttcg acagcgacgc cgcgagtccg aggaaggagc cgcggacgcc atggatagag
+      361 caggaggggc cggagtattg ggaccgagag acacagatct ccaagaccaa cacacagact
+      421 gaccgagtga acctgcggaa cctgcgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcccg gggcgcaggt cacgactccc catcccccac gtacggcccg ggtctccccg
+      541 agtctccggg tccgagatcc gcccccctga ggccgcggga cccgcccaga ccctcgaccg
+      601 gcgagagccc caggcgcgtt tacccggttt cattttcagt tgaggccaaa atccccgcgg
+      661 gttggtcggg gcggggcggg gctcggggga ctgggctgac cgcgggggcg gggccagggt
+      721 ctcacacctg gcagacgatg tatggctgcg acgtggggcc ggacgggcgc ctcctccgcg
+      781 ggtaccggca gtacgcctac gacggcaagg attacatcgc cctgaacgag gacctgagct
+      841 cctggaccgc ggcggacacg gcggctcaga tcacccagcg caagtgggag gcggcccgtg
+      901 aggcggagca gctgagagcc tacctggagg gcacgtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catctcctat aggttgccgg ggatggcctc ccacgagaag aggaggaaaa tgggatcagc
+     1081 gccagaatgt cgccctccct tgaatggaga atggcatgag ttttcctgag tttcctctga
+     1141 gggccccctc ttctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa
+     1201 gacagtccct agaatactga tcaggggtcc cctttgaccc ctgcagcagc cttgggcacc
+     1261 gtgacttttc ctctcaggcc ttgttctctg cctcacactc tgtgtttggg gctctgattc
+     1321 cagcacttct gagtcacttt acctccactc agatcaggag cagaagtccc tgttccccgc
+     1381 tcagagactc gaacttccca atgaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgccccc ttccccaccc caggtgtcct gtccattctc aggttggtca
+     1501 catgggtggt cctagggtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagacc ccccaaagac acacgtgacc caccacccca tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagcgggat
+     1681 ggggaggacc aaactcagga cactgagctt gtggagacca ggccagcagg agatagaacc
+     1741 ttccagaagt gggcagctgt ggtggtgcct tctggacaag agcagagata cacatgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagga gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcggg
+     1921 gcccctcatc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcgtgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgctgctg
+     2041 tgatgtgtag gaggaagagc tcaggtaggg aaggggtgag gggtggggtc tgggttttct
+     2101 tgtcccactg ggggtttcaa gccccaggta gaagtgttcc ctgcctcatt actgggaagc
+     2161 agcattcaca caggggctaa tgcagcctgg ggccctgtgt gccagcactt actcttttgt
+     2221 gcagcacatg tgacaatgaa ggacggatgt atcaccttga tggttgtggt gttggggtcc
+     2281 tgattccagc attcatgagt caggggaagg tccctgctaa ggacagacct taggagggca
+     2341 gttggtccag gacacacacc tgctttcctc gtgtttcctg atcctgccct gggtctgtag
+     2401 tcatacttct ggaaattcct tttgggtcca agactaggag gttcctctaa gatctcatgg
+     2461 ccctgcttcc tcccagtccc ctcacaggac attttcttcc cacaggtgga aaaggaggga
+     2521 gctactccca ggctgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccacccc
+     2581 ataattcctc ctgtcccacg tctcctgcgg gctctgacca ggtcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cagcttga
+//
+LOCUS       NHP12668                2688 bp    DNA     linear   PRI 30-SEP-2024
+DEFINITION  Patr-B*40:05:01:01, B locus allele.
+ACCESSION   NHP12668
+VERSION     NHP12668
+DBLINK      INSDC: OZ184627
+KEYWORDS    IPD-MHC; MHC class I; B.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-B*40:05:01:01
+            IPD accession: NHP12668
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2688
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2688
+                     /gene="B"
+                     /allele="Patr-B*40:05:01:01"
+     exon            1..73
+                     /gene="B"
+                     /number=1
+     exon            203..472
+                     /gene="B"
+                     /number=2
+     exon            718..993
+                     /gene="B"
+                     /number=3
+     exon            1568..1843
+                     /gene="B"
+                     /number=4
+     exon            1948..2064
+                     /gene="B"
+                     /number=5
+     exon            2506..2538
+                     /gene="B"
+                     /number=6
+     exon            2645..2688
+                     /gene="B"
+                     /number=7
+     intron          74..202
+                     /gene="B"
+                     /number=1
+     intron          473..717
+                     /gene="B"
+                     /number=2
+     intron          994..1567
+                     /gene="B"
+                     /number=3
+     intron          1844..1947
+                     /gene="B"
+                     /number=4
+     intron          2065..2505
+                     /gene="B"
+                     /number=5
+     intron          2539..2644
+                     /gene="B"
+                     /number=6
+     CDS             join(1..73,203..472,718..993,1568..1843,1948..2064,
+                     2506..2538,2645..2688)
+                     /gene="B"
+                     /allele="Patr-B*40:05:01:01"
+                     /codon_start=1
+                     /product="MHC class I B antigen"
+                     /translation="MQVTAPRTLLLLLWAALALTETWAGSHSMRYFHTAMSRPGRGEPR
+                     FITVGYVDDTQFVWFDSDAASPRKEPRTPWIEQEGPEYWDRETQISKTNTQTYRESLRN
+                     LRGYYNQSEDGSHTWQTMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADTA
+                     AQITQRKWEAARVAEQHRAYLEGTCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGQEQRY
+                     TCHVQHEGLPEPLTLRWEPSSQSTIPIVGIVAGLAVLAVVVTGAVVAAVMCRRKSSGGK
+                     GGSYSQAASSDSAQGSDVSLTA"
+ORIGIN
+        1 atgcaggtca cggcgccccg aaccctcctc ctgctgctct gggcggccct ggccctgacc
+       61 gagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgtggg gagaagcgag
+      121 gggaccgcag gcggcggcgc aggacccggg gagcagcgcc gggaggaggg tcgggcgggt
+      181 ctcagcccct cctcgccccc aggctcccac tccatgaggt atttccacac cgccatgtcc
+      241 cggcccggcc gcggagagcc ccgcttcatc accgtgggct acgtggacga cacgcagttc
+      301 gtgtggttcg acagcgacgc cgcgagtccg aggaaggagc cgcggacgcc atggatagag
+      361 caggaggggc cggagtattg ggaccgagag acacagatct ccaagaccaa cacacagact
+      421 taccgagaga gcctgcggaa cctgcgcggc tactacaacc agagcgagga cggtgagtga
+      481 ccccggcccg gggcgcaggt cacgactccc catcccccac gtacggcccg ggtctccccg
+      541 agtctccggg tccgagatcc gcccccctga ggccgcggga cccgcccaga ccctcgaccg
+      601 gcgagagccc caggcgcgtt tacccggttt cattttcagt tgaggccaaa atccccgcgg
+      661 gttggtcggg gcggggcggg gctcggggga ctgggctgac cgcgggggcg gggccagggt
+      721 ctcacacctg gcagacgatg tatggctgcg acgtggggcc ggacgggcgc ctcctccgcg
+      781 ggtatgacca gtacgcctac gacggcaagg attacatcgc cctgaacgag gacctgagct
+      841 cctggaccgc ggcggacacg gcggctcaga tcacccagcg caagtgggag gcggcccgtg
+      901 tggcggagca gcacagagcc tacctggagg gcacgtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgcg cgggtaccag gggcagtggg gagccttccc
+     1021 catctcctat aggttgccgg ggatggcctc ccacgagaag aggaggaaaa tgggatcagc
+     1081 gccagaatgt cgccctccct tgaatggaga atggcatgag ttttcctgag tttcctctga
+     1141 gggccccctc ttctctctag gacaattaag ggatgacgtc tctgaggaaa tggaggggaa
+     1201 gacagtccct agaatactga tcaggggtcc cctttgaccc ctgcagcagc cttgggcacc
+     1261 gtgacttttc ctctcaggcc ttgttctctg cctcacactc tgtgtttggg gctctgattc
+     1321 cagcacttct gagtcacttt acctccactc agatcaggag cagaagtccc tgttccccgc
+     1381 tcagagactc gaacttccca atgaatagga gattatccca gatgcctgtg tccaggctgg
+     1441 tgtctgggtt ctgtgccccc ttccccaccc caggtgtcct gtccattctc aggttggtca
+     1501 catgggtggt cctagggtgt cccatgagag atgcaaagcg cctgaatttt ctgactcttc
+     1561 ccatcagacc ccccaaagac acacgtgacc caccacccca tctctgacca tgaggccacc
+     1621 ctgaggtgct gggccctggg cttctaccct gcggagatca cactgacctg gcagcgggat
+     1681 ggggaggacc aaactcagga cactgagctt gtggagacca ggccagcagg agatagaacc
+     1741 ttccagaagt gggcagctgt ggtggtgcct tctggacaag agcagagata cacatgccat
+     1801 gtgcagcatg aggggctgcc ggagcccctc accctgagat ggggtaagga gggggatgag
+     1861 gggtcatgtc tcttctcagg gaaagcagga gcccttctgg agcccttcag cagggtcggg
+     1921 gcccctcatc ttcccctcct ttcccagagc catcttccca gtccaccatc cccatcgtgg
+     1981 gcattgttgc tggcctggct gtcctagcag ttgtggtcac cggagctgtg gtcgctgctg
+     2041 tgatgtgtag gaggaagagc tcaggtaggg aaggggtgag gggtggggtc tgggttttct
+     2101 tgtcccactg ggggtttcaa gccccaggta gaagtgttcc ctgcctcatt actgggaagc
+     2161 agcattcaca caggggctaa tgcagcctgg ggccctgtgt gccagcactt actcttttgt
+     2221 gcagcacatg tgacaatgaa ggacggatgt atcaccttga tggttgtggt gttggggtcc
+     2281 tgattccagc attcatgagt caggggaagg tccctgctaa ggacagacct taggagggca
+     2341 gttggtccag gacacacacc tgctttcctc gtgtttcctg atcctgccct gggtctgtag
+     2401 tcatacttct ggaaattcct tttgggtcca agactaggag gttcctctaa gatctcatgg
+     2461 ccctgcttcc tcccagtccc ctcacaggac attttcttcc cacaggtgga aaaggaggga
+     2521 gctactccca ggctgcgtgt aagtggtggg ggtgggagtg tggaggagct cacccacccc
+     2581 ataattcctc ctgtcccacg tctcctgcgg gctctgacca ggtcctgttt ttgttctact
+     2641 ccagccagcg acagtgccca gggctctgat gtgtctctca cagcttga
+//

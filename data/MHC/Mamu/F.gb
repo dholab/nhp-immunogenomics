@@ -1,10 +1,11 @@
-LOCUS       NHP00585                1047 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-F*02:04:01, F locus allele.
+LOCUS       NHP00585                2953 bp    DNA     linear   PRI 01-JUN-2026
+DEFINITION  Mamu-F*02:04:01:01, F locus allele.
 ACCESSION   NHP00585
 VERSION     NHP00585
 DBLINK      INSDC: Z21819
             INSDC: HM048899
             INSDC: LT899418
+            INSDC: OZ407680
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -17,45 +18,65 @@ REFERENCE   1
             of HLA-F.
   JOURNAL   Immunogenetics 38:141-145 (1993)
    PUBMED   8482576
-COMMENT     IPD-MHC allele: Mamu-F*02:04:01
+COMMENT     IPD-MHC allele: Mamu-F*02:04:01:01
             IPD accession: NHP00585
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-F*01:04; Mamu-F*0104; Mamu-F*01:04:01
+            Previous designations: Mamu-F*01:04; Mamu-F*0104; Mamu-F*01:04:01;
+            Mamu-F*02:04:01
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2953
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2953
                      /gene="F"
-                     /allele="Mamu-F*02:04:01"
+                     /allele="Mamu-F*02:04:01:01"
                      /note="previous designations: Mamu-F*01:04; Mamu-F*0104;
-                     Mamu-F*01:04:01"
+                     Mamu-F*01:04:01; Mamu-F*02:04:01"
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1990..2106
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2559..2591
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2949..2953
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
                      /gene="F"
-                     /allele="Mamu-F*02:04:01"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1989
+                     /gene="F"
+                     /number=4
+     intron          2107..2558
+                     /gene="F"
+                     /number=5
+     intron          2592..2948
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1990..2106,
+                     2559..2591,2949..2953)
+                     /gene="F"
+                     /allele="Mamu-F*02:04:01:01"
                      /codon_start=1
                      /product="MHC class I F antigen"
                      /translation="MAPRTLLLVLSGALALTETWAGSHSLRYFSTAVSRPGRREPQYRY
@@ -67,74 +88,127 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggccg ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgcctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 acctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggacg gggaggaaca gacccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gttactggag ctgtggtcgc tgctgtaatg tggaggagaa agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggcccgta
+      121 aggcgggggc gcaggacctg gggagttgcg cccagaggaa ggtcgggcgg atctcagccc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggccg gtgagcgacc
+      481 ccgaccaggg gcgcgggtca cgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccggacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgcc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggacct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccatgggc gccttcccca
+     1021 tctcctgtag atctcttggg atggcctcgc acaaggtggg gaggaaagtg ggactaatgc
+     1081 tagaatatcg ctctctctcg ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgttgggg
+     1321 gctctgattc cagctcttct gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctcccccc tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgatccc ttccccaccc caggtgtcct gtccattctc
+     1501 aggacggtca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggacggg gaggaacaga cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagagaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gctggggtca ggggccctca ccttcctctc
+     1981 ctttcccaga gtcgtcttct cagcccacca tccccattgt gggcatcgtt gctggcctgg
+     2041 ctgtcctagc agttgtggtt actggagctg tggtcgctgc tgtaatgtgg aggagaaaga
+     2101 gctcaggtag ggaaggggtg aggagaggag tctgagtttt cttgtcccac tgggggttgc
+     2161 aagccccagg tagaagtgtg ttctgcctcg taactgggaa gcaccatcca cacacacagg
+     2221 cctacccagc ctgggccctc tgtgccagct ctaactcatt tgtaaagcac ttgtgaaaat
+     2281 gaagacagat tcttcacttc aatgattgtg gtggtgggga cctgattccc agcagtcaca
+     2341 actcacaggg gaaggtctct gctgatgaca gacctcagga gggcagttgg tccaggaccc
+     2401 acatctgctt tcttcgtatt tcctaatgaa gtaaatgtgt aatctgcagt tacatatttc
+     2461 tggaaacttc tctgggatca atgactagga ggttgctcta ggaccttatg gccctggctc
+     2521 ctttctggcc tctcacagga catttttttt tcccacagat agaaacagag ggagctactc
+     2581 tcagcctaca agtaagtatg aaggaggctg atccctgaga ttgttgcggt attggtcagg
+     2641 agcccatgag ggagctcacc caccccacag ttcctctagc catatctgtg ggctctgacc
+     2701 gggtcctgtt tttgttctac cccaatcatt gacagtgccc aggctctggt gtgtctctca
+     2761 cagctaataa aggtgacact ccagggcagg ggccctgatg tgagtggggt gttgggagga
+     2821 acagagggga ctcagctgtg ctatggggtt tctttgactt ggatgtcttg agcatgaaat
+     2881 gggctgttta gagtgtgacc catcactgtg actgatatga atttgttcgt gaatattttc
+     2941 ctctatagtg tga
 //
-LOCUS       NHP01627                1047 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-F*02:01, F locus allele.
+LOCUS       NHP01627                2953 bp    DNA     linear   PRI 01-JUN-2026
+DEFINITION  Mamu-F*02:01:01:01, F locus allele.
 ACCESSION   NHP01627
 VERSION     NHP01627
 DBLINK      INSDC: EU109708
             INSDC: LT899414
+            INSDC: OZ407677
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-F*02:01
+COMMENT     IPD-MHC allele: Mamu-F*02:01:01:01
             IPD accession: NHP01627
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-F*01:01; Mamu-F*0101
+            Previous designations: Mamu-F*01:01; Mamu-F*0101; Mamu-F*02:01
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2953
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2953
                      /gene="F"
-                     /allele="Mamu-F*02:01"
-                     /note="previous designations: Mamu-F*01:01; Mamu-F*0101"
+                     /allele="Mamu-F*02:01:01:01"
+                     /note="previous designations: Mamu-F*01:01; Mamu-F*0101;
+                     Mamu-F*02:01"
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1990..2106
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2559..2591
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2949..2953
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
                      /gene="F"
-                     /allele="Mamu-F*02:01"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1989
+                     /gene="F"
+                     /number=4
+     intron          2107..2558
+                     /gene="F"
+                     /number=5
+     intron          2592..2948
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1990..2106,
+                     2559..2591,2949..2953)
+                     /gene="F"
+                     /allele="Mamu-F*02:01:01:01"
                      /codon_start=1
                      /product="MHC class I F antigen"
                      /translation="MAPRTLLLVLSGALALTETWAGSHSLRYFSTAVSRPGRREPRYRY
@@ -146,30 +220,63 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcggtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgggcgccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggcag ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgcctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 atctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggacg gggaggaaca gacccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gttactggag ctgtggtcgc tgctgtaatg tggaggagaa agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggcccgta
+      121 aggcgggggc gcaggacctg gggagttgct cccggcggaa ggtcgggcgg atctcaggcc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcggtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgggcgccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggcag gtgagcgacc
+      481 ccgaccaggg gcgcgggtca tgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccagacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgcc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggatct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccatgggc gccttcccca
+     1021 tctcctgtag atctcttggg atgacctcgc acaaggtggg gaggaaagtg ggactaatgc
+     1081 tagaatatcg ctctctctcg ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgtttggg
+     1321 gctctgattc cagctcttat gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctcccccc tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgatccc ttccccaccc caggtgtcct gtccattctc
+     1501 aggacggtca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggacggg gaggaacaga cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagggaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gctggggtca ggggccctca ccttcctctc
+     1981 ctttcccaga gtcgtcttct cagcccacca tccccattgt gggcatcgtt gctggcctgg
+     2041 ctgtcctagc agttgtggtt actggagctg tggtcgctgc tgtaatgtgg aggagaaaga
+     2101 gctcaggtag ggaaggggtg aggagaggag tctgagtttt cttgtcccac tgggggttgc
+     2161 aaggcccagg tagaagtgtg ttctgcctcg taactgggaa gcaccatcca cacacacagg
+     2221 cctacccagc ctgggccctc tgtgccagct ctaactcatt tgtaaagcac ttgtgaaaat
+     2281 gaagacagat tcttcacttc aatgattgtg gtggtgggga cctgattccc agcagtcaca
+     2341 actcacaggg gaaggtctct gctgatgaca gacctcagga gggcagttgg tccaggaccc
+     2401 acatctgctt tcttcgtatt tcctaatgaa gtaaatgtgt aatctgcagt tacatatttc
+     2461 tggaaacttc tctgggatca atgactagga ggttgctcta ggaccttatg gccctggctc
+     2521 ctttctggcc tctcacagga catttttttt tcccacagat agaaacagag ggagctactc
+     2581 tcagcctaca agtaagtatg aaggaggctg atccctgaga ttgttgcggt attggtcagg
+     2641 agcccatgag ggagctcacc caccccacag ttcctctagc catatctgtg ggctctgacc
+     2701 gggtcctgtt tttgttctac cccaatcatt gacagtgccc aggctctggt gtgtctctca
+     2761 cagctaataa aggtgacact ccagggcagg ggccctgatg tgagtggggt gttgggagga
+     2821 acagagggga ctcagctgtg ctatggggtt tctttgactt ggatgtcttg agcatgaaat
+     2881 gggctgttta gagtgtgacc catcactgtg actgatatga atttgttcgt gaatattttc
+     2941 ctctatagtg tga
 //
-LOCUS       NHP01983                1047 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP01983                2952 bp    DNA     linear   PRI 01-JUN-2026
 DEFINITION  Mamu-F*02:03:01, F locus allele.
 ACCESSION   NHP01983
 VERSION     NHP01983
 DBLINK      INSDC: EU305657
             INSDC: LT899416
+            INSDC: OZ407678
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -182,11 +289,11 @@ COMMENT     IPD-MHC allele: Mamu-F*02:03:01
             MHC class: I
             Previous designations: Mamu-F*01:03; Mamu-F*0103; Mamu-F*01:03:01
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2952
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2952
                      /gene="F"
                      /allele="Mamu-F*02:03:01"
                      /note="previous designations: Mamu-F*01:03; Mamu-F*0103;
@@ -194,25 +301,44 @@ FEATURES             Location/Qualifiers
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1990..2106
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2559..2591
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2948..2952
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
+                     /gene="F"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1989
+                     /gene="F"
+                     /number=4
+     intron          2107..2558
+                     /gene="F"
+                     /number=5
+     intron          2592..2947
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1990..2106,
+                     2559..2591,2948..2952)
                      /gene="F"
                      /allele="Mamu-F*02:03:01"
                      /codon_start=1
@@ -226,23 +352,55 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgggagccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggcag ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgcctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 acctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggacg gggaggaaca gacccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gttactggag ctgtggtcac tgctgtaatg tggaggagaa agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggcccgta
+      121 aggcgggggc gcaggacctg gggagttgct cccggcggaa ggtcgggcgg atctcaggcc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgggagccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggcag gtgagcgacc
+      481 ccgaccaggg gcgcgggtca tgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccagacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgcc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggacct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccataggc gccttcccca
+     1021 tctcctgtag atctcttggg atggcctcgc acaacgtggg gaggaaagtg ggactaatgc
+     1081 tagaatatcg ccctctctct ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgttgggg
+     1321 gctctgattc cagctcttct gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctcccccc tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgctccc ttcctcaccc caggtgtcct gtccattctc
+     1501 aggacggcca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggacggg gaggaacaga cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagagaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gctggggtca ggggccctca ccttcctctc
+     1981 ctttcccaga gtcgtcttct cagcccacca tccccattgt gggcatcgtt gctggcctgg
+     2041 ctgtcctagc agttgtggtt actggagctg tggtcactgc tgtaatgtgg aggagaaaga
+     2101 gctcaggtag ggaaggggtg aggagaggag tctgagtttt cttgtcccac tgggggttgc
+     2161 aagccccagg tagaagtgtg ttctgcctcg taactgggaa gcaccatcca cacacacagg
+     2221 cctacccagc ctgggccctc tgtgccagct ctaactcatt tgtaaagcac ttgtgaaaat
+     2281 gaagacagat tcttcacttc aatgattgtg gtggtgggga cctgattccc agcagtcaca
+     2341 actcacaggg gaaggtctct gctgatgaca gacctcagga gggcagttgg tccaggaccc
+     2401 acatctgctt tcttcgtatt tcctaatgaa gtaaatgtgt aatctgcagt tacatatttc
+     2461 tggaaacttc tctgggatca atgactagga ggttgctcta ggaccttatg gccctggctc
+     2521 ctttctggcc tctcacagga catttttttt tcccacagat agaaacagag ggagctactc
+     2581 tcagcctaca agtaagtatg aaggaggctg atccctgaga ttgttgcggt attggtcagg
+     2641 agcccatgag ggagctcacc caccccacag ttcctctagc catatctgtg ggctctgacc
+     2701 gggttctgtt tttgttctac cccaatcatt gacagtgccc aggctctggt gtgtctttca
+     2761 cagctaataa gggtgacact ccagggcagg ggccctgatg tgagtggggt gttgggagga
+     2821 acagagggga ctcagctgtg ctatggggtt tctttgactt ggatgtcttg agcatgaaat
+     2881 gggctgttta gagtgtgacc tatcactgtg actgatatga atttgttcat gaatattttc
+     2941 tctatagtgt ga
 //
 LOCUS       NHP02347                1047 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-F*02:02, F locus allele.
@@ -708,55 +866,76 @@ ORIGIN
       961 gttactggag ctgtggtcgc tgctgtaatg tggaggagaa agagctcaga tagaaacaga
      1021 gggagctact ctcagcctac aatgtga
 //
-LOCUS       NHP09656                1047 bp    DNA     linear   PRI 07-APR-2020
-DEFINITION  Mamu-F*02:07:01, F locus allele.
+LOCUS       NHP09656                2953 bp    DNA     linear   PRI 01-JUN-2026
+DEFINITION  Mamu-F*02:07:01:01, F locus allele.
 ACCESSION   NHP09656
 VERSION     NHP09656
 DBLINK      INSDC: LT899421
+            INSDC: OZ407681
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-F*02:07:01
+COMMENT     IPD-MHC allele: Mamu-F*02:07:01:01
             IPD accession: NHP09656
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-F*01:07:01
+            Previous designations: Mamu-F*01:07:01; Mamu-F*02:07:01
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2953
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2953
                      /gene="F"
-                     /allele="Mamu-F*02:07:01"
-                     /note="previous designations: Mamu-F*01:07:01"
+                     /allele="Mamu-F*02:07:01:01"
+                     /note="previous designations: Mamu-F*01:07:01;
+                     Mamu-F*02:07:01"
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1990..2106
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2559..2591
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2949..2953
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
                      /gene="F"
-                     /allele="Mamu-F*02:07:01"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1989
+                     /gene="F"
+                     /number=4
+     intron          2107..2558
+                     /gene="F"
+                     /number=5
+     intron          2592..2948
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1990..2106,
+                     2559..2591,2949..2953)
+                     /gene="F"
+                     /allele="Mamu-F*02:07:01:01"
                      /codon_start=1
                      /product="MHC class I F antigen"
                      /translation="MAPRTLLLVLSGALALTETWAGSHSLRYFSTAVSRPGRREPQYRY
@@ -768,23 +947,55 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggccg ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgtctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 acctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggacg gggaggaaca gacccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gttactggag ctgtggtcac tgctgtaatg tggaggagaa agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggcccgta
+      121 aggcgggggc gcaggacctg gggagttgcg cccagaggaa ggtcgggcgg atctcagccc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggccg gtgagcgacc
+      481 ccgaccaggg gcgcgggtca cgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccagacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgtc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggacct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccatgggc gccttcccca
+     1021 tctcctgtag atctcttggg atggcctcgc acaaggtggg gaggaaagtg ggactaattc
+     1081 tagaatatcg ccctctctct ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgtttggg
+     1321 gctctgattc cagctcttat gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctcccccc tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgatccc ttccccaccc caggtgtcct gtccattctc
+     1501 aggacggtca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggacggg gaggaacaga cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagagaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gctggggtca ggggccctca ccttcctctc
+     1981 ctttcccaga gtcgtcttct cagcccacca tccccattgt gggcatcgtt gctggcctgg
+     2041 ctgtcctagc agttgtggtt actggagctg tggtcactgc tgtaatgtgg aggagaaaga
+     2101 gctcaggtag ggaaggggtg aggagaggag tctgagtttt cttgtcccac tgggggttgc
+     2161 aagccccagg tagaagtgtg ttctgcctcg taactgggaa gcaccatcca cacacacagg
+     2221 cctacccagc ctgggccctc tgtgccagct ctaactcatt tgtaaagcac ttgtgaaaat
+     2281 gaagacagat tcttcacttc aatgattgtg gtggtgggga cctgattccc agcagtcaca
+     2341 actcacaggg gaaggtctct gctgatgaca gacctcagga gggcagttgg tccaggaccc
+     2401 acatctgctt tcttcgtatt tcctaatgaa gtaaatgtgt aatctgcagt tacatatttc
+     2461 tggaaacttc tctgggatca atgactagga ggttgctcta ggaccttatg gccctggctc
+     2521 ctttctggcc tctcacagga catttttttt tcccacagat agaaacagag ggagctactc
+     2581 tcagcctaca agtaagtatg aaggaggctg atccctgaga ttgttgcggt attggtcagg
+     2641 agcccatgag ggagctcacc caccccacag ttcctctagc cgtatctgtg ggctctgacc
+     2701 gggtcctgtt tttgttctac cccaatcatt gacagtgccc aggctctggt gtgtctctca
+     2761 cagctaataa aggtgacact ccagggcagg ggccctgatg tgagtggggt gttgggagga
+     2821 acagagggga ctcagctgtg ctatggggtt tctttgactt ggatgtcttg agcatgaaat
+     2881 gggctgttta gagtgtgacc catcactgtg actgatatga atttgttcgt gaatattttc
+     2941 ctctatagtg tga
 //
 LOCUS       NHP09657                1047 bp    DNA     linear   PRI 07-APR-2020
 DEFINITION  Mamu-F*02:07:02, F locus allele.
@@ -942,55 +1153,76 @@ ORIGIN
       961 gttactggag ctgtggtcac tgctgtaatg tggaggagaa agagctcaga tagaaacaga
      1021 gggagctact ctcagcctac aatgtga
 //
-LOCUS       NHP09659                1047 bp    DNA     linear   PRI 07-APR-2020
-DEFINITION  Mamu-F*02:08:01, F locus allele.
+LOCUS       NHP09659                2897 bp    DNA     linear   PRI 01-JUN-2026
+DEFINITION  Mamu-F*02:08:01:01, F locus allele.
 ACCESSION   NHP09659
 VERSION     NHP09659
 DBLINK      INSDC: LT899424
+            INSDC: OZ407682
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-F*02:08:01
+COMMENT     IPD-MHC allele: Mamu-F*02:08:01:01
             IPD accession: NHP09659
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-F*01:08:01
+            Previous designations: Mamu-F*01:08:01; Mamu-F*02:08:01
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2897
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2897
                      /gene="F"
-                     /allele="Mamu-F*02:08:01"
-                     /note="previous designations: Mamu-F*01:08:01"
+                     /allele="Mamu-F*02:08:01:01"
+                     /note="previous designations: Mamu-F*01:08:01;
+                     Mamu-F*02:08:01"
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1990..2106
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2558..2590
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2893..2897
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
                      /gene="F"
-                     /allele="Mamu-F*02:08:01"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1989
+                     /gene="F"
+                     /number=4
+     intron          2107..2557
+                     /gene="F"
+                     /number=5
+     intron          2591..2892
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1990..2106,
+                     2558..2590,2893..2897)
+                     /gene="F"
+                     /allele="Mamu-F*02:08:01:01"
                      /codon_start=1
                      /product="MHC class I F antigen"
                      /translation="MAPRTLLLVLSGALALTETWAGSHSLRYFSTAVSRPGRREPRYRY
@@ -1002,23 +1234,54 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcacccc gaaccctcct cctggtgctc tcaggggctc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcggtaca ggtacatcgc ggtggagtac gtggacgaca cgcagtttct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgggcgccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggccg ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgcctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 acctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggacg gggaggaaca gacccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gttactggag ctgtggtcgc tgctgtaatg tggaggagaa agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggccctta
+      121 aggcgggggc gcaggacctg gggacttgct cccggcggaa ggtcgggcgg atctcaggcc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcggtaca ggtacatcgc ggtggagtac gtggacgaca cgcagtttct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgggcgccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggccg gtgagcgacc
+      481 ccgaccaggg gcgcgggtca tgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccagacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgcc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggacct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccatgggc gccttcccca
+     1021 tctcctgtag atctcttggg atggcctcgc acaaggtggg gaggaaagtg ggactaatgc
+     1081 tagaatatcg ctctctctcg ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgtttggg
+     1321 gctctgattc cagctcttat gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctcccccc tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgatccc ttccccaccc caggtgtcct gtccattctc
+     1501 aggacggtca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggacggg gaggaacaga cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagagaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gctggggtca ggggccctca ccttcctctc
+     1981 ctttcccaga gtcgtcttct cagcccacca tccccattgt gggcatcgtt gctggcctgg
+     2041 ctgtcctagc agttgtggtt actggagctg tggtcgctgc tgtaatgtgg aggagaaaga
+     2101 gctcaggtag ggaaggggtg aggagaggag tctgagtttt cttgtcccac tgggggttgc
+     2161 aagccccagg tagaagtgtg ttctgcctcg taactgggaa gcaccatcca cacacacagg
+     2221 cctacccagc ctgggccctc tgtgccagct ctaactcatt tgtaaagcac ttgtgaaaat
+     2281 gaagacagat tcttcacttc aatgattgtg gtggtgggga cctgattccc agcagtcaca
+     2341 actcacaggg gaaggtctct gctgatgaca gacctcagga gggcagttgg tccaggaccc
+     2401 acatctgctt tcttcgtatt tcctaatgaa gtaaatgtgt aatctgcagt tacatatttc
+     2461 tggaaacttc tctgggatca atgactagga ggttgctcta ggaccttatg gccctggctc
+     2521 ctttctggcc tctcacagga catttttctt cccacagata gaaacagagg gagctactct
+     2581 cagcctacaa gtaagtatga aggaggctga tccctgagat tgttgcggta ttggtcagga
+     2641 gcccatgagg gagctcaccc accccacagt tcctctagcc atatctgtgg gctctgaccg
+     2701 ggttctgttt ttgttctacc ccaatcattg acagtgccca ggctctggtg tgtctttcac
+     2761 agctaataag ggtgacactc cagggcaggg gcccggatgt gagtggggtg ttgggaggaa
+     2821 cagaggggac tcagctgtgc tatggggttt ctttgacttg gatgtcttga gcatgaaatg
+     2881 ggctgtttag agtgtga
 //
 LOCUS       NHP09660                1047 bp    DNA     linear   PRI 07-APR-2020
 DEFINITION  Mamu-F*02:08:02, F locus allele.
@@ -1098,55 +1361,75 @@ ORIGIN
       961 gttactggag ctgtggtcgc tgctgtaatg tggaggagaa agagctcaga tagaaacaga
      1021 gggagctact ctcagcctac aatgtga
 //
-LOCUS       NHP09661                1047 bp    DNA     linear   PRI 07-APR-2020
-DEFINITION  Mamu-F*02:09, F locus allele.
+LOCUS       NHP09661                2955 bp    DNA     linear   PRI 01-JUN-2026
+DEFINITION  Mamu-F*02:09:01:01, F locus allele.
 ACCESSION   NHP09661
 VERSION     NHP09661
 DBLINK      INSDC: LT899426
+            INSDC: OZ407683
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-F*02:09
+COMMENT     IPD-MHC allele: Mamu-F*02:09:01:01
             IPD accession: NHP09661
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-F*01:09
+            Previous designations: Mamu-F*01:09; Mamu-F*02:09
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2955
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2955
                      /gene="F"
-                     /allele="Mamu-F*02:09"
-                     /note="previous designations: Mamu-F*01:09"
+                     /allele="Mamu-F*02:09:01:01"
+                     /note="previous designations: Mamu-F*01:09; Mamu-F*02:09"
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1991..2107
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2561..2593
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2951..2955
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
                      /gene="F"
-                     /allele="Mamu-F*02:09"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1990
+                     /gene="F"
+                     /number=4
+     intron          2108..2560
+                     /gene="F"
+                     /number=5
+     intron          2594..2950
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1991..2107,
+                     2561..2593,2951..2955)
+                     /gene="F"
+                     /allele="Mamu-F*02:09:01:01"
                      /codon_start=1
                      /product="MHC class I F antigen"
                      /translation="MAPRTLLLVLSGALALTETWAGSHSLRYFSTAVSRPGRREPQYRY
@@ -1158,23 +1441,55 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggccg ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgcctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 acctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggatg gggaggaaca gacccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gtcactggag ctgtggtcgc tgctgtaatg tggaagagga agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggcccgta
+      121 aggcgggggc gcaggacctg gggagttgcg cccagaggaa ggtcgggcgg atctcagccc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggccg gtgagcgacc
+      481 ccgaccaggg gcgcgggtca cgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccagacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgcc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggacct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccatgggc gccttcccca
+     1021 tctcctgtag atctcttggg atggcctcgc acaaggtggg gaggaaagtg ggactaatgc
+     1081 tagaatatcg ctctctctcg ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgtttggg
+     1321 gctctgattc cagctcttat gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctccccac tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgatccc ttccccaccc caggtgtcct gtccattctc
+     1501 aggacggtca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggatggg gaggaacaga cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagggaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gcctggggtc aggggccctc accttcctct
+     1981 cctttcccag agtcgtcttc tcagcccacc atccccattg tgggcatcgt tgctggcctg
+     2041 gctgtcctag cagttgtggt cactggagct gtggtcgctg ctgtaatgtg gaagaggaag
+     2101 agctcaggta gggaaggggt gaggatcgga gtctgagttt tcttgtccca ctgggggttg
+     2161 caagccccag gtagaagtgt gttctgcctc gtaactggga agcaccgtcc acacacacag
+     2221 gcctacccag cctgggccct ctgtgccagc tctaactcat ttgtaaagca cttgtgaaaa
+     2281 tgaagacaga ttcttcactt caatgattgt ggtggtgggg acctgattcc cagcagtcac
+     2341 aactcacagg ggaaggtctc tgctgatgac agacctcagg agggcagttg gtccaggacc
+     2401 cacatctgct ttcttcgtat ttcctaatga agtaaatgtg taatctgcag ttacatattt
+     2461 ctggaaactt ctctgggatc aatgactagg aggttgctct aggaccttat ggccctggct
+     2521 cctttctggc ctctcacagg acattttttt tttcccacag atagaaacag agggagctac
+     2581 tctcagccta caagtaagta tgaaggaggc tgatccctga gattgttgcg gtattggtca
+     2641 ggagcccatg agggagctca cccaccccac agttcctcta gccatatctg tgggctctga
+     2701 ccgggttctg tttttgttct accccaatca ctgacagtgc ccaggctctg gtgtgtctct
+     2761 cacagctaat aaaggtgaca ctccagggca ggggccctga tgtgagtggg gtgttgggag
+     2821 gaacagaggg gactcagctg tgctatgggg tttctttgac ttggatgtct tgagcatgaa
+     2881 atgggctgtt tagagtgtga cccatcactg tgactgatat gaatttgttc atgaatattt
+     2941 tcctctatag tgtga
 //
 LOCUS       NHP09662                1047 bp    DNA     linear   PRI 07-APR-2020
 DEFINITION  Mamu-F*02:10, F locus allele.
@@ -1254,55 +1569,75 @@ ORIGIN
       961 gttactggag ctgtggtcac tgctgtaatg tggaggagaa agagctcaga tagaaacaga
      1021 gggagctact ctcagcctac aatgtga
 //
-LOCUS       NHP09663                1047 bp    DNA     linear   PRI 07-APR-2020
-DEFINITION  Mamu-F*02:11, F locus allele.
+LOCUS       NHP09663                2953 bp    DNA     linear   PRI 01-JUN-2026
+DEFINITION  Mamu-F*02:11:01:01, F locus allele.
 ACCESSION   NHP09663
 VERSION     NHP09663
 DBLINK      INSDC: LT899428
+            INSDC: OZ407684
 KEYWORDS    IPD-MHC; MHC class I; F.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-F*02:11
+COMMENT     IPD-MHC allele: Mamu-F*02:11:01:01
             IPD accession: NHP09663
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-F*01:11
+            Previous designations: Mamu-F*01:11; Mamu-F*02:11
 FEATURES             Location/Qualifiers
-     source          1..1047
+     source          1..2953
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1047
+     gene            1..2953
                      /gene="F"
-                     /allele="Mamu-F*02:11"
-                     /note="previous designations: Mamu-F*01:11"
+                     /allele="Mamu-F*02:11:01:01"
+                     /note="previous designations: Mamu-F*01:11; Mamu-F*02:11"
      exon            1..64
                      /gene="F"
                      /number=1
-     exon            65..340
+     exon            195..470
                      /gene="F"
                      /number=2
-     exon            341..616
+     exon            717..992
                      /gene="F"
                      /number=3
-     exon            617..892
+     exon            1575..1850
                      /gene="F"
                      /number=4
-     exon            893..1009
+     exon            1990..2106
                      /gene="F"
                      /number=5
-     exon            1010..1042
+     exon            2559..2591
                      /gene="F"
                      /number=6
-     exon            1043..1047
+     exon            2949..2953
                      /gene="F"
                      /number=7
-     CDS             1..1047
+     intron          65..194
                      /gene="F"
-                     /allele="Mamu-F*02:11"
+                     /number=1
+     intron          471..716
+                     /gene="F"
+                     /number=2
+     intron          993..1574
+                     /gene="F"
+                     /number=3
+     intron          1851..1989
+                     /gene="F"
+                     /number=4
+     intron          2107..2558
+                     /gene="F"
+                     /number=5
+     intron          2592..2948
+                     /gene="F"
+                     /number=6
+     CDS             join(1..64,195..470,717..992,1575..1850,1990..2106,
+                     2559..2591,2949..2953)
+                     /gene="F"
+                     /allele="Mamu-F*02:11:01:01"
                      /codon_start=1
                      /product="MHC class I F antigen"
                      /translation="MAPRTLLLVLSGALALTETWAGSHSLRYFSTAVSRPGRREPQYRY
@@ -1314,23 +1649,55 @@ FEATURES             Location/Qualifiers
                      GSYSQPTM"
 ORIGIN
         1 atggcgcccc gaaccctcct cctggtgctc tcaggggccc tggccctgac cgagacctgg
-       61 gcgggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg ccgcagggag
-      121 cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct gcggttcgac
-      181 agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca agaggggccg
-      241 cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga ccgagtggcc
-      301 ctgaggaagc tgctcctccg ctacaaccag agcgaggccg ggtctcacac cctccaggga
-      361 atgaacggct gcgacatggg gcccgacgga cgtctcctcc gcgggtatca ccagcacgcc
-      421 tacgacggca aggattacat ctccctgaac gaggacctgc gctcctggac cgccgcggac
-      481 acggtagctc ggatcaccca gcgcttctat gaggcagagg aatatgcaga ggagttcagg
-      541 acctacctgg agggcgagtg cctggagttg ctccgcagat acctggagaa cgggaaggag
-      601 acgctacagc gcgcagatcc tccaaaggca cacgttgccc accaccccat ctctgaccgt
-      661 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg ccgagatcac actgacctgg
-      721 cagcgggacg gggaggaaca gccccaggac acggagcttg tggagaccag gcctgcaggg
-      781 gatggaacct tccagaagtg ggcagctgtg gtggtgcctt ccggagagga gcagagatac
-      841 acgtgccatg tgcaacacga agggctgccc cagcccctca ccctgagatg ggagtcgtct
-      901 tctcagccca ccatccccat tgtgggcatc gttgctggcc tggctgtcct agcagttgtg
-      961 gttactggag ctgtggtcac tgctgtaatg tggaggagaa agagctcaga tagaaacaga
-     1021 gggagctact ctcagcctac aatgtga
+       61 gcgggtgagt gcggggtcgg gagggaaagg gtctctgcgg ggagaagcga ggggcccgta
+      121 aggcgcgggc gcaggacctg gggagttgcg cccagaggaa ggtcgggcgg atctcagccc
+      181 ctcctcgccc ccaggctccc actccttgcg gtattttagc accgctgtgt cgcggcccgg
+      241 ccgcagggag cctcagtaca ggtacatcgc ggtggagtac gtggacgaca cgcagttcct
+      301 gcggttcgac agcgacgccg cgattccgag gatggagccg cgagcgccgt gggtggagca
+      361 agaggggccg cagtattggg agcggaccac agggtacgcc aaggccaacg cacggactga
+      421 ccgagtggcc ctgaggaagc tgctcctccg ctacaaccag agcgaggccg gtgagcgacc
+      481 ccgaccaggg gcgcgggtca cgaccactcc ccatcagcca cggaccgtcc gggtccccca
+      541 gagtctccgg gtccgaaatc caccctgagg ctgcgggacc cgcccagacc ctccacccag
+      601 gagagtccca ggcgccttta ccgggtttca ttttcagttt aggccaaaat cccggcgggt
+      661 tgggcggaga gagggcgcgg ctagctagac ggggctgact gcagggaccg ggccagggtc
+      721 tcacaccctc cagggaatga acggctgcga catggggccc gacggacgtc tcctccgcgg
+      781 gtatcaccag cacgcctacg acggcaagga ttacatctcc ctgaacgagg acctgcgctc
+      841 ctggaccgcc gcggacacgg tagctcggat cacccagcgc ttctatgagg cagaggaata
+      901 tgcagaggag ttcaggacct acctggaggg cgagtgcctg gagttgctcc gcagatacct
+      961 ggagaacggg aaggagacgc tacagcgcgc aggtaccagg ggccatgggc gccttcccca
+     1021 tctcctgtag atctcttggg atggcctcgc acaaggtggg gaggaaagtg ggactaattc
+     1081 tagaatatcg ccctctctct ggtcctgagt gggaagaatc tttctggctt tccagatcct
+     1141 gtaccagaaa gtgactgtga gagtccaccc tgctctctgg gacaattaag ggatgaagtc
+     1201 tctgagggaa tggagggaag acagtccctg gaatactgat ccacgatccc ttttgagcct
+     1261 tgggccccgt ggcttttcct ctcaagcttt gttctctgcc tcacactgaa tgtgtttggg
+     1321 gctctgattc cagctcttat gagtccctcg gcctccactt aagtcagggc cagaagtccc
+     1381 tgctcccccc tcagagactc gaactttcca aggaataaga gattttccca ggtgcctgtg
+     1441 tccaggctgg tgtctgggtt ctgtgatccc ttccccaccc caggtgtcct gtccattctc
+     1501 aggacggtca catgagcact gctggggttc ccaatgagga aggcaaagta cctgaatttt
+     1561 ctgactctgc tcagatcctc caaaggcaca cgttgcccac caccccatct ctgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcc gagatcacac tgacctggca
+     1681 gcgggacggg gaggaacagc cccaggacac ggagcttgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtgccttcc ggagaggagc agagatacac
+     1801 gtgccatgtg caacacgaag ggctgcccca gcccctcacc ctgagatggg gtaaggagtg
+     1861 agatggggta aggaagggga tgaggggtcg cgtctcttct cagagaaagc aggagccctt
+     1921 ctggagccct tctgcagagc cagggctgag gctggggtca ggggccctca ccttcctctc
+     1981 ctttcccaga gtcgtcttct cagcccacca tccccattgt gggcatcgtt gctggcctgg
+     2041 ctgtcctagc agttgtggtt actggagctg tggtcactgc tgtaatgtgg aggagaaaga
+     2101 gctcaggtag ggaaggggtg aggagaggag tctgagtttt cttgtcccac tgggggttgc
+     2161 aagccccagg tagaagtgtg ttctgcctcg taactgggaa gcaccatcca cacacacagg
+     2221 cctacccagc ctgggccctc tgtgccagct ctaactcatt tgtaaagcac ttgtgaaaat
+     2281 gaagacagat tcttcacttc aatgattgtg gtggtgggga cctgattccc agcagtcaca
+     2341 actcacaggg gaaggtctct gctgatgaca gacctcagga gggcagttgg tccaggaccc
+     2401 acatctgctt tcttcgtatt tcctaatgaa gtaaatgtgt aatctgcagt tacatatttc
+     2461 tggaaacttc tctgggatca atgactagga ggttgctcta ggaccttatg gccctggctc
+     2521 ctttctggcc tctcacagga catttttttt tcccacagat agaaacagag ggagctactc
+     2581 tcagcctaca agtaagtatg aaggaggctg atccctgaga ttgttgcggt attggtcagg
+     2641 agcccatgag ggagctcacc caccccacag ttcctctagc catatctgtg ggctctgacc
+     2701 gggtcctgtt tttgttctac cccaatcatt gacagtgccc aggctctggt gtgtctctca
+     2761 cagctaataa aggtgacact ccaggggagg ggccctgatg tgagtggggt gttgggagga
+     2821 acagagggga ctcagctgtg ctatggggtt tctttgactt ggatgtcttg agcatgaaat
+     2881 gggctgttta gagtgtgacc catcactgtg actgatatga atttgttcgt gaatattttc
+     2941 ctctatagtg tga
 //
 LOCUS       NHP09664                1047 bp    DNA     linear   PRI 07-APR-2020
 DEFINITION  Mamu-F*02:12, F locus allele.

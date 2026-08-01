@@ -1,4 +1,4 @@
-LOCUS       NHP00498               11673 bp    DNA     linear   PRI 07-MAY-2020
+LOCUS       NHP00498               11672 bp    DNA     linear   PRI 26-JUN-2026
 DEFINITION  Mamu-DRB5*03:01:01:01, DRB5 locus allele.
 ACCESSION   NHP00498
 VERSION     NHP00498
@@ -39,11 +39,11 @@ COMMENT     IPD-MHC allele: Mamu-DRB5*03:01:01:01
             MHC class: II
             Previous designations: Mamu-DRB5*03:01; Mamu-DRB5*0301
 FEATURES             Location/Qualifiers
-     source          1..11673
+     source          1..11672
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..11673
+     gene            1..11672
                      /gene="DRB5"
                      /allele="Mamu-DRB5*03:01:01:01"
                      /note="previous designations: Mamu-DRB5*03:01;
@@ -57,13 +57,13 @@ FEATURES             Location/Qualifiers
      exon            10543..10824
                      /gene="DRB5"
                      /number=3
-     exon            11524..11635
+     exon            11524..11634
                      /gene="DRB5"
                      /number=4
-     exon            11636..11659
+     exon            11635..11658
                      /gene="DRB5"
                      /number=5
-     exon            11660..11673
+     exon            11659..11672
                      /gene="DRB5"
                      /number=6
      intron          101..8066
@@ -75,8 +75,8 @@ FEATURES             Location/Qualifiers
      intron          10825..11523
                      /gene="DRB5"
                      /number=3
-     CDS             join(1..100,8067..8336,10543..10824,11524..11635,
-                     11636..11659,11660..11673)
+     CDS             join(1..100,8067..8336,10543..10824,11524..11634,
+                     11635..11658,11659..11672)
                      /gene="DRB5"
                      /allele="Mamu-DRB5*03:01:01:01"
                      /codon_start=1
@@ -85,7 +85,7 @@ FEATURES             Location/Qualifiers
                      FFNGTERVRFLHRDIYNQEEDLRFDSDVGEYRAVTELGRPDAEYWNGQKDILERRRAEV
                      DTVCRHNYGVFESFTVQRRVEPKVTMYPSKTQPLQHHTLLVCSVNGFYPGSIEVRWFRN
                      GQEEKAGVVSTGLIQNGDWTFQILVMLETVPQSGEVYTCQVEHPSVTSPITVEWRARSE
-                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGTLWTSTNRTPEL"
+                     SAQSKMLSGVGGFVLGLLFLGAGLFIYFRNQKGHSGLQPTGLLS"
 ORIGIN
         1 atggtgtgtc tgaagctccc tggaggctcc tgcatggcag ctctgacagt gacactgatg
        61 gtgctgagct ccccactggc tttggctggg gacatccgac gtaagtgcac attacgggtg
@@ -280,8 +280,8 @@ ORIGIN
     11401 gctagttatt ttagttctta cagagcagcc ttcttcccca ttttcaaagc tatgaattgc
     11461 acggtctcaa ttaaaaaggt tcaatttggg attaaaatca ctaaacctgg cttcctctct
     11521 caggagcacg gtctgaatcc gcacagagca agatgctgag tggagtcggg ggttttgtgc
-    11581 tgggcctgct cttccttggg gctgggctgt tcatctactt caggaatcag aaagggacac
-    11641 tctggacttc aaccaacagg actcctgagc tga
+    11581 tgggcctgct cttccttggg gctgggctgt tcatctactt caggaatcag aaaggacact
+    11641 ctggacttca accaacagga ctcctgagct ga
 //
 LOCUS       NHP00499                 246 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-DRB5*03:02, DRB5 locus allele.

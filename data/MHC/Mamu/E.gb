@@ -1,10 +1,11 @@
-LOCUS       NHP00578                1065 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:02, E locus allele.
+LOCUS       NHP00578                3242 bp    DNA     linear   PRI 26-MAY-2026
+DEFINITION  Mamu-E*02:02:01:01, E locus allele.
 ACCESSION   NHP00578
 VERSION     NHP00578
 DBLINK      INSDC: U02979
             INSDC: FM986653
             INSDC: LM608084
+            INSDC: OZ407654
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -18,44 +19,69 @@ REFERENCE   1
             macaques and humans.
   JOURNAL   Immunogenetics 41:59-68 (1995)
    PUBMED   7806297
-COMMENT     IPD-MHC allele: Mamu-E*02:02
+COMMENT     IPD-MHC allele: Mamu-E*02:02:01:01
             IPD accession: NHP00578
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*02
+            Previous designations: Mamu-E*02; Mamu-E*02:02
 FEATURES             Location/Qualifiers
-     source          1..1065
+     source          1..3242
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1065
+     gene            1..3242
                      /gene="E"
-                     /allele="Mamu-E*02:02"
-                     /note="previous designations: Mamu-E*02"
+                     /allele="Mamu-E*02:02:01:01"
+                     /note="previous designations: Mamu-E*02; Mamu-E*02:02"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            733..1008
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1626..1901
                      /gene="E"
                      /number=4
-     exon            878..991
+     exon            2023..2136
                      /gene="E"
                      /number=5
-     exon            992..1024
+     exon            2888..2920
                      /gene="E"
                      /number=6
-     exon            1025..1065
+     exon            3025..3072
                      /gene="E"
                      /number=7
-     CDS             1..1065
+     exon            3238..3242
                      /gene="E"
-                     /allele="Mamu-E*02:02"
+                     /number=8
+     intron          56..185
+                     /gene="E"
+                     /number=1
+     intron          456..732
+                     /gene="E"
+                     /number=2
+     intron          1009..1625
+                     /gene="E"
+                     /number=3
+     intron          1902..2022
+                     /gene="E"
+                     /number=4
+     intron          2137..2887
+                     /gene="E"
+                     /number=5
+     intron          2921..3024
+                     /gene="E"
+                     /number=6
+     intron          3073..3237
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,733..1008,1626..1901,2023..2136,
+                     2888..2920,3025..3072,3238..3242)
+                     /gene="E"
+                     /allele="Mamu-E*02:02:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGEPRFISVGY
@@ -64,33 +90,71 @@ FEATURES             Location/Qualifiers
                      KSNDGSEAEHQRAYLEDTCVEWLRRYLENGKETLLRSESPKTHVTRHPVSDHEATLRCW
                      ALGFYPAEITVTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQH
                      EGLPEPLILRWEPSSQSSIPIVGIIVGLVLLGAVVTGAVVAAVMWRKSSGRKGRSYSQA
-                     SCSDSAQGSDESLT"
+                     SCSDSAQGSDESLTAYKA"
 ORIGIN
-        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga cgccgcgagt
-      181 ccgaggatgg agccgcgggc gctgtggatg aagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgaa gaccctgcgc
-      301 ggctactaca accagagcga ggccgggtct catactctcc agtggatgca tggctgcgac
-      361 ctggggccgg acgggcgctt cttccgcggg tatgaacagt ttgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtccgcgg tggacacggc ggctcaaatc
-      481 tccgagcaaa agtcaaatga tggctctgag gcggagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctccg cagatacctg gagaatggga aggagacgct gctgcgctcg
-      601 gaatccccaa agacacacgt gacccgccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta ccctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag accaggcctg caggggatgg aactttccag
-      781 aagtgggcag ctgtggtggt accttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcatcctg agatgggagc cgtcttccca atcctccatc
-      901 ccaatcgtgg gcatcattgt tggcctggtt ctccttggag ctgtggtcac tggagctgtg
-      961 gttgctgctg tgatgtggag gaagagctca ggtagaaaag gacggagcta ctctcaggct
-     1021 tcgtgtagcg acagtgccca gggatctgat gagtctctca cagct
+        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
+      121 cgcaggactc ggggagccgc gccgggagta gggccggacc ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga
+      301 cgccgcgagt ccgaggatgg agccgcgggc gctgtggatg aagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgaa
+      421 gaccctgcgc ggctactaca accagagcga ggccggtgag tgaccccggc ctggggcgca
+      481 ggtcacgacc cctctccatc cctcacggac atcgtgggtt ccctcgagtc tccaggtccg
+      541 agattcaccc ccaggctgcg gaacccgccc agaccctcca cccggcagag tcccaggctc
+      601 ctttacccgg tttcattttc agtttaggcc aaaatccctg cgggttggcg gcgacagggg
+      661 cggggctcga caggggcggg gctcgacagg ggcggggctc ggtgggcggg actgactagc
+      721 gggcggggcc agggtctcat actctccagt ggatgcatgg ctgcgacctg gggccggacg
+      781 ggcgcttctt ccgcgggtat gaacagtttg cctacgacgg caaggattat ctcaccctga
+      841 atgaggacct gcgctcctgg tccgcggtgg acacggcggc tcaaatctcc gagcaaaagt
+      901 caaatgatgg ctctgaggcg gagcaccaga gagcctacct ggaagacaca tgcgtggagt
+      961 ggctccgcag atacctggag aatgggaagg agacgctgct gcgctcgggt aagagggtcc
+     1021 gcagggctac tctcccatct ccttcttggg ctaggactgt gcccacagct gacagacctc
+     1081 aaacagtaga agacgcaggg atggaagcca gattacccct cctcccttgg atcaggagag
+     1141 ggggctgtca ccccaggtac aggagatcct gtaccagaga gtgactctct taaatgacca
+     1201 gccttctctc agggacaatt aaggaatcta gtctcgctgg agagtccatt cttcaaatga
+     1261 actgatgagc agttttcttt gactctcagt gttaggaatc atgggggagt ttctctcgtg
+     1321 cctggttctc agccccacac caagagtttt tggaggtctg actccagctt ttctcagtca
+     1381 ttcagcatcc gcacaggcca ggaccagaaa tcccttttca ccttctatcc tgggctatct
+     1441 caccctgatt ctagaacttt ccaaggaata agaggatatc ccagatccct aagttcaggc
+     1501 tggtgtcaaa gttttgtcct cgtctcctac tataattgtc ctcttccttc tcaggatggt
+     1561 cacatgggtg ctgctggagt gtcccatgag agatacacag tgaattttct gactcttccc
+     1621 ctcagaatcc ccaaagacac acgtgacccg ccaccccgtc tctgatcatg aggccaccct
+     1681 gaggtgctgg gccctgggct tctaccctgc ggagatcaca gtgacctggc agcgggatgg
+     1741 ggaggaccag acccaggaca cggagcttgt ggagaccagg cctgcagggg atggaacttt
+     1801 ccagaagtgg gcagctgtgg tggtaccttc tggagaggag cagagataca cgtgccatgt
+     1861 gcagcatgag gggctacccg agcccctcat cctgagatgg ggtaaggaag ggaatgggag
+     1921 gtcatgtctc ttagggaaag caggagccct tctgaagccc ttccgcaggg tcagggctga
+     1981 ggcctggggg tcagggcccc ttacgttccc ctgttttccc agagccgtct tcccaatcct
+     2041 ccatcccaat cgtgggcatc attgttggcc tggttctcct tggagctgtg gtcactggag
+     2101 ctgtggttgc tgctgtgatg tggaggaaga gctcaggtag ggaagggaga ggggtagagt
+     2161 ctgagttttc ttgtcccact gggggtttca agccctaggt agaagtgtgt cctgccttgt
+     2221 tactgggaag caccgtccac attcacgggc cgacccagcc tgggccttgt gtgccagcac
+     2281 ctactttttt ttttagatgg aatcttggct ctgtcaccca ggctggagtg caatggcgtg
+     2341 gtttcagttc actgtaactg taacctctgc ctcctaggtt caagcggttc tcctgcctca
+     2401 gcctcctgag tagctgggac tacgtgtgcg tgccaccaca cccggctaat tttttttttt
+     2461 atttttagta gaggtggggt ttcactgtat tggccaggct ggtcttgaac tcctgacctc
+     2521 gtgatccacc tgcctaggcc tcgcaaagtg ctgggattac aggcgtgagc cagcacgccc
+     2581 agccacacct gctcttttgt aaagtacttg tgacaatgaa ggacagattt atcaccttga
+     2641 caattgtggt gatggggatc tgaacccagc agtcacaggt cacaggggaa ggtccctgct
+     2701 gaggacagac ctcaggaggg cagttggtcc aggacccaca cttgctttct tcatgtttcc
+     2761 tgaacctgcc ctgggtctgc agtcacagtt ctggatactt ctctgggatc caagactagg
+     2821 aggttcctcg aggaccttgt ggccctgact cctccctggc ccctcacagg acattttctt
+     2881 ccaacaggta gaaaaggacg gagctactct caggcttcgt gtaagtaggg ggcaggagtg
+     2941 tggaggagct cgcccacccc ataattcctc ctgcaccaca tctcctgtgg gctctaacca
+     3001 ggtcttgttt ttgttctacc ccaggtagcg acagtgccca gggatctgat gagtctctca
+     3061 cagcttataa aggtgagatt ctgggggtct gaagtgggtg gagcgtgggg cagatgggac
+     3121 aggactgggt tgtggggatt ttttgctttg gaatttttga gtgtgtggtg ggctgttcag
+     3181 agtgtcatca cttactgtga ctgacctgaa tttgttcatg actgttttct tctgtagcct
+     3241 ga
 //
-LOCUS       NHP00579                1080 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:03, E locus allele.
+LOCUS       NHP00579                3188 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:03:01:01, E locus allele.
 ACCESSION   NHP00579
 VERSION     NHP00579
 DBLINK      INSDC: U02980
             INSDC: EF611171
+            INSDC: OZ407655
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -104,47 +168,69 @@ REFERENCE   1
             macaques and humans.
   JOURNAL   Immunogenetics 41:59-68 (1995)
    PUBMED   7806297
-COMMENT     IPD-MHC allele: Mamu-E*02:03
+COMMENT     IPD-MHC allele: Mamu-E*02:03:01:01
             IPD accession: NHP00579
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*03
+            Previous designations: Mamu-E*03; Mamu-E*02:03
 FEATURES             Location/Qualifiers
-     source          1..1080
+     source          1..3188
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1080
+     gene            1..3188
                      /gene="E"
-                     /allele="Mamu-E*02:03"
-                     /note="previous designations: Mamu-E*03"
+                     /allele="Mamu-E*02:03:01:01"
+                     /note="previous designations: Mamu-E*03; Mamu-E*02:03"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            701..976
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1594..1869
                      /gene="E"
                      /number=4
-     exon            878..994
+     exon            1991..2107
                      /gene="E"
                      /number=5
-     exon            995..1027
+     exon            2834..2866
                      /gene="E"
                      /number=6
-     exon            1028..1075
+     exon            2971..3018
                      /gene="E"
                      /number=7
-     exon            1076..1080
+     exon            3184..3188
                      /gene="E"
                      /number=8
-     CDS             1..1080
+     intron          56..185
                      /gene="E"
-                     /allele="Mamu-E*02:03"
+                     /number=1
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          977..1593
+                     /gene="E"
+                     /number=3
+     intron          1870..1990
+                     /gene="E"
+                     /number=4
+     intron          2108..2833
+                     /gene="E"
+                     /number=5
+     intron          2867..2970
+                     /gene="E"
+                     /number=6
+     intron          3019..3183
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1594..1869,1991..2107,
+                     2834..2866,2971..3018,3184..3188)
+                     /gene="E"
+                     /allele="Mamu-E*02:03:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALGTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGGPRFISVGY
@@ -155,31 +241,68 @@ FEATURES             Location/Qualifiers
                      EGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGAVVTGAVIVAVMWRRKSSGRKGGSYSQ
                      ASCSDSTQGSDESLTACKA"
 ORIGIN
-        1 atggcactag gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcggggg gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga cgccgcgagt
-      181 cagaggatgg agccgcgggc gccgtgggtg gagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcga ggccgggtct cataccctcc agtggatgca tggctgcgac
-      361 ctggggtccg acgggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtccgcgg tggacacggc ggctcaaatc
-      481 tccgagcaaa agtcaaatga tggctctgag gctgagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctcca cagatacctg gagaatggga aggagacgct gcagcgctca
-      601 gaacccccaa agacacacgt ggcccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta tcctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag accaggcctg caggggatgg aactttccag
-      781 aagtgggcag ctgtggtggt accttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcaccctg agatgggagc cgtcttccca gtccaccatc
-      901 cccatcgtgg gcatcattgc tggcctggtt ctccttggag ctgtggtcac tggagctgtg
-      961 attgttgctg tgatgtggag gaggaagagc tcaggtagaa aaggagggag ctactctcag
-     1021 gcttcgtgta gcgacagtac ccagggatct gatgagtctc tcacagcttg taaagcctga
+        1 atggcactag gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
+      121 cgcaggactc ggggagccgc gcccggagta gagccggacc ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcggggg
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga
+      301 cgccgcgagt cagaggatgg agccgcgggc gccgtgggtg gagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgga
+      421 gaccctgcgc ggctactaca accagagcga ggccggtgag tgaccccagc ccggggcgca
+      481 ggtcacgacc cctccccatc cctcacggac atcgtgggtt ccctcgagtc tcagggtcca
+      541 agattcaccc ccaggctgtg gaacccgccc agaccctcga cccggcagag tcccaggctc
+      601 ctttacccgg tttcgttttc agtttaggcc aaaatccctg cgggttggcg gcgacagggg
+      661 cggggctcgg tgggcgggac tgactagcag gcggggccag ggtctcatac cctccagtgg
+      721 atgcatggct gcgacctggg gtccgacggg cgcttcctcc gcgggtatga acagttcgcc
+      781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc cgcggtggac
+      841 acggcggctc aaatctccga gcaaaagtca aatgatggct ctgaggctga gcaccagaga
+      901 gcctacctgg aagacacatg cgtggagtgg ctccacagat acctggagaa tgggaaggag
+      961 acgctgcagc gctcaggtaa gagggtccac agggctactc tcccatctcc ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 atacccctcc tgccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagagt gactctctta aatgaccagc cttctgtcag ggacaattaa ggaatctagt
+     1201 cccgctggag agtccattct tcaaatgaac tgatgagcag ttctctttga ctctcagtgt
+     1261 taggaatcat gggggagttt ctctcgtgcc tggttctcag ccccacacca agagtttttg
+     1321 gaggtctgac tccagctttt ctcagtcact cagcatccgc acaggccagg accagaaatc
+     1381 ccttttcacc ttctgtcctg ggctatctca ccccgattct agaactttcc aaggaataag
+     1441 aggctatccc agatccctaa gttcaggctg gtgtcaaggt tttgtcctca tctcctacta
+     1501 taattgtcct ctttcttctc aggatggtca catgggtgct gctggagtgt cccatgagag
+     1561 atacacagtg aattttctga ctcttcccct cagaaccccc aaagacacac gtggcccacc
+     1621 accccgtctc tgatcatgag gccaccctga ggtgctgggc cctgggcttc tatcctgcgg
+     1681 agatcacagt gacctggcag cgggatgggg aggaccagac ccaggacacg gagcttgtgg
+     1741 agaccaggcc tgcaggggat ggaactttcc agaagtgggc agctgtggtg gtaccttctg
+     1801 gagaggagca gagatacacg tgccatgtgc agcatgaggg gctacccgag cccctcaccc
+     1861 tgagatgggg taaggaaggg aatgggaggt catgtctctt agggaaagca ggagcccttc
+     1921 tgaagccctt ttgcagggtc agggctgagg cctgggggtc agggcccctt acattcccct
+     1981 gttttcccag agccgtcttc ccagtccacc atccccatcg tgggcatcat tgctggcctg
+     2041 gttctccttg gagctgtggt cactggagct gtgattgttg ctgtgatgtg gaggaggaag
+     2101 agctcaggtg gggaagggag aggggtagag tctgagtttt cttgtcccac tgggggtttc
+     2161 aagccctagg tagaagtgtg tcctgcctta ttactgggaa gcaccatcca cactcacggg
+     2221 ccgacccagc ccgggccctg tgtgccagca cctactcttt tttttgagat ggaatcttgg
+     2281 ctctgtcacc caggctggag tgcaatggcg tggtttcagt tcactgtaac ctctgcctcc
+     2341 caggttcaag cgattctcct gcctcagcct cctgagtagc tgggactaca tgtgcatgcc
+     2401 accacacccg gctaattttt ttttgtactt ttagtagaga tggggtttca ctgtgttggc
+     2461 caggctggtc tcgaactcct gacctcgtga tccacctgcc tcggcctcac aaagtgctgg
+     2521 gattacaggc gtgagccacc acgcctgtgg tacctgtgac aatgaaggac agatttatca
+     2581 ccttgatgat tgtggtgatg gggatctgag cccagcagtc acgggtcaca ggggaaggtc
+     2641 cgtgctgagg acagacctca ggagggcagt tggtccagga cccacaattg ctttcttcat
+     2701 gtttcctaat cttgccctgg gtctgcagtc acagttctgg atacttctct aggatccaag
+     2761 actaggaggt tcctctagga ccttatggcc ctgcctcctc cctggcccct cacaggacat
+     2821 tttcttctaa caggtagaaa aggagggagc tactctcagg cttcgtgtaa gtagggggca
+     2881 ggagtgtgga ggagctcgcc caccccacaa ttcctcctgc accacatctc ctgtgggctc
+     2941 taaccaggtc ttgtttttgt tctaccccag gtagcgacag tacccaggga tctgatgagt
+     3001 ctctcacagc ttgtaaaggt gagattctgg gggtctaaag tgggtggagg gtggggcaga
+     3061 tgggatagga ctgggttgtg gggatttttt gatttggaat ttttgagtgt gtggtgggct
+     3121 gttcagagtg tcatcactta ctgtaactga cctgaatttg ttcatgactg ttttcttctg
+     3181 tagcctga
 //
-LOCUS       NHP00580                1080 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:04, E locus allele.
+LOCUS       NHP00580                3188 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:04:01:01, E locus allele.
 ACCESSION   NHP00580
 VERSION     NHP00580
 DBLINK      INSDC: U02981
             INSDC: EU305662
+            INSDC: OZ407656
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -193,47 +316,69 @@ REFERENCE   1
             macaques and humans.
   JOURNAL   Immunogenetics 41:59-68 (1995)
    PUBMED   7806297
-COMMENT     IPD-MHC allele: Mamu-E*02:04
+COMMENT     IPD-MHC allele: Mamu-E*02:04:01:01
             IPD accession: NHP00580
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*04
+            Previous designations: Mamu-E*04; Mamu-E*02:04
 FEATURES             Location/Qualifiers
-     source          1..1080
+     source          1..3188
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1080
+     gene            1..3188
                      /gene="E"
-                     /allele="Mamu-E*02:04"
-                     /note="previous designations: Mamu-E*04"
+                     /allele="Mamu-E*02:04:01:01"
+                     /note="previous designations: Mamu-E*04; Mamu-E*02:04"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            184..453
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            699..974
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1592..1867
                      /gene="E"
                      /number=4
-     exon            878..994
+     exon            1989..2105
                      /gene="E"
                      /number=5
-     exon            995..1027
+     exon            2832..2864
                      /gene="E"
                      /number=6
-     exon            1028..1075
+     exon            2971..3018
                      /gene="E"
                      /number=7
-     exon            1076..1080
+     exon            3184..3188
                      /gene="E"
                      /number=8
-     CDS             1..1080
+     intron          56..183
                      /gene="E"
-                     /allele="Mamu-E*02:04"
+                     /number=1
+     intron          454..698
+                     /gene="E"
+                     /number=2
+     intron          975..1591
+                     /gene="E"
+                     /number=3
+     intron          1868..1988
+                     /gene="E"
+                     /number=4
+     intron          2106..2831
+                     /gene="E"
+                     /number=5
+     intron          2865..2970
+                     /gene="E"
+                     /number=6
+     intron          3019..3183
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,184..453,699..974,1592..1867,1989..2105,
+                     2832..2864,2971..3018,3184..3188)
+                     /gene="E"
+                     /allele="Mamu-E*02:04:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGGGGPRFISVGY
@@ -244,24 +389,60 @@ FEATURES             Location/Qualifiers
                      EGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGAVLTGAVVAAVVWRRKSSGRKGWSYSQ
                      AVGSDSSQGSDDSLTAYKP"
 ORIGIN
-        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gcggcggggg gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt atgacagcga cgcggcgagt
-      181 ccgaggatgg agccgcgggc gctgtggatg aagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccagggc caccgcacag actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcga ggccgggtct cataccctcc agtggatgca tggctgcgac
-      361 ctggggccgg acgggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtccgcgg tggacacggc ggctcaaatc
-      481 tccgagcaaa agtcaaatga tggctctgag gcggagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctccg cagatacctg gagaatggga aggagacgct gcagcgctcg
-      601 gaatccccaa agacacacgt gacccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta ccctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag accaggcctg caggggatgg aactttccag
-      781 aagtgggcag ctgtggtggt accttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcaccctg agatgggagc cgtcttccca gtccaccatc
-      901 cccatcgtgg gcatcattgc tggcctggtt ctccttggcg ctgtgctcac tggagctgtg
-      961 gttgctgctg tggtgtggag gaggaagagc tcaggtagaa aaggatggag ctactctcag
-     1021 gctgtgggta gcgacagttc ccagggatct gatgattctc tcacagctta taaaccctga
+        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagg cctctacccg gaggagagag aggccggacc ggcgggggcg
+      121 caggactcgg ggagccgcgc cgggagtagg gccggaccgg tctcagcccc tcctcgcccc
+      181 caggctccca ctccttgaag tatttccaca cttccgtgtc ccggcccggc ggcggggggc
+      241 cccgcttcat ctccgtgggc tacgtggacg acacccagtt cgtgcggtat gacagcgacg
+      301 cggcgagtcc gaggatggag ccgcgggcgc tgtggatgaa gcaggagggg ccggagtatt
+      361 gggaccagga gacacggagc gccagggcca ccgcacagac tttccgagtg aacctggaga
+      421 ccctgcgcgg ctactacaac cagagcgagg ccggtgagtg accctggccc ggggcgcagg
+      481 tcacgacccc tccccatccc tcacggataa cgcgggtccc ctcgagtctc cgggtccgag
+      541 attcaccccc aggctgcgga acctgcccag accctcgacc cggcagagtc ctaggctcct
+      601 ttacccggtt tcattttcag tttaggccac aatccctgcg ggttggcggc gacaggggcg
+      661 gggctcggtg ggtgggactg actagcgggc ggggccaggg tctcataccc tccagtggat
+      721 gcatggctgc gacctggggc cggacgggcg cttcctccgc gggtatgaac agttcgccta
+      781 cgacggcaag gattatctca ccctgaatga ggacctgcgc tcctggtccg cggtggacac
+      841 ggcggctcaa atctccgagc aaaagtcaaa tgatggctct gaggcggagc accagagagc
+      901 ctacctggaa gacacatgcg tggagtggct ccgcagatac ctggagaatg ggaaggagac
+      961 gctgcagcgc tcgggtaaga gggtccacag ggctactctc ccatctcctt cttgggctag
+     1021 gactgtgccc acagctgaca gacctcaaac agtagaagac gcagggatgg aagccagaat
+     1081 acccctcctc ccttggatca ggagagggga ctgtcgcccc aggtacagga gatcttgtac
+     1141 cagagagtga ctctcttaaa tgaccagcct tctctcaggg acaattaagg aatctagtcc
+     1201 cgctggagag tccattcctc aaatgaactg atgagcagtt ctctttgact ctcagtgtta
+     1261 ggaatcatgg gggagtttct ctcgtgcctg gttctcagcc ccacaccaag agtatttgga
+     1321 ggtctgactc cagcttttct cagtcactca gcatccgcac aggccaggac cagaaatccc
+     1381 ttttcacctt ctgtcctggg ttatctcacc ccgattctag aactttccaa ggaataagag
+     1441 gctatcccag atccctaagt tcaggctggt gtcaaggttt tgtcctcatc tcctactata
+     1501 attgtcctct tctttctcag gatggtcaca tgggtgctgc tggagtgtcc catgagagat
+     1561 acacagtgaa ttttctgact cttcccctca gaatccccaa agacacacgt gacccaccac
+     1621 cccgtctctg atcatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag
+     1681 atcacagtga cctggcagcg ggatggggag gaccagaccc aggacacgga gcttgtggag
+     1741 accaggcctg caggggatgg aactttccag aagtgggcag ctgtggtggt accttctgga
+     1801 gaggagcaga gatacacgtg ccatgtgcag catgaggggc tacccgagcc cctcaccctg
+     1861 agatggggta agcaagggaa tgggaggtca tgtctcttag ggaaagcagg agcccttctg
+     1921 aagccctttt gcagggtcag ggctgaggcc tgggggtcag ggccccttac gttcccctgt
+     1981 tttcccagag ccgtcttccc agtccaccat ccccatcgtg ggcatcattg ctggcctggt
+     2041 tctccttggc gctgtgctca ctggagctgt ggttgctgct gtggtgtgga ggaggaagag
+     2101 ctcaggtggg gaagggagag gggtagagtc tgagttttct tgtcccactg ggggtttcaa
+     2161 gccctaggta gaagtgtgtc ctgccttgtt actgggaagc accatccaca cacacgggcc
+     2221 gacccagccc gggccctgtg tgccagcacc tactcttttt tttgagatgg aatcttggct
+     2281 ctgtcaccca ggctggagtg caatggcgtg gtttcagttc actgtaacct ctgcctccca
+     2341 ggttcaagcg attctcctgc ctcagcctcc cgagtagctg ggactacatg tgcgtgccac
+     2401 cacacccggc taattttttt ttgtactttt agtagagatg gggtttcact gtgttggcca
+     2461 ggctggtgtc gaactcctga cctcgtgatc cacctgcctc ggcctcacaa agtgctggga
+     2521 ttacaggcgt gagccaccac gcctgtggta cctgtgacaa tgaaggacag atttatcacc
+     2581 ttgatgattg tggtgatggg gatctgagcc cagcagtcac aggtcacagg ggaaggtccc
+     2641 tgctgaggac agacctcagg agggcagttg gtccaggacc cacacttgct ttcttcatgt
+     2701 tttctgatct tgccctgggt ctgcagtcac agttctggat acttctctgg gatccaagac
+     2761 taggaggttc ctctaggacc ttatggccct gcctccttcc tggcccctca caggacattt
+     2821 tcttctaaca ggtagaaaag gatggagcta ctctcaggct gtgggtaagt gacgggggcg
+     2881 ggagtgtgga ggagctcgcc caccccacaa ttcctcctgc accacatctc ctgtgggctc
+     2941 taaccaggtc ttgtttttgt tctaccccag gtagcgacag ttcccaggga tctgatgatt
+     3001 ctctcacagc ttataaacgt gagattctgg gggtctgaag tgggtggagg gtggggcaga
+     3061 tgggacagga ctgggttgtg gggatttttt gatttggaat ttttgagtgt gtggtgggct
+     3121 gtttagagtg tcatcactta ctgtgactga cctgaatttg ttcatgactg tttttttctg
+     3181 tagcctga
 //
 LOCUS       NHP00581                1077 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-E*02:05, E locus allele.
@@ -588,58 +769,81 @@ ORIGIN
       481 gcaccagaga gcctacctgg aagacacatg cgtggagtgg ctccgcagat acctggagaa
       541 tgggaaggag acgctgcagc gctcgcaatc cccaaagaca ca
 //
-LOCUS       NHP01628                1077 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:20, E locus allele.
+LOCUS       NHP01628                3213 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:20:01:01, E locus allele.
 ACCESSION   NHP01628
 VERSION     NHP01628
 DBLINK      INSDC: EU109709
+            INSDC: OZ407665
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:20
+COMMENT     IPD-MHC allele: Mamu-E*02:20:01:01
             IPD accession: NHP01628
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*0201
+            Previous designations: Mamu-E*0201; Mamu-E*02:20
 FEATURES             Location/Qualifiers
-     source          1..1077
+     source          1..3213
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1077
+     gene            1..3213
                      /gene="E"
-                     /allele="Mamu-E*02:20"
-                     /note="previous designations: Mamu-E*0201"
+                     /allele="Mamu-E*02:20:01:01"
+                     /note="previous designations: Mamu-E*0201; Mamu-E*02:20"
      exon            1..52
                      /gene="E"
                      /number=1
-     exon            53..322
+     exon            181..450
                      /gene="E"
                      /number=2
-     exon            323..598
+     exon            696..971
                      /gene="E"
                      /number=3
-     exon            599..874
+     exon            1593..1868
                      /gene="E"
                      /number=4
-     exon            875..991
+     exon            1990..2106
                      /gene="E"
                      /number=5
-     exon            992..1024
+     exon            2859..2891
                      /gene="E"
                      /number=6
-     exon            1025..1072
+     exon            2996..3043
                      /gene="E"
                      /number=7
-     exon            1073..1077
+     exon            3209..3213
                      /gene="E"
                      /number=8
-     CDS             1..1077
+     intron          53..180
                      /gene="E"
-                     /allele="Mamu-E*02:20"
+                     /number=1
+     intron          451..695
+                     /gene="E"
+                     /number=2
+     intron          972..1592
+                     /gene="E"
+                     /number=3
+     intron          1869..1989
+                     /gene="E"
+                     /number=4
+     intron          2107..2858
+                     /gene="E"
+                     /number=5
+     intron          2892..2995
+                     /gene="E"
+                     /number=6
+     intron          3044..3208
+                     /gene="E"
+                     /number=7
+     CDS             join(1..52,181..450,696..971,1593..1868,1990..2106,
+                     2859..2891,2996..3043,3209..3213)
+                     /gene="E"
+                     /allele="Mamu-E*02:20:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALGSLLLLSALTKTWAGSHSLKYFHTAVSRPGCVEPRFIFVGYV
@@ -650,27 +854,63 @@ FEATURES             Location/Qualifiers
                      GLPEPLTLRWEPPSQHSIPIVGISAGLVLLGAVVTGAVVAAVMWRRKSSGRKGGSYSQA
                      LCSDSTQGSEESLTAYKT"
 ORIGIN
-        1 atggcactag gaagcctact tctgctctca gcacttacca agacctgggc gggctcccac
-       61 tccttgaagt atttccacac cgccgtgtcc cggcccggct gcgtggagcc ccgcttcatc
-      121 ttcgtgggct acgtggacga cacccagttc gtgcggttcg acagcgatgc cgcgaatccg
-      181 aggatgcagc cgcgggcgcc atggatggag caggaggggc cggagtattg ggaccaggag
-      241 acacgcagag ccagggacac cgcacagact ttacgagtga aactgaagac cctgcgcggc
-      301 tactacaacc agagcgaggc cgggtctcat accctccagt ggatgtatgg ctgcgacctg
-      361 gggcccgacg ggcgcttcct ccgcgagtat gaacagttcg cctacgacgg caaggattat
-      421 ctcaccctga atgaggacct gcgctcctgg tccgcggtgg acacggcggc tcaaatctcc
-      481 gagcaaaagt caaatgatgg cggtgaggcg gagcaccaga gagcctacct ggaagacaca
-      541 tgcgtggagt ggctccgcag atacctggag aatgggaagg agacgctgca acgcccggaa
-      601 cccccaaaga cacacgtgac ccaccacccc atctctgatc atgaggccac cctgaggtgc
-      661 tgggccctgg gcttctaccc tgcggagatc acagtgacct ggcagcggga tggggaggac
-      721 cagacccagg acacggagct tgtggagacc aggcctgcag gggatggaac cttccagaag
-      781 tgggcagctg tggtggtgcc ttctggagag gagcagagat acacgtgcca tgtgcagcat
-      841 gaggggctac ccgagcccct caccctgaga tgggagccgc cttcccaaca ctccatcccc
-      901 atcgtgggca tcagtgctgg cctggttctc cttggagctg tggtcactgg agctgtggtt
-      961 gctgctgtga tgtggaggag gaagagctca ggtagaaaag gagggagcta ctctcaggct
-     1021 ttgtgtagcg acagtaccca gggatctgaa gagtctctca cagcttataa aacctga
+        1 atggcactag gaagcctact tctgctctca gcacttacca agacctgggc gggtgagtgc
+       61 ggggtcggga tggaagcggc ctctacccgg aggagagagg ggccggaccg gcgggggcgc
+      121 aggactcggg gagcctccgg gagtggggcc ggaccggtct cagcccctcc tcgcccccag
+      181 gctcccactc cttgaagtat ttccacaccg ccgtgtcccg gcccggctgc gtggagcccc
+      241 gcttcatctt cgtgggctac gtggacgaca cccagttcgt gcggttcgac agcgatgccg
+      301 cgaatccgag gatgcagccg cgggcgccat ggatggagca ggaggggccg gagtattggg
+      361 accaggagac acgcagagcc agggacaccg cacagacttt acgagtgaaa ctgaagaccc
+      421 tgcgcggcta ctacaaccag agcgaggccg gtgagtgacc ccggcccggg gcgcaggtca
+      481 cgacccctcc ccatccctca cggataacgc gggtcccctc gagtctccgg gtccgagatt
+      541 cacccccagg ctgcggaacc cgcccagacc ctcgacccgg cagagtccca ggctccttta
+      601 ccccgtttca ttttcagttt aggccacaat tcctgcgggt tggcggcgac aggggcgggg
+      661 ctcggcgggc gggactgact agcgggcggg gccagggtct cataccctcc agtggatgta
+      721 tggctgcgac ctggggcccg acgggcgctt cctccgcgag tatgaacagt tcgcctacga
+      781 cggcaaggat tatctcaccc tgaatgagga cctgcgctcc tggtccgcgg tggacacggc
+      841 ggctcaaatc tccgagcaaa agtcaaatga tggcggtgag gcggagcacc agagagccta
+      901 cctggaagac acatgcgtgg agtggctccg cagatacctg gagaatggga aggagacgct
+      961 gcaacgcccg ggtaagacgg tccacagggc tactctccca tctccttctt gggctaggac
+     1021 tgtgcccaca gctgacagac ctcaaacagt agaagacgca gggatggaag ccagaatacc
+     1081 cctcctccct tggatcagga gagggggctg tcaccccagg tacaggagat cctgtaccag
+     1141 agagtgactc tcttaaatga ccagccttct ctcagggaca attaaggaat ctagtctcac
+     1201 tggagagtcc attcttcaaa tgaactgatg agcagttctc tttgactctc agtgttagga
+     1261 atcatggggg agtttctctt gtgcctggtt ctcagcccca caccaagagt ttttggaggt
+     1321 ctgactctag cttttctcag tcactcagca tccgcacagg ccaggaccag aaatcccttt
+     1381 tcactttcta tcctgggcta tctcacccta attctagaac tttccaagga ataagaggct
+     1441 atcccagatc cctgagttca ggctggtgtc aaggttttgt cctcgtctcc tactataatt
+     1501 gtcctcttcc ttctcaggat ggtcacatgg gtgctgctgg agtgtcccat gagagataca
+     1561 aagtgtctga attttctgac tcttcccctc agaaccccca aagacacacg tgacccacca
+     1621 ccccatctct gatcatgagg ccaccctgag gtgctgggcc ctgggcttct accctgcgga
+     1681 gatcacagtg acctggcagc gggatgggga ggaccagacc caggacacgg agcttgtgga
+     1741 gaccaggcct gcaggggatg gaaccttcca gaagtgggca gctgtggtgg tgccttctgg
+     1801 agaggagcag agatacacgt gccatgtgca gcatgagggg ctacccgagc ccctcaccct
+     1861 gagatggggt aaggaaggga atgggaggtc atgtctctta gggaaagcag gagcccttct
+     1921 gaagcccttt tgcagggtca gggctgaggc ctgggggtca gggcccctta cgttcccctg
+     1981 ttttcccaga gccgccttcc caacactcca tccccatcgt gggcatcagt gctggcctgg
+     2041 ttctccttgg agctgtggtc actggagctg tggttgctgc tgtgatgtgg aggaggaaga
+     2101 gctcaggtgg ggaagggaga ggggtagagt ctgagttttc ttgtcccact gagggtttca
+     2161 agccctaggt agaagtgtgt cctgccttgt tactgggaag caccatccac acacacgggc
+     2221 tgacccagcc cgggtcctgt gtgccagcac ctactctctt ttttgagatg gaatcttggc
+     2281 tctgtcaccc aggctggagt gcattggcgt ggtttcagtt cactgtaact gtaacctctg
+     2341 cctcctaggt tcaagcgatt ctcctgcctc agcctcctga gtagctcgga ctatgtgtgc
+     2401 gtgccaccac acccggctaa tttttttttg tatttttagt agatatggag tttcactgtg
+     2461 ttggccaggc tggtctcgaa ctcctgacct cgtgatccac gtgcctcggc ctcgcaaagt
+     2521 gctgggatta caggcgtgag ccatcgcgcc cagccacacc tacttttttc taaagtacct
+     2581 gtgacaatga aggacagatt tatcaccttg acgattgtgg tgatggggat ctgagcccag
+     2641 cagtcacagg tcacagggga aggtccctgc tgaggacaga cctcaggagg gcagttggtc
+     2701 caggacccac aattgctttc ttcatgtttc ctgatcctgc cctgggtctg cagtcacagt
+     2761 tctggatact tctctgggat ccaagactag gaggttcctc gaggaccttg tggccctgcc
+     2821 tcctccctgg cccctcacag gacattttct tccaacaggt agaaaaggag ggagctactc
+     2881 tcaggctttg tgtaagtagg gggcgggagt gtggaggagc tcgcccaccc cataattcct
+     2941 cctgcaccac atctcctgtg ggctctaacc aggtcttgtt tttgttctac cccaggtagc
+     3001 gacagtaccc agggatctga agagtctctc acagcttata aaagtgagat tctgggggtc
+     3061 tgaagtgggt ggaggatggg gcagatggga caggactggg ttgtggggat tttttgcttt
+     3121 ggaatttttg agtgtgtggt gggctgttca gagtgtcatc acttactgtg actgacctga
+     3181 atttgttcat gactgttttc ttctgtagcc tga
 //
-LOCUS       NHP01629                1322 bp    DNA     linear   PRI 23-JUN-2021
-DEFINITION  Mamu-E*02:10, E locus allele.
+LOCUS       NHP01629                1322 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:10:01:01, E locus allele.
 ACCESSION   NHP01629
 VERSION     NHP01629
 DBLINK      INSDC: U02978
@@ -688,11 +928,11 @@ REFERENCE   1
             macaques and humans.
   JOURNAL   Immunogenetics 41:59-68 (1995)
    PUBMED   7806297
-COMMENT     IPD-MHC allele: Mamu-E*02:10
+COMMENT     IPD-MHC allele: Mamu-E*02:10:01:01
             IPD accession: NHP01629
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*0110
+            Previous designations: Mamu-E*0110; Mamu-E*02:10
 FEATURES             Location/Qualifiers
      source          1..1322
                      /organism="Macaca mulatta"
@@ -700,8 +940,8 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:9544"
      gene            1..1322
                      /gene="E"
-                     /allele="Mamu-E*02:10"
-                     /note="previous designations: Mamu-E*0110"
+                     /allele="Mamu-E*02:10:01:01"
+                     /note="previous designations: Mamu-E*0110; Mamu-E*02:10"
      exon            1..55
                      /gene="E"
                      /number=1
@@ -732,7 +972,7 @@ FEATURES             Location/Qualifiers
      CDS             join(1..55,56..325,571..846,847..1122,1123..1236,
                      1237..1269,1270..1317,1318..1322)
                      /gene="E"
-                     /allele="Mamu-E*02:10"
+                     /allele="Mamu-E*02:10:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGGPRFISVGY
@@ -767,58 +1007,81 @@ ORIGIN
      1261 aggcttcgtg tagcgacagt acccagggat ctgatgagtc tctcacagct tgtaaagcct
      1321 ga
 //
-LOCUS       NHP01630                1077 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:11, E locus allele.
+LOCUS       NHP01630                3185 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:11:01:01, E locus allele.
 ACCESSION   NHP01630
 VERSION     NHP01630
 DBLINK      INSDC: EU109711
+            INSDC: OZ407658
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:11
+COMMENT     IPD-MHC allele: Mamu-E*02:11:01:01
             IPD accession: NHP01630
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*0111
+            Previous designations: Mamu-E*0111; Mamu-E*02:11
 FEATURES             Location/Qualifiers
-     source          1..1077
+     source          1..3185
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1077
+     gene            1..3185
                      /gene="E"
-                     /allele="Mamu-E*02:11"
-                     /note="previous designations: Mamu-E*0111"
+                     /allele="Mamu-E*02:11:01:01"
+                     /note="previous designations: Mamu-E*0111; Mamu-E*02:11"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            701..976
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1594..1869
                      /gene="E"
                      /number=4
-     exon            878..991
+     exon            1991..2104
                      /gene="E"
                      /number=5
-     exon            992..1024
+     exon            2831..2863
                      /gene="E"
                      /number=6
-     exon            1025..1072
+     exon            2968..3015
                      /gene="E"
                      /number=7
-     exon            1073..1077
+     exon            3181..3185
                      /gene="E"
                      /number=8
-     CDS             1..1077
+     intron          56..185
                      /gene="E"
-                     /allele="Mamu-E*02:11"
+                     /number=1
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          977..1593
+                     /gene="E"
+                     /number=3
+     intron          1870..1990
+                     /gene="E"
+                     /number=4
+     intron          2105..2830
+                     /gene="E"
+                     /number=5
+     intron          2864..2967
+                     /gene="E"
+                     /number=6
+     intron          3016..3180
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1594..1869,1991..2104,
+                     2831..2863,2968..3015,3181..3185)
+                     /gene="E"
+                     /allele="Mamu-E*02:11:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGGPRFISVGY
@@ -829,77 +1092,136 @@ FEATURES             Location/Qualifiers
                      EGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGAMVVAVVVAVMWRRKSSGRKGGSYSQA
                      SCSDSTQGSDESLTACKA"
 ORIGIN
-        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcggggg gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt atgacagcga cgccgcgagt
-      181 ccgaggatgg agccgcgggc gccgtgggtg gagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcga ggccgggtct cataccctcc agtggatgca tggctgcgac
-      361 ctggggccgg acgggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtccgcgg tggacacggc ggctcaaatc
-      481 tccgagcaaa agtcaaatga tggctctgag gctgagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctcca cagatacctg gagaatggga aggagacgct gcagcgctca
-      601 gaacccccaa agacacacgt gacccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta tcctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag accaggcctg caggggatgg aactttccag
-      781 aagtgggcag ctgtggtggt accttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcaccctg agatgggagc cgtcttccca gtccaccatc
-      901 cccatcgtgg gcatcattgc tggcctggtt ctccttggag ctatggttgt tgctgtggtt
-      961 gttgctgtga tgtggaggag gaagagctca ggtagaaaag gagggagcta ctctcaggct
-     1021 tcgtgtagcg acagtaccca gggatctgat gagtctctca cagcttgtaa agcctga
+        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
+      121 cgcaggactc ggggagccgc gcccggagta gggccggacc ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcggggg
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt atgacagcga
+      301 cgccgcgagt ccgaggatgg agccgcgggc gccgtgggtg gagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgga
+      421 gaccctgcgc ggctactaca accagagcga ggccggtgag tgaccccggc ccggggcgca
+      481 ggtcacgacc cctccccatc cctcacggac atcgtgggtt ccctcgagtc tcagggtcca
+      541 agattcaccc ccaggctgtg gaacccgccc agaccctcga cccggcagag tcccaggctc
+      601 ctttacccgg tttcgttttc agtttaggcc aaaatccctg cgggttggcg gcgacagggg
+      661 cggggctcgg tgggtgggac tgactagcgg gcggggccag ggtctcatac cctccagtgg
+      721 atgcatggct gcgacctggg gccggacggg cgcttcctcc gcgggtatga acagttcgcc
+      781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc cgcggtggac
+      841 acggcggctc aaatctccga gcaaaagtca aatgatggct ctgaggctga gcaccagaga
+      901 gcctacctgg aagacacatg cgtggagtgg ctccacagat acctggagaa tgggaaggag
+      961 acgctgcagc gctcaggtaa gagggtccac agggctactc tcccatctcc ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 atacccctcc tcccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagagt gactctctta aatgaccagc cttctgtcag ggacaattaa ggaatctagt
+     1201 cccgctggag agtccattct tcaaatgaac tgatgagcag ttctctttga ctctcagtgt
+     1261 taggaatcat gggggagttt ctctcgtgcc tggttctcag ccccacacca agagtttttg
+     1321 gaggtctgac tccagctttt ctcagtcact cagcatccgc acaggccagg accagaaatc
+     1381 ccttttcacc ttctgtcctg ggctatctca ccccgattct agaactttcc aaggaataag
+     1441 aggctatccc agatccctaa gttcaggctg gtgtcaaggt tttgtcctca tctcctacta
+     1501 taattgtcct ctttcttctc aggatggtca catgggtgct gctggagtgt cccatgagag
+     1561 atacacagtg aattttctga ctcttcccct cagaaccccc aaagacacac gtgacccacc
+     1621 accccgtctc tgatcatgag gccaccctga ggtgctgggc cctgggcttc tatcctgcgg
+     1681 agatcacagt gacctggcag cgggatgggg aggaccagac ccaggacacg gagcttgtgg
+     1741 agaccaggcc tgcaggggat ggaactttcc agaagtgggc agctgtggtg gtaccttctg
+     1801 gagaggagca gagatacacg tgccatgtgc agcatgaggg gctacccgag cccctcaccc
+     1861 tgagatgggg taaggaaggg aatgggaggt catgtctctt agggaaagca ggagcccttc
+     1921 tgaagccctt ttgcagggtc agggctgagg cctgggggtc agggcccctt acgttcccct
+     1981 gttttcccag agccgtcttc ccagtccacc atccccatcg tgggcatcat tgctggcctg
+     2041 gttctccttg gagctatggt tgttgctgtg gttgttgctg tgatgtggag gaggaagagc
+     2101 tcaggtgggg aagggagagg ggtagagtct gagttttctt gtcccactgg gggtttcaag
+     2161 ccctaggtag aagtgtgtcc tgccttatta ctgggaagca ccatccacac tcacgggccg
+     2221 acccagcccg ggccctgtgt gccagcacct actctttttt ttgagatgga atcttggctc
+     2281 tgtcacccag gctggagtgc aatggcgtgg tttcagttca ctgtaacctc tgcctcccag
+     2341 gttcaagcga ttctcctgcc tcagcctcct gagtagctgg gactacatgt gcatgccacc
+     2401 acacccggct aatttttttt tgtactttta gtagagatgg ggtttcactg tgttggccag
+     2461 gctggtgtcg aactcctgac ctcgtgatcc acctgcctcg gcctcacaaa gtgctgggat
+     2521 tacaggcgtg agccaccacg cctgtggtac ctgtgacaat gaaggacaga tttatcacct
+     2581 tgatgattgt ggtgatgggg atctgaaccc agcagtcacg ggtcacaggg gaaggtccgt
+     2641 gctgaggaca gacctcagga gggcagttgg tccaggaccc acaattgctt tcttcatgtt
+     2701 tcctaatctt gccctgggtc tgcagtcaca gttctggata cttctctagg atccaagact
+     2761 aggaggttcc tctaggacct tatggccctg cctcctccct ggcccctcac aggacatttt
+     2821 cttctaacag gtagaaaagg agggagctac tctcaggctt cgtgtaagta gggggcagga
+     2881 gtgtggagga gctcgcccac cccacaattc ctcctgcacc acatctcctg tgggctctaa
+     2941 ccaggtcttg tttttgttct accccaggta gcgacagtac ccagggatct gatgagtctc
+     3001 tcacagcttg taaaggtgag attctggggg tctaaagtgg gtggagggtg gggcagatgg
+     3061 gataggactg ggttgtgggg attttttgat ttggaatttt tgagtgtgtg gtgggctgtt
+     3121 cagagtgtca tcacttactg taactgacct gaatttgttc atgactgttt tcttctgtag
+     3181 cctga
 //
-LOCUS       NHP01984                1080 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:12:01, E locus allele.
+LOCUS       NHP01984                3214 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:12:01:01, E locus allele.
 ACCESSION   NHP01984
 VERSION     NHP01984
 DBLINK      INSDC: EU305658
+            INSDC: OZ407660
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:12:01
+COMMENT     IPD-MHC allele: Mamu-E*02:12:01:01
             IPD accession: NHP01984
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*0112
+            Previous designations: Mamu-E*0112; Mamu-E*02:12:01
 FEATURES             Location/Qualifiers
-     source          1..1080
+     source          1..3214
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1080
+     gene            1..3214
                      /gene="E"
-                     /allele="Mamu-E*02:12:01"
-                     /note="previous designations: Mamu-E*0112"
+                     /allele="Mamu-E*02:12:01:01"
+                     /note="previous designations: Mamu-E*0112; Mamu-E*02:12:01"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            701..976
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1594..1869
                      /gene="E"
                      /number=4
-     exon            878..994
+     exon            1991..2107
                      /gene="E"
                      /number=5
-     exon            995..1027
+     exon            2860..2892
                      /gene="E"
                      /number=6
-     exon            1028..1075
+     exon            2997..3044
                      /gene="E"
                      /number=7
-     exon            1076..1080
+     exon            3210..3214
                      /gene="E"
                      /number=8
-     CDS             1..1080
+     intron          56..185
                      /gene="E"
-                     /allele="Mamu-E*02:12:01"
+                     /number=1
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          977..1593
+                     /gene="E"
+                     /number=3
+     intron          1870..1990
+                     /gene="E"
+                     /number=4
+     intron          2108..2859
+                     /gene="E"
+                     /number=5
+     intron          2893..2996
+                     /gene="E"
+                     /number=6
+     intron          3045..3209
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1594..1869,1991..2107,
+                     2860..2892,2997..3044,3210..3214)
+                     /gene="E"
+                     /allele="Mamu-E*02:12:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MAQRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGEPRFISVGY
@@ -910,24 +1232,60 @@ FEATURES             Location/Qualifiers
                      EGLPEPLTLRWEPSSQSTIPIVGISAGLVLLGTVVTGAVVAAVMWRRKSSGRKGGSYSQ
                      ASCSDSTQGSDESLTAYKT"
 ORIGIN
-        1 atggcacaac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga cgccgccagt
-      181 ccgaggatgc agccgcgggc gccgtgggtg gagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcacgg actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcgt ggccgcgtct cataccctcc agtggatgca tggctgcgac
-      361 ctggcgcccg acaggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtctgcgg tggacacggc ggctcagatc
-      481 tccgcgcaaa agtcaaatga tggcggtgag gcggagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctccg cagatacctg gagaatggga aggagacgct gcagcgctcg
-      601 gaacccccaa agacacacgt gacccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta ccctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag actaggcctg caggggatgg aaccttccag
-      781 aagtgggcag ctgtggtggt gccttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcaccctg agatgggagc cgtcttccca gtccaccatc
-      901 cccatcgtgg gcatcagtgc tggcctggtt ctccttggaa ctgtggtcac tggagctgtg
-      961 gttgctgctg tgatgtggag gaggaagagc tcaggtagaa aaggagggag ctactctcag
-     1021 gcttcgtgta gcgacagtac ccagggatct gatgagtctc tcacagctta taaaacctga
+        1 atggcacaac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
+      121 ctcaggactc ggggagccgc gccaggagtg gggccggaca ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga
+      301 cgccgccagt ccgaggatgc agccgcgggc gccgtgggtg gagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcacgg actttccgag tgaacctgga
+      421 gaccctgcgc ggctactaca accagagcgt ggccggtgag tgaccctggc ccggggcgca
+      481 ggtcacgacc cctccccatc cctcacggac aacgcgggtc ccctcgagtc tccgggtccg
+      541 agattcaccc ccaggctgcg gaacccgccc agactctcga cccggcatag tcccaggctc
+      601 ctttaccccg tttcattttc agtttaggcc aaaatccctg cgggttggca gcgacagggg
+      661 cggggctcgg tgggcgggac tgactagcgg gcggggccag cgtctcatac cctccagtgg
+      721 atgcatggct gcgacctggc gcccgacagg cgcttcctcc gcgggtatga acagttcgcc
+      781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc tgcggtggac
+      841 acggcggctc agatctccgc gcaaaagtca aatgatggcg gtgaggcgga gcaccagaga
+      901 gcctacctgg aagacacatg cgtggagtgg ctccgcagat acctggagaa tgggaaggag
+      961 acgctgcagc gctcgggtaa gagggtccgc aggcttactc tcccatctcc ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 atacccctcc tcccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagtga ctttcttaaa tgaccagcct tctctcaggg acaattaagg aatctagtct
+     1201 cgctggagag tccattcttc aaatgaactg atgagcagtt ctctttgact ctcagtgtta
+     1261 ggaatcatgg gggagtttct ctcatgcctg gttctcagcc ccacaccaag agtttttgga
+     1321 ggtctgactc tagcttttca cagtcactca gcatccgcac aggccaggac cagaaatccc
+     1381 ttttcacttt ctatcctggg ctatcaccct aattctagaa ctttccaagg aataagaggc
+     1441 tatcccagat ccctgagttc aggctggtgt caaggttttg tcctcgtctc ctactataat
+     1501 tgtcctcttc cttctcagga tggtcacatg ggtgctgctg gagtgtccca tgagagatac
+     1561 aaagtgtctg aattttctga ctcttcccct cagaaccccc aaagacacac gtgacccacc
+     1621 accccgtctc tgatcatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg
+     1681 agatcacagt gacctggcag cgggatgggg aggaccagac ccaggacacg gagcttgtgg
+     1741 agactaggcc tgcaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg
+     1801 gagaggagca gagatacacg tgccatgtgc agcatgaggg gctacccgag cccctcaccc
+     1861 tgagatgggg taaggaaggg aatgggaggt catgtctctt agggaaagca ggagcccttc
+     1921 tgaagccctt ttgcagggtc agggctgagg cctgggggtc agggcccttt acattcccct
+     1981 gttttcccag agccgtcttc ccagtccacc atccccatcg tgggcatcag tgctggcctg
+     2041 gttctccttg gaactgtggt cactggagct gtggttgctg ctgtgatgtg gaggaggaag
+     2101 agctcaggtg gggaagggag aggggtagag tctgagtttt cttgtcccac tgagggtttc
+     2161 aagccctagg tagaagtgtg tcctgccttg ttactgggaa gcaccatcca cacacacggg
+     2221 ctgacccagc ccgggtcctg tgtgccagca cctactcttt tttttgagat ggaatcttgg
+     2281 ctctgtcacc caggctggag tgcaatggcg tggtttcagt tcactgtaac tgtaacctct
+     2341 gcctcctagg ttcaagcggt tctcctgcct cagcctcccg agtagctggg actacgtgtg
+     2401 cgtgccacca cacccggcta attttttttt gtatttttag tagatatgga gtttcactgt
+     2461 gttggccagg ctgctgtcta actcctgacc tcgtgatcca cctgcctcgg cctcgcaaag
+     2521 tgctgggatt acaggcgtga gccatcgcgc ccagccacac ctactttttt ctaaagtacc
+     2581 tgtgacaatg aaggacagat ttatcacctt gacgattgtg gtgatgggga tctgagccca
+     2641 gcagtcacag gtcacaggag aaggtccctg ctgaggacag acctcaggag ggcagttggt
+     2701 ccaggaccca cacttgcttt cttcatgttt cctgatcctg ccctgggtct gcagtcacag
+     2761 ttctggatac ttctctggga tccaagacta ggaggttcct cgaggacctt gtggccctgc
+     2821 ctcctccctg gcccctcaca ggacattttc ttccaacagg tagaaaagga gggagctact
+     2881 ctcaggcttc gtgtaagtag ggggcgggag tgtggaggag ctcgcccacc ccataattcc
+     2941 tcctgtacca catctcctgt gggctctaac caggtcttgt ttttgttcta ccccaggtag
+     3001 cgacagtacc cagggatctg atgagtctct cacagcttat aaaagtgaga ttctgggggt
+     3061 ctgaagtggg tggagggtgg ggcagatggg acaggactgg gttgtgggga ttttttcctt
+     3121 tggaattttt gagtgtgtgg tgggctgttc agagtgtcat cacttactgt gactgacctg
+     3181 aatttgttca tgactgtttt cttctgtagc ctga
 //
 LOCUS       NHP01985                 988 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-E*02:13, E locus allele.
@@ -1150,59 +1508,83 @@ ORIGIN
       901 ccaatcgtgg gcatcattgc tggcctggac ctccttgcag ctgtggtcac tggagctgtg
       961 gttgctgctg tgatgtggaa gaggaagagc tcag
 //
-LOCUS       NHP02417                1080 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:01:02, E locus allele.
+LOCUS       NHP02417                3187 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:01:02:01, E locus allele.
 ACCESSION   NHP02417
 VERSION     NHP02417
 DBLINK      INSDC: EU934770
             INSDC: EF372279
+            INSDC: OZ407673
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:01:02
+COMMENT     IPD-MHC allele: Mamu-E*02:01:02:01
             IPD accession: NHP02417
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*010102
+            Previous designations: Mamu-E*010102; Mamu-E*02:01:02
 FEATURES             Location/Qualifiers
-     source          1..1080
+     source          1..3187
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1080
+     gene            1..3187
                      /gene="E"
-                     /allele="Mamu-E*02:01:02"
-                     /note="previous designations: Mamu-E*010102"
+                     /allele="Mamu-E*02:01:02:01"
+                     /note="previous designations: Mamu-E*010102;
+                     Mamu-E*02:01:02"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            701..976
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1593..1868
                      /gene="E"
                      /number=4
-     exon            878..994
+     exon            1990..2106
                      /gene="E"
                      /number=5
-     exon            995..1027
+     exon            2833..2865
                      /gene="E"
                      /number=6
-     exon            1028..1075
+     exon            2970..3017
                      /gene="E"
                      /number=7
-     exon            1076..1080
+     exon            3183..3187
                      /gene="E"
                      /number=8
-     CDS             1..1080
+     intron          56..185
                      /gene="E"
-                     /allele="Mamu-E*02:01:02"
+                     /number=1
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          977..1592
+                     /gene="E"
+                     /number=3
+     intron          1869..1989
+                     /gene="E"
+                     /number=4
+     intron          2107..2832
+                     /gene="E"
+                     /number=5
+     intron          2866..2969
+                     /gene="E"
+                     /number=6
+     intron          3018..3182
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1593..1868,1990..2106,
+                     2833..2865,2970..3017,3183..3187)
+                     /gene="E"
+                     /allele="Mamu-E*02:01:02:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGGPRFISVGY
@@ -1213,105 +1595,197 @@ FEATURES             Location/Qualifiers
                      EGLPEPLTLRWEPSSPSTIPIVGISAGLVLLGAVVTGAVVAAVMWRRKSSGRKGGSYSQ
                      ASCSDSTQGSDESLTACKA"
 ORIGIN
-        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcggggg gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt atgacagcga cgccgcgagt
-      181 ccgaggatgg agccgcgggc gccgtgggtg gagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcga ggccgggtct cataccctcc agtggatgca tggctgcgac
-      361 ctggggccgg acgggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtccgcgg tggacacggc ggctcaaatc
-      481 tccgagcaaa agtcaaatga tggctctgag gctgagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctcca cagatacctg gagaatggga aggagacgct gcagcgctcg
-      601 gaacccccaa agacacacgt gacccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta tcctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag accaggcctg caggggatgg aactttccag
-      781 aagtgggcag ctgtggtggt accttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcaccctg agatgggagc cgtcttcccc gtccaccatc
-      901 cccatcgtgg gcatcagtgc tggcctggtt ctccttggag ctgtggtcac tggagctgtg
-      961 gttgctgctg tgatgtggag gaggaagagc tcaggtagaa aaggagggag ctactctcag
-     1021 gcttcgtgta gcgacagtac ccagggatct gatgagtctc tcacagcttg taaagcctga
+        1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggagccgga ccggcggggg
+      121 cgcaggactc ggggagccgc gcccggagta gagccggacc ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcggggg
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt atgacagcga
+      301 cgccgcgagt ccgaggatgg agccgcgggc gccgtgggtg gagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcacag actttccgag tgaacctgga
+      421 gaccctgcgc ggctactaca accagagcga ggccggtgag tgaccccagc ccggggcgca
+      481 ggtcacgacc cctccccatc cctcacggac atcgtgggtt ccctcgagtc tcagggtcca
+      541 agattcaccc ccaggctgtg gaacccgccc agaccctcga cccggcagag tcccaggctc
+      601 ctttacccgg tttcgttttc agtttaggcc aaaatccctg cgggttggcg gcgacagggg
+      661 cggggctcgg tgggcgggac tgactagcag gcggggccag ggtctcatac cctccagtgg
+      721 atgcatggct gcgacctggg gccggacggg cgcttcctcc gcgggtatga acagttcgcc
+      781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc cgcggtggac
+      841 acggcggctc aaatctccga gcaaaagtca aatgatggct ctgaggctga gcaccagaga
+      901 gcctacctgg aagacacatg cgtggagtgg ctccacagat acctggagaa tgggaaggag
+      961 acgctgcagc gctcgggtaa gagggtccac agggctactc tcccatctcc ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 ataccctcct cccttggatc aggagagggg gctgtcaccc caggtacagg agatcctgta
+     1141 ccagagaatg actctcttaa atgaccagcc ttctgtcagg gacaattaag gaatctagtc
+     1201 ccgctggaga gtccattctt caaatgaact gatgagcagt tctctttgac tctcagtgtt
+     1261 aggaatcatg ggggagtttc tctcgtgcct ggttctcagc cccacaccaa gagtttttgg
+     1321 aggtctgact ccagcttttc tcagtcactc agcatccgca caggccagga ccagaaatcc
+     1381 cttttcacct tctgtcctgg gctatctcac cccgattcta gaactttcca aggaataaga
+     1441 ggctatccca gatccctaag ttcaggctgg tgtcaaggtt ttgtcctcat ctcctactat
+     1501 aattgtcctc tttcttctca ggatggtcac atgggtgctg ctggagtgtc ccatgagaga
+     1561 tacacagtga attttctgac tcttcccctc agaaccccca aagacacacg tgacccacca
+     1621 ccccgtctct gatcatgagg ccaccctgag gtgctgggcc ctgggcttct atcctgcgga
+     1681 gatcacagtg acctggcagc gggatgggga ggaccagacc caggacacgg agcttgtgga
+     1741 gaccaggcct gcaggggatg gaactttcca gaagtgggca gctgtggtgg taccttctgg
+     1801 agaggagcag agatacacgt gccatgtgca gcatgagggg ctacccgagc ccctcaccct
+     1861 gagatggggt aaggaaggga atgggaggtc atatctctta gggaaagcag gagcccttct
+     1921 gaagcccttt tgcagggtca gggctgaggc ctgggggtca gggcccctta cgttcccctg
+     1981 ttttcccaga gccgtcttcc ccgtccacca tccccatcgt gggcatcagt gctggcctgg
+     2041 ttctccttgg agctgtggtc actggagctg tggttgctgc tgtgatgtgg aggaggaaga
+     2101 gctcaggtgg ggaagggaga ggggtagagt ctgagttttc ttgtcccact gggggtttca
+     2161 agccctaggt agaagtgtgt cctgccttat tactgggaag caccatccac actcacgggc
+     2221 cgacccagcc cgggccctgt gtgccagcac ctactctttt ttttgagatg gaatcttggc
+     2281 tctgtcaccc aggctggagt gcaatggcgt ggtttcagtt cactgtaacc tctgcctccc
+     2341 aggttcaagc gattctcctg cctcagcctc ctgagtagct gggactacat gtgcatgcca
+     2401 ccacacccgg ctaatttttt tttgtacttt tagtagagat ggggtttcac tgtgttggcc
+     2461 aggctggtgt cgaactcctg acctcgtgat ccacctgcct cggcctcaca aagtgctggg
+     2521 attacaggcg tgagccacca cgcctgtggt acctgtgaca atgaaggaca gatttatcac
+     2581 cttgatgatt gtggtgatgg ggatctgagc ccagcagtca cgggtcacag gggaaggtcc
+     2641 gtgctgagga cagacctcag gagggcagtt ggtccaggac ccacaattgc tttcttcatg
+     2701 tttcctgatc ctgccctggg tctgcagtca cagttctgga tacttctcta ggatccaaga
+     2761 ctaggaggtt cctctaggac cttatggccc tgcctcctcc ctggcccctc acaggacatt
+     2821 ttcttctaac aggtagaaaa ggagggagct actctcaggc ttcgtgtaag tagggggcag
+     2881 gagtgtggag gagctcgccc accccacaat tcctcctgca ccacatctcc tgtgggctct
+     2941 aaccaggtct tgtttttgtt ctaccccagg tagcgacagt acccagggat ctgatgagtc
+     3001 tctcacagct tgtaaaggtg agattctggg ggtctaaagt gggtggaggg tggggcagat
+     3061 gggataggac tgggttgtgg ggattttttg atttggaatt tttgagtgtg tggtgggctg
+     3121 ttcagagtgt catcacttac tgtaactgac ctgaatttgt tcatgactgt tttcttctgt
+     3181 agcctga
 //
-LOCUS       NHP02418                1080 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:16, E locus allele.
+LOCUS       NHP02418                3222 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:16:01:01, E locus allele.
 ACCESSION   NHP02418
 VERSION     NHP02418
 DBLINK      INSDC: EU934771
+            INSDC: OZ407664
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:16
+COMMENT     IPD-MHC allele: Mamu-E*02:16:01:01
             IPD accession: NHP02418
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-E*0116
+            Previous designations: Mamu-E*0116; Mamu-E*02:16
 FEATURES             Location/Qualifiers
-     source          1..1080
+     source          1..3222
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1080
+     gene            1..3222
                      /gene="E"
-                     /allele="Mamu-E*02:16"
-                     /note="previous designations: Mamu-E*0116"
+                     /allele="Mamu-E*02:16:01:01"
+                     /note="previous designations: Mamu-E*0116; Mamu-E*02:16"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..597
+     exon            701..976
                      /gene="E"
                      /number=3
-     exon            598..877
+     exon            1598..1877
                      /gene="E"
                      /number=4
-     exon            878..994
+     exon            1999..2115
                      /gene="E"
                      /number=5
-     exon            995..1027
+     exon            2868..2900
                      /gene="E"
                      /number=6
-     exon            1028..1075
+     exon            3005..3052
                      /gene="E"
                      /number=7
-     exon            1076..1080
+     exon            3218..3222
                      /gene="E"
                      /number=8
-     CDS             1..1080
+     intron          56..185
                      /gene="E"
-                     /allele="Mamu-E*02:16"
+                     /number=1
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          977..1597
+                     /gene="E"
+                     /number=3
+     intron          1878..1998
+                     /gene="E"
+                     /number=4
+     intron          2116..2867
+                     /gene="E"
+                     /number=5
+     intron          2901..3004
+                     /gene="E"
+                     /number=6
+     intron          3053..3217
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1598..1877,1999..2115,
+                     2868..2900,3005..3052,3218..3222)
+                     /gene="E"
+                     /allele="Mamu-E*02:16:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALGTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGEPRFISVGY
                      VDDTQFVRYDSDAASPRMQPRAPWVEQEGPEYWDQETRSARDTARTFRVNLETLRGYYN
                      QSEAGSHTLQWMHGCDLAPDRRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQTSAQ
-                     KSNDGGEAEHQRAYLEDTCVEWLRRYLENGKETLQRSQSPKTHVTHHPVSDHEATLRCW
-                     ALGFYPAEITVTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQH
-                     EGLPEPRALRCEPSSQSTIPIVGISAGLVLLGTVVTGAVVVAVMWRRKSSGRKGWSYSQ
-                     ASCSDSTQGSDESLTAYKT"
+                     KSNDGGEAEHQRAYLEDTCVEWLRRYLENGKETLQRSLAIPKDTRDPPPRLX"
 ORIGIN
-        1 atggcactag gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga cgccgcgagt
-      181 ccgaggatgc agccgcgggc gccgtgggtg gagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcacgg actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcga ggccgggtct cataccctcc agtggatgca tggctgcgac
-      361 ctggcgcccg acaggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtctgcgg tggacacggc ggctcagacc
-      481 tccgcgcaaa agtcaaatga tggcggtgag gcggagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctccg cagatacctg gagaatggga aggagacgct gcagcgctcg
-      601 caatccccaa agacacacgt gacccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta ccctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag actaggcctg caggggatgg aaccttccag
-      781 aagtgggcag ctgtggtggt gccttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc ccgagccctg agatgcgagc cgtcttccca gtccaccatc
-      901 cccatcgtgg gcatcagtgc tggcctggtt ctccttggaa ctgtggtcac tggagctgtg
-      961 gttgttgctg tgatgtggag gaggaagagc tcaggtagaa aaggatggag ctactctcag
-     1021 gcttcgtgta gcgacagtac ccagggatct gatgagtctc tcacagctta taaaacctga
+        1 atggcactag gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
+      121 ctcaggactc ggggagccgc gccgggagtg gggccggaca ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga
+      301 cgccgcgagt ccgaggatgc agccgcgggc gccgtgggtg gagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcacgg actttccgag tgaacctgga
+      421 gaccctgcgc ggctactaca accagagcga ggccggtgag tgaccccggc ccggggcgca
+      481 ggtcacgacc cctccccatc cctcacggac aacgcgggtc ccctcgagtc tccgggtccg
+      541 agattcacct ccaggctgcg gaacccgccc agactctcga cccggcagag tcccaggctc
+      601 ctttaccccg tttcattttc agtttaggcc aaaatccctg cgggttggcg gcgacagggg
+      661 cggggctcgg tgggcgggac tgactagcgg gcggggccag ggtctcatac cctccagtgg
+      721 atgcatggct gcgacctggc gcccgacagg cgcttcctcc gcgggtatga acagttcgcc
+      781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc tgcggtggac
+      841 acggcggctc agacctccgc gcaaaagtca aatgatggcg gtgaggcgga gcaccagaga
+      901 gcctacctgg aagacacatg cgtggagtgg ctccgcagat acctggagaa tgggaaggag
+      961 acgctgcagc gctcgcgtaa gagggtccgc aggcttactc tcccatctct ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acacagggat ggaagccaga
+     1081 atacccctcc tcccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagagt gactctctta aatgaccagc cttctctcag ggacaattaa ggaatctagt
+     1201 ctcgctggag agtccattct tcaaatgaac tgatgagcag ttctctttga ctctcagtgt
+     1261 taggaatcat gggggagttt ctctcatgcc tggttctcag ccccacacca agagtttttg
+     1321 gaggtctgac tctagctttt cgcagtcact cagcatccgc acaggccagg accagaaatc
+     1381 ccttttcact ttctatcctg ggctatctca ccctaattct agaactttcc aaggaataag
+     1441 aggctatccc agatccctga gttcaggctg gtgtcaaggt tttgtcctca tctcctacta
+     1501 taattgtcct cttccttctc aggatggtca catgggtgct gctggagtgt cccatgagag
+     1561 atacaaagtg tctgaatttt ctgactcttc ccctcagtcg caatccccaa agacacacgt
+     1621 gacccaccac cccgtctctg atcatgaggc caccctgagg tgctgggccc tgggcttcta
+     1681 ccctgcggag atcacagtga cctggcagcg ggatggggag gaccagaccc aggacacgga
+     1741 gcttgtggag actaggcctg caggggatgg aaccttccag aagtgggcag ctgtggtggt
+     1801 gccttctgga gaggagcaga gatacacgtg ccatgtgcag catgaggggc tacccgagcc
+     1861 ccgagccctg agatgcggta aggaagggaa tgggaggtca tgtctcttag ggaaagcagg
+     1921 agcccttctg aagccctttt gcagggtcag ggctgaggcc tgggggtcag ggccccttac
+     1981 atttccctgt tttcccagag ccgtcttccc agtccaccat ccccatcgtg ggcatcagtg
+     2041 ctggcctggt tctccttgga actgtggtca ctggagctgt ggttgttgct gtgatgtgga
+     2101 ggaggaagag ctcaggtggg gaagggagag gggtagagtc tgagttttct tgtcccactg
+     2161 agggtttcaa gccctaggta gaagtgtgtc ctgccttgtt actgggaagc accatccaca
+     2221 cacacgggct gacccagccc gggtcctgtg tgccagcacc tactcttttt tttgagatgg
+     2281 aatcttggct ctgtcaccca ggctggagtg caatggcgtg gtttcagttc actgtaactg
+     2341 taacctctgc ctcctaggtt caagcggttc tcctgcctca gcctcccgag tagctgggac
+     2401 tacgtgtgcg tgccaccaca cccggctaat ttttttttgt atttttagta gatatggagt
+     2461 ttcactgtgt tggccaggct ggtgtctaac tcctgacctc gtgatccaac tgcctcggcc
+     2521 tcgcaaagtg ctgggattac aggcgtgagc catcgcgccc agccacacct acttttttct
+     2581 aaagtacctg tgacaatgaa ggacagattt atcaccttga cgattgtggt gatggggatc
+     2641 tgagcccagc agtcacaggt cacaggagaa ggtccctgct gaggacagac ctcaggaggg
+     2701 cagttggtcc aggacccaca cttgctttct tcatgtttcc tgatcctgcc ctgggtctgc
+     2761 agtcacagtt ctggatactt ctctgggatc caagactagg aggttcctcg aggaccttgt
+     2821 ggccctgcct cctccctggc ctctcacagg acattttctt ccaacaggta gaaaaggatg
+     2881 gagctactct caggcttcgt gtaagtaggg ggcgggagtg tggaggagct cgcccacccc
+     2941 ataattcctc ctgcaccaca tctcctgtgg gctctaacca ggtcttgttt ttgttctacc
+     3001 ccaggtagcg acagtaccca gggatctgat gagtctctca cagcttataa aagtgagatt
+     3061 ctgggggtct gaagtgggtg gagggtgggg cagatgggac aggactgggt tgtggggatt
+     3121 ttttgatttg gaatttttga gtgtgtggtg ggctgttcag agtgtcatca cttactgtga
+     3181 ctgacctgaa tttgttcatg actgttttct tctgtagcct ga
 //
 LOCUS       NHP02629                1080 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-E*02:17, E locus allele.
@@ -1635,56 +2109,81 @@ ORIGIN
       961 gttgttgctg tgatgtggag gaggaagagc tcaggtagaa aaggagggag ctactctcag
      1021 gcttcgtgta gcgacagtac ccagggatct gatgagtctc tcacagcttg taaagcctga
 //
-LOCUS       NHP03583                1080 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:12:02, E locus allele.
+LOCUS       NHP03583                3214 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:12:02:01, E locus allele.
 ACCESSION   NHP03583
 VERSION     NHP03583
 DBLINK      INSDC: GQ471889
+            INSDC: OZ407661
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:12:02
+COMMENT     IPD-MHC allele: Mamu-E*02:12:02:01
             IPD accession: NHP03583
             Species prefix: Mamu
             MHC class: I
+            Previous designations: Mamu-E*02:12:02
 FEATURES             Location/Qualifiers
-     source          1..1080
+     source          1..3214
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1080
+     gene            1..3214
                      /gene="E"
-                     /allele="Mamu-E*02:12:02"
+                     /allele="Mamu-E*02:12:02:01"
+                     /note="previous designations: Mamu-E*02:12:02"
      exon            1..55
                      /gene="E"
                      /number=1
-     exon            56..325
+     exon            186..455
                      /gene="E"
                      /number=2
-     exon            326..601
+     exon            701..976
                      /gene="E"
                      /number=3
-     exon            602..877
+     exon            1594..1869
                      /gene="E"
                      /number=4
-     exon            878..994
+     exon            1991..2107
                      /gene="E"
                      /number=5
-     exon            995..1027
+     exon            2860..2892
                      /gene="E"
                      /number=6
-     exon            1028..1075
+     exon            2997..3044
                      /gene="E"
                      /number=7
-     exon            1076..1080
+     exon            3210..3214
                      /gene="E"
                      /number=8
-     CDS             1..1080
+     intron          56..185
                      /gene="E"
-                     /allele="Mamu-E*02:12:02"
+                     /number=1
+     intron          456..700
+                     /gene="E"
+                     /number=2
+     intron          977..1593
+                     /gene="E"
+                     /number=3
+     intron          1870..1990
+                     /gene="E"
+                     /number=4
+     intron          2108..2859
+                     /gene="E"
+                     /number=5
+     intron          2893..2996
+                     /gene="E"
+                     /number=6
+     intron          3045..3209
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1594..1869,1991..2107,
+                     2860..2892,2997..3044,3210..3214)
+                     /gene="E"
+                     /allele="Mamu-E*02:12:02:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MAQRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGEPRFISVGY
@@ -1695,24 +2194,60 @@ FEATURES             Location/Qualifiers
                      EGLPEPLTLRWEPSSQSTIPIVGISAGLVLLGTVVTGAVVAAVMWRRKSSGRKGGSYSQ
                      ASCSDSTQGSDESLTAYKT"
 ORIGIN
-        1 atggcacaac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggctcc
-       61 cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga gccccgcttc
-      121 atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga cgccgccagt
-      181 ccgaggatgc agccgcgggc gccgtgggtg gagcaggagg ggccggagta ttgggaccag
-      241 gagacacgga gcgccaggga caccgcaagg actttccgag tgaacctgga gaccctgcgc
-      301 ggctactaca accagagcgt ggccgcgtct cataccctcc agtggatgca tggctgcgac
-      361 ctggcgcccg acaggcgctt cctccgcggg tatgaacagt tcgcctacga cggcaaggat
-      421 tatctcaccc tgaatgagga cctgcgctcc tggtctgcgg tggacacggc ggctcagatc
-      481 tccgcgcaaa agtcaaatga tggcggtgag gcggagcacc agagagccta cctggaagac
-      541 acatgcgtgg agtggctccg cagatacctg gagaatggga aggagacgct gcagcgctcg
-      601 gaacccccaa agacacacgt gacccaccac cccgtctctg atcatgaggc caccctgagg
-      661 tgctgggccc tgggcttcta ccctgcggag atcacagtga cctggcagcg ggatggggag
-      721 gaccagaccc aggacacgga gcttgtggag actaggcctg caggggatgg aaccttccag
-      781 aagtgggcag ctgtggtggt gccttctgga gaggagcaga gatacacgtg ccatgtgcag
-      841 catgaggggc tacccgagcc cctcaccctg agatgggagc cgtcttccca gtccaccatc
-      901 cccatcgtgg gcatcagtgc tggcctggtt ctccttggaa ctgtggtcac tggagctgtg
-      961 gttgctgctg tgatgtggag gaggaagagc tcaggtagaa aaggagggag ctactctcag
-     1021 gcttcgtgta gcgacagtac ccagggatct gatgagtctc tcacagctta taaaacctga
+        1 atggcacaac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
+       61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
+      121 ctcaggactc ggggagccgc gccaggagtg gggccggaca ggtctcagcc cctcctcgcc
+      181 cccaggctcc cactccttga agtatttcca cacttccgtg tcccggcccg gccgcgggga
+      241 gccccgcttc atctccgtgg gctacgtgga cgacacccag ttcgtgcggt acgacagcga
+      301 cgccgccagt ccgaggatgc agccgcgggc gccgtgggtg gagcaggagg ggccggagta
+      361 ttgggaccag gagacacgga gcgccaggga caccgcaagg actttccgag tgaacctgga
+      421 gaccctgcgc ggctactaca accagagcgt ggccggtgag tgaccctggc ccggggcgca
+      481 ggtcacgacc cctccccatc cctcacggac aacgcgggtc ccctcgagtc tccgggtccg
+      541 agattcaccc ccaggctgcg gaacccgccc agactctcga cccggcatag tcccaggctc
+      601 ctttaccccg tttcattttc agtttaggcc aaaatccctg cgggttggca gcgacagggg
+      661 cggggctcgg tgggcgggac tgactagcgg gcggggccag cgtctcatac cctccagtgg
+      721 atgcatggct gcgacctggc gcccgacagg cgcttcctcc gcgggtatga acagttcgcc
+      781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc tgcggtggac
+      841 acggcggctc agatctccgc gcaaaagtca aatgatggcg gtgaggcgga gcaccagaga
+      901 gcctacctgg aagacacatg cgtggagtgg ctccgcagat acctggagaa tgggaaggag
+      961 acgctgcagc gctcgggtaa gagggtccgc aggcttactc tcccatctct ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 atacccctcc tcccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagtga ctttcttaaa tgaccagcct tctctcaggg acaattaagg aatctagtct
+     1201 cgctggagag tccattcttc aaatgaactg atgagcagtt ctctttgact ctcagtgtta
+     1261 ggaatcatgg gggagtttct ctcatgcctg gttctcagcc ccacaccaag agtttttgga
+     1321 ggtctgactc tagcttttca cagtcactca gcatccgcac aggccaggac cagaaatccc
+     1381 ttttcacttt ctatcctggg ctatcaccct aattctagaa ctttccaagg aataagaggc
+     1441 tatcccagat ccctgagttc aggctggtgt caaggttttg tcctcgtctc ctactataat
+     1501 tgtcctcttc cttctcagga tggtcacatg ggtgctgctg gagtgtccca tgagagatac
+     1561 aaagtgtctg aattttctga ctcttcccct cagaaccccc aaagacacac gtgacccacc
+     1621 accccgtctc tgatcatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg
+     1681 agatcacagt gacctggcag cgggatgggg aggaccagac ccaggacacg gagcttgtgg
+     1741 agactaggcc tgcaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg
+     1801 gagaggagca gagatacacg tgccatgtgc agcatgaggg gctacccgag cccctcaccc
+     1861 tgagatgggg taaggaaggg aatgggaggt catgtctctt agggaaagca ggagcccttc
+     1921 tgaagccctt ttgcagggtc agggctgagg cctgggggtc agggcccttt acattcccct
+     1981 gttttcccag agccgtcttc ccagtccacc atccccatcg tgggcatcag tgctggcctg
+     2041 gttctccttg gaactgtggt cactggagct gtggttgctg ctgtgatgtg gaggaggaag
+     2101 agctcaggtg gggaagggag aggggtagag tctgagtttt cttgtcccac tgagggtttc
+     2161 aagccctagg tagaagtgtg tcctgccttg ttactgggaa gcaccatcca cacacacggg
+     2221 ctgacccagc ccgggtcctg tgtgccagca cctactcttt tttttgagat ggaatcttgg
+     2281 ctctgtcacc caggctggag tgcaatggcg tggtttcagt tcactgtaac tgtaacctct
+     2341 gcctcctagg ttcaagcggt tctcctgcct cagcctcccg agtagctggg actacgtgtg
+     2401 cgtgccacca cacccggcta attttttttt gtatttttag tagatatgga gtttcactgt
+     2461 gttggccagg ctgctgtcta actcctgacc tcgtgatcca cctgcctcgg cctcgcaaag
+     2521 tgctgggatt acaggcgtga gccatcgcgc ccagccacac ctactttttt ctaaagtacc
+     2581 tgtgacaatg aaggacagat ttatcacctt gacgattgtg gtgatgggga tctgagccca
+     2641 gcagtcacag gtcacaggag aaggtccctg ctgaggacag acctcaggag ggcagttggt
+     2701 ccaggaccca cacttgcttt cttcatgttt cctgatcctg ccctgggtct gcagtcacag
+     2761 ttctggatac ttctctggga tccaagacta ggaggttcct cgaggacctt gtggccctgc
+     2821 ctcctccctg gcccctcaca ggacattttc ttccaacagg tagaaaagga gggagctact
+     2881 ctcaggcttc gtgtaagtag ggggcgggag tgtggaggag ctcgcccacc ccataattcc
+     2941 tcctgtacca catctcctgt gggctctaac caggtcttgt ttttgttcta ccccaggtag
+     3001 cgacagtacc cagggatctg atgagtctct cacagcttat aaaagtgaga ttctgggggt
+     3061 ctgaagtggg tggagggtgg ggcagatggg acaggactgg gttgtgggga ttttttcctt
+     3121 tggaattttt gagtgtgtgg tgggctgttc agagtgtcat cacttactgt gactgacctg
+     3181 aatttgttca tgactgtttt cttctgtagc ctga
 //
 LOCUS       NHP07398                1080 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-E*02:21, E locus allele.
@@ -2017,53 +2552,90 @@ ORIGIN
       901 caaatgatgg ctctgaggcg gagcaccaga gagcctacct ggaagacaca tgcgtggagt
       961 ggctccgcag atacctggag aatgggaagg agacgctgct gcgctcgg
 //
-LOCUS       NHP09563                 978 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-E*02:25:01, E locus allele.
+LOCUS       NHP09563                3188 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:25:01:01, E locus allele.
 ACCESSION   NHP09563
 VERSION     NHP09563
 DBLINK      INSDC: MF004408
+            INSDC: OZ407669
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:25:01
+COMMENT     IPD-MHC allele: Mamu-E*02:25:01:01
             IPD accession: NHP09563
             Species prefix: Mamu
             MHC class: I
+            Previous designations: Mamu-E*02:25:01
 FEATURES             Location/Qualifiers
-     source          1..978
+     source          1..3188
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..978
+     gene            1..3188
                      /gene="E"
-                     /allele="Mamu-E*02:25:01"
+                     /allele="Mamu-E*02:25:01:01"
+                     /note="previous designations: Mamu-E*02:25:01"
      exon            1..55
                      /gene="E"
                      /number=1
      exon            186..455
                      /gene="E"
                      /number=2
-     exon            701..978
+     exon            701..976
                      /gene="E"
                      /number=3
+     exon            1594..1869
+                     /gene="E"
+                     /number=4
+     exon            1991..2107
+                     /gene="E"
+                     /number=5
+     exon            2834..2866
+                     /gene="E"
+                     /number=6
+     exon            2971..3018
+                     /gene="E"
+                     /number=7
+     exon            3184..3188
+                     /gene="E"
+                     /number=8
      intron          56..185
                      /gene="E"
                      /number=1
      intron          456..700
                      /gene="E"
                      /number=2
-     CDS             join(1..55,186..455,701..978)
+     intron          977..1593
                      /gene="E"
-                     /allele="Mamu-E*02:25:01"
+                     /number=3
+     intron          1870..1990
+                     /gene="E"
+                     /number=4
+     intron          2108..2833
+                     /gene="E"
+                     /number=5
+     intron          2867..2970
+                     /gene="E"
+                     /number=6
+     intron          3019..3183
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1594..1869,1991..2107,
+                     2834..2866,2971..3018,3184..3188)
+                     /gene="E"
+                     /allele="Mamu-E*02:25:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGGPRFISVGY
                      VDDTQFVRYDSDAASQRMEPRAPWVEQEGPEYWDQETRSARDTAQTFRVNLETLRGYYN
                      QSEAGSHTLQWMHGCDLGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISEQ
-                     KSNDGSEAEHQRAYLEDTCVEWLHRYLENGKETLQRS"
+                     KSNDGSEAEHQRAYLEDTCVEWLHRYLENGKETLQRSEPPKTHVAHHPVSDHEATLRCW
+                     ALGFYPAEITVTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQH
+                     EGLPEPLTLRWEPSSQSTIPIVGIIAGLVLLGAVVTGAVIVAVMWRRKSSGRKGGSYSQ
+                     ASCSDSTQGSDESLTACKA"
 ORIGIN
         1 atggcactac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
        61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
@@ -2081,9 +2653,46 @@ ORIGIN
       781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc cgcggtggac
       841 acggcggctc aaatctccga gcaaaagtca aatgatggct ctgaggctga gcaccagaga
       901 gcctacctgg aagacacatg cgtggagtgg ctccacagat acctggagaa tgggaaggag
-      961 acgctgcagc gctcaggt
+      961 acgctgcagc gctcaggtaa gagggtccac agggctactc tcccatctcc ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 atacgcctcc tgccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagagt gactctctta aatgaccagc cttctgtcag ggacaattaa ggaatctagt
+     1201 cccgctggag agtccattct tcaaatgaac tgatgagcag ttctctttga ctctcagtgt
+     1261 taggaatcat gggggagttt ctctcgtgcc tggttctcag ccccacacca agagtttttg
+     1321 gaggtctgac tccagctttt ctcagtcact cagcatccgc acaggccagg accagaaatc
+     1381 ccttttcacc ttctgtcctg ggctatctca ccccgattct agaactttcc aaggaataag
+     1441 aggctatccc agatccctaa gttcaggctg gtgtcaaggt tttgtcctca tctcctacta
+     1501 taattgtcct ctttcttctc aggatggtca catgggtgct gctggagtgt cccatgagag
+     1561 atacacagtg aattttctga ctcttcccct cagaaccccc aaagacacac gtggcccacc
+     1621 accccgtctc tgatcatgag gccaccctga ggtgctgggc cctgggcttc tatcctgcgg
+     1681 agatcacagt gacctggcag cgggatgggg aggaccagac ccaggacacg gagcttgtgg
+     1741 agaccaggcc tgcaggggat ggaactttcc agaagtgggc agctgtggtg gtaccttctg
+     1801 gagaggagca gagatacacg tgccatgtgc agcatgaggg gctacccgag cccctcaccc
+     1861 tgagatgggg taaggaaggg aatgggaggt catgtctctt agggaaagca ggagcccttc
+     1921 tgaagccctt ttgcagggtc agggctgagg cctgggggtc agggcccctt acgttcccct
+     1981 gttttcccag agccgtcttc ccagtccacc atccccatcg tgggcatcat tgctggcctg
+     2041 gttctccttg gagctgtggt cactggagct gtgattgttg ctgtgatgtg gaggaggaag
+     2101 agctcaggtg gggaagggag aggggtagag tctgagtttt cttgtcccac tgggggtttc
+     2161 aagccctagg tagaagtgtg tcctgcctta ttactgggaa gcaccatcca cactcacggg
+     2221 ccgacccagc ccgggccctg tgtgccagca cctactcttt tttttgagat ggaatcttgg
+     2281 ctctgtcacc caggctggag tgcaatggcg tggtttcagt tcactgtaac ctctgcctcc
+     2341 caggttcaag cgattctcct gcctcagcct cctgagtagc tgggactaca tgtgcatgcc
+     2401 accacacccg gctaattttt ttttgtactt ttagtagaga tggggtttca ctgtgttggc
+     2461 caggctggtc tcgaactcct gacctcgtga tccacctgcc tcggcctcac aaagtgctgg
+     2521 gattacaggc gtgagccacc acgcctgtgg tacctgtgac aatgaaggac agatttatca
+     2581 ccttgatgat tgtggtgatg gggatctgag cccagcagtc acgggtcaca ggggaaggtc
+     2641 cgtgctgagg acagacctca ggagggcagt tggtccagga cccacaattg ctttcttcat
+     2701 gtttcctaat cttgccctgg gtctgcagtc acagttctgg atacttctct aggatccaag
+     2761 actaggaggt tcctctagga ccttatggcc ctgcctcctc cctggcccct cacaggacat
+     2821 tttcttctaa caggtagaaa aggagggagc tactctcagg cttcgtgtaa gtagggggca
+     2881 ggagtgtgga ggagctcgcc caccccacaa ttcctcctgc accacatctc ctgtgggctc
+     2941 taaccaggtc ttgtttttgt tctaccccag gtagcgacag tacccaggga tctgatgagt
+     3001 ctctcacagc ttgtaaaggt gagattctgg gggtctaaag tgggtggagg gtggggcaga
+     3061 tgggatagga ctgggttgtg gggatttttt gatttggaat ttttgagtgt gtggtgggct
+     3121 gttcagagtg tcatcactta ctgtaactga tctgaatttg ttcatgactg ttttcttctg
+     3181 tagcctga
 //
-LOCUS       NHP09567                 976 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP09567                 974 bp    DNA     linear   PRI 27-MAY-2026
 DEFINITION  Mamu-E*02:26, E locus allele.
 ACCESSION   NHP09567
 VERSION     NHP09567
@@ -2099,11 +2708,11 @@ COMMENT     IPD-MHC allele: Mamu-E*02:26
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..976
+     source          1..974
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..976
+     gene            1..974
                      /gene="E"
                      /allele="Mamu-E*02:26"
      exon            1..55
@@ -2112,23 +2721,24 @@ FEATURES             Location/Qualifiers
      exon            186..455
                      /gene="E"
                      /number=2
-     exon            700..976
+     exon            699..974
                      /gene="E"
                      /number=3
      intron          56..185
                      /gene="E"
                      /number=1
-     intron          456..699
+     intron          456..698
                      /gene="E"
                      /number=2
-     CDS             join(1..55,186..455,700..976)
+     CDS             join(1..55,186..455,699..974)
                      /gene="E"
                      /allele="Mamu-E*02:26"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MALGTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGEPRFISVGY
                      VDDTQFVRYDSDAASPRMEPRAPWVEQEGPEYWDQETRSARDTAQTFRVNLNTLRGYYN
-                     QSEAGLIPSSGCMAATWGPTGASSAGMNSSPTTARIISPX"
+                     QSEAASHTLQWMHGCDLGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISER
+                     KSNDGSEAEHQRAYLEDTCVEWLRRYLENGKETLQRP"
 ORIGIN
         1 atggcactag gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
        61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
@@ -2146,9 +2756,9 @@ ORIGIN
       781 cgacggcaag gattatctca ccctgaatga ggacctgcgc tcctggtccg cggtggacac
       841 ggcggctcag atttccgagc gaaagtcaaa tgatggctct gaggcggagc accagagagc
       901 ctacctggaa gacacatgcg tggagtggct ccgcagatac cttgagaatg ggaaggagac
-      961 gctgcagcgc ccgggt
+      961 gctgcagcgc ccgg
 //
-LOCUS       NHP09568                 978 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP09568                 976 bp    DNA     linear   PRI 27-MAY-2026
 DEFINITION  Mamu-E*02:27, E locus allele.
 ACCESSION   NHP09568
 VERSION     NHP09568
@@ -2164,11 +2774,11 @@ COMMENT     IPD-MHC allele: Mamu-E*02:27
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..978
+     source          1..976
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..978
+     gene            1..976
                      /gene="E"
                      /allele="Mamu-E*02:27"
      exon            1..55
@@ -2177,7 +2787,7 @@ FEATURES             Location/Qualifiers
      exon            186..455
                      /gene="E"
                      /number=2
-     exon            701..978
+     exon            701..976
                      /gene="E"
                      /number=3
      intron          56..185
@@ -2186,7 +2796,7 @@ FEATURES             Location/Qualifiers
      intron          456..700
                      /gene="E"
                      /number=2
-     CDS             join(1..55,186..455,701..978)
+     CDS             join(1..55,186..455,701..976)
                      /gene="E"
                      /allele="Mamu-E*02:27"
                      /codon_start=1
@@ -2212,9 +2822,9 @@ ORIGIN
       781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc cgcggtggac
       841 acggcggctc aaatctccga gcaaaagtca aatgatggct ctgaggctga gcaccagaga
       901 gcctacctgg aagacacatg cgtggagtgg ctccgcagat acctggagaa tgggaaggag
-      961 acgctgcagc gctcaggt
+      961 acgctgcagc gctcag
 //
-LOCUS       NHP09569                 978 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP09569                 976 bp    DNA     linear   PRI 27-MAY-2026
 DEFINITION  Mamu-E*02:25:02, E locus allele.
 ACCESSION   NHP09569
 VERSION     NHP09569
@@ -2230,11 +2840,11 @@ COMMENT     IPD-MHC allele: Mamu-E*02:25:02
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..978
+     source          1..976
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..978
+     gene            1..976
                      /gene="E"
                      /allele="Mamu-E*02:25:02"
      exon            1..55
@@ -2243,7 +2853,7 @@ FEATURES             Location/Qualifiers
      exon            186..455
                      /gene="E"
                      /number=2
-     exon            701..978
+     exon            701..976
                      /gene="E"
                      /number=3
      intron          56..185
@@ -2252,7 +2862,7 @@ FEATURES             Location/Qualifiers
      intron          456..700
                      /gene="E"
                      /number=2
-     CDS             join(1..55,186..455,701..978)
+     CDS             join(1..55,186..455,701..976)
                      /gene="E"
                      /allele="Mamu-E*02:25:02"
                      /codon_start=1
@@ -2278,31 +2888,34 @@ ORIGIN
       781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc cgcggtggac
       841 acggcggctc aaatctccga gcaaaagtca aatgatggct ctgaggctga gcaccagaga
       901 gcctacctgg aagacacatg cgtggagtgg ctccacagat acctggagaa tgggaaggag
-      961 acgctgcagc gctcaggt
+      961 acgctgcagc gctcag
 //
-LOCUS       NHP09570                 976 bp    DNA     linear   PRI 16-MAR-2021
-DEFINITION  Mamu-E*02:28, E locus allele.
+LOCUS       NHP09570                3210 bp    DNA     linear   PRI 27-MAY-2026
+DEFINITION  Mamu-E*02:28:01:01, E locus allele.
 ACCESSION   NHP09570
 VERSION     NHP09570
 DBLINK      INSDC: MF004412
+            INSDC: OZ407674
 KEYWORDS    IPD-MHC; MHC class I; E.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-E*02:28
+COMMENT     IPD-MHC allele: Mamu-E*02:28:01:01
             IPD accession: NHP09570
             Species prefix: Mamu
             MHC class: I
+            Previous designations: Mamu-E*02:28
 FEATURES             Location/Qualifiers
-     source          1..976
+     source          1..3210
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..976
+     gene            1..3210
                      /gene="E"
-                     /allele="Mamu-E*02:28"
+                     /allele="Mamu-E*02:28:01:01"
+                     /note="previous designations: Mamu-E*02:28"
      exon            1..55
                      /gene="E"
                      /number=1
@@ -2312,21 +2925,55 @@ FEATURES             Location/Qualifiers
      exon            701..976
                      /gene="E"
                      /number=3
+     exon            1594..1869
+                     /gene="E"
+                     /number=4
+     exon            1987..2103
+                     /gene="E"
+                     /number=5
+     exon            2856..2888
+                     /gene="E"
+                     /number=6
+     exon            2993..3040
+                     /gene="E"
+                     /number=7
+     exon            3206..3210
+                     /gene="E"
+                     /number=8
      intron          56..185
                      /gene="E"
                      /number=1
      intron          456..700
                      /gene="E"
                      /number=2
-     CDS             join(1..55,186..455,701..976)
+     intron          977..1593
                      /gene="E"
-                     /allele="Mamu-E*02:28"
+                     /number=3
+     intron          1870..1986
+                     /gene="E"
+                     /number=4
+     intron          2104..2855
+                     /gene="E"
+                     /number=5
+     intron          2889..2992
+                     /gene="E"
+                     /number=6
+     intron          3041..3205
+                     /gene="E"
+                     /number=7
+     CDS             join(1..55,186..455,701..976,1594..1869,1987..2103,
+                     2856..2888,2993..3040,3206..3210)
+                     /gene="E"
+                     /allele="Mamu-E*02:28:01:01"
                      /codon_start=1
                      /product="MHC class I E antigen"
                      /translation="MAQRTLLLLLSALTKTWAGSHSLKYFHTSVSRPGRGEPRFISVGY
                      VDDTQFVRYDSDAASPRMQPRAPWVEQEGPEYWDQETRSARDTARTFRVNLETLRGYYN
                      QSEAASHTLQWMHGCDLAPDRRFLRGYEQFAYDGKDYLTLNEDLRSWSAVDTAAQISAQ
-                     KSNDGGEAEHQRAYLEDTCVEWLRRYLENGKETLQRS"
+                     KSNDGGEAEHQRAYLEDTCVEWLRRYLENGKETLQRSESPKTHVTHHPVSDHEATLRCW
+                     ALGFYPAEITVTWQRDGEDQTQDMELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQH
+                     EGLPEPLTLRWEPSSQSTIPIVGISAGLVLLGTVVTGAVVAAVMWRRKSSGRKGGSYSQ
+                     ASCSDSTQGSDESLTAYKT"
 ORIGIN
         1 atggcacaac gaaccctact tctcctgctc tcggccctta ccaagacctg ggcgggtgag
        61 tgcggggtcg ggatggaagc ggcctctacc cggaggagag aggggccgga ccggcggggg
@@ -2344,7 +2991,44 @@ ORIGIN
       781 tacgacggca aggattatct caccctgaat gaggacctgc gctcctggtc tgcggtggac
       841 acggcggctc agatctccgc gcaaaagtca aatgatggcg gtgaggcgga gcaccagaga
       901 gcctacctgg aagacacatg cgtggagtgg ctccgcagat acctggagaa tgggaaggag
-      961 acgctgcagc gctcgg
+      961 acgctgcagc gctcgggtaa gagggtccgc aggcttactc tcccatctct ttcttgggct
+     1021 aggactgtgc ccacagctga cagacctcaa acagtagaag acgcagggat ggaagccaga
+     1081 atacccctcc tcccttggat caggagaggg ggctgtcacc ccaggtacag gagatcctgt
+     1141 accagagtga ctttcttaaa tgaccagcct tctctcaggg acaattaagg aatctagtct
+     1201 cgctggagag tccattcttc aaatgaactg atgagcagtt ctctttgact ctcagtgtta
+     1261 ggaatcatgg gggagtttct ctcatgcctg gttctcagcc ccacaccaag agtttttgga
+     1321 ggtctgactc tagcttttcg cagtcactca gcatccgcac aggccaggac cagaaatccc
+     1381 ttttcacttt ctatcctggg ctatcaccct aattctagaa ctttccaagg aataagaggc
+     1441 tatcccagat ccctgagttc aggctggtgt caaggttttg tcctcgtctc ctactataat
+     1501 tgtcctcttc cttctcagga tggtcacatg ggtgctgctg gagtgtccca tgagagatac
+     1561 aaagtgtctg aattttctga ctcttcccct cagaatcccc aaagacacac gtgacccacc
+     1621 accccgtctc tgatcatgag gccaccctga ggtgctgggc cctgggcttc taccctgcgg
+     1681 agatcacagt gacctggcag cgggatgggg aggaccagac ccaggacatg gagcttgtgg
+     1741 agactaggcc tgcaggggat ggaaccttcc agaagtgggc agctgtggtg gtgccttctg
+     1801 gagaggagca gagatacacg tgccatgtgc agcatgaggg gctacccgag cccctcaccc
+     1861 tgagatgggg taaggaaggg aatgggaggt catgtctctc aaagcaggag cccttctgaa
+     1921 gcccttttgc agggtcaggg ctgaggcctg ggggtcaggg ccctttacat tcccctgttt
+     1981 tcccagagcc gtcttcccag tccaccatcc ccatcgtggg catcagtgct ggcctggttc
+     2041 tccttggaac tgtggtcact ggagctgtgg ttgctgctgt gatgtggagg aggaagagct
+     2101 caggtgggga agggagaggg gtagagtctg agttttcttg tcccactgag ggtttcaagc
+     2161 cctaggtaga agtgtgtcct gccttgttac tgggaagcac catccacaca cacgggctga
+     2221 cccagcccgg gtcctgtgtg ccagcaccta ctcttttttt tgagatggaa tcttggctct
+     2281 gtcacccagg ctggagtgca atggcgtggt ttcagttcac tgtaactgta acctctgcct
+     2341 cctaggttca agcggttctc ctgcctcagc ctcccgagta gctgggacta cgtgtgcgtg
+     2401 ccaccacacc cggctaattt ttttttgtat ttttagtaga tatggagttt cactgtgttg
+     2461 gccaggctgc tgtctaactc ctgacctcgt gatccacctg cctcggcctc gcaaagtgct
+     2521 gggattacag gcgtgagcca tcgcgccaag ccacacctac ttttttctaa agtacctgtg
+     2581 acaatgaagg acagatttat caccttgacg attgtggtga tggggatctg agcccagcag
+     2641 tcacaggtca caggagaagg tccctgctga ggacagacct caggagggca gttggtccag
+     2701 gacccacact tgctttcttc atgtttcctg atcctgccct gggtctgcag tcacagttct
+     2761 ggatacttct ctgggatcca agactaggag gttcctcgag gaccttgtgg ccctgcctcc
+     2821 tccctggccc ctcacaggac attttcttcc aacaggtaga aaaggaggga gctactctca
+     2881 ggcttcgtgt aagtaggggg cgggagtgtg gaggagctcg cccaccccat aattcctcct
+     2941 gtaccacatc tcctgtgggc tctaaccagg tcttgttttt gttctacccc aggtagcgac
+     3001 agtacccagg gatctgatga gtctctcaca gcttataaaa gtgagattct gggggtctga
+     3061 agtgggtgga gggtggggca gatgggacag gactgggttg tggggatttt ttcctttgga
+     3121 atttttgagt gtgtggtggg ctgttcagag tgtcatcact tactgtgact gacctgaatt
+     3181 tgttcatgac tgttttcttc tgtagcctga
 //
 LOCUS       NHP09571                 976 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-E*02:29, E locus allele.

@@ -522,11 +522,12 @@ ORIGIN
      2041 tttgcagctg ttgtcactga agctgtggtc acttttgtgc tgtggaggaa gaagagctca
      2101 g
 //
-LOCUS       NHP11249                2087 bp    DNA     linear   PRI 18-MAR-2021
+LOCUS       NHP11249                2086 bp    DNA     linear   PRI 24-APR-2026
 DEFINITION  Mamu-G*02:08:01:01, G locus allele.
 ACCESSION   NHP11249
 VERSION     NHP11249
 DBLINK      INSDC: LR989813
+            INSDC: OZ407687
 KEYWORDS    IPD-MHC; MHC class I; G.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -538,11 +539,11 @@ COMMENT     IPD-MHC allele: Mamu-G*02:08:01:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2087
+     source          1..2086
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2087
+     gene            1..2086
                      /gene="G"
                      /allele="Mamu-G*02:08:01:01"
      exon            1..73
@@ -557,7 +558,7 @@ FEATURES             Location/Qualifiers
      exon            1573..1848
                      /gene="G"
                      /number=4
-     exon            1972..2087
+     exon            1970..2086
                      /gene="G"
                      /number=5
      intron          74..200
@@ -569,10 +570,10 @@ FEATURES             Location/Qualifiers
      intron          973..1572
                      /gene="G"
                      /number=3
-     intron          1849..1971
+     intron          1849..1969
                      /gene="G"
                      /number=4
-     CDS             join(1..73,201..470,697..972,1573..1848,1972..2087)
+     CDS             join(1..73,201..470,697..972,1573..1848,1970..2086)
                      /gene="G"
                      /allele="Mamu-G*02:08:01:01"
                      /codon_start=1
@@ -613,9 +614,9 @@ ORIGIN
      1861 atggaggtat catgtctcgt agggaaagca ggagcccctc tggagacctt taacagggtc
      1921 ggtggtgggg cctggggtca gagaccctca ccttcccctc ctttcccaga gcagtctttc
      1981 cagcccacta tcctcatcat gggcatcatt gctggactgg ttgtctttgc agctgttgtc
-     2041 actgaagctg tggtcacttt tgtgctgtgg aagaagaaga gctctga
+     2041 actgaagctg tggtcacttt tgtgctgtgg aagaagaaga gctctg
 //
-LOCUS       NHP11270                2087 bp    DNA     linear   PRI 19-MAR-2021
+LOCUS       NHP11270                2087 bp    DNA     linear   PRI 24-APR-2026
 DEFINITION  Mamu-G*02:08:01:02, G locus allele.
 ACCESSION   NHP11270
 VERSION     NHP11270
@@ -650,7 +651,7 @@ FEATURES             Location/Qualifiers
      exon            1573..1848
                      /gene="G"
                      /number=4
-     exon            1972..2087
+     exon            1970..2087
                      /gene="G"
                      /number=5
      intron          74..200
@@ -662,10 +663,10 @@ FEATURES             Location/Qualifiers
      intron          973..1572
                      /gene="G"
                      /number=3
-     intron          1849..1971
+     intron          1849..1969
                      /gene="G"
                      /number=4
-     CDS             join(1..73,201..470,697..972,1573..1848,1972..2087)
+     CDS             join(1..73,201..470,697..972,1573..1848,1970..2087)
                      /gene="G"
                      /allele="Mamu-G*02:08:01:02"
                      /codon_start=1

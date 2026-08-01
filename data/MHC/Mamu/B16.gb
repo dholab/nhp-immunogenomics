@@ -235,65 +235,148 @@ ORIGIN
       721 tccagaagtg ggcagctgtg gtggtgtctc ctggagaaga gcagagatac acgtgccatg
       781 tgcagcacaa ggggctgctg gagcccctca ccctgagatg gg
 //
-LOCUS       NHP02517                 822 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-B16*01:05, B16 locus allele.
+LOCUS       NHP02517                3665 bp    DNA     linear   PRI 24-APR-2026
+DEFINITION  Mamu-B16*01:05:01:01, B16 locus allele.
 ACCESSION   NHP02517
 VERSION     NHP02517
 DBLINK      INSDC: FJ178845
+            INSDC: OZ407629
 KEYWORDS    IPD-MHC; MHC class I; B16.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
-COMMENT     IPD-MHC allele: Mamu-B16*01:05
+COMMENT     IPD-MHC allele: Mamu-B16*01:05:01:01
             IPD accession: NHP02517
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-B16*0105
+            Previous designations: Mamu-B16*0105; Mamu-B16*01:05
 FEATURES             Location/Qualifiers
-     source          1..822
+     source          1..3665
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..822
+     gene            1..3665
                      /gene="B16"
-                     /allele="Mamu-B16*01:05"
-                     /note="previous designations: Mamu-B16*0105"
-     exon            1..270
+                     /allele="Mamu-B16*01:05:01:01"
+                     /note="previous designations: Mamu-B16*0105;
+                     Mamu-B16*01:05"
+     exon            1..64
                      /gene="B16"
                      /number=1
-     exon            271..546
+     exon            194..463
                      /gene="B16"
                      /number=2
-     exon            547..822
+     exon            708..983
                      /gene="B16"
                      /number=3
-     CDS             1..822
+     exon            1564..1839
                      /gene="B16"
-                     /allele="Mamu-B16*01:05"
-                     /codon_start=3
+                     /number=4
+     exon            1944..2060
+                     /gene="B16"
+                     /number=5
+     exon            3485..3517
+                     /gene="B16"
+                     /number=6
+     exon            3624..3665
+                     /gene="B16"
+                     /number=7
+     intron          65..193
+                     /gene="B16"
+                     /number=1
+     intron          464..707
+                     /gene="B16"
+                     /number=2
+     intron          984..1563
+                     /gene="B16"
+                     /number=3
+     intron          1840..1943
+                     /gene="B16"
+                     /number=4
+     intron          2061..3484
+                     /gene="B16"
+                     /number=5
+     intron          3518..3623
+                     /gene="B16"
+                     /number=6
+     CDS             join(1..64,194..463,708..983,1564..1839,1944..2060,
+                     3485..3517,3624..3665)
+                     /gene="B16"
+                     /allele="Mamu-B16*01:05:01:01"
+                     /codon_start=1
                      /product="MHC class I B16 antigen"
-                     /translation="SHSLRYFSTSVSRPGRGEPRFISVGYVDDTQFLRFDSDAASPRME
-                     PQAPWVEQEGPEYWDRETRNAEGHAQTHRENLQTLLRYYNQSEAGSHTIQRVFGCDLGP
-                     DGRLLRGYNQHAYDGKDYIALNEDLRSWTAADTAAQNTQRKWEACGEAEEWSVYLEGEC
-                     LEWLRRHLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGED
-                     QTQDTELVETRPAGDGTFQKWAAVVVSPGEEQRYTCHVQHKGLLEPLTLRW"
+                     /translation="MMPGTVLLLLSGALALTETWAGSHSLRYFSTSVSRPGRGEPRFIS
+                     VGYVDDTQFLRFDSDAASPRMEPQAPWVEQEGPEYWDRETRNAEGHAQTHRENLQTLLR
+                     YYNQSEAGSHTIQRVFGCDLGPDGRLLRGYNQHAYDGKDYIALNEDLRSWTAADTAAQN
+                     TQRKWEACGEAEEWSVYLEGECLEWLRRHLENGKETLQRADPPKTHVTHHPVSDHEATL
+                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVSPGEEQRYTCH
+                     VQHKGLLEPLTLRWEPSSQSAIPILGFVAGLAVLAFLVTGAVVTAVLWRRKSSGGKGGS
+                     YSQAVSSDSAQGSDVSLRD"
 ORIGIN
-        1 gctcgcactc cttgaggtat ttcagcacct ccgtgtcccg gcccggccgc ggggagcccc
-       61 gcttcatctc cgtgggctac gtggacgaca cgcagttcct gcggttcgac agcgacgccg
-      121 cgagtccgag gatggagccg caggcgccgt gggtggagca ggaggggccg gagtattggg
-      181 accgggagac gcggaacgcc gagggccacg cacagactca ccgagagaac ctgcagaccc
-      241 tgctccgcta ctacaaccag agcgaggccg ggtctcacac catccagagg gtgtttggct
-      301 gcgacctggg gcccgacggg cgcctcctcc gcggatataa ccagcacgcc tacgatggca
-      361 aggattacat tgccctgaac gaggacctgc gctcctggac cgcggcggac acggcggctc
-      421 agaacaccca gcgcaagtgg gaggcgtgcg gtgaggcgga ggagtggagc gtctacctgg
-      481 agggcgagtg cctggagtgg ctccgcagac acctggagaa cgggaaggag acgctgcagc
-      541 gcgcggatcc cccaaagaca cacgtgaccc accaccccgt ctctgaccat gaggccaccc
-      601 tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg cagcgggatg
-      661 gggaggacca aactcaggac accgagcttg tggagaccag gcccgcaggg gatggaacct
-      721 tccagaagtg ggcagctgtg gtggtgtctc ctggagaaga gcagagatac acgtgccatg
-      781 tgcagcacaa ggggctgctg gagcccctca ccctgagatg gg
+        1 atgatgcccg gaaccgtcct cctgctgctc tcgggggccc tggccctgac cgagacctgg
+       61 gccggtgagt gcggggtctg gagggaaatg gcctctgcgg ggaggagcga ggggaccgca
+      121 ggtgggggcg caggacccgg ggagccgcgc ggggaggagg gtcgggcggg tctcagcctc
+      181 tcctcgcccc caggctcgca ctccttgagg tatttcagca cctccgtgtc ccggcccggc
+      241 cgcggggagc cccgcttcat ctccgtgggc tacgtggacg acacgcagtt cctgcggttc
+      301 gacagcgacg ccgcgagtcc gaggatggag ccgcaggcgc cgtgggtgga gcaggagggg
+      361 ccggagtatt gggaccggga gacgcggaac gccgagggcc acgcacagac tcaccgagag
+      421 aacctgcaga ccctgctccg ctactacaac cagagcgagg ccggtgagtg gccccggccc
+      481 ggggcgcagg tcacggcccc tccccatccc cacggacgac ccgggtcgcc ccgagtccct
+      541 gggtcctaga tccgccccga ggccgcggga cccgcccaga cctttgaccc gagagagccc
+      601 caggcgcgtt tacgcggttt tattttcagt cgaggccaaa gtctcagcgg gttggtcggg
+      661 gcggggcgtg gctcggcggg cggggctgac cgcgggggcg gggccagggt ctcacaccat
+      721 ccagagggtg tttggctgcg acctggggcc cgacgggcgc ctcctccgcg gatataacca
+      781 gcacgcctac gatggcaagg attacattgc cctgaacgag gacctgcgct cctggaccgc
+      841 ggcggacacg gcggctcaga acacccagcg caagtgggag gcgtgcggtg aggcggagga
+      901 gtggagcgtc tacctggagg gcgagtgcct ggagtggctc cgcagacacc tggagaacgg
+      961 gaaggagacg ctgcagcgcg cgggtaccct gcaggggctg tggggagact tccccgtctc
+     1021 ctataaatct cccgggatgg cttcccatga ggaggggagg aaaatgggat cagcgctaga
+     1081 atgtcgccct cccttgaata gagaatggca tgagtttccc tgatttcctc tgagggcccc
+     1141 ctctactctc taggacaatt aagggatgac gtctctgagg acatggaggg gaagacagtc
+     1201 tctagaatac agatcagggg tcccctttga ctcctgcagc agccttgggc tttgtgactt
+     1261 tttcctctca ggccttgttc tctgcctcac actcaatgtg tttgaaggtc tgattccagc
+     1321 ttttctgagt ccctcggcct ccactcaggt caggaccaga agtcgatgtt cctccctcag
+     1381 agactagaac tctccaagga ataggagatt atcccagatg cctgtgtcca ggctggtgtc
+     1441 tggcttctgt gctcccttcc ccaccccagg tgtcctgtcc attctcagga tggtcacatt
+     1501 cgtgctgctg gagtgtccca tgagagatgc aaagcgcctg aattttctga ctcttcccat
+     1561 cagatccccc aaagacacac gtgacccacc accccgtctc tgaccatgag gccaccctga
+     1621 ggtgctgggc cctgggcttc taccctgcgg agatcacact gacctggcag cgggatgggg
+     1681 aggaccaaac tcaggacacc gagcttgtgg agaccaggcc cgcaggggat ggaaccttcc
+     1741 agaagtgggc agctgtggtg gtgtctcctg gagaagagca gagatacacg tgccatgtgc
+     1801 agcacaaggg gctgctggag cccctcaccc tgagatgggg taaggagtgg gatgaaggat
+     1861 cacgtctctc ctcagtgaaa gtaggagccc ttctggagcc cttcagcagg gtcaggaccc
+     1921 ctcaccttcc cctcctttcc cagagccatc ttcccagtcc gccatcccca tcttgggctt
+     1981 cgttgctggc ctggctgtcc tagccttttt ggtcactgga gctgtggtca ctgctgtgtt
+     2041 gtggaggagg aagagctcag gtagggaagg ggtgaggggt ggagtctggg ttttctcgtc
+     2101 ccactggggg tttcaagccc caggtagaag tgtgccccgc ctcattagtg aaggggtggc
+     2161 ctgcccctcc acacctgtgg gcgtttctcg ttaggtggaa ggagagactt gagaaaagaa
+     2221 atgagacaca gagacaaagt atagagaaag aaaaagtggg cccaggggac cggcgctcag
+     2281 catacagagg acccacatcg gcaccggtct ctgagttccc ttggtattta ttgataatta
+     2341 tctttgccat cttaaagaaa aggaagtggc aggataatag gatcattgta gggagaaagt
+     2401 cagcagtaag acatgtgaat aaagttctct gtgacatgaa taagtttaag gaaaagtgct
+     2461 gtgccttgat atgcatatgt aaacatctcc ataaaccttt ttagtgcata aagagcagca
+     2521 ttgtgctagc aaatcccgcc tttcgcccta aggcggtttt ctcctttctc agtaaacaga
+     2581 acatatgatg ggattttata cccagatgtt ctattgccca gggacgggca ggagacagat
+     2641 gcttttctct atctcaactg ccaacaacca ccaagaggcc ttctttcctc ttgtactagt
+     2701 cctcctcagc acagaccctt cacgggtgtc aggctggggg acgatcaggt ctttcccttc
+     2761 ccacgaggcc atatttcaga ctatcacatg ggaagaaacc ttggacaata cctagctttc
+     2821 ctaggcagag gtccctgtga cctttggcag tgtgcgtatc cctgggtact tgagattaag
+     2881 agaatgatga tgacttttaa ccagcaagct gccttcaggc acttgtttaa caaagcacac
+     2941 cctgcacagc ccaaaatcct ttaaaccttg aatcaccata gcacatgtct cttgcaagga
+     3001 caaggttggg ggtagggtca cagattaaca gcatctcaaa tacagaacag aatggagtct
+     3061 cttatgtcta cttctttctg tatagacaca gtcacagtct gatctttctt tcttttcccc
+     3121 acaattattg ggaagcagca tccacacatg ggccatccca gcctggggcc ctgtgtgccg
+     3181 gcacttactc ttttgtgaag cacatgtgac aaagaaggac aatgtatcac cttgatggtt
+     3241 gtggtgttgg ggtccagatt ccagcattca tgagtcaggg gaaggtccct gctaaggaca
+     3301 ggccttagga gggccgttgg tccagcaccc acccctgctt tcctggtgtt tcctgattct
+     3361 gccctgggtc tgtagtcaca gttccgaaaa cttctctccg gtacaagact aggaggttcc
+     3421 ttcctctaag gtctcgtgtc cctgcctcct ccttgtcccc tcacagaaca ttttcttccc
+     3481 acaggtggaa aaggagggag ctactctcag gctgtgtgta agtggtgggg gtgggagagt
+     3541 ggaggagctc acccacccca taattcctcc tgtcccacgt ttcctgcggg ctctgaccag
+     3601 atgctgtttt tgttctaccc cagccagcga cagtgcccag ggctctgatg tgtctctcag
+     3661 ggatt
 //
 LOCUS       NHP02518                 822 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-B16*01:06, B16 locus allele.
@@ -3232,11 +3315,12 @@ ORIGIN
      3601 tgctgttttt gttctacccc agccagcgac agtgaccagg gctctgatgt gtctctcagg
      3661 gatt
 //
-LOCUS       NHP12544                3663 bp    DNA     linear   PRI 03-APR-2024
+LOCUS       NHP12544                3663 bp    DNA     linear   PRI 24-APR-2026
 DEFINITION  Mamu-B16*01:16:01:02, B16 locus allele.
 ACCESSION   NHP12544
 VERSION     NHP12544
 DBLINK      INSDC: OZ023605
+            INSDC: OZ407624
 KEYWORDS    IPD-MHC; MHC class I; B16.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -3515,6 +3599,7 @@ DEFINITION  Mamu-B16*01:28:01:01, B16 locus allele.
 ACCESSION   NHP12546
 VERSION     NHP12546
 DBLINK      INSDC: OZ023614
+            INSDC: OZ407626
 KEYWORDS    IPD-MHC; MHC class I; B16.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta

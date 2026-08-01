@@ -311,12 +311,13 @@ ORIGIN
      1021 ggagggagct actctcaggc tgcaagcagt gacagtgccc agggatctga tgtgtctctc
      1081 acggcttgta aagtgtga
 //
-LOCUS       NHP02411                2892 bp    DNA     linear   PRI 08-OCT-2019
+LOCUS       NHP02411                2924 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-A6*01:04:01:01, A6 locus allele.
 ACCESSION   NHP02411
 VERSION     NHP02411
 DBLINK      INSDC: EU934761
             INSDC: LR721696
+            INSDC: OZ407574
 KEYWORDS    IPD-MHC; MHC class I; A6.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -329,11 +330,11 @@ COMMENT     IPD-MHC allele: Mamu-A6*01:04:01:01
             MHC class: I
             Previous designations: Mamu-A6*01:04; Mamu-A6*0104
 FEATURES             Location/Qualifiers
-     source          1..2892
+     source          1..2924
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2892
+     gene            1..2924
                      /gene="A6"
                      /allele="Mamu-A6*01:04:01:01"
                      /note="previous designations: Mamu-A6*01:04; Mamu-A6*0104"
@@ -358,7 +359,7 @@ FEATURES             Location/Qualifiers
      exon            2704..2751
                      /gene="A6"
                      /number=7
-     exon            2888..2892
+     exon            2920..2924
                      /gene="A6"
                      /number=8
      intron          74..203
@@ -379,11 +380,11 @@ FEATURES             Location/Qualifiers
      intron          2562..2703
                      /gene="A6"
                      /number=6
-     intron          2752..2887
+     intron          2752..2919
                      /gene="A6"
                      /number=7
      CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
-                     2529..2561,2704..2751,2888..2892)
+                     2529..2561,2704..2751,2920..2924)
                      /gene="A6"
                      /allele="Mamu-A6*01:04:01:01"
                      /codon_start=1
@@ -444,7 +445,7 @@ ORIGIN
      2701 caggcagtga cagtgcccag ggctctgatg tgtctctcac ggcttgtaaa ggtgagaccc
      2761 tggggggcct gatatctgtg gggtgttggg gggaacagtg gacgcagctg tgctgtgggg
      2821 tttctttgac ttggatgtat tgagcatgtg atgggctgtt taaagtgtca ctcctcactg
-     2881 tgacggatgt ga
+     2881 tgacggatgt gaatttgttc atgaatattt tttctatagt gtga
 //
 LOCUS       NHP02824                2892 bp    DNA     linear   PRI 07-OCT-2019
 DEFINITION  Mamu-A6*01:05:01:01, A6 locus allele.
@@ -1289,6 +1290,7 @@ DEFINITION  Mamu-A6*01:03:02:01, A6 locus allele.
 ACCESSION   NHP10853
 VERSION     NHP10853
 DBLINK      INSDC: LR989630
+            INSDC: OZ407573
 KEYWORDS    IPD-MHC; MHC class I; A6.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta

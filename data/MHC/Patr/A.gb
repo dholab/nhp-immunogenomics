@@ -6075,3 +6075,531 @@ ORIGIN
      2821 agcatgcgat gggctgttta aagtgtgacc cctcactgtg acagatatga atttgttcat
      2881 gaatattttt ttctatagtg tga
 //
+LOCUS       NHP11990                2903 bp    DNA     linear   PRI 13-JAN-2022
+DEFINITION  Patr-A*03:01:01:02, A locus allele.
+ACCESSION   NHP11990
+VERSION     NHP11990
+DBLINK      INSDC: OV259544
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-A*03:01:01:02
+            IPD accession: NHP11990
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2903
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2903
+                     /gene="A"
+                     /allele="Patr-A*03:01:01:02"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            715..990
+                     /gene="A"
+                     /number=3
+     exon            1570..1845
+                     /gene="A"
+                     /number=4
+     exon            1948..2064
+                     /gene="A"
+                     /number=5
+     exon            2507..2539
+                     /gene="A"
+                     /number=6
+     exon            2682..2729
+                     /gene="A"
+                     /number=7
+     exon            2899..2903
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..714
+                     /gene="A"
+                     /number=2
+     intron          991..1569
+                     /gene="A"
+                     /number=3
+     intron          1846..1947
+                     /gene="A"
+                     /number=4
+     intron          2065..2506
+                     /gene="A"
+                     /number=5
+     intron          2540..2681
+                     /gene="A"
+                     /number=6
+     intron          2730..2898
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,715..990,1570..1845,1948..2064,
+                     2507..2539,2682..2729,2899..2903)
+                     /gene="A"
+                     /allele="Patr-A*03:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMPPRTLLLLLSGALALTQTWAGSHSMRYFYTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNMKASAQTDRVDLGT
+                     LRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAAAMA
+                     AQITKRKWEAAHAAEQLRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHE
+                     ATLRCWALGFYPAVITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLLGAVITGAVVAAVMWRRKSSDRK
+                     GGSYTQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggccgtca tgccgccccg aactctcctc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cggggtcggg agggaaacgg cctctgcggg gagaagcaag
+      121 gggcccgcct ggcgggggcg caggacccgg gaagccgcgc cgggaggagg gtcgggcggg
+      181 tctcagtcac tcctcgcccc caggctccca ctccatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcgggcgc cgtggataga
+      361 gcaggagggt ccggagtatt gggaccagga gacacggaat atgaaggcct ccgcacagac
+      421 tgaccgagtg gacctgggga ccctgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca cggacgggcc aggtcgccca
+      541 cagtctccgg gtccgagatc caccccgaag ccgcgggacc ccgagaccct tgccccggga
+      601 gaggcccagg cgcctttacc gggtttcatt ttcagtttag gccaaaaatc cccccgggtt
+      661 ggtcggggcc gggcggggct tgggggactg ggctgaccgc ggggtcgggg ccaggttctc
+      721 acaccatcca gataatgtat ggctgcgacg tggggtcgga cgggcgcttc ctccgcgggt
+      781 accggcagga cgcctacgac ggcaaggatt acatcgccct gaacgaggac ctgcgctctt
+      841 ggaccgcggc ggccatggca gctcagatca ccaagcgcaa gtgggaggcg gcccatgcgg
+      901 cggagcagct gagagcctac ctggagggcc ggtgcgtgga gtggctccgc agatacctgg
+      961 agaacgggaa ggagacgctg cagcgcacgg gtaccagggg ccacgggggg cctccctgat
+     1021 cgcctgtaga tctcccgggc tggcctccca caaggagggg agacaattgt gaccaacact
+     1081 agaatatcac cctccctctg ctcctgaggg agaggaatcc tcctgggttt ccagatcctg
+     1141 taccagagag tgactctgag gttccgccct gctctctgac acaattaagg gataaaatct
+     1201 ctgaaggagt gacgggaaga cgatccctcg aataccgatg agtggttccc tttgacaccg
+     1261 gcagcagcct tgggcccgtg acttttcctc tcaggccttg ttctctgctt cacactcaat
+     1321 gtgtgtgggg gtctgagtcc agcacttctg agtctctcag cctccactca ggtcaggacc
+     1381 agaagtcgct gttccctcct cagggaatag aagattatcc caggtgcctg tgtccaggct
+     1441 ggtgtctggg ttctgtgctc tcttccccat cccgggtgtc ctgtcaattc tcaagatggc
+     1501 cacatgcgtg ctggtggagt gtcccatgac agatgcaaaa tgcctgaatt ttctgactct
+     1561 tctcgtcaga cccccccaag acacatatga cccaccaccc catctctgac catgaggcca
+     1621 ccctgaggtg ctgggccctg ggcttctacc ctgcggtgat cacactgacc tggcagcggg
+     1681 atggggagga ccagacccag gacacggagc tcgtggagac caggcccgca ggggatggaa
+     1741 ccttccagaa gtgggcggct gtggtggtac cttctggaga ggagcagaga tacacctgcc
+     1801 atgtgcagca tgagggtctg cccaagcccc tcaccctgag atggggtaag gagggagatg
+     1861 ggggtgtcat gtctcttagg gaaagcagga acctctctgg agacctttag cagggtcagg
+     1921 gcccctcacc ttcccctctt ttcccagagc cgtcttccca gcccaccatc cccattgtgg
+     1981 gcatcattgc tggcctggtt ctccttggag ctgtgatcac tggagctgtg gtcgctgccg
+     2041 tgatgtggag gaggaagagc tcaggtggag aaggggtgaa gggtggggtc cgagatttct
+     2101 tgtctcactg agggttccaa gccccagcta gaaatgtgcc ctgtctcatt actgggaagc
+     2161 accatccaca atcatgggcc gacccagcct gggccctgtg tgccagcact tactcttttg
+     2221 taaagcacct gttaaaatga aggacagatt tatcaccttg attacggcgg tgatgggacc
+     2281 tgatcccagc agtcacaagt cacaggggaa ggtccctgag gacagacctc aggagggcta
+     2341 ttggtccagg acccacacct gctttcttca tgtttcctga tcccgccctg ggtctgcagt
+     2401 cacacatttc tggaaacttc tctgagatcc aagactagga ggttcctcta ggaccttaag
+     2461 gccctggctc ctttctggta tctcacagga cattttcttc ccacagatag aaaaggaggg
+     2521 agctacactc aggctgcaag taagtatgaa ggaggctgat gcctgaggtc cttgggatat
+     2581 tgtgtttggg agcccatggg ggagctcacc caccccacaa ttcctcctct agccatatct
+     2641 tctgtgggat ctgaccaggt tctgtttttg ttctacccca ggcagtgaca gtgcccaggg
+     2701 ctctgatgtg tctctcacag cttgtaaagg tgagagcttg gagggcctga tgtgtgttgg
+     2761 gtgttgggca gaacagtgga cacagctgtg ctatggggtt tctttgcatt ggatgtattg
+     2821 agcatgcgat gggctgttta aagtgtgacc cctcactgtg acggatatga atttgttcat
+     2881 gaatattttt ttctatagtg tga
+//
+LOCUS       NHP12665                2908 bp    DNA     linear   PRI 30-SEP-2024
+DEFINITION  Patr-A*09:01:01:02, A locus allele.
+ACCESSION   NHP12665
+VERSION     NHP12665
+DBLINK      INSDC: OZ184630
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-A*09:01:01:02
+            IPD accession: NHP12665
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2908
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2908
+                     /gene="A"
+                     /allele="Patr-A*09:01:01:02"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            716..991
+                     /gene="A"
+                     /number=3
+     exon            1575..1850
+                     /gene="A"
+                     /number=4
+     exon            1953..2069
+                     /gene="A"
+                     /number=5
+     exon            2512..2544
+                     /gene="A"
+                     /number=6
+     exon            2687..2734
+                     /gene="A"
+                     /number=7
+     exon            2904..2908
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..715
+                     /gene="A"
+                     /number=2
+     intron          992..1574
+                     /gene="A"
+                     /number=3
+     intron          1851..1952
+                     /gene="A"
+                     /number=4
+     intron          2070..2511
+                     /gene="A"
+                     /number=5
+     intron          2545..2686
+                     /gene="A"
+                     /number=6
+     intron          2735..2903
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,716..991,1575..1850,1953..2069,
+                     2512..2544,2687..2734,2904..2908)
+                     /gene="A"
+                     /allele="Patr-A*09:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVIAPRTLVLLLSGALALTQTWAGSHSMRYFSTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETRSVKASAQTDRVDLGT
+                     LRGYYNQSEDGSHTIQIMYGCDVGSDGRFLRGYRQYAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAAHAAERLRAYLEGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDRE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLLGAVITGAVVAAVMWRRKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggccgtca tagcgccccg aaccctcgtc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cggggtcggg agggaaacgg cctctgcggg gagaagcaag
+      121 gggcccgcct ggcggaggcg caggacccgg gaagccgcgc cgggaggagg gtcgggcggg
+      181 tctcagccac tcctcgcccc caggctccca ctccatgagg tatttctcca catcggtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcgggcgc cgtggataga
+      361 gcaggagggt ccggagtatt gggacgagga gacacggagt gtgaaggcct ccgcacagac
+      421 tgaccgagtg gacctgggga ccctgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatcctcca ccgacgggcc gggtcgccca
+      541 cagtctccgg gtccgagatc caccccgaag ccgcgggacc ccgagaccct tgccccggga
+      601 gaggcccagg cgccttaatc cggtttcatt tttcagttta ggccaaaaat ccccccgggt
+      661 tggtcggggc cgggcggggc tcggggaaca gggctgaccg cggggtcggg gccaggttct
+      721 cacaccatcc agataatgta tggctgcgac gtggggtcgg acgggcgctt cctccgcggg
+      781 taccggcagt acgcctacga cggcaaggat tacatcgccc tgaacgagga cctgcgctct
+      841 tggaccgcgg cggacatggc ggctcagatc acccagcgca agtgggaggc ggcccatgcg
+      901 gcggagcggc tgagagccta cctggagggc acgtgcgtgg agtggctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcact ggtaccaggg gccacgggac gcctccctga
+     1021 tcgcctgtag atctcccggg ctgtcctccc acaaggaggg gagacaattg ggaccaacac
+     1081 tagaatatca ccctccctct gctcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga ggttcctccc tgctctctga cacaattaag ggataaaatc
+     1201 tctgaaggaa tgacgggaag acgatccctc gaatactgat gagtggttcc ctttgacaca
+     1261 caccggcagc agccttgggc ccgtgacttt tcctctcagg ccttgttctc tgcttcacac
+     1321 tcaatgtgtg tgggggtctg aggccagcac ttctgagtcc ctcagcctcc actcagttca
+     1381 ggaccagaag tcgctgttcc ctcctcaggg aatagaaaat tatcccaggt gtctgtgtcc
+     1441 aggctggtgt ctggattctg tgctctcttc cccatcccgg gtgtcctgtc cattctcaag
+     1501 atggccacat gcatgctggt ggagtgtccc atgacagatg caaaatgcct gaattttctg
+     1561 actcttcccg tcagaccccc ccaagacaca tatgacccac caccccatct ccgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac tgacctggca
+     1681 gcgggatggg gaggaccaga cccaggacac ggagctcgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtaccttct ggagaggagc agagatacac
+     1801 ctgccatgtg cagcatgagg gtctgcccaa gcccctcacc ctgagatggg gtaaggaggg
+     1861 agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagaca tttagcaggg
+     1921 tcagggtccc tcaccttccc cttttttccc agagccgtct tcccagccca ccatccccat
+     1981 cgtgggcatc attgctggcc tggttctcct tggagctgtg atcactggag ctgtggtcgc
+     2041 tgccgtgatg tggaggagga agagctcagg tggagaaggg gtgaagggtg gggtctgaga
+     2101 tttcttgtct cactgaggtt tccaagcccc agctagaaat gtgccctgtc tcattactgg
+     2161 gaagcaccat ccacaatcat gggccgaccc agcctgggcc ctgtgtgcta gcacttactc
+     2221 ttttgtaaag cacctgtgac aatgaaggac agatttatca ccttgattat ggtggtgatg
+     2281 ggacctgatc ccagcagtca caagtcacag gggaaggtcc ctgaggacag acctcaggag
+     2341 ggcgattggt ccaggaccca catctgcttt cttcatgttt cctgatcctg ccctgggtct
+     2401 gcagtcacac atttctggaa acttctctgg ggtccaagac taggaggttc ctctaggacc
+     2461 ttaaggccct ggctcctttc tggtatctca caggacattt tcttcccaca gatagaaaag
+     2521 gagggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatgcctg aggtccttgg
+     2581 gatattgtgt ttgggagccc atgggggagc tcacccaccc cacaattcct cctccagcca
+     2641 catcttctgt gggatctgac caggttctgt ttttgttcta ccccaggcag tgacagtgcc
+     2701 cagggctctg atgtgtctct cacagcttgt aaaggtgaga gcttggaggg cctgatgtgt
+     2761 gttgggtgtt gggtggaaca gtggacacag ctgtgctatg gggtttcttt gcattggatg
+     2821 tattgagcat gcgatgggct gtttaaagtg tgacccctca ctgtgacaga tatgaatttg
+     2881 ttcatgaata tttttttcta tagtgtga
+//
+LOCUS       NHP12666                2908 bp    DNA     linear   PRI 30-SEP-2024
+DEFINITION  Patr-A*16:01:01:02, A locus allele.
+ACCESSION   NHP12666
+VERSION     NHP12666
+DBLINK      INSDC: OZ184628
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-A*16:01:01:02
+            IPD accession: NHP12666
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2908
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2908
+                     /gene="A"
+                     /allele="Patr-A*16:01:01:02"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            716..991
+                     /gene="A"
+                     /number=3
+     exon            1575..1850
+                     /gene="A"
+                     /number=4
+     exon            1953..2069
+                     /gene="A"
+                     /number=5
+     exon            2512..2544
+                     /gene="A"
+                     /number=6
+     exon            2687..2734
+                     /gene="A"
+                     /number=7
+     exon            2904..2908
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..715
+                     /gene="A"
+                     /number=2
+     intron          992..1574
+                     /gene="A"
+                     /number=3
+     intron          1851..1952
+                     /gene="A"
+                     /number=4
+     intron          2070..2511
+                     /gene="A"
+                     /number=5
+     intron          2545..2686
+                     /gene="A"
+                     /number=6
+     intron          2735..2903
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,716..991,1575..1850,1953..2069,
+                     2512..2544,2687..2734,2904..2908)
+                     /gene="A"
+                     /allele="Patr-A*16:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLVLLLSGALALTQTWAGSHSMRYFYTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETRSAKAHSQTDRVDLGT
+                     LRGYYNQSEDGSHTIQLMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMA
+                     AQITQLKWEAAHVAEQLRAYLEGLCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDRE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLLGAVITGAVVAAVMWRRKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggccgtca tggcgccccg aaccctcgtc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cggggtcggg agggaaacgg cctctgcggg gagaagcaag
+      121 gggcccgcct ggcgggggcg caggacccgg gaagccgcgc cgggaggagg gtcgggcggg
+      181 tctcagccac tcctcgcccc caggctccca ctccatgagg tatttctaca cctccgtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcgggcac cgtggataga
+      361 gcaggagggt ccggagtatt gggacgagga gacacggagt gcgaaggccc actcacagac
+      421 tgaccgagtg gacctgggga ccctgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcagg tcacgacccc tcatccccca ccgacgggcc gggtcgccca
+      541 cagtctccgg gtccgagatc caccccgaag ccgcgggacc ccgagaccct tgccccggga
+      601 gaggcccagg cgccttaatc cggtttcatt tttcagttta ggccaaaaat ccccccgggt
+      661 tggtcggggc cgggcggggc tcggggaaca gggctgaccg cggggtcggg gccaggttct
+      721 cacaccatcc agttaatgta tggctgcgac gtggggtcgg acgggcgctt cctccgcggg
+      781 taccggcagg acgcctacga cggcaaggat tacatcgccc tgaacgagga cctgcgctct
+      841 tggaccgcgg cggacatggc ggctcagatc acccagctca agtgggaggc ggcccatgtg
+      901 gcggagcagc tgagagccta cctggagggc ctgtgcgtgg acgggctccg cagatacctg
+      961 gagaacggga aggagacgct gcagcgcacg ggtaccaggg accacggggc gcctccctga
+     1021 tcgcctgtag atctcccggg ctggcctccc acaaggaggg gagacaattg ggaccaacac
+     1081 tagaatatca ccctccctct gctcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga ggttcctccc tgctctctga cacaattaag ggataaaatc
+     1201 tctgaaggaa tgacgggaag acgatccctc gaatactgat gagtggttcc ctttgacaca
+     1261 caccggcagc agccttgggc ctgtgacttt tcctctcagg ccttgttctc tgcttcacac
+     1321 tcaatgtgtg tgggggtctg aggccagcac ttctgagtcc ctcagcctcc actcagttca
+     1381 ggaccagaag tcgctgttcc ctcctcaggg aatagaaaat tatcccaggt gtctgtgtcc
+     1441 aggctggtgt ctggattctg tgctctcttc cccatcccgg gtgtcctgtc cattctcaag
+     1501 atggccacat gcatgctggt ggagtgtccc atgacagatg caaaatgcct gaattttctg
+     1561 actcttcccg tcagaccccc ccaagacaca tatgacccac caccccatct ccgaccgtga
+     1621 ggccaccctg aggtgctggg ccctgggctt ctaccctgcg gagatcacac tgacctggca
+     1681 gcgggatggg gaggaccaga cccaggacac ggagctcgtg gagaccaggc ctgcagggga
+     1741 tggaaccttc cagaagtggg cagctgtggt ggtaccttct ggagaggagc agagatacac
+     1801 ctgccatgtg cagcatgagg gtctgccaaa gcccctcacc ctgagatggg gtaaggaggg
+     1861 agatgggggt gtcatgtctc ttagggaaag caggagcctc tctggagacc tttagcaggg
+     1921 tcagggtccc tcaccttccc cttttttccc agagccgtct tcccagccca ccatccccat
+     1981 cgtgggcatc attgctggcc tggttctcct tggagctgtg atcactggag ctgtggtcgc
+     2041 tgccgtgatg tggaggagga agagctcagg tggagaaggg gtgaagggtg gggtctgaga
+     2101 tttcttgtct cactgaggtt tccaagcccc agctagaaat gtgccctgtc tcattactgg
+     2161 gaagcaccat ccacaatcat gggccgaccc agcctgggcc ctgtgtgcta gcacttactc
+     2221 ttttctaaag cacctgtgac aatgaaggac agatttatca ccttgattat ggcggtgatg
+     2281 ggacctgatc ccagcagtca caagtcacag gggaaggtcc ctgaggacag acctcaggag
+     2341 ggcgattggt ccaggaccca catctgcttt cttcatgttt cctgatcctg ccctgggtct
+     2401 gcagtcacac atttctggaa acttctctgg ggtccaagac taggaggttc ctctaggacc
+     2461 ttaaggccct ggctcctttc tggtatctca caggacattt tcttcccaca gatagaaaag
+     2521 gagggagcta ctctcaggct gcaagtaagt atgaaggagg ctgatgcctg aggtccttgg
+     2581 gatattgtgt ttgggagccc atgggggagc tcacccaccc cacaattcct cctccagcca
+     2641 catcttctgt gggatctgac caggttctgt ttttgttcta ccccaggcag tgacagtgcc
+     2701 cagggctctg atgtgtctct cacagcttgt aaaggtgaga gcttggaggg cctgatgtgt
+     2761 gttgggtgtt gggtggaaca gtggacacag ctgtgctatg gggtttcttt gcattggatg
+     2821 tattgagcat gcgatgggct gtttaaagtg tgacccctca ctgtgacaga tatgaatttg
+     2881 ttcatgaata tttttttcta tagtgtga
+//
+LOCUS       NHP12667                2910 bp    DNA     linear   PRI 30-SEP-2024
+DEFINITION  Patr-A*18:01:01:02, A locus allele.
+ACCESSION   NHP12667
+VERSION     NHP12667
+DBLINK      INSDC: OZ184626
+KEYWORDS    IPD-MHC; MHC class I; A.
+SOURCE      Pan troglodytes (Common Chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+COMMENT     IPD-MHC allele: Patr-A*18:01:01:02
+            IPD accession: NHP12667
+            Species prefix: Patr
+            MHC class: I
+FEATURES             Location/Qualifiers
+     source          1..2910
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     gene            1..2910
+                     /gene="A"
+                     /allele="Patr-A*18:01:01:02"
+     exon            1..73
+                     /gene="A"
+                     /number=1
+     exon            204..473
+                     /gene="A"
+                     /number=2
+     exon            718..993
+                     /gene="A"
+                     /number=3
+     exon            1577..1852
+                     /gene="A"
+                     /number=4
+     exon            1955..2071
+                     /gene="A"
+                     /number=5
+     exon            2514..2546
+                     /gene="A"
+                     /number=6
+     exon            2689..2736
+                     /gene="A"
+                     /number=7
+     exon            2906..2910
+                     /gene="A"
+                     /number=8
+     intron          74..203
+                     /gene="A"
+                     /number=1
+     intron          474..717
+                     /gene="A"
+                     /number=2
+     intron          994..1576
+                     /gene="A"
+                     /number=3
+     intron          1853..1954
+                     /gene="A"
+                     /number=4
+     intron          2072..2513
+                     /gene="A"
+                     /number=5
+     intron          2547..2688
+                     /gene="A"
+                     /number=6
+     intron          2737..2905
+                     /gene="A"
+                     /number=7
+     CDS             join(1..73,204..473,718..993,1577..1852,1955..2071,
+                     2514..2546,2689..2736,2906..2910)
+                     /gene="A"
+                     /allele="Patr-A*18:01:01:02"
+                     /codon_start=1
+                     /product="MHC class I A antigen"
+                     /translation="MAVMAPRTLVLLLSGALALTQTWAGSHSMRYFSTSVSRPGRGEPR
+                     FIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETRSVKAFAQTDRVDLGT
+                     LRGYYNQSEDGSHTIQLMFGCDVGSDGRFLRGYEQLAYDGKDYIALNEDLRSWTAADMA
+                     AQITQRKWEAAHEAEQWRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDRE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLLGAVITGAVVAAVMWRRKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTACKV"
+ORIGIN
+        1 atggccgtca tggcgccccg aaccctcgtc ctgctactct cgggggccct ggccctgacc
+       61 cagacctggg cgggtgagtg cggggtcggg agggaaacgg cctctgcggg gagaagcaag
+      121 gggcccgcct ggcgggggcg caggacccgg gaagccgcgc cgggaggagg gtcgggcggg
+      181 tctcagccac tcctcgcccc caggctccca ctccatgagg tatttctcca catcggtgtc
+      241 ccggcccggc cgcggggagc cccgcttcat cgccgtgggc tacgtggacg acacgcagtt
+      301 cgtgcggttc gacagcgacg ccgcgagcca gaggatggag ccgcgggcac cgtggataga
+      361 gcaggagggt ccggagtatt gggacgagga gacacggagt gtgaaggcct tcgcacagac
+      421 tgaccgagtg gacctgggga ccctgcgcgg ctactacaac cagagcgagg acggtgagtg
+      481 accccggccc ggggcgcgca ggtcacgacc cctcatcccc caccgacggg ccgggtcgcc
+      541 cacagtctcc gggtccgaga tccaccccga agccgcggga ccccgagacc cttgccccgg
+      601 gagaggccca ggcgccttaa tccggtttca tttttcagtt taggccaaaa atccccccgg
+      661 gttggtcggg gccgggcggg gctcggggaa cagggctgac cgcggggtcg gggccaggtt
+      721 ctcacaccat ccagttaatg tttggctgcg acgtggggtc ggacgggcgc ttcctccgcg
+      781 ggtatgaaca gctcgcctac gacggcaagg attacatcgc cctgaacgag gacctgcgct
+      841 cttggaccgc ggcggacatg gcggctcaga tcacccagcg caagtgggag gcggcccatg
+      901 aggcggagca gtggagagcc tacctggagg gccggtgcgt ggagtggctc cgcagatacc
+      961 tggagaacgg gaaggagacg ctgcagcgca cgggtaccag ggaccacggg gcgcctccct
+     1021 gatcgcctgt agatctcccg ggctgtcctc ccacaaggag gggagacaat tgggaccaac
+     1081 actagaatat caccctccct ctgctcctga gggagaggaa tcctcctggg tttccagatc
+     1141 ctgtaccaga gagtgactct gaggttcctc cctgctctct gacacaaata agggataaaa
+     1201 tctctgaagg aatgacggga agacgatccc tcgaatactg atgagtggtt ccctttgaca
+     1261 cacaccggca gcagccttgg gcccgtgact tttcctctca ggccttgttc tctgcttcac
+     1321 actcaatgtg tgtgggggtc tgaggccagc acttctgagt ccctcagcct ccactcagtt
+     1381 caggaccaga agtcgctgtt ccctcctcag ggaatagaaa attatcccag gtgtctgtgt
+     1441 ccaggctggt gtctggattc tgtgctctct tccccatccc gggtgtcctg tccattctca
+     1501 agatggccac atgcatgctg gtggagtgtc ccatgacaga tgcaaaatgc ctgaattttc
+     1561 tgactcttcc cgtcagaccc ccccaagaca catatgaccc accaccccat ctccgaccgt
+     1621 gaggccaccc tgaggtgctg ggccctgggc ttctaccctg cggagatcac actgacctgg
+     1681 cagcgggatg gggaggacca gacccaggac acggagctcg tggagaccag gcctgcaggg
+     1741 gatggaacct tccagaagtg ggcggctgtg gtggtacctt ctggagagga gcagagatac
+     1801 acctgccatg tgcagcatga gggtctgccc aagcccctca ccctgagatg gggtaaggag
+     1861 ggagatgggg gtgtcatgtc tcttagggaa agcaggagcc tctctggaga cctttagcag
+     1921 ggtcagggtc cctcaccttc cccttttttc ccagagccgt cttcccagcc caccatcccc
+     1981 atcgtgggca tcattgctgg cctggttctc cttggagctg tgatcactgg agctgtggtc
+     2041 gctgccgtga tgtggaggag gaagagctca ggtggagaag gggtgaaggg tggggtctga
+     2101 gatttcttgt ctcactgagg tttccaagcc ccagctagaa atgtgccctg tctcattact
+     2161 gggaagcacc atccacaatc atgggccgac ccagcctggg ccctgtgtgc tagcacttac
+     2221 tcttttgtaa agcacctgtg acaatgaagg acagatttat caccttgatt atggcggtga
+     2281 tgggacctga tcccagcagt cacaagtcac aggggaaggt ccctgaggac agacctcagg
+     2341 agggcgattg gtccaggacc cacatctgct ttcttcatgt ttcctgatcc tgccctgggt
+     2401 ctgcagtcac acatttctgg aaacttctct ggggtccaag actaggaggt tcctctagga
+     2461 ccttaaggcc ctggctcctt tctggtatct cacaggacat tttcttccca cagatagaaa
+     2521 aggagggagc tactctcagg ctgcaagtaa gtatgaagga ggctgatgcc tgaggtcctt
+     2581 gggatattgt gtttgggagc ccatggggga gctcacccac cccacaattc ctcctccagc
+     2641 cacatcttct gtgggatctg accaggttct gtttttgttc taccccaggc agtgacagtg
+     2701 cccagggctc tgatgtgtct ctcacagctt gtaaaggtga gagcttggag ggcctgatgt
+     2761 gtgttgggtg ttgggtggaa cagtggacac agctgtgcta tggggtttct ttgcattgga
+     2821 tgtattgagc atgcgatggg ctgtttaaag tgtgacccct cactgtgacg gatatgaatt
+     2881 tgttcatgaa tatttttttc tatagtgtga
+//
