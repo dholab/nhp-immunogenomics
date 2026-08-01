@@ -324,6 +324,7 @@ DEFINITION  Mamu-AG1*05:05:01:01, AG1 locus allele.
 ACCESSION   NHP11122
 VERSION     NHP11122
 DBLINK      INSDC: LR989699
+            INSDC: OZ407575
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -456,6 +457,7 @@ DEFINITION  Mamu-AG1*05:06:01:01, AG1 locus allele.
 ACCESSION   NHP11123
 VERSION     NHP11123
 DBLINK      INSDC: LR990462
+            INSDC: OZ407576
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -1243,7 +1245,7 @@ ORIGIN
      2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
      2881 atgtgaattt tttcatgaat atgttttcta tagagtga
 //
-LOCUS       NHP11223                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11223                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:11:01:01, AG1 locus allele.
 ACCESSION   NHP11223
 VERSION     NHP11223
@@ -1259,11 +1261,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:11:01:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:11:01:01"
      exon            1..73
@@ -1305,6 +1307,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -1364,9 +1369,12 @@ ORIGIN
      2521 atagatagat aaggcgggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
-LOCUS       NHP11224                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11224                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:12:01:01, AG1 locus allele.
 ACCESSION   NHP11224
 VERSION     NHP11224
@@ -1382,11 +1390,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:12:01:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:12:01:01"
      exon            1..73
@@ -1428,6 +1436,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -1487,7 +1498,10 @@ ORIGIN
      2521 atagatagat aaggcgggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
 LOCUS       NHP11225                2918 bp    DNA     linear   PRI 08-APR-2021
 DEFINITION  Mamu-AG1*05:12:01:02, AG1 locus allele.
@@ -1621,7 +1635,7 @@ ORIGIN
      2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
      2881 atgtgaattt tttcatgaat atgttttcta tagagtga
 //
-LOCUS       NHP11226                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11226                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:12:01:03, AG1 locus allele.
 ACCESSION   NHP11226
 VERSION     NHP11226
@@ -1637,11 +1651,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:12:01:03
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:12:01:03"
      exon            1..73
@@ -1683,6 +1697,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -1742,13 +1759,17 @@ ORIGIN
      2521 atagatagat aaggcgggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
-LOCUS       NHP11227                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11227                2918 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:12:01:04, AG1 locus allele.
 ACCESSION   NHP11227
 VERSION     NHP11227
 DBLINK      INSDC: LR989660
+            INSDC: OZ407577
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -1760,11 +1781,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:12:01:04
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2918
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2918
                      /gene="AG1"
                      /allele="Mamu-AG1*05:12:01:04"
      exon            1..73
@@ -1788,6 +1809,9 @@ FEATURES             Location/Qualifiers
      exon            2699..2745
                      /gene="AG1"
                      /number=7
+     exon            2914..2918
+                     /gene="AG1"
+                     /number=8
      intron          74..203
                      /gene="AG1"
                      /number=1
@@ -1806,8 +1830,11 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
-                     2525..2557,2699..2745)
+                     2525..2557,2699..2745,2914..2918)
                      /gene="AG1"
                      /allele="Mamu-AG1*05:12:01:04"
                      /codon_start=1
@@ -1865,7 +1892,10 @@ ORIGIN
      2521 atagatagat aaggcgggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tagaatga
 //
 LOCUS       NHP11228                2918 bp    DNA     linear   PRI 08-APR-2021
 DEFINITION  Mamu-AG1*05:13:01:01, AG1 locus allele.
@@ -1999,11 +2029,12 @@ ORIGIN
      2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactccta actgtgacgg
      2881 atgtgaattt tttcatgaat atgttttcta tagagtga
 //
-LOCUS       NHP11229                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11229                2918 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:13:02:01, AG1 locus allele.
 ACCESSION   NHP11229
 VERSION     NHP11229
 DBLINK      INSDC: LR989696
+            INSDC: OZ407578
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -2015,11 +2046,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:13:02:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2918
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2918
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:02:01"
      exon            1..73
@@ -2043,6 +2074,9 @@ FEATURES             Location/Qualifiers
      exon            2699..2745
                      /gene="AG1"
                      /number=7
+     exon            2914..2918
+                     /gene="AG1"
+                     /number=8
      intron          74..203
                      /gene="AG1"
                      /number=1
@@ -2061,8 +2095,11 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
-                     2525..2557,2699..2745)
+                     2525..2557,2699..2745,2914..2918)
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:02:01"
                      /codon_start=1
@@ -2120,9 +2157,12 @@ ORIGIN
      2521 atagatagat aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tggggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tagaatga
 //
-LOCUS       NHP11230                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11230                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:13:03:01, AG1 locus allele.
 ACCESSION   NHP11230
 VERSION     NHP11230
@@ -2138,11 +2178,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:13:03:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:03:01"
      exon            1..73
@@ -2184,6 +2224,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -2243,9 +2286,12 @@ ORIGIN
      2521 atagatagat aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
-LOCUS       NHP11231                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11231                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:13:03:02, AG1 locus allele.
 ACCESSION   NHP11231
 VERSION     NHP11231
@@ -2261,11 +2307,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:13:03:02
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:03:02"
      exon            1..73
@@ -2307,6 +2353,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -2366,9 +2415,12 @@ ORIGIN
      2521 atagatagat aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
-LOCUS       NHP11232                2745 bp    DNA     linear   PRI 08-APR-2021
+LOCUS       NHP11232                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:13:04:01, AG1 locus allele.
 ACCESSION   NHP11232
 VERSION     NHP11232
@@ -2384,11 +2436,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:13:04:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:04:01"
      exon            1..73
@@ -2430,6 +2482,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -2489,13 +2544,17 @@ ORIGIN
      2521 atagatagat aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
-LOCUS       NHP11234                2745 bp    DNA     linear   PRI 14-MAY-2021
+LOCUS       NHP11234                2918 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:13:03:03, AG1 locus allele.
 ACCESSION   NHP11234
 VERSION     NHP11234
 DBLINK      INSDC: LR989661
+            INSDC: OZ407579
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -2507,11 +2566,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:13:03:03
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2918
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2918
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:03:03"
      exon            1..73
@@ -2535,6 +2594,9 @@ FEATURES             Location/Qualifiers
      exon            2699..2745
                      /gene="AG1"
                      /number=7
+     exon            2914..2918
+                     /gene="AG1"
+                     /number=8
      intron          74..203
                      /gene="AG1"
                      /number=1
@@ -2553,8 +2615,11 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
-                     2525..2557,2699..2745)
+                     2525..2557,2699..2745,2914..2918)
                      /gene="AG1"
                      /allele="Mamu-AG1*05:13:03:03"
                      /codon_start=1
@@ -2612,9 +2677,12 @@ ORIGIN
      2521 atagatagat aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tagaatga
 //
-LOCUS       NHP11235                2745 bp    DNA     linear   PRI 14-MAY-2021
+LOCUS       NHP11235                2913 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:14:01:01, AG1 locus allele.
 ACCESSION   NHP11235
 VERSION     NHP11235
@@ -2630,11 +2698,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:14:01:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2745
+     source          1..2913
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2745
+     gene            1..2913
                      /gene="AG1"
                      /allele="Mamu-AG1*05:14:01:01"
      exon            1..73
@@ -2676,6 +2744,9 @@ FEATURES             Location/Qualifiers
      intron          2558..2698
                      /gene="AG1"
                      /number=6
+     intron          2746..2913
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
                      2525..2557,2699..2745)
                      /gene="AG1"
@@ -2735,13 +2806,17 @@ ORIGIN
      2521 atagatagat aaggagggag ctactctcag gctgcaagta agtatgaagg aggctgatcc
      2581 ctgagatcct tgggatattg tggttgggag cccatgggga gctcaccaac cccacagttc
      2641 ctcctctagc cacatctcca gagggatctg accaggtcct gtttttgttc tactccaggc
-     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaag
+     2701 agtgacagtg cccaaggttc tgatgtgtct ctcacggctt taaaggcgag accctggggg
+     2761 gcctgatgtg tgtggggtgt tggggggaac agtggacgca gctgtgctgt ggggtttctt
+     2821 tgacttggat gtattgagca tgtgatgggc tgtttaaagt gtcactcctc actgtgacgg
+     2881 atgtgaattt tttcatgaat atgttttcta tag
 //
 LOCUS       NHP11236                2919 bp    DNA     linear   PRI 14-MAY-2021
 DEFINITION  Mamu-AG1*05:15:01:01, AG1 locus allele.
 ACCESSION   NHP11236
 VERSION     NHP11236
 DBLINK      INSDC: LR989669
+            INSDC: OZ407581
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -3006,6 +3081,7 @@ DEFINITION  Mamu-AG1*05:17:01:01, AG1 locus allele.
 ACCESSION   NHP11238
 VERSION     NHP11238
 DBLINK      INSDC: LR989679
+            INSDC: OZ407582
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -3402,6 +3478,7 @@ DEFINITION  Mamu-AG1*05:18:02:01, AG1 locus allele.
 ACCESSION   NHP11242
 VERSION     NHP11242
 DBLINK      INSDC: LR989675
+            INSDC: OZ407583
 KEYWORDS    IPD-MHC; MHC class I; AG1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -3793,7 +3870,7 @@ ORIGIN
      2821 ttgacttgga tgtattgagc atgtgatggg ctgtttaaag tgtcactcct cactgtgacg
      2881 gatgtgaatt ttttcatgaa tatgttttct atagagtga
 //
-LOCUS       NHP11807                2746 bp    DNA     linear   PRI 28-MAY-2021
+LOCUS       NHP11807                2914 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:12:01:05, AG1 locus allele.
 ACCESSION   NHP11807
 VERSION     NHP11807
@@ -3809,11 +3886,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:12:01:05
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2746
+     source          1..2914
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2746
+     gene            1..2914
                      /gene="AG1"
                      /allele="Mamu-AG1*05:12:01:05"
      exon            1..73
@@ -3855,6 +3932,9 @@ FEATURES             Location/Qualifiers
      intron          2559..2699
                      /gene="AG1"
                      /number=6
+     intron          2747..2914
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..473,716..991,1589..1864,1967..2083,
                      2526..2558,2700..2746)
                      /gene="AG1"
@@ -3914,9 +3994,12 @@ ORIGIN
      2521 catagataga taaggcggga gctactctca ggctgcaagt aagtatgaag gaggctgatc
      2581 cctgagatcc ttgggatatt gtggttggga gcccatgggg agctcaccaa ccccacagtt
      2641 cctcctctag ccacatctcc agagggatct gaccaggtcc tgtttttgtt ctactccagg
-     2701 cagtgacagt gcccaaggtt ctgatgtgtc tctcacggct ttaaag
+     2701 cagtgacagt gcccaaggtt ctgatgtgtc tctcacggct ttaaaggcga gaccctgggg
+     2761 ggcctgatgt gtgtggggtg ttggggggaa cagtggacgc agctgtgctg tggggtttct
+     2821 ttgacttgga tgtattgagc atgtgatggg ctgtttaaag tgtcactcct cactgtgacg
+     2881 gatgtgaatt ttttcatgaa tatgttttct atag
 //
-LOCUS       NHP11962                2691 bp    DNA     linear   PRI 28-MAY-2021
+LOCUS       NHP11962                2862 bp    DNA     linear   PRI 20-APR-2026
 DEFINITION  Mamu-AG1*05:22:01:01, AG1 locus allele.
 ACCESSION   NHP11962
 VERSION     NHP11962
@@ -3932,11 +4015,11 @@ COMMENT     IPD-MHC allele: Mamu-AG1*05:22:01:01
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2691
+     source          1..2862
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2691
+     gene            1..2862
                      /gene="AG1"
                      /allele="Mamu-AG1*05:22:01:01"
      exon            1..73
@@ -3957,7 +4040,7 @@ FEATURES             Location/Qualifiers
      exon            2474..2506
                      /gene="AG1"
                      /number=6
-     exon            2648..2691
+     exon            2648..2694
                      /gene="AG1"
                      /number=7
      intron          74..203
@@ -3978,8 +4061,11 @@ FEATURES             Location/Qualifiers
      intron          2507..2647
                      /gene="AG1"
                      /number=6
+     intron          2695..2862
+                     /gene="AG1"
+                     /number=7
      CDS             join(1..73,204..422,665..940,1537..1812,1915..2031,
-                     2474..2506,2648..2691)
+                     2474..2506,2648..2694)
                      /gene="AG1"
                      /allele="Mamu-AG1*05:22:01:01"
                      /codon_start=1
@@ -4035,7 +4121,10 @@ ORIGIN
      2461 tttcttctca tagatagata aggcgggagc tactctcagg ctgcaagtaa gtatgaagga
      2521 ggctgatccc tgagatcctt gggatattgt ggttgggagc ccatggggag ctcaccaacc
      2581 ccacagttcc tcctctagcc acatctccag agggatctga ccaggtcctg tttttgttct
-     2641 actccaggca gtgacagtgc ccaaggttct gatgtgtctc tcacggcttt a
+     2641 actccaggca gtgacagtgc ccaaggttct gatgtgtctc tcacggcttt aaaggcgaga
+     2701 ccctgggggg cctgatgtgt gtggggtgtt ggggggaaca gtggacgcag ctgtgctgtg
+     2761 gggtttcttt gacttggatg tattgagcat gtgatgggct gtttaaagtg tcactcctca
+     2821 ctgtgacgga tgtgaatttt ttcatgaata tgttttctat ag
 //
 LOCUS       NHP12048                2919 bp    DNA     linear   PRI 27-MAY-2022
 DEFINITION  Mamu-AG1*05:15:02:01, AG1 locus allele.

@@ -44,7 +44,7 @@ ORIGIN
        61 ccctgaggtg ctgggccctg ggcttccacc ctgcagagat cacactgatc tggcagcaga
       121 ataggaagga catggagctt gcggagacca
 //
-LOCUS       NHP12238                 150 bp    DNA     linear   PRI 05-DEC-2023
+LOCUS       NHP12238                 640 bp    DNA     linear   PRI 22-JUL-2026
 DEFINITION  Mafa-N*01:01:01:02, N locus allele.
 ACCESSION   NHP12238
 VERSION     NHP12238
@@ -60,11 +60,11 @@ COMMENT     IPD-MHC allele: Mafa-N*01:01:01:02
             Species prefix: Mafa
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..150
+     source          1..640
                      /organism="Macaca fascicularis"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9541"
-     gene            1..150
+     gene            1..640
                      /gene="N"
                      /allele="Mafa-N*01:01:01:02"
      exon            1..150
@@ -79,7 +79,15 @@ FEATURES             Location/Qualifiers
 ORIGIN
         1 gatccccaaa ggttctcccc atcagcaccc actatgaccc catctctgac tgtaatatca
        61 ccctgaggtg ctgggccctg ggcttccacc ctgcagagat cacactgatc tggcagcaga
-      121 ataggaagga catggagctt gcggagacca
+      121 ataggaagga catggagctt gcggagacca ttttatcttt ttgacaacat tttttaagct
+      181 ctgtgtacta catataaatc aaattcagtg ttttggactg tcatagatta tgcttttaaa
+      241 acattttgtt tatctcttat ggatagtcaa ctagtttgct tccaatatgt gttaccatat
+      301 atatctctgt agtagaattc tagatctctc tcagacctta tcttttgcct ccatcctgat
+      361 tctttttgga gctcgttcta acgctggccc tgctcagtgt gaccttgaca ctacttaatt
+      421 aggaccccct cacctccttt cagacctggt gcccacaact atatcctgcc tcactctgct
+      481 ttgaaaaagg aaaatgttcc ccctggactc ttagagtaga tgttggtgtc tgggtttctc
+      541 ttcctaaaat cctttccttc ttagggcaat cagtgagccc tgttgaatgg cctatggaag
+      601 gaaaatgaat gttctaaatt ttctctgacc cttttcttca
 //
 LOCUS       NHP12239                 150 bp    DNA     linear   PRI 05-DEC-2023
 DEFINITION  Mafa-N*01:02:01:01, N locus allele.
@@ -155,7 +163,7 @@ ORIGIN
        61 ccctgaggtg ctgggccctg ggcttccacc ctgcagagat cacactgatc tggcagcaga
       121 ataggaagga catggagctt gtggagacca
 //
-LOCUS       NHP12241                 150 bp    DNA     linear   PRI 05-DEC-2023
+LOCUS       NHP12241                 639 bp    DNA     linear   PRI 22-JUL-2026
 DEFINITION  Mafa-N*01:04:01:01, N locus allele.
 ACCESSION   NHP12241
 VERSION     NHP12241
@@ -171,11 +179,11 @@ COMMENT     IPD-MHC allele: Mafa-N*01:04:01:01
             Species prefix: Mafa
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..150
+     source          1..639
                      /organism="Macaca fascicularis"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9541"
-     gene            1..150
+     gene            1..639
                      /gene="N"
                      /allele="Mafa-N*01:04:01:01"
      exon            1..150
@@ -190,5 +198,13 @@ FEATURES             Location/Qualifiers
 ORIGIN
         1 gatccccaaa ggttctcccc atcagcaccc actatgaccc catctctgac tgtaatatca
        61 ccctgaggtg ctgggccctg ggcttccacc ctgcagagat cacactgatc tggcagcaga
-      121 gtaggaagga catggagctt gcggagacca
+      121 gtaggaagga catggagctt gcggagacca ttttatcttt ttgacaacat tttttaagct
+      181 ctgtgtacta catataaatc taattcagtg ttttggactg tcatagatta tgcttttaaa
+      241 acattttgtt tatctcttat ggatagtcaa ctagtttgct tccaatatgt gttaccatat
+      301 atatctctgt agtagaattc tagatctctc tcagacctta tcttttgcct ccatcctgat
+      361 tcttttggag ctcgttctaa cgctggccct gctcagtgtg accttgacac tacttaatta
+      421 ggaccccctc acctcctttc agacctggtg cccacaacta tatcctgcct cactctgctt
+      481 tgaaaaagga aaatgttccc cctggactct tagagtagat gttggtgtct gggtttctct
+      541 tcctaaaatc ctttccttct tagggcaatc agtgagccct gttgaatggc ctatggaagg
+      601 aaaatgaatg ttctaaattt tctctgaccc ttttcttca
 //

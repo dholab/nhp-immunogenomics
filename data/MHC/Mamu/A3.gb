@@ -85,7 +85,7 @@ ORIGIN
       961 tggaggagga agagctcaga tagaaaagga gggagctact ctcaggctgc aagcagtgac
      1021 agtgcccagg gctctgatgt gtctctcacg gcttgtaaag tgtga
 //
-LOCUS       NHP01875                2891 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP01875                2923 bp    DNA     linear   PRI 16-APR-2026
 DEFINITION  Mamu-A3*13:02:01:01, A3 locus allele.
 ACCESSION   NHP01875
 VERSION     NHP01875
@@ -93,6 +93,7 @@ DBLINK      INSDC: AJ542569
             INSDC: AF157400
             INSDC: LN899654
             INSDC: LR699586
+            INSDC: OZ407569
 KEYWORDS    IPD-MHC; MHC class I; A3.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -120,11 +121,11 @@ COMMENT     IPD-MHC allele: Mamu-A3*13:02:01:01
             MHC class: I
             Previous designations: Mamu-A3*13:02; Mamu-A3*1302
 FEATURES             Location/Qualifiers
-     source          1..2891
+     source          1..2923
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2891
+     gene            1..2923
                      /gene="A3"
                      /allele="Mamu-A3*13:02:01:01"
                      /note="previous designations: Mamu-A3*13:02; Mamu-A3*1302"
@@ -149,7 +150,7 @@ FEATURES             Location/Qualifiers
      exon            2703..2750
                      /gene="A3"
                      /number=7
-     exon            2887..2891
+     exon            2919..2923
                      /gene="A3"
                      /number=8
      intron          74..203
@@ -170,11 +171,11 @@ FEATURES             Location/Qualifiers
      intron          2561..2702
                      /gene="A3"
                      /number=6
-     intron          2751..2886
+     intron          2751..2918
                      /gene="A3"
                      /number=7
      CDS             join(1..73,204..473,716..991,1588..1863,1966..2082,
-                     2528..2560,2703..2750,2887..2891)
+                     2528..2560,2703..2750,2919..2923)
                      /gene="A3"
                      /allele="Mamu-A3*13:02:01:01"
                      /codon_start=1
@@ -235,15 +236,16 @@ ORIGIN
      2701 aggcagtgac agtgcccagg gctctgatgt gtctctcacg gcttgtaaag gtgagaccct
      2761 ggggggcctg atgtgtgggg ggtgttgggg ggaacagtgg acgcagctgt gctgtggggt
      2821 ttctttgact tggatgtatt gagcatgtga tgggctgttt aaagtgtcac tcctcactgt
-     2881 gacagatgtg a
+     2881 gacagatgtg aatttgttca tgaatatttt ttctatagtg tga
 //
-LOCUS       NHP01876                2893 bp    DNA     linear   PRI 07-OCT-2019
+LOCUS       NHP01876                2925 bp    DNA     linear   PRI 16-APR-2026
 DEFINITION  Mamu-A3*13:03:01:01, A3 locus allele.
 ACCESSION   NHP01876
 VERSION     NHP01876
 DBLINK      INSDC: AJ542571
             INSDC: AF157401
             INSDC: LR721694
+            INSDC: OZ407570
 KEYWORDS    IPD-MHC; MHC class I; A3.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -271,11 +273,11 @@ COMMENT     IPD-MHC allele: Mamu-A3*13:03:01:01
             MHC class: I
             Previous designations: Mamu-A3*13:03; Mamu-A3*1303
 FEATURES             Location/Qualifiers
-     source          1..2893
+     source          1..2925
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2893
+     gene            1..2925
                      /gene="A3"
                      /allele="Mamu-A3*13:03:01:01"
                      /note="previous designations: Mamu-A3*13:03; Mamu-A3*1303"
@@ -300,7 +302,7 @@ FEATURES             Location/Qualifiers
      exon            2705..2752
                      /gene="A3"
                      /number=7
-     exon            2889..2893
+     exon            2921..2925
                      /gene="A3"
                      /number=8
      intron          74..203
@@ -321,11 +323,11 @@ FEATURES             Location/Qualifiers
      intron          2563..2704
                      /gene="A3"
                      /number=6
-     intron          2753..2888
+     intron          2753..2920
                      /gene="A3"
                      /number=7
      CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
-                     2530..2562,2705..2752,2889..2893)
+                     2530..2562,2705..2752,2921..2925)
                      /gene="A3"
                      /allele="Mamu-A3*13:03:01:01"
                      /codon_start=1
@@ -386,7 +388,7 @@ ORIGIN
      2701 ccaggcagtg acagtgccca gggctctgat gtgtctctca cggcttgtaa aggtgagacc
      2761 ctggggggcc tgatgtgtgt ggggtgttgg ggggaacagt ggacgcagct gtgctgtggg
      2821 gtttctttga cttggatgta ttgagcatgt gatgggctgt ttaaagtgtc actcctcact
-     2881 gtgacggatg tga
+     2881 gtgacggatg tgaatttgtt catgaatatt ttttctatag tgtga
 //
 LOCUS       NHP01877                1098 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-A3*13:05, A3 locus allele.

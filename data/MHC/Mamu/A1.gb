@@ -2921,6 +2921,7 @@ ACCESSION   NHP01806
 VERSION     NHP01806
 DBLINK      INSDC: AM295888
             INSDC: LR991624
+            INSDC: OZ407560
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -6506,7 +6507,7 @@ ORIGIN
      1021 ggagggagct actctcaggc tgcaagcagt gacagtgccc agggctctga tgtgtctctc
      1081 acggcttgta aagtgtga
 //
-LOCUS       NHP01865                2882 bp    DNA     linear   PRI 15-OCT-2019
+LOCUS       NHP01865                2923 bp    DNA     linear   PRI 15-APR-2026
 DEFINITION  Mamu-A1*001:01:01:01, A1 locus allele.
 ACCESSION   NHP01865
 VERSION     NHP01865
@@ -6514,6 +6515,7 @@ DBLINK      INSDC: AJ539307
             INSDC: FJ588547
             INSDC: LT908117
             INSDC: LR699574
+            INSDC: OZ407557
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -6533,11 +6535,11 @@ COMMENT     IPD-MHC allele: Mamu-A1*001:01:01:01
             MHC class: I
             Previous designations: Mamu-A*01; Mamu-A1*001:01; Mamu-A1*00101
 FEATURES             Location/Qualifiers
-     source          1..2882
+     source          1..2923
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2882
+     gene            1..2923
                      /gene="A1"
                      /allele="Mamu-A1*001:01:01:01"
                      /note="previous designations: Mamu-A*01; Mamu-A1*001:01;
@@ -6563,7 +6565,7 @@ FEATURES             Location/Qualifiers
      exon            2704..2751
                      /gene="A1"
                      /number=7
-     exon            2878..2882
+     exon            2919..2923
                      /gene="A1"
                      /number=8
      intron          74..203
@@ -6584,11 +6586,11 @@ FEATURES             Location/Qualifiers
      intron          2562..2703
                      /gene="A1"
                      /number=6
-     intron          2752..2877
+     intron          2752..2918
                      /gene="A1"
                      /number=7
      CDS             join(1..73,204..473,717..992,1589..1864,1967..2083,
-                     2529..2561,2704..2751,2878..2882)
+                     2529..2561,2704..2751,2919..2923)
                      /gene="A1"
                      /allele="Mamu-A1*001:01:01:01"
                      /codon_start=1
@@ -6649,7 +6651,7 @@ ORIGIN
      2701 caggcagtga cagtgcccag ggctctgatg tgtctctcac ggcttgtaaa ggtgagaccc
      2761 tggggggcct gatgtgtgtg gggtgttggg ggaacagtgg acgcagctgt gctatggggt
      2821 ttctttgact tggatgtatt gagcatgtga tgggctgttt aaagtgtcac tcctgactgt
-     2881 ga
+     2881 gacggatgtg aattttttca tgaatatgtt ttctatagtg tga
 //
 LOCUS       NHP01866                2914 bp    DNA     linear   PRI 19-SEP-2019
 DEFINITION  Mamu-A1*002:01:01:01, A1 locus allele.
@@ -6659,6 +6661,7 @@ DBLINK      INSDC: AJ539308
             INSDC: U50837
             INSDC: LN899621
             INSDC: LR699565
+            INSDC: OZ407558
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -6941,11 +6944,12 @@ ORIGIN
      2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtgaa
      2881 ttttttcatg aatatttttt ctatagtgtg a
 //
-LOCUS       NHP01874                1098 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-A1*007:03, A1 locus allele.
+LOCUS       NHP01874                3166 bp    DNA     linear   PRI 16-APR-2026
+DEFINITION  Mamu-A1*007:03:01:01, A1 locus allele.
 ACCESSION   NHP01874
 VERSION     NHP01874
 DBLINK      INSDC: AJ542568
+            INSDC: OZ407563
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -6959,47 +6963,70 @@ REFERENCE   1
             macaques.
   JOURNAL   Proc Natl Acad Sci U S A 102:1626-1631 (2005)
    PUBMED   15665097
-COMMENT     IPD-MHC allele: Mamu-A1*007:03
+COMMENT     IPD-MHC allele: Mamu-A1*007:03:01:01
             IPD accession: NHP01874
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-A*0511; Mamu-A1*00703
+            Previous designations: Mamu-A*0511; Mamu-A1*00703; Mamu-A1*007:03
 FEATURES             Location/Qualifiers
-     source          1..1098
+     source          1..3166
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1098
+     gene            1..3166
                      /gene="A1"
-                     /allele="Mamu-A1*007:03"
-                     /note="previous designations: Mamu-A*0511; Mamu-A1*00703"
+                     /allele="Mamu-A1*007:03:01:01"
+                     /note="previous designations: Mamu-A*0511; Mamu-A1*00703;
+                     Mamu-A1*007:03"
      exon            1..73
                      /gene="A1"
                      /number=1
-     exon            74..343
+     exon            295..564
                      /gene="A1"
                      /number=2
-     exon            344..619
+     exon            965..1240
                      /gene="A1"
                      /number=3
-     exon            620..895
+     exon            1832..2107
                      /gene="A1"
                      /number=4
-     exon            896..1012
+     exon            2210..2326
                      /gene="A1"
                      /number=5
-     exon            1013..1045
+     exon            2771..2803
                      /gene="A1"
                      /number=6
-     exon            1046..1093
+     exon            2946..2993
                      /gene="A1"
                      /number=7
-     exon            1094..1098
+     exon            3162..3166
                      /gene="A1"
                      /number=8
-     CDS             1..1098
+     intron          74..294
                      /gene="A1"
-                     /allele="Mamu-A1*007:03"
+                     /number=1
+     intron          565..964
+                     /gene="A1"
+                     /number=2
+     intron          1241..1831
+                     /gene="A1"
+                     /number=3
+     intron          2108..2209
+                     /gene="A1"
+                     /number=4
+     intron          2327..2770
+                     /gene="A1"
+                     /number=5
+     intron          2804..2945
+                     /gene="A1"
+                     /number=6
+     intron          2994..3161
+                     /gene="A1"
+                     /number=7
+     CDS             join(1..73,295..564,965..1240,1832..2107,2210..2326,
+                     2771..2803,2946..2993,3162..3166)
+                     /gene="A1"
+                     /allele="Mamu-A1*007:03:01:01"
                      /codon_start=1
                      /product="MHC class I A1 antigen"
                      /translation="MAVMAPRTLLLVLSGVLALTETWAGSHSMRYFYTSMSRPGRGQPR
@@ -7011,32 +7038,67 @@ FEATURES             Location/Qualifiers
                      GGSYSQAASSDSAQGSDVSLTACKV"
 ORIGIN
         1 atggcggtca tggcgccgcg aaccctcctc ctggtgctct caggggtcct ggccctgacc
-       61 gagacctggg cgggctccca ctccatgagg tatttctaca cctccatgtc ccggcccggc
-      121 cgcgggcagc cccgcttcat ctccgtgggc tacgtggacg acacgcagtt cgtgcggttc
-      181 gacagcgacg ccgagagtcc gagagaggag ccgcgggcgc cgtgggtgga gcaggagggg
-      241 ccggagtatt gggaccggaa cacacggatc tgcaaggcca acacacagac ctaccgagag
-      301 agcctgcgga acctgctccg ctactacaac cagagcgagg cggggtctca caccatccag
-      361 aggatgtacg gctgcgacct ggggccggac gggcgcctcc tccgcgggta tgaccagtcc
-      421 gcctacgacg gcagggatta catcgccctg aacgaggacc tgcgctcctg gaccgcggcg
-      481 gacatggcgg ctcagaacac ccagcgcaag tgggaggcgg cgggtgcggc ggagcagatg
-      541 agagcctacc tggagggcga gtgcctggag tggctccgca gacacctgga gaacgggaag
-      601 gagacgctgc agcgcgcgga cccccccaag acacatgtga cccaccaccc cgtctctgac
-      661 catgaggcca ccctgaggtg ctgggccctg ggcttctacc ctgcggagat cacactgacc
-      721 tggcagcggg atggggagga ccaaactcag gacacggagc tcgtggagac caggcctgca
-      781 ggagatggaa ccttccagaa gtgggcggct gtggtggtgc cttctggaaa ggagcagaga
-      841 tacacctgtc atgtgcagca tgagggtctg cccaagcccc tcaccctgag atgggagccg
-      901 tcttccgagt ccaccattcc catcgtgggc atcattgctg gcctggttct gcttggagct
-      961 gtggtcactg gagctgtggt cgctgctgtg atgtggtgga ggaagagctc agatagaaaa
-     1021 ggagggagct actctcaggc tgcaagcagt gacagtgccc agggatctga tgtgtctctc
-     1081 acggcttgta aagtgtga
+       61 gagacctggg cgggtgagtg cggggtctgg agggagaagc gaggggcccg cccggcgggg
+      121 gcgccgcgaa ccctcctcct ggtgctctca ggggtcctgg ccctgaccga gacctgggcg
+      181 ggtgagtgcg gggtctggag ggagaagcga ggggcccgcc cggcgggggc gcaggacccg
+      241 gggagccgcg cggggaggag agtcgggcgg gtctcagcct ctcctcgccc ccaggctccc
+      301 actccatgag gtatttctac acctccatgt cccggcccgg ccgcgggcag ccccgcttca
+      361 tctccgtggg ctacgtggac gacacgcagt tcgtgcggtt cgacagcgac gccgagagtc
+      421 cgagagagga gccgcgggcg ccgtgggtgg agcaggaggg gccggagtat tgggaccgga
+      481 acacacggat ctgcaaggcc aacacacaga cctaccgaga gagcctgcgg aacctgctcc
+      541 gctactacaa ccagagcgag gcgggtgagt gaccccggcc cggggcgcag gtcacgaccc
+      601 ctacccatcc cccacggacg gcccgcgtcg ccccgagtct ccgggtccca gatacacccc
+      661 gaagccgcga gaccccaaga cccttgaccc gggagagccc caggcccctt tgcccggttt
+      721 cattttcagt tgaggccaaa atccccgccg gttggtcggg gcggggcggg gctccgggga
+      781 ctgtactgag tctccctgat cgcctgtgga tctcccgggc tggcctccca caaggagggg
+      841 agacaactgg gaccaacagt agaatatcgc cctccctctg gtcctgagga aatcctcctg
+      901 ggtttccaga tcctgtacca gatagtgact ctgagggtcc gccctgctct ctgacacaat
+      961 taagggtctc acaccatcca gaggatgtac ggctgcgacc tggggccgga cgggcgcctc
+     1021 ctccgcgggt atgaccagtc cgcctacgac ggcagggatt acatcgccct gaacgaggac
+     1081 ctgcgctcct ggaccgcggc ggacatggcg gctcagaaca cccagcgcaa gtgggaggcg
+     1141 gcgggtgcgg cggagcagat gagagcctac ctggagggcg agtgcctgga gtggctccgc
+     1201 agacacctgg agaacgggaa ggagacgctg cagcgcgcgg gtaccagggg ccacggggcg
+     1261 cctccctgat ctcctgtgga tctcccgggc tggcctccca caaggagggg agacaactgg
+     1321 gaccaacact agaatatcgc cctccctctg gtcctgagga aatcctcctg ggtttccaga
+     1381 tcctgtacca gagggtgact ctgaggttct gccctgctct ctgacacaat taaggataaa
+     1441 atctctgagg gaatgaagga aagacgatcc ctcgaatact gatcaggggt tccctttgac
+     1501 accggcagca gccttgggcc ccgtgacttt tcctctcagg ccctgttctc tgcttcacac
+     1561 tcaatgtgtg tgggggtctg agtccagctc ctctgagtcc ctcagcctcc actcaggtca
+     1621 cgaccacaag tcactgttcc ctcctcagag aacagaattt tccacggaat aggagattct
+     1681 cccaggtgcc tgtgtccagg atggtgtctg ggttctgggc tcccttcccc accccaggtg
+     1741 tcctgtccat tctcaagatg gtcacatgcg tgctggtgga gtgtcccatg acagatgcaa
+     1801 aatgcctgaa ttttctgact cttcccatca gaccccccca agacacatgt gacccaccac
+     1861 cccgtctctg accatgaggc caccctgagg tgctgggccc tgggcttcta ccctgcggag
+     1921 atcacactga cctggcagcg ggatggggag gaccaaactc aggacacgga gctcgtggag
+     1981 accaggcctg caggagatgg aaccttccag aagtgggcgg ctgtggtggt gccttctgga
+     2041 aaggagcaga gatacacctg tcatgtgcag catgagggtc tgcccaagcc cctcaccctg
+     2101 agatggggta aagagggaga tgggggtgtc atgtctttta gggaaagctg gagcctctct
+     2161 ggagaccttt agcagtttca ggacccctca ccttcccctc ttttcccaga gccgtcttcc
+     2221 gagtccacca ttcccatcgt gggcatcatt gctggcctgg ttctgcttgg agctgtggtc
+     2281 actggagctg tggtcgctgc tgtgatgtgg tggaggaaga gctcaggtaa agaaggagtg
+     2341 aggagtggag tctgagattt cttgtctcac tgagggtttc aagtcccagg cagaagtgta
+     2401 ccctgcctgg ttactgggaa gcaccatcca cactcatggg ccgacccagc ctgggccctg
+     2461 tgtgccagca cctactcttt tgtaaagcac ctgttacaat gaaggacaga tagatcacct
+     2521 caattatggt ggtgatggga cctgatccca gcagtcacaa gtcacaaggg aaggtccctg
+     2581 ctgaggacag acctcaggag ggcagttggt ccaggatcca cacctgcttt cttcatgttt
+     2641 cctgatcccg cccggggtct gcagtcacac atttctggaa acttctctgg ggtccaagaa
+     2701 gggagattcc tctaggacct tatggccctg atccctttct gatatctcac aggacatttt
+     2761 cttcccacag atagaaaagg agggagctac tctcaggctg caagtaagta tgaaggaggc
+     2821 tgatccccga gatccttggg atgttgtggt tgggagccca tgggggagct cactaacccc
+     2881 acagttcctc ctctagtcac atctccagag ggatttgacc aggtcctgtt tttgttctac
+     2941 tccaggcagt gacagtgccc agggatctga tgtgtctctc acggcttgta aaggtgagac
+     3001 cctggggggc ctgatgtgtg tggggtgttg gggggaacat tggatgcagc tgtgctgtgg
+     3061 ggtttgtttg acttggatgt actgagcatg tgatggaatg tttaaagtgt cactcctcac
+     3121 tgtgacggac atgaatttgt tcctgaatat tttttctata gtgtga
 //
-LOCUS       NHP01879                2873 bp    DNA     linear   PRI 07-OCT-2019
+LOCUS       NHP01879                2914 bp    DNA     linear   PRI 16-APR-2026
 DEFINITION  Mamu-A1*016:01:01:01, A1 locus allele.
 ACCESSION   NHP01879
 VERSION     NHP01879
 DBLINK      INSDC: AJ542572
             INSDC: LN899629
             INSDC: LR701153
+            INSDC: OZ407567
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -7056,11 +7118,11 @@ COMMENT     IPD-MHC allele: Mamu-A1*016:01:01:01
             MHC class: I
             Previous designations: Mamu-A*1306; Mamu-A1*016:01; Mamu-A1*01601
 FEATURES             Location/Qualifiers
-     source          1..2873
+     source          1..2914
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2873
+     gene            1..2914
                      /gene="A1"
                      /allele="Mamu-A1*016:01:01:01"
                      /note="previous designations: Mamu-A*1306; Mamu-A1*016:01;
@@ -7086,7 +7148,7 @@ FEATURES             Location/Qualifiers
      exon            2694..2741
                      /gene="A1"
                      /number=7
-     exon            2869..2873
+     exon            2910..2914
                      /gene="A1"
                      /number=8
      intron          74..203
@@ -7107,11 +7169,11 @@ FEATURES             Location/Qualifiers
      intron          2552..2693
                      /gene="A1"
                      /number=6
-     intron          2742..2868
+     intron          2742..2909
                      /gene="A1"
                      /number=7
      CDS             join(1..73,204..473,711..986,1582..1857,1960..2076,
-                     2519..2551,2694..2741,2869..2873)
+                     2519..2551,2694..2741,2910..2914)
                      /gene="A1"
                      /allele="Mamu-A1*016:01:01:01"
                      /codon_start=1
@@ -7171,7 +7233,8 @@ ORIGIN
      2641 ctagccacat ctccagaggg atctgaccag gtcctgtttt tgttctactc caggcagtga
      2701 cagtgcccag ggctctgatg tgtctctcac ggcttgtaaa ggtgagaccc tggggggcct
      2761 gatgtgtgtg gggtgttgga gggaacagtg gacgcagctg tgctatgggg tttctttgac
-     2821 ttggatgcat tgagcatgtg atgggctgtt taaagtgtca ctcctcactg tga
+     2821 ttggatgcat tgagcatgtg atgggctgtt taaagtgtca ctcctcactg tgacggatat
+     2881 gaatttgttc atgaatattt tttctatagt gtga
 //
 LOCUS       NHP01880                2921 bp    DNA     linear   PRI 07-OCT-2019
 DEFINITION  Mamu-A1*019:01:01:01, A1 locus allele.
@@ -7460,13 +7523,14 @@ ORIGIN
      2761 tgtgggggtt gttgggggga acagtggacg ctgctgtgct gtggggtttc tttgacttgg
      2821 atgtattgag catgtgatgg gctgtttaaa gtgtcactcc tcactgtgac ggatgtga
 //
-LOCUS       NHP01882                2880 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP01882                2921 bp    DNA     linear   PRI 16-APR-2026
 DEFINITION  Mamu-A1*023:01:01:01, A1 locus allele.
 ACCESSION   NHP01882
 VERSION     NHP01882
 DBLINK      INSDC: AJ542575
             INSDC: LN899632
             INSDC: LR699576
+            INSDC: OZ407568
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -7486,11 +7550,11 @@ COMMENT     IPD-MHC allele: Mamu-A1*023:01:01:01
             MHC class: I
             Previous designations: Mamu-A*21; Mamu-A1*023:01; Mamu-A1*02301
 FEATURES             Location/Qualifiers
-     source          1..2880
+     source          1..2921
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2880
+     gene            1..2921
                      /gene="A1"
                      /allele="Mamu-A1*023:01:01:01"
                      /note="previous designations: Mamu-A*21; Mamu-A1*023:01;
@@ -7516,7 +7580,7 @@ FEATURES             Location/Qualifiers
      exon            2701..2748
                      /gene="A1"
                      /number=7
-     exon            2876..2880
+     exon            2917..2921
                      /gene="A1"
                      /number=8
      intron          74..203
@@ -7537,11 +7601,11 @@ FEATURES             Location/Qualifiers
      intron          2559..2700
                      /gene="A1"
                      /number=6
-     intron          2749..2875
+     intron          2749..2916
                      /gene="A1"
                      /number=7
      CDS             join(1..73,204..473,719..994,1589..1864,1967..2083,
-                     2526..2558,2701..2748,2876..2880)
+                     2526..2558,2701..2748,2917..2921)
                      /gene="A1"
                      /allele="Mamu-A1*023:01:01:01"
                      /codon_start=1
@@ -7602,6 +7666,7 @@ ORIGIN
      2701 gcagtgacag tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagaccctgg
      2761 ggggcctgat gtttgtgggg tgttgggggg aacagtggac gcagctgtgc tgtggggttt
      2821 ctttgacttg gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga
+     2881 cggatgtgaa ttttttcatg aatatttttt ctatagtgtg a
 //
 LOCUS       NHP01883                2898 bp    DNA     linear   PRI 03-OCT-2019
 DEFINITION  Mamu-A1*025:01:01:01, A1 locus allele.
@@ -7754,6 +7819,7 @@ VERSION     NHP01884
 DBLINK      INSDC: AJ542579
             INSDC: AF199357
             INSDC: LR701151
+            INSDC: OZ407565
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -8131,6 +8197,7 @@ DBLINK      INSDC: U41380
             INSDC: FN396407
             INSDC: LM607985
             INSDC: LR989602
+            INSDC: OZ407561
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -8274,11 +8341,12 @@ ORIGIN
      2821 tgtggggttt ctttgacttg gatgtattga gcatgtgatg ggctgtttaa agtgtcactc
      2881 ctcactgtga cggatgtgaa ttttttcatg aatatttttc tatagtgtga
 //
-LOCUS       NHP01894                1089 bp    DNA     linear   PRI 19-SEP-2019
-DEFINITION  Mamu-A1*006:01, A1 locus allele.
+LOCUS       NHP01894                2911 bp    DNA     linear   PRI 16-APR-2026
+DEFINITION  Mamu-A1*006:01:01:01, A1 locus allele.
 ACCESSION   NHP01894
 VERSION     NHP01894
 DBLINK      INSDC: U41834
+            INSDC: OZ407562
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -8292,76 +8360,129 @@ REFERENCE   1
             histories of MHC class I and II genes in primates.
   JOURNAL   J Immunol 156:4656-4665 (1996)
    PUBMED   8648109
-COMMENT     IPD-MHC allele: Mamu-A1*006:01
+COMMENT     IPD-MHC allele: Mamu-A1*006:01:01:01
             IPD accession: NHP01894
             Species prefix: Mamu
             MHC class: I
-            Previous designations: Mamu-A*04; Mamu-A1*00601
+            Previous designations: Mamu-A*04; Mamu-A1*00601; Mamu-A1*006:01
 FEATURES             Location/Qualifiers
-     source          1..1089
+     source          1..2911
                      /organism="Macaca mulatta"
-                     /mol_type="mRNA"
+                     /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..1089
+     gene            1..2911
                      /gene="A1"
-                     /allele="Mamu-A1*006:01"
-                     /note="previous designations: Mamu-A*04; Mamu-A1*00601"
-     exon            1..64
+                     /allele="Mamu-A1*006:01:01:01"
+                     /note="previous designations: Mamu-A*04; Mamu-A1*00601;
+                     Mamu-A1*006:01"
+     exon            1..73
                      /gene="A1"
                      /number=1
-     exon            65..334
+     exon            203..472
                      /gene="A1"
                      /number=2
-     exon            335..610
+     exon            716..991
                      /gene="A1"
                      /number=3
-     exon            611..886
+     exon            1588..1863
                      /gene="A1"
                      /number=4
-     exon            887..1003
+     exon            1966..2082
                      /gene="A1"
                      /number=5
-     exon            1004..1036
+     exon            2530..2562
                      /gene="A1"
                      /number=6
-     exon            1037..1084
+     exon            2691..2738
                      /gene="A1"
                      /number=7
-     exon            1085..1089
+     exon            2907..2911
                      /gene="A1"
                      /number=8
-     CDS             1..1089
+     intron          74..202
                      /gene="A1"
-                     /allele="Mamu-A1*006:01"
+                     /number=1
+     intron          473..715
+                     /gene="A1"
+                     /number=2
+     intron          992..1587
+                     /gene="A1"
+                     /number=3
+     intron          1864..1965
+                     /gene="A1"
+                     /number=4
+     intron          2083..2529
+                     /gene="A1"
+                     /number=5
+     intron          2563..2690
+                     /gene="A1"
+                     /number=6
+     intron          2739..2906
+                     /gene="A1"
+                     /number=7
+     CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
+                     2530..2562,2691..2738,2907..2911)
+                     /gene="A1"
+                     /allele="Mamu-A1*006:01:01:01"
                      /codon_start=1
                      /product="MHC class I A1 antigen"
-                     /translation="MAPRTLLLVLSGALALTQTWAGSHSMRYFYTSVSRPGRGQPRFMS
-                     VGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDQNTRICKADTQTYRESLRNLRG
-                     YYNQSEAGSHTLQRMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMAAQN
-                     TQRKWEAAGEAEQIRAYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATL
-                     RCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSEEEQRYTCH
-                     VQHEGLPKPLTLRWEPSSQSTIPMVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRKGGS
-                     YSQAASSDSAQGSDVSLTACKV"
+                     /translation="MVVMAPRTLLLVLSGALALTQTWAGSHSMRYFYTSVSRPGRGQPR
+                     FMSVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWDQNTRICKADTQTYRESLRN
+                     LRGYYNQSEAGSHTLQRMYGCDLGPDGRLLRGYEQYAYDGRDYIALNEDLRSWTAADMA
+                     AQNTQRKWEAAGEAEQIRAYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHE
+                     ATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSEEEQRY
+                     TCHVQHEGLPKPLTLRWEPSSQSTIPMVGIIAGLVLLGAVVTGAVVAAVMWRRKSSDRK
+                     GGSYSQAASSDSAQGSDVSLTACKV"
 ORIGIN
-        1 atggcgcccc gaaccctcct cctggtgctc tccggggcgc tggccctgac ccagacctgg
-       61 gccggctccc actccatgag gtatttctac acctccgtgt cccggcccgg ccgcgggcag
-      121 ccccgcttca tgtccgtggg ctacgtggac gacacgcagt tcgtgcggtt cgacagcgac
-      181 gccgagagtc cgagagagga gccgcgggcg ccgtgggtgg agcaggaggg gccggagtat
-      241 tgggaccaga acacacggat ctgcaaggcc gacacacaga cctaccgaga gagcctgcgg
-      301 aaccttcgcg gctactacaa ccagagcgag gccgggtctc acaccctcca gaggatgtac
-      361 ggctgcgacc tgggacccga cgggcgcctc ctccgcgggt atgaacagta cgcctacgac
-      421 ggcagggatt acatcgccct gaacgaggac ctgcgctcct ggaccgccgc ggacatggcg
-      481 gctcagaaca cccagcggaa gtgggaggcg gcgggtgagg cggagcagat cagagcctac
-      541 ctggagggcg agtgcctgga gtggctccgc agatatctgg agaacgggaa ggagacgctg
-      601 cagcgcgcgg acccccccaa gacacatgtg acccaccacc ccgtctctga ccatgaggcc
-      661 accctgaggt gctgggccct gggcttctac cctgcggaga tcacactgac ctggcagcgg
-      721 gatggggagg accaaactca ggacacggag ctcgtggaga ccaggcctgc aggagatgga
-      781 accttccaga agtgggcggc tgtggtggtg ccttctgaag aggagcagag atacacctgt
-      841 catgtgcagc atgagggtct gcccaagccc ctcaccctga gatgggagcc gtcttcccag
-      901 tccaccatcc ccatggtggg catcattgct ggcctggttc tccttggagc tgtggtcact
-      961 ggagctgtgg tcgctgctgt gatgtggagg aggaagagct cagatagaaa aggagggagc
-     1021 tactctcagg ctgcaagcag tgacagtgcc cagggctctg atgtgtctct cacggcttgt
-     1081 aaagtgtga
+        1 atggtggtca tggcgccccg aaccctcctc ctggtgctct ccggggcgct ggccctgacc
+       61 cagacctggg ccggtgagtg cggggtcggg agggaaatgg cctctgcggg gaggagcgag
+      121 gggaccgcag gcgggggcgc aggacccggg gagccgcgcg gggaggaggg tcgggcgggt
+      181 ctcagcctct cctcgccccc aggctcccac tccatgaggt atttctacac ctccgtgtcc
+      241 cggcccggcc gcgggcagcc ccgcttcatg tccgtgggct acgtggacga cacgcagttc
+      301 gtgcggttcg acagcgacgc cgagagtccg agagaggagc cgcgggcgcc gtgggtggag
+      361 caggaggggc cggagtattg ggaccagaac acacggatct gcaaggccga cacacagacc
+      421 taccgagaga gcctgcggaa ccttcgcggc tactacaacc agagcgaggc cggtgagtga
+      481 ccccggcccg gggcgcaggt cacgacccct ccccatcccc cacggacggc tcgcgtcgcc
+      541 cagagtctcc gggtcccaga tacaccccga agccgcggga ccccgagacc gttgacccgg
+      601 gagagcccca ggcgcctttg cccagtttca ttttcagttg aggccaaaat ccccgcgggt
+      661 tggtcggggc ggggcggggc tccggggact gtactgaccg cgggggcggg gccagggtct
+      721 cacaccctcc agaggatgta cggctgcgac ctgggacccg acgggcgcct cctccgcggg
+      781 tatgaacagt acgcctacga cggcagggat tacatcgccc tgaacgagga cctgcgctcc
+      841 tggaccgccg cggacatggc ggctcagaac acccagcgga agtgggaggc ggcgggtgag
+      901 gcggagcaga tcagagccta cctggagggc gagtgcctgg agtggctccg cagatatctg
+      961 gagaacggga aggagacgct gcagcgcgcg ggtaccgggg accacggggc gccttcctga
+     1021 tcgcctgtag atcgcctggg ttggcctccc acaaggaggg gagacaaatg agatcaacac
+     1081 tagaatagcg ccttccctct ggtcctgagg gagaggaatc ctcctgggtt tccagatcct
+     1141 gtaccagaga gtgactctga gggtccgccc tgctctctga cacaattaag gataaaatct
+     1201 ctgagggaat gaagggaaga cgatccctcg aatactgatc aggggttccc tttgacaccg
+     1261 gcagcagcct tgggccccgt gacttttcct ctcaggccct gttctctgct tcacactcaa
+     1321 tgtgtgtggg ggtctgagtc cagctcctct gagtccctca gcctccactc aggttaggac
+     1381 cagaagtcac tgttccctcc tcggggaata gaattttcca cggaatagga gattctccca
+     1441 ggtgcctgtg tccaggatag tgtctgggtt ctgtgctccc ttccccaccc caggtgtcct
+     1501 gtccattctc aagatggcca catgtgtgct ggtggactgt cccatgacag atgcaaaatg
+     1561 actgaatttt ctgactcttc ccatcagacc cccccaagac acatgtgacc caccaccccg
+     1621 tctctgacca tgaggccacc ctgaggtgct gggccctggg cttctaccct gcggagatca
+     1681 cactgacctg gcagcgggat ggggaggacc aaactcagga cacggagctc gtggagacca
+     1741 ggcctgcagg agatggaacc ttccagaagt gggcggctgt ggtggtgcct tctgaagagg
+     1801 agcagagata cacctgtcat gtgcagcatg agggtctgcc caagcccctc accctgagat
+     1861 ggggtaaaga gggagatggg ggtgtcatgt cttttaggga aagccggagc ctctctggag
+     1921 acctttagca gggtcaggac ccctcacctt tccctctttt cccagagccg tcttcccagt
+     1981 ccaccatccc catggtgggc atcattgctg gcctggttct ccttggagct gtggtcactg
+     2041 gagctgtggt cgctgctgtg atgtggagga ggaagagctc aggtaaggaa ggggggtgag
+     2101 gagtggagtc tgagatttct tgtcttactg agggtttcaa gcctcaggta gaagtgtacc
+     2161 ctgcctggtt actgggaagc accatccaca ctcatgggcc gacccagcct gggccctgtg
+     2221 tgccagcacc tactcttttg taaagcacct gttacagtga aggacagata gatcacctcg
+     2281 atttcggtgg tgatgggacc tgatcccagc agtcacaagt cacaagggaa ggtccctgct
+     2341 gaggacagac ctcaggaggg cagttggtcc aggacccaca cctgctttct tcatgtttcc
+     2401 tgatcccgcc ctgagtctgc agtcacacat ttcaggaaac ttctctgggg tccaagacta
+     2461 ggagattcct ctaggacctt atggcactgg ttcctttctg atatctcaaa ggacattttc
+     2521 ttcccacaga tagaaaagga gggagctact ctcaggctgc aagtaagtat gaagagatcc
+     2581 ttgggatgtt gtggttgggg gcccatgggg gagctaaccc agcccacagt tcctccttta
+     2641 gtcacatctc cagagggatc tgaccaggtc ctgtttttgt tctactccag gcagtgacag
+     2701 tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagaccctgg ggggcctgat
+     2761 gtgtgggggg tgttgggggg aacagtggat gcagctgtgc tgtggggttt ctttgacttg
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtgaa
+     2881 ttttttcatg aatatttttt ctatagtgtg a
 //
 LOCUS       NHP01895                3093 bp    DNA     linear   PRI 08-OCT-2019
 DEFINITION  Mamu-A1*007:01:01:01, A1 locus allele.
@@ -8664,6 +8785,7 @@ ACCESSION   NHP01897
 VERSION     NHP01897
 DBLINK      INSDC: AF157398
             INSDC: LR701152
+            INSDC: OZ407566
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -8802,13 +8924,14 @@ ORIGIN
      2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatatgaa
      2881 ttttttcatg aatatgtttt ctatagtgtg a
 //
-LOCUS       NHP01903                2879 bp    DNA     linear   PRI 19-SEP-2019
+LOCUS       NHP01903                2911 bp    DNA     linear   PRI 16-APR-2026
 DEFINITION  Mamu-A1*008:01:01:01, A1 locus allele.
 ACCESSION   NHP01903
 VERSION     NHP01903
 DBLINK      INSDC: AF243179
             INSDC: LN899628
             INSDC: LR699573
+            INSDC: OZ407564
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -8829,11 +8952,11 @@ COMMENT     IPD-MHC allele: Mamu-A1*008:01:01:01
             MHC class: I
             Previous designations: Mamu-A*06; Mamu-A1*008:01:01; Mamu-A1*0080101
 FEATURES             Location/Qualifiers
-     source          1..2879
+     source          1..2911
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2879
+     gene            1..2911
                      /gene="A1"
                      /allele="Mamu-A1*008:01:01:01"
                      /note="previous designations: Mamu-A*06; Mamu-A1*008:01:01;
@@ -8859,7 +8982,7 @@ FEATURES             Location/Qualifiers
      exon            2691..2738
                      /gene="A1"
                      /number=7
-     exon            2875..2879
+     exon            2907..2911
                      /gene="A1"
                      /number=8
      intron          74..202
@@ -8880,11 +9003,11 @@ FEATURES             Location/Qualifiers
      intron          2563..2690
                      /gene="A1"
                      /number=6
-     intron          2739..2874
+     intron          2739..2906
                      /gene="A1"
                      /number=7
      CDS             join(1..73,203..472,716..991,1588..1863,1966..2082,
-                     2530..2562,2691..2738,2875..2879)
+                     2530..2562,2691..2738,2907..2911)
                      /gene="A1"
                      /allele="Mamu-A1*008:01:01:01"
                      /codon_start=1
@@ -8944,7 +9067,8 @@ ORIGIN
      2641 gtcacatctc cagagggatc tgaccaggtc ctgtttttgt tctactccag gcagtgacag
      2701 tgcccagggc tctgatgtgt ctctcacggc ttgtaaaggt gagaccctgg ggggcctgat
      2761 gtgtgtgggg tgttgggggg aacagtggat gcagctgtgc tgtggggttt ctttgacttg
-     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtga
+     2821 gatgtattga gcatgtgatg ggctgtttaa agtgtcactc ctcactgtga cggatgtgaa
+     2881 ttttttcatg aatatttttt ctatagtgtg a
 //
 LOCUS       NHP01905                2878 bp    DNA     linear   PRI 07-OCT-2019
 DEFINITION  Mamu-A1*028:03:01:01, A1 locus allele.
@@ -22856,11 +22980,12 @@ ORIGIN
      2821 ttctttgact tggatgtatt gagcatgtga tgggctgttt aaagtgtcac tcctgactgt
      2881 ga
 //
-LOCUS       NHP10428                2873 bp    DNA     linear   PRI 29-OCT-2019
+LOCUS       NHP10428                2914 bp    DNA     linear   PRI 15-APR-2026
 DEFINITION  Mamu-A1*002:01:01:02, A1 locus allele.
 ACCESSION   NHP10428
 VERSION     NHP10428
 DBLINK      INSDC: LR701147
+            INSDC: OZ407559
 KEYWORDS    IPD-MHC; MHC class I; A1.
 SOURCE      Macaca mulatta (rhesus monkey)
   ORGANISM  Macaca mulatta
@@ -22872,11 +22997,11 @@ COMMENT     IPD-MHC allele: Mamu-A1*002:01:01:02
             Species prefix: Mamu
             MHC class: I
 FEATURES             Location/Qualifiers
-     source          1..2873
+     source          1..2914
                      /organism="Macaca mulatta"
                      /mol_type="genomic DNA"
                      /db_xref="taxon:9544"
-     gene            1..2873
+     gene            1..2914
                      /gene="A1"
                      /allele="Mamu-A1*002:01:01:02"
      exon            1..73
@@ -22900,7 +23025,7 @@ FEATURES             Location/Qualifiers
      exon            2694..2741
                      /gene="A1"
                      /number=7
-     exon            2869..2873
+     exon            2910..2914
                      /gene="A1"
                      /number=8
      intron          74..203
@@ -22921,11 +23046,11 @@ FEATURES             Location/Qualifiers
      intron          2552..2693
                      /gene="A1"
                      /number=6
-     intron          2742..2868
+     intron          2742..2909
                      /gene="A1"
                      /number=7
      CDS             join(1..73,204..473,711..986,1582..1857,1960..2076,
-                     2519..2551,2694..2741,2869..2873)
+                     2519..2551,2694..2741,2910..2914)
                      /gene="A1"
                      /allele="Mamu-A1*002:01:01:02"
                      /codon_start=1
@@ -22985,7 +23110,8 @@ ORIGIN
      2641 ctagccacat ctccagaggg atctgaccag gtcctgtttt tgttctactc caggcagtga
      2701 cagtgcccag ggctctgatg tgtctctcac ggcttgtaaa ggtgagaccc tggggggcct
      2761 gatgtgtgtg gggtgttggg gggaacagtg gacgcagctg tgctatgggg tttctttgac
-     2821 ttggatgcat tgagcatgtg atgggctgtt taaagtgtca ctcctcactg tga
+     2821 ttggatgcat tgagcatgtg atgggctgtt taaagtgtca ctcctcactg tgacggatat
+     2881 gaatttgttc atgaatattt tttctatagt gtga
 //
 LOCUS       NHP10429                1093 bp    DNA     linear   PRI 29-OCT-2019
 DEFINITION  Mamu-A1*003:18, A1 locus allele.
