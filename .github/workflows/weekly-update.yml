@@ -1,14 +1,20 @@
-name: Weekly Update
+name: Scheduled Update
 
 on:
   schedule:
-    # Every Monday at 06:00 UTC
-    - cron: "0 6 * * 1"
+    # Every day at 06:00 UTC
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
+  # Required to dispatch the Deploy Pages workflow after merging.
+  actions: write
+
+concurrency:
+  group: scheduled-update
+  cancel-in-progress: false
 
 jobs:
   check-and-update:
@@ -25,7 +31,7 @@ jobs:
         run: uv python install
 
       - name: Install dependencies
-        run: uv sync
+        run: uv sync --all-extras
 
       - name: Save current version info
         id: before
@@ -94,8 +100,22 @@ jobs:
             echo "has_retirements=false" >> "$GITHUB_OUTPUT"
           fi
 
+      # Gate the auto-merge below. Checks cannot run as PR checks: workflows on a
+      # pull request authored by GITHUB_TOKEN stay in "action_required" forever,
+      # so they are run here instead, before the PR is created.
+      - name: Run test suite
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          uv run pytest -q
+          uv run nhp-pipeline --help
+
+      - name: Validate provisional alleles
+        if: steps.changes.outputs.has_changes == 'true'
+        run: uv run nhp-pipeline provisional-validate
+
       - name: Create pull request
         if: steps.changes.outputs.has_changes == 'true'
+        id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "Update allele data (MHC ${{ steps.after.outputs.mhc_version }}, NHKIR ${{ steps.after.outputs.nhkir_version }})"
@@ -117,3 +137,33 @@ jobs:
             Please review the changes and merge if the data looks correct.
           branch: auto-update/ipd-release
           delete-branch: true
+
+      # The PR exists as an audit record; the test gate above has already passed,
+      # so merge it rather than leaving it for manual review.
+      - name: Merge pull request
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          # GitHub needs a moment to compute mergeability on a freshly pushed branch.
+          for attempt in 1 2 3 4 5 6; do
+            state=$(gh pr view "$PR" --json mergeable --jq .mergeable)
+            if [ "$state" = "MERGEABLE" ]; then
+              gh pr merge "$PR" --squash --delete-branch
+              exit 0
+            fi
+            echo "PR #$PR mergeable=$state (attempt $attempt), waiting..."
+            sleep 10
+          done
+          echo "::error::PR #$PR never became mergeable; leaving it open for review."
+          exit 1
+
+      # A merge performed with GITHUB_TOKEN does not trigger push-based workflows,
+      # so Deploy Pages must be dispatched explicitly. workflow_dispatch is the
+      # documented exception to that restriction.
+      - name: Deploy site
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref main
